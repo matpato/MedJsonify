@@ -1,0 +1,55 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:15
+    container_name: airflow_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: airflow_webserver
+    restart: always
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__FERNET_KEY: "4AqbpqSvD6FYqOJGftMw3seq45BSprdTlaHVhrvvew8="
+      AIRFLOW__WEBSERVER__SECRET_KEY: "5dcfb94dd79578307141e3beec5e07ebb43ef007dffa45a4400c5187e217bb66"
+      PYTHONPATH: "/opt/airflow/dags:/opt/airflow/dags/jsonify/src"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./database:/opt/airflow/dags/database
+      - ./NER:/opt/airflow/dags/NER
+      - ./jsonify:/opt/airflow/dags/jsonify
+      - ./upload:/opt/airflow/dags/upload
+      - ./airflow/neo4j.ini:/opt/airflow/dags/neo4j.ini
+      - ./requirements.txt:/opt/airflow/requirements.txt
+    user: "1000:0"  
+    command: bash -c "
+      airflow db init &&
+      python /opt/airflow/dags/create_user.py &&
+      airflow webserver --port 8080 & 
+      airflow scheduler
+      "
+
+volumes:
+  postgres_data:
