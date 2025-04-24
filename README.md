@@ -31,7 +31,7 @@
 
 A pipeline for converting various drug file formats to JSON and uploading critical data to a Neo4j database.
 
-<img src="./img/airflow_orchestration.png" width="300" />
+<img src="./img/airflow_orchestration.pdf" width="400" />
 
 1. [Project Structure](#project-structure)
 2. [Usage](#usage)
