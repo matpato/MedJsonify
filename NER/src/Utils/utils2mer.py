@@ -86,13 +86,34 @@ def update_mer(lexicon):
             merpy.delete_obsolete("cido")
             merpy.delete_entity("protein", "cido")
         if l == 'ordo':
-            merpy.download_lexicon("https://data.bioontology.org/ontologies/ORDO/submissions/30/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb", "ordo", ltype="owl")
+            # Caminho para o arquivo baixado e o nome esperado
+            downloaded_file = "/opt/airflow/dags/NER/merpy/merpy/MER/data/ordo_orphanet.owl"
+            expected_file = "/opt/airflow/dags/NER/merpy/merpy/MER/data/ordo.owl"
+
+            # Baixar o arquivo ORDO
+            merpy.download_lexicon(
+                "https://data.bioontology.org/ontologies/ORDO/submissions/30/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb",
+                "ordo",
+                ltype="owl"
+            )
+            print("ORDO lexicon downloaded successfully.")
+
+            # Renomear o arquivo baixado, se necessário
+            if os.path.exists(downloaded_file):
+                os.rename(downloaded_file, expected_file)
+                print(f"Renamed {downloaded_file} to {expected_file}")
+
+            # Processar o arquivo ORDO
             merpy.process_lexicon("ordo", ltype="owl")
-            merpy.delete_obsolete("ordo")    
+            print("ORDO lexicon processed successfully.")
+
+            # Remover entidades obsoletas
+            merpy.delete_obsolete("ordo")  
 
 # --------------------------------------------------------------------------- #
 
 def items_in_blacklist(doc, lexicon):
+    ### THIS IS NEVER BEING CALLED
     '''
     Clear words from document that may distort the 
     classification of the ontologies

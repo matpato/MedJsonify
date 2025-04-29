@@ -2,6 +2,7 @@ import os
 import logging
 import configparser
 from utils.config import DAGConfig
+from NER.Biomedical_preprocessing import BiomedicalPreprocessor
 
 config = DAGConfig()
 
@@ -80,6 +81,25 @@ def download_vocabulary_task():
 
 # -------------------------------------------------------------------------------------------
 
+def preprocess_json_task():
+    preprocessor = BiomedicalPreprocessor(preserve_case=True, keep_punctuation=True)
+    input_dir = "/opt/airflow/dags/jsonify/src/json"  
+    output_dir = "/opt/airflow/dags/NER/data/preprocessing" 
+    text_fields = ["ingredients", "indications", "contraindications", "warningsAndPrecautions", "adverseReactions"]
+
+    for root, dirs, files in os.walk(input_dir):
+        relative_path = os.path.relpath(root, input_dir)
+        output_subdir = os.path.join(output_dir, relative_path)
+        os.makedirs(output_subdir, exist_ok=True)
+
+        for file in files:
+            if file.endswith(".json"):
+                input_file = os.path.join(root, file)
+                output_file = os.path.join(output_subdir, file)
+                preprocessor.preprocess_json_file(input_file, output_file, text_fields=text_fields)
+
+# -------------------------------------------------------------------------------------------
+
 def ner_process_task():
     import os
     import logging
@@ -88,16 +108,18 @@ def ner_process_task():
 
     config = DAGConfig()
 
-    for folder in config.output_folders:
-        os.makedirs(folder, exist_ok=True)
+    input_folder = "/opt/airflow/dags/NER/data/preprocessing"
+    output_folder = config.output_folder  
 
-    for input_folder, output_folder in zip(config.input_folders, config.output_folders):
-        logging.info(f"Starting NER processing for files in {input_folder}")
+    os.makedirs(output_folder, exist_ok=True)
 
-        try:
-            main(config.active_lexicon, input_folder, output_folder, config.update, config.drugbank_file)
-            logging.info(f"NER processing completed successfully for {input_folder}. Results saved in {output_folder}")
-        except Exception as e:
-            logging.error(f"Error during NER processing for {input_folder}: {str(e)}")
+    logging.info(f"Starting NER processing for files in {input_folder}")
+    logging.info(f"Output folder: {output_folder}")
+
+    try:
+        main(config.active_lexicon, input_folder, output_folder, config.update, config.drugbank_file)
+        logging.info(f"NER processing completed successfully for {input_folder}. Results saved in {output_folder}")
+    except Exception as e:
+        logging.error(f"Error during NER processing for {input_folder}: {str(e)}")
 
 # -------------------------------------------------------------------------------------------

@@ -16,6 +16,12 @@ try:
 except LookupError:
     nltk.download('punkt')
 
+try:
+    nltk.data.find('corpora/stopwords')
+except LookupError:
+    nltk.download('stopwords')
+nltk.download('punkt_tab')
+
 class BiomedicalPreprocessor:
     """
     A class for preprocessing text data from JSON files for biomedical NER tasks.
@@ -110,17 +116,18 @@ class BiomedicalPreprocessor:
         return text
     
     def expand_abbreviations(self, text):
-        """Expand common biomedical abbreviations"""
-        # Create case-insensitive dictionary (all keys to lowercase)
-        abbrev_lower = {k.lower(): v for k, v in text.items()}
+        """Expand common biomedical abbreviations in a string."""
+        if not isinstance(text, str):
+            return text  # Retorna o valor original se não for uma string
+
         words = text.split()
-        for i, word in enumerate(abbrev_lower):
+        for i, word in enumerate(words):
             lower_word = word.lower()
-            # Check if word is a known abbreviation (as a standalone word)
+            # Verifica se a palavra é uma abreviação conhecida
             if lower_word in self.bio_abbreviations:
-                # Replace with the expanded form
-                lower_word[i] = self.bio_abbreviations[lower_word]
-        return ' '.join(lower_word)
+                # Substitui pela forma expandida
+                words[i] = self.bio_abbreviations[lower_word]
+        return ' '.join(words)
     
     def correct_drug_spelling(self, text):
         """Correct common misspellings of drug names"""
@@ -311,12 +318,12 @@ class BiomedicalPreprocessor:
     def _process_json_object(self, obj, text_fields=None, remove_stopwords=False):
         """
         Recursively process a JSON object, preprocessing text fields.
-        
+
         Args:
             obj: JSON object (dict, list, or primitive value)
             text_fields (list, optional): List of field names to preprocess
             remove_stopwords (bool): Whether to remove stopwords
-        
+
         Returns:
             The processed JSON object
         """
@@ -327,9 +334,6 @@ class BiomedicalPreprocessor:
                     if isinstance(value, str):
                         # Preprocess text field
                         result[key] = self.preprocess(value, remove_stopwords)
-                        # Add original text field if value changed
-                        if result[key] != value:
-                            result[f"{key}_original"] = value
                     else:
                         # Recursively process non-string fields
                         result[key] = self._process_json_object(value, text_fields, remove_stopwords)
