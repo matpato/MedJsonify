@@ -82,10 +82,10 @@ def download_vocabulary_task():
 # -------------------------------------------------------------------------------------------
 
 def preprocess_json_task():
-    preprocessor = BiomedicalPreprocessor(preserve_case=True, keep_punctuation=True)
+    preprocessor = BiomedicalPreprocessor()
     input_dir = "/opt/airflow/dags/jsonify/src/json"  
     output_dir = "/opt/airflow/dags/NER/data/preprocessing" 
-    text_fields = ["ingredients", "indications", "contraindications", "warningsAndPrecautions", "adverseReactions"]
+    fields_to_process = ["ingredients", "indications", "contraindications", "warningsAndPrecautions", "adverseReactions"]
 
     for root, dirs, files in os.walk(input_dir):
         relative_path = os.path.relpath(root, input_dir)
@@ -96,8 +96,22 @@ def preprocess_json_task():
             if file.endswith(".json"):
                 input_file = os.path.join(root, file)
                 output_file = os.path.join(output_subdir, file)
-                preprocessor.preprocess_json_file(input_file, output_file, text_fields=text_fields)
+                preprocessor.process_json_file(input_file, output_file, fields_to_process=fields_to_process)
 
+"""
+def preprocess_json_task():
+    preprocessor = BiomedicalPreprocessor()
+    
+    input_file = "/opt/airflow/dags/jsonify/src/json/xml_results/0cf064d0-cf65-4112-8817-ed864f16233e.json"
+    output_dir = "/opt/airflow/dags/NER/data/preprocessing"
+    os.makedirs(output_dir, exist_ok=True)
+
+    output_file = os.path.join(output_dir, os.path.basename(input_file))
+
+    fields_to_process = ["ingredients", "indications", "contraindications", "warningsAndPrecautions", "adverseReactions"]
+    
+    preprocessor.process_json_file(input_file, output_file, fields_to_process=fields_to_process)
+"""
 # -------------------------------------------------------------------------------------------
 
 def ner_process_task():
