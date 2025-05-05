@@ -52,7 +52,8 @@ def send_to_neo4j_task():
     
     folders = [
         os.path.join(config.output_folder, 'xml_results'),
-        os.path.join(config.output_folder, 'csv_results') 
+        os.path.join(config.output_folder, 'csv_results'),
+        os.path.join(config.output_folder, 'txt_results')
     ]
     
     for folder in folders:

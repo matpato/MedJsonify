@@ -131,10 +131,16 @@ def extract_year(approval_date):
     
     if isinstance(approval_date, str):
         try:
-            parsed_date = datetime.strptime(approval_date, "%B %d, %Y")
+            # Tenta primeiro com o mês abreviado (ex: Mar)
+            parsed_date = datetime.strptime(approval_date, "%b %d, %Y")
             return str(parsed_date.year)
         except ValueError:
-            pass
+            try:
+                # Tenta depois com o mês completo (ex: March)
+                parsed_date = datetime.strptime(approval_date, "%B %d, %Y")
+                return str(parsed_date.year)
+            except ValueError:
+                pass
         
         if approval_date.isdigit():
             if len(approval_date) == 8:
@@ -156,6 +162,7 @@ def process_xml_file(file_path, neo4j_handler):
                 continue 
             
             approval_date = (
+                data.get("Approval_Date") or
                 data.get("Approval Date") or 
                 drug_entry.get("approval_date") or 
                 data.get("effectiveTime") or 
