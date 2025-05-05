@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="32d607f3-fd60-9098-e063-6294a90a57af"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Neo/Poly B Sul/Dex Ophth Susp</title>
+   <effectiveTime value="20250415"/>
+   <setId root="d5e00bad-abb4-63ad-e053-2a95a90a5abb"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>DirectRx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>DirectRx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>DirectRx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-320" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="32d60c5c-1e1c-4292-e063-6394a90a8a1c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250415"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-320" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NEOMYCIN POLYMYXIN B SULFATES AND DEXAMETHASONE</name>
+                        <formCode code="C60995" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION/ DROPS"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>neomycin sulfate, polymyxin b sulfate and dexamethasone suspension/ drops</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="24208-830" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="3.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="057Y626693" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NEOMYCIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="I16QD7X297" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NEOMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="10000"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="19371312D4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYMYXIN B SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="J2VZ07J96K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POLYMYXIN B</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7S5I7G3JQL" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXAMETHASONE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7S5I7G3JQL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXAMETHASONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7T1F30V5YH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 20</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F5UM2KM3W7" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZALKONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-320-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220118"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA064135" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220118"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e114b7-8fee-3357-e053-2a95a90a29de">
+               <id root="d5e114b7-8fed-3357-e053-2a95a90a29de"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Neomycin and Polymyxin B Sulfates and Dexamethasone Ophthalmic Suspension, USP is a multiple dose anti-infective steroid combination in sterile suspension form for topical application. The chemical structure for the active ingredient, dexamethasone, is:</paragraph>
+                  <paragraph>C22H29FO5</paragraph>
+                  <paragraph>392.46</paragraph>
+                  <paragraph>Established name: dexamethasone</paragraph>
+                  <paragraph>Chemical name: pregna-1, 4-diene-3, 20-dione, 9-fluoro-11,17, 21-trihydroxy-16-methyl-, (11β,16α)-.</paragraph>
+                  <paragraph>The other active ingredients are neomycin sulfate and polymyxin B sulfate. The structural formula for neomycin sulfate is:</paragraph>
+                  <paragraph>
+                     <br/>
+C23H46N6O13’χH2SO4Mᵣ 615 (base)
+ </paragraph>
+                  <paragraph>The structural formula for polymyxin B sulfate is:</paragraph>
+                  <paragraph>
+                     <br/>
+C56H98N16O13 1203.48
+ </paragraph>
+                  <paragraph>Each mL contains: Actives: neomycin sulfate equivalent to neomycin 3.5 mg, polymyxin B sulfate 10,000 units, dexamethasone 0.1%. Inactives: hypromellose 2910 0.5%, sodium chloride, polysorbate 20, hydrochloric acid and/or sodium hydroxide (to adjust pH), purified water, benzalkonium chloride 0.004% (preservative).</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e114b7-8ff0-3357-e053-2a95a90a29de">
+               <id root="d5e114b7-8fef-3357-e053-2a95a90a29de"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Sterile</paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e11f73-918a-eeac-e053-2995a90a4a83">
+               <id root="d5e11f73-9189-eeac-e053-2995a90a4a83"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Corticosteroids suppress the inflammatory response to a variety of agents and they probably delay or slow healing. Since corticosteroids may inhibit the body’s defense mechanism against infection, a concomitant antimicrobial drug may be used when this inhibition is considered to be clinically significant in a particular case.</paragraph>
+                  <paragraph>When a decision to administer both a corticosteroid and an antimicrobial is made, the administration of such drugs in combination has the advantage of greater patient compliance and convenience, with the added assurance that the appropriate dosage of both drugs is administered, plus assured compatibility of ingredients when both types of drugs are in the same formulation and, particularly, that the correct volume of drug is delivered and retained.</paragraph>
+                  <paragraph>The relative potency of corticosteroids depends on the molecular structure, concentration and release from the vehicle.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e11c8c-4deb-56a3-e053-2995a90a643a">
+               <id root="d5e11c8c-4dea-56a3-e053-2995a90a643a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>For steroid-responsive inflammatory ocular conditions for which a corticosteroid is indicated and where bacterial infection or a risk of bacterial infection exists.</paragraph>
+                  <paragraph>Ocular corticosteroids are indicated in inflammatory conditions of the palpebral and bulbar conjunctiva, cornea, and anterior segment of the globe where the inherent risk of corticosteroids use in certain infective conjunctivitides is accepted to obtain a diminution in edema and inflammation. They are also indicated in chronic anterior uveitis and corneal injury from chemical, radiation or thermal burns; or penetration of foreign bodies.</paragraph>
+                  <paragraph>The use of a combination drug with an anti-infective component is indicated where the risk of infection is high or where there is an expectation that potentially dangerous numbers of bacteria will be present in the eye.</paragraph>
+                  <paragraph>The particular anti-infective drug in this product is active against the following common bacterial eye pathogens: Staphylococcus aureus, Escherichia coli, Haemophilus influenzae, Klebsiella/Enterobacter species, Neisseria species, and Pseudomonas aeruginosa.</paragraph>
+                  <paragraph>This product does not provide adequate coverage against: Serratia marcescens and streptococci, including Streptococcus pneumoniae.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e114b7-8ff6-3357-e053-2a95a90a29de">
+               <id root="d5e114b7-8ff5-3357-e053-2a95a90a29de"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension is contraindicated in most viral diseases of the cornea and conjunctiva, including epithelial herpes simplex keratitis (dendritic keratitis), vaccinia, varicella, and also in mycobacterial infection of the eye and fungal diseases of ocular structures. Neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension is also contraindicated in individuals with known or suspected hypersensitivity to any of the ingredients of this preparation and to other corticosteroids.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e097c9-3420-78c1-e053-2a95a90a6a6d">
+               <id root="d5e097c9-341f-78c1-e053-2a95a90a6a6d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>NOT FOR INJECTION. Use of ocular steroids may prolong the course and may exacerbate the severity of many viral infections of the eye (including herpes simplex). Employment of a corticosteroid medication in the treatment of patients with a history of herpes simplex requires great caution; frequent slit lamp microscopy is recommended.</paragraph>
+                  <paragraph>Prolonged use of corticosteroids may result in glaucoma with damage to the optic nerve, defects in visual acuity and fields of vision, and in posterior subcapsular cataract formation. Prolonged use may also suppress the host immune response and thus increase the hazard of secondary ocular infections. Acute purulent or parasitic infections of the eye may be masked or activity enhanced by the presence of corticosteroid medication. Various ocular diseases and long-term use of topical corticosteroids have been known to cause corneal and scleral thinning. Use of topical corticosteroids in the presence of thin corneal or scleral tissue may lead to perforation.</paragraph>
+                  <paragraph>If this product is used for 10 days or longer, intraocular pressure (IOP) should be routinely monitored even though it may be difficult in children and uncooperative patients. Steroids should be used with caution in the presence of glaucoma. IOP should be checked frequently. The use of steroids after cataract surgery may delay healing and increase the incidence of bleb formation.</paragraph>
+                  <paragraph>Neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension is not for injection. It should never be injected subconjunctivally, nor should it be directly introduced into the anterior chamber of the eye.</paragraph>
+                  <paragraph>Products containing neomycin sulfate may cause cutaneous sensitization. Sensitivity to topically administered aminoglycosides, such as neomycin, may occur in some patients. Severity of hypersensitivity reactions may vary from local effects to generalized reactions such as erythema, itching, urticaria, skin rash, anaphylaxis, anaphylactoid reactions, or bullous reactions. If hypersensitivity develops during use of the product, treatment should be discontinued. Cross-hypersensitivity to other aminoglycosides can occur, and the possibility that patients who become sensitized to topical neomycin may also be sensitive to other topical and/or systemic aminoglycosides should be considered.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e114b7-8ff9-3357-e053-2a95a90a29de">
+               <id root="d5e114b7-8ff8-3357-e053-2a95a90a29de"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>The initial prescription and renewal of the medication order beyond 20 mL of neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension should be made by a physician only after examination of the patient with the aid of magnification, such as slit lamp biomicroscopy, and where appropriate, fluorescein staining. If signs and symptoms fail to improve after two days, the patient should be reevaluated.</paragraph>
+                  <paragraph>As fungal infections of the cornea are particularly prone to develop coincidentally with long-term corticosteroid applications, fungal invasion should be suspected in any persistent corneal ulceration where a corticosteroid has been used or is in use. Fungal cultures should be taken when appropriate.</paragraph>
+                  <paragraph>If this product is used for 10 days or longer, IOP should be monitored (see WARNINGS).</paragraph>
+                  <paragraph>Prolonged use of topical anti-bacterial agents may give rise to overgrowth of nonsusceptible organisms including fungi.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>If inflammation or pain persists longer than 48 hours or becomes aggravated, the patient should be advised to discontinue use of the medication and consult a physician.</paragraph>
+                  <paragraph>This product is sterile when packaged. To prevent contamination, care should be taken to avoid touching the bottle tip to eyelids or to any other surface. The use of this bottle by more than one person may spread infection. Keep bottle tightly closed when not in use. Keep out of reach of children.</paragraph>
+                  <paragraph>Patients should be advised that their vision may be temporarily blurred following dosing with neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension. Care should be exercised in operating machinery or driving a motor vehicle.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Long-term studies in animals to evaluate carcinogenic or mutagenic potential have not been conducted with polymyxin B sulfate. Treatment of cultured human lymphocytes in vitro with neomycin increased the frequency of chromosome aberrations at the highest concentration (80 mcg/mL) tested. However, the effects of neomycin on carcinogenesis and mutagenesis in humans are unknown.</paragraph>
+                  <paragraph>Polymyxin B has been reported to impair the motility of equine sperm, but its effects on male or female fertility are unknown.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Dexamethasone has been shown to be teratogenic in mice and rabbits following topical ophthalmic application in multiples of the therapeutic dose.</paragraph>
+                  <paragraph>In the mouse, corticosteroids produce fetal resorptions and a specific abnormality, cleft palate. In the rabbit, corticosteroids have produced fetal resorptions and multiple abnormalities involving the head, ears, limbs, palate, etc.</paragraph>
+                  <paragraph>There are no adequate or well-controlled studies in pregnant women. However, prolonged or repeated corticoid use during pregnancy has been associated with an increased risk of intra-uterine growth retardation. Neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension should be used during pregnancy only if the potential benefit to the mother justifies the potential risk to the embryo or fetus. Infants born of mothers who have received substantial doses of corticosteroids during pregnancy should be observed carefully for signs of hypoadrenalism.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Systemically administered corticosteroids appear in human milk, could suppress growth, interfere with endogenous corticosteroid production, or cause other untoward effects. It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in human milk. Because many drugs are excreted in human milk, caution should be exercised when neomycin and polymyxin B sulfates and dexamethasone ophthalmic suspension is administered to a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients below the age of 2 years have not been established.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>No overall differences in safety or effectiveness have been observed between elderly and younger patients.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e097c9-3422-78c1-e053-2a95a90a6a6d">
+               <id root="d5e097c9-3421-78c1-e053-2a95a90a6a6d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Adverse reactions have occurred with corticosteroid/anti-infective combination drugs which can be attributed to the corticosteroid component, the anti-infective component, or the combination. Exact incidence figures are not available since no denominator of treated patients is available.</paragraph>
+                  <paragraph>Reactions occurring most often from the presence of the anti-infective ingredient are allergic sensitizations. The reactions due to the corticosteroid component are: elevation of IOP with possible development of glaucoma, and infrequent optic nerve damage; posterior subcapsular cataract formation; and delayed wound healing.</paragraph>
+                  <paragraph>Corticosteroid-containing preparations have also been reported to cause perforation of the globe. Keratitis, conjunctivitis, corneal ulcers, and conjunctival hyperemia have occasionally been reported following use of steroids.</paragraph>
+                  <paragraph>Additional adverse reactions identified from post marketing use include ulcerative keratitis, headache, and Stevens-Johnson syndrome.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Bausch &amp; Lomb Incorporated at 1-800-321-4576 or FDA at 1-800-FDA-1088 or WWW.FDA.GOV/MEDWATCH.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e114b7-8ffb-3357-e053-2a95a90a29de">
+               <id root="d5e114b7-8ffa-3357-e053-2a95a90a29de"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>One to two drops in the conjunctival sac(s). In severe disease, drops may be used hourly, being tapered to discontinuation as the inflammation subsides. In mild disease, drops may be used up to four to six times daily.</paragraph>
+                  <paragraph>Not more than 20 mL should be prescribed initially and the prescription should not be refilled without further evaluation as outlined in PRECAUTIONS above.</paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e1224c-6589-3ddd-e053-2a95a90a730f">
+               <id root="d5e1224c-6588-3ddd-e053-2a95a90a730f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Neomycin and Polymyxin B Sulfates and Dexamethasone Ophthalmic Suspension, USP is supplied as a sterile ophthalmic suspension in a white, low density polyethylene extended LLDPE drop tip bottle with a white, polypropylene cap:</paragraph>
+                  <paragraph>NDC 24208-830-60 - 5 mL in 10 mL bottle</paragraph>
+                  <paragraph/>
+                  <paragraph>Storage: Store between 15° to 25°C (59° to 77°F). Store upright.</paragraph>
+                  <paragraph>Keep out of reach of children.</paragraph>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>Bausch + Lomb, a division of</paragraph>
+                  <paragraph>Bausch Health US, LLC</paragraph>
+                  <paragraph>Bridgewater, NJ 08807 USA</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Bausch &amp; Lomb Incorporated</paragraph>
+                  <paragraph>Tampa, FL 33637 USA</paragraph>
+                  <paragraph>© 2020 Bausch &amp; Lomb Incorporated or its affiliates</paragraph>
+                  <paragraph>Rev. 09/2020</paragraph>
+                  <paragraph>9114205 (Folded)
+  <br/>
+9114305 (Flat)
+ </paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5e097c9-3424-78c1-e053-2a95a90a6a6d">
+               <id root="d5e097c9-3423-78c1-e053-2a95a90a6a6d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_d5e1224c-658a-3ddd-e053-2a95a90a730f"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220118"/>
+               <component>
+                  <observationMedia ID="img_d5e1224c-658a-3ddd-e053-2a95a90a730f">
+                     <text>yhght</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-320-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

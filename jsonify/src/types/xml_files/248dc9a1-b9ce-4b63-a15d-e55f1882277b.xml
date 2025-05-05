@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="248dc9a1-b9ce-4b63-a15d-e55f1882277b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use DEXTROSE INJECTION safely and effectively.  See full prescribing information for DEXTROSE INJECTION.<br/>DEXTROSE injection, for intravenous use<br/>Initial U.S. Approval: 1940</title>
+   <effectiveTime value="20210219"/>
+   <setId root="0bfb32b2-d034-4219-a055-3448f0c424f7"/>
+   <versionNumber value="13"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Company</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="98d97e1f-695d-42bb-96a9-d6d6b9062dad"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20200219"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-9147" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dextrose</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>dextrose monohydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="30"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-9147-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181221"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020179" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19921207"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-9143" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dextrose</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>dextrose monohydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2.5"/>
+                              <denominator unit="mL" value="50"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="30"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-9143-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210219"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020179" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19921207"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3feeb1c8-85c0-4d08-ab46-031a382e56c2">
+               <id root="5dd21193-4d34-4d0b-80c8-7124c55c8c79"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Dextrose Injection is indicated as source of water and calories and may also be used as diluent for reconstitution of a powdered or liquid (up to 10 mL) drug product packaged in a vial with a 20 mm closure. </paragraph>
+               </text>
+               <effectiveTime value="20210219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Dextrose Injection is indicated as a source of calories and water and may also be used as diluent for reconstitution of a powdered or liquid (up to 10 mL) drug product packaged in a vial with a 20 mm closure. (<linkHtml href="#ID_3feeb1c8-85c0-4d08-ab46-031a382e56c2">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d614020e-954c-44a6-a0c9-3945cdc5ac0d">
+               <id root="9d1c3707-adc9-42ff-b696-52fe622c0bf6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION </title>
+               <effectiveTime value="20200219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Only for intravenous infusion. (<linkHtml href="#ID_415ea7e8-6dee-4e20-a020-ea0abe762781">2.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>See full prescribing information for information on preparation, administration, dosing considerations and instructions for use. (<linkHtml href="#ID_415ea7e8-6dee-4e20-a020-ea0abe762781">2.1</linkHtml>, <linkHtml href="#ID_7996fd79-a668-489d-b860-f1e3700483ea">2.2</linkHtml>, <linkHtml href="#ID_e81f283f-42e9-41f3-9ae9-1349d5c2ee17">2.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_415ea7e8-6dee-4e20-a020-ea0abe762781">
+                     <id root="db087fb2-218e-4fc7-894a-0965c08b560b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1 Important Administration Instructions  </title>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Dextrose Injection is intended for intravenous use.</item>
+                           <item>
+                              <caption>•</caption>Peripheral administration of 5% dextrose is generally acceptable, however, consider central vein when administering more than 5% dextrose or with an osmolarity of at least 900 mOsm/L or when there is peripheral vein irritation, phlebitis, and/or associated pain<content styleCode="italics"> [see <linkHtml href="#ID_c98e7cee-fa77-4f15-a2b3-ce00e6e9123f">Warnings and Precautions (5.3)</linkHtml>]</content>.</item>
+                           <item>
+                              <caption>•</caption>Do not administer Dextrose Injection simultaneously with blood products through the same administration set because of the possibility of pseudoagglutination or hemolysis.</item>
+                           <item>
+                              <caption>•</caption>To prevent air embolism, use a non-vented infusion set or close the vent on a vented set, avoid multiple connections, do not connect flexible containers in series, do not pressurize the flexible container to increase flow rates, and if administration is controlled by a pumping device, turn off pump before the container runs dry. </item>
+                           <item>
+                              <caption>•</caption>Prior to infusion, visually inspect the diluted dextrose solution for particulate matter. The solution should be clear and there should be no precipitates. Do not administer unless solution is clear and container is undamaged.</item>
+                           <item>
+                              <caption>•</caption>Use of a final filter is recommended during administration of parenteral solutions, where possible.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7996fd79-a668-489d-b860-f1e3700483ea">
+                     <id root="f345425e-4942-4a87-88f3-c3cbd44eb333"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.2 Recommended Dosage  </title>
+                     <text>
+                        <paragraph>The choice of dextrose concentration, rate and volume depends on the age, weight, clinical and metabolic conditions of the patient and concomitant therapy. Electrolyte supplementation may be indicated according to the clinical needs of the patient.</paragraph>
+                        <paragraph>The administration rate should be governed, especially for premature infants with low birth weight, during the first few days of therapy, by the patient’s tolerance to dextrose. </paragraph>
+                        <paragraph>Increase the infusion rate gradually as indicated by frequent monitoring of blood glucose concentrations <content styleCode="italics">[see <linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">Warnings and Precautions (5.1)</linkHtml>, <linkHtml href="#ID_cb27e09a-0352-452f-b78c-f431e425c5df">Use in Specific Populations (8.4)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20190805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_e81f283f-42e9-41f3-9ae9-1349d5c2ee17">
+                     <id root="b1ef3dff-5a25-4cca-ba8d-ecd25718a50f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.3 Instructions for Use  </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">To Open</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Do not remove from overpouch until ready to use. </item>
+                           <item>
+                              <caption>•</caption>Tear overwrap sharply down from the slit and remove solution container. Small amounts of moisture may be found on the solution container from water permeating from inside the container. The amount of permeated water is insufficient to affect the solution significantly. If larger amounts of water are found, the container should be checked for tears or leaks.</item>
+                           <item>
+                              <caption>•</caption>Visually inspect the container. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually. Evaluate the following:<list listType="unordered">
+                                 <item>
+                                    <caption>•</caption>If the outlet port protector is damaged, detached, or not present, discard container.</item>
+                                 <item>
+                                    <caption>•</caption>Check to ensure the solution is clear and there are no precipitates. Discard if there is a color change and/or the appearance of precipitates, insoluble complexes or crystals.</item>
+                                 <item>
+                                    <caption>•</caption>Check for minute leaks by separately squeezing the inner bag firmly. If leaks are found, discard container.</item>
+                                 <item>
+                                    <caption>•</caption>Check that the vial adaptor cover is intact. If the vial adaptor cover is not intact, discard product.</item>
+                              </list>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Preparation for Administration </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Instructions for Assembly and Reconstitution: (Steps 1-3 for Assembly and steps 4-6 for Reconstitution)  </item>
+                           <item>
+                              <caption> </caption>Step 1: Remove vial cover and disinfect stopper.</item>
+                        </list>
+                        <renderMultiMedia ID="id1253400151" referencedObject="ID_72e75489-d30b-4530-9066-c4db83035554"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Step 2: Peel off foil cover. Inspect adaptor for moisture. Discard if moisture is found.</item>
+                        </list>
+                        <renderMultiMedia ID="id16895699" referencedObject="ID_8c73a292-0018-45ec-8f6e-83eea164b13a"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Step 3: Place vial upright and hold firmly. Push adaptor down until vial snaps in place. DO NOT TWIST. Pull vial to ensure fully seated.</item>
+                        </list>
+                        <renderMultiMedia ID="id-494717475" referencedObject="E7A1FD82-F5C4-4B16-A28F-BFBD461726B9"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Step 4: Squeeze the bag and check vial. Use only if vial is fully seated and dry. Bend adaptor tube up and down to fully break and create a visible gap in the seal.</item>
+                        </list>
+                        <renderMultiMedia ID="id1612396510" referencedObject="ID_7aaea456-006d-4f4c-9b96-28d3e4da1607"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Step 5: <content styleCode="bold">For liquid drug vials proceed directly to Step 6.</content>
+                           </item>
+                           <item>
+                              <caption> </caption>For powdered drug vials:  Hold bag with vial down. Squeeze solution into vial until half full. Shake to suspend drug in solution.</item>
+                        </list>
+                        <renderMultiMedia ID="id-1000962159" referencedObject="ID_714c3245-7398-4ef5-a356-5db833534a20"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Step 6: Hold bag with vial upside down. Squeeze bag to force air into vial. Release to drain suspended drug from vial. Repeat <content styleCode="italics">steps 5 and 6</content> until vial is empty of drug and solution is thoroughly mixed. Ensure drug is completely dissolved. Do Not Remove Drug Vial.</item>
+                        </list>
+                        <renderMultiMedia ID="id-1923174846" referencedObject="ID_70f40553-f235-44ff-81bc-c8537ed2bd9a"/>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Inspect the container to ensure precipitates have not formed during the mixing or addition of additives and that the solution has not changed color. Discard the admixture if either are observed.</item>
+                           <item>
+                              <caption>•</caption>Insert transfer set into prepared solution container to be transferred. Follow directions accompanying transfer set.</item>
+                           <item>
+                              <caption>•</caption>Remove port protector and attached administration set per its directions.</item>
+                           <item>
+                              <caption>•</caption>Transfer solution by gravity. Ensure that vial is empty of drug and solution. Repeat step 6 if drug and solution remain in vial.</item>
+                           <item>
+                              <caption>•</caption>Check for leaks.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">To Add Medication </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Additives may be incompatible. Complete information is not available. Do not use additives known or determined to be incompatible. </item>
+                           <item>
+                              <caption>•</caption>Consult with pharmacist, if available. If, in the informed judgment of the healthcare provider, it is deemed advisable to introduce additives, use aseptic technique. </item>
+                           <item>
+                              <caption>•</caption>When introducing additives, consult the instructions for use of the medication to be added and other relevant literature. </item>
+                           <item>
+                              <caption>•</caption>Before adding a substance or medication, verify that it is soluble and/or stable in Dextrose Injection and that the pH range of Dextrose Injection is appropriate. </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Storage </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Use promptly after admixing or dilution; do not store solutions containing additives. </item>
+                           <item>
+                              <caption>•</caption>Single-dose container.</item>
+                           <item>
+                              <caption>•</caption>Discard unused portion.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                     <component>
+                        <observationMedia ID="ID_72e75489-d30b-4530-9066-c4db83035554">
+                           <text>Assembly Step 1</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-01.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_8c73a292-0018-45ec-8f6e-83eea164b13a">
+                           <text>Assembly Step 2</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="E7A1FD82-F5C4-4B16-A28F-BFBD461726B9">
+                           <text>Assembly Step 3</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-03.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_7aaea456-006d-4f4c-9b96-28d3e4da1607">
+                           <text>Reconstitution Step 4</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-04.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_714c3245-7398-4ef5-a356-5db833534a20">
+                           <text>Reconstitution Step 5</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="image-05.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="ID_70f40553-f235-44ff-81bc-c8537ed2bd9a">
+                           <text>Reconstitution Step 6</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="Reconstitution Step 6.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bb7db2b6-6d82-4227-83a6-1a50dc85fe42">
+               <id root="10613a68-1d11-43cf-92ce-61bfe77bf3db"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS </title>
+               <text>
+                  <paragraph>Dextrose Injection, USP is a clear, sterile, non-pyrogenic solution of 5 grams of dextrose hydrous per 100 mL (0.05 grams/mL) in 50 mL and 100 mL single-dose, flexible containers.</paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 5% (0.05 grams/mL), 5 grams of dextrose hydrous per 100 mL in 50 mL and 100 mL single-dose, flexible containers (<linkHtml href="#ID_bb7db2b6-6d82-4227-83a6-1a50dc85fe42">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7211bf98-97aa-431a-93aa-71b8364f2956">
+               <id root="e3ed5cf6-47af-49ae-b984-d027730f4169"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>The use of Dextrose Injection is contraindicated in patients with:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Clinically significant hyperglycemia <content styleCode="italics">[see <linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">Warnings and Precautions (5.1)</linkHtml>].</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Known hypersensitivity to dextrose <content styleCode="italics">[see <linkHtml href="#ID_20f1c6f9-33a3-4fd1-b833-2c10e4413422">Warnings and Precautions (5.2)</linkHtml>].</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20200219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>Clinically significant hyperglycemia. (<linkHtml href="#ID_7211bf98-97aa-431a-93aa-71b8364f2956">4</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>Known hypersensitivity to dextrose. (<linkHtml href="#ID_7211bf98-97aa-431a-93aa-71b8364f2956">4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_05ac066d-8898-49f9-93fc-c1542bec7019">
+               <id root="4e7fefda-1d59-48d1-ba72-1fdfc7e46347"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS </title>
+               <effectiveTime value="20210219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Hyperglycemia or Hyperosmolar Hyperglycemic State</content>: Monitor blood glucose and administer insulin as needed. (<linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">5.1</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Hypersensitivity Reactions</content>: Monitor for signs and symptoms and discontinue infusion if reactions occur. (<linkHtml href="#ID_20f1c6f9-33a3-4fd1-b833-2c10e4413422">5.2</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Vein Damage and Thrombosis</content>:  Consider central vein when administering more than 5% dextrose or with an osmolarity of ≥ 900 mOsm/L or when there is peripheral vein irritation, phlebitis, and/or associated pain. (<linkHtml href="#ID_7996fd79-a668-489d-b860-f1e3700483ea">2.2</linkHtml>, <linkHtml href="#ID_c98e7cee-fa77-4f15-a2b3-ce00e6e9123f">5.3</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Hyponatremia</content>: Avoid in patients with or at risk for hyponatremia. If use cannot be avoided, monitor serum sodium concentrations (<linkHtml href="#ID_eb937189-cd6b-4251-a819-af9887a0e579">5.4</linkHtml>) </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Electrolyte Imbalance and Fluid Overload</content>: Avoid in patients with or at risk for fluid and/or solute overloading. If use cannot be avoided, monitor daily fluid balance, electrolyte concentrations, and acid-base balance, as needed and especially during prolonged use (<linkHtml href="#ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">5.5</linkHtml>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="underline">Refeeding Syndrome</content>: Monitor severely undernourished patients and slowly increase nutrient intake. (<linkHtml href="#ID_ff05b421-61c6-47d9-961a-dbf9b9f7a301">5.6</linkHtml>) </item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_9d225f63-080a-4a2c-b113-a2cfc3337960">
+                     <id root="0462923f-7be9-42ef-b3fd-962cc0efef36"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1 Hyperglycemia and Hyperosmolar Hyperglycemic State </title>
+                     <text>
+                        <paragraph>The use of dextrose infusions in patients with impaired glucose tolerance may worsen hyperglycemia. Administration of dextrose at a rate exceeding the patient’s utilization rate may lead to hyperglycemia, coma, and death. </paragraph>
+                        <paragraph>Hyperglycemia is associated with an increase in serum osmolality, resulting in osmotic diuresis, dehydration and electrolyte losses <content styleCode="italics">[see <linkHtml href="#ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">Warnings and Precautions (5.5)</linkHtml>]</content>. Patients with underlying CNS disease and renal impairment who receive dextrose infusions, may be at greater risk of developing hyperosmolar hyperglycemic state. </paragraph>
+                        <paragraph>Monitor blood glucose levels and treat hyperglycemia to maintain levels within normal limits while administering Dextrose Injection. Insulin may be administered or adjusted to maintain optimal blood glucose levels during Dextrose Injection administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_20f1c6f9-33a3-4fd1-b833-2c10e4413422">
+                     <id root="1a972e62-7bd9-48cd-a764-e63504e60a73"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2 Hypersensitivity Reactions </title>
+                     <text>
+                        <paragraph>Hypersensitivity and infusion reactions including anaphylaxis, have been reported with Dextrose Injection <content styleCode="italics">[see <linkHtml href="#ID_99fdc7a2-9858-4e75-b694-c0078edf8139">Adverse Reactions (6)</linkHtml>]</content>. Stop infusion immediately and treat patient accordingly if signs or symptoms of a hypersensitivity reaction develop.  Appropriate therapeutic countermeasures must be instituted as clinically indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_c98e7cee-fa77-4f15-a2b3-ce00e6e9123f">
+                     <id root="59e28991-7811-409c-8831-ad61c4f5b38c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.3 Vein Damage and Thrombosis </title>
+                     <text>
+                        <paragraph>Peripheral administration of 5% Dextrose Injection is generally acceptable, however, consider central vein when administering more than 5% dextrose or with an osmolarity of ≥ 900 mOsm/L or when there is peripheral vein irritation, phlebitis, and/or associated pain <content styleCode="italics">[see <linkHtml href="#ID_415ea7e8-6dee-4e20-a020-ea0abe762781">Dosage and Administration (2.1)</linkHtml>]</content>. The infusion of hypertonic solutions into a peripheral vein may result in vein irritation, vein damage, and/or thrombosis. The primary complication of peripheral access is venous thrombophlebitis, which manifests as pain, erythema, tenderness or a palpable cord. Remove the catheter as soon as possible, if thrombophlebitis develops.</paragraph>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_eb937189-cd6b-4251-a819-af9887a0e579">
+                     <id root="fd54e863-5091-4a07-9a82-c68989de20bd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.4 Hyponatremia</title>
+                     <text>
+                        <paragraph>5% Dextrose Injection is an isotonic solution <content styleCode="italics">[see <linkHtml href="#ID_f5193792-f658-4548-82dd-bec28de84e41">Description</linkHtml>, <linkHtml href="#Table_1">Table 1</linkHtml> (<linkHtml href="#ID_f5193792-f658-4548-82dd-bec28de84e41">11</linkHtml>)]</content>. In the body, however, glucose containing fluids can become extremely physiologically hypotonic due to rapid glucose metabolization. Monitoring of serum sodium is particularly important for hypotonic fluids.</paragraph>
+                        <paragraph>Depending on the tonicity of the solution, the volume and rate of infusion, and depending on a patient’s underlying clinical condition and capability to metabolize glucose, intravenous administration of glucose can cause electrolyte disturbances, most importantly hypo- or hyperosmotic hyponatremia. Monitor serum sodium to minimize the risk of hyponatremia.</paragraph>
+                        <paragraph>The risk for hyponatremia is increased in pediatric patients, elderly patients, postoperative patients, those with psychogenic polydipsia, and in patients treated with medications that increase the risk of hyponatremia (such as diuretics, certain antiepileptic and psychotropic medications). Close clinical monitoring may be warranted.</paragraph>
+                        <paragraph>Acute hyponatremia can lead to acute hyponatremic encephalopathy characterized by headache, nausea, seizures, lethargy and vomiting. Patients with brain edema are at particular risk of severe, irreversible and life-threatening brain injury. Patients at increased risk for developing complications of hyponatremia, such as hyponatremic encephalopathy include pediatric patients; women, in particular, premenopausal women; patients with hypoxemia; and in patients with underlying central nervous system disease <content styleCode="italics">[see <linkHtml href="#ID_cb27e09a-0352-452f-b78c-f431e425c5df">Use in Specific Populations (8.4</linkHtml>, <linkHtml href="#ID_f580976e-f43a-4ed1-af97-3d7e9203cc42">8.5)</linkHtml>].</content>
+                        </paragraph>
+                        <paragraph>Avoid Dextrose Injection in patients with or at risk for hyponatremia. If use cannot be avoided, monitor serum sodium concentrations.</paragraph>
+                        <paragraph>Rapid correction of hyponatremia is potentially dangerous with risk of serious neurologic complications. Brain adaptations reducing risk of cerebral edema make the brain vulnerable to injury when chronic hyponatremia is too rapidly corrected, which is known as osmotic demyelination syndrome (ODS). To avoid complications, monitor serum sodium and chloride concentrations, fluid status, acid-base balance, and signs of neurologic complications.</paragraph>
+                        <paragraph>High volume infusion must be used with close monitoring in patients with cardiac or pulmonary failure, and in patients with non-osmotic vasopressin release (including SIADH), due to the risk of hospital-acquired hyponatremia</paragraph>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">
+                     <id root="8a528a2d-d4d0-4bd4-ab79-a1b6fc2796d9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.5 Electrolyte Imbalance and Fluid Overload </title>
+                     <text>
+                        <paragraph>Electrolyte deficits, particularly in serum potassium and phosphate, may occur during prolonged use of concentrated dextrose solutions.</paragraph>
+                        <paragraph>Depending on the volume and rate of infusion, the intravenous administration of dextrose solutions can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations (including hypoosmotic hyponatremia, overhydration, congested states or pulmonary edema. The risk of dilutional states is inversely proportional to the electrolyte concentrations in the administered solution. The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations in the solution.</paragraph>
+                        <paragraph>Avoid Dextrose Injection in patients with or at risk for fluid and/or solute overloading. If use cannot be avoided, monitor fluid balance, blood electrolyte levels, concentration of glucose, acid-base balance, correct fluid and electrolyte imbalances during prolonged parenteral therapy or whenever the condition of the patient or the rate of administration warrants such evaluation. Additional monitoring is recommended for patients with water and electrolyte disturbances that could be aggravated by increased glucose, insulin administration and/or free water load.  </paragraph>
+                        <paragraph>Patients at increased risk for developing hyponatremic encephalopathy include pediatric patients; elderly patients, women, in particular premenopausal women; patients with hypoxemia; and patients with underlying CNS disease<content styleCode="italics"> [see <linkHtml href="#ID_cb27e09a-0352-452f-b78c-f431e425c5df">Use in Specific Populations (8.4,</linkHtml>
+                              <linkHtml href="#ID_f580976e-f43a-4ed1-af97-3d7e9203cc42">8.5</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_ff05b421-61c6-47d9-961a-dbf9b9f7a301">
+                     <id root="8ea7f6d0-bc1c-4dee-a33e-4c4bda7926c2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.6 Refeeding Syndrome</title>
+                     <text>
+                        <paragraph>Refeeding severely undernourished patients may result in refeeding syndrome, characterized by the intracellular shift of potassium, phosphorus, and magnesium as the patient becomes anabolic. Thiamine deficiency and fluid retention may also develop. To prevent these complications, monitor severely undernourished patients and slowly increase nutrient intakes.</paragraph>
+                     </text>
+                     <effectiveTime value="20200219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_99fdc7a2-9858-4e75-b694-c0078edf8139">
+               <id root="ed3ac7d7-c062-4958-b347-66b8abeeae41"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>The following adverse reactions associated with the use of dextrose injection were identified in clinical trials or post-marketing reports. Because these reactions were reported voluntarily from a population of uncertain size, it is not always possible to estimate their frequency, reliably, or to establish a causal relationship to drug exposure. </paragraph>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Hyperglycemia and hyperosmolar hyperglycemic state <content styleCode="italics">[see <linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Hypersensitivity reactions: anaphylaxis, pruritis, bronchospasm, cyanosis, angioedema, hypotension, pyrexia, chills, and rash <content styleCode="italics">[see <linkHtml href="#ID_20f1c6f9-33a3-4fd1-b833-2c10e4413422">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Infusion Site Reactions: infusion site phlebitis, infusion site erythema, vein damage and thrombosis <content styleCode="italics">[see <linkHtml href="#ID_c98e7cee-fa77-4f15-a2b3-ce00e6e9123f">Warnings and Precautions (5.3)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Hyponatremia and hyponatremic encephalopathy <content styleCode="italics">[see <linkHtml href="#ID_eb937189-cd6b-4251-a819-af9887a0e579">Warnings and Precautions (5.4)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Refeeding syndrome <content styleCode="italics">[see <linkHtml href="#ID_ff05b421-61c6-47d9-961a-dbf9b9f7a301">Warnings and Precautions (5.6)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Electrolyte imbalance, fluid overload and hypervolemia <content styleCode="italics">[see <linkHtml href="#ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">Warnings and Precautions (5.5)</linkHtml>]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20210219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions are, hyperglycemia, hypersensitivity reactions, hyponatremia, infection both systemic and at the injection site, vein thrombosis or phlebitis, and electrolyte imbalance. (<linkHtml href="#ID_99fdc7a2-9858-4e75-b694-c0078edf8139">6</linkHtml>) </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Baxter Healthcare at 1-866-888-2472 or FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch.</linkHtml>
+                           </content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_7568f0b5-8025-42ff-b000-2f141bc55f79">
+               <id root="cdd5ad26-aa63-4103-a0b3-4978122690c9"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS </title>
+               <effectiveTime value="20210219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Other Products that Affect Glycemic Control, Vasopressin or Fluid and/or Electrolyte Balance</content>: Monitor blood glucose concentrations, fluid balance, serum electrolyte concentrations and acid-base balance. (<linkHtml href="#ID_cd4404a1-8e44-4274-83df-b1cb9c096eb7">7.1</linkHtml>) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_cd4404a1-8e44-4274-83df-b1cb9c096eb7">
+                     <id root="cf1affe5-5396-458c-b872-cbddd6461749"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>7.1 Other Products that Affect Glycemic Control or Fluid and/or Electrolyte Balance </title>
+                     <text>
+                        <paragraph>Dextrose Injection can affect glycemic control, vasopressin and fluid and/or electrolyte balance <content styleCode="italics">[see <linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">Warnings and Precautions (5.1</linkHtml>, <linkHtml href="#ID_eb937189-cd6b-4251-a819-af9887a0e579">5.4</linkHtml>, <linkHtml href="#ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">5.5)</linkHtml>]</content>. Monitor blood glucose concentrations, fluid balance, serum electrolyte concentrations and acid-base balance when using Dextrose Injection in patients treated with other substances that affect glycemic control, vasopressin or fluid and/or electrolyte balance. </paragraph>
+                     </text>
+                     <effectiveTime value="20210219"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_42aea853-0a42-46da-b887-67fe4d8805e2">
+               <id root="889eea95-21ca-46f4-8c51-67bdc117d093"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS </title>
+               <effectiveTime value="20210219"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pediatric Use</content>: Increased risk of hypoglycemia/hyperglycemia; monitor serum glucose concentrations. (<linkHtml href="#ID_cb27e09a-0352-452f-b78c-f431e425c5df">8.4</linkHtml>) </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="ID_86f5272d-8f27-415d-8fb3-cb87247302df">
+                     <id root="5bb0779b-13e8-41cb-83c5-774cb0890285"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary </content>
+                        </paragraph>
+                        <paragraph>Appropriate administration of Dextrose Injection during pregnancy is not expected to cause adverse developmental outcomes, including congenital malformations. Animal reproduction studies have not been conducted with injectable dextrose solutions. </paragraph>
+                        <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20190805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_803d2d0e-5399-42c4-861e-e3d1e5fe8c43">
+                     <id root="ef857830-ab88-49ac-8218-31bdae8f383a"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of dextrose in human milk, the effects on a breastfed infant, or the effects on milk production. The lack of clinical data during lactation precludes a clear determination of the risk of Dextrose Injection to an infant during lactation; therefore, the developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for Dextrose Injection and any potential adverse effects on the breastfed infant from Dextrose Injection or from the underlying maternal condition.</paragraph>
+                     </text>
+                     <effectiveTime value="20190805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_cb27e09a-0352-452f-b78c-f431e425c5df">
+                     <id root="b5ccba00-70ea-4eb0-8bb0-a67490b64150"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use </title>
+                     <text>
+                        <paragraph>The safety profile of Dextrose Injection in pediatric patients is similar to adults.</paragraph>
+                        <paragraph>Neonates, especially premature infants with low birth weight, are at increased risk of developing hypo- or hyperglycemia and therefore need close monitoring during treatment with intravenous glucose infusions to ensure adequate glycemic control in order to avoid potential long-term adverse effects. </paragraph>
+                        <paragraph>Closely monitor plasma electrolyte concentrations in pediatric patients who may have impaired ability to regulate fluids and electrolytes. In very low birth weight infants, excessive or rapid administration of Dextrose Injection may result in increased serum osmolality and risk of intracerebral hemorrhage.</paragraph>
+                        <paragraph>Children (including neonates and older children) are at increased risk of developing hyponatremia as well as for developing hyponatremic encephalopathy <content styleCode="italics">[see <linkHtml href="#ID_eb937189-cd6b-4251-a819-af9887a0e579">Warnings and Precautions (5.4)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20190805"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f580976e-f43a-4ed1-af97-3d7e9203cc42">
+                     <id root="7394404b-5f8f-4e40-a89f-ca32650bbc0d"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use </title>
+                     <text>
+                        <paragraph>Clinical studies of Dextrose Injection did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Elderly patients are at increased risk of developing hyponatremia as well as for developing hyponatremic encephalopathy <content styleCode="italics">[see <linkHtml href="#ID_eb937189-cd6b-4251-a819-af9887a0e579">Warnings and Precautions (5.4)</linkHtml>]</content>. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>Dextrose is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20190805"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_47544f89-576c-4aac-9b69-d6bd31a70495">
+               <id root="cb48bcaa-f1a2-44df-8fc7-e112b8bca6d5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE </title>
+               <text>
+                  <paragraph>An increased infusion rate of Dextrose Injection or administration of dextrose solutions can cause hyperglycemia, hyperosmolality, and adverse effects on water and electrolyte balance <content styleCode="italics">[see <linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">Warnings and Precautions (5.1</linkHtml>, <linkHtml href="#ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">5.5)</linkHtml>]</content>.</paragraph>
+                  <paragraph>Severe hyperglycemia and severe dilutional hyponatremia, and their complications, can be fatal. Discontinue infusion, reduce dose and institute appropriate corrective measures such as administration of exogenous insulin.</paragraph>
+                  <paragraph>Discontinue infusion and institute appropriate corrective measures in the event of overhydration or solute overload during therapy, with particular attention to CNS, respiratory and cardiovascular systems.</paragraph>
+                  <paragraph>If over-exposure occurs, call your Poison Control Center at 1-800-222-1222 for current information on the management of poisoning or overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20190805"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f5193792-f658-4548-82dd-bec28de84e41">
+               <id root="27153708-aa7c-4291-9589-f4d6d327c69f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION </title>
+               <text>
+                  <paragraph>Dextrose Injection, 5% USP is a clear, sterile, non-pyrogenic solution of Dextrose, USP in Water for Injection in a polyvinylchloride flexible plastic container for intravenous administration after admixture with a single dose powdered or liquid (up to 10 mL) drug vial <content styleCode="italics">[see <linkHtml href="#ID_415ea7e8-6dee-4e20-a020-ea0abe762781">Dosage and Administration (2.1)</linkHtml>]</content>.</paragraph>
+                  <paragraph>Flexible containers, designed to facilitate admixture, are available in 50 mL and 100 mL sizes. See Table 1 for the content and characteristics of this solution.</paragraph>
+                  <paragraph>The solution contains no bacteriostatic, antimicrobial agent or added buffer and is intended only for use as a single-dose injection. The pH range is 4.0 (3.2 to 6.5).</paragraph>
+                  <paragraph>Water can permeate from inside the container into the overwrap but not in amounts sufficient to affect the solution significantly.</paragraph>
+                  <table ID="Table_1" width="442.8pt">
+                     <caption>Table 1. Contents and Characteristics of Dextrose Injection 5%, USP</caption>
+                     <col width="19%"/>
+                     <col width="19%"/>
+                     <col width="19%"/>
+                     <col width="19%"/>
+                     <col width="19%"/>
+                     <thead>
+                        <tr>
+                           <th align="left" colspan="5" valign="top"/>
+                        </tr>
+                        <tr>
+                           <th align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <content styleCode="bold">Strength</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <content styleCode="bold">Fill Volume</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <content styleCode="bold">Amount of Dextrose Hydrous per Container</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <content styleCode="bold">kcal</content>
+                              <footnote ID="_Ref65758411">Caloric value calculated on the basis of 3.4 kcal/g of dextrose, hydrous</footnote>
+                              <content styleCode="bold"> per Container</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <content styleCode="bold">mOsmol per liter</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="center" rowspan="2" styleCode="Rrule Lrule Botrule " valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Dextrose Injection 5%, USP<br/>(0.05 grams/mL)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">100 mL</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Single Pack</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">5 grams</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">17</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">252</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">50 mL</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Single Pack</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">2.5 grams</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">8.5</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">252</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Dextrose, USP is chemically designated D-glucose, monohydrate (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> • H<sub>2</sub>O), a hexose sugar freely soluble in water. The molecular weight of dextrose (D-glucose) monohydrate is 198.17. It has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id1356916697" referencedObject="ID_097dfc68-eae5-47b0-8b82-7211f9ba3ec8"/>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>Dextrose is derived from corn.</paragraph>
+                  <paragraph>The MINI-BAG Plus Container is a standard diluent container with an integral drug vial adaptor. It allows for drug admixture after connection to a single dose powdered or liquid (up to 10 mL) drug vial having a 20 mm closure. A breakaway seal in the tube between the vial adaptor and the container is broken to allow transfer of the diluent into the vial and reconstitution of the drug. The Mini-Bag Plus product mechanically prohibits the transfer of contaminants into and out of the system during and after docking, minimizing environmental and personal exposure. The reconstituted drug is then transferred from the vial into the container diluent and mixed to result in an admixture for delivery to the patient.</paragraph>
+                  <paragraph>The VIAFLEX Plus plastic container is fabricated from a specially formulated polyvinyl chloride (PL 146 Plastic). VIAFLEX Plus on the container indicates the presence of a drug additive in a drug vehicle. The VIAFLEX Plus plastic container system utilizes the same container as the VIAFLEX plastic container system. The amount of water that can permeate from inside the container into the overwrap is insufficient to affect the solution significantly. Solutions in contact with the plastic container can leach out certain of its chemical components in very small amounts within the expiration period, e.g., di-2-ethylhexyl phthalate (DEHP), up to 5 parts per million. However, the safety of the plastic has been confirmed in tests in animals according to USP biological tests for plastic containers as well as by tissue culture toxicity studies.</paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+               <component>
+                  <observationMedia ID="ID_097dfc68-eae5-47b0-8b82-7211f9ba3ec8">
+                     <text>Dextrose Hydrous Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2de51547-80c7-4561-9c80-e88e3517f697">
+               <id root="9b9737fb-7775-498c-8306-801662f56737"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY </title>
+               <effectiveTime value="20190805"/>
+               <component>
+                  <section ID="ID_2ecb5cca-7df0-4c99-a4bf-37f0acc40d68">
+                     <id root="ba584ca4-d232-4d85-868d-145e87731fa0"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1 Mechanism of Action </title>
+                     <text>
+                        <paragraph>Dextrose oxidized to carbon dioxide and water, yielding energy.</paragraph>
+                     </text>
+                     <effectiveTime value="20190805"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_10ae7157-4190-4e27-9d76-e2f730b57716">
+               <id root="5d55a5cc-6349-4a72-b7a0-e0a1617cf52f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING </title>
+               <text>
+                  <paragraph>Dextrose Injection 5%, USP is a clear, sterile solutions of dextrose supplied in single-dose, flexible containers.</paragraph>
+                  <table width="100%">
+                     <col width="32%"/>
+                     <col width="18%"/>
+                     <col width="18%"/>
+                     <col width="20%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Product Description</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Code</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Size</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" rowspan="2" styleCode="Rrule Lrule Botrule " valign="middle">
+                              <paragraph>Dextrose Injection 5%, USP<br/>(0.05 grams/mL)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>EZPB0040</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>50 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>0338-9143-30</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>EZPB0041</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>100 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>0338-9147-30</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <br/>Do not remove container from the overwrap until intended for use.</paragraph>
+                  <paragraph>Use the product immediately after mixing and the introduction of additives.</paragraph>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized.  Avoid excessive heat.  It is recommended the product be stored at room temperature (25°C/77°F).</paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f746f71d-67f2-4751-a08f-343ee25862de">
+               <id root="4d88ecf8-977b-4a7f-af84-83f9291bfe66"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION </title>
+               <text>
+                  <paragraph>Inform patients, caregivers, or home healthcare providers of the following risks of Dextrose Injection:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption>•</caption>Hyperglycemia and hyperosmolar hyperglycemic state <content styleCode="italics">[see <linkHtml href="#ID_9d225f63-080a-4a2c-b113-a2cfc3337960">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Hypersensitivity reactions <content styleCode="italics">[see <linkHtml href="#ID_20f1c6f9-33a3-4fd1-b833-2c10e4413422">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Vein damage and thrombosis <content styleCode="italics">[see <linkHtml href="#ID_c98e7cee-fa77-4f15-a2b3-ce00e6e9123f">Warnings and Precautions (5.3)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Hyponatremia <content styleCode="italics">[see <linkHtml href="#ID_eb937189-cd6b-4251-a819-af9887a0e579">Warnings and Precautions (5.4)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Electrolyte imbalance and fluid overload <content styleCode="italics">[see <linkHtml href="#ID_7a9f48ea-6b48-4fb3-869e-caaec6a65762">Warnings and Precautions (5.5)</linkHtml>]</content>
+                     </item>
+                     <item>
+                        <caption>•</caption>Refeeding syndrome <content styleCode="italics">[see <linkHtml href="#ID_ff05b421-61c6-47d9-961a-dbf9b9f7a301">Warnings and Precautions (5.6)</linkHtml>]</content>
+                     </item>
+                  </list>
+                  <paragraph>Manufactured by, Packed by, Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                     <br/>Deerfield, IL 60015 USA<br/>Printed in Ireland</paragraph>
+                  <paragraph>CB-30-02-662</paragraph>
+                  <paragraph>Baxter, Mini-Bag Plus, and Viaflex are trademarks of Baxter International Inc.</paragraph>
+               </text>
+               <effectiveTime value="20200219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_809325ba-67fd-490e-90d2-ab6bad8389d4">
+               <id root="d769c674-a641-4a74-81be-250f91e1747d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <renderMultiMedia ID="id-187303073" referencedObject="ID_64f63661-3186-4a44-b763-921e85f9d0b5">
+                     <caption>Container Label</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">BREAK SEAL AND MIX BEFORE USE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EZPB0041</content>
+                     <br/>
+                     <content styleCode="bold">NDC 0338-9147-30</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">100 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5% Dextrose</content>
+                     <br/>
+                     <content styleCode="bold">Injection USP</content>
+                     <br/>
+                     <content styleCode="bold">MINI-BAG Plus Single Dose Container</content>
+                  </paragraph>
+                  <paragraph>Each 100 mL contains 5 g Dextrose<br/>Hydrous USP Sterile See prescribing<br/>information Additive compatibility consult<br/>pharmacist For intravenous use Do not<br/>administer simultaneously with blood<br/>Store at Room Temperature (25°C) Avoid<br/>Excessive Heat <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Baxter Logo</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                     <br/>Deerfield IL 60015 USA<br/>Made in Ireland</paragraph>
+                  <paragraph>CB-35-04-637 (1)</paragraph>
+                  <paragraph>Lot<br/>Exp</paragraph>
+                  <paragraph>Bar Code<br/>(01)00303389147305</paragraph>
+                  <renderMultiMedia ID="id-366671160" referencedObject="ID_0b213343-9867-472d-9dbf-d1f26b46b15e">
+                     <caption>Container Label</caption>
+                  </renderMultiMedia>
+                  <paragraph>
+                     <content styleCode="bold">BREAK SEAL AND MIX BEFORE USE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EZPB0040</content>
+                     <br/>
+                     <content styleCode="bold">NDC 0338-9143-30</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5% Dextrose</content>
+                     <br/>
+                     <content styleCode="bold">Injection USP</content>
+                     <br/>
+                     <content styleCode="bold">MINI-BAG PLUS SINGLE DOSE CONTAINER</content>
+                  </paragraph>
+                  <paragraph>EACH 50 ML CONTAINS 2.5 G DEXTROSE <br/>HYDROUS USP STERILE SEE PRESCRIBING<br/>INFORMATION ADDITIVE COMPATIBILITY <br/>CONSULT PHARMACIST FOR INTRAVENOUS USE <br/>DO NOT ADMINISTER SIMULTANEOUSLY WITH <br/>BLOOD STORE AT ROOM TEMPERATURE (25°C) <br/>AVOID EXCESSIVE HEAT RX ONLY</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">BAXTER LOGO</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BAXTER HEALTHCARE CORPORATION</content>
+                     <br/>DEERFIELD IL 60015 USA<br/>MADE IN IRELAND</paragraph>
+                  <paragraph>CB-35-04-791</paragraph>
+                  <paragraph>1 symbol</paragraph>
+                  <paragraph>Lot<br/>Exp</paragraph>
+                  <paragraph>Bar Code<br/>(01)00303389143307</paragraph>
+               </text>
+               <effectiveTime value="20210219"/>
+               <component>
+                  <observationMedia ID="ID_64f63661-3186-4a44-b763-921e85f9d0b5">
+                     <text>Representative Container 0338-9147-30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="ID_0b213343-9867-472d-9dbf-d1f26b46b15e">
+                     <text>Representative Container label 0338-9143-30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

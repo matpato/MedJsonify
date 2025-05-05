@@ -40,13 +40,16 @@ with open(os.path.join(downloads_dir, 'filename.txt'), 'r') as f:
 
 zip_file_paths = [os.path.join(downloads_dir, zip_filename) for zip_filename in zip_filenames]
 
-# Verifica se o ficheiro tem a extensão .zip
 for zip_file_path in zip_file_paths:
     if zip_file_path.endswith('.zip'):
-        extract_to = os.path.splitext(zip_file_path)[0]
-        unzip_file_with_progress(zip_file_path, extract_to)
-        unzip_all_in_directory(extract_to)
-        
-        os.remove(zip_file_path)
+        # Verifica se o ficheiro é um ZIP válido
+        if zipfile.is_zipfile(zip_file_path):
+            extract_to = os.path.splitext(zip_file_path)[0]
+            unzip_file_with_progress(zip_file_path, extract_to)
+            unzip_all_in_directory(extract_to)
+            
+            os.remove(zip_file_path)
+        else:
+            print(f"O ficheiro {zip_file_path} não é um ficheiro ZIP válido.")
     else:
         print(f"O ficheiro {zip_file_path} não é um ficheiro .zip.")

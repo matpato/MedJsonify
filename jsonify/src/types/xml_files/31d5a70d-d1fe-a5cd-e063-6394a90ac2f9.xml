@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="31d5a70d-d1fe-a5cd-e063-6394a90ac2f9"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250402"/>
+   <setId root="31d5a70d-d1fd-a5cd-e063-6394a90ac2f9"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+            <name>TURK ILAC VE SERUM SANAYI</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                  <name>TURK ILAC VE SERUM SANAYI</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                        <name>TURK ILAC VE SERUM SANAYI</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="85160-500" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="31d6ebc6-9aaa-7409-e063-6394a90ace5f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250402"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="85160-500" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Turkfleks Lactated Ringer Solution</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Chloride, Sodium Lactate, Potassium Chloride, and Calcium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="310"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TU7HW0W0QT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LACTATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="600"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="660YQ98I10" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-500-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="20" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-500-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-500-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="20" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-500-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d6059c-9e3b-dc8f-e063-6394a90a9144">
+               <id root="31d6059c-9e3a-dc8f-e063-6394a90a9144"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>NAME OF HUMAN MEDICAL PRODUCT TURKFLEKS LACTATED RINGER'S SOLUTION</paragraph>
+                  <paragraph/>
+                  <paragraph>QUALITATIVE AND QUANTITATIVE COMPOSITION</paragraph>
+                  <paragraph>Active ingredients: Each 100 ml solution: Sodium lactate (50%) 310 mg (620 mg) Sodium chloride 600 mg Potassium chloride 30 mg Calcium chloride dihydrate 20 mg</paragraph>
+                  <paragraph/>
+                  <paragraph>Electrolyte concentrations in solution mEq/L (mmol/L): - Sodium: 130 (130) - Calcium: 3 (1.5) - Chloride: 109 (109) - Potassium: 4 (4) - Lactate: 28 (28)</paragraph>
+                  <paragraph/>
+                  <paragraph>Excipients: Water</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Sterile solution for intravenous infusion and sterile irrigation. Clear solution with no visible particles. 272 mOsm/L (approximately) pH: 6.0 – 7.5
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d62f14-8c25-f3b9-e063-6294a90ac014">
+               <id root="31d62f14-8c24-f3b9-e063-6294a90ac014"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Therapeutic indications - In cases where electrolyte therapy at isotonic concentration is sufficient to restore extracellular fluid volume and electrolyte balance or to replace extracellular fluid losses.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+- In short-term volume replacement therapy in cases of hypovolemia or hypotension (alone or in combination with a colloidal solution). - In the regulation or maintenance of acid-base balance and/or in the treatment of mild to moderate metabolic acidosis (excluding lactic acidosis).
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Dosage and method of administration Dosage / frequency and duration of administration: In intravenous infusion administration: The dose to be administered, infusion rate and duration of administration should be adjusted by the physician according to the indication for which the solution is used, the patient's age, body weight and clinical condition, the treatment administered to the patient with the solution, and the clinical and laboratory response to the treatment. In general, in order to provide normal blood volume in blood losses, TURKFLEKS LACTATED RINGER is required 3-5 times the amount of blood lost. In general, doses of 500 - 3000 mL per day are recommended for adults and 20 - 100 mL per kg of body weight per day for children. The rate of administration in adults is usually 40 mL per kg of body weight per day. Method of administration: Application is performed intravenously with sterile apyrogen sets. 
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Additional information regarding special populations: Renal/Liver failure: Since there is no study specifically conducted for these populations, there is no special dosage recommendation for this patient group. Turkflex Lactated Ringer may not show its alkalizing effect since lactate metabolism may be impaired in patients with hepatic failure. Pediatric population: The effectiveness and safe use of lactated Ringer's solutions in children have not been investigated with appropriate and well-controlled studies; however, there is information in the medical literature indicating the use of electrolyte solutions in the pediatric population. Lactated solutions should be administered with special care to newborns and infants younger than 6 months.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+In the pediatric population, infusion rates are 5 mL/kg per hour on average, but they vary according to age as follows: • 6-8 mL/kg/hour in infants older than 1 month • 4-6 mL/kg/hour in children aged 1-2 years • 2-4 mL/kg/hour in children older than 2 years It is recommended to administer an average dose of 3.4 mL/kg/burn rate in the first 24 hours and 6.3 mL/kg/burn rate on the second day in children with burns. The average dose in children with severe head trauma is 2,850 mL/m2. During surgery or when necessary, the infusion may be faster or the total volume administered may be greater. Geriatric population: When determining the type of infusion solution and the rate and volume of administration in geriatric patients, it should be taken into account that heart, kidney, liver diseases and other diseases and drug use are more common in this age group.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d5e886-d294-993b-e063-6294a90a521a">
+               <id root="31d5e886-d293-993b-e063-6294a90a521a"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+• Patients with known hypersensitivity to sodium lactate • Extracellular hyperhydration or hypervolemia • Severe renal failure (with oliguria/anuria) • Decompensated heart failure • Hyperkalemia • Hypercalcemia • Metabolic alkalosis • Cirrhosis with ascites • Severe metabolic acidosis • Conditions with increased lactate levels (hyperlactatemia), including conditions in which lactate utilization is impaired, such as lactic acidosis or severe hepatic failure • Use with digitalis therapy (See 4.5. Interactions with other medicinal products and other forms of interaction) • In newborn infants under 28 days of age, the use of TURKFLEKS LACTATED RINGER, like other calcium-containing solutions, with ceftriaxone is contraindicated, even if administered through separate infusion lines (due to fatal ceftriaxone calcium salt precipitation in the newborn's bloodstream).
+  <br/>
+For the use of TURKFLEKS LACTATED RINGER with ceftriaxone in patients older than 28 days, see section '4.4. Special warnings and precautions for use'.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d63a2d-7ba2-fc1d-e063-6294a90afe3e">
+               <id root="31d63a2d-7ba1-fc1d-e063-6294a90afe3e"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Special warnings and precautions for use Hypersensitivity reactions If any signs or symptoms suggestive of a hypersensitivity reaction occur during administration, the infusion should be stopped immediately. Appropriate therapeutic interventions should be implemented as clinically indicated. Incompatibilities Ceftriaxone: In patients older than 28 days, including adults, ceftriaxone should not be used simultaneously with calcium-containing solutions, including TURKFLEKS LACTATED RINGER, through the same infusion line. If the same administration set is to be used for successive applications, the set should be thoroughly rinsed with compatible solutions before administration. For the use of TURKFLEKS LACTATED RINGER with ceftriaxone in newborn infants younger than 28 days, see “4.3. Contraindications”. Electrolyte balance Hypernatremia: In cases of hypernatremia, TURKFLEKS LACTATED RINGER should only be used after careful investigation of the cause of the underlying disease and in cases where alternative intravenous fluid treatments cannot be applied. In such cases, it is recommended to monitor plasma sodium levels and plasma volume and apply.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+TURKFLEKS LACTATED RINGER should be applied with special care in cases that increase the tendency to hypernatremia (such as adrenocortical insufficiency, diabetes insipidus or widespread tissue damage) and in patients with cardiac disease. Hyperchloremia: In cases of hyperchloremia, TURKFLEKS LACTATED RINGER should be used only after the cause of the underlying disease has been carefully investigated and in cases where alternative intravenous fluid treatments cannot be applied. In such cases, it is recommended to apply by monitoring plasma chloride levels and plasma acid-base balance.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+TURKFLEKS LACTATED RINGER should be administered with special care in conditions that increase the tendency to hyperchloremia (such as renal failure and renal tubular acidosis, diabetes insipidus), in patients who have undergone urinary diversion or who are taking certain diuretics (such as carbonic anhydrase inhibitors such as acetazolamide) or steroids (androgens, estrogens, corticosteroids), and in patients with severe dehydration. Use in patients with potassium deficiency: Although the amount of potassium in the composition of TURKFLEKS LACTATED RINGER is similar to that of plasma, the solution should not be used for this purpose, as it is not at a level that will have a beneficial effect in cases of severe potassium deficiency. Use in patients at risk of hyperkalemia: TURKFLEKS LACTATED RINGER should be applied with special care in conditions that increase the tendency to hyperkalemia (such as severe renal failure or adrenocortical insufficiency, acute dehydration or widespread tissue damage or burns) and in patients with cardiac disease. It is recommended to closely monitor plasma potassium levels in patients at risk of hyperkalemia. Use in patients at risk of hypercalcemia: Calcium chloride is an irritant; therefore, care should be taken not to leak solution out of the vein when administered intravenously or intramuscularly.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Solutions containing calcium salts should be used with caution in patients with impaired renal function or high vitamin D levels, such as sarcoidosis. In addition, it should be avoided in patients with a history of calcium stones in the kidneys. Fluid balance / kidney functions Use in patients with impaired renal function: TURKFLEKS LACTATED RINGER should be administered with special care to patients with impaired renal function. In such patients, administration of TURKFLEKS LACTATED RINGER may cause sodium and/or potassium accumulation. Use in patients at risk of fluid and/or solute overload and electrolyte disturbances: Depending on the volume administered and the rate of administration, intravenous administration of TURKFLEKS LACTATED RINGER may cause the following conditions: - Fluid and/or solute overload leading to overhydration and congestive conditions (including pulmonary congestion and edema).
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+- Clinically relevant electrolyte disturbances and acid-base imbalance. During long-term parenteral administration, the patient's clinical condition and laboratory parameters should be monitored at regular intervals whenever the patient's condition or the rate of intravenous fluid administration requires it. High-volume infusions should be administered with special monitoring in patients with heart or lung failure. Use in patients with hypervolemia, overhydration or conditions that lead to sodium retention and edema: TURKFLEKS LACTATED RINGER should be administered with special caution in patients with hypervolemia or overhydration. TURKFLEKS LACTATED RINGER should be administered with special caution in patients with primary hyperaldosteronism, secondary hyperaldosteronism (e.g. hypertension, congestive heart failure, renal artery stenosis or nephrosclerosis) or conditions that may lead to sodium retention, fluid overload and edema such as preeclampsia due to its sodium chloride content (See Section 4.5.).
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Acid-base balance Use in patients at risk of alkalosis: TURKFLEKS LACTATED RINGER should be administered with special care in patients at risk of alkalosis. Since lactate is metabolized to bicarbonate, the solution may cause metabolic alkalosis in such patients or may aggravate an existing metabolic alkalosis. Although convulsions may be induced in lactate-induced alkalosis, this is not a common condition. Other warnings Application with citrate anticoagulated/stored blood: Due to the calcium it contains, it is not recommended to add TURKFLEKS LACTATED RINGER to citrate anticoagulated/stored blood, to citrate anticoagulated/stored blood, to administer simultaneously or to administer together from the same infusion system. Use in patients with type 2 diabetes: Lactate is a substrate for gluconeogenesis. This should be taken into consideration when using TURKFLEKS LACTATED RINGER in patients with type 2 diabetes.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Warnings regarding administration: Addition of additional drugs according to the procedure or failure to perform the application with appropriate techniques may lead to fever reactions due to pyrogen contamination. In such a case, the infusion should be stopped immediately. Please see Sections 6.2 and 6.6 regarding incompatibilities of the solution and addition of additional drugs to the product. During long-term parenteral therapy, the patient should be given appropriate nutritional support.
+  <br/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d63aab-be45-1844-e063-6394a90a9856">
+               <id root="31d63aab-be44-1844-e063-6394a90a9856"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Interactions related to the sodium content of the solution: - In patients using drugs such as corticosteroids that may increase the risk of sodium and fluid overload (with edema and hypertension), TURKFLEKS LACTATED RINGER is recommended to be administered with caution. Interactions related to the potassium content of the solution: Since TURKFLEKS LACTATED RINGER contains potassium, it is recommended to be administered with caution when used with the following drugs known to cause or increase the risk of hyperkalemia: - Potassium-sparing diuretics (amiloride, spironolactone, triamterene, alone or in combination). - Angiotensin converting enzyme inhibitors and angiotensin II receptor antagonists. - Tacrolimus, cyclosporine. In patients receiving such drugs, especially in cases of severe renal impairment, the administration of potassium may result in a severe and potentially fatal hyperkalemia.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Interactions related to the calcium contained in the solution: Administering calcium may increase the effects of digitalis and may cause serious or potentially fatal arrhythmias in the heart. Therefore, in patients receiving treatment with digitalis group drugs, large volumes and rapid infusion of the solution is not recommended. It is recommended that TURKFLEKS LACTATED RINGER be administered with caution if it is to be used with thiazide group diuretics or vitamin D, which may increase the risk of hypercalcemia.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Bisphosphonates, fluoride, some fluoroquinolones and tetracyclines have reduced absorption (reduced bioavailability) when administered with calcium. Interactions related to the lactate contained in the solution (metabolized to bicarbonate): It is recommended that TURKFLEKS LACTATED RINGER be administered with caution if used with drugs whose renal elimination is pH-dependent: Since bicarbonate formed as a result of lactate metabolism alkalinizes the urine, TURKFLEKS LACTATED RINGER may affect the elimination of such drugs: - Since bicarbonate formed as a result of lactate metabolism alkalinizes the urine, renal excretion of acidic drugs such as salicylates, barbiturates and lithium increases. - The renal elimination of alkaline drugs such as sympathomimetic drugs (e.g. ephedrine, pseudoephedrine) and stimulant drugs (e.g. dexamphetamine sulfate, fenfluramine hydrochloride) is slowed down.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d62a6c-4305-16c7-e063-6394a90a801b">
+               <id root="31d62a6c-4304-16c7-e063-6394a90a801b"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+General advice Pregnancy category: C. Women with childbearing potential/Birth control (Contraception) TURKFLEKS LACTATED RINGER can be used safely in women with childbearing potential as long as electrolyte and fluid balance is kept under control. Interaction with birth control pills is not known. Pregnancy TURKFLEKS LACTATED RINGER can be used safely in women during pregnancy as long as electrolyte and fluid balance is kept under control. It should be kept in mind that calcium passes through the placenta. If any drug is to be added to the solution, the properties of the drug used and the use of this drug during pregnancy should be evaluated separately.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d63aab-be47-1844-e063-6394a90a9856">
+               <id root="31d63aab-be46-1844-e063-6394a90a9856"/>
+               <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+As long as the electrolyte and fluid balance is kept under control, TURKFLEKS LACTATED RINGER can be used safely in lactating women. It should be kept in mind that calcium passes through the placenta and is distributed into breast milk. If any drug is to be added to the solution, the characteristics of the drug used and the use of this drug during lactation should be evaluated separately.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d62f14-8c27-f3b9-e063-6294a90ac014">
+               <id root="31d62f14-8c26-f3b9-e063-6294a90ac014"/>
+               <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+               <text>
+                  <paragraph>It has no known effects.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d62f4b-a358-fc2b-e063-6294a90a4735">
+               <id root="31d62f4b-a357-fc2b-e063-6294a90a4735"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Listed below are adverse reactions reported spontaneously in post-marketing experience. Adverse reactions are listed according to the MedDRA System Organ Classification. The following terminology is used when reporting frequency: Very common (≥1/10); common (≥1/100 to &lt;1/10); uncommon (≥1/1,000 to &lt;1/100); rare (≥1/10,000 to &lt;1/1,000), very rare, including isolated reports (&lt;1/10,000); not known (cannot be estimated from available data). Immune system disorders Not known: Hypersensitivity/infusion reactions (including anaphylactic/anaphylactoid reactions) with one or more of the following symptoms: angioedema, chest pain, chest discomfort, decreased heart rate, tachycardia, decreased blood pressure, respiratory distress, bronchospasm, dyspnea, cough, urticaria, rash, pruritus, erythema, flushing of the face and/or neck, throat irritation, paresthesia, hypoesthesia of the mouth, dysgeusia, nausea, anxiety, pyrexia, and headache.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Metabolism and nutritional disorders Not known: Hyperkalemia. General disorders and administration site conditions Not known: Infusion site reactions, which may be seen with one or more of the following symptoms: Phelbitis, inflammation at the infusion site, swelling, rash, pruritus, erythema, pain and burning sensation. The following is a list of adverse reactions that have been spontaneously reported during the use of other sodium lactate-containing solutions: Immune system disorders Not known: Hypersensitivity reactions: Laryngeal edema (Quincke edema), skin swelling, nasal congestion, sneezing/sneezing.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Metabolism and nutritional disorders Unknown: Electrolyte disorders. Psychiatric disorders Unknown: Anxiety. Vascular disorders Unknown: Hypervolemia. General disorders and administration site conditions Unknown: Other infusion site reactions: infusion site infection, extravasation, infusion site anesthesia (numbness). Reporting of suspected adverse reactions Reporting of suspected adverse reactions to drugs after licensing is of great importance. Reporting allows continuous monitoring of the benefit/risk balance of the drug. Healthcare professionals should report any suspected adverse reactions to the Turkish Pharmacovigilance Center (TÜFAM) (www.titck.gov.tr; e-mail: tufam@titck.gov.tr; tel: 0 800 314 00 08; fax: 0 312 218 35 99).
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d64b81-7af7-265b-e063-6394a90a971c">
+               <id root="31d64b81-7af6-265b-e063-6394a90a971c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Excessive doses or too rapid administration of TURKFLEKS LACTATED RINGER may lead to water and sodium overload, which may lead to the risk of edema (peripheral and/or pulmonary edema), especially in cases where sodium excretion from the kidneys is impaired. In this case, renal dialysis treatment may be required. Excessive administration of potassium may lead to hyperkalemia, especially in patients with renal failure. Symptoms of hyperkalemia include paresthesia in the extremities, muscle weakness, paralysis, cardiac arrhythmias, heart block, cardiac arrest and mental confusion. Excessive calcium administration may cause hypercalcemia. Symptoms of hypercalcemia include anorexia, nausea, vomiting, constipation, abdominal pain, muscle weakness, mental disorders, polydipsia, polyuria, nephrocalcinosis, renal stone formation and, in more severe cases, cardiac arrhythmias and coma. Too rapid infusion of calcium salts can cause a chalky taste in the mouth, flushing, especially of the face, and peripheral vasodilation, as well as many other symptoms of hypercalcemia. Mild asymptomatic hypercalcemia is caused by calcium and D 
+  <br/>
+It is corrected by stopping the administration of drugs such as vitamin. If hypercalcemia is severe, treatments such as loop diuretics, hemodialysis, calcitonin, bisphosphonate and trisodium edetate should be started urgently. Sodium lactate overdose can lead to metabolic alkalosis. Metabolic alkalosis may be accompanied by hypokalemia. Symptoms include mood changes, weakness, breathlessness, muscle weakness and irregular heartbeat. Hypertonicity, twitching and tetany can be seen in muscles, especially in hypocalcemic patients. Treatment of metabolic alkalosis due to bicarbonate overdose mainly consists of appropriate correction of fluid and electrolyte balance. Complementation of calcium, chloride and potassium deficiencies is especially important. If the overdose is due to drugs added to the solution, the signs and symptoms of the overdose depend on the properties of the added drug. If the dose is accidentally exceeded during treatment, the administration should be stopped and the patient should be monitored for signs and symptoms related to the drug administered. If necessary, symptomatic and supportive treatments should be applied.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d64e3b-a23c-0424-e063-6294a90acdb0">
+               <id root="31d64e3b-a23b-0424-e063-6294a90acdb0"/>
+               <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Pharmacotherapeutic group: Intravenous solutions / Solutions affecting electrolyte balance ATC code: B05BB01 TURKFLEKS LACTATED RINGER is an isotonic electrolyte solution. The composition and concentration of electrolytes in TURKFLEKS LACTATED RINGER are designed to be similar to those of electrolytes in plasma. The pharmacological properties of TURKFLEKS LACTATED RINGER consist of the pharmacological properties of its components (sodium, potassium, calcium, chloride and lactate). The main effect of TURKFLEKS LACTATED RINGER is the expansion of fluid in the extracellular compartment, including interstitial and intravascular fluids. Lactate ions are metabolized to bicarbonate, mainly in the liver, creating an alkalizing effect on the plasma. In healthy volunteers given lactated Ringer's solution, changes in central venous pressure were associated with atrial natriuretic peptide secretion.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Lactated Ringer's solutions applied to healthy volunteers decreased serum osmolality, increased blood pH and provided the first urination in a shorter time compared to normal saline application. No significant changes were observed in glucagon, epinephrine, blood glucose and insulin levels in aortic surgery patients treated with Lactated Ringer's solutions. When a drug is added to TURKFLEKS LACTATED RINGER, the pharmacodynamic properties of the resulting solution depend on the properties of the added drug.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d65589-3a69-9f39-e063-6294a90a29d4">
+               <id root="31d65589-3a68-9f39-e063-6294a90a29d4"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <text>
+                  <paragraph>The pharmacokinetic properties of TURKFLEKS LACTATED RINGER consist of the pharmacokinetic properties of its components (sodium, potassium, calcium, chloride and lactate).</paragraph>
+                  <paragraph>Infusion of Lactated Ringer's solutions in hemodynamically stable adults does not cause an increase in circulating lactate levels. The pharmacokinetics of D-lactate and L-lactate are similar.
+  <br/>
+Absorption:
+  <br/>
+Active substances in intravenously administered drugs reach maximum plasma concentrations immediately after administration.
+  <br/>
+Distribution:
+  <br/>
+The half-life after injection of radioactively labeled sodium (24Na) is 11-13 days for 99% of the injected sodium and one year for the remaining 1%. Distribution varies according to the tissues: fast in muscle, liver, kidney, cartilage and skin, slow in erythrocytes and neurons, and very slow in bone.
+  <br/>
+Potassium in the extracellular fluid enters the cell by active transport until it reaches 40 times its concentration outside the cell. Glucose, insulin, and oxygen facilitate the entry of potassium into the cell. In healthy adults, plasma potassium concentration is in the range of 3.5-5 mEq/l. In newborns, plasma levels can reach up to 7.7 mEq/l. However, since plasma potassium levels do not fully reflect intracellular potassium levels, cellular hypokalemia may occur even when plasma levels are normal. Changes in pH in the extracellular fluid also cause changes in plasma potassium concentration. A 0.1 unit change in plasma pH causes an inversely proportional change in plasma potassium concentration of 0.6 mEq/l.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Chloride is normally found in low amounts in bone tissue and in high amounts in some components of connective tissue, such as collagen tissue. It is also found in high concentrations in erythrocytes and gastric mucosa. The levels of chloride, the main anion of extracellular fluid, in the body are closely related to changes in sodium concentration. Abnormalities in sodium metabolism usually result in changes in chloride concentration.</paragraph>
+                  <paragraph>Calcium is an important cation for the continuation of life both intracellularly and extracellularly. Depending on the requirement, it either remains in the plasma or distributes to the tissues. Calcium also passes into the placenta and breast milk.
+  <br/>
+Lactate is converted to bicarbonate by oxidation in serum. Lactate distributed to the liver is metabolized by gluconeogenesis in the liver and converted to bicarbonate.
+  <br/>
+Biotransformation:
+  <br/>
+Sodium, potassium, calcium and chloride do not undergo any biotransformation. Depending on the requirement, they are either distributed to body fluids and tissues or eliminated.
+  <br/>
+Lactate is metabolized by both oxidation and gluconeogenesis, especially in the liver, to form bicarbonate within approximately 1-2 hours.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Elimination:
+  <br/>
+Sodium is mainly excreted renally, but most of it is also reabsorbed renally. A small amount of sodium is excreted in feces and sweat. Excretion through the skin is unimportant unless there is excessive sweating.
+  <br/>
+Closely following sodium metabolism, chloride ion is also excreted mainly in urine. Chloride reabsorption from the kidneys generally follows sodium reabsorption. In addition, some amount is also excreted through sweat.
+  <br/>
+80-90% of potassium is excreted by the kidneys. The rest is excreted in feces and a very small amount is excreted through sweat. Potassium is filtered in the glomeruli, reabsorbed in the proximal tubules and secreted in the distal tubules by Na-K exchange. Tubular secretion of potassium is also affected by hydrogen ion exchange, acid-base balance and adrenal hormones.
+  <br/>
+Calcium is excreted mainly in feces; small amounts are also excreted by sweat glands.
+  <br/>
+Linearity/non-linearity: Lactated Ringer's solutions exhibit linear pharmacokinetics over the recommended dosage range.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d65a71-fd05-2f75-e063-6394a90a7fed">
+               <id root="31d65a71-fd04-2f75-e063-6394a90a7fed"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>SPECIFICATIONS
+  <br/>
+Incompatibilities
+ </paragraph>
+                  <paragraph>Ceftriaxone should not be mixed with calcium-containing solutions, including TURKFLEKS LACTATED RINGER. Please see Sections 4.3 and 4.4 on this subject.
+  <br/>
+As with all solutions administered parenterally, additional drugs added to the solution may be incompatible. The compatibility of the drug to be added to the solution with TURKFLEKS LACTATED RINGER and its bag should be evaluated before adding the drug. Incompatibility can be understood by looking at whether there is a color change and/or precipitation, insoluble compounds or crystallization after the drug is added.
+ </paragraph>
+                  <paragraph>For drug addition, the Summary of Product Characteristics of the drug to be added and the relevant literature should be consulted.
+  <br/>
+Before adding any substance or drug to the solution, it should be confirmed that TURKFLEKS LACTATED RINGER is soluble and stable at its pH (pH: 6-7.5).
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Adding drugs to TURKFLEKS LACTATED RINGER should be done with aseptic technique. The solution should be mixed thoroughly after adding drugs. Solutions containing additional drugs should not be stored.
+ </paragraph>
+                  <paragraph>As a guide, some of the drugs that are incompatible with TURKFLEKS LACTATED RINGER are given below (not an exhaustive list showing all incompatibilities):
+  <br/>
+Some of the drugs that are incompatible with TURKFLEKS LACTATED RINGER:
+  <br/>
+- Amino caproic acid
+  <br/>
+- Amphotericin B
+  <br/>
+- Metaraminol tartrate
+  <br/>
+- Cefamandole
+  <br/>
+- Ceftriaxone
+  <br/>
+- Cortisone acetate
+ </paragraph>
+                  <paragraph>-Diethylstilbestrol
+  <br/>
+-Etamivan
+  <br/>
+-Ethyl alcohol
+  <br/>
+-Phosphate and carbonate containing solutions
+  <br/>
+-Oxytetracycline
+  <br/>
+-Thiopental sodium
+  <br/>
+-Versenate disodium
+  <br/>
+Some of the drugs that are partially incompatible with TURKFLEKS LACTATED RINGER:
+  <br/>
+-Tetracycline is stable for 12 hours.
+  <br/>
+-Ampicillin sodium concentrations of 2% - 3% are stable for 4 hours, and concentrations higher than 3% are stable for 1 hour.
+  <br/>
+-Minocycline is stable for 12 hours.
+  <br/>
+-Doxycycline is stable for 6 hours.
+  <br/>
+Additional drugs that are known or determined to be incompatible should not be used.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Shelf life
+  <br/>
+36 months. Shelf life during use: In microbiological terms, if the preparation for application is not carried out under controlled and validated aseptic conditions, it should be used immediately after preparation. In cases where it is not used immediately, the person who adds/dilutes the drug is responsible for determining the storage conditions and duration. 6.4. Special precautions for storage There are no special storage conditions, it should be stored at room temperature below 25 ° C. 6.5. Nature and content of packaging In 500 and 1000 ml Turkfleks (polypropylene) bags. The product has two forms: with and without a set.
+  <br/>
+Send feedback
+  <br/>
+Side panels
+  <br/>
+History
+  <br/>
+Saved
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d651e2-b082-319f-e063-6394a90a045c">
+               <id root="31d651e2-b081-319f-e063-6394a90a045c"/>
+               <code code="69763-1" codeSystem="2.16.840.1.113883.6.1" displayName="DISPOSAL AND WASTE HANDLING"/>
+               <text>
+                  <paragraph>Unused products or waste materials must be disposed of in accordance with the "Medical Waste Control Regulation" and "Packaging Waste Control Regulation". They are for single use. Partially used solutions should not be stored. Partially used bags should not be reconnected to systems applied to the patient.</paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d651e2-b084-319f-e063-6394a90a045c">
+               <id root="31d651e2-b083-319f-e063-6394a90a045c"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>The solution should be checked before use.</paragraph>
+                  <paragraph>The application is made intravenously with sterile apyrogen sets (intra-articularly or directly by pouring if used as an irrigation solution).
+  <br/>
+Only clear, particle-free products with intact packaging should be used.
+  <br/>
+The application should be started as soon as possible after the application set is attached to the product.
+  <br/>
+To prevent air embolism that may occur due to residual air in the bag, serial connections should not be made with other infusion fluids.
+  <br/>
+The solution should be applied using aseptic technique through a sterile application set. In order to prevent air from entering the system, the liquid should be passed through the application set before use.
+  <br/>
+Additional drugs can be added with a needle under aseptic conditions before and during infusion. The isotonicity of the final product formed should be determined before parenteral administration.
+  <br/>
+The drug added to the patient should be completely mixed with the solution before administration. Solutions containing additional drugs should be used immediately after adding the drug; they should not be stored for later use.
+  <br/>
+Adding additional drugs to the solution or incorrect application technique may cause a fever reaction due to pyrogen contamination of the product. In case of an adverse reaction, the infusion should be stopped immediately.
+ </paragraph>
+                  <paragraph>To open:
+  <br/>
+1. Check the integrity of the outer packaging and whether there is any leakage; do not use if the packaging is damaged.
+  <br/>
+2. Tear open the protective outer packaging.
+  <br/>
+3. Check that the bag inside the protective packaging is intact by squeezing it.
+  <br/>
+4. Check that the solution in the bag is clear and does not contain foreign matter.
+  <br/>
+Preparations for application:
+  <br/>
+1. Hang the bag.
+  <br/>
+2. Remove the protective cap from the application tip.
+  <br/>
+3. Firmly insert the spike of the application set into the application tip. The instructions for use of the set should be followed in order for the solution to be passed through the set and applied to the patient.
+ </paragraph>
+                  <paragraph>Adding additional drugs:
+  <br/>
+Caution: As with all parenteral solutions, all substances to be added to the product must be compatible with the product. If the product is to be added, compatibility should be checked in the final mixture before administration to the patient.
+  <br/>
+Adding drugs before application
+  <br/>
+1. Disinfect the drug application tip.
+  <br/>
+2. The drug to be added is applied from the drug application tip with a syringe with a 19-22 gauge needle.
+  <br/>
+3. Mix the solution and the drug added thoroughly (for concentrated drugs such as potassium chloride, mix by gently tapping the application outlet of the bag while it is in the upright position).
+  <br/>
+Caution: Bags with additional drugs applied should not be stored.
+  <br/>
+Adding drugs during application
+  <br/>
+1. Close the clamp of the set.
+  <br/>
+2. Disinfect the drug application tip.
+  <br/>
+3. The drug to be added is applied from the drug application tip with a syringe with a 19-22 gauge needle.
+  <br/>
+4. Remove from the solution hanger and turn upside down. In this position, the application outlet and injection inlet of the bag are gently tapped to mix the solution and additional medication. 5. The clamp is opened by returning the bag to its original position and the application is continued.
+  <br/>
+Send feedback
+  <br/>
+Side panels
+  <br/>
+History
+  <br/>
+Saved
+ </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d66f02-d951-127a-e063-6294a90a82d7">
+               <id root="31d6a0d3-a4ef-4eeb-e063-6394a90a552e"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>April 02, 2025</paragraph>
+                  <paragraph>Subject: Temporary importation of Turkfleks Lactated Ringer’s Injection from Turk Ilac located in Ankara-TURKEY to address drug shortages per</paragraph>
+                  <paragraph>
+                     <linkHtml href="https://dps.fda.gov/drugshortages/activeingredient/lactated-ringers-injection">https://dps.fda.gov/drugshortages/activeingredient/lactated-ringers-injection</linkHtml>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>To prevent a shortage of large volume parenteral fluid drug products, Turk Ilac ve Serum Sanayi is coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import Turkfleks Lactated Ringer’s Injection (500ml and 1000 ml) from Turk Ilac ve Serum Sanayi manufacturing facility located in Ankara/TURKEY. FDA has not approved these products manufactured by Turk Ilac ve Serum Sanayi.</paragraph>
+                  <paragraph/>
+                  <paragraph>Effective immediately, and during this temporary period, Turk Ilac ve Serum Sanayi will offer the following imported product from Turk Ilac ve Serum Sanayi facility located in Ankara/TURKEY:</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name and Description</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Volume</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Bags per Box</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>NDC Code</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks Lactated Ringer’s Injection</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>500ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>20</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-500-10</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks Lactated Ringer’s Injection</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1000ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>20</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-500-20</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Please note the following:</paragraph>
+                  <list listType="unordered">
+                     <item>Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</item>
+                     <item>The bag labels will contain the active pharmaceutical ingredient, concentration, volume, and NDC code in English.</item>
+                     <item>The imported products' administration port system is fully compatible with sets marketed in the United States.</item>
+                     <item>The imported products use a carton box that is taped closed. To avoid damage to the solution container, take care not to use sharp instruments to open the box.</item>
+                     <item>The imported products do not contain barcodes on the unit label. Alternative procedures should be followed to ensure that the correct drug product is being used in all systems and processes and administered to individual patients. For example, institutions should consider manually inputting the product into their systems and confirm that barcode systems do not provide incorrect information when the product is scanned.</item>
+                     <item>0.9% Isotonic Sodium Chloride Injection is available only by prescription in the United States. However, the imported products do not have the statement "Rx only" on the labeling.</item>
+                     <item>USE A NEW BAG IF PARTICULATES ARE VISIBLE OR IF THE IV BAG CONTAINS A LEAK.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Additional key differences in the labeling between the FDA-approved product and the imported products are stated in the product comparison table at the end of this letter as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 1. Key differences between FDA-approved and Turkfleks Lactated Ringer’s Injection</paragraph>
+                  <paragraph>Table 2. Label images of FDA-approved and Turkfleks Lactated Ringer’s Injection</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Reporting Adverse Events or Product Quality Issues</content>
+                  </paragraph>
+                  <paragraph>To report adverse events associated with these imported products, please use the contact us at info@turkilac.com.tr.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse events or quality problems experienced with the use of these imported products may also be reported to the FDA's MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: 
+   <linkHtml href="http://www.fda.gov/medwatch/report.htm">www.fda.gov/medwatch/report.htm</linkHtml>
+                     </item>
+                     <item>Regular mail or Fax: Download form 
+   <linkHtml href="http://www.fda.gov/MedWatch/getforms.htm">www.fda.gov/MedWatch/getforms.htm</linkHtml>
+                     </item>
+                  </list>
+                  <paragraph>or call 1-800332-1088 to request a reporting form, then complete and return to the address on the preaddressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>Mehmet Berat Battal</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 1: Key Differences between FDA Approved product and Turkfleks Lactated Ringer’s Injection</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph/>
+                           </td>
+                           <td>
+                              <paragraph>FDA- Approved Product</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks Import from Turkey</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Lactated Ringer’s Injection USP</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks Lactated Ringer’s Injection</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Indications</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>This solution is indicated for use in adults and pediatric patients as a source of electrolytes and water for hydration.</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>- In cases where electrolyte therapy at isotonic concentration is sufficient for the correction of extracellular fluid volume and electrolyte balance or for the replacement of extracellular fluid losses.</paragraph>
+                              <paragraph>2 / 18</paragraph>
+                              <paragraph>- In short-term volume replacement therapy in cases of hypovolemia or hypotension (alone or in combination with a colloid solution).</paragraph>
+                              <paragraph>- In the regulation or maintenance of acid-base balance and/or in the treatment of mild to moderate metabolic acidosis (except lactic acidosis).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Active Ingredients</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Per 100 ml solution:</paragraph>
+                              <paragraph>Sodium lactate (50%) 310 mg (620 mg) Sodium chloride 600 mg</paragraph>
+                              <paragraph>Potassium chloride 30 mg Calcium chloride dihydrate 20 mg</paragraph>
+                              <paragraph>Electrolyte concentrations in solution mEq/L (mmol/L):</paragraph>
+                              <paragraph>- Sodium: 130 (130)</paragraph>
+                              <paragraph>- Calcium: 3 (1.5)</paragraph>
+                              <paragraph>- Chloride: 109 (109)</paragraph>
+                              <paragraph>- Potassium: 4 (4)</paragraph>
+                              <paragraph>- Lactate: 28 (28)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Per 100 ml solution:</paragraph>
+                              <paragraph>Sodium lactate (50%) 310 mg (620 mg) Sodium chloride 600 mg</paragraph>
+                              <paragraph>Potassium chloride 30 mg Calcium chloride dihydrate 20 mg</paragraph>
+                              <paragraph>Electrolyte concentrations in solution mEq/L (mmol/L):</paragraph>
+                              <paragraph>- Sodium: 130 (130)</paragraph>
+                              <paragraph>- Calcium: 3 (1.5)</paragraph>
+                              <paragraph>- Chloride: 109 (109)</paragraph>
+                              <paragraph>- Potassium: 4 (4)</paragraph>
+                              <paragraph>- Lactate: 28 (28)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Additional Information</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>pH is 6.2 (4.5-7.0) Osmolarity 275 mOsm/L (calc)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>pH is 6.0-7.5 Osmolarity 272 mOsm/L (calc)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Store Conditions</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at room temperature 25C/77F</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at below 30C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Container Type</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>ethylene and propylene</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Polypropylene</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 2: Label Images of FDA-approved and Turkfleks Lactated Ringer’s Injection</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>FDA-approved Product</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="img_31d69aa4-414e-38bb-e063-6294a90aaa2f"/>
+                              </paragraph>
+                              <paragraph/>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks Lactated Ringer’s Injection</paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="img_31d6a0d3-a4ee-4eeb-e063-6394a90a552e"/>
+                              </paragraph>
+                              <paragraph/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250402"/>
+               <component>
+                  <observationMedia ID="img_31d69aa4-414e-38bb-e063-6294a90aaa2f">
+                     <text>FDA Approved</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="FDA Approved.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_31d6a0d3-a4ee-4eeb-e063-6394a90a552e">
+                     <text>Turkfleks</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Turkfleks.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31d66260-9d78-18db-e063-6294a90aef83">
+               <id root="31d66260-9d77-18db-e063-6294a90aef83"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_31d66789-50f5-128f-e063-6294a90a351c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250402"/>
+               <component>
+                  <observationMedia ID="img_31d66789-50f5-128f-e063-6294a90a351c">
+                     <text>LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

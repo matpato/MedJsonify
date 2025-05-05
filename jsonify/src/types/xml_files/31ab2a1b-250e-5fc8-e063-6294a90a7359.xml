@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="31ab2a1b-250e-5fc8-e063-6294a90a7359"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250331"/>
+   <setId root="31ab2a1b-250d-5fc8-e063-6294a90a7359"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+            <name>TURK ILAC VE SERUM SANAYI</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                  <name>TURK ILAC VE SERUM SANAYI</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                        <name>TURK ILAC VE SERUM SANAYI</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="85160-300" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="31ac8d58-0c3b-51ae-e063-6294a90ad34b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250331"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="85160-300" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Turkfleks 5% Dextrose Water Solution</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>5% Dextrose Water Solution</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS DEXTROSE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-300-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-300-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-300-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-300-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-300-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-300-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-300-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-300-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-300-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-300-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab68cf-3f8c-da0c-e063-6394a90a1fac">
+               <id root="31ab68cf-3f8b-da0c-e063-6394a90a1fac"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+NAME OF HUMAN MEDICAL PRODUCT TURKFLEKS %5 DEXTROSE solution in water Sterile 2. QUALITATIVE AND QUANTITATIVE COMPOSITION Active substance: Each 100 ml solution contains 5 g dextrose anhydrate. Osmolarity: approximately 277 mOsm/liter Calories: 200 kcal/liter Excipients: Water
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>PHARMACEUTICAL FORM Sterile solution for intravenous infusion. The solution is clear and free of particles.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab7f32-473e-da04-e063-6394a90a58c5">
+               <id root="31ab7f32-473d-da04-e063-6394a90a58c5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+CLINICAL FEATURES
+ </paragraph>
+                  <paragraph>Therapeutic indications - TURKFLEKS 5% DEXTROSE is indicated for the treatment of carbohydrate and fluid deficiency. - TURKFLEKS 5% DEXTROSE is also used as a diluent solution for drugs with which it is compatible in parenteral applications.</paragraph>
+                  <paragraph/>
+                  <paragraph>Dosage and method of administration Dosage / frequency and duration of administration: The dose to be administered should be determined by the physician for each patient based on the patient's age, body weight, clinical condition and laboratory studies. Serum glucose concentrations should be carefully monitored during treatment. Recommended doses for the treatment of carbohydrate and fluid deficiency: Adults, adolescents and the elderly 500 - 3000 ml per 24 hours.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Frequency and duration of application: The frequency and dose of application are adjusted by the physician according to the clinical condition of the patient. Method of application: Application is made intravenously with sterile apyrogen sets (peripheral or central veins). Rate of application: To prevent the development of hyperglycemia, the infusion rate should not exceed the patient's glucose oxidation capacity. Therefore, the highest dose that can be administered for adults should not exceed 5 mg per minute, and for infants and children, it should not exceed 10-18 mg/kg per minute depending on age and total body weight. When used as a diluent, the infusion rate is adjusted according to the recommended dose of the diluted drug. Additional information regarding special populations: Renal / Liver failure: Since there is no study specifically conducted for this population, there is no special dosage recommendation for this patient group.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Additional information regarding special populations: Renal/Liver failure: Since there is no study specifically conducted for this population, there is no specific dosage recommendation for this patient group. Pediatric population: The dose and infusion rate to be administered are adjusted by the physician according to the patient's weight, clinical and biological status, and concomitant therapy, as in adults. A dose of 20-100 ml/kg per 24 hours is generally recommended for this population, and this dose is adjusted according to body weight as follows: • 0-10 kg: 100 ml/kg/day • 10-20 kg: 1000 ml + 50 ml/day for each kilogram over 10 kg • &gt; 20 kg: 1500 ml + 20 ml/day for each kilogram over 20 kg Geriatric population: Adult doses are also used in the elderly.
+  <br/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab893a-5341-905c-e063-6294a90a9e4e">
+               <id root="31ab893a-5340-905c-e063-6294a90a9e4e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Dekompanse diyabette, metabolik stres durumları gibi glukoz intoleransı durumlarında, hiperozmolar koma durumlarında, hiperglisemi durumlarında ve hiperlaktatemi durumunda kontrendikedir.</paragraph>
+                  <paragraph>Dekstroz içeren çözeltiler mısır ya da mısır ürünlerine karşı aşırı duyarlılığı bulunan kişilerde kontrendike olabilir.</paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab85db-293a-b145-e063-6294a90a08e6">
+               <id root="31ab85db-2939-b145-e063-6294a90a08e6"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>TURKFLEKS %5 DEKSTROZ izotonik bir çözeltidir. Yüksek hacimli infüzyonlar, su zehirlenmesi durumlarında veya oligüri/anüri ile seyreden ağır böbrek yetmezliği, kardiyak ve/veya pulmoner yetmezlik vakalarında dikkatli bir izlem altında uygulanmalıdır.
+  <br/>
+Dekstroz çözeltilerinin uygulanımı hiperglisemiye yol açabilir. Oluşabilecek bir hiperglisemi durumu iskemik beyin hasarını artırabileceği ve iyileşmeyi geciktirebileceğinden, akut iskemik inmelerden sonra TURKFLEKS %5 DEKSTROZ’un kullanılmaması önerilir.
+  <br/>
+Kafa travmasını takip eden ilk 24 saat içinde dekstroz infüzyonu uygulanmamalı ve intrakraniyal hipertansif dönemlerde kan glukoz düzeyi yakından izlenmelidir.
+  <br/>
+Tüm intravenöz infüzyonların başlangıcında dikkatli bir klinik izlem gerekir.
+  <br/>
+Uygulamalar düzenli olarak dikkatli bir gözlem altında yürütülmelidir. Klinik ve biyolojik parametreler, özellikle de kan glukoz düzeyleri izlenmelidir.
+  <br/>
+Hiperglisemi oluşursa infüzyon hızı ayarlanmalı veya insülin uygulanmalıdır. Gerektiğinde
+  <br/>
+parenteral potasyum ilavesi yapılmalıdır.
+  <br/>
+Dekstroz içeren çözeltiler diabetes mellitus olduğu bilinen ya da subklinik diyabetliler ile herhangi bir nedenle karbonhidrat intoleransı olan hastalara dikkatle uygulanmalıdır.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Böbrek yetmezliği olan hastalarda veya diabetes mellituslu hastalarda glukoz toleransı bozulabilir. Bu gibi hastalara TURKFLEKS %5 DEKSTROZ uygulandığında kan glukoz düzeyleri yakından izlenmeli ve gerekirse insülin ve/veya potasyum gereksinimleri yeniden belirlenerek tedavi buna uygun düzenlenmelidir.
+  <br/>
+Ozmotik diürez riskini azaltmak için yavaş infüzyon hızı kullanılmalıdır.
+  <br/>
+Elektrolitsiz dekstroz çözeltileri, kan transfüzyonu ile birlikte, infüzyon öncesinde veya sonrasında aynı infüzyon setinden uygulanmamalıdır, hemoliz ve eritrosit kümeleşmesine neden olabilirler.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Potasyum içermeyen çözeltilerin aşırı uygulaması durumu önemli bir hipokalemi durumuna yol açabilir. Serum potasyum düzeyleri normal düzeylerinde devam ettirilmeli ve gerekirse tedaviye potasyum eklenmelidir.
+  <br/>
+Çözeltiye eklenecek herhangi bir başka ilaçla olabilecek bir geçimsizlik riskini en aza indirmek için, karıştırma işleminden hemen sonra, uygulamadan önce ve uygulama sırasında belirli aralarla infüzyonu yapılacak son karışımda herhangi bir bulanıklık veya çökelme olup olmadığı kontrol edilmelidir.
+  <br/>
+Uygulama kontrollü bir infüzyon pompasıyla yapılacaksa, torbanın tümüyle boşalmadan önce pompanın çalışmasının durmuş olduğuna dikkat edilmelidir; aksi halde hava embolisi oluşabilir.
+  <br/>
+Çözelti, steril setler aracılığıyla intravenöz yoldan uygulanır. İntravenöz uygulamada kullanılan
+  <br/>
+setlerin 24 saatte bir değiştirilmesi önerilir.
+  <br/>
+Yalnızca çözelti berraksa, torba sağlam ve sızdırmıyorsa kullanılmalıdır.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab8d59-294c-b95d-e063-6294a90aa969">
+               <id root="31ab8d59-294b-b95d-e063-6294a90aa969"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Interactions with other medical products and other forms of interaction As with all parenteral solutions, compatibility with additional drugs should be evaluated by the physician before use. Drugs to be added should be evaluated in terms of compatibility before application according to the user manual provided with it. After adding drugs to TURKFLEKS 5% DEXTROSE, it should be ensured that there is no color change, insoluble particles and crystallization. Some drugs or solutions added to the solution may be incompatible. If other substances are to be added to the solution, aseptic technique should be used and shaken until mixed.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab91a9-ad73-edc1-e063-6394a90a1cc2">
+               <id root="31ab91a9-ad72-edc1-e063-6394a90a1cc2"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <text>
+                  <paragraph>Genel tavsiye
+  <br/>
+Gebelik kategorisi: C
+  <br/>
+Çocuk doğurma potansiyeli bulunan kadınlar / Doğum kontrolü(Kontrasepsiyon)
+  <br/>
+Bilinen olumsuz bir etkisi bulunmamaktadır.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Gebelik dönemi
+  <br/>
+TURKFLEKS %5 DEKSTROZ’un gebe kadınlarda kullanımına ilişkin yeterli veri mevcut
+  <br/>
+değildir.
+  <br/>
+Hayvanlar üzerinde yapılan çalışmalar, gebelik /ve-veya/ embriyonal/fetal gelişim /ve- veya/doğum /ve-veya/ doğum sonrası gelişim üzerindeki etkiler bakımından yetersizdir (bkz. bölüm 5.3). İnsanlara yönelik potansiyel riskbilinmemektedir.
+  <br/>
+Doktor tarafından kesin gerekli görülmediği sürece (hastanın başka bir intravenöz sıvı ile
+  <br/>
+tedavi edilemediği durumlar dışında) gebelik döneminde kullanılmamalıdır.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab9461-39d0-eb5c-e063-6394a90a9839">
+               <id root="31ab9461-39cf-eb5c-e063-6394a90a9839"/>
+               <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+               <text>
+                  <paragraph>Laktasyon dönemi
+  <br/>
+TURKFLEKS %5 DEKSTROZ çok gerekli olmadıkça emziren kadınlarda kullanılmamalıdır.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab97c8-1487-c17e-e063-6294a90a3252">
+               <id root="31ab97c8-1486-c17e-e063-6294a90a3252"/>
+               <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+               <text>
+                  <paragraph>Üreme yeteneği / Fertilite
+  <br/>
+Üreme yeteneği/fertilite üzerine etkisi yoktur.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab9461-39d2-eb5c-e063-6394a90a9839">
+               <id root="31ab9461-39d1-eb5c-e063-6394a90a9839"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Undesirable effects The undesirable effects observed during the use of 5% Dextrose in water solutions are as follows: Very common (≥1/10); common (≥1/100 to &lt;1/10); uncommon (≥1/1,000 to &lt;1/100); rare (≥1/10,000 to &lt;1/1,000); very rare (&lt;1/10,000), not known (cannot be based on available data). Metabolism and nutritional disorders Not known: Fluid and electrolyte imbalances*; hyperglycemia and dehydration** Renal and urinary disorders Not known: Polyuria Surgical and medical procedures*** Not known: Injection site infection; local pain or reaction; vein irritation; development of venous thrombosis and phlebitis spreading from the injection site; extravasation; hypervolemia.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+* Hypokalemia, hypomagnesemia and hypophosphatemia etc. ** Adverse reactions generally seen as a result of incorrect parenteral administration *** Adverse reactions that can be seen depending on the application technique Adverse reactions related to drugs added to the solution can also be seen; the nature of these undesirable effects is determined by the properties of the added drug. Infusion should be terminated if an undesirable effect is observed. Reporting of suspected adverse reactions Reporting of suspected adverse reactions to drugs after licensing is of great importance. Reporting allows continuous monitoring of the benefit/risk balance of the drug. Healthcare professionals should report any suspected adverse reactions to the Turkish Pharmacovigilance Center (TÜFAM) (www.titck.gov.tr; e-mail: tufam@titck.gov.tr; tel: 0 800 314 00 08; fax: 0 312 218 35 99).
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ab91a9-ad77-edc1-e063-6394a90a1cc2">
+               <id root="31ab91a9-ad76-edc1-e063-6394a90a1cc2"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Overdose and treatment Rapid or prolonged administration of TURKFLEKS %5 DEXTROSE may lead to hyperosmolarity, dehydration, hyperglycemia, hyperglucosuria and osmotic diuresis (due to hyperglycemia). Patients may develop edema and water intoxication (with hyponatremia) due to fluid overload. If the overdose is due to drugs added to the solution, the signs and symptoms of overdose depend on the properties of the added drug. If the dose is accidentally exceeded during treatment, the administration should be discontinued and the patient should be monitored for signs and symptoms related to the drug applied. Symptomatic and supportive treatments should be applied when necessary.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31aba2d2-d62c-f61b-e063-6394a90aa734">
+               <id root="31aba2d2-d62b-f61b-e063-6394a90aa734"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <text>
+                  <paragraph>Emilim:
+  <br/>
+TURKFLEKS %5 DEKSTROZ intravenöz uygulama için geliştirilmiş bir ürün olduğundan bu bölümle ilgili bir bilgi bulunmamaktadır.
+  <br/>
+Dağılım:
+  <br/>
+Glukoz saatte 0.5 g/kg’a kadar olan dozlarda glukozüriye yol açmaksızın uygulanabilir. En yüksek infüzyon hızı olan saatte 0.8 g/kg hızında, uygulanan glukozun yaklaşık %95’i vücutta kalır.
+  <br/>
+Biyotransformasyon:
+  <br/>
+Glukoz vücutta kolaylıkla pirüvik asit veya laktik asit yolu ile tamamen metabolize olarak
+  <br/>
+enerji sağlar ve büyük oranda karbondioksit ile suya dönüşür.
+  <br/>
+Eliminasyon:
+  <br/>
+Biyotransformasyon sonucu oluşan karbondioksit akciğerlerle, su ise esas olarak böbrekler yoluyla az miktarda ise ter, feçes ve soluk vermeyle atılır.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31abb057-a9ed-c418-e063-6294a90a7805">
+               <id root="31abb057-a9ec-c418-e063-6294a90a7805"/>
+               <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+PHARMACOLOGICAL PROPERTIES 5.1. Pharmacodynamic properties. Pharmacotherapeutic group: Parenteral nutrition solutions / Carbohydrates ATC code: B05BA03. TURKFLEKS %5 DEXTROSE contains 5 grams of dextrose (D-glucose) anhydrate (C6H12O6) in every 100 ml solution. Dextrose anhydrate has a molecular weight of approximately 180.2. 1 gram provides energy equivalent to glucose, i.e. 4 calories. TURKFLEKS %5 DEXTROSE provides 200 kcal calories per liter. Moreover, a non-ionic hydration is provided by glucose infusion. Dextrose solutions are also given as a carbohydrate source in parenteral nutrition. However, more concentrated forms are preferred for this. The pharmacodynamic properties of TURKFLEKS 5% DEXTROSE consist of the properties of glucose, which is the active ingredient and the main energy source in cellular metabolism. TURKFLEKS 5% DEXTROSE is an almost isotonic solution with an osmolarity of approximately 277 mOsm/l. TURKFLEKS 5% DEXTROSE is used in the clinic to provide electrolyte-free hydration and may stimulate diuresis depending on the clinical condition of the patient. The pharmacodynamic properties of the drugs added to the solution are the same as the pharmacodynamic properties of the added drug.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31abb2d9-4c59-0589-e063-6394a90a7dbe">
+               <id root="31abb2d9-4c58-0589-e063-6394a90a7dbe"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Incompatibilities As with all parenteral solutions, before adding a drug to TURKFLEKS %5 DEXTROSE, it should be evaluated whether these drugs are compatible with the solution. It is the responsibility of the physician performing the application to decide whether the added drug is compatible by checking whether there is a color change and/or precipitation, insoluble compounds or crystallization after the drug is added. The compatibility of the drug to be added to TURKFLEKS %5 DEXTROSE should be decided by using the product information of the drug to be added. Before adding a drug to the solution, it should be confirmed that TURKFLEKS %5 DEXTROSE is soluble and stable at its pH. TURKFLEKS %5 DEXTROSE should be used immediately after a compatible drug is added to it. Drugs known to be incompatible should not be added.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Shelf life 36 months In-use shelf life: From a microbiological point of view, it should be used immediately after preparation for use. In cases where it is not used immediately, the determination of the storage conditions and duration is the responsibility of the person adding/diluting the drug and the duration is normally not longer than 24 hours at 2-8 °C unless this process is carried out under validated aseptic conditions.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Special precautions for storage No special storage requirements. Stored at room temperature below 25 °C, away from direct light.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31abc882-8072-e354-e063-6294a90a52bd">
+               <id root="31abc882-8071-e354-e063-6294a90a52bd"/>
+               <code code="69763-1" codeSystem="2.16.840.1.113883.6.1" displayName="DISPOSAL AND WASTE HANDLING"/>
+               <text>
+                  <paragraph>Disposal of residues of medicinal products for human use and other special precautions Unused products or waste materials should be disposed of in accordance with the 'Regulation on Control of Medical Waste' and 'Regulation on Control of Packaging Waste'.
+  <br/>
+For single use only.
+  <br/>
+Other special precautions related to the application:
+  <br/>
+The solutions to be infused should be visually inspected before use; only clear, particle-free and intact products should be used. After the application kit is attached to the product, the application should be started as soon as possible.
+  <br/>
+To prevent an air embolism due to residual air in the bag, serial connection with other infusion fluids should be avoided.
+  <br/>
+The solution should be administered using aseptic technique through a sterile administration set. Liquid should be passed through the administration set before use to prevent air from entering the system.
+  <br/>
+Additional drugs may be added before and during infusion under aseptic conditions. The isotonicity of the final product must be determined before parenteral administration.
+  <br/>
+The added drug must be completely mixed with the solution before administration to the patient. Solutions containing additional drugs should be used immediately after the addition of the drug; they should not be stored for later use.
+  <br/>
+Addition of additional drug to the solution or incorrect administration technique may cause fever reaction due to pyrogen contamination. In case of adverse reaction, the infusion should be discontinued immediately.
+ </paragraph>
+                  <paragraph>Translated with DeepL.com (free version)</paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31abd3ae-064f-d4ae-e063-6294a90a46cb">
+               <id root="31abd3ae-064e-d4ae-e063-6294a90a46cb"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>1. Check that the outer packaging is intact and free from leaks; do not use if the packaging is damaged.
+  <br/>
+2. Tear open the protective outer packaging.
+  <br/>
+3. Check that the bag in the protective packaging is intact by squeezing it.
+  <br/>
+4. Check that the solution in the bag is clear and free of foreign matter.
+  <br/>
+Please check.
+  <br/>
+Preparations for application:
+  <br/>
+1. Hang the bag.
+  <br/>
+2. Remove the protective cap from the application tip.
+  <br/>
+3. Insert the spoon of the administration set firmly into the administration tip. Administer the solution to the patient
+  <br/>
+The instructions for use of the kit must be followed for its application.
+  <br/>
+Adding additional medication:
+  <br/>
+Caution: As with all parenteral solutions, all substances to be added to the product must be compatible with the product. If the product is to be added, compatibility should be checked in the final mixture before administration to the patient.
+ </paragraph>
+                  <paragraph>Translated with DeepL.com (free version)</paragraph>
+                  <paragraph>- Adding medication before application:
+  <br/>
+1. The drug administration tip of the bag is disinfected.
+  <br/>
+2. The drug to be added is administered with a syringe with a 19-22 gauge needle.
+  <br/>
+3. The solution and the added drug are thoroughly mixed. For concentrated medication such as potassium chloride, the application outlet of the bag is tapped gently in the up position to ensure that the medication is fully mixed with the solution.
+  <br/>
+Caution: Bags with additional medication should not be stored.
+  <br/>
+- Adding medication during administration:
+  <br/>
+1. Clamp the set closed.
+  <br/>
+2. The drug application tip is disinfected.
+  <br/>
+3. The drug to be added is administered with a syringe with a 19-22 gauge needle.
+  <br/>
+4. Remove the bag from the strap and turn it upside down.
+  <br/>
+5. In this position, gently tap the administration outlet and injection inlet of the bag.
+  <br/>
+The solution and the additional drug are mixed by tapping.
+  <br/>
+6. Return the bag to its original position, open the clamp and continue the application.
+ </paragraph>
+                  <paragraph>Translated with DeepL.com (free version)</paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31ac4844-101c-4ee6-e063-6394a90afcdc">
+               <id root="31ac4844-101b-4ee6-e063-6394a90afcdc"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>March 31, 2025</paragraph>
+                  <paragraph>Subject: Temporary importation of Turkfleks %5 Dextrose Solution from Turk Ilac located in Ankara-TURKEY to address drug shortages per:</paragraph>
+                  <paragraph>
+                     <linkHtml href="https://dps.fda.gov/drugshortages/activeingredient/dextrose-monohydrate-5--injection">https://dps.fda.gov/drugshortages/activeingredient/dextrose-monohydrate-5--injection</linkHtml>
+                  </paragraph>
+                  <paragraph> To prevent a shortage of large volume parenteral fluid drug products, Turk Ilac ve Serum Sanayi is coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import Turkfleks %5 Dextrose Solution 100ml, 150ml, 250ml, 500ml, 1000ml from Turk Ilac ve Serum Sanayi manufacturing facility located in Ankara/TURKEY. FDA has not approved these products manufactured by Turk Ilac ve Serum Sanayi.</paragraph>
+                  <paragraph/>
+                  <paragraph>Effective immediately, and during this temporary period, Turk Ilac ve Serum Sanayi will offer the following imported product from Turk Ilac ve Serum Sanayi facility located in Ankara/TURKEY:</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name and Description</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Volume</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Bags per Box</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>NDC Code</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %5 Dextrose Solution</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-300-10</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %5 Dextrose Solution</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>150ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-300-20</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %5 Dextrose Solution</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>250ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-300-30</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %5 Dextrose Solution</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>500ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-300-40</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %5 Dextrose Solution</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1000ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-300-50</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Please note the following:</paragraph>
+                  <list listType="unordered">
+                     <item>Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</item>
+                     <item>The bag labels will contain the active pharmaceutical ingredient, concentration, volume, and NDC code in English.</item>
+                     <item>The imported products' administration port system is fully compatible with sets marketed in the United States.</item>
+                     <item>The imported products use a carton box that is taped closed. To avoid damage to the solution container, take care not to use sharp instruments to open the box.</item>
+                     <item>The imported products do not contain barcodes on the unit label. Alternative procedures should be followed to ensure that the correct drug product is being used in all systems and processes and administered to individual patients. For example, institutions should consider manually inputting the product into their systems and confirm that barcode systems do not provide incorrect information when the product is scanned.</item>
+                     <item>%5 Dextrose Solution is available only by prescription in the United States. However, the imported products do not have the statement "Rx only" on the labeling.</item>
+                     <item>USE A NEW BAG IF PARTICULATES ARE VISIBLE OR IF THE IV BAG CONTAINS A LEAK.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Additional key differences in the labeling between the FDA-approved product and the imported products are stated in the product comparison table at the end of this letter as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 1. Key differences between FDA-approved and Turkfleks %5 Dextrose Solution</paragraph>
+                  <paragraph>Table 2. Label images of FDA-approved and Turkfleks %5 Dextrose Solution</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Reporting Adverse Events or Product Quality Issues</content>
+                  </paragraph>
+                  <paragraph>To report adverse events associated with these imported products, please use the contact us at info@turkilac.com.tr.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse events or quality problems experienced with the use of these imported products may also be reported to the FDA's MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: 
+   <linkHtml href="http://www.fda.gov/medwatch/report.htm">www.fda.gov/medwatch/report.htm</linkHtml>
+                     </item>
+                     <item>Regular mail or Fax: Download form 
+   <linkHtml href="http://www.fda.gov/MedWatch/getforms.htm">www.fda.gov/MedWatch/getforms.htm</linkHtml>
+                     </item>
+                  </list>
+                  <paragraph>or call 1-800332-1088 to request a reporting form, then complete and return to the address on the preaddressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>Mehmet Berat Battal</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 1: Key Differences between FDA Approved product and Turkfleks %5 Dextrose Solution</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph/>
+                           </td>
+                           <td>
+                              <paragraph>FDA- Approved Product</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks Import from Turkey</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>5% Dextrose Injection USP, 500 mL</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks 5% Dextrose Water Solution</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Language of the Labels</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>English</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkish*</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Indications</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>These intravenous solutions are indicated for use in adults and pediatric patients as sources of calories and water for hydration.</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>- TURKFLEKS 5% DEXTROSE is indicated for the treatment of carbohydrate and fluid deficiency.</paragraph>
+                              <paragraph>- TURKFLEKS 5% DEXTROSE is also used as a diluent solution for drugs that are compatible with it in parenteral applications.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Active Ingredients</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Each 100 mL of 5% Dextrose Injection, USP, contains dextrose monohydrate, 5 g in water for injection. The caloric value is 170 kcal/L. The osmolarity is 252 mOsmol/L (calc.), which is slightly hypotonic. The solution pH is 4.3 (3.2 to 6.5).</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Each 100 mL of 5% Dextrose Injection contains:</paragraph>
+                              <paragraph>anyhdrat Dextrose 5 g; Water for Injection qs</paragraph>
+                              <paragraph>pH: 4.4 (3.5–6.5); Calculated Osmolarity: 277 mOsmol/liter</paragraph>
+                              <paragraph>Calories per liter: 200 kcal</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Store Conditions</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at room temperature 25C/77F</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at below 30C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Container Type</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="italics">freeflex</content>® bags
+     </paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Polypropylene</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 2: Label Images of FDA-approved and Turkfleks %5 Dextrose Solution</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>FDA-approved Product</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_31ac5a1a-004f-32ac-e063-6294a90ad3d3"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Turkfleks %0.9 Sodium Chloride Injection</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_31ac4849-5d4a-2413-e063-6294a90a9a1a"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+               <component>
+                  <observationMedia ID="img_31ac5a1a-004f-32ac-e063-6294a90ad3d3">
+                     <text>FDA Approved</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="FDA Approved.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_31ac4849-5d4a-2413-e063-6294a90a9a1a">
+                     <text>Label Turkfleks</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label Turkfleks.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31abddab-43ac-e90f-e063-6294a90abeb9">
+               <id root="31abddab-43ab-e90f-e063-6294a90abeb9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_31abddab-43aa-e90f-e063-6294a90abeb9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+               <component>
+                  <observationMedia ID="img_31abddab-43aa-e90f-e063-6294a90abeb9">
+                     <text>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

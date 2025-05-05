@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f7d45a0c-35c1-4242-b7d4-b7023b03b410"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">ACYCLOVIR TABLETS, USP</content>
+      <br/>
+      <content styleCode="bold">400 mg and 800 mg</content>
+      <br/>
+   </title>
+   <effectiveTime value="20250414"/>
+   <setId root="1bc88200-be9b-4fab-bec2-8f303bd1c366"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="191427277" root="1.3.6.1.4.1.519.1"/>
+            <name>Major Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="84cc60eb-4e81-43ad-853f-80e425293b7d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250414"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0904-5790" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>acyclovir</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>acyclovir</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="60505-5306" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="400"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X4HES1O11F" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACYCLOVIR</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X4HES1O11F" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACYCLOVIR</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="100"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0904-5790-61" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43179" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX, UNIT-DOSE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20070209"/>
+                                          <high value="20251231"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA077309" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20070209"/>
+                              <high value="20251231"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="15" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">Apotex;5306</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="_6548d024-6b66-81d7-33e2-95b22466f3e2">
+               <id root="a1592954-798c-46ca-b76a-bedb9ee0c77d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Acyclovir is a synthetic nucleoside analogue active against herpes viruses. Acyclovir tablets are a formulation for oral administration. Each 800 mg tablet of acyclovir contains 800 mg of acyclovir and the inactive ingredients colloidal silicon dioxide, croscarmellose sodium, magnesium stearate and microcrystalline cellulose. Each 400 mg tablet of acyclovir contains 400 mg of acyclovir and the inactive ingredients colloidal silicon dioxide, croscarmellose sodium, magnesium stearate and microcrystalline cellulose.</paragraph>
+                  <paragraph>Acyclovir is a white, crystalline powder with the molecular formula C<sub>8</sub>H<sub>11</sub>N<sub>5</sub>O<sub>3</sub> and a molecular weight of 225.2. The maximum solubility in water at 37°C is 2.5 mg/mL. The pKa’s of acyclovir are 2.27 and 9.25.</paragraph>
+                  <paragraph>The chemical name of acyclovir is 2-amino-1,9-dihydro-9-[(2-hydroxyethoxy)methyl]-6<content styleCode="italics">H</content>-purin-6-one; it has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id462" referencedObject="MM1143060472-1"/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM1143060472-1">
+                     <text>acyclovir structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="acyclovir structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_7e875c12-5275-054d-0feb-bf85faec3bf3">
+               <id root="95a9b491-f812-48da-a61e-90a4e7c377fb"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>VIROLOGY</title>
+               <effectiveTime value="20191203"/>
+               <component>
+                  <section ID="_f94f6b89-9978-7dfb-a180-9df08afd66c1">
+                     <id root="31099a61-ab27-419e-bced-d9a6fd9bc700"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Antiviral Action</title>
+                     <text>
+                        <paragraph> Acyclovir is a synthetic purine nucleoside analogue with <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). </paragraph>
+                        <paragraph> The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV. This viral enzyme converts acyclovir into acyclovir monophosphate, a nucleotide analogue. The monophosphate is further converted into diphosphate by cellular guanylate kinase and into triphosphate by a number of cellular enzymes. <content styleCode="italics">In vitro</content>, acyclovir triphosphate stops replication of herpes viral DNA. This is accomplished in 3 ways: 1) competitive inhibition of viral DNA polymerase, 2) incorporation into and termination of the growing viral DNA chain, and 3) inactivation of the viral DNA polymerase. The greater antiviral activity of acyclovir against HSV compared to VZV is due to its more efficient phosphorylation by the viral TK.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_ffbc5d6f-2c24-cfef-82aa-64d676415e4c">
+                     <id root="c180d3ff-9ea7-49a9-a427-3ba823618121"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Antiviral Activities</title>
+                     <text>
+                        <paragraph>The quantitative relationship between the <content styleCode="italics">in vitro</content> susceptibility of herpes viruses to antivirals and the clinical response to therapy has not been established in humans, and virus sensitivity testing has not been standardized. Sensitivity testing results, expressed as the concentration of drug required to inhibit by 50% the growth of virus in cell culture (IC<sub>50</sub>), vary greatly depending upon a number of factors. Using plaque-reduction assays, the IC<sub>50</sub> against herpes simplex virus isolates ranges from 0.02 to 13.5 mcg/mL for HSV-1 and from 0.01 to 9.9 mcg/mL for HSV-2. The IC<sub>50</sub> for acyclovir against most laboratory strains and clinical isolates of VZV ranges from 0.12 to 10.8 mcg/mL. Acyclovir also demonstrates activity against the Oka vaccine strain of VZV with a mean IC<sub>50</sub> of 1.35 mcg/mL.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_49ca62ac-9584-8d1c-c1e1-890eb606cf44">
+                     <id root="37f194c3-d12e-49c1-9687-59af4be34ff2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Drug Resistance</title>
+                     <text>
+                        <paragraph>Resistance of HSV and VZV to acyclovir can result from qualitative and quantitative changes in the viral TK and/or DNA polymerase. Clinical isolates of HSV and VZV with reduced susceptibility to acyclovir have been recovered from immunocompromised patients, especially with advanced HIV infection. While most of the acyclovir-resistant mutants isolated thus far from immunocompromised patients have been found to be TK-deficient mutants, other mutants involving the viral TK gene (TK partial and TK altered) and DNA polymerase have been isolated. TK-negative mutants may cause severe disease in infants and immunocompromised adults. The possibility of viral resistance to acyclovir should be considered in patients who show poor clinical response during therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_957f100a-a2f9-2c4e-5f56-55d7f6e6cebe">
+               <id root="7c7834a8-9d12-441e-b900-2bcf75dbc2bf"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <section ID="_a19e0da0-53d9-8743-661e-16a67cdc287e">
+                     <id root="fa8ba3fd-8e80-44e9-914f-cebefad1adfd"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The pharmacokinetics of acyclovir after oral administration have been evaluated in healthy volunteers and in immunocompromised patients with herpes simplex or varicella-zoster virus infection. Acyclovir pharmacokinetic parameters are summarized in Table 1.</paragraph>
+                        <table ID="_RefID0EZCAE" width="100%">
+                           <caption>Table 1: Acyclovir Pharmacokinetic Characteristics (Range) </caption>
+                           <col width="49%"/>
+                           <col width="49%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Parameter</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Range</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>Plasma protein binding</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>9% to 33%</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>Plasma elimination half-life</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>2.5 to 3.3 h</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>Average oral bioavailability</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>10% to 20%<footnote ID="_RefID0EGEAE">Bioavailability decreases with increasing dose.</footnote>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In one multiple-dose, crossover study in healthy subjects (n = 23), it was shown that increases in plasma acyclovir concentrations were less than dose proportional with increasing dose, as shown in Table 2. The decrease in bioavailability is a function of the dose and not the dosage form.</paragraph>
+                        <table ID="_RefID0EIEAE" width="50%">
+                           <caption>Table 2: Acyclovir Peak and Trough Concentrations at Steady State</caption>
+                           <col width="13%"/>
+                           <col width="15%"/>
+                           <col width="15%"/>
+                           <col width="15%"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Parameter</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">200 mg</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">400 mg</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">800 mg</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top">
+                                    <renderMultiMedia ID="id583" referencedObject="MM1143059448-1"/>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>0.83 mcg/mL</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>1.21 mcg/mL</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>1.61 mcg/mL</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule " valign="top">
+                                    <renderMultiMedia ID="id592" referencedObject="MM1143059456-1"/>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>0.46 mcg/mL</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>0.63 mcg/mL</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>0.83 mcg/mL</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>There was no effect of food on the absorption of acyclovir (n = 6); therefore, acyclovir tablets may be administered with or without food. The only known urinary metabolite is 9-[(carboxymethoxy)methyl]guanine.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                     <component>
+                        <observationMedia ID="MM1143059448-1">
+                           <text>acyclovir-02</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="acyclovir-02.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM1143059456-1">
+                           <text>acyclovir-03</text>
+                           <value mediaType="image/jpeg" xsi:type="ED">
+                              <reference value="acyclovir-03.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_28f6e49d-1066-e2f1-e409-3b65003bb5f8">
+                     <id root="7414f686-1a42-4dc5-9346-d3489efce1cd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Populations</title>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_7a0d8192-9cb6-cc0c-a199-3bdcea75bfb2">
+                           <id root="28aecfed-2dc1-46a1-b3e3-8db7211e6e2d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Adults with Impaired Renal Function</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The half-life and total body clearance of acyclovir are dependent on renal function. A dosage adjustment is recommended for patients with reduced renal function (see <content styleCode="bold">
+                                    <linkHtml href="#_b3155753-d45e-afc1-5ce7-30e5e45279c6">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_c2bf0097-84ad-76e7-d4c1-a3a810eef9e7">
+                           <id root="42e1aee8-69fa-427c-845d-b18fff1db986"/>
+                           <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Geriatrics</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Acyclovir plasma concentrations are higher in geriatric patients compared to younger adults, in part due to age-related changes in renal function. Dosage reduction may be required in geriatric patients with underlying renal impairment (see <content styleCode="bold">
+                                    <linkHtml href="#_e6a7c14f-249b-9da7-4139-8feded9f053c">PRECAUTIONS: Geriatric Use</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_d00c91cc-6d4e-c0a9-e964-c4d9af071e35">
+                           <id root="1d61f44e-e0b9-4a2b-90b0-3300975edacb"/>
+                           <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Pediatrics</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>In general, the pharmacokinetics of acyclovir in pediatric patients is similar to that of adults. Mean half-life after oral doses of 300 mg/m<sup>2</sup> and 600 mg/m<sup>2</sup> in pediatric patients aged 7 months to 7 years was 2.6 hours (range 1.59 to 3.74 hours).</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_5ef65fda-4872-e38e-09ea-f5835fc250de">
+                     <id root="fc35c946-b027-4d65-8464-4c38dc6867fc"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Coadministration of probenecid with intravenous acyclovir has been shown to increase the mean acyclovir half-life and the area under the concentration-time curve. Urinary excretion and renal clearance were correspondingly reduced.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_311bd107-7903-f775-3435-cd5e11c88cb0">
+                     <id root="0427fb7d-074b-42f0-ad03-3987fbcac4f5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Clinical Trials</title>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_db9c83cc-8228-6287-8936-dac3b8a455ea">
+                           <id root="31ed4ca4-50e7-44bb-a69f-4974b63887ab"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Initial Genital Herpes</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Double-blind, placebo-controlled studies have demonstrated that orally administered acyclovir significantly reduced the duration of acute infection and duration of lesion healing. The duration of pain and new lesion formation was decreased in some patient groups. </paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_b2d25caf-acd9-9da5-b16f-30b282f149db">
+                           <id root="194cb265-cf3f-4d54-8c6a-37b09e90162e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Recurrent Genital Herpes</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Double-blind, placebo-controlled studies in patients with frequent recurrences (6 or more episodes per year) have shown that orally administered acyclovir given daily for 4 months to 10 years prevented or reduced the frequency and/or severity of recurrences in greater than 95% of patients. </paragraph>
+                              <paragraph>In a study of patients who received acyclovir 400 mg twice daily for 3 years, 45%, 52%, and 63% of patients remained free of recurrences in the first, second, and third years, respectively. Serial analyses of the 3-month recurrence rates for the patients showed that 71% to 87% were recurrence free in each quarter. </paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_1712a240-e4bb-a792-36b8-6d72918e1a81">
+                           <id root="d425ccd2-a2e6-4a45-b4cd-127cc633d376"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Herpes Zoster Infections</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>In a double-blind, placebo-controlled study of immunocompetent patients with localized cutaneous zoster infection, acyclovir (800 mg 5 times daily for 10 days) shortened the times to lesion scabbing, healing, and complete cessation of pain, and reduced the duration of viral shedding and the duration of new lesion formation.</paragraph>
+                              <paragraph>In a similar double-blind, placebo-controlled study, acyclovir (800 mg 5 times daily for 7 days) shortened the times to complete lesion scabbing, healing, and cessation of pain; reduced the duration of new lesion formation; and reduced the prevalence of localized zoster-associated neurologic symptoms (paresthesia, dysesthesia, or hyperesthesia).</paragraph>
+                              <paragraph>Treatment was begun within 72 hours of rash onset and was most effective if started within the first 48 hours.</paragraph>
+                              <paragraph>Adults greater than 50 years of age showed greater benefit.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_20950610-1897-8519-0a53-44fab85ff379">
+                           <id root="81ee051a-6ad9-4e2c-995a-90106abb7815"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Chickenpox</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Three randomized, double-blind, placebo-controlled trials were conducted in 993 pediatric patients aged 2 to 18 years with chickenpox. All patients were treated within 24 hours after the onset of rash. In 2 trials, acyclovir was administered at 20 mg/kg 4 times daily (up to 3,200 mg per day) for 5 days. In the third trial, doses of 10, 15, or 20 mg/kg were administered 4 times daily for 5 to 7 days. Treatment with acyclovir shortened the time to 50% healing; reduced the maximum number of lesions; reduced the median number of vesicles; decreased the median number of residual lesions on day 28; and decreased the proportion of patients with fever, anorexia, and lethargy by day 2. Treatment with acyclovir did not affect varicella-zoster virus-specific humoral or cellular immune responses at 1 month or 1 year following treatment.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_c949c135-1e89-71e6-64d9-7ae09c4ee53a">
+               <id root="f832f276-6da1-4460-bcb4-589f3e79743c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <effectiveTime value="20191203"/>
+               <component>
+                  <section ID="_0de21cfb-139f-d388-4ccd-9abfe24ca174">
+                     <id root="a7caddfd-304c-4b26-b577-42707f218e22"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Herpes Zoster Infections</title>
+                     <text>
+                        <paragraph>Acyclovir tablets are indicated for the acute treatment of herpes zoster (shingles).</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_50edab85-24d9-e0c1-c08d-f11f957ddb3d">
+                     <id root="9101f150-d476-4d04-8215-b9685c4f59e2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Genital Herpes</title>
+                     <text>
+                        <paragraph>Acyclovir tablets are indicated for the treatment of initial episodes and the management of recurrent episodes of genital herpes.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_415c9e80-9107-de27-91b9-4894fbaf2292">
+                     <id root="8783727b-ef5c-49bf-9faf-376e0ed6935d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Chickenpox</title>
+                     <text>
+                        <paragraph>Acyclovir tablets are indicated for the treatment of chickenpox (varicella).</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_5f2dfa6e-631f-1f71-0eb7-c50270d19abd">
+               <id root="076cb113-5dfc-47ae-8729-c25cf869ff64"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Acyclovir is contraindicated for patients who develop hypersensitivity to acyclovir or valacyclovir.</paragraph>
+               </text>
+               <effectiveTime value="20191203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_07edc668-0812-148b-bba0-db14d178f949">
+               <id root="6d539509-79c6-4357-926b-962de82349d0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Acyclovir tablets are intended for oral ingestion only. Renal failure, in some cases resulting in death, has been observed with acyclovir therapy (see <content styleCode="bold">
+                        <linkHtml href="#_1e84d6b5-ed13-8d39-5f99-297f1508d775">ADVERSE REACTIONS: Observed During Clinical Practice</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#_f80e1311-6f9b-f07d-2c51-0479848b2964">OVERDOSAGE</linkHtml>
+                     </content>). Thrombotic thrombocytopenic purpura/hemolytic uremic syndrome (TTP/HUS), which has resulted in death, has occurred in immunocompromised patients receiving acyclovir therapy.</paragraph>
+               </text>
+               <effectiveTime value="20191203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_3d2b8aaa-b3f3-6c15-b0ba-bc12e685a058">
+               <id root="11e753b3-ee41-448e-924a-5fdcd8da2612"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Dosage adjustment is recommended when administering acyclovir to patients with renal impairment (see <content styleCode="bold">
+                        <linkHtml href="#_b3155753-d45e-afc1-5ce7-30e5e45279c6">DOSAGE AND ADMINISTRATION)</linkHtml>
+                     </content>. Caution should also be exercised when administering acyclovir to patients receiving potentially nephrotoxic agents since this may increase the risk of renal dysfunction and/or the risk of reversible central nervous system symptoms such as those that have been reported in patients treated with intravenous acyclovir. Adequate hydration should be maintained.</paragraph>
+               </text>
+               <effectiveTime value="20191203"/>
+               <component>
+                  <section ID="_d02550ef-2f19-5db8-52bb-236fee6cca7e">
+                     <id root="8fe6f0e6-8d52-4bd3-b7c0-13cb8b8641cc"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients are instructed to consult with their physician if they experience severe or troublesome adverse reactions, they become pregnant or intend to become pregnant, they intend to breastfeed while taking orally administered acyclovir, or they have any other questions. </paragraph>
+                        <paragraph>Patients should be advised to maintain adequate hydration.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_4ecb6d67-1f89-870b-5376-d1ff1cbf846f">
+                           <id root="89ec8443-e8d6-4daa-8d07-f93d32ffd27e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Herpes Zoster</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph> There are no data on treatment initiated more than 72 hours after onset of the zoster rash. Patients should be advised to initiate treatment as soon as possible after a diagnosis of herpes zoster. </paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_095b76ae-7b67-6675-0060-183d08b19c6c">
+                           <id root="11ea22b5-a566-4071-84d5-5150e50ff5a2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Genital Herpes Infections</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph> Patients should be informed that acyclovir is not a cure for genital herpes. There are no data evaluating whether acyclovir will prevent transmission of infection to others. Because genital herpes is a sexually transmitted disease, patients should avoid contact with lesions or intercourse when lesions and/or symptoms are present to avoid infecting partners. Genital herpes can also be transmitted in the absence of symptoms through asymptomatic viral shedding. If medical management of a genital herpes recurrence is indicated, patients should be advised to initiate therapy at the first sign or symptom of an episode.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_598aaeed-ff22-7583-71ee-d6a2d430ec2f">
+                           <id root="8a3032e3-6df4-4fcc-bcd7-c8e11dadf62e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Chickenpox</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph> Chickenpox in otherwise healthy children is usually a self-limited disease of mild to moderate severity. Adolescents and adults tend to have more severe disease. Treatment was initiated within 24 hours of the typical chickenpox rash in the controlled studies, and there is no information regarding the effects of treatment begun later in the disease course. </paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_c27dac1c-40d2-de32-e0f7-1ee8df8ec825">
+                     <id root="58450f75-7a76-4bcf-9358-274e55bc4516"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#_a19e0da0-53d9-8743-661e-16a67cdc287e">CLINICAL PHARMACOLOGY: Pharmacokinetics</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_16c33aee-3840-a89c-4168-377639fec5bb">
+                     <id root="d5250012-d386-4be4-8e88-cebd063b1b8b"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>The data presented below include references to peak steady-state plasma acyclovir concentrations observed in humans treated with 800 mg given orally 5 times a day (dosing appropriate for treatment of herpes zoster) or 200 mg given orally 5 times a day (dosing appropriate for treatment of genital herpes). Plasma drug concentrations in animal studies are expressed as multiples of human exposure to acyclovir at the higher and lower dosing schedules (see <content styleCode="bold">
+                              <linkHtml href="#_a19e0da0-53d9-8743-661e-16a67cdc287e">CLINICAL PHARMACOLOGY: Pharmacokinetics</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph> Acyclovir was tested in lifetime bioassays in rats and mice at single daily doses of up to 450 mg/kg administered by gavage. There was no statistically significant difference in the incidence of tumors between treated and control animals, nor did acyclovir shorten the latency of tumors. Maximum plasma concentrations were 3 to 6 times human levels in the mouse bioassay and 1 to 2 times human levels in the rat bioassay.</paragraph>
+                        <paragraph> Acyclovir was tested in 16 <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> genetic toxicity assays. Acyclovir was positive in 5 of the assays.</paragraph>
+                        <paragraph> Acyclovir did not impair fertility or reproduction in mice (450 mg/kg/day, p.o.) or in rats (25 mg/kg/day, s.c.). In the mouse study, plasma levels were 9 to 18 times human levels, while in the rat study, they were 8 to 15 times human levels. At higher doses (50 mg/kg/day, s.c.) in rats and rabbits (11 to 22 and 16 to 31 times human levels, respectively) implantation efficacy, but not litter size, was decreased. In a rat peri- and post-natal study at 50 mg/kg/day, s.c., there was a statistically significant decrease in group mean numbers of corpora lutea, total implantation sites, and live fetuses.</paragraph>
+                        <paragraph> No testicular abnormalities were seen in dogs given 50 mg/kg/day, IV for 1 month (21 to 41 times human levels) or in dogs given 60 mg/kg/day orally for 1 year (6 to 12 times human levels). Testicular atrophy and aspermatogenesis were observed in rats and dogs at higher dose levels.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_4b1ed7d3-cf46-4eeb-b749-dd7ab137c411">
+                     <id root="63d6ffc6-0bd5-46b3-b83d-3ff9b5c26b01"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_7a22453f-f2d9-6e06-5811-768fded52502">
+                           <id root="550d8d5d-c2dc-40ff-903c-f0e8844be304"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Teratogenic Effects</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Pregnancy Category B. Acyclovir administered during organogenesis was not teratogenic in the mouse (450 mg/kg/day, p.o.), rabbit (50 mg/kg/day, s.c. and IV), or rat (50 mg/kg/day, s.c.). These exposures resulted in plasma levels 9 and 18, 16 and 106, and 11 and 22 times, respectively, human levels.</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>	There are no adequate and well-controlled studies in pregnant women. A prospective epidemiologic registry of acyclovir use during pregnancy was established in 1984 and completed in April 1999. There were 749 pregnancies followed in women exposed to systemic acyclovir during the first trimester of pregnancy resulting in 756 outcomes. The occurrence rate of birth defects approximates that found in the general population. However, the small size of the registry is insufficient to evaluate the risk for less common defects or to permit reliable or definitive conclusions regarding the safety of acyclovir in pregnant women and their developing fetuses. Acyclovir should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_642d2a26-34ed-6f92-a301-79198741abdd">
+                     <id root="8f41aea4-49e7-4ec3-8f00-3ea03d8c5603"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Acyclovir concentrations have been documented in breast milk in 2 women following oral administration of acyclovir and ranged from 0.6 to 4.1 times corresponding plasma levels. These concentrations would potentially expose the nursing infant to a dose of acyclovir up to 0.3 mg/kg/day. Acyclovir should be administered to a nursing mother with caution and only when indicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_9df110a3-961b-9276-40b9-aaf2917d2d05">
+                     <id root="77fe0e5a-5bb2-47fb-acf0-b26b3e4aecef"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph> Safety and effectiveness of oral formulations of acyclovir in pediatric patients younger than 2 years of age have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_e6a7c14f-249b-9da7-4139-8feded9f053c">
+                     <id root="a32082b4-de6f-467c-964d-9274d442f426"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Of 376 subjects who received acyclovir in a clinical study of herpes zoster treatment in immunocompetent subjects ≥50 years of age, 244 were 65 and over while 111 were 75 and over. No overall differences in effectiveness for time to cessation of new lesion formation or time to healing were reported between geriatric subjects and younger adult subjects. The duration of pain after healing was longer in patients 65 and over. Nausea, vomiting, and dizziness were reported more frequently in elderly subjects. Elderly patients are more likely to have reduced renal function and require dose reduction. Elderly patients are also more likely to have renal or CNS adverse events. With respect to CNS adverse events observed during clinical practice, somnolence, hallucinations, confusion, and coma were reported more frequently in elderly patients (see <content styleCode="bold">
+                              <linkHtml href="#_957f100a-a2f9-2c4e-5f56-55d7f6e6cebe">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>, <content styleCode="bold">
+                              <linkHtml href="#_1e84d6b5-ed13-8d39-5f99-297f1508d775">ADVERSE REACTIONS: Observed During Clinical Practice</linkHtml>
+                           </content>, and <content styleCode="bold">
+                              <linkHtml href="#_b3155753-d45e-afc1-5ce7-30e5e45279c6">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_90b62ab8-76cf-30cf-f25f-4b16999d85f1">
+               <id root="55024803-751b-489f-98f3-046e6449d91e"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <effectiveTime value="20191203"/>
+               <component>
+                  <section ID="_71154162-6879-6876-d858-1ecbe2190232">
+                     <id root="f53deb58-2378-40a0-b360-2dec5278b9dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Herpes Simplex</title>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_cd09d458-a441-ae6d-f749-7b3674ce2cb0">
+                           <id root="f70e3eef-ea31-4a80-8066-7098d1f1f938"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Short-Term Administration</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The most frequent adverse events reported during clinical trials of treatment of genital herpes with acyclovir 200 mg administered orally 5 times daily every 4 hours for 10 days were nausea and/or vomiting in 8 of 298 patient treatments (2.7%). Nausea and/or vomiting occurred in 2 of 287 (0.7%) patients who received placebo.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_f7c709b3-72d6-c8ce-845a-04d141d7f6f2">
+                           <id root="093afe91-3ca3-439e-b64f-a3c6bf881981"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Long-Term Administration</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The most frequent adverse events reported in a clinical trial for the prevention of recurrences with continuous administration of 400 mg (two 200-mg capsules) 2 times daily for 1 year in 586 patients treated with acyclovir were nausea (4.8%) and diarrhea (2.4%). The 589 control patients receiving intermittent treatment of recurrences with acyclovir for 1 year reported diarrhea (2.7%), nausea (2.4%), and headache (2.2%).</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_c6c9c430-1753-8432-d560-cbc20baebd24">
+                     <id root="f8195aed-7ca3-43e2-8702-35e6a2ebb456"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Herpes Zoster</title>
+                     <text>
+                        <paragraph> The most frequent adverse event reported during 3 clinical trials of treatment of herpes zoster (shingles) with 800 mg of oral acyclovir 5 times daily for 7 to 10 days in 323 patients was malaise (11.5%). The 323 placebo recipients reported malaise (11.1%).</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_95cf165a-0454-1a5a-37d0-4b37d0f113ca">
+                     <id root="1f81fcb3-65d4-43bd-b48c-4d58b97dfc5f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Chickenpox</title>
+                     <text>
+                        <paragraph> The most frequent adverse event reported during 3 clinical trials of treatment of chickenpox with oral acyclovir at doses of 10 to 20 mg/kg 4 times daily for 5 to 7 days or 800 mg 4 times daily for 5 days in 495 patients was diarrhea (3.2%). The 498 patients receiving placebo reported diarrhea (2.2%).</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_1e84d6b5-ed13-8d39-5f99-297f1508d775">
+                     <id root="ac4d416d-56cc-45ea-a14e-f5f553890886"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Observed During Clinical Practice</title>
+                     <text>
+                        <paragraph> In addition to adverse events reported from clinical trials, the following events have been identified during post-approval use of acyclovir. Because they are reported voluntarily from a population of unknown size, estimates of frequency cannot be made. These events have been chosen for inclusion due to either their seriousness, frequency of reporting, potential causal connection to acyclovir, or a combination of these factors.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">General: </content>
+                           </content>Anaphylaxis, angioedema, fever, headache, pain, peripheral edema.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Nervous:</content> </content>Aggressive behavior, agitation, ataxia, coma, confusion, decreased consciousness, delirium, dizziness, dysarthria, encephalopathy, hallucinations, paresthesia, psychosis, seizure, somnolence, tremors. These symptoms may be marked, particularly in older adults or in patients with renal impairment (see <content styleCode="bold">PRECAUTIONS</content>).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Digestive:  </content>
+                           </content>Diarrhea, gastrointestinal distress, nausea.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hematologic and Lymphatic: </content>
+                           </content>Anemia, leukocytoclastic vasculitis, leukopenia, lymphadenopathy, thrombocytopenia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Hepatobiliary Tract and Pancreas: </content>
+                           </content>Elevated liver function tests, hepatitis, hyperbilirubinemia, jaundice.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Musculoskeletal:</content>
+                           </content> Myalgia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Skin: </content>
+                           </content>Alopecia, erythema multiforme, photosensitive rash, pruritus, rash, Stevens-Johnson syndrome, toxic epidermal necrolysis, urticaria.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Special Senses: </content>
+                           </content>Visual abnormalities.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Urogenital: </content>
+                           </content>Renal failure, elevated blood urea nitrogen, elevated creatinine, hematuria (see<content styleCode="bold">
+                              <content styleCode="italics"> WARNINGS).</content>
+                           </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_f80e1311-6f9b-f07d-2c51-0479848b2964">
+               <id root="c28a57a2-93d3-4ed7-8745-9c678fbdc7f9"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdoses involving ingestion of up to 100 capsules (20 g) have been reported. Adverse events that have been reported in association with overdosage include agitation, coma, seizures, and lethargy. Precipitation of acyclovir in renal tubules may occur when the solubility (2.5 mg/mL) is exceeded in the intratubular fluid. Overdosage has been reported following bolus injections or inappropriately high doses and in patients whose fluid and electrolyte balance were not properly monitored. This has resulted in elevated BUN and serum creatinine and subsequent renal failure. In the event of acute renal failure and anuria, the patient may benefit from hemodialysis until renal function is restored (see <content styleCode="bold">
+                        <linkHtml href="#_b3155753-d45e-afc1-5ce7-30e5e45279c6">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20191203"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_b3155753-d45e-afc1-5ce7-30e5e45279c6">
+               <id root="67489ba6-85e6-415a-b3bb-a0a2edc31d49"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <section ID="_bfb28753-c72a-a5fd-b590-523d9742cf5c">
+                     <id root="831c47ff-ec19-41ac-bd12-c726b932cd45"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Acute Treatment of Herpes Zoster</title>
+                     <text>
+                        <paragraph>800 mg every 4 hours orally, 5 times daily for 7 to 10 days.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_fb462c3c-9ac5-931e-bd74-198fffdc631c">
+                     <id root="50f81793-b0f7-41c5-8084-a78438b5c8ea"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Genital Herpes</title>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_0ec26ead-97c3-d575-e049-d54f12bb8ac4">
+                           <id root="192a14bc-eb74-433c-a0ef-5bed03e232c4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Treatment of Initial Genital Herpes</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>200 mg every 4 hours, 5 times daily for 10 days.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_ccbb7744-9d33-16fa-a1a1-4a55beb22f5d">
+                           <id root="db4d125c-2206-4303-9952-aef147ebb160"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Chronic Suppressive Therapy for Recurrent Disease</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>400 mg 2 times daily for up to 12 months, followed by re-evaluation. Alternative regimens have included doses ranging from 200 mg 3 times daily to 200 mg 5 times daily.</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>	The frequency and severity of episodes of untreated genital herpes may change over time. After 1 year of therapy, the frequency and severity of the patient’s genital herpes infection should be re-evaluated to assess the need for continuation of therapy with acyclovir.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_68a2d4cd-8f6d-74a9-5c8c-d765c02aac28">
+                           <id root="fe224253-ca95-439e-9b35-5f0cf4c3f091"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Intermittent Therapy</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>200 mg every 4 hours, 5 times daily for 5 days. Therapy should be initiated at the earliest sign or symptom (prodrome) of recurrence.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_6782c6a0-e11e-f839-b78c-7ab977f07319">
+                     <id root="bcb9d53f-a0a4-48c1-9246-4f48ab6ad670"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment of Chickenpox</title>
+                     <effectiveTime value="20191203"/>
+                     <component>
+                        <section ID="_29a134ed-93e3-2fba-2348-49cea7ba33d7">
+                           <id root="34861cb9-9572-4fdb-ac44-79200c66a68a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Children (2 years of age and older)</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>20 mg/kg <content styleCode="bold">per dose</content> orally 4 times daily (80 mg/kg/day) for 5 days. Children over 40 kg should receive the adult dose for chickenpox.</paragraph>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_f613bf0c-f861-37c8-907a-fe782e59f998">
+                           <id root="63b5955c-0422-4051-81be-daeb6357ca4f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Adults and Children over 40 kg</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>800 mg 4 times daily for 5 days.</paragraph>
+                              <list listType="ordered">
+                                 <item>
+                                    <caption> </caption>	Intravenous acyclovir is indicated for the treatment of varicella-zoster infections in immunocompromised patients.</item>
+                                 <item>
+                                    <caption> </caption>	When therapy is indicated, it should be initiated at the earliest sign or symptom of chickenpox. There is no information about the efficacy of therapy initiated more than 24 hours after onset of signs and symptoms.</item>
+                              </list>
+                           </text>
+                           <effectiveTime value="20191203"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_67bc1677-dc00-652f-e5f0-6cc9050e93ba">
+                     <id root="50afa4e8-7243-47cd-811d-5cc33e6566e3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients With Acute or Chronic Renal Impairment</title>
+                     <text>
+                        <paragraph>In patients with renal impairment, the dose of acyclovir should be modified as shown in Table 3:</paragraph>
+                        <table ID="_RefID0EBFAG" width="85%">
+                           <caption>Table 3. Dosage Modification for Renal Impairment</caption>
+                           <col width="20%"/>
+                           <col width="23%"/>
+                           <col width="19%"/>
+                           <col width="20%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Toprule " valign="top"/>
+                                 <td align="center" styleCode="Botrule Lrule Toprule " valign="top">
+                                    <paragraph>Creatinine</paragraph>
+                                 </td>
+                                 <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>Adjusted Dosage Regimen</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>Normal Dosage</paragraph>
+                                    <paragraph>Regimen</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>Clearance</paragraph>
+                                    <paragraph>(mL/min/1.73 m<sup>2</sup>)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>Dose</paragraph>
+                                    <paragraph>(mg)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>Dosing Interval</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>200 mg every 4 hours</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>&gt;10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>200</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>every 4 hours, 5x daily</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>0-10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>200</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>every 12 hours</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>400 mg every 12 hours</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>&gt;10</paragraph>
+                                    <paragraph>0-10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>400</paragraph>
+                                    <paragraph>200</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>every 12 hours</paragraph>
+                                    <paragraph>every 12 hours</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>800 mg every 4 hours</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>&gt;25</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>800</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>every 4 hours, 5x daily</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Botrule " valign="top"/>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>10-25</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Lrule Botrule " valign="top">
+                                    <paragraph>800</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>every 8 hours</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule " valign="top"/>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>0-10</paragraph>
+                                 </td>
+                                 <td align="center" styleCode="Botrule Lrule " valign="top">
+                                    <paragraph>800</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule " valign="top">
+                                    <paragraph>every 12 hours</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_2de92f2e-af04-86ca-0e4f-a80756212a04">
+                     <id root="34ab4e1d-9900-427d-b354-1909e41f5cbd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hemodialysis</title>
+                     <text>
+                        <paragraph>For patients who require hemodialysis, the mean plasma half-life of acyclovir during hemodialysis is approximately 5 hours. This results in a 60% decrease in plasma concentrations following a 6-hour dialysis period. Therefore, the patient’s dosing schedule should be adjusted so that an additional dose is administered after each dialysis.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_b7466c93-f8db-a669-a7ce-80f74a0ddca9">
+                     <id root="20a94c9f-4046-4ccf-b3bf-8e0a82eb7c70"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Peritoneal Dialysis</title>
+                     <text>
+                        <paragraph>No supplemental dose appears to be necessary after adjustment of the dosing interval.</paragraph>
+                     </text>
+                     <effectiveTime value="20191203"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_f02b4e15-32b8-a206-fb38-a432d4d87193">
+               <id root="9564e9da-edb8-40ef-9d17-5220f9394011"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Acyclovir Tablets, USP 400 mg are available for oral administration as white to off-white, oval, unscored tablets imprinted "Apotex Logo 5306" on one side and plain on the other side. They are supplied as follows: </paragraph>
+                  <paragraph>Cartons of 100 tablets (10 tablets each blister pack x 10), NDC 0904-5790-61 </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted from 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature] and protect from moisture.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">APOTEX INC.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">ACYCLOVIR TABLETS, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">400 MG &amp; 800 MG</content>
+                  </paragraph>
+                  <table width="40%">
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>Manufactured by:</paragraph>
+                           </td>
+                           <td styleCode="Toprule " valign="top">
+                              <paragraph>Manufactured for:</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Apotex Inc.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Apotex Corp.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Toronto, Ontario</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Weston, Florida</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Canada M9L 1T9</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>33326</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule " valign="top"/>
+                           <td styleCode="Botrule " valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Packaged and Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MAJOR® PHARMACEUTICALS</content>
+                  </paragraph>
+                  <paragraph>Indianapolis, IN 46268 USA</paragraph>
+                  <paragraph>Refer to package label for Distributor's NDC Number</paragraph>
+                  <paragraph>Revised: February 2016</paragraph>
+                  <paragraph>Rev. 3 </paragraph>
+               </text>
+               <effectiveTime value="20250414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_b64da96e-d1f6-4f31-915d-72ac318dbc7e">
+               <id root="274a1e4f-03e7-4dd5-af8e-d9256d2b79ed"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel </title>
+               <text>
+                  <paragraph>MAJOR®</paragraph>
+                  <paragraph>NDC 0904-5790-61</paragraph>
+                  <paragraph>Unit Dose</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Acyclovir</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tablets USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">400 mg</content>
+                  </paragraph>
+                  <paragraph>100 TABLETS (10 x 10)</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia ID="id-1555772354" referencedObject="DC0B1812-F3D7-4BE7-A01B-5FD1FA48BB8E"/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="DC0B1812-F3D7-4BE7-A01B-5FD1FA48BB8E">
+                     <text>400mg carton label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="5ddea7ea-cf62-1afd-93ca-447f51dc3638-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

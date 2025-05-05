@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3170d1ee-c6ca-5c35-e063-6294a90a5f04"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250328"/>
+   <setId root="3170d1ee-c6c9-5c35-e063-6294a90a5f04"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+            <name>TURK ILAC VE SERUM SANAYI ANONIM SIRKETI</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                  <name>TURK ILAC VE SERUM SANAYI ANONIM SIRKETI</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                        <name>TURK ILAC VE SERUM SANAYI ANONIM SIRKETI</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="85160-200" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="319a4529-6ca6-c23c-e063-6394a90a0fbb"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250328"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="85160-200" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Turkfleks %0.9 Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>%0.9 Sodium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.9"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLORIDE ION</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-20" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-04" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="20" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-06" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="20" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-60" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="3000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-200-07" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-200-70" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31712910-5e02-1ec6-e063-6294a90a190e">
+               <id root="319a05e0-7912-2b59-e063-6294a90ab972"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Turkfleks %0.9 Sodium Chloride solution</paragraph>
+                  <paragraph>
+                     <br/>
+Active substance: Each 100 ml solution contains 0.9 g sodium chloride. Excipients: Injection water
+ </paragraph>
+                  <paragraph>The osmolarity of the solution is 308 mOsmol/l.</paragraph>
+                  <paragraph>Ion concentrations of the solution:</paragraph>
+                  <paragraph>- sodium: 154 mEq/L</paragraph>
+                  <paragraph>- chloride: 154 mEq/L</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Sterile solution for intravenous infusion
+ </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31713f42-de20-0050-e063-6294a90a4022">
+               <id root="319a0670-a15b-330d-e063-6294a90a77ce"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Therapeutic indications</content>
+                  </paragraph>
+                  <paragraph>TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE is indicated in the following cases: - In the treatment of isotonic extracellular dehydration - In the treatment of sodium losses - As a diluent solution for drugs with which it is compatible in parenteral applications.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Dosage and method of administration</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dosage / frequency and duration of administration:</content>
+                  </paragraph>
+                  <paragraph>The dose to be administered should be determined by the physician for each patient based on the patient's age, body weight, clinical condition, and especially the patient's hydration status. Serum electrolyte concentrations should be carefully monitored during treatment. In general, in the treatment of isotonic extracellular dehydration and sodium losses, unless otherwise recommended by the physician, it is recommended at a dose of 500 - 3000 ml per 24 hours for adults, adolescents and the elderly, and 20 - 100 ml/kg per 24 hours for infants and children.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Method of administration:</content>
+                  </paragraph>
+                  <paragraph>Application is made intravenously through peripheral or central veins with sterile apyrogen sets. For details on administration, see also section 6.6.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">Additional information regarding special populations:</content>
+                  </paragraph>
+                  <paragraph>Renal/Liver failure: Since there is no study specifically conducted for this population, there is no specific dosage recommendation for this patient group.</paragraph>
+                  <paragraph/>
+                  <paragraph>Pediatric population:</paragraph>
+                  <paragraph>The dose and infusion rate to be administered are adjusted by the physician according to the patient's weight, clinical and biological status, and concomitant therapy, as in adults. In this population, a dose of 20 - 100 ml/kg per 24 hours is generally recommended.</paragraph>
+                  <paragraph/>
+                  <paragraph>Geriatric population: The dose and infusion rate to be administered are adjusted by the physician according to the patient's weight, clinical and biological status, and concomitant therapy, as in adults.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3199f1eb-427b-3353-e063-6294a90a9d52">
+               <id root="3199f1eb-427a-3353-e063-6294a90a9d52"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>The solution is contraindicated in patients with hypernatremia or hyperchloremia. It should also not be used in cases where sodium or chloride administration is clinically harmful.</paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319a052b-4a25-4d6a-e063-6294a90a5727">
+               <id root="319a052b-4a24-4d6a-e063-6294a90a5727"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>Administration of intravenous solutions may lead to fluid and/or solute overload, which may cause dilution of serum electrolyte concentration, overhydration, congestive states, or pulmonary edema. The risk of dilution is inversely proportional to the electrolyte concentration. The risk of developing congestive states that may lead to peripheral and pulmonary edema is directly proportional to the electrolyte concentration in the solution. The solution contains 154 mmol/l sodium (Na+) and 154 mmol/l chloride (Cl-); its osmolarity is approximately 308 mOsm/l, and its pH is 5.5 (4.5 - 7.0).</paragraph>
+                  <paragraph>
+                     <br/>
+Careful clinical monitoring is required at the beginning of all intravenous infusions. Applications should be carried out under regular and careful observation. Clinical and biological parameters, especially serum electrolyte levels, should be monitored. Sodium retention may be observed in premature or full-term newborn babies, since their renal functions are not yet fully developed. Therefore, repeated sodium chloride infusions should be given to newborn babies only after serum sodium levels have been determined. Solutions containing sodium should be used with caution in cases of hypertension, heart failure, peripheral or pulmonary edema or impaired renal function, in cases of preeclampsia, in cases of aldosteronism, or in other conditions and treatments that cause sodium retention (e.g., corticosteroid therapy).
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Pseudohyponatremia is a condition in which plasma sodium is falsely low when measured by conventional methods, even though it is not actually low. It can occur when large molecules are in abnormally high concentrations and the plasma water ratio is abnormally low as a result. This condition, which can be seen in hyperlipemia and hyperproteinemia, has also been reported to be seen in patients with diabetes mellitus. Real values ​​can be obtained by evaluating the concentration according to the plasma water ratio. Excessive application of potassium-free solutions can lead to a significant hypokalemia. Serum potassium levels should be maintained at normal levels and potassium should be added to the treatment if necessary. In order to minimize the risk of incompatibility with any other drug added to the solution, the final mixture to be infused should be checked for any turbidity or precipitation immediately after mixing, before administration and at certain intervals during administration.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+If the application is to be made with a controlled infusion pump, care should be taken to ensure that the pump is stopped before the bag is completely emptied, otherwise air embolism may occur. The solution is administered intravenously through sterile sets. It is recommended that sets used for intravenous administration be changed every 24 hours. It should only be used if the solution is clear and the bag is intact and not leaking.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Laboratory tests: In long-term parenteral administration or when the patient's condition requires, clinical evaluation and periodic laboratory tests should be performed to monitor changes in the patient's fluid balance, electrolyte concentrations, and acid-base balance. When significant deviations from normal values ​​are observed, these values ​​should be normalized with alternative solutions. Warnings and precautions regarding pediatric use: Fluid and electrolyte balance in neonates or very young infants can be affected by even the administration of very small amounts of fluid. Care should be exercised in the treatment of neonates, especially preterm neonates, whose renal functions are not yet fully developed and whose ability to excrete solutes with fluids is limited. Fluid intake, urine output, and serum electrolyte levels should be closely monitored.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Warnings and precautions regarding use in the elderly: In general, the dose should be selected carefully in elderly patients. Considering that the liver, kidney or cardiac functions may be reduced in the elderly, other drugs may be used together or there may be diseases other than the condition being treated, it is generally recommended to start treatment with doses at the bottom of the dosage range.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31710ffa-f76a-0086-e063-6294a90ab40e">
+               <id root="319a0bd4-a467-46f3-e063-6294a90a2ece"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Interactions with other medical products and other forms of interaction Some drugs or solutions added to the solution may be incompatible. As with all parenteral solutions, compatibility with additional drugs should be evaluated by the physician before use. If other substances are to be added to the solution, aseptic technique should be used and shaken until mixed. After adding the drugs to TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE, it should be ensured that there is no color change, insoluble particles and crystallization. When using the solution with corticosteroids and carbenoxolone due to the risk of sodium and water retention due to the sodium it contains, caution should be exercised.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Additional information regarding special populations No interaction studies have been conducted with TURKFLEKS 0.9% ISOTONIC SODIUM CHLORIDE on special populations. Pediatric population: No interaction studies have been conducted with TURKFLEKS 0.9% ISOTONIC SODIUM CHLORIDE on pediatric populations.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3171508f-65ad-45da-e063-6394a90a9ae5">
+               <id root="3171508f-65ac-45da-e063-6394a90a9ae5"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+General advice Pregnancy
+ </paragraph>
+                  <paragraph>category: C Women of childbearing potential/Birth control (Contraception) TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE has not been reported to have any effect on women of childbearing potential or any interaction with drugs used for birth control (contraception). Pregnancy There is no sufficient data on the use of isotonic sodium chloride solutions in pregnant women. Animal studies are insufficient regarding the effects on pregnancy / and-or / embryonal / fetal development / and-or / birth / and-or / postnatal development (see section 5.3). The potential risk for humans is unknown.
+  <br/>
+                  </paragraph>
+                  <paragraph>TURKFLEKS %0.9 İZOTONİK SODYUM KLORÜR yaşamsal önemi olan durumlar için gerekli olmadıkça gebelik döneminde kullanılmamalıdır. Sodyum klorür içeren çözeltilerle hayvan üreme çalışmaları gerçekleştirilmemiştir. TURKFLEKS %0.9 İZOTONİK SODYUM KLORÜR’ün gebe kadınlara uygulandığında fetusta hasara ya da üreme yeteneğinde bozulmaya yol açıp açmayacağı da bilinmemektedir. TURKFLEKS %0.9 İZOTONİK SODYUM KLORÜR, gebe kadınlarda ancak çok gerekliyse kullanılmalıdır.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Birth:
+ </paragraph>
+                  <paragraph>The effects of TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE on the duration of labor and delivery, on forceps delivery or other interventions, or on other interventions that must be performed on the newborn, and on the subsequent growth, development, and functional maturation of the baby are not known when used during labor and delivery. It has been reported in the literature that solutions containing dextrose and sodium chloride have been used during labor and delivery. The fluid balance of the mother and fetus, glucose and electrolyte concentrations, and acid-base balance should be evaluated regularly or when the patient or fetus' condition requires it.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31717241-763a-8507-e063-6394a90a8d4c">
+               <id root="31717241-7639-8507-e063-6394a90a8d4c"/>
+               <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+It is not known whether this drug passes into breast milk. Since it is known that many drugs pass into breast milk, TURKFLEKS 0.9% ISOTONIC SODIUM CHLORIDE should be used with caution in breastfeeding mothers.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31712910-5e0c-1ec6-e063-6294a90a190e">
+               <id root="31712910-5e0b-1ec6-e063-6294a90a190e"/>
+               <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+There is no data on the effects of sodium chloride solutions on fertility.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_317169e2-1761-4e89-e063-6294a90aa130">
+               <id root="317169e2-1760-4e89-e063-6294a90aa130"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Effects on use machines It is practically impossible to drive while using infusion solutions. There are no known effects on ability to drive and use machines after use.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319a14e6-748f-ad58-e063-6394a90adf86">
+               <id root="319a14e6-748e-ad58-e063-6394a90adf86"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>To report suspected adverse reactions" and "1-800-332-1088" (different telephone number for documents of type Vaccine Label (53404-0)</paragraph>
+                  <paragraph/>
+                  <paragraph>Under normal treatment conditions, no undesirable effects are expected. Undesirable effects may be due to a deficiency or excess of ions in the solution; therefore, sodium and chloride levels should be closely monitored. It is also necessary to be aware that additional drugs administered in diluted form may also cause adverse effects. In such a case, the product information of the additional drug administered should be consulted. Inadvertent application of intravenous sodium chloride therapy (e.g., in the postoperative period, in patients with heart or kidney failure) may lead to hypernatremia. Osmotically induced water movement may reduce intracellular volume, leading to dehydration of internal organs, especially the brain, and thrombosis and hemorrhage. When any addition is made to isotonic solutions that make the solution hypertonic, if the application is made subcutaneously, pain may occur at the injection site. When large volumes are administered, sodium accumulation, edema and hyperchloremic acidosis may occur. If an adverse reaction is observed during administration, the infusion should be stopped, the patient's condition should be evaluated and appropriate treatment measures should be taken.</paragraph>
+                  <paragraph>
+                     <br/>
+Very common (≥ 1/10); common (≥ 1/100 to &lt; 1/10); uncommon (≥ 1/1,000 to &lt; 1/100); rare (≥ 1/10,000 to &lt; 1/1,000); very rare (&lt; 1/10,000), not known (cannot be estimated from available data)
+ </paragraph>
+                  <paragraph>
+                     <br/>
+The following adverse reactions are effects that may be seen as a result of excess sodium or chloride due to overdose or may develop depending on the application technique.
+ </paragraph>
+                  <paragraph>The frequency of these adverse reactions is unknown (they may be seen in too few patients to be determined with the available data). Blood and lymphatic system disorders Not known:Thrombosis; Hemorrhage. Metabolism and nutritional disorders Not known: Sodium retention; Water retention and edema; Aggravation of congestive heart failure (due to hypernatremia); Hyperchloremic acidosis. Nervous system disorders Not known: Headache, dizziness, restlessness, irritation, convulsions, coma and death (cerebral dehydration due to hypernatremia).</paragraph>
+                  <paragraph>
+                     <br/>
+Cardiac disorders Not known: Tachycardia (due to hypernatremia). Vascular disorders Not known: Hypertension (due to hypernatremia). Respiratory, thoracic and mediastinal disorders Not known: Pulmonary edema, respiratory depression and respiratory arrest (due to hypernatremia). Gastrointestinal disorders Not known: Nausea, vomiting, diarrhea, abdominal cramps, thirst, decreased salivation (due to hypernatremia). Skin and subcutaneous tissue disorders Not known: Decreased sweating (due to hypernatremia). Musculoskeletal disorders, connective tissue and bone disorders Not known: Muscle twitching and stiffness (due to hypernatremia).
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Kidney and urinary disorders Unknown: Renal failure (due to hypernatremia). General disorders and diseases related to the application site Unknown: Fever; Weakness (due to hypernatremia); Pain at the injection site (due to subcutaneous administration of a solution made hypertonic by adding it into it).
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Surgical and medical procedures Unknown: Febrile reactions; Injection site infection; Venous thrombosis or phlebitis starting at the injection site and spreading; Extravasation and hypervolemia (adverse reactions that may be seen depending on the application technique). Reporting of suspected adverse reactions Reporting of suspected adverse reactions to drugs after authorization is of great importance. Reporting allows for continuous monitoring of the benefit/risk balance of the drug. Healthcare professionals should report any suspected adverse reactions to the Turkish Pharmacovigilance Center (TÜFAM) (www.titck.gov.tr; e-mail: tufam@titck.gov.tr; tel: 0 800 314 00 08; fax: 0 312 218 35 99).
+ </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3199f1eb-427d-3353-e063-6294a90a9d52">
+               <id root="3199f1eb-427c-3353-e063-6294a90a9d52"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Adverse reactions due to excess sodium in the body include nausea, vomiting, diarrhea, abdominal cramps, thirst, decreased saliva, tears and sweat, fever, tachycardia, hypertension, renal failure, peripheral and pulmonary edema, respiratory arrest, headache, dizziness, restlessness, irritation, weakness, muscle twitching and stiffness, convulsions, coma and death. Excessive chloride accumulation in the body can cause bicarbonate loss and a shift towards the acidic side in body fluids. If fluid or solute overload due to excessive infusion is observed during parenteral therapy, the patient should be re-evaluated and appropriate corrective treatments should be initiated.</paragraph>
+                  <paragraph>
+                     <br/>
+Diuretics can be used to treat edema resulting from isotonic expansion, and an appropriate replacement therapy that will not cause fluid-electrolyte imbalance should be applied. Treatment of hypervolemic hypernatremia requires the removal of sodium from the body rather than water, and can be done by replacing diuretic-induced sodium and water loss with water alone. The main goal of treatment is to normalize the volume and composition of body fluids. If overdose is due to drugs added to the solution, the signs and symptoms of overdose depend on the properties of the added drug. If the dose is accidentally exceeded during treatment, the administration should be stopped, and the patient should be monitored for signs and symptoms related to the drug administered. Symptomatic and supportive treatments should be applied when necessary.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31717241-763e-8507-e063-6394a90a8d4c">
+               <id root="31717241-763d-8507-e063-6394a90a8d4c"/>
+               <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Pharmacotherapeutic group: Intravenous solutions / Solutions affecting electrolyte balance ATC code: B05XA03 TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE is an isotonic solution with an approximate osmolarity of 308 mOsm/l. When used for the maintenance of fluid and electrolyte balance, the pharmacodynamic properties of the solution consist of the properties of sodium and chloride in its composition. Ions such as sodium pass through the cell membrane using various transport mechanisms such as the sodium pump (Na-K-ATPase). Sodium plays an important role in nerve conduction, cardiac electrophysiology and renal metabolism. Chloride is primarily an extracellular anion. Intracellular chloride is found in high concentration in red blood cells and gastric mucosa. Chloride reabsorption follows sodium reabsorption. The pharmacodynamic properties of drugs added to the solution are the same as the pharmacodynamic properties of the added drug.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31717241-7640-8507-e063-6394a90a8d4c">
+               <id root="31717241-763f-8507-e063-6394a90a8d4c"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+The pharmacokinetic properties of TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE consist of the properties of its components (sodium and chloride). Absorption: Active substances in drugs administered intravenously reach their maximum plasma concentrations immediately after administration. Distribution: Sodium distribution varies according to the tissues: fast in muscle, liver, kidney, cartilage and skin, slow in erythrocytes and neurons, and very slow in bone. Chloride is mainly distributed in extracellular fluids. Biotransformation: The half-life after injection of radioactively labeled sodium (24Na) is 11-13 days for 99% of the injected sodium and one year for the remaining 1%.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Chloride closely follows sodium metabolism and changes in the body's acid-base balance are reflected by changes in chloride concentration. Elimination: Sodium is mainly excreted renally, but also the majority is reabsorbed renally. Small amounts of sodium are excreted in feces and sweat. Since chloride follows sodium metabolically, it is mainly excreted renally, and small amounts in feces and sweat. Linearity / non-linearity: When the electrolytes in the composition of TURKFLEKS 0.9% ISOTONIC SODIUM CHLORIDE are administered in the amount that will compensate for their deficiencies in the body, i.e. in therapeutic doses, it exhibits a linear pharmacokinetic behavior.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3171b066-aefb-9945-e063-6394a90a0547">
+               <id root="3171b066-aefa-9945-e063-6394a90a0547"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>
+                     <br/>
+Preclinical safety data Since the components of the solution are physiological components of human and animal plasma and toxic effects are not expected in clinical application, studies have not been conducted with isotonic sodium chloride solutions to evaluate their carcinogenic, mutagenic potential and effects on fertility. The safety of drugs added to the solution should be considered separately.
+  <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3171c812-0584-a61d-e063-6294a90a40cb">
+               <id root="3171d664-35ee-1c00-e063-6394a90af803"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>
+                  <br/>
+PHARMACEUTICAL PROPERTIES
+</title>
+               <text>
+                  <paragraph>
+                     <br/>
+List of excipients: Water for injections
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Incompatibilities
+ </paragraph>
+                  <paragraph>The compatibility of the drug to be added to the solution should be evaluated in advance. In cases where compatibility data are not available, no drug should be added to the solution. It is the responsibility of the physician performing the application to check whether the added drug is compatible by checking whether there is a color change and/or precipitation, insoluble compounds or crystallization after the drug is added. The compatibility of the drug to be added to TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE should be decided by using the product information of the drug to be added. Before adding the drug to the solution, it should be confirmed that TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE is soluble and stable at its pH.</paragraph>
+                  <paragraph>
+                     <br/>
+TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE should be used immediately after adding a compatible drug. Drugs known to be incompatible should not be added.
+ </paragraph>
+                  <paragraph>
+                     <br/>
+Shelf Life:
+ </paragraph>
+                  <paragraph>36 months.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Shelf life during use for drug dilution: From a microbiological point of view, it should be used immediately after preparation for application. In cases where it is not used immediately, the determination of the storage conditions and duration is the responsibility of the person who added/diluted the drug, and the duration is normally not longer than 24 hours at 2-8°C, unless this process is carried out under validated aseptic conditions.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Special precautions for storage
+ </paragraph>
+                  <paragraph>No special storage requirements, should be stored at room temperature below 30°C, in a place not exposed to direct light.</paragraph>
+                  <paragraph/>
+                  <paragraph>Nature and content of packaging 50, 100, 150, 250, 500, 1000 ml and 3000 ml PP (polypropylene) bags. The product has seven forms, with and without sets. Disposal of remaining substances from human medicinal products and other special precautions Unused products or waste materials should be disposed of in accordance with the ‘Medical Waste Control Regulation’ and the ‘Packaging and Packaging Waste Control Regulation’.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Directions for Use The solution should be checked before use.
+ </paragraph>
+                  <paragraph>The application is made intravenously with sterile apyrogen sets. Only clear, particle-free and intact packaging products should be used. The application should be started as soon as possible after the application set is attached to the product. To prevent air embolism that may occur due to residual air in the bag, serial connections should not be made with other infusion fluids. In cases where the air in the bag is not completely evacuated before application, applying pressure to intravenous solutions in flexible plastic bags to increase the flow rate may cause air embolism.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+The solution should be administered using aseptic technique via a sterile administration set.
+ </paragraph>
+                  <paragraph>In order to prevent air from entering the system, the administration set should be flushed with liquid before use. Additional drugs can be added to the injection tip using a needle under aseptic conditions before and during infusion. The isotonicity of the final product should be determined before parenteral administration. The drug added to the patient must be completely mixed with the solution before administration. Solutions containing additional drugs should be used immediately after adding the drug; they should not be stored for later use. Addition of additional drugs to the solution or incorrect administration technique may cause a fever reaction due to pyrogen contamination of the product. In the event of an adverse reaction, the infusion should be stopped immediately. For single use.</paragraph>
+                  <paragraph/>
+                  <paragraph>Partially used solutions should not be stored. Partially used bags should not be reconnected to patient-administered systems.</paragraph>
+                  <paragraph>To open:</paragraph>
+                  <paragraph>1. Check the integrity of the outer packaging and check for leaks; do not use if the packaging is damaged.</paragraph>
+                  <paragraph>2. Tear open the protective outer packaging.</paragraph>
+                  <paragraph>3. Check that the bag inside the protective packaging is intact by squeezing it. Check that the solution inside the bag is clear and does not contain foreign matter.
+  <br/>
+                  </paragraph>
+                  <paragraph>
+                     <br/>
+Preparations for application:
+ </paragraph>
+                  <paragraph>1. Hang the bag.</paragraph>
+                  <paragraph>2. Remove the protective cap from the application tip.</paragraph>
+                  <paragraph>3. Firmly insert the spike of the application set into the application tip.</paragraph>
+                  <paragraph>4. The instructions for use of the set must be followed for the application of the solution to the patient. Addition of additional drugs: Caution: As with all parenteral solutions, all substances to be added to the product must be compatible with the product. If additions are to be made to the product, compatibility must be checked in the final mixture before administration to the patient.</paragraph>
+                  <paragraph>
+                     <br/>
+Adding medication before application
+ </paragraph>
+                  <paragraph>1. Disinfect the drug application tip.</paragraph>
+                  <paragraph>2. The drug to be added is added to the bag with a syringe with a 19-22 gauge needle.</paragraph>
+                  <paragraph>3. The solution and the drug added are mixed thoroughly. In concentrated drugs such as potassium chloride, the application outlet of the bag is gently tapped while in the upright position to mix.</paragraph>
+                  <paragraph/>
+                  <paragraph>Attention: Bags with additional drugs applied should not be stored. Adding medication during application</paragraph>
+                  <paragraph>1. The clamp of the set is closed.</paragraph>
+                  <paragraph>2. Disinfect the drug application tip.</paragraph>
+                  <paragraph>3. The drug to be added is applied from the drug application tip with a syringe with a 19-22 gauge needle.</paragraph>
+                  <paragraph>4. Remove from the solution hanger and turn upside down.</paragraph>
+                  <paragraph>5. In this position, the application outlet and injection inlet of the bag are gently tapped to mix the solution and additional drug.</paragraph>
+                  <paragraph>6. Return the bag to its original position, open the clamp and continue the application.
+  <br/>
+                     <br/>
+LICENSE HOLDER Turk İlaç ve Serum Sanayi A.Ş. Bugduz Mah. Enver Pasa Cad. No: 8 06750 Akyurt / Ankara Phone: (0312) 837 67 67 Fax: (0312) 837 66 77 E-mail: info@turkilac.com.tr 8. LICENSE NUMBER 2015 / 160 9. FIRST LICENSE DATE / LICENSE RENEWAL DATE First license date: 16.02.2015
+  <br/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250328"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319873c6-7cc4-129b-e063-6294a90ae712">
+               <id root="31999eca-d9d6-46c9-e063-6394a90a4b5a"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>Turkfleks % 0,9 SODIUM CHLORIDE INJECTION, SOLUTION
+  <br/>
+Turk Ilac Ve Serum Sanayi
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Disclaimer: This drug has not been found by FDA to be safe and effective, and this labeling has not been approved by FDA.</paragraph>
+                  <paragraph/>
+                  <paragraph>For further information please click the link below.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <linkHtml href="#id_link_31712910-5e02-1ec6-e063-6294a90a190e">http://www.fda.gov/Drugs/GuidanceComplianceRegulatoryInformation/EnforcementActivitiesbyFDA/SelectedEnforcementActionsonUnapprovedDrugs/default.htm</linkHtml>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Active substance: Each 100 ml solution contains 0.9 g sodium chloride.
+ </paragraph>
+                  <paragraph>Excipients: Water</paragraph>
+                  <paragraph/>
+                  <paragraph>The osmolarity of the solution is 308 mOsmol/l.</paragraph>
+                  <paragraph>Ion concentrations of the solution:</paragraph>
+                  <paragraph>- sodium: 154 mEq/L</paragraph>
+                  <paragraph>- chloride: 154 mEq/L</paragraph>
+                  <paragraph/>
+                  <paragraph>PHARMACEUTICAL FORM</paragraph>
+                  <paragraph>Sterile solution for intravenous infusion</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Therapeutic indications
+ </paragraph>
+                  <paragraph>TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE is a source of water for electrolytes and in addition the following cases:</paragraph>
+                  <paragraph>- In the treatment of isotonic extracellular dehydration</paragraph>
+                  <paragraph>- In the treatment of sodium losses</paragraph>
+                  <paragraph>- As a diluent solution for drugs with which it is compatible in parenteral applications</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+Dosage / frequency and duration of application:
+ </paragraph>
+                  <paragraph>The dose to be applied should be determined by the physician for each patient based on the patient's age, body weight, clinical condition, and especially the patient's hydration status. Serum electrolyte concentrations should be carefully monitored during treatment.</paragraph>
+                  <paragraph>In general, in the treatment of isotonic extracellular dehydration and sodium losses, unless otherwise recommended by the physician, it is recommended at a dose of 500 - 3000 ml per 24 hours for adults, adolescents and the elderly, and 20 - 100 ml/kg per 24 hours for infants and children. 2 / 13 When used as a drug diluent, the dose should be determined according to the nature of the drug being diluted and the dosage schedule. In general, 50 - 250 ml of liquid is sufficient. The frequency of application and dose are adjusted by the physician according to the clinical condition of the patient.</paragraph>
+                  <paragraph>The recommended TURKFLEKS %0.9 ISOTONIC SODIUM CHLORIDE infusion rate when used as a diluent is adjusted according to the recommended dose of the diluted drug.</paragraph>
+                  <paragraph/>
+                  <paragraph>Application method:</paragraph>
+                  <paragraph>Application is made intravenously through peripheral or central veins with sterile apyrogen sets.</paragraph>
+                  <paragraph/>
+                  <paragraph>Contraindications:</paragraph>
+                  <paragraph>The solution is contraindicated in patients with hypernatremia or hyperchloremia. It should also not be used in cases where sodium or chloride administration would be clinically detrimental.</paragraph>
+                  <paragraph/>
+                  <paragraph>Instructions For Use:</paragraph>
+                  <paragraph>
+                     <br/>
+Partially used solutions should not be stored. Partially used bags should not be reconnected to patient-administered systems.
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>To open:</paragraph>
+                  <paragraph>1. Check the integrity of the outer packaging and check for leaks; do not use if the packaging is damaged.</paragraph>
+                  <paragraph>2. Tear open the protective outer packaging. 7 / 7</paragraph>
+                  <paragraph>3. Check that the bag inside the protective packaging is intact by squeezing it.</paragraph>
+                  <paragraph/>
+                  <paragraph>Check that the solution in the bag is clear and does not contain foreign matter. Preparations for application:</paragraph>
+                  <paragraph>1. Hang the bag.</paragraph>
+                  <paragraph>2. Remove the protective cap from the application tip.</paragraph>
+                  <paragraph>3. Firmly insert the spike of the application set into the application tip.</paragraph>
+                  <paragraph>4. The instructions for use of the set must be followed for the application of the solution to the patient.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adding additional drugs:</paragraph>
+                  <paragraph>Caution: As with all parenteral solutions, all substances to be added to the product must be compatible with the product. If the product is to be added, compatibility should be checked in the final mixture before administering to the patient.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adding drugs before application</paragraph>
+                  <paragraph>1. Disinfect the drug application tip.</paragraph>
+                  <paragraph>2. The drug to be added is added to the bag from the drug application tip with a syringe with a 19-22 gauge needle.</paragraph>
+                  <paragraph>3. Mix the solution and the drug added thoroughly. In dense drugs such as potassium chloride, the application outlet of the bag is gently tapped while in the up position to ensure mixing.</paragraph>
+                  <paragraph/>
+                  <paragraph>Caution: Bags with additional drugs applied should not be stored.</paragraph>
+                  <paragraph>Adding drugs during application</paragraph>
+                  <paragraph>1. Close the clamp of the set.</paragraph>
+                  <paragraph>2. Disinfect the drug application tip.</paragraph>
+                  <paragraph>3. The drug to be added is added to the bag from the drug application tip with a syringe with a 19-22 gauge needle.</paragraph>
+                  <paragraph>4. Remove from the solution hanger and turn upside down.</paragraph>
+                  <paragraph>5. In this position, the application outlet and injection inlet of the bag are gently tapped to ensure that the solution and additional medication are mixed.</paragraph>
+                  <paragraph>6. Return the bag to its original position, open the clamp and continue the application.</paragraph>
+                  <paragraph/>
+                  <paragraph>3/30/</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>March 30, 2025</paragraph>
+                  <paragraph>Subject: Temporary importation of 0.9% Sodium Chloride Injection from Turk Ilac located in Ankara-TURKEY to address drug shortages per 
+  <linkHtml href="https://dps.fda.gov/drugshortages/activeingredient/sodium-chloride-09--injection">https://dps.fda.gov/drugshortages/activeingredient/sodium-chloride-09--injection</linkHtml>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>To prevent a shortage of large volume parenteral fluid drug products, Turk Ilac ve Serum Sanayi is coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import 0.9% Sodium Chloride Injection (50ml, 100ml, 150ml, 250ml, 500ml, 1000 ml, and 3000ml) from Turk Ilac ve Serum Sanayi manufacturing facility located in Ankara/TURKEY. FDA has not approved these products manufactured by Turk Ilac ve Serum Sanayi.</paragraph>
+                  <paragraph/>
+                  <paragraph>Effective immediately, and during this temporary period, Turk Ilac ve Serum Sanayi will offer the following imported product from Turk Ilac ve Serum Sanayi facility located in Ankara/TURKEY:</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name and Description</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Volume</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Bags per Box</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>NDC Code</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-10</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-20</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>150ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-30</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>250ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>25</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-40</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>500ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>20</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-50</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>1000ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>20</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-60</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.9 Sodium Chloride</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>3000ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>10</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-200-70</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Please note the following:</paragraph>
+                  <list listType="unordered">
+                     <item>Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</item>
+                     <item>The bag labels will contain the active pharmaceutical ingredient, concentration, volume, and NDC code in English.</item>
+                     <item>The imported products' administration port system is fully compatible with sets marketed in the United States.</item>
+                     <item>The imported products use a carton box that is taped closed. To avoid damage to the solution container, take care not to use sharp instruments to open the box.</item>
+                     <item>The imported products do not contain barcodes on the unit label. Alternative procedures should be followed to ensure that the correct drug product is being used in all systems and processes and administered to individual patients. For example, institutions should consider manually inputting the product into their systems and confirm that barcode systems do not provide incorrect information when the product is scanned.</item>
+                     <item>0.9% Sodium Chloride Injection is available only by prescription in the United States. However, the imported products do not have the statement "Rx only" on the labeling.</item>
+                     <item>USE A NEW BAG IF PARTICULATES ARE VISIBLE OR IF THE IV BAG CONTAINS A LEAK.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Additional key differences in the labeling between the FDA-approved product and the imported products are stated in the product comparison table at the end of this letter as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 1. Key differences between FDA-approved and Turkfleks 0.9% Sodium Chloride Injection</paragraph>
+                  <paragraph>Table 2. Label images of FDA-approved and Turkfleks 0.9% Sodium Chloride Injection</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Reporting Adverse Events or Product Quality Issues</content>
+                  </paragraph>
+                  <paragraph>To report adverse events associated with these imported products, please use the contact us at info@turkilac.com.tr.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse events or quality problems experienced with the use of these imported products may also be reported to the FDA's MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: 
+   <linkHtml href="http://www.fda.gov/medwatch/report.htm">www.fda.gov/medwatch/report.htm</linkHtml>
+                     </item>
+                     <item>Regular mail or Fax: Download form 
+   <linkHtml href="http://www.fda.gov/MedWatch/getforms.htm">www.fda.gov/MedWatch/getforms.htm</linkHtml>
+                     </item>
+                  </list>
+                  <paragraph>or call 1-800332-1088 to request a reporting form, then complete and return to the address on the preaddressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>Mehmet Berat Battal</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 1: Key Differences between FDA Approved product and Turkfleks %0.9 Sodium Chloride</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph/>
+                           </td>
+                           <td>
+                              <paragraph>FDA- Approved Product</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks Import from Turkey</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.9% Sodium Chloride injection USP</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>%0.9 Sodium Chloride Injection</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Label Volume</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50 mL, 100 mL, 150 mL, 250 mL, 500 mL, 1000 mL</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50 mL, 100 mL, 150 mL, 250 mL, 500 mL, 1000 mL, 3000 mL</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Language of the Labels</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>English</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkish*</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Indications</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Sodium Chloride Injection, USP is indicated as a source of water and electrolytes. 0.9% Sodium Chloride. Injection, USP is also indicated for use as a priming solution in hemodialysis procedures.</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Source of water for electrolytes and:</paragraph>
+                              <paragraph>- In the treatment of isotonic extracellular dehydration</paragraph>
+                              <paragraph>- In the treatment of sodium losses</paragraph>
+                              <paragraph>- As a diluent solution for drugs with which it is compatible in parenteral applications</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Active Ingredients</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Each 100 ml contains 900 mg Sodium Chloride, USP</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Each 100 ml contains 9g Sodium Chloride</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Additional Information</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>pH is 5.0 (4.5-7.0) Osmolarity 308 mOsm/L (calc)</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>pH is 5.5 (4.5-7.0) Osmolarity mOsm/L (calc)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Store Conditions</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at room temperature 25C/77F</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at below 30C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Container Type</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Viaflex PVC</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Polypropylene</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 2: Label Images of FDA-approved and Turkfleks %0.9 Sodium Chloride Injection</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3199b89f-0968-1463-e063-6294a90a39e4"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3199b835-087d-dfe0-e063-6394a90aa45d"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250330"/>
+               <component>
+                  <observationMedia ID="img_3199b89f-0968-1463-e063-6294a90a39e4">
+                     <text>Turkfleks</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label Turkfleks.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_3199b835-087d-dfe0-e063-6394a90aa45d">
+                     <text>FDA Approved</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="FDA Approved.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3199fbd4-f42b-335d-e063-6294a90a1341">
+               <id root="3199fa9d-93dd-46b6-e063-6294a90aada8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_319a31d9-86a1-b3a3-e063-6394a90a6a8e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250328"/>
+               <component>
+                  <observationMedia ID="img_319a31d9-86a1-b3a3-e063-6394a90a6a8e">
+                     <text>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e3a8c0e9-19ed-49b7-8464-11e8806f47fd"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Cytarabine Injection</content>
+      <br/>
+      <content styleCode="emphasis">
+         <content styleCode="bold">For Intravenous, Intrathecal and Subcutaneous Use Only</content>
+      </content>
+   </title>
+   <effectiveTime value="20250407"/>
+   <setId root="e3a8c0e9-19ed-49b7-8464-11e8806f47fd"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="676190889" root="1.3.6.1.4.1.519.1"/>
+                        <name>Zydus Hospira Oncology Private Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61703-155" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61703-155" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61703-155" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61703-155" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8d47009e-9195-4604-9d1f-ce63feed5c9c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250407"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61703-155" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Cytarabine</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CYTARABINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="04079A1RDZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CYTARABINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="04079A1RDZ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CYTARABINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="20"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="61703-155-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250407"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075383" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250407"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38267" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRATHECAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="cf4d1ab3-d13b-4ba3-9e6b-192a00628477">
+               <id root="04be5f3b-12d7-4c9e-8470-f3ff99acd78a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <renderMultiMedia ID="id-603349002" referencedObject="ID_1ac451ef-db32-449c-918f-160dea12515e"/>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+               <component>
+                  <observationMedia ID="ID_1ac451ef-db32-449c-918f-160dea12515e">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cytarabine-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d9f77e69-b63f-4fc9-9222-5360b02ace72">
+               <id root="cbdcc210-15c8-4dd5-b1cf-fd89508205ae"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title>WARNING</title>
+               <text>
+                  <paragraph>Only physicians experienced in cancer chemotherapy should use Cytarabine Injection.</paragraph>
+                  <paragraph>For induction therapy patients should be treated in a facility with laboratory and supportive resources sufficient to monitor drug tolerance and protect and maintain a patient compromised by drug toxicity. The main toxic effect of cytarabine injection is bone marrow suppression with leukopenia, thrombocytopenia and anemia. Less serious toxicity includes nausea, vomiting, diarrhea and abdominal pain, oral ulceration, and hepatic dysfunction.</paragraph>
+                  <paragraph>The physician must judge possible benefit to the patient against known toxic effects of this drug in considering the advisability of therapy with Cytarabine Injection. Before making this judgement or beginning treatment, the physician should be familiar with the following text.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d5b3d019-4bfa-4193-b3a0-5b421196d578">
+               <id root="507674b8-212b-4c1d-91e8-d7dc7a67b08c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Cytarabine Injection, an antineoplastic, is a sterile solution of cytarabine for intravenous, intrathecal or subcutaneous administration. Each mL contains 100 mg Cytarabine (100 mg/mL) in a 20 mL single dose vial (2 g/20 mL).</paragraph>
+                  <paragraph>Cytarabine Injection 2 g/20 mL is a sterile solution for intravenous, intrathecal or subcutaneous administration. Each mL contains 100 mg Cytarabine, USP, and the following inactive ingredients: Water for Injection q.s. When necessary the pH is adjusted with hydrochloric acid and/or sodium hydroxide to a pH of 7.7.</paragraph>
+                  <paragraph>Cytarabine is chemically 1-β-D-Arabinofuranosylcytosine. The structural formula is:</paragraph>
+                  <renderMultiMedia ID="id310" referencedObject="ID_48c4d223-5e1f-4713-937e-3c16643f4acd"/>
+                  <paragraph>Cytarabine is an odorless, white to off-white crystalline powder which is freely soluble in water and slightly soluble in alcohol and in chloroform.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+               <component>
+                  <observationMedia ID="ID_48c4d223-5e1f-4713-937e-3c16643f4acd">
+                     <text>Cytarabine structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cytarabine-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="a4a8ceea-993c-4d15-a5b6-d9929c8dd5fd">
+               <id root="91af18d2-9bff-4a86-907c-f69392171c88"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Cell Culture Studies</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine is cytotoxic to a wide variety of proliferating mammalian cells in culture. It exhibits cell phase specificity, primarily killing cells undergoing DNA synthesis (S-phase) and under certain conditions blocking the progression of cells from the G<sub>1 </sub>phase to the S-phase. Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported. Extensive chromosomal damage, including chromatoid breaks, have been produced by cytarabine and malignant transformation of rodent cells in culture has been reported. Deoxycytidine prevents or delays (but does not reverse) the cytotoxic activity.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Cellular Resistance and Sensitivity</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine is metabolized by deoxycytidine kinase and other nucleotide kinases to the nucleotide triphosphate, an effective inhibitor of DNA polymerase; it is inactivated by a pyrimidine nucleoside deaminase, which converts it to the non-toxic uracil derivative. It appears that the balance of kinase and deaminase levels may be an important factor in determining sensitivity or resistance of the cell to cytarabine.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Human Pharmacology</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine is rapidly metabolized and is not effective orally; less than 20 percent of the orally administered dose is absorbed from the gastrointestinal tract.</paragraph>
+                  <paragraph>Following rapid intravenous injection of cytarabine labeled with tritium, the disappearance from plasma is biphasic. There is an initial distributive phase with a half-life of about 10 minutes, followed by a second elimination phase with a half-life of about 1 to 3 hours. After the distributive phase, more than 80 percent of plasma radioactivity can be accounted for by the inactive metabolite 1-β-D-arabinofuranosyluracil (ara-U). Within 24 hours about 80 percent of the administered radioactivity can be recovered in the urine, approximately 90 percent of which is excreted as ara-U.</paragraph>
+                  <paragraph>Relatively constant plasma levels can be achieved by continuous intravenous infusion.</paragraph>
+                  <paragraph>After subcutaneous or intramuscular administration of cytarabine labeled with tritium, peak-plasma levels of radioactivity are achieved about 20 to 60 minutes after injection and are considerably lower than those after intravenous administration.</paragraph>
+                  <paragraph>Cerebrospinal fluid levels of cytarabine are low in comparison to plasma levels after single intravenous injection. However, in one patient in whom cerebrospinal fluid levels are examined after 2 hours of constant intravenous infusion, levels approached 40 percent of the steady state plasma level. With intrathecal administration, levels of cytarabine in the cerebrospinal fluid declined with a first order half-life of about 2 hours. Because cerebrospinal fluid levels of deaminase are low, little conversion to ara-U was observed.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Immunosuppressive Action</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine injection is capable of obliterating immune responses in man during administration with little or no accompanying toxicity. Suppression of antibody responses to E-coli-VI antigen and tetanus toxoid have been demonstrated. This suppression was obtained during both primary and secondary antibody responses.</paragraph>
+                  <paragraph>Cytarabine injection also suppressed the development of cell-mediated immune responses such as delayed hypersensitivity skin reaction to dinitrochlorobenzene. However, it had no effect on already established delayed hypersensitivity reactions.</paragraph>
+                  <paragraph>Following 5-day courses of intensive therapy with cytarabine injection the immune response was suppressed, as indicated by the following parameters: macrophage ingress into skin windows; circulating antibody response following primary antigenic stimulation; lymphocyte blastogenesis with phytohemagglutinin. A few days after termination of therapy there was a rapid return to normal.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d0a8ee03-d366-4584-9e03-85857b7bbacb">
+               <id root="9108f7cc-2dd1-4705-9438-1593c2ce1abb"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Cytarabine Injection in combination with other approved anti-cancer drugs is indicated for remission induction in acute non-lymphocytic leukemia of adults and pediatric patients. It has also been found useful in the treatment of acute lymphocytic leukemia and the blast phase of chronic myelocytic leukemia. Intrathecal administration of Cytarabine Injection (preservative free preparations only) is indicated in the prophylaxis and treatment of meningeal leukemia.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ef15d65c-f983-44d0-88d6-a96c3d10ce4d">
+               <id root="6dda791a-6df3-4e88-9bf8-459d902c5237"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Cytarabine Injection is contraindicated in those patients who are hypersensitive to the drug.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f057316d-bb42-4c9b-8c3c-5bb7e0bd2ee2">
+               <id root="b21a5128-c444-43e1-8791-86614fd54e93"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="emphasis">(See </content>
+                        <linkHtml href="#ID_d9f77e69-b63f-4fc9-9222-5360b02ace72">boxed WARNING</linkHtml>
+                        <content styleCode="emphasis">)</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine is a potent bone marrow suppressant. Therapy should be started cautiously in patients with pre-existing drug-induced bone marrow suppression. Patients receiving this drug must be under close medical supervision and, during induction therapy, should have leucocyte and platelet counts performed daily. Bone marrow examinations should be performed frequently after blasts have disappeared from the peripheral blood. Facilities should be available for management of complications, possibly fatal, of bone marrow suppression (infection resulting from granulocytopenia and other impaired body defenses, and hemorrhage secondary to thrombocytopenia). One case of anaphylaxis that resulted in acute cardiopulmonary arrest and required resuscitation has been reported. This occurred immediately after the intravenous administration of cytarabine injection.</paragraph>
+                  <paragraph>Severe and at times fatal CNS, GI and pulmonary toxicity (different from that seen with conventional therapy regimens of cytarabine injection) has been reported following some experimental dose schedules for cytarabine injection. These reactions include reversible corneal toxicity, and hemorrhagic conjunctivitis, which may be prevented or diminished by prophylaxis with a local corticosteroid eye drop; cerebral and cerebellar dysfunction, including personality changes, somnolence and coma, usually reversible; severe gastrointestinal ulceration, including pneumatosis cystoides intestinalis leading to peritonitis; sepsis and liver abscess; pulmonary edema, liver damage with increased hyperbilirubinemia; bowel necrosis; and necrotizing colitis. Rarely, severe skin rash, leading to desquamation has been reported. Complete alopecia is more commonly seen with experimental high dose therapy than with standard treatment programs using cytarabine injection. If experimental high dose therapy is used, do not use a preparation containing benzyl alcohol.</paragraph>
+                  <paragraph>Cases of cardiomyopathy with subsequent death have been reported following experimental high dose therapy with cytarabine in combination with cyclophosphamide when used for bone marrow transplant preparation.</paragraph>
+                  <paragraph>A syndrome of sudden respiratory distress, rapidly progressing to pulmonary edema and radiographically pronounced cardiomegaly has been reported following experimental high dose therapy with cytarabine used for the treatment of relapsed leukemia from one institution in 16/72 patients. The outcome of this syndrome can be fatal.</paragraph>
+                  <paragraph>Two patients with childhood acute myelogenous leukemia who received intrathecal and intravenous cytarabine injection at conventional doses (in addition to a number of other concomitantly administered drugs) developed delayed progressive ascending paralysis resulting in death in one of the two patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Use in Pregnancy</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine Injection can cause fetal harm when administered to a pregnant woman. Cytarabine causes abnormal cerebellar development in the neonatal hamster and is teratogenic to the rat fetus. There are no adequate and well-controlled studies in pregnant women. Women of childbearing potential should be advised to avoid becoming pregnant.</paragraph>
+                  <paragraph>A review of the literature has shown 32 reported cases where cytarabine injection was given during pregnancy, either alone or in combination with other cytotoxic agents:</paragraph>
+                  <paragraph>Eighteen normal infants were delivered. Four of these had first trimester exposure. Five infants were premature or of low birth weight. Twelve of the 18 normal infants were followed up at ages ranging from six weeks to seven years, and showed no abnormalities. One apparently normal infant died at 90 days of gastroenteritis.</paragraph>
+                  <paragraph>Two cases of congenital abnormalities have been reported, one with upper and lower distal limb defects, and the other with extremity and ear deformities. Both of these cases had first trimester exposure.</paragraph>
+                  <paragraph>There were seven infants with various problems in the neonatal period, including pancytopenia, transient depression of WBC, hematocrit or platelets; electrolyte abnormalities; transient eosinophilia; and one case of increased lgM levels and hyperpyrexia possibly due to sepsis. Six of the seven infants were also premature. The child with pancytopenia died at 21 days of sepsis.</paragraph>
+                  <paragraph>Therapeutic abortions were done in five cases. Four fetuses were grossly normal, but one had an enlarged spleen and another showed Trisomy C chromosome abnormality in the chorionic tissue.</paragraph>
+                  <paragraph>Because of the potential for abnormalities with cytotoxic therapy, particularly during the first trimester, a patient who is or who may become pregnant while on cytarabine should be apprised of the potential risk to the fetus and the advisability of pregnancy continuation. There is a definite, but considerably reduced risk if therapy is initiated during the second or third trimester. Although normal infants have been delivered to patients treated in all three trimesters of pregnancy, follow-up of such infants would be advisable.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d514b84e-3abd-4a3c-8b0c-7677d8f0542e">
+               <id root="a707cda7-4dd5-4da3-9eec-59e9e88aed0d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">   </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+               <component>
+                  <section ID="ID_549c87cf-40aa-40c3-a743-9683737b7e4c">
+                     <id root="549c87cf-40aa-40c3-a743-9683737b7e4c"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>1. General Precautions </title>
+                     <text>
+                        <paragraph>Patients receiving Cytarabine Injection must be monitored closely. Frequent platelet and leucocyte counts and bone marrow examinations are mandatory. Consider suspending or modifying therapy when drug-induced marrow depression has resulted in a platelet count under 50,000 or a polymorphonuclear granulocyte count under 1000/mm<sup>3</sup>. Counts of formed elements in the peripheral blood may continue to fall after the drug is stopped and reach lowest values after drug-free intervals of 12 to 24 days. When indicated, restart therapy when definite signs of marrow recovery appear (on successive bone marrow studies). Patients whose drug is withheld until “normal” peripheral blood values are attained may escape from control.</paragraph>
+                        <paragraph>When large intravenous doses are given too quickly, patients are frequently nauseated and may vomit for several hours post-injection. This problem tends to be less severe when the drug is infused.</paragraph>
+                        <paragraph>The human liver apparently detoxifies a substantial fraction of an administered dose. In particular, patients with renal or hepatic function impairment may have a higher likelihood of CNS toxicity after high-dose cytarabine injection treatment. Use the drug with caution and possibly at reduced dose in patients whose liver or kidney function is poor.</paragraph>
+                        <paragraph>Periodic checks of bone marrow, liver and kidney functions should be performed in patients receiving cytarabine injection.</paragraph>
+                        <paragraph>Like other cytotoxic drugs, Cytarabine Injection may induce hyperuricemia secondary to rapid lysis of neoplastic cells. The clinician should monitor the patient's blood uric acid level and be prepared to use such supportive and pharmacologic measures as might be necessary to control this problem.</paragraph>
+                        <paragraph>Acute pancreatitis has been reported to occur in a patient receiving Cytarabine Injection by continuous infusion and in patients being treated with Cytarabine Injection who have had prior treatment with L-asparaginase.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_07c5f4aa-d673-41c8-8b68-6cc632f135b3">
+                     <id root="07c5f4aa-d673-41c8-8b68-6cc632f135b3"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>2. Information for patient </title>
+                     <text>
+                        <paragraph>Not applicable.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b7550492-037a-43d5-8fba-d18884de759a">
+                     <id root="b7550492-037a-43d5-8fba-d18884de759a"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>3. Laboratory tests </title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#ID_549c87cf-40aa-40c3-a743-9683737b7e4c">General Precautions</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_66e5d35a-cd55-4bec-a0c8-88b0e91a16f5">
+                     <id root="66e5d35a-cd55-4bec-a0c8-88b0e91a16f5"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>4. Drug Interactions </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Reversible decreases in steady-state plasma digoxin concentrations and renal glycoside excretion were observed in patients receiving beta-acetyldigoxin and chemotherapy regimens containing cyclophosphamide, vincristine and prednisone with or without cytarabine injection or procarbazine.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Steady-state plasma digitoxin concentrations did not appear to change. Therefore, monitoring of plasma digoxin levels may be indicated in patients receiving similar combination chemotherapy regimens. The utilization of digitoxin for such patients may be considered as an alternative.</content>
+                        </paragraph>
+                        <paragraph>An <content styleCode="italics">in vitro</content> interaction study between gentamicin and cytarabine showed a cytarabine related antagonism for the susceptibility of <content styleCode="italics">K. pneumoniae</content> strains. This study suggests that in patients on cytarabine being treated with gentamicin for a <content styleCode="italics">K. pneumoniae</content> infection, the lack of a prompt therapeutic response may indicate the need for re-evaluation of antibacterial therapy.</paragraph>
+                        <paragraph>Clinical evidence in one patient showed possible inhibition of fluorocytosine efficacy during therapy with cytarabine injection. This may be due to potential competitive inhibition of its uptake.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_21cebc02-ee70-45f0-9d44-0aeceea256a1">
+                     <id root="21cebc02-ee70-45f0-9d44-0aeceea256a1"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>5. Carcinogenesis, mutagenesis, impairment of fertility </title>
+                     <text>
+                        <paragraph>Extensive chromosomal damage, including chromatoid breaks have been produced by cytarabine and malignant transformation of rodent cells in culture has been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f71a1cb8-2754-47a8-bf86-0c5039cb6860">
+                     <id root="f71a1cb8-2754-47a8-bf86-0c5039cb6860"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>6. Pregnancy </title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#f057316d-bb42-4c9b-8c3c-5bb7e0bd2ee2">WARNINGS</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_7f307d77-5399-4b1f-9486-3b59b61d2011">
+                     <id root="7f307d77-5399-4b1f-9486-3b59b61d2011"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>7. Labor and delivery </title>
+                     <text>
+                        <paragraph>Not applicable.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_0e2aea9f-5511-49aa-b178-96571fc7d71b">
+                     <id root="0e2aea9f-5511-49aa-b178-96571fc7d71b"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>8. Nursing mothers </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants from cytarabine, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_fb0460d4-7bca-4361-94b3-34aed17f14e5">
+                     <id root="fb0460d4-7bca-4361-94b3-34aed17f14e5"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>9. Pediatric use </title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#d0a8ee03-d366-4584-9e03-85857b7bbacb">INDICATIONS AND USAGE</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250407"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ab46e4dd-ca22-465a-a4fe-3494dba77347">
+               <id root="f5828893-9420-46b9-bd3a-5e399069db54"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Expected Reactions</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Because cytarabine is a bone marrow suppressant, anemia, leukopenia, thrombocytopenia, megaloblastosis and reduced reticulocytes can be expected as a result of administration with Cytarabine Injection. The severity of these reactions are dose and schedule dependent. Cellular changes in the morphology of bone marrow and peripheral smears can be expected.</paragraph>
+                  <paragraph>Following 5-day constant infusions or acute injections of 50 mg/m<sup>2</sup> to 600 mg/m<sup>2</sup>, white cell depression follows a biphasic course. Regardless of initial count, dosage level, or schedule, there is an initial fall starting the first 24 hours with a nadir at days 7-9. This is followed by a brief rise which peaks around the twelfth day. A second and deeper fall reaches nadir at days 15-24. Then there is a rapid rise to above baseline in the next 10 days. Platelet depression is noticeable at 5 days with a peak depression occurring between days 12-15. Thereupon, a rapid rise to above baseline occurs in the next 10 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Infectious Complications</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Injection:</content>
+                     </content> Viral, bacterial, fungal, parasitic, or saprophytic infections, in any location in the body may be associated with the use of cytarabine injection alone or in combination with other immunosuppressive agents following immunosuppressant doses that affect cellular or humoral immunity. These infections may be mild, but can be severe and at times fatal.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">The Cytarabine (Ara-C) Syndrome</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>A cytarabine syndrome has been described by Castleberry. It is characterized by fever, myalgia, bone pain, occasionally chest pain, maculopapular rash, conjunctivitis and malaise. It usually occurs 6-12 hours following drug administration. Corticosteroids have been shown to be beneficial in treating or preventing this syndrome. If the symptoms of the syndrome are deemed treatable, corticosteroids should be contemplated as well as continuation of therapy with Cytarabine Injection.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Most Frequent Adverse Reactions</content>
+                     </content>
+                  </paragraph>
+                  <table styleCode="Noautorules" width="99.3%">
+                     <col width="32%"/>
+                     <col width="32%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>anorexia</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>oral and anal inflammation</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>rash</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>nausea</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>or ulceration</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>thrombophlebitis</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>vomiting</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>hepatic dysfunction</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>bleeding (all sites)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>diarrhea</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>fever</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph> </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Nausea and vomiting are most frequent following rapid intravenous injection.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Less Frequent Adverse Reactions</content>
+                     </content>
+                  </paragraph>
+                  <table styleCode="Noautorules" width="99.3%">
+                     <col width="30%"/>
+                     <col width="31%"/>
+                     <col width="37%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>sepsis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>sore throat</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>conjunctivitis (may occur with rash)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>pneumonia</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>esophageal ulceration</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>dizziness</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>cellulitis at injection site</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>esophagitis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>alopecia</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>skin ulceration</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>chest pain</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>anaphylaxis (see <content styleCode="bold">
+                                    <linkHtml href="#f057316d-bb42-4c9b-8c3c-5bb7e0bd2ee2">WARNINGS</linkHtml>
+                                 </content>)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>urinary retention</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>pericarditis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>allergic edema</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>renal dysfunction</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>bowel necrosis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>pruritis</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>neuritis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>abdominal pain</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>shortness of breath</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>neural toxicity</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>pancreatitis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>urticaria</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph> </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>freckling</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>headache</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph> </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>jaundice</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>sinus bradycardia</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Experimental Doses</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Severe and at times fatal CNS, GI and pulmonary toxicity (different from that seen with conventional therapy regimens of cytarabine injection) has been reported following some experimental dose schedules of cytarabine injection. These reactions include reversible corneal toxicity and hemorrhagic conjunctivitis, which may be prevented or diminished by prophylaxis with a local corticosteroid eye drop; cerebral and cerebellar dysfunction, including personality changes, somnolence and coma, usually reversible; severe gastrointestinal ulceration, including pneumatosis cystoides intestinalis leading to peritonitis; sepsis and liver abscess; pulmonary edema, liver damage with increased hyperbilirubinemia; bowel necrosis; and necrotizing colitis. Rarely, severe skin rash, leading to desquamation has been reported. Complete alopecia is more commonly seen with experimental high dose therapy than with standard treatment programs using cytarabine. If experimental high dose therapy is used, do not use a preparation containing benzyl alcohol.</paragraph>
+                  <paragraph>Cases of cardiomyopathy with subsequent death have been reported following experimental high dose therapy with cytarabine in combination with cyclophosphamide when used for bone marrow transplant preparation. <content styleCode="emphasis">
+                        <content styleCode="bold">This cardiac toxicity may be schedule dependent.</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>A syndrome of sudden respiratory distress, rapidly progressing to pulmonary edema and radiographically pronounced cardiomegaly has been reported following experimental high dose therapy with cytarabine used for the treatment of relapsed leukemia from one institution in 16/72 patients. The outcome of this syndrome can be fatal.</paragraph>
+                  <paragraph>Two patients with adult acute non-lymphocytic leukemia developed peripheral motor and sensory neuropathies after consolidation with high-dose cytarabine, daunorubicin, and asparaginase. Patients treated with high-dose cytarabine should be observed for neuropathy since dose schedule alterations may be needed to avoid irreversible neurologic disorders.</paragraph>
+                  <paragraph>Ten patients treated with experimental intermediate doses of cytarabine (1 g/m<sup>2</sup>) with and without other chemotherapeutic agents (meta-AMSA, daunorubicin, etoposide) at various dose regimes developed a diffuse interstitial pneumonitis without clear cause that may have been related to the cytarabine.</paragraph>
+                  <paragraph>Two cases of pancreatitis have been reported following experimental doses of cytarabine injection and numerous other drugs. Cytarabine injection could have been the causative agent.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a2112a1c-bce9-4d04-89ca-d7a37fa474e2">
+               <id root="19150405-a99b-457a-af1f-8733b39860ff"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is no antidote for overdosage of Cytarabine Injection. Doses of 4.5 g/m<sup>2</sup> by intravenous infusion over 1 hour every 12 hours for 12 doses have caused an unacceptable increase in irreversible CNS toxicity and death.</paragraph>
+                  <paragraph>Single doses as high as 3 g/m<sup>2</sup> have been administered by rapid intravenous infusion without apparent toxicity.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b98b326d-2347-4dec-a414-41956601a1ea">
+               <id root="4dd5dc3a-2cc3-459c-b5ea-bda612f703e1"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Cytarabine Injection is not active orally. The schedule and method of administration varies with the program of therapy to be used. Cytarabine Injection may be given by intravenous infusion or injection, subcutaneously, or intrathecally (preservative free preparation only).</paragraph>
+                  <paragraph>Thrombophlebitis has occurred at the site of drug injection or infusion in some patients, and rarely patients have noted pain and inflammation at subcutaneous injection sites. In most instances, however, the drug has been well tolerated.</paragraph>
+                  <paragraph>Patients can tolerate higher total doses when they receive the drug by rapid intravenous injection as compared with slow infusion. This phenomenon is related to the drug's rapid inactivation and brief exposure of susceptible normal and neoplastic cells to significant levels after rapid injection. Normal and neoplastic cells seem to respond in somewhat parallel fashion to these different modes of administration and no clear-cut clinical advantage has been demonstrated for either.</paragraph>
+                  <paragraph>In the induction therapy of acute non-lymphocytic leukemia, the usual cytarabine dose in combination with other anti-cancer drugs is 100 mg/m<sup>2</sup>/day by continuous intravenous infusion (Days 1-7) or 100 mg/m<sup>2 </sup>intravenous every 12 hours (Days 1-7).</paragraph>
+                  <paragraph>The literature should be consulted for the current recommendations for use in acute lymphocytic leukemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Intrathecal Use in Meningeal Leukemia</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytarabine injection has been used intrathecally in acute leukemia in doses ranging from 5 mg/m<sup>2 </sup>to 75 mg/m<sup>2 </sup>of body surface area. The frequency of administration varied from once a day for 4 days to once every 4 days. The most frequently used dose was 30 mg/m<sup>2 </sup>every 4 days until cerebrospinal fluid findings were normal, followed by one additional treatment. The dosage schedule is usually governed by the type and severity of central nervous system manifestations and the response to previous therapy.</paragraph>
+                  <paragraph>Cytarabine injection given intrathecally may cause systemic toxicity and careful monitoring of the hematopoietic system is indicated. Modification of other anti-leukemia therapy may be necessary. Major toxicity is rare. The most frequently reported reactions after intrathecal administration were nausea, vomiting and fever; these reactions are mild and self-limiting. Paraplegia has been reported. Necrotizing leukoencephalopathy occurred in 5 children; these patients had also been treated with intrathecal methotrexate and hydrocortisone, as well as by central nervous system radiation. Isolated neurotoxicity has been reported. Blindness occurred in two patients in remission whose treatment had consisted of combination systemic chemotherapy, prophylactic central nervous system radiation and intrathecal cytarabine injection.</paragraph>
+                  <paragraph>When cytarabine injection is administered both intrathecally and intravenously within a few days, there is an increased risk of spinal cord toxicity, however, in serious life-threatening disease, concurrent use of intravenous and intrathecal Cytarabine Injection is left to the discretion of the treating physician.</paragraph>
+                  <paragraph>Focal leukemic involvement of the central nervous system may not respond to intrathecal cytarabine injection and may better be treated with radiotherapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Chemical Stability of Infusion Solutions</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Chemical stability studies were performed by <content styleCode="emphasis">
+                        <content styleCode="underline">ultraviolet assay</content>
+                     </content> on Cytarabine Injection in infusion solutions. These studies showed that when Cytarabine Injection was added to Water for Injection, 5% Dextrose in Water or Sodium Chloride Injection, <content styleCode="emphasis">
+                        <content styleCode="underline">94</content>
+                     </content> to <content styleCode="emphasis">
+                        <content styleCode="underline">96</content>
+                     </content> percent of the cytarabine was present after 192 hours storage at room temperature.</paragraph>
+                  <paragraph>Parenteral drugs should be inspected visually for particulate matter and discoloration, prior to administration, whenever solution and container permit. If a precipitate has formed as a result of exposure to low temperatures, redissolve by warming up to 55°C for no longer than 30 minutes, under dry heat conditions, and shake until the precipitate has dissolved. Allow to cool prior to use.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3e1c5483-8add-485b-83bc-c91b331d5236">
+               <id root="d014d486-ada6-486f-ba5c-4f0db43d12a7"/>
+               <code code="69763-1" codeSystem="2.16.840.1.113883.6.1" displayName="DISPOSAL AND WASTE HANDLING"/>
+               <title>HANDLING AND DISPOSAL</title>
+               <text>
+                  <paragraph>Procedures for proper handling and disposal of anti-cancer drugs should be considered. Several guidelines on this subject have been published.<sup>1-7</sup> There is no general agreement that all of the procedures recommended in the guidelines are necessary or appropriate.</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b3a707e9-5f2f-4948-ad22-3bd6aea43811">
+               <id root="41669516-3bad-4cfb-bcd0-b9b22de8a893"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Cytarabine Injection is available as follows:</paragraph>
+                  <paragraph>2 g/20 mL (100 mg/mL) in a single dose glass flip top vial (red cap) packaged individually. NDC No.: 61703-155-01</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_2ac6c83c-91f7-4c1a-9eff-88130ab930bd">
+               <id root="f3c12e0d-ab6a-4057-a3bc-77605f9c23dc"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE CONDITIONS</title>
+               <text>
+                  <paragraph>Protect from light. Retain in carton until time of use.</paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F) [USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e2c0b86d-898b-460e-8266-8f5333d9baea">
+               <id root="36ad0d31-3f95-4f9d-bf33-276dd0c55623"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Recommendations for the Safe Handling of Parenteral Antineoplastic Drugs, NIH Publications No. 83-2621. For sale by the Superintendent of Documents, U.S. Government Printing Office, Washington, D.C. 20402. </item>
+                     <item>
+                        <caption>2.</caption>AMA Council Report, Guidelines for Handling Parenteral Antineoplastics, JAMA, 1985; 2.53 (11): 1590-1592. </item>
+                     <item>
+                        <caption>3.</caption>National Study Commission on Cytotoxic Exposure – Recommendations for Handling Cytotoxic Agents. Available from Louis P. Jeffrey, ScD., Chairman, National Study Commission on Cytotoxic Exposure, Massachusetts College of Pharmacy and Allied Health Sciences, 179 Longwood Avenue, Boston, Massachusetts 02115. </item>
+                     <item>
+                        <caption>4.</caption>Clinical Oncological Society of Australia, Guidelines and Recommendations for Safe Handling of Antineoplastic Agents. Med J Australia, 1983; 1:426-428. </item>
+                     <item>
+                        <caption>5.</caption>Jones RB, <content styleCode="italics">et al</content>: Safe Handling of Chemotherapeutic Agents: A Report from the Mount Sinai Medical Center. CA-A Cancer Journal of Clinicians, 1983; (Sept/Oct) 258-263. </item>
+                     <item>
+                        <caption>6.</caption>American Society of Hospital Pharmacists Technical Assistance Bulletin on Handling Cytotoxic and Hazardous Drugs. Am J. Hosp. Pharm, 1990; 47:1033-1049. </item>
+                     <item>
+                        <caption>7.</caption>Controlling Occupational Exposure to Hazardous Drugs. (OSHA Work Practice Guidelines), Am J. Health- Syst Pharm, 1996; 53:1669-1685. </item>
+                  </list>
+                  <paragraph>Distributed by Hospira, Inc. Lake Forest, IL 60045 USA<br/>
+                  </paragraph>
+                  <renderMultiMedia ID="id719" referencedObject="ID_95c5e842-8692-41b3-a252-a0b5b7465c78"/>
+                  <paragraph>LAB-1606 1.0<br/>Revised: 12/2024</paragraph>
+               </text>
+               <effectiveTime value="20250407"/>
+               <component>
+                  <observationMedia ID="ID_95c5e842-8692-41b3-a252-a0b5b7465c78">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cytarabine-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_be24593c-c96e-4e79-bdc0-10064e4315c5">
+               <id root="64882456-2878-4cba-bb25-ebadbbc732d2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 20 mL Glass Vial Label</title>
+               <text>
+                  <paragraph>20 mL Vial<br/>NDC 61703-155-01</paragraph>
+                  <paragraph>Sterile</paragraph>
+                  <paragraph>Cytarabine Injection</paragraph>
+                  <paragraph>2 g/20 mL<br/>(100 mg/mL)</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>For Intravenous, Intrathecal and<br/>Subcutaneous Use Only<br/>Single Dose Vial<br/>Cytotoxic Agent</paragraph>
+                  <renderMultiMedia ID="id747" referencedObject="ID_7943e9df-cf94-4495-bb87-759a35dfc0b5"/>
+               </text>
+               <effectiveTime value="20250407"/>
+               <component>
+                  <observationMedia ID="ID_7943e9df-cf94-4495-bb87-759a35dfc0b5">
+                     <text>PRINCIPAL DISPLAY PANEL - 20 mL Glass Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cytarabine-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_232a0c0a-c658-4579-b3ea-c523e32cd204">
+               <id root="0242cf7a-c419-40f6-a84e-94e83b0876e4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 20 mL Glass Vial Carton</title>
+               <text>
+                  <paragraph>VIAL<br/>Hospira</paragraph>
+                  <paragraph>1 x 20 mL Vial<br/>NDC 61703-155-01</paragraph>
+                  <paragraph>Sterile</paragraph>
+                  <paragraph>Cytarabine<br/>Injection</paragraph>
+                  <paragraph>2 g/20 mL<br/>(100 mg/mL)</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>For Intravenous, Intrathecal<br/>and Subcutaneous Use Only<br/>Single Dose Vial</paragraph>
+                  <paragraph>Cytotoxic Agent</paragraph>
+                  <renderMultiMedia ID="id775" referencedObject="ID_85b46c8a-e32f-4e94-a865-a88c7acfe809"/>
+               </text>
+               <effectiveTime value="20250407"/>
+               <component>
+                  <observationMedia ID="ID_85b46c8a-e32f-4e94-a865-a88c7acfe809">
+                     <text>PRINCIPAL DISPLAY PANEL - 20 mL Glass Vial Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="cytarabine-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

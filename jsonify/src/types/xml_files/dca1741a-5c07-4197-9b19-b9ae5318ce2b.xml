@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dca1741a-5c07-4197-9b19-b9ae5318ce2b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">ANTICOAGULANT SODIUM CITRATE 4% w/v SOLUTION USP</content>
+   </title>
+   <effectiveTime value="20240402"/>
+   <setId root="7025a0f9-1a56-4416-a3a4-925d755aed90"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="059140764" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-9669" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="61a6af0e-dd86-490d-bd49-62cf525a1a8c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240701"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-9669" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>ANTICOAGULANT SODIUM CITRATE</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>trisodium citrate dihydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="40"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="B22547B95K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRISODIUM CITRATE DIHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XF417D3PSL" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS CITRIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0338-9669-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BN980123" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240402"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38212" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="EXTRACORPOREAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_75EE7391-359B-468B-918A-F797F8875D9D">
+               <id root="786bed8b-4a2a-48c5-a98f-ac14ad9db611"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE </title>
+               <text>
+                  <paragraph>Anticoagulant Sodium Citrate 4% w/v Solution, USP is intended for use only with automated apheresis devices.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_111831cc-b97e-4a6d-8ade-76e1b843191b">
+               <id root="111831cc-b97e-4a6d-8ade-76e1b843191b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>ADMINISTRATION </title>
+               <text>
+                  <paragraph>The pouch is a moisture barrier. Do not remove from pouch until ready to use. Do not use unless solution is clear and no leaks detected. Do not use unless port protector is in place.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5c0baf6d-1f3a-4d4a-bf42-6ee840485631">
+               <id root="5c0baf6d-1f3a-4d4a-bf42-6ee840485631"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DOSAGE FORMS AND STRENGTHS </title>
+               <text>
+                  <paragraph>Anticoagulant Sodium Citrate 4% w/v Solution, USP in the 250 mL single dose container is a sterile solution that contains 4g Sodium Citrate Dihydrate, USP per 100 mL, pH adjusted with citric acid.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8ee164de-e76c-42a0-8a23-bd8eb6ead0c7">
+               <id root="8ee164de-e76c-42a0-8a23-bd8eb6ead0c7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>PRECAUTIONS </title>
+               <text>
+                  <paragraph>Not for direct intravenous infusion.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_46af1d15-98b1-442b-8b16-ef5caf30267a">
+               <id root="46af1d15-98b1-442b-8b16-ef5caf30267a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED </title>
+               <text>
+                  <paragraph>Anticoagulant Sodium Citrate 4% w/v Solution, USP is a clear solution supplied in sterile and nonpyrogenic PVC bags per carton.</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <section ID="ID_726ca4b6-80b4-419d-beea-f659ffa1e99d">
+                     <id root="726ca4b6-80b4-419d-beea-f659ffa1e99d"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage and Handling </title>
+                     <text>
+                        <paragraph>Store at room temperature (25C/77F). Avoid excessive heat. Protect from freezing.</paragraph>
+                     </text>
+                     <effectiveTime value="20240701"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_12D7206D-7108-4DC1-A390-B7A66EC1906B">
+               <id root="f8ae6427-8778-42d8-b623-569865247d0d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <renderMultiMedia ID="id2127195961" referencedObject="b7c24f84-008b-4606-b50a-8741456ca533"/>
+                  <paragraph>
+                     <content styleCode="bold">LOT</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EXP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2B7867<br/>NDC 0338-9669-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anticoagulant<br/>Sodium Citrate<br/>4% w/v<br/>Solution USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">250 mL</content> EACH 100 mL CONTAINS 4 g SODIUM <br/>CITRATE (DIHYDRATE) USP <br/>pH ADJUSTED WITH CITRIC ACID <br/>STERILE NONPYROGENIC <br/>INTENDED FOR USE ONLY WITH AUTOMATED APHERESIS <br/>DEVICES <br/>
+                     <content styleCode="bold">CAUTION —</content> NOT FOR DIRECT INTRAVENOUS INFUSION THE <br/>POUCH IS A MOISTURE BARRIER DO NOT USE UNLESS <br/>SOLUTION IS CLEAR SQUEEZE AND INSPECT INNER BAG <br/>WHICH MAINTAINS PRODUCT STERILITY DISCARD IF LEAKS <br/>ARE FOUND SINGLE USE CONTAINER DISCARD UNUSED <br/>PORTION DIRECTIONS FOR USE ARE CONTAINED IN THE <br/>OWNERS OPERATING AND MAINTENANCE MANUAL OF THE <br/>APHERESIS MACHINE TO BE USED </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">RECOMMENDED STORAGE</content>
+                     <br/>ROOM TEMPERATURE (25C/77F) AVOID EXCESSIVE HEAT <br/>PROTECT FROM FREEZING. </paragraph>
+                  <paragraph>FOR PRODUCT INFORMATION 1-800-933-0303 </paragraph>
+                  <paragraph>BAXTER IS A TRADEMARK OF BAXTER INTERNATIONAL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Baxter Logo</content>
+                     </content>
+                     <br/>BAXTER HEALTHCARE CORPORATION<br/>DEERFIELD IL 60015 USA</paragraph>
+                  <paragraph>MADE IN USA</paragraph>
+                  <paragraph>07-25-00-4675</paragraph>
+               </text>
+               <effectiveTime value="20240701"/>
+               <component>
+                  <observationMedia ID="b7c24f84-008b-4606-b50a-8741456ca533">
+                     <text>Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

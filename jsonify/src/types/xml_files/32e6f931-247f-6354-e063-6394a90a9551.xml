@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="32e6f931-247f-6354-e063-6394a90a9551"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250416"/>
+   <setId root="801f110c-7800-4689-a37a-f31d99c0f930"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="829572556"/>
+            <name>REMEDYREPACK INC.</name>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="32e6fbc3-4375-6cb0-e063-6394a90adfb5"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250416"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="70518-4180" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Calcium Chloride</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Calcium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="76329-3304" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M4I0D6VV5M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="2M83C4R6ZB" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CALCIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="70518-4180-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="70518-4180-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240924"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203477" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20240924"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38277" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENTRICULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L0178ca11-8c34-4a4b-8b8d-3978c7bde0c5">
+               <id root="2307ebab-0ecc-c621-e063-6394a90ab2e6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">10% Calcium Chloride</content>
+                     <br/>
+                     <content styleCode="bold">Injection, USP 
+   <br/>  Rx Only
+  </content>
+                     <br/>
+                     <content styleCode="bold">1 g/10 mL (100 mg/mL)</content>
+                     <br/>  Represents 27 mg (1.4 mEq) Ca++/mL 
+  <br/>
+                     <content styleCode="bold">A HYPERTONIC SOLUTION IN A 10 ML SINGLE-DOSE SYRINGE FOR PROMPT INTRAVENOUS INJECTION.</content>
+                     <br/>
+                     <content styleCode="bold">CAUTION: This solution must not be injected intramuscularly or subcutaneously. Administer only by slow injection (not to exceed 1 mL/minute)</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld7fa610a-2b4b-404c-ac89-598e0bcd613e">
+               <id root="2307ebab-0ecd-c621-e063-6394a90ab2e6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>10% Calcium Chloride Injection, USP is a sterile, nonpyrogenic, hypertonic solution. Each mL contains 100 mg (1.4 mEq/mL) of calcium chloride, dihydrate (1.4 mEq each of Ca
+ 
+  <sup>++</sup>and Cl
+ 
+  <sup>-</sup>) in water for injection. It is provided in a 10 mL Single-Dose Syringe to facilitate prompt intravenous injection. The solution contains no bacteriostat, antimicrobial agent or added buffer and is intended for use only as a single-dose injection. The pH of 10% Calcium Chloride Injection, USP is 5.5 to 7.5 when diluted with water for injection to make a 5% solution. May contain hydrochloric acid and/or sodium hydroxide for pH adjustment. The osmolar concentration is 2.04 mOsmol/mL (calc.). 10% Calcium Chloride Injection, USP is oxygen sensitive.
+
+ </paragraph>
+                  <paragraph>   Calcium Chloride, USP dihydrate is chemically designated CaCl
+ 
+  <sub>2</sub>• 2H
+ 
+  <sub>2</sub>O (dihydrate) and is described as white, odorless fragments or granules freely soluble in water.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4357487d-1837-4a57-aaca-bc4578a5002b">
+               <id root="2307ebab-0ece-c621-e063-6394a90ab2e6"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Calcium chloride in water dissociates to provide calcium (Ca
+ 
+  <sup>++</sup>) and chloride (Cl
+ 
+  <sup>-</sup>) ions. They are normal constituents of the body fluids and are dependent on various physiological mechanisms for maintenance of balance between intake and output. Approximately 80% of body calcium is excreted in the feces as insoluble salts; urinary excretion accounts for the remaining 20%.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L72defc3a-0392-47ba-8598-5fb35c8e0dd8">
+               <id root="2307ebab-0ecf-c621-e063-6394a90ab2e6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>10% Calcium Chloride Injection, USP is indicated for the treatment of hypocalcemia in those conditions requiring a prompt increase in plasma calcium levels.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L32fb25c1-d92e-4fdb-aeac-2236a1cf7f68">
+               <id root="2307ebab-0ed0-c621-e063-6394a90ab2e6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Calcium chloride is contraindicated for cardiac resuscitation in the presence of ventricular fibrillation or in patients with the risk of existing digitalis toxicity.</paragraph>
+                  <paragraph>   Calcium chloride is not recommended in the treatment of asystole and electromechanical dissociation.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lea4d8aa3-fc92-4e99-876e-64f739cc6d7c">
+               <id root="2307ebab-0ed1-c621-e063-6394a90ab2e6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>10% Calcium Chloride Injection, USP is irritating to veins and
+ 
+  <content styleCode="italics">must not be injected into tissues</content>, since severe necrosis and sloughing may occur. Great care should be taken to avoid extravasation or accidental injection into perivascular tissues.
+
+ </paragraph>
+                  <paragraph>   This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>   Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ld11f64ac-cc01-44ca-8a53-b5faf0bf4525">
+               <id root="2307ebab-0ed2-c621-e063-6394a90ab2e6"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Do not administer unless solution is clear and seal is intact. Discard unused portion.</paragraph>
+                  <paragraph>   Because of its additive effect, calcium should be administered very cautiously to a patient who is digitalized or who is taking effective doses of digitalis or digitalis-like preparations.</paragraph>
+                  <paragraph>   Injections should be made slowly through a small needle into a large vein to minimize venous irritation and avoid undesirable reactions. It is particularly important to prevent a high concentration of calcium from reaching the heart because of the danger of cardiac syncope.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+               <component>
+                  <section ID="L81448684-bc72-46c1-bc18-e0c62610819e">
+                     <id root="2307ebab-0ed3-c621-e063-6394a90ab2e6"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use:</content>Safety and effectiveness are based on similar clinical conditions in children and adults.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20240926"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L100f0c2a-9b4c-4eb2-bdad-4a460c6c9634">
+                     <id root="2307ebab-0ed4-c621-e063-6394a90ab2e6"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy:</content>Animal reproduction studies have not been conducted with calcium chloride. It also is not known whether calcium chloride can cause fetal harm when administered to a pregnant woman or can affect reproductive capacity. Calcium chloride should be given to a pregnant woman only if clearly needed.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20240926"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L26d82192-63a6-4542-bf5c-97133e5f47b0">
+                     <id root="2307ebab-0ed5-c621-e063-6394a90ab2e6"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Geriatric Use:</content>An evaluation of current literature revealed no clinical experience identifying differences in response between elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20240926"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L08163abb-980f-46b1-83ab-258c1728e8fe">
+               <id root="2307ebab-0ed6-c621-e063-6394a90ab2e6"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Rapid injection may cause the patient to complain of tingling sensations, a calcium taste, a sense of oppression or “heat wave”.</paragraph>
+                  <paragraph>   Injections of calcium chloride are accompanied by peripheral vasodilatation as well as a local “burning” sensation and there may be a moderate fall in blood pressure.</paragraph>
+                  <paragraph>   Should perivascular infiltration occur, I.V. administration at that site should be discontinued at once. Local infiltration of the affected area with 1% procaine hydrochloride, to which hyaluronidase may be added, will often reduce venospasm and dilute the calcium remaining in the tissues locally. Local application of heat may also be helpful.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L049b61e1-d030-4d56-a28e-09cb71dc1731">
+               <id root="2307ebab-0ed7-c621-e063-6394a90ab2e6"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>None known.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4254a327-0350-4867-a4c6-22e84dda6959">
+               <id root="2307ebab-0ed8-c621-e063-6394a90ab2e6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Too rapid injection may produce lowering of blood pressure and cardiac syncope. Persistent hypercalcemia from overdosage of calcium is unlikely because of rapid excretion. In the event of untoward effects from excessive calcium administration, the drug should be discontinued promptly, the patient re-evaluated and appropriate countermeasures instituted, if necessary. See
+ 
+  <content styleCode="italics">
+                        <content styleCode="bold">
+                           <linkHtml href="#Ld11f64ac-cc01-44ca-8a53-b5faf0bf4525">PRECAUTIONS</linkHtml>
+                        </content>
+                     </content>and
+ 
+  <content styleCode="italics">
+                        <content styleCode="bold">
+                           <linkHtml href="#L08163abb-980f-46b1-83ab-258c1728e8fe">ADVERSE REACTIONS</linkHtml>
+                        </content>
+                     </content>.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L32ca1fe8-7e4e-4a37-ab26-2a38b2e7f4ea">
+               <id root="2307ebab-0ed9-c621-e063-6394a90ab2e6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>10% Calcium Chloride Injection, USP is administered only by
+ 
+  <content styleCode="italics">slow</content>intravenous injection (not to exceed 1 mL/min),
+ 
+  <content styleCode="italics">preferably in a central or deep vein</content>.
+
+ </paragraph>
+                  <paragraph>   The usual precautions for intravenous therapy should be observed. If time permits, the solution should be warmed to body temperature. The injection should be halted if the patient complains of any discomfort; it may be resumed when symptoms disappear. Following injection, the patient should remain recumbent for a short time.</paragraph>
+                  <paragraph>   The usual adult dosage in hypocalcemic disorders ranges from 200 mg to 1 g (2 -10 mL) at intervals of 1 to 3 days depending on the response of the patient and/or results of serum ionized calcium determinations. Repeated injections may be required because of rapid excretion of calcium.</paragraph>
+                  <paragraph>   The pediatric dosage in hypocalcemic disorders ranges from 2.7 to 5.0 mg/kg hydrated calcium chloride (or 0.136 to 0.252 mEq elemental calcium per kg, or 0.027 to 0.05 mL of 10% Calcium Chloride Injection per kg). No data from clinical trials is available about repeated dosages, though textbook references recommend repeat dosages q 4 to 6 hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">   Caution:</content>10% Calcium Chloride Injection consists of 1 gram of calcium chloride in a 10 mL syringe, or 100 mg/mL. This concentration represents 27 mg or 1.4 mEq of elemental calcium per mL. Thus, one 10 mL syringe provides 270 mg of elemental calcium. The dosage recommendation in various references is given either as amount of calcium chloride or amount of elemental calcium, and often it is not specified. Ionized calcium concentrations should be measured, to assist in dosage adjustment.
+
+ </paragraph>
+                  <paragraph>   Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. See
+ 
+  <content styleCode="italics">
+                        <content styleCode="bold">
+                           <linkHtml href="#Ld11f64ac-cc01-44ca-8a53-b5faf0bf4525">PRECAUTIONS</linkHtml>
+                        </content>
+                     </content>.
+
+ </paragraph>
+                  <paragraph>   To prevent needle-stick injuries, needles should not be recapped, purposely bent or broken by hand.</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1bc96bdb-196f-4958-bfc2-21496268831c">
+               <id root="2307ebab-0eda-c621-e063-6394a90ab2e6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>10% Calcium Chloride Injection, USP is supplied in single-dose containers as follows:</paragraph>
+                  <paragraph>One shrink wrapped package containing 10 unit cartons, each containing a Luer-Jet™ Luer-Lock Prefilled Syringe.</paragraph>
+                  <paragraph>NDC: 70518-4180-00</paragraph>
+                  <paragraph>NDC: 70518-4180-01</paragraph>
+                  <paragraph>PACKAGING: 10 in 1 PACKAGE</paragraph>
+                  <paragraph>PACKAGING: 1, 10 mL in 1 SYRINGE, TYPE 2</paragraph>
+                  <paragraph/>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15°C and 30°C (59°F and 86°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>*CAUTION: IMPROPER ENGAGING MAY CAUSE GLASS BREAKAGE AND SUBSEQUENT INJURY.</paragraph>
+                  <paragraph/>
+                  <paragraph>Repackaged and Distributed By:</paragraph>
+                  <paragraph>Remedy Repack, Inc.</paragraph>
+                  <paragraph>625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L31bfd498-2754-4f4c-9967-7ecdce392b3b">
+               <id root="23080167-ea4b-8a39-e063-6394a90a4215"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Repackaged and Distributed By:</paragraph>
+                  <paragraph>Remedy Repack, Inc.</paragraph>
+                  <paragraph>625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762</paragraph>
+               </text>
+               <effectiveTime value="20240926"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_230801bc-a3d9-8a16-e063-6394a90ad3f4">
+               <id root="32e6ebbe-226a-a336-e063-6294a90aabfc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>DRUG: Calcium Chloride</paragraph>
+                  <paragraph>GENERIC: Calcium Chloride</paragraph>
+                  <paragraph>DOSAGE: INJECTION</paragraph>
+                  <paragraph>ADMINSTRATION: INTRAVENOUS</paragraph>
+                  <paragraph>NDC: 70518-4180-0</paragraph>
+                  <paragraph>NDC: 70518-4180-1</paragraph>
+                  <paragraph>PACKAGING: 10 mL in 1 SYRINGE</paragraph>
+                  <paragraph>OUTER PACKAGING: 10 in 1 PACKAGE</paragraph>
+                  <paragraph>ACTIVE INGREDIENT(S):</paragraph>
+                  <list listType="unordered">
+                     <item>CALCIUM CHLORIDE 100mg in 1mL</item>
+                  </list>
+                  <paragraph>INACTIVE INGREDIENT(S):</paragraph>
+                  <list listType="unordered">
+                     <item>SODIUM HYDROXIDE</item>
+                     <item>Hydrochloric Acid</item>
+                  </list>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_32e6ebc0-1546-a789-e063-6294a90aa262"/>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_32e6f192-62e0-67c1-e063-6394a90a7268"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240926"/>
+               <component>
+                  <observationMedia ID="img_32e6ebc0-1546-a789-e063-6294a90aa262">
+                     <text>MM1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Calcium Chloride 1g - 10mL(100mg-mL)_70518-4180-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_32e6f192-62e0-67c1-e063-6394a90a7268">
+                     <text>MM2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Calcium Chloride 1g - 10mL(100mg-mL)_70518-4180-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

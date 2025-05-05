@@ -2,23 +2,39 @@ import json
 import pandas as pd
 import os
 
-def convert_csv_to_json(input_file, output_directory):
+def convert_file_to_json(input_file, output_directory, delimiter=",", skiprows=0):
+    """
+    Converte arquivos CSV ou TXT para JSON.
+
+    Args:
+        input_file (str): Caminho do arquivo de entrada.
+        output_directory (str): Diretório onde os arquivos JSON serão salvos.
+        delimiter (str): Delimitador usado no arquivo (padrão: ",").
+        skiprows (int): Número de linhas a ignorar no início do arquivo (padrão: 0).
+
+    Returns:
+        str: Mensagem indicando o número de arquivos JSON criados.
+    """
     try:
-        # Create output directory if it doesn't exist
+        # Cria o diretório de saída, se não existir
         os.makedirs(output_directory, exist_ok=True)
         
-        # Read CSV file, skipping the first 3 rows
-        df = pd.read_csv(input_file, skiprows=3)
+        # Lê o arquivo com o delimitador especificado
+        df = pd.read_csv(input_file, delimiter=delimiter, skiprows=skiprows)
         
-        # Clean up the dataframe
+        # Renomeia a coluna 'Ingredient' para 'Proper Name', se existir
+        if 'Ingredient' in df.columns:
+            df.rename(columns={'Ingredient': 'Proper Name'}, inplace=True)
+        
+        # Limpa o dataframe
         df.dropna(axis=1, how="all", inplace=True)
         df.dropna(how="all", inplace=True)
         df = df.where(pd.notna(df), None)
         
-        # Convert to list of dictionaries
+        # Converte para uma lista de dicionários
         data = df.to_dict(orient="records")
         
-        # Create individual JSON files
+        # Cria arquivos JSON individuais
         file_count = 0
         for i, record in enumerate(data):
             output_file = os.path.join(output_directory, f"record_{i+1}.json")

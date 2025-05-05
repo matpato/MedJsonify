@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="316c5c93-5923-5146-e063-6394a90a694b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250330"/>
+   <setId root="316c5c93-5922-5146-e063-6394a90a694b"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+            <name>TURK ILAC VE SERUM SANAYI ANONIM SIRKETI</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                  <name>TURK ILAC VE SERUM SANAYI ANONIM SIRKETI</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="533104534"/>
+                        <name>TURK ILAC VE SERUM SANAYI ANONIM SIRKETI</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="85160-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="31aad115-91fa-4620-e063-6294a90ab973"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250330"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="85160-100" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Turkfleks %0.5 Metronidazole Infusion Solution</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>%0.5 Metronidazole Infusion Solution</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="140QMO216E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METRONIDAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="140QMO216E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METRONIDAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="85160-100-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="85160-100-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250330"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319af59d-3350-12a6-e063-6394a90a22e4">
+               <id root="319af59d-334f-12a6-e063-6394a90a22e4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>NAME OF THE HUMAN MEDICAL PRODUCT</paragraph>
+                  <paragraph/>
+                  <paragraph>TURKFLEKS 0.5% METRONIDAZOL IV solution for infusion Sterile</paragraph>
+                  <paragraph/>
+                  <paragraph>QUALITATIVE AND QUANTITATIVE COMPOSITION</paragraph>
+                  <paragraph>Active ingredient:</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Each 100 ml of solution contains 500 mg of metronidazole.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Excipient(s):</paragraph>
+                  <paragraph/>
+                  <paragraph>Disodium hydrogen phosphate dodecahydrate….............. 150 mg</paragraph>
+                  <paragraph>Sodium chloride…...................................................... 740 mg</paragraph>
+                  <paragraph/>
+                  <paragraph>Excipients:</paragraph>
+                  <paragraph>Disodium hydrogen phosphate dodecahydrate</paragraph>
+                  <paragraph>Sodium chloride</paragraph>
+                  <paragraph>Citric acid monohydrate</paragraph>
+                  <paragraph>Water for injection</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b1544-c3f8-25ec-e063-6394a90a0286">
+               <id root="319b1544-c3f7-25ec-e063-6394a90a0286"/>
+               <code code="60560-0" codeSystem="2.16.840.1.113883.6.1" displayName="INTENDED USE OF THE DEVICE"/>
+               <text>
+                  <paragraph>Medical and surgical infections caused by anaerobic bacteria sensitive to metronidazole in the treatment of infections,
+  <br/>
+For prophylactic purposes in surgical procedures with a risk of anaerobic infection development,
+  <br/>
+It is indicated in severe intestinal and hepatic amebiasis.
+ </paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b0bb3-5c86-252f-e063-6394a90ae9d8">
+               <id root="319b0bb3-5c85-252f-e063-6394a90ae9d8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Medical and surgical infections caused by anaerobic bacteria sensitive to metronidazole in the treatment of infections,
+  <br/>
+For prophylactic purposes in surgical procedures with a risk of anaerobic infection development,
+  <br/>
+It is indicated in severe intestinal and hepatic amebiasis.
+ </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b1717-6cc2-1969-e063-6294a90a50bd">
+               <id root="319b1717-6cc1-1969-e063-6294a90a50bd"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Contraindicated in those with hypersensitivity to imidazole derivatives or excipients</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b08ef-60ba-25a1-e063-6394a90ad63a">
+               <id root="319b08ef-60b9-25a1-e063-6394a90ad63a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Solution for infusion.</paragraph>
+                  <paragraph>Colourless, for intravenous infusion.</paragraph>
+                  <paragraph>Clear and particle-free sterile isotonic solution.</paragraph>
+                  <paragraph/>
+                  <paragraph>Posology and method of administration</paragraph>
+                  <paragraph/>
+                  <paragraph>Dosage/frequency and duration of application:</paragraph>
+                  <paragraph>Treatment of medical and surgical infections caused by susceptible anaerobic bacteria: Adults: 1 – 1.5 g/day in 2 or 3 equal doses intravenously.</paragraph>
+                  <paragraph>Children: Intravenous single dose of 20-30 mg/kg/day or 7.5 mg/kg every 8 hours for children aged 8 weeks to 12 years. Depending on the severity of the infection, the daily dose may be increased to 40 mg/kg. The duration of treatment is usually 7 days.</paragraph>
+                  <paragraph>Children younger than 8 weeks: 15 mg/kg once daily or 7.5 mg/kg every 12 hours. Metronidazole accumulation may occur in neonates younger than 40 weeks gestational age during the first week after birth. Therefore, serum metronidazole concentrations may need to be monitored during the first few days of treatment. Once the patient is able to take the medication orally, treatment should be continued with the same oral dose.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Prophylactic treatment in surgical procedures with a risk of anaerobic infection:</paragraph>
+                  <paragraph>In this indication, metronidazole should be combined with a drug effective against enterobacteriaceae.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adults: 500 mg by intravenous infusion (administered over 30 to 60 minutes) immediately before surgery and at 8 and 16 hours after surgery.</paragraph>
+                  <paragraph>Children under 12 years of age: 20–30 mg/kg as a single dose, 1–2 hours before surgery.</paragraph>
+                  <paragraph/>
+                  <paragraph>In neonates with a gestational age of less than 40 weeks: 10 mg/kg as a single dose before surgery.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Severe intestinal amebiasis:</paragraph>
+                  <paragraph>Adults: 1.5 g/day (e.g. 3 intravenous infusions of 500 mg per day)</paragraph>
+                  <paragraph/>
+                  <paragraph>Children over 10 years: 400-800 mg 3 times daily for 5-10 days.</paragraph>
+                  <paragraph/>
+                  <paragraph>Children 7-10 years old: 200-400 mg 3 times daily for 5-10 days.</paragraph>
+                  <paragraph/>
+                  <paragraph>Children 3-7 years: 100-200 mg 4 times daily for 5-10 days</paragraph>
+                  <paragraph/>
+                  <paragraph>Children 1-3 years: 100-200 mg 3 times daily for 5-10 days</paragraph>
+                  <paragraph/>
+                  <paragraph>Alternatively, the dose can be adjusted according to body weight. 35-50 mg/kg daily in 3 divided doses for 5-10 days. The daily dose should not exceed 2400 mg.</paragraph>
+                  <paragraph>In hepatic amebiasis, abscess drainage should be applied together with metronidazole treatment during the abscess period.</paragraph>
+                  <paragraph/>
+                  <paragraph>Method of</paragraph>
+                  <paragraph>application: 5 ml per minute is administered as an infusion.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Additional information regarding special populations:</paragraph>
+                  <paragraph/>
+                  <paragraph>Kidney/Liver failure:</paragraph>
+                  <paragraph>In severe hepatic insufficiency, the dose and frequency of administration should be adjusted according to the degree of insufficiency and serum levels of metronidazole. For renal insufficiency , see section 4.4.</paragraph>
+                  <paragraph/>
+                  <paragraph>Pediatric population:</paragraph>
+                  <paragraph>Given above.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Geriatric population:</paragraph>
+                  <paragraph>Caution is recommended in the elderly. Caution should be exercised especially at high doses.</paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b3884-1888-3ba1-e063-6294a90aab84">
+               <id root="319b3884-1887-3ba1-e063-6294a90aab84"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>Long-term use of TURKFLEKS 0.5% METRONIDAZOL in treatment should be carefully evaluated (see section 5.3). In case of longer-than-planned use, regular blood tests should be performed, and leukocytes should be monitored in particular and attention should be paid to the development of neuropathy.</paragraph>
+                  <paragraph>Due to the risk of exacerbation of neurological symptoms, active or chronic peripheral or Should be used with caution in patients with central neurological disorders.
+  <br/>
+Patients should be warned not to drink alcohol during treatment and for at least two days after stopping treatment, as it may cause a disulfiram-like reaction.
+  <br/>
+It should be used with caution in patients with blood dyscrasia findings or history. Leukocyte count should be performed before and after treatment. In cases with blood dyscrasia or high dose and/or long-term treatment, the decision on whether to continue treatment should be made according to the severity of the infection. Adverse reactions should be monitored in treatments longer than 10 days.
+ </paragraph>
+                  <paragraph>Metronidazole should be used with caution in cases of hepatic encephalopathy. The daily dose should be reduced to one third and used as a single dose.
+  <br/>
+It may darken the urine color due to its metabolites; patients should be informed about this. • Oral, vaginal or intestinal candidiasis
+ </paragraph>
+                  <paragraph>after intravenous metronidazole use</paragraph>
+                  <paragraph>may develop.</paragraph>
+                  <paragraph>It has no direct activity against aerobic and facultative anaerobic bacteria.</paragraph>
+                  <paragraph>After Trichomonas vaginalis is eliminated, a gonococcal infection does not remain</paragraph>
+                  <paragraph>There is a possibility.</paragraph>
+                  <paragraph>In case of renal failure, the elimination half-life of metronidazole does not change.</paragraph>
+                  <paragraph>Therefore, there is no need to reduce the dose of metronidazole. However, metronidazole metabolites remain in these patients. The clinical significance of this is unknown.</paragraph>
+                  <paragraph>In patients receiving hemodialysis, metronidazole and its metabolites are effectively removed within an 8- hour dialysis period. Therefore, metronidazole should be re-administered immediately after hemodialysis.</paragraph>
+                  <paragraph>There is no routine dosage adjustment</paragraph>
+                  <paragraph>necessary in patients with renal failure receiving intermittent peritoneal dialysis (IPD) or continuous ambulatory peritoneal dialysis (CAPD).</paragraph>
+                  <paragraph>If ataxia, vertigo, hallucinations or confusion are observed, treatment should be discontinued.
+  <br/>
+Metronidazole potentiates the effect of vecuronium, which is used to create non-depolarizing neuromuscular blockade.
+  <br/>
+Although metronidazole has been found to be carcinogenic in a certain mouse species, this effect has not been demonstrated in rats and hamsters. The preparation has no such effect in humans.
+ </paragraph>
+                  <paragraph>Due to insufficient evidence of mutagenicity risk in humans</paragraph>
+                  <paragraph>Use of TURKFLEKS 0.5% METRONIDAZOL for a longer period than usual should be carefully evaluated.</paragraph>
+                  <paragraph>This medicinal product contains 13 mmol sodium per 100 ml. Patients on a low sodium and low salt diet should be careful. It should also be administered with caution to those prone to oedema.</paragraph>
+                  <paragraph/>
+                  <paragraph>Should be stored at room temperature below 25 °C.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b1e96-163f-f030-e063-6294a90a15e3">
+               <id root="319b1e96-163e-f030-e063-6294a90a15e3"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>1.1.  Interactions with other medical products and other forms of interaction</paragraph>
+                  <paragraph>Disulfiram: Psychotic reactions have been reported in patients using disulfiram together with metronidazole.
+  <br/>
+Alcohol: In order to avoid a disulfiram-type reaction (redness in the face and neck area, vomiting, tachycardia), alcoholic beverages or medications containing alcohol should not be consumed during treatment and for at least 2 days after the end of treatment.
+  <br/>
+Warfarin: Since metronidazole reduces the destruction of oral anticoagulants in the liver, the effect of these preparations and the risk of hemorrhage may increase when used together. Therefore, in combined use, prothrombin levels should be checked frequently and the oral anticoagulant dose to be applied should be adjusted.
+  <br/>
+Lithium: Plasma levels of lithium may increase when used with metronidazole.
+ </paragraph>
+                  <paragraph>Therefore, plasma concentrations of lithium, creatinine and electrolytes should be monitored in patients receiving metronidazole while on lithium therapy.</paragraph>
+                  <paragraph>Cyclosporine: Increased serum levels of cyclosporine may occur.</paragraph>
+                  <paragraph>If co-administration with metronidazole is necessary, serum cyclosporine and creatinine levels should be closely monitored.</paragraph>
+                  <paragraph>Phenytoin-phenobarbital: Elimination of metronidazole may be increased and a decrease in serum levels may be observed.
+  <br/>
+5-fluoro-uracil: When used with metronidazole, the excretion of 5-fluoro-uracil decreases and its toxic effects increase accordingly.
+  <br/>
+Busulfan: Since metronidazole will increase the plasma busulfan amount, serious busulfan
+ </paragraph>
+                  <paragraph>may cause toxicity.</paragraph>
+                  <paragraph/>
+                  <paragraph>Interference with laboratory tests: Metronidazole may cause changes in AST (SGOT), ALT (SGPT), LDH, triglycerides, or glucose measurements when measured using the ultraviolet absorbance method.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b236f-da6e-2c04-e063-6394a90a8a45">
+               <id root="319b236f-da6d-2c04-e063-6394a90a8a45"/>
+               <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+               <text>
+                  <paragraph>It can be used in children from 8 weeks of age. For necessary dosage adjustment in pediatric patients:</paragraph>
+                  <paragraph>Treatment of medical and surgical infections caused by susceptible anaerobic bacteria: Adults: 1 – 1.5 g/day in 2 or 3 equal doses intravenously.</paragraph>
+                  <paragraph>Children: Intravenous single dose of 20-30 mg/kg/day or 7.5 mg/kg every 8 hours for children aged 8 weeks to 12 years. Depending on the severity of the infection, the daily dose may be increased to 40 mg/kg. The duration of treatment is usually 7 days.</paragraph>
+                  <paragraph>Children younger than 8 weeks: 15 mg/kg once daily or 7.5 mg/kg every 12 hours. Metronidazole accumulation may occur in neonates younger than 40 weeks gestational age during the first week after birth. Therefore, serum metronidazole concentrations may need to be monitored during the first few days of treatment. Once the patient is able to take the medication orally, treatment should be continued with the same oral dose.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Prophylactic treatment in surgical procedures with a risk of anaerobic infection:</paragraph>
+                  <paragraph>In this indication, metronidazole should be combined with a drug effective against enterobacteriaceae.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adults: 500 mg by intravenous infusion (administered over 30 to 60 minutes) immediately before surgery and at 8 and 16 hours after surgery.</paragraph>
+                  <paragraph>Children under 12 years of age: 20–30 mg/kg as a single dose, 1–2 hours before surgery.</paragraph>
+                  <paragraph/>
+                  <paragraph>In neonates with a gestational age of less than 40 weeks: 10 mg/kg as a single dose before surgery.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Severe intestinal amebiasis:</paragraph>
+                  <paragraph>Adults: 1.5 g/day (e.g. 3 intravenous infusions of 500 mg per day)</paragraph>
+                  <paragraph/>
+                  <paragraph>Children over 10 years: 400-800 mg 3 times daily for 5-10 days.</paragraph>
+                  <paragraph/>
+                  <paragraph>Children 7-10 years old: 200-400 mg 3 times daily for 5-10 days.</paragraph>
+                  <paragraph/>
+                  <paragraph>Children 3-7 years: 100-200 mg 4 times daily for 5-10 days</paragraph>
+                  <paragraph/>
+                  <paragraph>Children 1-3 years: 100-200 mg 3 times daily for 5-10 days</paragraph>
+                  <paragraph/>
+                  <paragraph>Alternatively, the dose can be adjusted according to body weight. 35-50 mg/kg daily in 3 divided doses for 5-10 days. The daily dose should not exceed 2400 mg.</paragraph>
+                  <paragraph>In hepatic amebiasis, abscess drainage should be applied together with metronidazole treatment during the abscess period.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b20c5-11ed-2bba-e063-6394a90aa967">
+               <id root="319b20c5-11ec-2bba-e063-6394a90aa967"/>
+               <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>recommendation Pregnancy category: B (2nd and 3rd trimester)</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Women of childbearing potential/Birth control (Contraception)</paragraph>
+                  <paragraph>Caution should be exercised in women of childbearing potential.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Pregnancy Period</paragraph>
+                  <paragraph/>
+                  <paragraph>There is insufficient information on the safety of metronidazole during pregnancy. Its use is not strictly necessary. It should not be given during pregnancy unless it is necessary. If its use is unavoidable, it is used for short periods. and a low-dose regimen is recommended.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b2679-cfcf-2b94-e063-6394a90a3200">
+               <id root="319b2679-cfce-2b94-e063-6394a90a3200"/>
+               <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+               <text>
+                  <paragraph>Metronidazole should not be used by breastfeeding mothers as it passes into breast milk</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b2086-172f-2745-e063-6294a90a9703">
+               <id root="319b2086-172e-2745-e063-6294a90a9703"/>
+               <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+               <text>
+                  <paragraph>Metronidazole has been shown to be mutagenic in bacteria in vitro . In vivo human cell culture studies have not provided adequate evidence of mutagenic effects</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b237d-412e-2c88-e063-6294a90a6791">
+               <id root="319b237d-412d-2c88-e063-6294a90a6791"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Adverse reactions reported more frequently than placebo in clinical trials and defined as at least possibly attributable to metronidazole treatment based on the best assessment of causality from available data are listed below using</paragraph>
+                  <paragraph>the following classification:</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Very common (ÿ1/10); common (ÿ1/100 to &lt;1/10); uncommon (ÿ1/1000 to &lt;1/100); rare (ÿ1/10000 to &lt;1/1000); very rare (ÿ1/10000), not known (cannot be estimated from the available data).</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Blood and lymphatic system diseases</paragraph>
+                  <paragraph>Very rare: Agranulocytosis, neutropenia, thrombocytopenia, pancytopenia. Unknown: Leukopenia</paragraph>
+                  <paragraph/>
+                  <paragraph>Immune system diseases</paragraph>
+                  <paragraph>Rare: Anaphylaxis</paragraph>
+                  <paragraph>Not known: Angioedema, urticaria, fever</paragraph>
+                  <paragraph/>
+                  <paragraph>Metabolism and nutritional diseases</paragraph>
+                  <paragraph>Unknown: Anorexia</paragraph>
+                  <paragraph/>
+                  <paragraph>Psychiatric diseases</paragraph>
+                  <paragraph>Very rare: Psychotic disorders including confusion and hallucinations. Unknown: Depressed mood</paragraph>
+                  <paragraph/>
+                  <paragraph>Nervous system diseases</paragraph>
+                  <paragraph>Very rare: Encephalopathy (e.g., confusion, headache, hallucination, paralysis, photosensitivity, movement disorder, neck stiffness) and subacute cerebellar syndrome (e.g., ataxia, dysarthria, gait disturbance, nystagmus, and tremor), reversible on discontinuation of the drug.</paragraph>
+                  <paragraph>Dizziness, lightheadedness, convulsions, headache.</paragraph>
+                  <paragraph>Not known: Peripheral sensory neuropathy or transient epileptiform seizures have been reported during intensive and/or prolonged metronidazole therapy. In many cases, the neuropathy resolved after discontinuation of therapy or reduction of dosage. Aseptic meningitis.</paragraph>
+                  <paragraph/>
+                  <paragraph>Eye diseases</paragraph>
+                  <paragraph>Very rare: Visual disturbances such as diplopia or myopia, mostly transient, blurred vision, decreased visual acuity, changes in colour vision.</paragraph>
+                  <paragraph>Not known: Optic neuropathy/neuritis</paragraph>
+                  <paragraph/>
+                  <paragraph>Gastrointestinal diseases</paragraph>
+                  <paragraph>Not known: Taste changes, oral mucositis, furry tongue, tongue discoloration/hairiness, gastrointestinal disorders such as nausea, vomiting, epigastric pain and diarrhoea. Cases of reversible pancreatitis.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Hepatobiliary diseases</paragraph>
+                  <paragraph>Very rare: Increases in liver enzymes (AST, ALT, ALP), sometimes with jaundice, cholestatic hepatitis or mixed hepatitis and hepatocellular liver damage have been reported. Cases of liver failure requiring liver transplantation have been reported in patients treated with metronidazole in combination with other antibiotics.</paragraph>
+                  <paragraph/>
+                  <paragraph>Skin and subcutaneous tissue diseases</paragraph>
+                  <paragraph>Very rare: Skin rash, pustular rash, pruritus, flushing</paragraph>
+                  <paragraph>Not known: Including erythema multiforme, Stevens-Johnson syndrome, and toxic epidermal necrolysis.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Musculoskeletal disorders, connective tissue and bone diseases</paragraph>
+                  <paragraph>Very rare: Myalgia, arthralgia</paragraph>
+                  <paragraph/>
+                  <paragraph>Kidney and urinary diseases</paragraph>
+                  <paragraph>Very rare: Darkening of urine colour (due to metronidazole metabolite) General disorders and diseases related to the application area Uncommon: Fever</paragraph>
+                  <paragraph/>
+                  <paragraph>Reporting of suspected adverse reactions</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Reporting of suspected adverse reactions after licensing is of great importance. Reporting allows continuous monitoring of the benefit/risk balance of the drug. Healthcare professionals are required to report any suspected adverse reactions to the Turkish Pharmacovigilance Center (TÜFAM) (www.titck.gov.tr ; e-mail: tufam@titck.gov.tr ; tel: 0 800 314 00 08, fax: 0 312 218 35 99).</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b3190-01f7-35de-e063-6394a90aaefe">
+               <id root="319b3190-01f6-35de-e063-6394a90aaefe"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Overdose symptoms include vomiting, ataxia and disorientation.</paragraph>
+                  <paragraph>There is no specific antidote. Symptomatic and supportive treatment should be applied.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b3190-01f9-35de-e063-6394a90aaefe">
+               <id root="319b3190-01f8-35de-e063-6394a90aaefe"/>
+               <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+               <text>
+                  <paragraph>Pharmacotherapeutic group: Antibacterials for systemic use. ATC code: J01XD01</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Mechanism of action</paragraph>
+                  <paragraph/>
+                  <paragraph>Metronidazole is an antibiotic from the 5-nitroimidazole group. It is bactericidal, amoebicidal and trichomonocidal.</paragraph>
+                  <paragraph>Its antimicrobial mechanism of action is not yet known. It is not ionized at physiological pH and is taken into</paragraph>
+                  <paragraph>the cells by anaerobic microorganisms and cells. It is reduced to polar metabolites that do not have nitro groups and are not yet fully identified by electron transport proteins with low redox potential in cells. It is thought that reduced metabolites create an antimicrobial effect by inhibiting nucleic acid synthesis and damaging DNA. Metronidazole is equally effective on dividing and non-dividing cells. In vitro and in vivo studies have also shown that metronidazole has a direct anti-inflammatory effect by affecting neutrophil motility, lymphocyte formation and cellular immunity.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Antibacterial spectrum of action of metronidazole:</paragraph>
+                  <paragraph>Anaerobic bacteria:</paragraph>
+                  <paragraph/>
+                  <paragraph>Metronidazole is effective against many bacteria in vitro : Bacteroides fragilis, B. bivius (Prevotella bivia), B. disiens (Prevotella disiens), B. distasoni, B. gingivalis, (Porphyromonas gingivalis), B. intermedius (Prevotella intermedia),</paragraph>
+                  <paragraph>B. melaninogenicus (Prevotella meloninogenica), B. oralis (Prevotella). oralis), B. ovatus, B. thetaiotaomicron, B. vulgatus, B. asaccharolyticus (Porphyromonas asaccharolytica), B. ureolyticus, Fusobacterium and Veillonella.</paragraph>
+                  <paragraph/>
+                  <paragraph>Some species of Mobiluncus (motile, anaerobic and those with coiled rods) are inhibited by metronidazole in vitro , while other species are considered resistant.</paragraph>
+                  <paragraph>Gram positive anaerobic cocci that are effective against the drug are Clostiridium, C. difficile, C. perfringens, Eubacterium, Peptococcus and Peptostreptococcus. Actinomyces, Lactobacillus, Propionibacterium acnes,</paragraph>
+                  <paragraph>P. avidum and P. granulosum are known to be resistant.</paragraph>
+                  <paragraph/>
+                  <paragraph>Other microorganisms:</paragraph>
+                  <paragraph>Metronidazole is effective against Campylobacter fetus in vitro . Gardnerella vaginalis (Haemophilus vaginalis) is sensitive to high doses of metronidazole. Metronidazole was found to be ineffective against fungi in in vitro studies.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Resistance</paragraph>
+                  <paragraph/>
+                  <paragraph>Some strains of Trichomonas vaginalis have developed resistance to metronidazole. Rarely, Bacteroides fragilis and other anaerobic bacteria may also acquire resistance after long-term use. Resistance to metronidazole may be due to poor cell penetration and/or nitroreductase activity.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b3457-fa6a-38fd-e063-6294a90afc06">
+               <id root="319b3457-fa69-38fd-e063-6294a90afc06"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <text>
+                  <paragraph>General Features</paragraph>
+                  <paragraph/>
+                  <paragraph>Absorption:</paragraph>
+                  <paragraph/>
+                  <paragraph>Since it is administered by injection, all of the administered medication is transferred to the body.</paragraph>
+                  <paragraph/>
+                  <paragraph>Distribution:</paragraph>
+                  <paragraph>The mean serum levels obtained as a result of intravenous infusion of a solution containing 500 mg metronidazole over 20 minutes are 18 mcg/mL. If the same dose is repeated at 8 hour intervals, the serum levels are maintained. If it is repeated at 12 hour intervals, the serum level is 13 mcg/mL. The plasma half-life is 8-10 hours. Protein binding is low (less than 10%). Its distribution is rapid and its concentration is high in the lungs, kidneys, liver, skin, bile, cerebrospinal fluid, saliva, seminal fluid and vaginal secretions.</paragraph>
+                  <paragraph>Metronidazole crosses the placenta and breast milk.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Biotransformation:</paragraph>
+                  <paragraph>It is metabolized in the liver and is found in high concentrations in the liver and bile. Metronidazole is metabolized in the body into two metabolites with antibacterial activity.</paragraph>
+                  <paragraph>“Alcohol” metabolite is the primary metabolite. Bactericidal effect against anaerobic bacteria 30% of the potency of metronidazole. Elimination half-life is approximately 11 hours.
+  <br/>
+The “acid” metabolite is present in small amounts and has a bactericidal effect of 5% of metronidazole.
+ </paragraph>
+                  <paragraph>There is.</paragraph>
+                  <paragraph/>
+                  <paragraph>Elimination:</paragraph>
+                  <paragraph>Excretion occurs mainly via the urine (40-70% of metronidazole excreted unchanged) and therefore the urine may take on a red-brown colour.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b352e-64db-3cee-e063-6294a90a0f3c">
+               <id root="319b352e-64da-3cee-e063-6294a90a0f3c"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>Metronidazole has been shown to be carcinogenic in mice and rats following chronic oral administration. However, similar studies in hamsters have yielded negative results.</paragraph>
+                  <paragraph>Epidemiological studies have shown no clear increase in carcinogenic risk in humans.</paragraph>
+                  <paragraph>No evidence was obtained. Therefore, long-term use of TURKFLEKS 0.5% METRONIDAZOL in treatment should be carefully evaluated.</paragraph>
+                  <paragraph>Metronidazole has been shown to be mutagenic in bacteria in vitro . In vivo human cell culture studies have not provided sufficient evidence of mutagenic effects.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b3eff-535e-39e4-e063-6394a90ab5fe">
+               <id root="319b3eff-535d-39e4-e063-6394a90ab5fe"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Sterile</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b40fe-e61d-3441-e063-6394a90ac0d7">
+               <id root="319b40fe-e61c-3441-e063-6394a90ac0d7"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <text>
+                  <paragraph>To determine whether the solutions to be used together will not cause any incompatibility.</paragraph>
+                  <paragraph>Care should be taken to ensure that the mixture is clear.</paragraph>
+                  <paragraph>TURKFLEKS 0.5% METRONIDAZOL should not be mixed with cefamendol-naftate, cefoxitin sodium, 10% dextrose, sodium lactate, penicillin G potassium.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Shelf life</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>24 months.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b4e74-3e8d-3c07-e063-6394a90abe33">
+               <id root="319b4e74-3e8c-3c07-e063-6394a90abe33"/>
+               <code code="60559-2" codeSystem="2.16.840.1.113883.6.1" displayName="COMPONENTS"/>
+               <text>
+                  <paragraph>TURKFLEKS 0.5% METRONIDAZOL, 100 ml containing 0.5 g/100 ml metronidazole It is offered in polypropylene bags, in sets and unset forms.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_319b4fe2-bd48-39df-e063-6394a90a9f93">
+               <id root="319b4fe2-bd47-39df-e063-6394a90a9f93"/>
+               <code code="69763-1" codeSystem="2.16.840.1.113883.6.1" displayName="DISPOSAL AND WASTE HANDLING"/>
+               <text>
+                  <paragraph>Unused products or waste materials should be disposed of in accordance with the “Medical Waste Control Regulation” and</paragraph>
+                  <paragraph>It must be destroyed in accordance with the “Packaging and Packaging Waste Control Regulation”.</paragraph>
+               </text>
+               <effectiveTime value="20250330"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31aa4981-7b76-ef79-e063-6294a90a4720">
+               <id root="31aaba89-de1d-2ee1-e063-6294a90af5aa"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>March 31, 2025</paragraph>
+                  <paragraph/>
+                  <paragraph>Subject: Temporary importation of Turkfleks %0.5 Metronidazole IV Solution from Turk Ilac located in Ankara-TURKEY to address drug shortages per:</paragraph>
+                  <paragraph>
+                     <linkHtml href="https://dps.fda.gov/drugshortages/activeingredient/metronidazole-injection">https://dps.fda.gov/drugshortages/activeingredient/metronidazole-injection</linkHtml>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>To prevent a shortage of large volume parenteral fluid drug products, Turk Ilac ve Serum Sanayi is coordinating with the U.S. Food and Drug Administration (FDA) to temporarily import Turkfleks %0.5 Metronidazole IV Solution 100ml from Turk Ilac ve Serum Sanayi manufacturing facility located in Ankara/TURKEY. FDA has not approved these products manufactured by Turk Ilac ve Serum Sanayi.</paragraph>
+                  <paragraph/>
+                  <paragraph>Effective immediately, and during this temporary period, Turk Ilac ve Serum Sanayi will offer the following imported product from Turk Ilac ve Serum Sanayi facility located in Ankara/TURKEY:</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name and Description</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Volume</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Bags per Box</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>NDC Code</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Turkfleks %0.5 Metronidazole</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>100ml</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>50</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>85160-100-10</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>Please note the following:</paragraph>
+                  <list listType="unordered">
+                     <item>Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</item>
+                     <item>The bag labels will contain the active pharmaceutical ingredient, concentration, volume, and NDC code in English.</item>
+                     <item>The imported products' administration port system is fully compatible with sets marketed in the United States.</item>
+                     <item>The imported products use a carton box that is taped closed. To avoid damage to the solution container, take care not to use sharp instruments to open the box.</item>
+                     <item>The imported products do not contain barcodes on the unit label. Alternative procedures should be followed to ensure that the correct drug product is being used in all systems and processes and administered to individual patients. For example, institutions should consider manually inputting the product into their systems and confirm that barcode systems do not provide incorrect information when the product is scanned.</item>
+                     <item>%0.5 Metronidazole is available only by prescription in the United States. However, the imported products do not have the statement "Rx only" on the labeling.</item>
+                     <item>USE A NEW BAG IF PARTICULATES ARE VISIBLE OR IF THE IV BAG CONTAINS A LEAK.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Additional key differences in the labeling between the FDA-approved product and the imported products are stated in the product comparison table at the end of this letter as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>Table 1. Key differences between FDA-approved and Turkfleks %0.5 Metronidazole</paragraph>
+                  <paragraph>Table 2. Label images of FDA-approved and Turkfleks %0.5 Metronidazole</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Reporting Adverse Events or Product Quality Issues</content>
+                  </paragraph>
+                  <paragraph>To report adverse events associated with these imported products, please use the contact us at info@turkilac.com.tr.</paragraph>
+                  <paragraph/>
+                  <paragraph>Adverse events or quality problems experienced with the use of these imported products may also be reported to the FDA's MedWatch Adverse Event Reporting program either online, by regular mail or by fax:</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Complete and submit the report Online: 
+   <linkHtml href="http://www.fda.gov/medwatch/report.htm">www.fda.gov/medwatch/report.htm</linkHtml>
+                     </item>
+                     <item>Regular mail or Fax: Download form 
+   <linkHtml href="http://www.fda.gov/MedWatch/getforms.htm">www.fda.gov/MedWatch/getforms.htm</linkHtml>
+                     </item>
+                  </list>
+                  <paragraph>or call 1-800332-1088 to request a reporting form, then complete and return to the address on the preaddressed form or submit by fax to 1-800-FDA-0178 (1-800-332-0178).</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Sincerely,</paragraph>
+                  <paragraph>Mehmet Berat Battal</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 1: Key Differences between FDA Approved product and Turkfleks %0.9 Sodium Chloride</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph/>
+                           </td>
+                           <td>
+                              <paragraph>FDA- Approved Product</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkfleks Import from Turkey</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Product Name</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Metronidazole Injection USP 500 mg (5 mg/mL) **</paragraph>
+                              <paragraph/>
+                              <paragraph>Note: IFU states “For Intravenous Infusion Only”</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>0.5% METRONIDAZOL IV solution for infusion</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Language of the Labels</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>English</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Turkish*</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Indications</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Metronidazole Injection USP and other antibacterial drugs, Metronidazole Injection USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria.</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>• Medical and surgical infections caused by anaerobic bacteria sensitive to metronidazole in the treatment of infections,</paragraph>
+                              <paragraph>• For prophylactic purposes in surgical procedures with a risk of anaerobic infection development,</paragraph>
+                              <paragraph>• It is indicated in severe intestinal and hepatic amebiasis.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Active Ingredients</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Each 100 ml contains 500mg metronidazole</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Each 100 ml contains 500mg metronidazole</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Store Conditions</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at room temperature 25C/77F</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Store at below 30C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>Container Type</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>PAB® Container</paragraph>
+                           </td>
+                           <td>
+                              <paragraph>Polypropylene</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*Upon receiving Submission Acceptance Turk Ilac ve Serum Sanayi will have bag labels written in both Turkish and English.</paragraph>
+                  <paragraph>** Injections are quick procedures, typically completed in a few seconds to minutes, and involve delivering a single dose of medication directly into the muscle, skin, or vein. Infusions, on the other hand, take longer and involve a continuous flow of medication directly into the bloodstream. However, 100ml bags of Metronidazole can be used for both infusions and injections as their intended use is the same. Because of their small volume, they can be used together for infusions and injections, and in some cases, they are even administered concurrently or sequentially through the same IV line, depending on the medical need and drug compatibility.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Table 2: Label Images of FDA-approved and Turkfleks %0.9 Sodium Chloride Injection</paragraph>
+                  <paragraph/>
+                  <table border="1" cellpadding="0" cellspacing="0">
+                     <tbody>
+                        <tr>
+                           <td>
+                              <paragraph/>
+                              <paragraph/>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="img_31aa48fb-104a-de0d-e063-6294a90a614d"/>
+                              </paragraph>
+                              <paragraph/>
+                           </td>
+                           <td>
+                              <paragraph/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <renderMultiMedia referencedObject="img_31aaad55-3397-84bd-e063-6394a90a16c4"/>
+                           </td>
+                           <td>
+                              <paragraph/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250331"/>
+               <component>
+                  <observationMedia ID="img_31aa48fb-104a-de0d-e063-6294a90a614d">
+                     <text>FDA Approved mero</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="FDA Approved metro.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_31aaad55-3397-84bd-e063-6394a90a16c4">
+                     <text>Turkfleks</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Turkfleks.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_31aa4511-6c4f-350a-e063-6394a90a75da">
+               <id root="31aaae1e-3d67-80cd-e063-6394a90a74d2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_31aaadf6-7ddc-2752-e063-6294a90a3ad1"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250331"/>
+               <component>
+                  <observationMedia ID="img_31aaadf6-7ddc-2752-e063-6294a90a3ad1">
+                     <text>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

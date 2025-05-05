@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3251a7a8-7561-cf22-e063-6394a90adcb3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250409"/>
+   <setId root="4db219dc-ea48-490c-e054-00144ff88e88"/>
+   <versionNumber value="6"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+            <name>RedPharm Drug, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="828374897"/>
+                        <name>RedPharm Drug, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67296-0913" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="325171ff-d476-78df-e063-6294a90aae27"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250409"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="67296-0913" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>IBU</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>IBU</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="55111-683" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="600"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IBUPROFEN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="WK2XYI10QM" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>IBUPROFEN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="VH2XOU12IE" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYDEXTROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="R12CBM0EIZ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARNAUBA WAX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSES</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CELLULOSE, MICROCRYSTALLINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6OZP39ZG8H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYSORBATE 80</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67296-0913-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081120"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67296-0913-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081120"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="67296-0913-9" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20081120"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075682" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20081120"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">6I</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea4e-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3c9-681b-e053-2995a90a0ab3"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING</title>
+               <text>
+                  <paragraph>BOXED WARNING</paragraph>
+                  <paragraph>Cardiovascular Thrombotic Events</paragraph>
+                  <paragraph>Nonsteroidal anti-inflammatory drugs (NSAIDs) cause an increased risk of serious cardiovascular thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. (See WARNINGS and PRECAUTIONS).</paragraph>
+                  <paragraph>IBU tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery (See CONTRAINDICATIONS and WARNINGS).</paragraph>
+                  <paragraph>Gastrointestinal Risk</paragraph>
+                  <paragraph>NSAIDS cause an increased risk of serious gastrointestinaladverse events including bleeding, ulceration, and perforationof the stomach or intestines, which can be fatal. These eventscan occur at any time during use and without warning symptoms.Elderly patients are at greater risk for serious gastrointestinalevents. (See WARNINGS).</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea50-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3ca-681b-e053-2995a90a0ab3"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>IBU tablets contain the active ingredient ibuprofen, which is (±) -2 - (p - isobutylphenyl) propionic acid. Ibuprofen is a white powde rwith a melting point of 74-77° C and is very slightly soluble in water(&lt;1 mg/mL) and readily soluble in organic solvents such as ethanol and acetone. The structural formula is represented below:</paragraph>
+                  <paragraph>[strucuture]</paragraph>
+                  <paragraph>IBU, a nonsteroidal anti-inflammatory drug (NSAID), is availablein 400 mg, 600 mg, and 800 mg tablets for oral administration.Inactive ingredients: carnauba wax, colloidal silicon dioxide,croscarmellose sodium, hypromellose, magnesium stearate, microcrystallinecellulose, polydextrose, polyethylene glycol, polysorbate,titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db1ade6-b79a-0024-e054-00144ff8d46c">
+               <id root="9c9b584b-f3cb-681b-e053-2995a90a0ab3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>IBU tablets contain ibuprofen which possesses analgesic andantipyretic activities. Its mode of action, like that of other NSAIDs, isnot completely understood, but may be related to prostaglandin synthetaseinhibition.</paragraph>
+                  <paragraph>In clinical studies in patients with rheumatoid arthritis andosteoarthritis, Ibuprofen tablets have been shown to be comparableto aspirin in controlling pain and inflammation and to be associatedwith a statistically significant reduction in the milder gastrointestinalside effects (see ADVERSE REACTIONS). Ibuprofen may be well toleratedin some patients who have had gastrointestinal side effectswith aspirin, but these patients when treated with IBU tablets shouldbe carefully followed for signs and symptoms of gastrointestinalulceration and bleeding. Although it is not definitely known whetheribuprofen causes less peptic ulceration than aspirin, in one studyinvolving 885 patients with rheumatoid arthritis treated for up to oneyear, there were no reports of gastric ulceration with ibuprofenwhereas frank ulceration was reported in 13 patients in the aspiringroup (statistically significant p&lt;.001).</paragraph>
+                  <paragraph>Gastroscopic studies at varying doses show an increased tendencytoward gastric irritation at higher doses. However, at comparabledoses, gastric irritation is approximately half that seen with aspirin.Studies using 51Cr-tagged red cells indicate that fecal blood lossassociated with Ibuprofen tablets in doses up to 2400 mg daily didnot exceed the normal range, and was significantly less than thatseen in aspirin-treated patients.</paragraph>
+                  <paragraph>In clinical studies in patients with rheumatoid arthritis, Ibuprofenhas been shown to be comparable to indomethacin in controlling thesigns and symptoms of disease activity and to be associated with astatistically significant reduction of the milder gastrointestinal (see ADVERSE REACTIONS) and CNS side effects.</paragraph>
+                  <paragraph>Ibuprofen may be used in combination with gold salts and/or corticosteroids.</paragraph>
+                  <paragraph>Controlled studies have demonstrated that Ibuprofen is a more effective analgesic than propoxyphene for the relief of episiotomy pain, pain following dental extraction procedures, and for the relief ofthe symptoms of primary dysmenorrhea.</paragraph>
+                  <paragraph>In patients with primary dysmenorrhea, Ibuprofen has been shown to reduce elevated levels of prostaglandin activity in the menstrualfluid and to reduce resting and active intrauterine pressure, as well asthe frequency of uterine contractions. The probable mechanism ofaction is to inhibit prostaglandin synthesis rather than simply to provide analgesia.</paragraph>
+                  <paragraph>The ibuprofen in IBU tablets is rapidly absorbed. Peak serum ibuprofen levels are generally attained one to two hours after administration.With single doses up to 800 mg, a linear relationship exists between amount of drug administered and the integrated area underthe serum drug concentration vs time curve. Above 800 mg, however,the area under the curve increases less than proportional to increases in dose. There is no evidence of drug accumulation or enzyme induction.</paragraph>
+                  <paragraph>The administration of Ibuprofen tablets either under fasting conditions or immediately before meals yields quite similar serum ibuprofen concentration-time profiles. When Ibuprofen is administered immediately after a meal, there is a reduction in the rate of absorption but no appreciable decrease in the extent of absorption.The bioavailability of the drug is minimally altered by the presence of food.</paragraph>
+                  <paragraph>A bioavailability study has shown that there was no interference with the absorption of ibuprofen when given in conjunction with anantacid containing both aluminum hydroxide and magnesium hydroxide.</paragraph>
+                  <paragraph>Ibuprofen is rapidly metabolized and eliminated in the urine. The excretion of ibuprofen is virtually complete 24 hours after the last dose. The serum half-life is 1.8 to 2.0 hours.</paragraph>
+                  <paragraph>Studies have shown that following ingestion of the drug, 45% to79% of the dose was recovered in the urine within 24 hours as metabolite A (25%), (+)-2-[p-(2hydroxymethyl-propyl) phenyl] propionic acid and metabolite B (37%), (+)-2-[p-(2carboxypropyl)phenyl]propionic acid; the percentages of free and conjugated ibuprofen were approximately 1% and 14%, respectively.</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea52-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3cc-681b-e053-2995a90a0ab3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of Ibuprofentablets and other treatment options before deciding to use Ibuprofen.Use the lowest effective dose for the shortest duration consistent withindividual patient treatment goals (see WARNINGS).</paragraph>
+                  <paragraph>IBU tablets are indicated for relief of the signs and symptoms of rheumatoid arthritis and osteoarthritis.</paragraph>
+                  <paragraph>IBU tablets are indicated for relief of mild to moderate pain.</paragraph>
+                  <paragraph>IBU tablets are also indicated for the treatment of primary dysmenorrhea.</paragraph>
+                  <paragraph>Controlled clinical trials to establish the safety and effectiveness of IBU tablets in children have not been conducted.</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea54-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3cd-681b-e053-2995a90a0ab3"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>IBU tablets are contraindicated in patients with known hypersensitivityto ibuprofen.</paragraph>
+                  <paragraph>IBU tablets should not be given to patients who have experienced asthma, urticaria, or allergic-type reactions after taking aspirin orother NSAIDs. Severe, rarely fatal, anaphylactic-like reactions to NSAIDs have been reported in such patients (see WARNINGS, ANAPHYLACTOID REACTIONS, and PRECAUTIONS, PREEXISTING ASTHMA).</paragraph>
+                  <paragraph>IBU tablets are contraindicated in the setting of coronary artery bypass graft (CABG) surgery(see WARNINGS).</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea57-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3ce-681b-e053-2995a90a0ab3"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>CARDIOVASCULAR EFFECTS</paragraph>
+                  <paragraph>Cardiovascular Thrombotic Events</paragraph>
+                  <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI), and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs.The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses.</paragraph>
+                  <paragraph>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                  <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as ibuprofen, increases the risk of serious gastrointestinal (GI) events (see WARNINGS).</paragraph>
+                  <paragraph>Status Post Coronary Bypass Graft (CABG) Surgery Two large, controlled clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10-14 days following CABG surgery found an increased incidence of myocardial infarction and stroke. NSAIDs are contraindicated in the setting of CABG (see CONTRAINDICATIONS).</paragraph>
+                  <paragraph>Post-MI Patients Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post MI was 20 per 100 person years in NSAID-treated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years to follow-up.</paragraph>
+                  <paragraph>Avoid the use of Ibuprofen in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If Ibuprofen is used in patients with a recent MI, monitor patients for signs of cardiac ischemia.</paragraph>
+                  <paragraph>Hypertension</paragraph>
+                  <paragraph>NSAIDs including IBU tablets, can lead to onset of new hypertensionor worsening of preexisting hypertension, either of which maycontribute to the increased incidence of CV events. Patients takingthiazides or loop diuretics may have impaired response to these therapieswhen taking NSAIDs. NSAIDs, including IBU tablets, should beused with caution in patients with hypertension. Blood pressure (BP)should be monitored closely during the initiation of NSAID treatmentand throughout the course of therapy.</paragraph>
+                  <paragraph>Heart Failure and Edema</paragraph>
+                  <paragraph>The Coxib and traditional NSAID Trialists’ Collaboration meta-analysis of randomized controlled trails demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebo-treated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death. Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of ibuprofen may blunt the CV effects of several therapeutic agents used to treat these medical conditions [e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers (ARBs)] [See DRUG INTERACTIONS]. Avoid the use of IBU tablets in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If IBU tablets is used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+                  <paragraph>Gastrointestinal Effects - Risk of Ulceration, Bleeding, and Perforation</paragraph>
+                  <paragraph>NSAIDs, including IBU tablets, can cause serious gastrointestinal(GI) adverse events including inflammation, bleeding, ulceration, and perforation of the stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients, who develop a serious upper GI adverse event on NSAID therapy, is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occur in approximately 1% of patientstreated for 3-6 months, and in about 2-4% of patients treated for oneyear. These trends continue with longer duration of use, increasing the likelihood of developing a serious GI event at some time during the course of therapy. However, even short-term therapy is not without risk. NSAIDs should be prescribed with extreme caution in thosewith a prior history of ulcer disease or gastrointestinal bleeding.Patients with a prior history of peptic ulcer disease and/or gastrointestinal bleeding who use NSAIDs have a greater than 10-fold increased risk for developing a GI bleed compared to patients treatedwith neither of these risk factors. Other factors that increase the riskof GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids or anticoagulants, longer duration of NSAID therapy, smoking, use of alcohol, older age, and poor general health status. Most spontaneous reports of fatal GI events are in elderly or debilitated patients and therefore, special care should be taken in treating this population. To minimize the potential risk for an adverse GI event in patients treated with an NSAID, the lowest effective dose should be used for the shortest possible duration. Patients and physicians should remain alert for signs and symptoms of GIulcerations and bleeding during NSAID therapy and promptly initiate additional evaluation and treatment if a serious GI event is suspected.This should include discontinuation of the NSAID until a serious GI adverse event is ruled out. For high-risk patients, alternate therapies that do not involve NSAIDs should be considered.</paragraph>
+                  <paragraph>Renal Effects</paragraph>
+                  <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of a NSAID may cause a dose dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest riskof this reaction are those with impaired renal function, heart failure,liver dysfunction, those taking diuretics and ACE inhibitors, and the elderly. Discontinuation of NSAID therapy is usually followed by recovery to the pretreatment state.</paragraph>
+                  <paragraph>Advanced Renal Disease</paragraph>
+                  <paragraph>No information is available from controlled clinical studies regarding the use of Ibuprofen tablets in patients with advanced renal disease.Therefore, treatment with IBU tablets is not recommended in these patients with advanced renal disease. If IBU tablet therapy must be initiated, close monitoring of the patients renal function is advisable.</paragraph>
+                  <paragraph>Anaphylactoid Reactions</paragraph>
+                  <paragraph>As with other NSAIDs, anaphylactoid reactions may occur inpatients without known prior exposure to IBU tablets. IBU tablets should not be given to patients with the aspirin triad. This symptom complex typically occurs in asthmatic patients who experience rhinitis with or without nasal polyps, or who exhibit severe, potentially fatal bronchospasm after taking aspirin or other NSAIDs (see CONTRAINDICATIONS and PRECAUTIONS, PREEXISTING ASTHMA).Emergency help should be sought in cases where an anaphylactoidreaction occurs.</paragraph>
+                  <paragraph>Skin Reactions</paragraph>
+                  <paragraph>NSAIDs, including IBU tablets, can cause serious skin adverse events such as exfoliative dermatitis, Stevens-Johnson Syndrome(SJS), and toxic epidermal necrolysis (TEN), which can be fatal.These serious events may occur without warning. Patients should be informed about the signs and symptoms of serious skin manifestations and use of the drug should be discontinued at the first appearance of skin rash or any other sign of hypersensitivity.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>In late pregnancy, as with other NSAIDs, IBU tablets should beavoided because it may cause premature closure of the ductus arteriosus.</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea5a-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3cf-681b-e053-2995a90a0ab3"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>IBU tablets cannot be expected to substitute for corticosteroids orto treat corticosteroid insufficiency. Abrupt discontinuation of corticosteroidsmay lead to disease exacerbation. Patients on prolongedcorticosteroid therapy should have their therapy tapered slowly if adecision is made to discontinue corticosteroids.</paragraph>
+                  <paragraph>The pharmacological activity of IBU tablets in reducing fever andinflammation may diminish the utility of these diagnostic signs indetecting complications of presumed noninfectious, painful conditions.</paragraph>
+                  <paragraph>Hepatic effects</paragraph>
+                  <paragraph>Borderline elevations of one or more liver tests may occur in upto 15% of patients taking NSAIDs, including IBU tablets. These laboratoryabnormalities may progress, may remain unchanged, or maybe transient with continuing therapy. Notable elevations of ALT orAST (approximately three or more times the upper limit of normal)have been reported in approximately 1% of patients in clinical trialswith NSAIDs. In addition, rare cases of severe hepatic reactions,including jaundice, fulminant hepatitis, liver necrosis, and hepaticfailure, some of them with fatal outcomes have been reported. Apatient with symptoms and/or signs suggesting liver dysfunction, orwith abnormal liver test values, should be evaluated for evidence ofthe development of a more severe hepatic reaction while on therapywith IBU tablets. If clinical signs and symptoms consistent with liverdisease develop, or if systemic manifestations occur (e.g.,eosinophilia, rash, etc.), IBU tablets should be discontinued.</paragraph>
+                  <paragraph>Hematological effects</paragraph>
+                  <paragraph>Anemia is sometimes seen in patients receiving NSAIDs, includingIBU tablets. This may be due to fluid retention, occult or gross GIblood loss, or an incompletely described effect upon erythropoiesis.Patients on long-term treatment with NSAIDs, including IBU tablets,should have their hemoglobin or hematocrit checked if they exhibitany signs or symptoms of anemia.</paragraph>
+                  <paragraph>In two postmarketing clinical studies the incidence of a decreasedhemoglobin level was greater than previously reported. Decrease inhemoglobin of 1 gram or more was observed in 17.1% of 193patients on 1600 mg ibuprofen daily (osteoarthritis), and in 22.8% of189 patients taking 2400 mg of ibuprofen daily (rheumatoid arthritis).Positive stool occult blood tests and elevated serum creatinine levelswere also observed in these studies.</paragraph>
+                  <paragraph>NSAIDs inhibit platelet aggregation and have been shown to prolongbleeding time in some patients. Unlike aspirin, their effect onplatelet function is quantitatively less, of shorter duration, and reversible.</paragraph>
+                  <paragraph>Patients receiving IBU tablets who may be adversely affected byalterations in platelet function, such as those with coagulation disordersor patients receiving anticoagulants should be carefully monitored.</paragraph>
+                  <paragraph>Preexisting asthma</paragraph>
+                  <paragraph>Patients with asthma may have aspirin-sensitive asthma. The useof aspirin in patients with aspirin-sensitive asthma has been associatedwith severe bronchospasm, which can be fatal. Since cross reactivity,including bronchospasm, between aspirin and NSAIDs hasbeen reported in such aspirin-sensitive patients, IBU tablets shouldnot be administered to patients with this form of aspirin sensitivityand should be used with caution in patients with preexisting asthma.</paragraph>
+                  <paragraph>Ophthalmological effects.</paragraph>
+                  <paragraph>Blurred and/or diminished vision, scotomata, and/or changes incolor vision have been reported. If a patient develops such complaintswhile receiving IBU tablets, the drug should be discontinued, and thepatient should have an ophthalmologic examination which includescentral visual fields and color vision testing.</paragraph>
+                  <paragraph>Aseptic Meningitis</paragraph>
+                  <paragraph>Aseptic meningitis with fever and coma has been observed on rareoccasions in patients on ibuprofen therapy. Although it is probablymore likely to occur in patients with systemic lupus erythematosusand related connective tissue diseases, it has been reported inpatients who do not have an underlying chronic disease. If signs orsymptoms of meningitis develop in a patient on IBU tablets, the possibilityof its being related to IBU tablets should be considered.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>Patients should be informed of the following information beforeinitiating therapy with an NSAID and periodically during the course ofongoing therapy. Patients should also be encouraged to read theNSAID Medication Guide that accompanies each prescription dispensed</paragraph>
+                  <paragraph>• Cardiovascular Thrombotic Events: Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately [see WARNINGS].</paragraph>
+                  <paragraph>• IBU tablets, like other NSAIDs, can cause GI discomfort and, rarely,serious GI side effects, such as ulcers and bleeding, which mayresult in hospitalization and even death. Although serious GI tractulcerations and bleeding can occur without warning symptoms,patients should be alert for the signs and symptoms of ulcerationsand bleeding, and should ask for medical advice when observingany indicative signs or symptoms including epigastric pain, dyspepsia,melena, and hematemesis. Patients should be apprised of theimportance of this follow-up (see WARNINGS,GASTROINTESTINAL EFFECTS-RISK OF ULCERATION, BLEEDING AND PERFORATION).</paragraph>
+                  <paragraph>• IBU tablets, like other NSAIDs, can cause serious skin side effectssuch as exfoliative dermatitis, SJS and TEN, which may result inhospitalization and even death. Although serious skin reactions mayoccur without warning, patients should be alert for the signs andsymptoms of skin rash and blisters, fever, or other signs of hypersensitivitysuch as itching, and should ask for medical advice whenobserving any indicative sign or symptoms. Patients should beadvised to stop the drug immediately if they develop any type ofrash and contact their physicians as soon as possible.</paragraph>
+                  <paragraph>• Heart Failure and Edema: Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur [see WARNINGS].</paragraph>
+                  <paragraph>• Patients should be informed of the warning signs and symptoms ofhepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, jaundice,right upper quadrant tenderness and “flu-like” symptoms). If theseoccur, patients should be instructed to stop therapy and seek immediatemedical therapy.</paragraph>
+                  <paragraph>• Patients should be informed of the signs of an anaphylactoid reaction(e.g. difficulty breathing, swelling of the face or throat). If theseoccur, patients should be instructed to seek immediate emergencyhelp (see WARNINGS).</paragraph>
+                  <paragraph>• In late pregnancy, as with other NSAIDs, IBU tablets should beavoided because it may cause premature closure of the ductus arteriosus.</paragraph>
+                  <paragraph>Laboratory Tests</paragraph>
+                  <paragraph>Because serious GI tract ulcerations and bleeding can occur withoutwarning symptoms, physicians should monitor for signs orsymptoms of GI bleeding. Patients on long-term treatment withNSAIDs should have their CBC and chemistry profile checked periodically.If clinical signs and symptoms consistent with liver or renaldisease develop, systemic manifestations occur (e.g., eosinophilia,rash etc.), or abnormal liver tests persist or worsen, IBU tabletsshould be discontinued.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>ACE-inhibitors:Reports suggest that NSAIDs may diminish the antihypertensiveeffect of ACE-inhibitors. This interaction should be given considerationin patients taking NSAIDs concomitantly with ACE-inhibitors.</paragraph>
+                  <paragraph>AspirinWhen IBU tablets are administered with aspirin, its protein bindingis reduced, although the clearance of free IBU tablets is notaltered. The clinical significance of this interaction is not known; however,as with other NSAIDs, concomitant administration of ibuprofenand aspirin is not generally recommended because of the potential forincreased adverse effects.</paragraph>
+                  <paragraph>Diuretics</paragraph>
+                  <paragraph>Clinical studies, as well as post marketing observations, haveshown that Ibuprofen tablets can reduce the natriuretic effect-offurosemide and thiazides in some patients. This response has beenattributed to inhibition of renal prostaglandin synthesis. During concomitanttherapy with NSAIDs, the patient should be observed closelyfor signs of renal failure (see PRECAUTIONS, Renal Effects), aswell as to assure diuretic efficacy.</paragraph>
+                  <paragraph>Lithium</paragraph>
+                  <paragraph>Ibuprofen produced an elevation of plasma lithium levels and areduction in renal lithium clearance in a study of eleven normal volunteers.The mean minimum lithium concentration increased 15%and the renal clearance of lithium was decreased by 19% during thisperiod of concomitant drug administration.This effect has been attributed to inhibition of renal prostaglandinsynthesis by ibuprofen. Thus, when ibuprofen and lithium are administeredconcurrently, subjects should be observed carefully for signsof lithium toxicity. (Read circulars for lithium preparation before useof such concurrent therapy.)</paragraph>
+                  <paragraph>Methotrexate</paragraph>
+                  <paragraph>NSAIDs have been reported to competitively inhibit methotrexateaccumulation in rabbit kidney slices. This may indicate that they couldenhance the toxicity of methotrexate. Caution should be used whenNSAIDs are administered concomitantly with methotrexate.</paragraph>
+                  <paragraph>Warfarin-type anticoagulants</paragraph>
+                  <paragraph>Several short-term controlled studies failed to show that Ibuprofentablets significantly affected prothrombin times or a variety of otherclotting factors when administered to individuals on coumarin-typeanticoagulants. However, because bleeding has been reported whenIBU tablets and other NSAIDs have been administered to patients oncoumarin-type anticoagulants, the physician should be cautiouswhen administering IBU tablets to patients on anticoagulants. Theeffects of warfarin and NSAIDs on GI bleeding are synergistic, suchthat the users of both drugs together have a risk of serious GI bleedinghigher than users of either drug alone.</paragraph>
+                  <paragraph>H-2 Antagonists</paragraph>
+                  <paragraph>In studies with human volunteers, co-administration of cimetidineor ranitidine with ibuprofen had no substantive effect on ibuprofenserum concentrations.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic effects: Pregnancy Category C</paragraph>
+                  <paragraph>Reproductive studies conducted in rats and rabbits have notdemonstrated evidence of developmental abnormalities. However,animal reproduction studies are not always predictive of humanresponse. There are no adequate and well-controlled studies in pregnantwomen. Ibuprofen should be used in pregnancy only if thepotential benefit justifies the potential risk to the fetus.</paragraph>
+                  <paragraph>Nonteratogenic effects</paragraph>
+                  <paragraph>Because of the known effects of NSAIDs on the fetal cardiovascularsystem (closure of ductus arteriosus), use during late pregnancyshould be avoided.</paragraph>
+                  <paragraph>Labor and Delivery</paragraph>
+                  <paragraph>In rat studies with NSAIDs, as with other drugs known to inhibitprostaglandin synthesis, an increased incidence of dystocia, delayedparturition, and decreased pup survival occurred. The effects of IBUtablets on labor and delivery in pregnant women are unknown.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>It is not known whether this drug is excreted in human milk.Because many drugs are excreted in human-milk and because of thepotential for serious adverse reactions in nursing infants from IBUtablets, a decision should be made whether to discontinue nursing ordiscontinue the drug, taking into account the importance of the drugto the mother.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness of IBU tablets in pediatric patients havenot been established.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>As with any NSAIDs, caution should be exercised in treating theelderly (65 years and older).</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db238e3-c01d-35b5-e054-00144ff8d46c">
+               <id root="9c9b584b-f3d2-681b-e053-2995a90a0ab3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most frequent type of adverse reaction occurring withIbuprofen tablets is gastrointestinal. In controlled clinical trials thepercentage of patients reporting one or more gastrointestinal complaintsranged from 4% to 16%.</paragraph>
+                  <paragraph>In controlled studies when Ibuprofen tablets were compared toaspirin and indomethacin in equally effective doses, the overall incidenceof gastrointestinal complaints was about half that seen in eitherthe aspirin- or indomethacin-treated patients.</paragraph>
+                  <paragraph>Adverse reactions observed during controlled clinical trials at anincidence greater than 1% are listed in the table. Those reactions listedin Column one encompass observations in approximately 3,000patients. More than 500 of these patients were treated for periods ofat least 54 weeks.</paragraph>
+                  <paragraph>Still other reactions occurring less frequently than 1 in 100 werereported in controlled clinical trials and from marketing experience.These reactions have been divided into two categories: Column twoof the table lists reactions with therapy with Ibuprofen tablets wherethe probability of a causal relationship exists: for the reactions inColumn three, a causal relationship with Ibuprofen tablets has notbeen established.</paragraph>
+                  <paragraph>Reported side effects were higher at doses of 3200 mg/day thanat doses of 2400 mg or less per day in clinical trials of patients withrheumatoid arthritis. The increases in incidence were slight and stillwithin the ranges reported in the table</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea5c-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3d0-681b-e053-2995a90a0ab3"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Approximately 11⁄2 hours after the reported ingestion of from 7 to10 Ibuprofen tablets (400 mg), a 19-month old child weighing 12 kgwas seen in the hospital emergency room, apneic and cyanotic,responding only to painful stimuli. This type of stimulus, however,was sufficient to induce respiration. Oxygen and parenteral fluidswere given; a greenish-yellow fluid was aspirated from the stomachwith no evidence to indicate the presence of ibuprofen. Two hoursafter ingestion the child’s condition seemed stable; she still respondedonly to painful stimuli and continued to have periods of apnea lastingfrom 5 to 10 seconds. She was admitted to intensive care andsodium bicarbonate was administered as well as infusions of dextroseand normal saline. By four hours post-ingestion she could bearoused easily, sit by herself and respond to spoken commands.Blood level of ibuprofen was 102.9 μg/mL approximately 81⁄2 hoursafter accidental ingestion. At 12 hours she appeared to be completelyrecovered.</paragraph>
+                  <paragraph>In two other reported cases where children (each weighingapproximately 10 kg) accidentally, acutely ingested approximately120 mg/kg, there were no signs of acute intoxication or late sequelae.Blood level in one child 90 minutes after ingestion was 700 μg/mL —about 10 times the peak levels seen in absorption-excretion studies.A 19-year old male who had taken 8,000 mg of ibuprofen over aperiod of a few hours complained of dizziness, and nystagmus wasnoted. After hospitalization, parenteral hydration and three days bedrest, he recovered with no reported sequelae.</paragraph>
+                  <paragraph>In cases of acute overdosage, the stomach should be emptied byvomiting or lavage, though little drug will likely be recovered if morethan an hour has elapsed since ingestion. Because the drug is acidicand is excreted in the urine, it is theoretically beneficial to administeralkali and induce diuresis. In addition to supportive measures, the useof oral activated charcoal may help to reduce the absorption andreabsorption of Ibuprofen tablets.</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db1ade6-b79e-0024-e054-00144ff8d46c">
+               <id root="9c9b584b-f3d3-681b-e053-2995a90a0ab3"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Carefully consider the potential benefits and risks of IBU tabletsand other treatment options before deciding to use IBU tablets. Usethe lowest effective dose for the shortest duration consistent withindividual patient treatment goals (see WARNINGS).</paragraph>
+                  <paragraph>After observing the response to initial therapy with IBU tablets, thedose and frequency should be adjusted to suit an individual patient’sneeds.Do not exceed 3200 mg total daily dose. If gastrointestinal complaintsoccur, administer IBU tablets with meals or milk.</paragraph>
+                  <paragraph>Rheumatoid arthritis and osteoarthritis, including flare-ups ofchronic disease:</paragraph>
+                  <paragraph>Suggested Dosage: 1200 mg-3200 mg daily (400 mg, 600 mg or800 mg tid or qid). Individual patients may show a better responseto 3200 mg daily, as compared with 2400 mg, although in well-controlledclinical trials patients on 3200 mg did not show a better meanresponse in terms of efficacy. Therefore, when treating patients with3200 mg/day, the physician should observe sufficient increased clinicalbenefits to offset potential increased risk.The dose should be tailored to each patient, and may be loweredor raised depending on the severity of symptoms either at time of initiatingdrug therapy or as the patient responds or fails to respond.In general, patients with rheumatoid arthritis seem to require higherdoses of IBU tablets than do patients with osteoarthritis.</paragraph>
+                  <paragraph>The smallest dose of IBU tablets that yields acceptable controlshould be employed. A linear blood level dose-response relationshipexists with single doses up to 800 mg (See CLINICAL PHARMACOLOGYfor effects of food on rate of absorption).</paragraph>
+                  <paragraph>The availability of three tablet strengths facilitates dosage adjustment.In chronic conditions, a therapeutic response to therapy with IBU tablets is sometimes seen in a few days to a week but most often isobserved by two weeks. After a satisfactory response has beenachieved, the patient’s dose should be reviewed and adjusted asrequired.</paragraph>
+                  <paragraph>Mild to moderate pain:</paragraph>
+                  <paragraph>400 mg every 4 to 6 hours as necessaryfor relief of pain.In controlled analgesic clinical trials, doses of Ibuprofen tabletsgreater than 400 mg were no more effective than the 400 mg dose.</paragraph>
+                  <paragraph>Dysmenorrhea:</paragraph>
+                  <paragraph>For the treatment of dysmenorrhea, beginningwith the earliest onset of such pain, IBU tablets should be given in adose of 400 mg every 4 hours as necessary for the relief of pain.</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db238e3-c01f-35b5-e054-00144ff8d46c">
+               <id root="9c9b584b-f3d4-681b-e053-2995a90a0ab3"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>IBU tablets are available in the following strengths, colors and sizes:</paragraph>
+                  <paragraph>400 mg (white, oval, debossed 4I)</paragraph>
+                  <paragraph>Bottles of 90 NDC 55111-682-09</paragraph>
+                  <paragraph>Bottles of 100 NDC 55111-682-01</paragraph>
+                  <paragraph>Bottles of 500 NDC 55111-682-05 (PACKAGE NOT CHILD-RESISTANT)</paragraph>
+                  <paragraph>600 mg (white, caplet, debossed 6I)</paragraph>
+                  <paragraph>Bottles of 30 NDC 55111-683-30</paragraph>
+                  <paragraph>Bottles of 50 NDC 55111-683-50</paragraph>
+                  <paragraph>Bottles of 90 NDC 55111-683-09</paragraph>
+                  <paragraph>Bottles of 100 NDC 55111-683-01</paragraph>
+                  <paragraph>Bottles of 500 NDC 55111-683-05 (PACKAGE NOT CHILD-RESISTANT)</paragraph>
+                  <paragraph>800 mg (white, caplet, debossed 8I)</paragraph>
+                  <paragraph>Bottles of 30 NDC 55111-684-30</paragraph>
+                  <paragraph>Bottles of 50 NDC 55111-684-50</paragraph>
+                  <paragraph>Bottles of 60 NDC 55111-684-60</paragraph>
+                  <paragraph>Bottles of 90 NDC 55111-684-09</paragraph>
+                  <paragraph>Bottles of 100 NDC 55111-684-01</paragraph>
+                  <paragraph>Bottles of 500 NDC 55111-684-05 (PACKAGE NOT CHILD-RESISTANT)</paragraph>
+                  <paragraph>Store at room temperature. Avoid excessive heat 40°C (104°F).</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>Dr. Reddy’s Laboratories Louisiana, LLC</paragraph>
+                  <paragraph>Shreveport, LA 71106 USA</paragraph>
+                  <paragraph>Revised, July 2016</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db219dc-ea5e-490c-e054-00144ff88e88">
+               <id root="9c9b584b-f3d5-681b-e053-2995a90a0ab3"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>MEDICATION GUIDE</title>
+               <text>
+                  <paragraph>Medication Guide forNon-Steroidal Anti-Inflammatory Drugs (NSAIDs)</paragraph>
+                  <paragraph>What it the most important information I should know about medicines called Non-Steroidal Anti-Inflammatory Drugs (NSAIDs)?</paragraph>
+                  <paragraph>NSAIDs can cause serious side effects, including: </paragraph>
+                  <paragraph>• Increased risk of a heart attack or stroke that can lead to death. This risk may happen early in treatment and may increase:</paragraph>
+                  <paragraph>° with increasing doses of NSAIDs</paragraph>
+                  <paragraph>° with longer use of NSAIDs</paragraph>
+                  <paragraph>Do not take NSAIDs right before or after a heart surgery called a "coronary artery bypass graft (CABG)."  </paragraph>
+                  <paragraph>Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack. </paragraph>
+                  <paragraph>•Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:</paragraph>
+                  <paragraph>° anytime during use</paragraph>
+                  <paragraph>° without warning symptoms</paragraph>
+                  <paragraph>° that may cause death</paragraph>
+                  <paragraph>The risk of getting an ulcer or bleeding increases with: </paragraph>
+                  <paragraph>° past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs</paragraph>
+                  <paragraph>° taking medicines called "corticosteroids", "anticoagulants", "SSRIs", or "SNRIs"</paragraph>
+                  <paragraph>° increasing use of NSAIDs</paragraph>
+                  <paragraph>° longer use of NSAIDs</paragraph>
+                  <paragraph>° smoking</paragraph>
+                  <paragraph>° drinking alcohol</paragraph>
+                  <paragraph>° older age</paragraph>
+                  <paragraph>° poor health</paragraph>
+                  <paragraph>° advanced liver disease</paragraph>
+                  <paragraph>° bleeding problems</paragraph>
+                  <paragraph>NSAIDs should only be used:</paragraph>
+                  <paragraph>° exactly as prescribed</paragraph>
+                  <paragraph>° at the lowest dose possible for your treatment</paragraph>
+                  <paragraph>° for the shortest time needed</paragraph>
+                  <paragraph>
+                     <br/>
+                  </paragraph>
+                  <paragraph>What are NSAIDs? </paragraph>
+                  <paragraph>NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.</paragraph>
+                  <paragraph>Who should not NSAIDs?  </paragraph>
+                  <paragraph>Do not take NSAIDs:</paragraph>
+                  <paragraph>• if you had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs</paragraph>
+                  <paragraph>• right before or after heart bypass surgery</paragraph>
+                  <paragraph>Before taking NSAIDs, tell your healthcare provider about all your medical conditions, including if you:</paragraph>
+                  <paragraph>• have liver or kidney problems</paragraph>
+                  <paragraph>• have high blood pressure</paragraph>
+                  <paragraph>• have asthma</paragraph>
+                  <paragraph>• are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. You should not take NSAIDs after 29 weeks or pregnancy.</paragraph>
+                  <paragraph>• are breastfeeding or plan to breast feed</paragraph>
+                  <paragraph>Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. NSAIDs and some other medicines can interact with each other and cause serious side effects. Do not start taking any new medicine without talking to your healthcare provider first.</paragraph>
+                  <paragraph>What are the possible side effects of NSAIDs?</paragraph>
+                  <paragraph>NSAIDs can cause serious side effects, including:</paragraph>
+                  <paragraph>See "What is the most important information I should know about medicines called Nonsterodial Anti-Inflammatory Drugs (NSAIDs)?"</paragraph>
+                  <paragraph>• new or worse high blood pressure • low red blood cells (anemia)</paragraph>
+                  <paragraph>• heart failure • life-threatening skin reactions</paragraph>
+                  <paragraph>• liver problems including liver failure • life-threatening allergic reactions</paragraph>
+                  <paragraph>• kidney problems including kidney failure</paragraph>
+                  <paragraph>• Other side effects of NSAIDs include: stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</paragraph>
+                  <paragraph> Get emergency help right away if you have any of the following symptoms:</paragraph>
+                  <paragraph>• shortness of breath or trouble breathing • slurred speech</paragraph>
+                  <paragraph>• chest pain • swelling of the face or throat</paragraph>
+                  <paragraph>• weakness in one part or side of your body</paragraph>
+                  <paragraph>Stop your NSAID medicine and call your healthcare provider right away if you have any of the following symptoms: </paragraph>
+                  <paragraph>• nausea • vomit blood</paragraph>
+                  <paragraph>• more tired or weaker than usual • there is blood in your bowel movement or it is black and sticky like tar</paragraph>
+                  <paragraph>• diarrhea • unusual weight gain</paragraph>
+                  <paragraph>• itching • skin rash or blisters with fever</paragraph>
+                  <paragraph>• your skin or eyes look yellow • swelling of the arms, legs, hands and feet</paragraph>
+                  <paragraph>• indigestion or stomach pain • flu-like symptoms</paragraph>
+                  <paragraph>If you take too much of your NSAIDs, call your healthcare provider or get medical help right away.</paragraph>
+                  <paragraph>These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph>Other information about NSAIDs</paragraph>
+                  <paragraph>•Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.</paragraph>
+                  <paragraph>• Some of NSAIDs are sold in lower doses without a prescription (over-the-counter) Talk to your healthcare provider before using over- the-counter NSAIDs for more than 10 days.</paragraph>
+                  <paragraph>General information about the safe and effective use of NSAIDs</paragraph>
+                  <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not us NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                  <paragraph>If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for professionals.</paragraph>
+                  <paragraph>IBU™ Ibuprofen Tablets USP 400 mg, 600 mg, and 800 mg Rx - ANDA# 075682</paragraph>
+                  <paragraph>Manufacturing facility: Dr. Reddy's Laboratories Louisiana, LLC - Shreveport, LA 71106 USA</paragraph>
+                  <paragraph>Distributed by: Dr. Reddy's Laboratories, Inc.</paragraph>
+                  <paragraph>For more info, call/contact: 1-888-375-3784</paragraph>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration</paragraph>
+                  <paragraph>Revised May 2016</paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4db2452a-43bb-4eba-e054-00144ff88e88">
+               <id root="9c9b584b-f3d1-681b-e053-2995a90a0ab3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL SECTION</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4db238e3-c020-35b5-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20081120"/>
+               <component>
+                  <observationMedia ID="img_4db238e3-c020-35b5-e054-00144ff8d46c">
+                     <text>IBUPROFEN 600MG</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="doc20170421133424_001.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

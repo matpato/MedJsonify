@@ -27,8 +27,11 @@ def get_previous_month_url(base_url):
 # -------------------------------------------------------------------------------------------
 
 def download_file_from_url(url, dest_path):
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
     try:
-        response = requests.get(url, stream=True)
+        response = requests.get(url, headers=headers, stream=True)
         response.raise_for_status()
         with open(dest_path, 'wb') as f:
             for chunk in response.iter_content(chunk_size=8192):
@@ -40,6 +43,7 @@ def download_file_from_url(url, dest_path):
     except Exception as err:
         print(f'Other error occurred: {err}')
         raise
+
 
 # -------------------------------------------------------------------------------------------
 
@@ -92,6 +96,42 @@ def process_purplebook(url, downloads_dir):
 
 # -------------------------------------------------------------------------------------------
 
+def process_orangebook(url, downloads_dir):
+    """
+    Download the Orange Book ZIP file directly from the given URL.
+
+    Args:
+        url (str): Direct URL to the Orange Book ZIP file.
+        downloads_dir (str): Directory to save the downloaded file.
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+
+    try:
+        # Set a filename since the URL doesn't contain a proper one
+        zip_filename = 'orangebook.zip'
+        zip_filepath = os.path.join(downloads_dir, zip_filename)
+
+        response = requests.get(url, headers=headers, stream=True)
+        response.raise_for_status()
+
+        with open(zip_filepath, 'wb') as f:
+            for chunk in response.iter_content(chunk_size=8192):
+                f.write(chunk)
+
+        # Write the filename to 'filename.txt'
+        with open(os.path.join(downloads_dir, 'filename.txt'), 'a') as f:
+            f.write(zip_filename + "\n")
+
+        print(f'Orange Book file downloaded successfully: {zip_filepath}')
+
+    except Exception as e:
+        print(f'Error processing Orange Book: {e}')
+
+
+# -------------------------------------------------------------------------------------------
+
 os.makedirs(downloads_dir, exist_ok=True)
 open(os.path.join(downloads_dir, 'filename.txt'), 'w').close()
 
@@ -103,6 +143,8 @@ for i in range(len(selected_directories)):
             process_dailymed(url, downloads_dir)
         elif 'purplebook' in name.lower():
             process_purplebook(url, downloads_dir)
+        elif 'orangebook' in name.lower():
+            process_orangebook(url, downloads_dir)
         else:
             print(f"URL not supported: {url}")
     except ValueError as ve:

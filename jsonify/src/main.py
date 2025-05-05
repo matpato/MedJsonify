@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from glob import glob
 from converter.python_converter import parse_xml_to_json, check_null_fields
 from converter.xslt_converter import apply_xslt_to_xml
-from converter.csv_converter import convert_csv_to_json
+from converter.csv_converter import convert_file_to_json
 from config_loader import ConfigLoader
 import datetime
 
@@ -127,8 +127,18 @@ def process_file_types(config_loader):
                     file_counters[file_type]['converted'] += 1
                     converted_count += 1
 
-                elif file_type in ['csv', 'txt']:
-                    result = convert_csv_to_json(input_file, output_folder)
+                elif file_type == 'csv':
+                    result = convert_file_to_json(input_file, output_folder, delimiter=",", skiprows=3)
+                    if result:
+                        file_counters[file_type]['converted'] += 1
+                        converted_count += 1
+                    else:
+                        file_counters[file_type]['unconverted'] += 1
+                        unconverted_count += 1
+                        unconverted_files.append(input_file)
+
+                elif file_type == 'txt':
+                    result = convert_file_to_json(input_file, output_folder, delimiter="~")
                     if result:
                         file_counters[file_type]['converted'] += 1
                         converted_count += 1
