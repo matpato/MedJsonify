@@ -10,7 +10,7 @@ with DAG(
     start_date=datetime.now(),
     catchup=False,
 ) as dag:
-    
+    """
     task_download_from_url = PythonOperator(
         task_id='download_from_url',
         python_callable=download_zip_task,
@@ -25,7 +25,7 @@ with DAG(
         task_id='extract_files',
         python_callable=extract_xml_files_task,
     )
-
+    """
     task_convert_files_to_json = PythonOperator(
         task_id='convert_files_to_json',
         python_callable=convert_files_to_json_task,
@@ -46,4 +46,5 @@ with DAG(
         python_callable=ner_process_task,
     )
 
-    task_download_from_url >> task_unzip_directories >> task_extract_files >> task_convert_files_to_json >> task_download_vocabulary >> task_preprocess_json >> task_ner_process 
+    # task_download_from_url >> task_unzip_directories >> task_extract_files >> 
+    task_convert_files_to_json >> task_download_vocabulary >> task_preprocess_json >> task_ner_process 

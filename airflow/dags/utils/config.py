@@ -29,14 +29,16 @@ class DAGConfig:
 
         self.input_folders = [
             os.path.join(self.config_main['folders']['base_output_folder'], 'xml_results'),
-            os.path.join(self.config_main['folders']['base_output_folder'], 'csv_results')
+            os.path.join(self.config_main['folders']['base_output_folder'], 'csv_results'),
+            os.path.join(self.config_main['folders']['base_output_folder'], 'txt_results')
         ]
         
         self.output_folder = self.config_ner['PATH']['path_to_entities_json']
 
         self.output_folders = [
             os.path.join(self.output_folder, 'xml_results'),
-            os.path.join(self.output_folder, 'csv_results')
+            os.path.join(self.output_folder, 'csv_results'),
+            os.path.join(self.output_folder, 'txt_results')
         ]
 
         self.active_lexicon = self.config_ner['ONTO']['active_lexicons'].replace(' ', '').split(',')

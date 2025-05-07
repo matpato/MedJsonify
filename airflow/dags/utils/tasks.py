@@ -97,8 +97,7 @@ def preprocess_json_task():
             if file.endswith(".json"):
                 input_file = os.path.join(root, file)
                 output_file = os.path.join(output_subdir, file)
-                preprocessor.process_json_file(input_file, output_file, fields_to_process=fields_to_process)
-
+                preprocessor.preprocess_json_file(input_file, output_file, fields_to_process=fields_to_process)
 """
 def preprocess_json_task():
     preprocessor = BiomedicalPreprocessor()
