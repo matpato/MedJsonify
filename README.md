@@ -82,18 +82,22 @@ cd medjsonify
 ```bash
 chmod +x docker.sh
 ```
+4. Grant you have merpy installed and gave execution permissions to the `get_entities.sh` script:
+```bash
+chmod +x get_entities.sh
+```
 
-4. Build and run the Docker container:
+5. Build and run the Docker container:
 ```bash
 ./docker.sh
 ```
 
-5. Access the Apache Airflow interface:
+6. Access the Apache Airflow interface:
 ```bash
 http://localhost:8080
 ```
 
-6. Execute the DAG through the Airflow interface.
+7. Execute the DAG through the Airflow interface.
 
 ## License
 

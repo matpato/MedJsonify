@@ -84,8 +84,10 @@ def download_vocabulary_task():
 
 def preprocess_json_task():
     preprocessor = BiomedicalPreprocessor()
-    input_dir = "/opt/airflow/dags/jsonify/src/json"  
-    output_dir = "/opt/airflow/dags/NER/data/preprocessing" 
+    
+    # Obtendo os caminhos do config.py
+    input_dir = config.input_json_dir  # Diretório de entrada
+    output_dir = config.preprocessing_output_dir  # Diretório de saída
     fields_to_process = ["ingredients", "indications", "contraindications", "warningsAndPrecautions", "adverseReactions"]
 
     for root, dirs, files in os.walk(input_dir):
@@ -98,6 +100,7 @@ def preprocess_json_task():
                 input_file = os.path.join(root, file)
                 output_file = os.path.join(output_subdir, file)
                 preprocessor.preprocess_json_file(input_file, output_file, fields_to_process=fields_to_process)
+
 """
 def preprocess_json_task():
     preprocessor = BiomedicalPreprocessor()
@@ -115,15 +118,11 @@ def preprocess_json_task():
 # -------------------------------------------------------------------------------------------
 
 def ner_process_task():
-    import os
-    import logging
     from NER.src.mer_entities_batch import main
-    from utils.config import DAGConfig
 
-    config = DAGConfig()
-
-    input_folder = "/opt/airflow/dags/NER/data/preprocessing"
-    output_folder = config.output_folder  
+    # Obtendo os caminhos do config.py
+    input_folder = config.preprocessing_output_dir  # Diretório de entrada
+    output_folder = config.output_folder  # Diretório de saída
 
     os.makedirs(output_folder, exist_ok=True)
 

@@ -19,7 +19,7 @@ def get_onto_id(name, onto='chebi', limit=0):
     onto_entities = merpy.get_entities(name, onto)
     print(f"Entities for {name} in {onto}: {onto_entities}")  
 
-    # Verificar se há entidades e se a primeira sublista tem pelo menos 4 elementos
+    # Verify in there are entities and the first one has more than 3 elements
     if onto_entities and len(onto_entities[0]) > 3 and onto_entities[0][0]:
         return onto_entities[0][3]
     else:
@@ -75,7 +75,6 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
             # Use doid via MER
             doid_id = get_onto_id(text, onto='do')
             
-            # Extract and find diseases in text using ner_onto functions
             orphanet_entities = []
             disease_entities = extract_disease_entities(text)
             
@@ -84,7 +83,6 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
                 if orphanet_id:
                     orphanet_entities.append({"disease": disease, "orphanet_id": orphanet_id})
             
-            # Create section entry with text, doid_id and orphanet entities
             drug_data[section] = [{
                 'text': text,
                 'doid_id': doid_id,
@@ -135,7 +133,6 @@ def main(active_lexicon, input_dir, output_dir, update, drugbank_file):
     else:
         print("Actualizing ontologies")
 
-    # Load ORDO ontology and build disease dictionary
     print("Loading ORDO ontology and building disease dictionary...")
     onto = load_ordo()
     disease_terms = build_disease_dictionary(onto)
