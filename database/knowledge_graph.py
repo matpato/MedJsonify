@@ -19,7 +19,7 @@ class Neo4jHandler:
             session.run("CREATE CONSTRAINT IF NOT EXISTS ON (d:Drug) ASSERT d.id IS UNIQUE")
             session.run("CREATE CONSTRAINT IF NOT EXISTS ON (disease:Disease) ASSERT disease.id IS UNIQUE")
             session.run("CREATE CONSTRAINT IF NOT EXISTS ON (r:AdminRoute) ASSERT r.name IS UNIQUE")
-            session.run("CREATE CONSTRAINT IF NOT EXISTS ON (y:ApprovalYear) ASSERT y.year IS UNIQUE")
+            session.run("CREATE CONSTRAINT IF NOT EXISTS ON (y:ApprovalYear) ASSERT y.year IS UNIQUE") 
 
     # -------------------------------------------------------------------------------------------- #
 
@@ -186,16 +186,24 @@ def process_xml_file(file_path, neo4j_handler):
             contraindications = []
             
             for ind in data.get("indications", []):
+                # Prioritize doid_id, fallback to orphanet_id
                 doid_id = clean_id(ind.get("doid_id"))
-                if doid_id:
-                    diseases.append({"id": doid_id, "name": ind.get("text", "Unknown")})
-                    indications.append({"id": doid_id})
+                orphanet_id = clean_id(ind.get("orphanet_id"))
+                disease_id = doid_id or orphanet_id  # Use doid_id if available, otherwise orphanet_id
+                
+                if disease_id:
+                    diseases.append({"id": disease_id, "name": ind.get("text", "Unknown")})
+                    indications.append({"id": disease_id})
             
             for con in data.get("contraindications", []):
+                # Prioritize doid_id, fallback to orphanet_id
                 doid_id = clean_id(con.get("doid_id"))
-                if doid_id:
-                    diseases.append({"id": doid_id, "name": con.get("text", "Unknown")})
-                    contraindications.append({"id": doid_id})
+                orphanet_id = clean_id(con.get("orphanet_id"))
+                disease_id = doid_id or orphanet_id  # Use doid_id if available, otherwise orphanet_id
+                
+                if disease_id:
+                    diseases.append({"id": disease_id, "name": con.get("text", "Unknown")})
+                    contraindications.append({"id": disease_id})
             
             print(f"Drug: {drug_id}, Admin Route: {admin_route}, Approval Year: {approval_year}")
             
