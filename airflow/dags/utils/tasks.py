@@ -85,9 +85,8 @@ def download_vocabulary_task():
 def preprocess_json_task():
     preprocessor = BiomedicalPreprocessor()
     
-    # Obtendo os caminhos do config.py
-    input_dir = config.input_json_dir  # Diretório de entrada
-    output_dir = config.preprocessing_output_dir  # Diretório de saída
+    input_dir = config.input_json_dir 
+    output_dir = config.preprocessing_output_dir  
     fields_to_process = ["ingredients", "indications", "contraindications", "warningsAndPrecautions", "adverseReactions"]
 
     for root, dirs, files in os.walk(input_dir):
@@ -120,9 +119,8 @@ def preprocess_json_task():
 def ner_process_task():
     from NER.src.mer_entities_batch import main
 
-    # Obtendo os caminhos do config.py
-    input_folder = config.preprocessing_output_dir  # Diretório de entrada
-    output_folder = config.output_folder  # Diretório de saída
+    input_folder = config.preprocessing_output_dir  
+    output_folder = config.output_folder 
 
     os.makedirs(output_folder, exist_ok=True)
 
