@@ -13,7 +13,7 @@ The connection to the NER models is managed through the `config.ini` file locate
 ```ini
 [info]
 # Input data to run mer_entities and mer_entities_batch files. 
-# Mantainer: matilde.pato
+# Mantainer: 
 # Version 1.0
 # Date: May, 23rd 2022
 

@@ -1,92 +1,102 @@
-###############################################################################
-#                                                                             #  
-# @author: Matilde Pato (Adapted from André Lamurias)                         #  
-# @email: matilde.pato@gmail.com                                              #
-# @date: 31 Mar 2021                                                          #
-# @version: 1.0                                                               #  
-# Lasige - FCUL                                                               #
-#                                                                             #  
-# @last update:                                                               #  
-#   version 1.1: 01 Oct 2021 - Update some functions  (after line 114)        #      
-#   (author: matilde.pato@gmail.com  )                                        # 
-###############################################################################
-#
-# This file get abstracts, authors, year based on PubMed
-#
+"""
+PubMed Data Retrieval Utility
 
-### -- PMID
+This module provides functions to retrieve metadata from PubMed using both
+MetaPub and Biopython libraries. It fetches article details such as PMIDs, 
+titles, and abstracts using PMC IDs or PMIDs.
+
+Functions:
+    - get_pmid(pmcid): Convert PMC ID to PMID
+    - get_title_by_metapub(pmcid): Get article title using PMC ID via MetaPub
+    - get_title_by_bio(pmid): Get article title using PMID via Biopython
+    - get_abstract_by_bio(pmid): Retrieve article abstract using PMID
+"""
+
 from metapub import PubMedFetcher
 from Bio import Entrez
-Entrez.email = 'matilde.pato@gmail.com'
 
-# --------------------------------------------------------------------------- #
+# Configure Entrez with your email for API access
+Entrez.email = 'YOUR_EMAIL@example.com'  # IMPORTANT: Replace with your email
+
+# ------------------------------------ PMID RETRIEVAL ------------------------------------
 
 def get_pmid(pmcid):
-    '''
-    Return PubMed ID
+    """
+    Convert a PMC ID to its corresponding PubMed ID.
     
-    :param  pmcid:
-    :return pmid:         
-    '''
+    Args:
+        pmcid (str): The PMC ID of the article
+        
+    Returns:
+        str: The corresponding PMID if found, empty list otherwise
+    """
     try:
         article = PubMedFetcher().article_by_pmcid(pmcid)
         return article.pmid
-    except:
-        return []    
+    except Exception:
+        return []
 
-
-# --------------------------------------------------------------------------- #
+# ------------------------------------ TITLE RETRIEVAL -----------------------------------
 
 def get_title_by_metapub(pmcid):
-    '''
-    Return PubMed ID
+    """
+    Retrieve an article's title using its PMC ID via MetaPub.
     
-    :param  pmcid:
-    :return pmid:         
-    '''
+    Args:
+        pmcid (str): The PMC ID of the article
+        
+    Returns:
+        str: The article title if found, empty list otherwise
+    """
     try:
-        #article = fetch.article_by_pmid(pmid)
         article = PubMedFetcher().article_by_pmcid(pmcid)
         return article.title
-    except:
-        return []     
-
-# --------------------------------------------------------------------------- #
+    except Exception:
+        return []
 
 def get_title_by_bio(pmid):
-    ''' 
-    Get PubMed year using Bio
-
-    :param  pmid: PMID' article
-    :return year
-    '''
+    """
+    Retrieve an article's title using its PMID via Biopython.
+    
+    Args:
+        pmid (str): The PMID of the article
+        
+    Returns:
+        str: The article title if found, empty list otherwise
+    """
     try:
         handle = Entrez.esummary(db="pubmed", id=pmid, retmode="xml")
         record = Entrez.parse(handle)
         return record['Title']
-    except:
-        return [] 
+    except Exception:
+        return []
 
-# --------------------------------------------------------------------------- #
+# ---------------------------------- ABSTRACT RETRIEVAL ---------------------------------
 
 def get_abstract_by_bio(pmid):
-    ''' 
-    Get PubMed year using Bio
-
-    :param  pmid: PMID' article
-    :return year
-    '''
+    """
+    Retrieve an article's abstract using its PMID via Biopython.
+    
+    Args:
+        pmid (str): The PMID of the article
+        
+    Returns:
+        str: The article abstract if found, empty list otherwise
+    """
     try:
         handle = Entrez.efetch(db="pubmed", id=pmid, retmode="xml")
         record = Entrez.read(handle)
         handle.close()
+        
         article = record['PubmedArticle'][0]['MedlineCitation']
-        abstract = str()
-                
-        if 'Abstract' in article['Article'].keys(): # Some documents have no english abstract
+        abstract = ""
+        
+        # Some documents have no English abstract
+        if 'Abstract' in article['Article'].keys():
             eng_content = article['Article']['Abstract']
-        for element in eng_content['AbstractText']:
-            abstract += element
+            for element in eng_content['AbstractText']:
+                abstract += element
+                
         return abstract
-    except:
-        return [] 
+    except Exception:
+        return []
