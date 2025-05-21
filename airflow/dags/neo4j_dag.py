@@ -1,12 +1,3 @@
-###############################################################################
-#                                                                             #  
-# @author: Carolina Pereira                                                   #  
-# @email: carolinadpereira18@gmail.com                                        #
-# @version: 1.0                                                               #  
-# ISEL - Instituto Superior de Engenharia de Lisboa                           #
-#                                                                             #            
-###############################################################################
-
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
