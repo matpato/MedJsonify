@@ -75,14 +75,11 @@ def extract_xml_files_task():
 
 def convert_files_to_json_task():
     """
-    Convert XML files to JSON format.
-    
-    This task processes all extracted XML files and converts them to JSON format
-    for easier data manipulation in subsequent steps.
+    Convert XML, CSV e TXT files to JSON format.
     """
     # OBJECTIVE: Execute the main conversion process
-    from jsonify.src import main
-    main.main()
+    from jsonify.src.conversion import convert_all_files
+    convert_all_files()
 
 # -------------------------------------------------------------------------------------------
 # DATA PROCESSING TASKS
