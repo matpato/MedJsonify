@@ -10,11 +10,14 @@ RUN apt-get update && \
     mkdir -p /opt/airflow/dags/NER/data/ontologies && \
     mkdir -p /opt/airflow/dags/NER/data/blacklists && \
     mkdir -p /opt/airflow/dags/NER/merpy/merpy && \
+    mkdir -p /opt/airflow/dags/NER/merpy/merpy/MER && \
     chown -R airflow:root /opt/airflow && \
     chmod -R 777 /opt/airflow
 
+# Clone MER repository and set permissions
 RUN git clone https://github.com/lasigeBioTM/MER.git /opt/airflow/dags/NER/merpy/merpy/MER && \
-    chmod +x /opt/airflow/dags/NER/merpy/merpy/MER/get_entities.sh
+    chmod +x /opt/airflow/dags/NER/merpy/merpy/MER/get_entities.sh && \
+    chown -R airflow:root /opt/airflow/dags/NER/merpy/merpy/MER
 
 ADD http://purl.obolibrary.org/obo/chebi/chebi_lite.owl /opt/airflow/dags/NER/data/ontologies/
 ADD http://purl.obolibrary.org/obo/doid.owl /opt/airflow/dags/NER/data/ontologies/
