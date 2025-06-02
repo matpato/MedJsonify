@@ -61,22 +61,16 @@ def get_onto_id(name, onto='chebi', limit=0):
 def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
     """
     Process a single drug data object, enriching it with ontology identifiers.
-    
-    Args:
-        drug_data (dict): Drug data to process
-        drugbank (DataFrame): DrugBank reference data
-        vocabulary (set): Drug name vocabulary for matching
-        disease_terms (dict): Disease term dictionary from ORDO
-        
-    Returns:
-        dict: Processed drug data with added identifiers
     """
     # PHASE 1: Extract drug names
     trade_name = drug_data.get('Trade_Name', '').strip()
     proper_name = drug_data.get('Proper Name', '').strip()
-    
-    if not trade_name and not proper_name:
-        return drug_data  # Skip processing if no names available
+    # ADICIONAR SUPORTE PARA O CAMPO "name"
+    generic_name = drug_data.get('name', '').strip()
+
+    # Se não houver nenhum nome, não processa
+    if not trade_name and not proper_name and not generic_name:
+        return drug_data
 
     # PHASE 2: Try to get ChEBI ID for drug
     drug_chebi_id = None
@@ -84,7 +78,10 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
         drug_chebi_id = get_onto_id(trade_name, onto='chebi')
     if drug_chebi_id is None and proper_name:
         drug_chebi_id = get_onto_id(proper_name, onto='chebi')
-    
+    # NOVO: tentar com "name"
+    if drug_chebi_id is None and generic_name:
+        drug_chebi_id = get_onto_id(generic_name, onto='chebi')
+
     # PHASE 3: If no ChEBI ID, try DrugBank lookup
     drugbank_info = None
     if drug_chebi_id is None:
@@ -92,53 +89,51 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
             drugbank_info = get_drug_info([trade_name], drugbank, vocabulary)
         if not drugbank_info and proper_name:
             drugbank_info = get_drug_info([proper_name], drugbank, vocabulary)
-        
+        # NOVO: tentar com "name"
+        if not drugbank_info and generic_name:
+            drugbank_info = get_drug_info([generic_name], drugbank, vocabulary)
         # PHASE 4: If still no match and ingredients are available, try first ingredient
         if not drugbank_info and drug_data.get('ingredients'):
-            first_ingredient_name = drug_data['ingredients'][0]['name']
-            
-            drug_chebi_id = get_onto_id(first_ingredient_name, onto='chebi')
-            
-            if drug_chebi_id is None:
-                drugbank_info = get_drug_info([first_ingredient_name], drugbank, vocabulary)
+            first_ingredient = drug_data['ingredients'][0]
+            first_ingredient_name = first_ingredient.get('name', '')
+            if first_ingredient_name:
+                drug_chebi_id = get_onto_id(first_ingredient_name, onto='chebi')
+                if drug_chebi_id is None:
+                    drugbank_info = get_drug_info([first_ingredient_name], drugbank, vocabulary)
 
     # PHASE 5: Build drug entry with identifier
-    # Use the name that was successful in finding the ID, or proper_name as fallback
-    drug_name = proper_name if proper_name else trade_name
+    # Use the name that was successful in finding the ID, or generic_name as fallback
+    drug_name = proper_name or trade_name or generic_name
     drug_entry = {'name': drug_name}
-    
+
     if drug_chebi_id:
         drug_entry['chebi_id'] = drug_chebi_id
     elif drugbank_info:
         drug_entry['drugbank_id'] = drugbank_info[0][0]
-    
+
     drug_data['drug'] = [drug_entry]
 
     # PHASE 6: Process ingredients (if any)
     for ingredient in drug_data.get('ingredients', []):
-        ingredient['chebi_id'] = get_onto_id(ingredient['name'], onto='chebi') 
-        if ingredient['chebi_id'] is None:
-            drugbank_info = get_drug_info([ingredient['name']], drugbank, vocabulary)
-            if drugbank_info:
-                ingredient['drugbank_id'] = drugbank_info[0][0]
+        ingredient_name = ingredient.get('name', '')
+        if ingredient_name:
+            ingredient['chebi_id'] = get_onto_id(ingredient_name, onto='chebi')
+            if ingredient['chebi_id'] is None:
+                drugbank_info = get_drug_info([ingredient_name], drugbank, vocabulary)
+                if drugbank_info:
+                    ingredient['drugbank_id'] = drugbank_info[0][0]
 
     # PHASE 7: Process disease-related sections
     for section in ['indications', 'contraindications']:
         text = drug_data.get(section, '')
         if text:
-            # Look up DOID via MER
             doid_id = get_onto_id(text, onto='do')
-            
-            # Extract and identify Orphanet disease entities
             orphanet_entities = []
             disease_entities = extract_disease_entities(text)
-            
             for disease in disease_entities:
                 orphanet_id = find_disease_in_ontology(disease, disease_terms)
                 if orphanet_id:
                     orphanet_entities.append({"disease": disease, "orphanet_id": orphanet_id})
-            
-            # Replace text with structured data
             drug_data[section] = [{
                 'text': text,
                 'doid_id': doid_id,

@@ -40,7 +40,7 @@ with DAG(
         python_callable=preprocess_json_task,
     )
     """
-    
+
     # OBJECTIVE: Define the NER processing task
     # This task will extract biomedical entities from the preprocessed JSON files
     task_ner_process = PythonOperator(
