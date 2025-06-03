@@ -20,6 +20,7 @@ from NER.src.Utils.utils import *
 from NER.src.Utils.utils2mer import *
 from NER.src.ner_drugbank import load_drugbank_data, create_vocabulary, get_drug_info
 from NER.src.ner_onto import load_ordo, build_disease_dictionary, extract_disease_entities, find_disease_in_ontology
+import subprocess
 
 # Add MER library to path
 repo_path = os.path.abspath("/opt/airflow/dags/NER/merpy/merpy")
@@ -42,49 +43,91 @@ def get_onto_id(name, onto='chebi', limit=0):
         
     Returns:
         str or None: Ontology identifier if found, None otherwise
+        For DOIDs, returns a list of matches instead of just the first one
     """
-    # Map simple names to file names used by get_entities.sh
     onto_source_map = {
         'chebi': 'chebi_lite',
         'do': 'doid'
         # Add other mappings if needed
     }
     
-    # Get the correct source name from the map
-    onto_source = onto_source_map.get(onto, onto) # Use original name if not in map
+    onto_source = onto_source_map.get(onto, onto)
 
-    # --- START: Change working directory for merpy call ---
     mer_home = os.environ.get('MER_HOME')
-    original_cwd = os.getcwd()
-    onto_entities = [] # Initialize empty list
-    
-    if mer_home and os.path.isdir(mer_home):
-        try:
-            os.chdir(mer_home)
-            print(f"Changed working directory to {os.getcwd()} for merpy call.") # Debug print
-            # Query the MER tool to get entities
-            # Pass the text (name) and the correct source name (onto_source)
-            onto_entities = merpy.get_entities(name, onto_source)
-            print(f"Entities for '{name}' using source '{onto_source}': {onto_entities}")  
-        except Exception as e:
-            print(f"Error during merpy call: {e}")
-        finally:
-            os.chdir(original_cwd) # Always change back
-            print(f"Changed working directory back to {os.getcwd()}.") # Debug print
-    else:
-        print(f"MER_HOME not set or invalid: {mer_home}. Cannot call merpy.")
-    # --- END: Change working directory ---
-
-    # The merpy output format is expected to be a list of matches, 
-    # where each match is [start, end, matched_text, link_or_id]
-    # We are interested in the link/id (index 3) of the first match.
-    # Note: The previous print in get_onto_id is now inside the try block.
-    if onto_entities and onto_entities[0] and len(onto_entities[0]) > 3:
-        identifier = onto_entities[0][3]
-        return identifier
-    else:
-        # The previous print for 'No valid entities found' is now inside the try block.
+    if not mer_home or not os.path.isdir(mer_home):
+        print(f"MER_HOME not set or invalid: {mer_home}. Cannot call merpy script.")
         return None
+
+    script_path = os.path.join(mer_home, 'get_entities.sh')
+    if not os.path.exists(script_path):
+        print(f"MER script not found at {script_path}")
+        return None
+
+    # --- START: Call get_entities.sh directly and parse output ---
+    # Construct the command to run the shell script
+    command = [script_path, name, onto_source]
+    
+    onto_entities = []
+    try:
+        # Execute the command and capture output
+        print(f"Executing command: {' '.join(command)} from {os.getcwd()}")
+        result = subprocess.run(command, capture_output=True, text=True, check=True, timeout=60, cwd=mer_home)
+        print(f"Script output (stdout):\n{result.stdout}")
+        print(f"Script output (stderr):\n{result.stderr}")
+        
+        # Parse the tab-separated output
+        for line in result.stdout.strip().split('\n'):
+            if line:
+                # Split by tab
+                parts = line.split('\t')
+                if len(parts) == 4:
+                    # Append as [start, end, matched_text, link_or_id] list
+                    onto_entities.append(parts)
+                else:
+                    print(f"Warning: Skipping malformed line from script output: {line}")
+
+        print(f"Parsed entities for '{name}' using source '{onto_source}': {onto_entities}")
+
+    except FileNotFoundError:
+        print(f"Error: get_entities.sh script not found at {script_path}")
+        return None
+    except subprocess.CalledProcessError as e:
+        print(f"Error executing script: {e}")
+        print(f"Stderr: {e.stderr}")
+        return None
+    except subprocess.TimeoutExpired:
+        print(f"Error: Script execution timed out after 60 seconds.")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred during script execution or parsing: {e}")
+        return None
+    # --- END: Call get_entities.sh directly and parse output ---
+
+    # For DOIDs, return all matches as a list
+    if onto == 'do':
+        return onto_entities
+
+    # For other ontologies (like ChEBI), return the first exact match or first match
+    exact_match_id = None
+    first_found_id = None
+
+    for match in onto_entities:
+        # match is [start, end, matched_text, link_or_id]
+        if len(match) > 3:
+            matched_text = match[2].strip()
+            identifier = match[3].strip()
+
+            # Store the first found ID just in case no exact match is found
+            if first_found_id is None:
+                first_found_id = identifier
+
+            # Check if the matched text is an exact match for the input name
+            if matched_text.lower() == name.strip().lower():
+                exact_match_id = identifier # Found exact match, this is the preferred ID
+                break # Stop searching once an exact match is found
+
+    # Return the exact match ID if found, otherwise return the first found ID
+    return exact_match_id if exact_match_id is not None else first_found_id
 
 # ---------------------------------------------------------------------------------------- #
 # Drug Data Processing Functions 
@@ -101,17 +144,23 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
     # ADICIONAR SUPORTE PARA O CAMPO "name"
     generic_name = drug_data.get('name', '').strip()
 
+    # NOVO: Extrair o nome do ingrediente
+    ingredient_name_field = drug_data.get('Ingredient', '').strip()
+
     # Se não houver nenhum nome, não processa
     if not trade_name and not proper_name and not generic_name:
         return drug_data
 
     # PHASE 2: Try to get ChEBI ID for drug
     drug_chebi_id = None
-    if trade_name:
+    # Try Ingredient name first as it's more likely to match ChEBI
+    if ingredient_name_field:
+        drug_chebi_id = get_onto_id(ingredient_name_field, onto='chebi')
+    # Then try other names if no match found
+    if drug_chebi_id is None and trade_name:
         drug_chebi_id = get_onto_id(trade_name, onto='chebi')
     if drug_chebi_id is None and proper_name:
         drug_chebi_id = get_onto_id(proper_name, onto='chebi')
-    # NOVO: tentar com "name"
     if drug_chebi_id is None and generic_name:
         drug_chebi_id = get_onto_id(generic_name, onto='chebi')
 
@@ -135,14 +184,15 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
                     drugbank_info = get_drug_info([first_ingredient_name], drugbank, vocabulary)
 
     # PHASE 5: Build drug entry with identifier
-    # Use the name that was successful in finding the ID, or generic_name as fallback
-    drug_name = proper_name or trade_name or generic_name
+    # Use the ingredient name if available, otherwise fallback to proper name, trade name, or generic name
+    drug_name = ingredient_name_field or proper_name or trade_name or generic_name
+
     drug_entry = {'name': drug_name}
 
     if drug_chebi_id:
         drug_entry['chebi_id'] = drug_chebi_id
     elif drugbank_info:
-        drug_entry['drugbank_id'] = drugbank_info[0][0]
+        drug_entry['drugbank_id'] = f"https://go.drugbank.com/drugs/{drugbank_info[0][0]}"
 
     drug_data['drug'] = [drug_entry]
 
@@ -151,33 +201,64 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
         ingredient_name = ingredient.get('name', '')
         if ingredient_name:
             print(f"Processing ingredient: '{ingredient_name}'")
-            ingredient['chebi_id'] = get_onto_id(ingredient_name, onto='chebi')
-            if ingredient['chebi_id'] is None:
+            chebi_id = get_onto_id(ingredient_name, onto='chebi')
+            if chebi_id:
+                ingredient['chebi_id'] = chebi_id
+            else:
                 drugbank_info = get_drug_info([ingredient_name], drugbank, vocabulary)
                 if drugbank_info:
-                    ingredient['drugbank_id'] = drugbank_info[0][0]
+                    ingredient['drugbank_id'] = f"https://go.drugbank.com/drugs/{drugbank_info[0][0]}"
+                    # Remove chebi_id if it exists and is null
+                    if 'chebi_id' in ingredient and ingredient['chebi_id'] is None:
+                        del ingredient['chebi_id']
 
     # PHASE 7: Process disease-related sections
     for section in ['indications', 'contraindications']:
         text = drug_data.get(section, '')
         if text:
-            print(f"Processing section '{section}' with text: '{text}'")
+            print(f"\nProcessing section '{section}' with text: '{text}'")
             
             # Find DOID entities within the text using get_onto_id with onto='do' source
-            # Note: get_onto_id with 'do' source will use 'doid' data files.
-            print(f"Calling merpy.get_entities for section '{section}' with source 'doid' and text: '{text}'")
-            doid_entities_list = merpy.get_entities(text, 'doid') # Use merpy directly for all matches
-            print(f"Output from merpy.get_entities for '{section}' (doid): {doid_entities_list}")
+            print(f"Calling get_entities.sh for section '{section}' with source 'doid' and text: '{text}'")
+            doid_entities_list = get_onto_id(text, onto='do') # Use get_onto_id which now calls get_entities.sh
+            print(f"Raw output from get_entities.sh for '{section}' (doid): {doid_entities_list}")
 
             doid_entities_formatted = []
             if doid_entities_list:
+                print(f"Processing {len(doid_entities_list)} DOID entities found")
+                # Track unique DOIDs to avoid duplicates
+                seen_doids = set()
+                
+                # doid_entities_list is now a list of [start, end, matched_text, link_or_id]
                 for entity_match in doid_entities_list:
-                    # entity_match is expected to be [start, end, matched_text, link_or_id]
-                    if len(entity_match) > 3:
-                         doid_entities_formatted.append({
-                             'text': entity_match[2], # The matched text
-                             'doid_id': entity_match[3] # The DOID identifier/link
-                         })
+                    print(f"Processing entity match: {entity_match}")
+                    try:
+                        if isinstance(entity_match, list) and len(entity_match) >= 4:
+                            # Extract DOID ID from the full URL if present
+                            doid_id = entity_match[3]
+                            if 'DOID_' in doid_id:
+                                doid_id = doid_id.split('DOID_')[-1]
+                            
+                            # Skip if we've already seen this DOID
+                            if doid_id in seen_doids:
+                                print(f"Skipping duplicate DOID: {doid_id}")
+                                continue
+                                
+                            seen_doids.add(doid_id)
+                            entity_data = {
+                                'text': f"{entity_match[2]} (DOID:{doid_id})",  # Format as "text (DOID:id)"
+                                'doid_id': f"http://purl.obolibrary.org/obo/DOID_{doid_id}"  # Full DOID URL
+                            }
+                            doid_entities_formatted.append(entity_data)
+                            print(f"Added DOID entity: {entity_data}")
+                        else:
+                            print(f"Skipping malformed entity match (wrong format): {entity_match}")
+                    except Exception as e:
+                        print(f"Error processing entity match {entity_match}: {str(e)}")
+            else:
+                print(f"No DOID entities found for text: '{text}'")
+
+            print(f"Final formatted DOID entities: {doid_entities_formatted}")
 
             orphanet_entities = []
             # Keep existing ORDO/Orphanet logic as it seems to be working
@@ -188,12 +269,13 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
                     orphanet_entities.append({"disease": disease, "orphanet_id": orphanet_id})
                     
             # Update the section data in drug_data
-            # Store original text, list of found DOID entities, and list of Orphanet entities
-            drug_data[section] = [{
-                'text': text, # Keep original text
-                'doid_entities': doid_entities_formatted, # List of found DOID entities
-                'orphanet_entities': orphanet_entities # List of found Orphanet entities (from ORDO)
-            }]
+            # Store original text and lists of found entities
+            drug_data[section] = {
+                'text': text,  # Keep original text
+                'doid_entities': doid_entities_formatted,  # List of found DOID entities
+                'orphanet_entities': orphanet_entities  # List of found Orphanet entities (from ORDO)
+            }
+            print(f"Updated section '{section}' with {len(doid_entities_formatted)} DOID entities and {len(orphanet_entities)} Orphanet entities")
 
     return drug_data
 

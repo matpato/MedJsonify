@@ -9,49 +9,47 @@
         {
             "name": "BUPRENORPHINE HYDROCHLORIDE",
             "code": "56W8MW3EN1",
-            "chebi_id": null
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_652822"
         },
         {
             "name": "ANHYDROUS DEXTROSE",
-            "code": "5SL0G7R0OK",
-            "chebi_id": null
+            "code": "5SL0G7R0OK"
         },
         {
             "name": "HYDROCHLORIC ACID",
             "code": "QTT17582CB",
-            "chebi_id": null,
-            "drugbank_id": "DB13366"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_37527"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
-            "chebi_id": null,
-            "drugbank_id": "DB09145"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],
-    "indications": [
-        {
-            "text": "buprenorphine hcl injection indicated management pain severe enough require opioid analgesic alternate treatments inadequate .",
-            "doid_entities": [],
-            "orphanet_entities": []
-        }
-    ],
-    "contraindications": [
-        {
-            "text": "buprenorphine hcl prescribed healthcare professionals knowledgeable opioids mitigate associated risks . lowest effective shortest duration consistent individual patients treatment goals [ ] . risk overdose increases opioid doses increase , reserve titration higher doses buprenorphine hcl patients lower doses insufficiently effective expected benefits using higher dose opioid clearly outweigh substantial risks . many acute pain conditions ( e.g . , pain occurs number surgical procedures acute musculoskeletal injuries ) require days opioid analgesic . guidelines opioid prescribing acute pain conditions available . variability opioid analgesic dose duration needed adequately manage pain due cause pain individual patient factors . initiate dosing regimen patient individually , taking account patient \u2019 underlying cause severity pain , prior analgesic treatment response , risk factors addiction , abuse , misuse [ ] . respiratory depression occur time opioid therapy , especially initiating following increases buprenorphine hcl . consider risk selecting initial dose making dose adjustments [ ] . inspect buprenorphine hcl particulate matter discoloration prior .",
-            "doid_entities": [],
-            "orphanet_entities": [
-                {
-                    "disease": "acute musculoskeletal injuries",
-                    "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_2674"
-                },
-                {
-                    "disease": "acute pain conditions",
-                    "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_454831"
-                }
-            ]
-        }
-    ],
+    "indications": {
+        "text": "buprenorphine hcl injection indicated management pain severe enough require opioid analgesic alternate treatments inadequate .",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "buprenorphine hcl prescribed healthcare professionals knowledgeable opioids mitigate associated risks . lowest effective shortest duration consistent individual patients treatment goals [ ] . risk overdose increases opioid doses increase , reserve titration higher doses buprenorphine hcl patients lower doses insufficiently effective expected benefits using higher dose opioid clearly outweigh substantial risks . many acute pain conditions ( e.g . , pain occurs number surgical procedures acute musculoskeletal injuries ) require days opioid analgesic . guidelines opioid prescribing acute pain conditions available . variability opioid analgesic dose duration needed adequately manage pain due cause pain individual patient factors . initiate dosing regimen patient individually , taking account patient \u2019 underlying cause severity pain , prior analgesic treatment response , risk factors addiction , abuse , misuse [ ] . respiratory depression occur time opioid therapy , especially initiating following increases buprenorphine hcl . consider risk selecting initial dose making dose adjustments [ ] . inspect buprenorphine hcl particulate matter discoloration prior .",
+        "doid_entities": [
+            {
+                "text": "depression (DOID:1596)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1596"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "acute musculoskeletal injuries",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_2674"
+            },
+            {
+                "disease": "acute pain conditions",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_454831"
+            }
+        ]
+    },
     "warningsAndPrecautions": "buprenorphine hydrochloride injection supplied amber glass vials 1 ml ( 0.3 mg buprenorphine ) . ndc 0143-9246-05 ; carton 5 vials . store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) , excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) . [ usp controlled room temperature ] . protect prolonged exposure light . report suspected , contact hikma pharmaceuticals usa inc. 1-877-845-0689 , fda 1-800-fda-1088 www.fda.gov/medwatch . product inquiry call 1-877-845-0689. manufactured : hikma farmac\u00eautica ( portugal ) , s.a. estrada rio da m\u00f3 , 8 , 8a e 8b \u2013 ferven\u00e7a \u2013 2705-906 terrugem snt , portugal distributed : hikma pharmaceuticals usa inc. berkeley heights , nj 07922 revised april 2024 pin444-wes/5",
     "adverseReactions": "buprenorphine hcl injection contraindicated patients : significant respiratory depression [ ] . acute severe bronchial asthma unmonitored setting absence resuscitative equipment [ ] . known suspected gastrointestinal obstruction , including paralytic ileus [ ] . hypersensitivity buprenorphine ( e.g . anaphylaxis ) ingredient buprenorphine hcl injection [ ] .",
     "indications_original": "Buprenorphine HCl Injection is indicated for the management of pain severe enough to require an opioid analgesic and for which alternate treatments are inadequate.",
@@ -60,7 +58,8 @@
     "adverseReactions_original": "Buprenorphine HCl Injection is contraindicated in patients with:\n                  \n                     \n                        Significant respiratory depression [See WARNINGS].\n                     \n                     \n                        Acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment [See WARNINGS].\n                        \n                     \n                     \n                        Known or suspected gastrointestinal obstruction, including paralytic ileus [See WARNINGS]. \n                     \n                     \n                        Hypersensitivity to buprenorphine (e.g. anaphylaxis) or any other ingredient in Buprenorphine HCl Injection [See WARNINGS].",
     "drug": [
         {
-            "name": "Buprenorphine Hydrochloride"
+            "name": "Buprenorphine Hydrochloride",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_652822"
         }
     ]
 }

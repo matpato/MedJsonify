@@ -9,35 +9,29 @@
         {
             "name": "DICYCLOMINE HYDROCHLORIDE",
             "code": "CQ903KQA31",
-            "chebi_id": null,
-            "drugbank_id": "DB00804"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_4515"
         },
         {
             "name": "D&C RED NO. 28",
-            "code": "767IP0Y5NH",
-            "chebi_id": null
+            "code": "767IP0Y5NH"
         },
         {
             "name": "FD&C BLUE NO. 1",
-            "code": "H3R47K3TBD",
-            "chebi_id": null
+            "code": "H3R47K3TBD"
         },
         {
             "name": "FD&C RED NO. 40",
-            "code": "WZB9127XOA",
-            "chebi_id": null
+            "code": "WZB9127XOA"
         },
         {
             "name": "GELATIN, UNSPECIFIED",
             "code": "2G86QN327L",
-            "chebi_id": null,
-            "drugbank_id": "DB14245"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_5291"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
-            "chebi_id": null,
-            "drugbank_id": "DB14077"
+            "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "STARCH, CORN",
@@ -47,30 +41,29 @@
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
-            "chebi_id": null,
-            "drugbank_id": "DB11132"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "SODIUM LAURYL SULFATE",
             "code": "368GB5141J",
-            "chebi_id": null,
-            "drugbank_id": "DB00815"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16189"
         }
     ],
-    "indications": [
-        {
-            "text": "dicyclomine hydrochloride indicated treatment patients functional bowel/irritable bowel syndrome .",
-            "doid_entities": [],
-            "orphanet_entities": []
-        }
-    ],
-    "contraindications": [
-        {
-            "text": "must adjusted individual patient needs .",
-            "doid_entities": [],
-            "orphanet_entities": []
-        }
-    ],
+    "indications": {
+        "text": "dicyclomine hydrochloride indicated treatment patients functional bowel/irritable bowel syndrome .",
+        "doid_entities": [
+            {
+                "text": "syndrome (DOID:225)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_225"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "must adjusted individual patient needs .",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
     "warningsAndPrecautions": "dicyclomine hydrochloride capsules , usp 10 mg capsules : size 4 hard gelatin capsules , dark blue clear cap body . rectified axial imprinted white ink watson 794 cap 10 mg body , bottles ; bottle 20 68788-9705-2 bottle 30 - 68788-9705-3 bottle 60 - 68788-9705-6 bottle 100 - 68788-9705-1 store 20\u00b0 25\u00b0c ( 68\u00b0 77\u00b0f ) [ usp controlled room temperature ] . keep reach children . dispense well-closed container defined usp/nf .",
     "adverseReactions": "dicyclomine hydrochloride contraindicated infants less 6 months age [ ( ) ] , nursing mothers [ ( ) ] , patients : \u2022unstable cardiovascular status acute hemorrhage \u2022myasthenia gravis [ ( ) ] \u2022glaucoma [ ( ) ( ) ] \u2022obstructive uropathy [ ( ) ] \u2022obstructive disease gastrointestinal tract [ ( ) ] \u2022severe ulcerative colitis [ ( ) ] \u2022reflux esophagitis",
     "indications_original": "Dicyclomine hydrochloride is indicated for the treatment of patients with functional bowel/irritable bowel syndrome.",
@@ -80,7 +73,7 @@
     "drug": [
         {
             "name": "Dicyclomine Hydrochloride",
-            "drugbank_id": "DB00804"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_4515"
         }
     ]
 }
