@@ -24,19 +24,15 @@ USER airflow
 COPY --chown=airflow:root requirements.txt /opt/airflow/
 RUN pip install --no-cache-dir --user -r requirements.txt 
 
-# Copy ontology files and their processed versions
-COPY --chown=airflow:root NER/data/ontologies/chebi_lite.owl /opt/airflow/dags/NER/merpy/merpy/MER/data/
-COPY --chown=airflow:root NER/data/ontologies/doid.owl /opt/airflow/dags/NER/merpy/merpy/MER/data/
-COPY --chown=airflow:root NER/data/ontologies/chebi_lite_*.txt /opt/airflow/dags/NER/merpy/merpy/MER/data/
-COPY --chown=airflow:root NER/data/ontologies/chebi_lite_*.tsv /opt/airflow/dags/NER/merpy/merpy/MER/data/
-COPY --chown=airflow:root NER/data/ontologies/doid_*.txt /opt/airflow/dags/NER/merpy/merpy/MER/data/
-COPY --chown=airflow:root NER/data/ontologies/doid_*.tsv /opt/airflow/dags/NER/merpy/merpy/MER/data/
+RUN cd /opt/airflow/dags/NER/merpy/merpy/MER/data/ && \
+    wget http://purl.obolibrary.org/obo/chebi/chebi_lite.owl && \
+    wget http://purl.obolibrary.org/obo/doid.owl
 
-WORKDIR /opt/airflow/dags/NER/merpy/merpy/MER/
+RUN cd /opt/airflow/dags/NER/merpy/merpy/MER/ && \
+    ./produce_data_files.sh ./data/chebi_lite.owl && \
+    ./produce_data_files.sh ./data/doid.owl
 
-# Verify files exist and run the script
-RUN ls -l /opt/airflow/dags/NER/merpy/merpy/MER/data/ && \
-    ./produce_data_files.sh /opt/airflow/dags/NER/merpy/merpy/MER/data/chebi_lite.owl && \
-    ./produce_data_files.sh /opt/airflow/dags/NER/merpy/merpy/MER/data/doid.owl
+# Set MER_HOME environment variable
+ENV MER_HOME=/opt/airflow/dags/NER/merpy/merpy/MER
 
 WORKDIR /opt/airflow/

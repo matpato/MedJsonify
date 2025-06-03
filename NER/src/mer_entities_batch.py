@@ -43,15 +43,47 @@ def get_onto_id(name, onto='chebi', limit=0):
     Returns:
         str or None: Ontology identifier if found, None otherwise
     """
-    # Query the MER tool to get entities
-    onto_entities = merpy.get_entities(name, onto)
-    print(f"Entities for {name} in {onto}: {onto_entities}")  
+    # Map simple names to file names used by get_entities.sh
+    onto_source_map = {
+        'chebi': 'chebi_lite',
+        'do': 'doid'
+        # Add other mappings if needed
+    }
+    
+    # Get the correct source name from the map
+    onto_source = onto_source_map.get(onto, onto) # Use original name if not in map
 
-    # Verify if there are entities and the first one has more than the minimum elements
-    if onto_entities and len(onto_entities[0]) > 3 and onto_entities[0][0]:
-        return onto_entities[0][3]  # Return the identifier (usually 4th element)
+    # --- START: Change working directory for merpy call ---
+    mer_home = os.environ.get('MER_HOME')
+    original_cwd = os.getcwd()
+    onto_entities = [] # Initialize empty list
+    
+    if mer_home and os.path.isdir(mer_home):
+        try:
+            os.chdir(mer_home)
+            print(f"Changed working directory to {os.getcwd()} for merpy call.") # Debug print
+            # Query the MER tool to get entities
+            # Pass the text (name) and the correct source name (onto_source)
+            onto_entities = merpy.get_entities(name, onto_source)
+            print(f"Entities for '{name}' using source '{onto_source}': {onto_entities}")  
+        except Exception as e:
+            print(f"Error during merpy call: {e}")
+        finally:
+            os.chdir(original_cwd) # Always change back
+            print(f"Changed working directory back to {os.getcwd()}.") # Debug print
     else:
-        print(f"No valid entities found for {name} in {onto}") 
+        print(f"MER_HOME not set or invalid: {mer_home}. Cannot call merpy.")
+    # --- END: Change working directory ---
+
+    # The merpy output format is expected to be a list of matches, 
+    # where each match is [start, end, matched_text, link_or_id]
+    # We are interested in the link/id (index 3) of the first match.
+    # Note: The previous print in get_onto_id is now inside the try block.
+    if onto_entities and onto_entities[0] and len(onto_entities[0]) > 3:
+        identifier = onto_entities[0][3]
+        return identifier
+    else:
+        # The previous print for 'No valid entities found' is now inside the try block.
         return None
 
 # ---------------------------------------------------------------------------------------- #
@@ -62,6 +94,7 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
     """
     Process a single drug data object, enriching it with ontology identifiers.
     """
+    print(f"Processing drug data for: {drug_data.get('name', drug_data.get('Proper Name', 'Unknown Drug'))}")
     # PHASE 1: Extract drug names
     trade_name = drug_data.get('Trade_Name', '').strip()
     proper_name = drug_data.get('Proper Name', '').strip()
@@ -117,6 +150,7 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
     for ingredient in drug_data.get('ingredients', []):
         ingredient_name = ingredient.get('name', '')
         if ingredient_name:
+            print(f"Processing ingredient: '{ingredient_name}'")
             ingredient['chebi_id'] = get_onto_id(ingredient_name, onto='chebi')
             if ingredient['chebi_id'] is None:
                 drugbank_info = get_drug_info([ingredient_name], drugbank, vocabulary)
@@ -127,17 +161,38 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
     for section in ['indications', 'contraindications']:
         text = drug_data.get(section, '')
         if text:
-            doid_id = get_onto_id(text, onto='do')
+            print(f"Processing section '{section}' with text: '{text}'")
+            
+            # Find DOID entities within the text using get_onto_id with onto='do' source
+            # Note: get_onto_id with 'do' source will use 'doid' data files.
+            print(f"Calling merpy.get_entities for section '{section}' with source 'doid' and text: '{text}'")
+            doid_entities_list = merpy.get_entities(text, 'doid') # Use merpy directly for all matches
+            print(f"Output from merpy.get_entities for '{section}' (doid): {doid_entities_list}")
+
+            doid_entities_formatted = []
+            if doid_entities_list:
+                for entity_match in doid_entities_list:
+                    # entity_match is expected to be [start, end, matched_text, link_or_id]
+                    if len(entity_match) > 3:
+                         doid_entities_formatted.append({
+                             'text': entity_match[2], # The matched text
+                             'doid_id': entity_match[3] # The DOID identifier/link
+                         })
+
             orphanet_entities = []
-            disease_entities = extract_disease_entities(text)
-            for disease in disease_entities:
+            # Keep existing ORDO/Orphanet logic as it seems to be working
+            disease_entities_from_text = extract_disease_entities(text)
+            for disease in disease_entities_from_text:
                 orphanet_id = find_disease_in_ontology(disease, disease_terms)
                 if orphanet_id:
                     orphanet_entities.append({"disease": disease, "orphanet_id": orphanet_id})
+                    
+            # Update the section data in drug_data
+            # Store original text, list of found DOID entities, and list of Orphanet entities
             drug_data[section] = [{
-                'text': text,
-                'doid_id': doid_id,
-                'orphanet_entities': orphanet_entities
+                'text': text, # Keep original text
+                'doid_entities': doid_entities_formatted, # List of found DOID entities
+                'orphanet_entities': orphanet_entities # List of found Orphanet entities (from ORDO)
             }]
 
     return drug_data
