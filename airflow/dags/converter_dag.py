@@ -12,10 +12,17 @@
 #                                                                             #  
 ###############################################################################
 
+from __future__ import annotations
+
+import pendulum
+import os # Importe o módulo os
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from utils.tasks import *
+from airflow.operators.bash import BashOperator # Importe BashOperator
+# from airflow.configuration import conf # Comentado: Não precisamos importar conf para ler env var
+from airflow.models.variable import Variable # Importe Variable
 
 # OBJECTIVE: Define the file conversion DAG
 # Create a monthly scheduled DAG for converting files to JSON format
@@ -32,6 +39,17 @@ with DAG(
     catchup=False,
 ) as dag:
     
+    # Obtenha o email da variavel de ambiente
+    # Use um valor default caso a variável não esteja definida
+    # email_string = os.environ.get("AIRFLOW_NOTIFICATION_EMAIL", "admin@example.com") # Comentado: Não lemos mais da environment variable
+    # email_string = conf.get('custom', 'notification_email', fallback='admin@example.com') # Comentado: Não lemos mais do airflow.cfg
+
+    # Obtenha o email da Variável do Airflow
+    # Use Variable.get() para ler do banco de dados do Airflow
+    email_string = Variable.get("notification_email", default_var="admin@example.com")
+
+    notification_emails = [email.strip() for email in email_string.split(',') if email.strip()]
+
     # OBJECTIVE: Define the file conversion task
     # This task handles the conversion of various file types to JSON format
     task_convert_files_to_json = PythonOperator(
@@ -39,8 +57,18 @@ with DAG(
         task_id='convert_files_to_json',
         # The function to execute (defined in utils.tasks)
         python_callable=convert_files_to_json_task,
+        email_on_failure=True, # Ativa notificação por falha na task
+        email=notification_emails, # Usa a lista de emails da environment variable
     )
 
-    # Set the task as the only one in this DAG
-    # No dependencies needed since there's only one task
-    task_convert_files_to_json
+    # Tarefa temporária para forçar falha e testar notificação
+    task_teste_falha = BashOperator(
+        task_id='tarefa_de_teste_que_falha',
+        bash_command='exit 1', # Este comando faz a tarefa falhar
+        email_on_failure=True, # Ativa notificação por falha na task
+        email=notification_emails, # Usa a lista de emails da environment variable
+    )
+
+    # Defina a dependência (a tarefa principal vem depois da tarefa de teste)
+    # A falha na tarefa de teste impedirá a execução da tarefa principal
+    task_teste_falha >> task_convert_files_to_json

@@ -13,6 +13,7 @@
 
 import configparser
 import subprocess
+from airflow.models.variable import Variable
 
 def create_user_from_ini(ini_file):
     """
@@ -26,11 +27,11 @@ def create_user_from_ini(ini_file):
     """
     # OBJECTIVE: Parse the configuration file
     config = configparser.ConfigParser()
-    config.read(ini_file)
+    config.read("/opt/airflow/dags/airflow.cfg") # Leia do airflow.cfg
 
     # OBJECTIVE: Extract user details from the config
     # Get values from the USER section of the INI file
-    user_data = config["USER"]
+    user_data = config["user"] # Note: seção agora é 'user' minúsculo
     
     # Extract specific user attributes with defaults where appropriate
     username = user_data.get("username")
@@ -59,6 +60,14 @@ def create_user_from_ini(ini_file):
     
     # Log success message
     print(f"User '{username}' created successfully.")
+
+    # OBJECTIVE: Set Airflow Variable for notification email
+    # Use Variable.set() to store the email in the Airflow database
+    try:
+        Variable.set(key="notification_email", value=email)
+        print(f"Airflow Variable 'notification_email' set to '{email}'.")
+    except Exception as e:
+        print(f"Error setting Airflow Variable 'notification_email': {e}")
 
 # OBJECTIVE: Execute the script if run directly
 if __name__ == "__main__":
