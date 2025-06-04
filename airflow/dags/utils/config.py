@@ -29,12 +29,17 @@ def load_ini_config(path):
 
 class DAGConfig:
     def __init__(self):
-        # Carrega os arquivos de configuração necessários
-        self.config_neo4j = load_ini_config('/opt/airflow/dags/database/neo4j.ini')     # Neo4j database settings
+        # -------------------------------------------------------------------------------------------
+        # LOAD CONFIGURATION FILES
+        # -------------------------------------------------------------------------------------------
         self.config_upload = load_ini_config('/opt/airflow/dags/upload/upload.ini')     # File upload settings
         self.config_main = load_ini_config('/opt/airflow/dags/jsonify/config.ini')      # Main pipeline settings
         self.config_ner = load_ini_config('/opt/airflow/dags/NER/src/config.ini')       # NER component settings
+        self.config_neo4j = load_ini_config('/opt/airflow/dags/database/neo4j.ini')     # Neo4j database settings
 
+        # -------------------------------------------------------------------------------------------
+        # DATA ACCESS CONFIGURATION
+        # -------------------------------------------------------------------------------------------
         # Parse download configuration for each data source
         self.selected_directories = [i.strip("'").strip(" ") for i in self.config_upload['general']['selected_url'].split(",")]
         self.zip_urls = [self.config_upload['urls'][d] for d in self.selected_directories]
@@ -46,21 +51,42 @@ class DAGConfig:
         self.dest_directories = [os.path.expanduser(self.config_upload['dest_directory'][d]) 
                                 for d in self.selected_directories]
 
+        # -------------------------------------------------------------------------------------------
+        # CONVERSION CONFIGURATION (Part of Main Pipeline Config)
+        # -------------------------------------------------------------------------------------------
+        # Input folders for conversion (from upload/extraction output)
         self.input_folders = [
             os.path.join(self.config_main['folders']['base_output_folder'], 'xml_results'),
             os.path.join(self.config_main['folders']['base_output_folder'], 'csv_results'),
             os.path.join(self.config_main['folders']['base_output_folder'], 'txt_results')
         ]
+
+        # -------------------------------------------------------------------------------------------
+        # DATA PROCESSING (NER) CONFIGURATION
+        # -------------------------------------------------------------------------------------------
+        # Input and output directories for NER processing
+        self.input_json_dir = self.config_ner['PATH']['input_json_dir']
+        self.preprocessing_output_dir = self.config_ner['PATH']['preprocessing_output_dir']
         self.output_folder = self.config_ner['PATH']['path_to_entities_json']
+
+        # Specific NER configuration parameters
+        self.active_lexicon = self.config_ner['ONTO']['active_lexicons'].replace(' ', '').split(',')
+        self.update = self.config_ner['ONTO'].get('update')
+
+        # Vocabulary configuration for NER
+        self.vocabulary_zip_url = self.config_ner['VOCABULARY']['zip_url']
+        self.vocabulary_output_folder = self.config_ner['VOCABULARY']['output_folder']
+        self.drugbank_file = os.path.join(self.config_ner['VOCABULARY']['output_folder'], 'drugbank vocabulary.csv')
+
+        # Output folders for NER results (structured by input type)
         self.output_folders = [
             os.path.join(self.output_folder, 'xml_results'),
             os.path.join(self.output_folder, 'csv_results'),
             os.path.join(self.output_folder, 'txt_results')
         ]
-        self.input_json_dir = self.config_ner['PATH']['input_json_dir']
-        self.preprocessing_output_dir = self.config_ner['PATH']['preprocessing_output_dir']
-        self.active_lexicon = self.config_ner['ONTO']['active_lexicons'].replace(' ', '').split(',')
-        self.update = self.config_ner['ONTO'].get('update')
-        self.drugbank_file = os.path.join(self.config_ner['VOCABULARY']['output_folder'], 'drugbank vocabulary.csv')
-        self.vocabulary_zip_url = self.config_ner['VOCABULARY']['zip_url']
-        self.vocabulary_output_folder = self.config_ner['VOCABULARY']['output_folder']
+
+        # -------------------------------------------------------------------------------------------
+        # DATABASE LOADING (Neo4j) CONFIGURATION
+        # -------------------------------------------------------------------------------------------
+        # Neo4j connection settings loaded from neo4j.ini
+        # Access using self.config_neo4j['section']['key']

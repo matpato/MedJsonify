@@ -28,9 +28,9 @@ from airflow.models.variable import Variable # Importe Variable
 # Create a monthly scheduled DAG for converting files to JSON format
 with DAG(
     # DAG identifier used in the Airflow UI
-    'converter_dag',
+    '2_converter_dag',
     # Description of the DAG's purpose
-    description='Convert different types of files to JSON and send to Neo4j',
+    description='Convert different types of files to JSON',
     # Schedule the DAG to run monthly
     schedule_interval='@monthly',
     # Set start date to current time (will run on next schedule after this time)
@@ -39,13 +39,7 @@ with DAG(
     catchup=False,
 ) as dag:
     
-    # Obtenha o email da variavel de ambiente
-    # Use um valor default caso a variável não esteja definida
-    # email_string = os.environ.get("AIRFLOW_NOTIFICATION_EMAIL", "admin@example.com") # Comentado: Não lemos mais da environment variable
-    # email_string = conf.get('custom', 'notification_email', fallback='admin@example.com') # Comentado: Não lemos mais do airflow.cfg
-
-    # Obtenha o email da Variável do Airflow
-    # Use Variable.get() para ler do banco de dados do Airflow
+    
     email_string = Variable.get("notification_email", default_var="admin@example.com")
 
     notification_emails = [email.strip() for email in email_string.split(',') if email.strip()]
@@ -61,14 +55,4 @@ with DAG(
         email=notification_emails, # Usa a lista de emails da environment variable
     )
 
-    # Tarefa temporária para forçar falha e testar notificação
-    task_teste_falha = BashOperator(
-        task_id='tarefa_de_teste_que_falha',
-        bash_command='exit 1', # Este comando faz a tarefa falhar
-        email_on_failure=True, # Ativa notificação por falha na task
-        email=notification_emails, # Usa a lista de emails da environment variable
-    )
-
-    # Defina a dependência (a tarefa principal vem depois da tarefa de teste)
-    # A falha na tarefa de teste impedirá a execução da tarefa principal
-    task_teste_falha >> task_convert_files_to_json
+    task_convert_files_to_json

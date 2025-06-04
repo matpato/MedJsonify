@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3418aa46-2d9b-39f3-e063-6294a90a2961"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250501"/>
+   <setId root="3418aa46-2d9a-39f3-e063-6294a90a2961"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co. LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co. LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co. LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1664" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="34194741-eba3-c767-e063-6294a90a2621"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250501"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1664" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DOBUTAMINE IN DEXTROSE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DOBUTAMINE IN DEXTROSE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0409-2346" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="g" value="5"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="25"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VON5FNS3C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM METABISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0WR771DJXV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DOBUTAMINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3S12J47372" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DOBUTAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7FLD91C86K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EDETATE DISODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1664-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20050812"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020201" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20050812"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418d1e3-7bf7-9ec5-e063-6394a90a57ad">
+               <id root="3418d1e3-7bf6-9ec5-e063-6394a90a57ad"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>DOBUTamine
+  <br/>
+in 5% Dextrose Injection, USP
+  <br/>
+Flexible Plastic Container
+ </paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418e073-5ad0-605d-e063-6294a90a6d06">
+               <id root="3418e073-5acf-605d-e063-6294a90a6d06"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Dobutamine in 5% Dextrose Injection, USP is a sterile, nonpyrogenic, prediluted solution of dobutamine hydrochloride and dextrose in water for injection. It is administered by intravenous infusion.</paragraph>
+                  <paragraph>Each 100 mL contains dobutamine hydrochloride equivalent to 100 mg, 200 mg, or 400 mg of dobutamine; dextrose (derived from corn), hydrous 5 g in water for injection, with sodium metabisulfite 25 mg and edetate disodium, dihydrate 10 mg added as stabilizers; osmolar concentration, respectively, 263, 270, or 284 mOsmol/liter (calc.). The pH is 3.0 (2.5 to 5.5). May contain hydrochloric acid and/or sodium hydroxide for pH adjustment. Dobutamine in 5% Dextrose Injection, USP is oxygen sensitive.</paragraph>
+                  <paragraph>Dobutamine Hydrochloride, USP is chemically designated (±)-4-[2-[[3-(p-hydroxyphenyl)-1-methylpropyl]amino]ethyl]-pyrocatechol hydrochloride. It is a synthetic catecholamine.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3418dcf4-67c4-5093-e063-6294a90a4e32"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Dextrose, USP is chemically designated D-glucose monohydrate (C6H12O6 • H2O), a hexose sugar freely soluble in water. It has the following structural formula:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3418dedc-bf31-4497-e063-6294a90aaa85"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Water for Injection, USP is chemically designated H2O.</paragraph>
+                  <paragraph>The flexible plastic container is fabricated from a specially formulated CR3 plastic material. Water can permeate from inside the container into the overwrap but not in amounts sufficient to affect the solution significantly. Solutions in contact with the plastic container may leach out certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the plastic container materials. Exposure to temperatures above 25°C/77°F during transport and storage will lead to minor losses in moisture content. Higher temperatures lead to greater losses. It is unlikely that these minor losses will lead to clinically significant changes within the expiration period.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250501"/>
+               <component>
+                  <observationMedia ID="img_3418dcf4-67c4-5093-e063-6294a90a4e32">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1664-1 Structure 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_3418dedc-bf31-4497-e063-6294a90aaa85">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1664-1 Structure 2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418dcf4-67c6-5093-e063-6294a90a4e32">
+               <id root="3418dcf4-67c5-5093-e063-6294a90a4e32"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Dobutamine is a direct-acting inotropic agent whose primary activity results from stimulation of the β-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine. In animal studies, dobutamine produces less increase in heart rate and less decrease in peripheral vascular resistance for a given inotropic effect than does isoproterenol.</paragraph>
+                  <paragraph>In patients with depressed cardiac function, both dobutamine and isoproterenol increase the cardiac output to a similar degree. In the case of dobutamine, this increase is usually not accompanied by marked increases in heart rate (although tachycardia is occasionally observed), and the cardiac stroke volume is usually increased. In contrast, isoproterenol increases the cardiac index primarily by increasing the heart rate while stroke volume changes little or declines.</paragraph>
+                  <paragraph>Facilitation of atrioventricular conduction has been observed in human electrophysiologic studies and in patients with atrial fibrillation.</paragraph>
+                  <paragraph>Systemic vascular resistance is usually decreased with administration of dobutamine. Occasionally, minimum vasoconstriction has been observed.</paragraph>
+                  <paragraph>Most clinical experience with dobutamine is short-term, not more than several hours in duration. In the limited number of patients who were studied for 24, 48, and 72 hours, a persistent increase in cardiac output occurred in some, whereas output returned toward baseline values in others.</paragraph>
+                  <paragraph>The onset of action of Dobutamine in 5% Dextrose Injection, USP is within 1 to 2 minutes; however, as much as 10 minutes may be required to obtain the peak effect of a particular infusion rate.</paragraph>
+                  <paragraph>The plasma half-life of dobutamine in humans is 2 minutes. The principal routes of metabolism are methylation of the catechol and conjugation. In human urine, the major excretion products are the conjugates of dobutamine and 3-O-methyl dobutamine. The 3-O-methyl derivative of dobutamine is inactive.</paragraph>
+                  <paragraph>Alteration of synaptic concentrations of catecholamines with either reserpine or tricyclic antidepressants does not alter the actions of dobutamine in animals, which indicates that the actions of dobutamine are not dependent on presynaptic mechanisms.</paragraph>
+                  <paragraph>The effective infusion rate of dobutamine varies widely from patient to patient, and titration is always necessary (see DOSAGE AND ADMINISTRATION). At least in pediatric patients, dobutamine-induced increases in cardiac output and systemic pressure are generally seen, in any given patient, at lower infusion rates than those that cause substantial tachycardia (see PRECAUTIONS, Pediatric Use).</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418e498-3f80-6067-e063-6294a90a2650">
+               <id root="3418e498-3f7f-6067-e063-6294a90a2650"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Dobutamine in 5% Dextrose Injection, USP is indicated when parenteral therapy is necessary for inotropic support in the short-term treatment of patients with cardiac decompensation due to depressed contractility resulting either from organic heart disease or from cardiac surgical procedures. Experience with intravenous dobutamine in controlled trials does not extend beyond 48 hours of repeated boluses and/or continuous infusions.</paragraph>
+                  <paragraph>Whether given orally, continuously intravenously, or intermittently intravenously, neither dobutamine nor any other cyclic-AMP-dependent inotrope has been shown in controlled trials to be safe or effective in the long-term treatment of congestive heart failure. In controlled trials of chronic oral therapy with various such agents, symptoms were not consistently alleviated, and the cyclic-AMP-dependent inotropes were consistently associated with increased risks of hospitalization and death. Patients with NYHA Class IV symptoms appeared to be at particular risk.</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418e4d3-e727-5726-e063-6294a90a0928">
+               <id root="3418e4d3-e726-5726-e063-6294a90a0928"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Dobutamine in 5% Dextrose Injection, USP is contraindicated in patients with idiopathic hypertrophic subaortic stenosis and in patients who have shown previous manifestations of hypersensitivity to dobutamine or any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418e83e-e8f4-a6bf-e063-6394a90ac05e">
+               <id root="3418e83e-e8f3-a6bf-e063-6394a90ac05e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>Increase in Heart Rate or Blood Pressure</paragraph>
+                  <paragraph>Dobutamine hydrochloride may cause a marked increase in heart rate or blood pressure, especially systolic pressure. Approximately 10% of adult patients in clinical studies have had rate increases of 30 beats/minute or more, and about 7.5% have had a 50-mm Hg or greater increase in systolic pressure. Usually, reduction of dosage reverses these effects.</paragraph>
+                  <paragraph>Because dobutamine facilitates atrioventricular conduction, patients with atrial fibrillation are at risk of developing rapid ventricular response. In patients who have atrial fibrillation with rapid ventricular response, a digitalis preparation should be used prior to institution of therapy with dobutamine. Patients with pre-existing hypertension appear to face an increased risk of developing an exaggerated pressure response.</paragraph>
+                  <paragraph>Ectopic Activity</paragraph>
+                  <paragraph>Dobutamine may precipitate or exacerbate ventricular ectopic activity, but it rarely has caused ventricular tachycardia.</paragraph>
+                  <paragraph>Hypersensitivity</paragraph>
+                  <paragraph>Reactions suggestive of hypersensitivity associated with administration of Dobutamine in 5% Dextrose Injection, USP, including skin rash, fever, eosinophilia, and bronchospasm, have been reported occasionally.</paragraph>
+                  <paragraph>Dobutamine in 5% Dextrose Injection, USP contains sodium bisulfite, a sulfite that may cause allergic-type reactions, including anaphylactic symptoms and life-threatening or less severe asthmatic episodes, in certain susceptible people. The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in nonasthmatic people.</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418eb02-117c-a71a-e063-6394a90a826e">
+               <id root="3418eb02-117b-a71a-e063-6394a90a826e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>During the administration of dobutamine, as with any adrenergic agent, ECG and blood pressure should be continuously monitored. In addition, pulmonary wedge pressure and cardiac output should be monitored whenever possible to aid in the safe and effective infusion of Dobutamine in 5% Dextrose Injection, USP.</paragraph>
+                  <paragraph>Hypovolemia should be corrected with suitable volume expanders before treatment with Dobutamine in 5% Dextrose Injection, USP is instituted.</paragraph>
+                  <paragraph>Animal studies indicate that dobutamine may be ineffective if the patient has recently received a β-blocking drug. In such a case, the peripheral vascular resistance may increase.</paragraph>
+                  <paragraph>No improvement may be observed in the presence of marked mechanical obstruction, such as severe valvular aortic stenosis.</paragraph>
+                  <paragraph>Do not administer unless solution is clear and container is undamaged. Discard unused portion.</paragraph>
+                  <paragraph>Usage Following Acute Myocardial Infarction: Clinical experience with dobutamine following myocardial infarction has been insufficient to establish the safety of the drug for this use. There is concern that any agent that increases contractile force and heart rate may increase the size of an infarction by intensifying ischemia, but it is not known whether dobutamine does so.</paragraph>
+                  <paragraph>Drug Interactions: There was no evidence of drug interactions in clinical studies in which dobutamine hydrochloride was administered concurrently with other drugs, including digitalis preparations, furosemide, spironolactone, lidocaine, glyceryl trinitrate, isosorbide dinitrate, morphine, atropine, heparin, protamine, potassium chloride, folic acid, and acetaminophen. Preliminary studies indicate that the concomitant use of dobutamine and nitroprusside results in a higher cardiac output and, usually, a lower pulmonary wedge pressure than when either drug is used alone.</paragraph>
+                  <paragraph>Concomitant use of dobutamine and catechol-O-methyltranferase (COMT) inhibitors (e.g., entacapone) may result in increased heart rate, arrhythmias, and changes in blood pressure.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility: Studies to evaluate the carcinogenic or mutagenic potential of dobutamine or the potential of the drug to affect fertility adversely have not been performed.</paragraph>
+                  <paragraph>Pregnancy: Reproduction studies performed in rats and rabbits have revealed no evidence of harm to the fetus due to dobutamine. The drug, however, has not been administered to pregnant women and should be used only when the expected benefits clearly outweigh the potential risks to the fetus.</paragraph>
+                  <paragraph>Pediatric Use: Dobutamine has been shown to increase cardiac output and systemic pressure in pediatric patients of every age group. In premature neonates, however, dobutamine is less effective than dopamine in raising systemic blood pressure without causing undue tachycardia, and dobutamine has not been shown to provide any added benefit when given to such infants already receiving optimal infusions of dopamine.</paragraph>
+                  <paragraph>Geriatric Use: Clinical studies of dobutamine did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or drug therapy.</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418f1c9-4176-38b2-e063-6294a90aacda">
+               <id root="3418f1c9-4175-38b2-e063-6294a90aacda"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Increased Heart Rate, Blood Pressure, and Ventricular Ectopic Activity: A 10- to 20-mm Hg increase in systolic blood pressure and an increase in heart rate of 5 to 15 beats/minute have been noted in most patients (see WARNINGS regarding exaggerated chronotropic and pressor effects). Approximately 5% of adult patients have had increased premature ventricular beats during infusions. These effects are dose related.</paragraph>
+                  <paragraph>Hypotension: Precipitous decreases in blood pressure have occasionally been described in association with dobutamine therapy. Decreasing the dose or discontinuing the infusion typically results in rapid return of blood pressure to baseline values. In rare cases, however, intervention may be required and reversibility may not be immediate.</paragraph>
+                  <paragraph>Stress Cardiomyopathy: Stress cardiomyopathy has been reported with dobutamine in association with cardiac stress testing.</paragraph>
+                  <paragraph>Reactions at Sites of Intravenous Infusion: Phlebitis has occasionally been reported. Local inflammatory changes have been described following inadvertent infiltration.</paragraph>
+                  <paragraph>Miscellaneous Uncommon Effects: The following adverse effects have been reported in 1% to 3% of adult patients: nausea, headache, anginal pain, nonspecific chest pain, palpitations, and shortness of breath.</paragraph>
+                  <paragraph>Administration of dobutamine, like other catecholamines, has been associated with decreases in serum potassium concentrations, rarely to hypokalemic values.</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418f39f-7f34-74e7-e063-6294a90a28a8">
+               <id root="3418f39f-7f33-74e7-e063-6294a90a28a8"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Overdoses of dobutamine have been reported rarely. The following is provided to serve as a guide if such an overdose is encountered.</paragraph>
+                  <paragraph>Signs and Symptoms: Toxicity from dobutamine hydrochloride is usually due to excessive cardiac β-receptor stimulation. The duration of action of dobutamine hydrochloride is generally short (T½ = 2 minutes) because it is rapidly metabolized by catechol-O-methyltransferase. The symptoms of toxicity may include anorexia, nausea, vomiting, tremor, anxiety, palpitations, headache, shortness of breath, and anginal and nonspecific chest pain. The positive inotropic and chronotropic effects of dobutamine on the myocardium may cause hypertension, tachyarrhythmias, myocardial ischemia, and ventricular fibrillation. Hypotension may result from vasodilation.</paragraph>
+                  <paragraph>If the product is ingested, unpredictable absorption may occur from the mouth and the gastrointestinal tract.</paragraph>
+                  <paragraph>Treatment: To obtain up-to-date information about the treatment of overdose, a good resource is your certified Regional Poison Control Center. Telephone numbers of certified poison control centers are listed in the Physicians' Desk Reference (PDR). In managing overdosage, consider the possibility of multiple drug overdoses, interaction among drugs, and unusual drug kinetics in your patient.</paragraph>
+                  <paragraph>The initial actions to be taken in a dobutamine hydrochloride overdose are discontinuing administration, establishing an airway, and ensuring oxygenation and ventilation. Resuscitative measures should be initiated promptly. Severe ventricular tachyarrhythmias may be successfully treated with propranolol or lidocaine. Hypertension usually responds to a reduction in dose or discontinuation of therapy.</paragraph>
+                  <paragraph>Protect the patient's airway and support ventilation and perfusion. If needed, meticulously monitor and maintain, within acceptable limits, the patient's vital signs, blood gases, serum electrolytes, etc. Absorption of drugs from the gastrointestinal tract may be decreased by giving activated charcoal, which, in many cases, is more effective than emesis or lavage; consider charcoal instead of or in addition to gastric emptying. Repeated doses of charcoal over time may hasten elimination of some drugs that have been absorbed. Safeguard the patient's airway when employing gastric emptying or charcoal.</paragraph>
+                  <paragraph>Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of dobutamine hydrochloride.</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_341900e7-d391-a7f6-e063-6394a90a189a">
+               <id root="341900e7-d390-a7f6-e063-6394a90a189a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Recommended Dosage</paragraph>
+                  <paragraph>Dobutamine in 5% Dextrose Injection, USP is administered intravenously through a suitable intravenous catheter or needle. A calibrated electronic infusion device is recommended for controlling the rate of flow in mL/hour or drops/minute. Infusion of dobutamine should be started at a low rate (0.5 to 1.0 µg/kg/min) and titrated at intervals of a few minutes, guided by the patient's response, including systemic blood pressure, urine flow, frequency of ectopic activity, heart rate, and (whenever possible) measurements of cardiac output, central venous pressure, and/or pulmonary capillary wedge pressure. In reported trials, the optimal infusion rates have varied from patient to patient, usually 2 to 20 µg/kg/min but sometimes slightly outside of this range. On rare occasions, infusion rates up to 40 µg/kg/min have been required to obtain the desired effect.</paragraph>
+                  <paragraph>Rates of infusion in mL/hour for dobutamine hydrochloride concentrations of 500, 1,000, 2,000 and 4,000 mg/L may be calculated using the following formula:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_3418f8ee-5801-6f59-e063-6294a90a001b"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>This container system may be inappropriate for the dosage requirements of pediatric patients under 30 kg.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                  <paragraph>Dobutamine in 5% Dextrose Injection, USP solutions may exhibit a pink color that, if present, will increase with time. This color change is due to slight oxidation of the drug, but there is no significant loss of potency.</paragraph>
+                  <paragraph>Solutions containing dextrose should not be administered through the same administration set as blood, as this may result in pseudoagglutination or hemolysis.</paragraph>
+                  <paragraph>Do not add supplementary medications to Dobutamine in 5% Dextrose Injection, USP. Do not administer Dobutamine in 5% Dextrose Injection, USP simultaneously with solutions containing sodium bicarbonate or strong alkaline solutions.</paragraph>
+                  <paragraph>INSTRUCTIONS FOR USE</paragraph>
+                  <paragraph>To Open</paragraph>
+                  <paragraph>Tear outer wrap at notch and remove solution container. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually.</paragraph>
+                  <paragraph>Preparation for Administration</paragraph>
+                  <paragraph>(Use aseptic technique)</paragraph>
+                  <paragraph>1.
+  <br/>
+Close flow control clamp of administration set.
+  <br/>
+2.
+  <br/>
+Remove cover from outlet port at bottom of container.
+  <br/>
+3.
+  <br/>
+Insert piercing pin of administration set into port with a twisting motion until the set is firmly seated.
+  <br/>
+NOTE: See full directions on administration set carton.
+  <br/>
+4.
+  <br/>
+Suspend container from hanger.
+  <br/>
+5.
+  <br/>
+Squeeze and release drip chamber to establish proper fluid level in chamber.
+  <br/>
+6.
+  <br/>
+Open flow control clamp and clear air from set. Close clamp.
+  <br/>
+7.
+  <br/>
+Attach set to venipuncture device. If device is not indwelling, prime and make venipuncture.
+  <br/>
+8.
+  <br/>
+Regulate rate of administration with flow control clamp.
+ </paragraph>
+                  <paragraph>WARNING: Do not use flexible container in series connections.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250501"/>
+               <component>
+                  <observationMedia ID="img_3418f8ee-5801-6f59-e063-6294a90a001b">
+                     <text>DA</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1664-1 DA.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_3418f31f-6c7e-ab96-e063-6394a90af583">
+               <id root="3418f31f-6c7d-ab96-e063-6394a90af583"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>DOBUTamine in 5% Dextrose Injection, USP is supplied in 250 LifeCare™ single-dose flexible containers as follows:</paragraph>
+                  <paragraph/>
+                  <paragraph>NDC 51662-1664-2      250 mg/250 mL
+  <br/>
+                                        (1 mg/mL)
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Do not freeze. Store at 20°C to 25°C (68°F to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Distributed by HF Acquisition Co LLC dba HealthFirst</paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_34191df6-d3f7-9593-e063-6294a90a37e1">
+               <id root="34191df6-d3f6-9593-e063-6294a90a37e1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_34191c45-7c59-cf35-e063-6394a90a15bb"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_34191a97-b5a8-958b-e063-6294a90ad6bd"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250501"/>
+               <component>
+                  <observationMedia ID="img_34191c45-7c59-cf35-e063-6394a90a15bb">
+                     <text>RFID Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1664-1 RFID.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_34191a97-b5a8-958b-e063-6294a90ad6bd">
+                     <text>CARTON LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1664-1 Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

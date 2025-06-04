@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a4c2a8ec-b73a-43e3-ac67-4c6f0d0bef37"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Ampicillin for Injection, USP</content>
+   </title>
+   <effectiveTime value="20250516"/>
+   <setId root="67dd2930-8482-4da5-b663-b751aff18c61"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005387188" root="1.3.6.1.4.1.519.1"/>
+            <name>Sandoz Inc</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8be144ff-b692-493d-99a4-bc5c6c9447c2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20170810"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0781-3412" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ampicillin</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ampicillin Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JFN36L5S8K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMPICILLIN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7C782967RD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AMPICILLIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0781-3412-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0781-3412-92" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19870219"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062738" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19870219"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0781-3413" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ampicillin</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ampicillin Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="JFN36L5S8K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMPICILLIN SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7C782967RD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>AMPICILLIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0781-3413-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0781-3413-92" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19870219"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062738" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19870219"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_515c7b0d-efef-4eeb-aa7e-c08f0070a0f1">
+               <id root="19cb4eb4-4023-404f-9df2-02c6ca79f959"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Injection Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">In ADD-Vantage<sup>®</sup> Drug Delivery System</content>
+                  </paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of ampicillin and other antibacterial drugs, ampicillin should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20170810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_24bbc1ff-d5cf-4adc-bf76-c969a7d0072c">
+               <id root="9b2c6975-7183-4800-9a7e-f3bb85f81d21"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ampicillin for Injection, USP, the monosodium salt of [2S-[2α,5α,6β(S*)]]-6-[(aminophenylacetyl)amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid, is a synthetic penicillin. It is an antibacterial agent with a broad spectrum of bactericidal activity against both penicillin-susceptible Gram-positive organisms and many common Gram-negative pathogens.</paragraph>
+                  <paragraph>Ampicillin for Injection, USP is a white to cream-tinged, crystalline powder. The reconstituted solution is clear, colorless and free from visible particulates.</paragraph>
+                  <paragraph>Each ADD-Vantage<sup>®</sup> vial of Ampicillin for Injection, USP contains ampicillin sodium equivalent to       1 gram or 2 grams ampicillin. Ampicillin for Injection, USP contains 2.9 milliequivalents of sodium per gram of ampicillin.</paragraph>
+                  <paragraph>It has the following molecular structure:</paragraph>
+                  <renderMultiMedia ID="id249" referencedObject="id_5aa93f7a-abba-481b-885f-19e6d83850c6"/>
+                  <paragraph>The molecular formula is C<sub>16</sub>H<sub>18</sub>N<sub>3</sub>NaO<sub>4</sub>S, and the molecular weight is 371.39. The pH range of the reconstituted solution is 8 to 10. </paragraph>
+               </text>
+               <effectiveTime value="20170810"/>
+               <component>
+                  <observationMedia ID="id_5aa93f7a-abba-481b-885f-19e6d83850c6">
+                     <text>chemical-structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampicillin-addv-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_58e24de9-3054-4e0e-9d1d-0b913ad36a63">
+               <id root="ccccbb5b-6aa7-463b-86cf-e0cb5155dfc9"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Ampicillin for Injection, USP diffuses readily into most body tissues and fluids. However, penetration into the cerebrospinal fluid and brain occurs only when the meninges are inflamed. Ampicillin is excreted largely unchanged in the urine and its excretion can be delayed by concurrent administration of probenecid. Due to maturational changes in renal function, ampicillin half-life decreases as postmenstrual age (a sum of gestational age and postnatal age) increases for infants with postnatal age of less than 28 days. The active form appears in the bile in higher concentrations than those found in serum. Ampicillin is the least serum-bound of all the penicillins, averaging about 20% compared to approximately 60 to 90% for other penicillins. Ampicillin for Injection, USP is well tolerated by most patients and has been given in doses of 2 grams daily for many weeks without adverse reactions.</paragraph>
+               </text>
+               <effectiveTime value="20200316"/>
+               <component>
+                  <section ID="i4i_microbiology_id_011c6563-a381-4a46-8f42-cfb840256637">
+                     <id root="c1496e5c-0ef5-45ab-830b-045b440c36c4"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph>While <content styleCode="italics">in vitro</content> studies have demonstrated the susceptibility of most strains of the following organisms, clinical efficacy for infections other than those included in the <content styleCode="bold">
+                              <linkHtml href="#i4i_indications_id_usage">INDICATIONS AND USAGE</linkHtml>
+                           </content> section has not been demonstrated.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Antibacterial Activity</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>The following bacteria have been shown in <content styleCode="italics">in vitro</content> studies to be susceptible to Ampicillin for Injection, USP:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-positive Bacteria </content>
+                        </paragraph>
+                        <paragraph>Hemolytic and nonhemolytic <content styleCode="italics">streptococci</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Streptococcus pneumoniae</content>
+                        </paragraph>
+                        <paragraph>Nonpenicillinase-producing <content styleCode="italics">staphylococci</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Clostridium</content> spp. </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">B. anthracis </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Listeria monocytogenes</content>
+                        </paragraph>
+                        <paragraph>Most strains of <content styleCode="italics">enterococci</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-negative Bacteria </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">H. influenzae </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">N. gonorrhoeae</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">N. meningitidis </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Proteus mirabilis</content>
+                        </paragraph>
+                        <paragraph>Many strains of Salmonella, Shigella, and <content styleCode="italics">E. coli.</content>
+                        </paragraph>
+                        <paragraph>AMPICILLIN does not resist destruction by penicillinase.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Susceptibility Testing </content>
+                           </content>
+                        </paragraph>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+                     </text>
+                     <effectiveTime value="20200316"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_usage">
+               <id root="b71d60cb-cb73-46ec-a7ad-c4ed6b7960d5"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ampicillin for Injection, USP is indicated in the treatment of infections caused by susceptible strains of the designated organisms in the following conditions:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory Tract Infections</content> caused by <content styleCode="italics">Streptococcus pneumoniae</content>. <content styleCode="italics">Staphylococcus aureus</content> (penicillinase and nonpenicillinase-producing), <content styleCode="italics">H. influenzae,</content> and Group A beta-hemolytic <content styleCode="italics">Streptococci</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Bacterial Meningitis</content> caused by <content styleCode="italics">E. coli,</content> Group B <content styleCode="italics">Streptococci</content>, and other Gram-negative bacteria (<content styleCode="italics">Listeria monocytogenes, N. meningitidis</content>). The addition of an aminoglycoside with ampicillin may increase its effectiveness against Gram-negative bacteria.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Septicemia and Endocarditis</content> caused by susceptible Gram-positive organisms including <content styleCode="italics">Streptococcus</content> spp., penicillin G-susceptible <content styleCode="italics">staphylococci,</content> and <content styleCode="italics">enterococci</content>. Gram-negative sepsis caused by <content styleCode="italics">E. coli, Proteus mirabilis</content> and <content styleCode="italics">Salmonella</content> spp. responds to ampicillin. Endocarditis due to enterococcal strains usually respond to intravenous therapy. The addition of an aminoglycoside may enhance the effectiveness of ampicillin when treating streptococcal endocarditis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Urinary Tract Infections</content> caused by sensitive strains of <content styleCode="italics">E. coli</content> and <content styleCode="italics">Proteus mirabilis.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal Infections</content> caused by <content styleCode="italics">Salmonella typhi</content> (typhoid fever), other <content styleCode="italics">Salmonella</content> spp., and <content styleCode="italics">Shigella</content> spp. (dysentery) usually respond to oral or intravenous therapy.</paragraph>
+                  <paragraph>Bacteriology studies to determine the causative organisms and their susceptibility to ampicillin should be performed. Therapy may be instituted prior to obtaining results of susceptibility testing.</paragraph>
+                  <paragraph>It is advisable to reserve the parenteral form of this drug for moderately severe and severe infections and for patients who are unable to take the oral forms. A change to oral ampicillin may be made as soon as appropriate.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Ampicillin for Injection, USP and other antibacterial drugs, Ampicillin for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+                  <paragraph>Indicated surgical procedures should be performed.</paragraph>
+               </text>
+               <effectiveTime value="20170810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_9f8620f0-9c44-4fe7-b634-f5fa80f9c6cb">
+               <id root="f073b650-24bb-718e-9f02-ccbbf6af524b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>A history of a previous hypersensitivity reaction to any of the penicillins is a contraindication.</paragraph>
+               </text>
+               <effectiveTime value="20060608"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_1ae1f512-e016-4932-8c61-c025b1cb3eb5">
+               <id root="67d20208-7841-4581-bca8-fd30deb3e701"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Serious and occasionally fatal hypersensitivity (anaphylactoid) reactions have been reported in patients on penicillin therapy. Although anaphylaxis is more frequent following parenteral therapy, it has occurred in patients on oral penicillins. These reactions are more apt to occur in individuals with a history of penicillin hypersensitivity and/or a history of sensitivity to multiple allergens.</paragraph>
+                  <paragraph>There have been well-documented reports of individuals with a history of penicillin hypersensitivity reactions who have experienced severe hypersensitivity reactions when treated with a cephalosporin. Before initiating therapy with a penicillin, careful inquiry should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins, and other allergens. If an allergic reaction occurs, the drug should be discontinued and appropriate therapy instituted.</paragraph>
+                  <paragraph>SERIOUS ANAPHYLACTOID REACTIONS REQUIRE IMMEDIATE EMERGENCY TREATMENT WITH EPINEPHRINE, OXYGEN, INTRAVENOUS STEROIDS, AND AIRWAY MANAGEMENT, INCLUDING INTUBATION, SHOULD ALSO BE ADMINISTERED AS INDICATED.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium difficile</content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including ampicillin for injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20170810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_6703b214-f37e-471c-9205-ec5be897b6d9">
+               <id root="0e626fc6-3347-4e57-8162-de2b49b7695e"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20200316"/>
+               <component>
+                  <section ID="i4i_precautions_general_id_27455c62-49ca-49e5-8edf-e2d866e31204">
+                     <id root="36e61502-ae94-4684-aaf3-66cac6e70f6c"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>The possibility of superinfections with mycotic organisms or bacterial pathogens should be kept in mind during therapy. In such cases, discontinue the drug and substitute appropriate treatment.</paragraph>
+                        <paragraph>A high percentage (43 to 100 percent) of patients with infectious mononucleosis who receive ampicillin develop a skin rash. Typically, the rash appears 7 to 10 days after the start of oral ampicillin therapy and remains for a few days to a week after the drug is discontinued. In most cases, the rash is maculopapular, pruritic, and generalized. Therefore, the administration of ampicillin is not recommended in patients with mononucleosis. It is not known whether these patients are truly allergic to ampicillin.</paragraph>
+                        <paragraph>Prescribing Ampicillin for Injection, USP in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20060608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_info_patients_id_88eef3a0-c6c4-4508-9046-211b02dadf3d">
+                     <id root="ee4936b8-3188-476f-b520-37a39995716b"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including ampicillin should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When ampicillin is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by ampicillin or other antibacterial drugs in the future.</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                     </text>
+                     <effectiveTime value="20170810"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_lab_tests_id_e40f484d-14c4-4f4d-90ad-fd8e378aad39">
+                     <id root="68bfb01f-419c-3c90-0b78-da966d517ad3"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>As with any potent drug, periodic assessment of organ system function, including renal, hepatic, and hematopoietic, should be made during prolonged therapy.</paragraph>
+                        <paragraph>Transient elevation of serum transaminase has been observed following administration of ampicillin. The significance of this finding is not known.</paragraph>
+                     </text>
+                     <effectiveTime value="20060608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_interactions_id_f7e52a4c-48d8-457e-9a34-aa82e0e2f2b5">
+                     <id root="d09defe4-7fae-8629-ed94-7b6a7acc5923"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>The concurrent administration of allopurinol and ampicillin increases substantially the incidence of skin rashes in patients receiving both drugs as compared to patients receiving ampicillin alone. It is not known whether this potentiation of ampicillin rashes is due to allopurinol or the hyperuricemia present in these patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20060608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_drug_lab_interaction_id_758cd05f-d965-4918-a6ed-2522abfe371e">
+                     <id root="d9c16f98-98a7-475f-bfb8-4a7c3e2910d6"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>With high urine concentrations of ampicillin, false-positive glucose reactions may occur if Clinitest, Benedict’s Solution, or Fehling’s Solution are used. Therefore, it is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as Clinistix or Tes-Tape) be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20170810"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_carcinogenesis_mutagenesis_fertility_id_f0c9eafb-9117-46b4-adf1-691ce8abe7f3">
+                     <id root="4f9a49d5-03ef-10bb-7882-f0aee7d083d8"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, and Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No long-term animal studies have been conducted with this drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20060608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pregnancy_B_id_514f9583-6982-458c-a023-0ef2810c5229">
+                     <id root="d89fdb50-944d-4586-9a04-268d6d50e1cc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>Reproduction studies have been performed in laboratory animals at doses several times the human dose and have revealed no evidence of adverse effects due to ampicillin. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20200316"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_labour_delivery_id_1d12d165-5cca-45f2-95bf-573b7f416717">
+                     <id root="6b31eae5-49d8-40a3-8f7f-891db884a19f"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>Oral ampicillin-class antibiotics are poorly absorbed during labor. Studies in guinea pig showed that intravenous administration of ampicillin slightly decreased the uterine tone and frequency of contractions, but moderately increased the height and duration of contractions. However, it is not known whether use of these drugs in humans during labor or delivery has immediate or delayed adverse effects on the fetus, prolongs the duration of labor, or increases the likelihood that forceps delivery or other obstetrical intervention or resuscitation of the newborn will be necessary.</paragraph>
+                     </text>
+                     <effectiveTime value="20170810"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_nursing_mothers_id_191fe4a6-a8f7-46dd-b6c8-b4753431c376">
+                     <id root="fa936404-d909-abad-449e-1f38ca288b38"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Ampicillin is excreted in trace amounts in human milk. Therefore, caution should be exercised when ampicillin-class antibiotics are administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20060608"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_edc54982-2d0e-4dcb-8a6b-4f5fa5a65f69">
+                     <id root="3dbf3c49-a9d6-48b7-840c-a5321f1b70ea"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Guidelines for the administration of these drugs to children, including neonates are presented in <content styleCode="bold">
+                              <linkHtml href="#i4i_dosage_admin_id_administration">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> section.</paragraph>
+                     </text>
+                     <effectiveTime value="20170810"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_e928ed3e-065e-4db2-bebc-de672bac02ce">
+               <id root="b1757277-dea4-473f-af0d-81553954e76c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>As with other penicillins, it may be expected that untoward reactions will be essentially limited to sensitivity phenomena. They are more likely to occur in individuals who have previously demonstrated hypersensitivity to penicillins and in those with a history of allergy, asthma, hay fever, or urticaria.</paragraph>
+                  <paragraph>The following adverse reactions have been reported as associated with the use of ampicillin:</paragraph>
+               </text>
+               <effectiveTime value="20240507"/>
+               <component>
+                  <section ID="i4i_section_id_d53fb0a6-93f6-45f1-b816-a69ff1cb095e">
+                     <id root="20fa213e-f165-48f0-9173-e7ba4367fade"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Glossitis, stomatitis, black “hairy” tongue, nausea, vomiting, enterocolitis, pseudomembranous colitis, and diarrhea. (These reactions are usually associated with oral dosage forms.)</paragraph>
+                     </text>
+                     <effectiveTime value="20170810"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_974f5e91-e66c-4066-b5fc-d9b4885e56bb">
+                     <id root="05d61c36-abdc-4a4d-8892-fa205ebad711"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypersensitivity Reactions</title>
+                     <text>
+                        <paragraph>Skin rashes and urticaria have been reported frequently. A few cases of exfoliative dermatitis and erythema multiforme have been reported. Linear IgA bullous dermatosis has been reported. Anaphylaxis is the most serious reaction experienced and has usually been associated with the parenteral dosage form.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Note:</content> Urticaria, other skin rashes, and serum sickness-like reactions may be controlled with antihistamines and, if necessary, systemic corticosteroids. Whenever such reactions occur, ampicillin should be discontinued, unless, in the opinion of the physician, the condition being treated is life-threatening and amenable only to ampicillin therapy. Serious anaphylactic reactions require the immediate use of epinephrine, oxygen, and intravenous steroids.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Liver</content>– A moderate rise in serum glutamic oxaloacetic transaminase (SGOT) has been noted, particularly in infants, but the significance of this finding is unknown. Mild transitory SGOT elevations have been observed in individuals receiving larger (two to four times) than usual and oft-repeated intramuscular injections. Evidence indicates that glutamic oxaloacetic transaminase (GOT) is released at the site of intramuscular injection of ampicillin sodium and that the presence of increased amounts of this enzyme in the blood does not necessarily indicate liver involvement.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Hemic and Lymphatic Systems</content>– Anemia, thrombocytopenia, thrombocytopenic purpura, eosinophilia, leukopenia, and agranulocytosis have been reported during therapy with the penicillins. These reactions are usually reversible on discontinuation of therapy and are believed to be hypersensitivity phenomena.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Central Nervous System</content> - Seizures</paragraph>
+                     </text>
+                     <effectiveTime value="20240507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_overdosage_id_5beacf7d-660d-4e33-906b-a36329321e78">
+               <id root="707f2ae4-ecf9-4b43-a076-6ab4c450d76b"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In cases of overdose, discontinue medication, treat symptomatically, and institute supportive measures as required. In patients with renal function impairment, ampicillin-class antibiotics can be removed by hemodialysis but not peritoneal dialysis.</paragraph>
+               </text>
+               <effectiveTime value="20060608"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_administration">
+               <id root="fd5c77bd-5503-4a1f-a55d-6cbdc0b23afa"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The Single Use ADD-Vantage® vials are for intravenous use only. Infections of the respiratory tract and soft tissues.</paragraph>
+                  <paragraph>Patients weighing 40 kg (88 lbs) or more: 250 mg to 500 mg every 6 hours.</paragraph>
+                  <paragraph>Patients weighing less than 40 kg (88 lbs): 25 to 50 mg/kg/day in equally divided doses at 6- to 8- hour intervals.</paragraph>
+                  <paragraph>Infections of the gastrointestinal and genitourinary tracts (including those caused by <content styleCode="italics">Neisseria gonorrhoeae</content> in females).</paragraph>
+                  <paragraph>Patients weighing 40 kg (88 lbs) or more: 500 mg every 6 hours.</paragraph>
+                  <paragraph>Patients weighing less than 40 kg (88 lbs): 50 mg/kg/day in equally divided doses at 6- to 8- hour intervals.</paragraph>
+                  <paragraph>In the treatment of chronic urinary tract and intestinal infections, frequent bacteriological and clinical appraisal is necessary. Smaller doses than those recommended above should not be used. Higher doses should be used for stubborn or severe infections. In stubborn infections, therapy may be required for several weeks. It may be necessary to continue clinical and/or bacteriological follow-up for several months after cessation of therapy.</paragraph>
+                  <paragraph>Urethritis in males due to <content styleCode="italics">N. gonorrhoeae.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adults –</content> Two doses of 500 mg each at an interval of 8 to 12 hours. Treatment may be repeated if necessary or extended if required.</paragraph>
+                  <paragraph>In the treatment of complications of gonorrheal urethritis, such as prostatitis and epididymitis, prolonged and intensive therapy is recommended. Cases of gonorrhea with a suspected primary lesion of syphilis should have darkfield examinations before receiving treatment. In all other cases where concomitant syphilis is suspected, monthly serological tests should be made for a minimum of four months. </paragraph>
+                  <paragraph>The doses for the preceding infections may be given by either the intramuscular or intravenous route. A change to oral ampicillin may be made when appropriate.</paragraph>
+               </text>
+               <effectiveTime value="20200316"/>
+               <component>
+                  <section ID="i4i_section_id_d7602bad-1c2d-4941-b8c6-3d9f9872b3c8">
+                     <id root="42d04ef0-f0aa-445e-9cb0-c42a810a1433"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Bacterial Meningitis</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Adults and children –</content> 150 to 200 mg/kg/day in equally divided doses every 3 to 4 hours. (Treatment may be initiated with intravenous drip therapy and continued with intramuscular injections.) The doses for other infections may be given by either the intravenous or intramuscular route.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Neonates (less than or equal to 28 days of postnatal age)</content> -Dosage should be based on Gestational age and Postnatal age according to <content styleCode="bold">Table 3</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Table 3 Dosage in Neonates (less than or equal to 28 days of postnatal age) for Bacterial Meningitis and Septicemia:</content>
+                        </paragraph>
+                        <table cellpadding="0pt" width="100%">
+                           <col width="22%"/>
+                           <col width="21%"/>
+                           <col width="53%"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Gestational  age (weeks)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Postnatal  age (days)</content>
+                                    </paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>
+                                       <content styleCode="bold">Dosage</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>less than or equal to 34</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>less than or equal to 7</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>100 mg/kg/day in equally divided doses every 12 hours</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Lrule Botrule " valign="top">
+                                    <paragraph>less than or equal to 34</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>greater than or equal to 8 and less than 28</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                                    <paragraph>150 mg/kg/day in equally divided doses every 12 hours</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>greater than 34</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>less than or equal to 28</paragraph>
+                                 </td>
+                                 <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                                    <paragraph>150 mg/kg/day in equally divided doses every 8 hours</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20200316"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_6c190504-55a3-429f-b0ea-b124c81b2bc1">
+                     <id root="ad084829-5403-409f-88c8-38ea0bc4d4d9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Septicemia</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Adults and children –</content> 150 to 200 mg/kg/day. Start with intravenous administration for at least three days and continue with the intramuscular route every 3 to 4 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Neonates (less than or equal to 28 days of postnatal age) </content>- Dosage should be based on Gestational age and Postnatal age according to <content styleCode="bold">Table 3</content> (above).</paragraph>
+                        <paragraph>Treatment of all infections should be continued for a minimum of 48 to 72 hours beyond the time that the patient becomes asymptomatic or evidence of bacterial eradication has been obtained. A minimum of 10-days treatment is recommended for any infection caused by Group A beta-hemolytic streptococci to help prevent the occurrence of acute rheumatic fever or acute glomerulonephritis.</paragraph>
+                     </text>
+                     <effectiveTime value="20170810"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_fe875675-ff00-4552-abae-4768e0198c41">
+               <id root="d1a9791c-4b9c-4e7a-9c60-6e2e4153c7aa"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR USE</title>
+               <text>
+                  <paragraph>ADD-Vantage® Vial – ampicillin for injection 1 and 2 grams.</paragraph>
+                  <paragraph>The ADD-Vantage<sup>®</sup> vials for intravenous use only are to be used with ADD-Vantage® diluent containers: 0.9% Sodium Chloride Injection, USP, 50 mL and 100 mL, or 5% Dextrose Injection, USP, 50 mL and 100 mL.</paragraph>
+                  <paragraph>Reconstitute ADD-Vantage® vial as directed in <content styleCode="bold">INSTRUCTIONS FOR USE</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use only freshly prepared solutions. Intravenous injections should be administered immediately after reconstitution since the potency may decrease.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Summary of Utility Times for Constituted Ampicillin for Injection in the Hospira ADD-Vantage<sup>®</sup> System</content>
+                  </paragraph>
+                  <table cellpadding="5.75pt" width="100%">
+                     <col width="13%"/>
+                     <col width="40%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Vial Size</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">IV Solution</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Final</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Concentration</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Utility Times</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                              <paragraph>1 g Vial</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>5% Dextrose Injection, USP</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>10 mg/mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>2 Hours at 25°C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                              <paragraph>1 g Vial</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>0.9% Sodium Chloride Injection, USP</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>10 mg/mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>8 Hours at 25° C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="bottom">
+                              <paragraph>2 g Vial</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>5% Dextrose Injection, USP</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>20 mg/mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>1 Hour at 25° C</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>2 g Vial</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>0.9% Sodium Chloride Injection, USP</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>40 mg/mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>6 Hours at 25° C</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20170810"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_684db1a3-b74d-4556-8a23-229583ca1ed6">
+               <id root="020d5ad8-4a4b-4fc2-ab94-fa98dcb82936"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>INSTRUCTIONS FOR USE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To Open Diluent Container:</content>
+                  </paragraph>
+                  <paragraph>Peel overwrap from the corner and remove container. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Assemble Vial and Flexible Diluent Container:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Use Aseptic Technique)</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Remove the protective covers from the top of the vial and the vial port on the diluent container as follows:<br/>a. To remove the breakaway vial cap, swing the pull ring over the top of the vial and pull down far enough to start the opening (SEE <content styleCode="bold">FIGURE 1</content>), then pull straight up to remove the cap. (SEE <content styleCode="bold">FIGURE 2</content>.)<br/>
+                        <content styleCode="bold">NOTE: Do not access vial with syringe.</content>
+                        <br/>
+                        <br/>
+                        <renderMultiMedia ID="id474" referencedObject="id_195bde02-a167-409e-ac0e-b42973dce76d"/>
+                        <br/>b. To remove the vial port cover, grasp the tab on the pull ring, pull up to break the three tie strings, then pull back to remove the cover. (SEE <content styleCode="bold">FIGURE 3</content>.)</item>
+                     <item>
+                        <caption>2.</caption>Screw the vial into the vial port until it will go no further. THE VIAL MUST BE SCREWED IN TIGHTLY TO ASSURE A SEAL. This occurs approximately 1/2 turn (180°) after the first audible click. (SEE <content styleCode="bold">FIGURE 4</content>.) The clicking sound does not assure a seal; the vial must be turned as far as it will go. NOTE: Once vial is seated, do not attempt to remove. (SEE <content styleCode="bold">FIGURE</content>
+                        <content styleCode="bold">4</content>.)</item>
+                     <item>
+                        <caption>3.</caption>Recheck the vial to assure that it is tight by trying to turn it further in the direction of assembly.</item>
+                     <item>
+                        <caption>4.</caption>Label appropriately.<br/>
+                        <renderMultiMedia ID="id480" referencedObject="id_043be1d1-921e-44b5-94b3-cdf0c1ca2d65"/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">To Prepare Admixture:</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Squeeze the bottom of the diluent container gently to inflate the portion of the container surrounding the end of the drug vial.</item>
+                     <item>
+                        <caption>2.</caption>With the other hand, push the drug vial down into the container telescoping the walls of the container. Grasp the inner cap of the vial through the walls of the container. (SEE <content styleCode="bold">FIGURE 5</content>.)</item>
+                     <item>
+                        <caption>3.</caption>Pull the inner cap from the drug vial. (SEE <content styleCode="bold">FIGURE 6</content>.) Verify that the rubber stopper has been pulled out, allowing the drug and diluent to mix.</item>
+                     <item>
+                        <caption>4.</caption>Mix container contents thoroughly and use within the specified time.<br/>
+                        <renderMultiMedia ID="id489" referencedObject="id_65692607-c197-4fc1-8502-ad4967e00782"/>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Preparation for Administration</content>:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Use Aseptic Technique)</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Confirm the activation and admixture of vial contents.</item>
+                     <item>
+                        <caption>2.</caption>Check for leaks by squeezing container firmly. If leaks are found, discard unit as sterility may be impaired.</item>
+                     <item>
+                        <caption>3.</caption>Close flow control clamp of administration set.</item>
+                     <item>
+                        <caption>4.</caption>Remove cover from outlet port at bottom of container.</item>
+                     <item>
+                        <caption>5.</caption>Insert piercing pin of administration set into port with a twisting motion until the pin is firmly seated.<br/>NOTE: See full directions on administration set carton.</item>
+                     <item>
+                        <caption>6.</caption>Lift the free end of the hanger loop on the bottom of the vial, breaking the two tie strings. Bend the loop outward to lock it in the upright position, then suspend container from hanger.</item>
+                     <item>
+                        <caption>7.</caption>Squeeze and release drip chamber to establish proper fluid level in chamber.</item>
+                     <item>
+                        <caption>8.</caption>Open flow control clamp and clear air from set. Close clamp.</item>
+                     <item>
+                        <caption>9.</caption>Attach set to venipuncture device. If device is not indwelling, prime and make venipuncture.</item>
+                     <item>
+                        <caption>10.</caption>Regulate rate of administration with flow control clamp.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: Do not use flexible container in series connections.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170810"/>
+               <component>
+                  <observationMedia ID="id_195bde02-a167-409e-ac0e-b42973dce76d">
+                     <text>figure-1-and-figure-2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampicillin-addv-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_043be1d1-921e-44b5-94b3-cdf0c1ca2d65">
+                     <text>figure-3-and-figure-4</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampicillin-addv-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="id_65692607-c197-4fc1-8502-ad4967e00782">
+                     <text>figure-5-and-figure-6</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampicillin-addv-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_6c3f391b-7513-4ce5-ae1a-2301d7ceb4c0">
+               <id root="a332d239-68b0-46b7-bcf4-61da81b2b22f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Ampicillin for Injection, USP ADD-Vantage<sup>®</sup> for intravenous injection.</paragraph>
+                  <paragraph>Ampicillin sodium equivalent to 1 or 2 grams ampicillin per vial.</paragraph>
+                  <paragraph>NDC 0781-3412-92 1 gram ADD-Vantage® Vial, packed in 10s</paragraph>
+                  <paragraph>NDC 0781-3413-92 2 grams ADD-Vantage® Vial, packed in 10s</paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Clinitest is a registered trademark of Miles, Inc.</paragraph>
+                  <paragraph>Clinistix is a registered trademark of Bayer Corporation. </paragraph>
+                  <paragraph>Tes-Tape is a registered trademark of Eli Lilly Company.</paragraph>
+                  <paragraph>ADD-Vantage<sup>®</sup> is a trademark of Hospira Inc.</paragraph>
+                  <paragraph>Manufactured by Sandoz GmbH for</paragraph>
+                  <paragraph>Sandoz Inc., Princeton, NJ 08540</paragraph>
+                  <paragraph>Revised January 2025</paragraph>
+               </text>
+               <effectiveTime value="20250516"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_5b23591a-ed10-4639-a37d-b72e85b1b2b8">
+               <id root="f593fd04-2c14-4cfa-9b5e-1192fbdab0d1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>1 gram Label</title>
+               <text>
+                  <paragraph>NCD 0781-3412-92 Rx Only</paragraph>
+                  <paragraph>Ampicillin for </paragraph>
+                  <paragraph>Injection, USP</paragraph>
+                  <paragraph>1 gram</paragraph>
+                  <paragraph>10 Single-Dose ADD-Vantage<sup>®</sup> Vials</paragraph>
+                  <paragraph>For Intravenous Use Only</paragraph>
+                  <paragraph>For use only with the </paragraph>
+                  <paragraph>ADD-Vantage<sup>®</sup> diluent container.</paragraph>
+                  <paragraph>SANDOZ</paragraph>
+                  <renderMultiMedia ID="id537" referencedObject="id_fd872f33-deb7-401f-babf-d967b274caad"/>
+               </text>
+               <effectiveTime value="20250516"/>
+               <component>
+                  <observationMedia ID="id_fd872f33-deb7-401f-babf-d967b274caad">
+                     <text>1gm-case-label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampicillin-addv-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_94e8df01-9805-4d2b-949f-28756fe572d5">
+               <id root="2607e2da-3e08-4860-a7ab-ec60b8827f46"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>2 grams Label</title>
+               <text>
+                  <paragraph>NCD 0781-3413-92 Rx Only</paragraph>
+                  <paragraph>Ampicillin for </paragraph>
+                  <paragraph>Injection, USP</paragraph>
+                  <paragraph>2 grams</paragraph>
+                  <paragraph>10 Single-Dose ADD-Vantage<sup>®</sup> Vials</paragraph>
+                  <paragraph>For Intravenous Use Only</paragraph>
+                  <paragraph>For use only with the </paragraph>
+                  <paragraph>ADD-Vantage<sup>®</sup> diluent container.</paragraph>
+                  <paragraph>SANDOZ</paragraph>
+                  <renderMultiMedia ID="id550" referencedObject="id_ebc55ca4-69f4-4594-9c43-1d8bc9b5f161"/>
+               </text>
+               <effectiveTime value="20250516"/>
+               <component>
+                  <observationMedia ID="id_ebc55ca4-69f4-4594-9c43-1d8bc9b5f161">
+                     <text>2--grams-case-label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ampicillin-addv-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

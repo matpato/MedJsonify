@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c76876da-b9a8-45d0-9278-7df3288d3a06"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Protamine Sulfate Injection, USP</content>
+   </title>
+   <effectiveTime value="20250429"/>
+   <setId root="c76876da-b9a8-45d0-9278-7df3288d3a06"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="013547657" root="1.3.6.1.4.1.519.1"/>
+            <name>Fresenius Kabi USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="023648251" root="1.3.6.1.4.1.519.1"/>
+                        <name>Fresenius Kabi USA, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="65219-646" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="65219-646" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4e7e8181-8653-4d07-925e-d18c31ad0b59"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250429"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="65219-646" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Protamine Sulfate</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>PROTAMINE SULFATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="GR686LBA74" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, DIBASIC, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="0DE9724IHC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROTAMINE SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="72G3UY6T4N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROTAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="65219-646-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="65219-646-05" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250328"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA089454" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250328"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="a7dc690b-890c-4d75-a75e-a0f0cc204c71">
+               <id root="c66b381a-63d1-49f8-8f95-f5687829ab2c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f989aa5c-d8c5-48cc-8171-d52caae7432d">
+               <id root="effba24f-b87d-4717-9352-ec858797e6be"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="Boxed Warning section"/>
+               <title>WARNING</title>
+               <text>
+                  <paragraph>Protamine sulfate can cause severe hypotension, cardiovascular collapse, noncardiogenic pulmonary edema, catastrophic pulmonary vasoconstriction, and pulmonary hypertension. Risk factors include high dose or overdose, rapid administration (see <content styleCode="bold">
+                        <linkHtml href="#a5ec87f0-2387-4502-b586-9c3962c0bfd0">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#f78d07a1-8d64-4590-92bd-e59d80d60a65">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>), repeated doses, previous administration of protamine, and current or previous use of protamine-containing drugs (NPH insulin, protamine zinc insulin, and certain beta-blockers). Allergy to fish, previous vasectomy, and severe left ventricular dysfunction and abnormal preoperative pulmonary hemodynamics also may be risk factors. In patients with any of these risk factors, the risk to benefit of administration of protamine sulfate should be carefully considered. Vasopressors and resuscitation equipment should be immediately available in case of a severe reaction to protamine. Protamine sulfate should not be given when bleeding occurs without prior heparin use.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e6c6ec7f-9221-4bcd-9882-95914d330e91">
+               <id root="fdf5149d-2348-4462-af2d-fb620158bb02"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:</title>
+               <text>
+                  <paragraph>Protamines are simple proteins of low molecular weight that are rich in arginine and strongly basic. They occur in the sperm of salmon and certain other species of fish.</paragraph>
+                  <paragraph>Protamine sulfate occurs as fine white or off-white amorphous or crystalline powder. It is sparingly soluble in water. The pH is between 6.0 and 7.0. The cationic hydrogenated protamine at a pH of 6.8 to 7.1 reacts with anionic heparin at a pH of 5.0 to 7.5 to form an inactive complex.</paragraph>
+                  <paragraph>Protamine Sulfate Injection, USP is a sterile, isotonic solution of protamine sulfate. It acts as a heparin antagonist. It is also a weak anticoagulant.</paragraph>
+                  <paragraph>Each mL contains: Protamine sulfate 10 mg; sodium chloride 9 mg; Water for Injection q.s. Sulfuric acid and/or dibasic sodium phosphate (heptahydrate) may have been added for pH adjustment.</paragraph>
+                  <paragraph>The preparation is preservative free.</paragraph>
+                  <paragraph>Protamine sulfate is administered intravenously.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c67a580e-7d1b-4604-b29f-42b04ffe8e18">
+               <id root="adafe56e-981a-4d66-93b6-f5285eaa198f"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:</title>
+               <text>
+                  <paragraph>When administered alone, protamine has an anticoagulant effect. However, when it is given in the presence of heparin (which is strongly acidic), a stable salt is formed and the anticoagulant activity of both drugs is lost.</paragraph>
+                  <paragraph>Protamine sulfate has a rapid onset of action. Neutralization of heparin occurs within five minutes after intravenous administration of an appropriate dose of protamine sulfate. Although the metabolic fate of the heparin-protamine complex has not been elucidated, it has been postulated that protamine sulfate in the heparin-protamine complex may be partially metabolized or may be attacked by fibrinolysin, thus freeing heparin.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b7913e71-e8c4-4db4-b95f-b6d143403545">
+               <id root="4a8d119d-17b8-4b10-a25f-8b500218007a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:</title>
+               <text>
+                  <paragraph>Protamine Sulfate Injection, USP is indicated in the treatment of heparin overdosage.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e82999c4-d13c-409a-be21-692a6520db7a">
+               <id root="945b6b49-f503-4904-96fd-ef3530bacf4f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>Protamine sulfate is contraindicated in patients who have shown previous intolerance to the drug.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a5ec87f0-2387-4502-b586-9c3962c0bfd0">
+               <id root="05d82c99-c8b2-4dd0-9858-30ae94eb9e1d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:</title>
+               <text>
+                  <paragraph>Hyperheparinemia or bleeding has been reported in experimental animals and in some patients 30 minutes to 18 hours after cardiac surgery (under cardiopulmonary bypass) in spite of complete neutralization of heparin by adequate doses of protamine sulfate at the end of the operation. It is important to keep the patient under close observation after cardiac surgery. Additional doses of protamine sulfate should be administered if indicated by coagulation studies, such as the heparin titration test with protamine and the determination of plasma thrombin time.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Too-rapid administration of protamine sulfate can cause severe hypotensive and anaphylactoid reactions </content>(see <content styleCode="bold">
+                        <linkHtml href="#f78d07a1-8d64-4590-92bd-e59d80d60a65">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#a5ec87f0-2387-4502-b586-9c3962c0bfd0">WARNINGS</linkHtml>
+                     </content>). Facilities to treat shock should be available.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bde8da03-e933-4435-9b3a-7ceb93df22bb">
+               <id root="f4fe4731-26c8-4e0b-9589-bd38d2013863"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:</title>
+               <effectiveTime value="20250429"/>
+               <component>
+                  <section ID="da85c28d-1ffa-47b6-bfdd-3fd062a2288b">
+                     <id root="5f110f28-2132-4514-800f-960d65b01786"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">General</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Because of the anticoagulant effect of protamine, it is unwise to give more than 50 mg over a short period unless a larger dose is clearly needed<content styleCode="italics">.</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Patients with a history of allergy to fish may develop hypersensitivity reactions to protamine, although to date no relationship has been established between allergic reactions to protamine and fish allergy.</paragraph>
+                        <paragraph>Previous exposure to protamine can induce a humoral immune response and predispose susceptible individuals to the development of untoward reactions from the subsequent use of this drug. Patients exposed to protamine through the use of protamine-containing insulin or during heparin neutralization may experience life-threatening reactions and fatal anaphylaxis upon receiving large doses of protamine intravenously. Severe reactions to intravenous protamine can occur in the absence of local or systemic allergic reactions to subcutaneous injection of protamine-containing insulin. Reports of the presence of antiprotamine antibodies in the sera of infertile or vasectomized men suggest that some of these individuals may react to the use of protamine sulfate.</paragraph>
+                        <paragraph>Fatal anaphylaxis has been reported in one patient with no prior history of allergies.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="f1978e9d-2425-411f-bd4c-5211540de44f">
+                     <id root="40309509-54c5-4d3e-989d-9226c369a488"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Protamine sulfate has been shown to be incompatible with certain antibiotics, including several of the cephalosporins and penicillins (see <content styleCode="bold">
+                              <linkHtml href="#f78d07a1-8d64-4590-92bd-e59d80d60a65">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="d30211fe-c280-4a9c-8ae6-de50a71867e9">
+                     <id root="406dace8-849f-4677-bb0d-5d6fdd0baa3d"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>Studies have not been performed to determine potential for carcinogenicity, mutagenicity or impairment of fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b3869164-6aa1-4dbd-95e5-2f624c082ed2">
+                     <id root="16fa349c-2cea-4e45-a1b3-54014b3bc7c2"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy Category C</content>
+                           <br/>Animal reproduction studies have not been conducted with protamine sulfate. It is also not known whether protamine sulfate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Protamine sulfate should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="be3cd903-95de-4a54-9fb9-c664a434b89e">
+                     <id root="ff965136-6a83-4202-ab10-68d890a5b819"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when protamine sulfate is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="b7a4c853-0685-4df8-8e9c-302e46f760e6">
+                     <id root="c40a24cc-dbb4-417a-8a1d-2e715e112576"/>
+                     <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Safety and effectiveness in children have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="e00643c7-787d-4591-9ee8-ef0679867c52">
+               <id root="4aa3769e-0def-426f-af85-69a4455bbaf7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Fresenius Kabi USA, LLC at 1-800-551-7176 or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</content>
+                  </paragraph>
+                  <paragraph>The intravenous administration of protamine sulfate may cause a sudden fall in blood pressure and bradycardia. Other reactions include transitory flushing and feeling of warmth, dyspnea, nausea, vomiting and lassitude. Back pain has been reported in conscious patients undergoing such procedures as cardiac catheterization.</paragraph>
+                  <paragraph>Severe adverse reactions have been reported including: (1) Anaphylaxis that resulted in severe respiratory distress, circulation collapse and capillary leak (see <content styleCode="bold">
+                        <linkHtml href="#bde8da03-e933-4435-9b3a-7ceb93df22bb">PRECAUTIONS</linkHtml>
+                     </content>). Fatal anaphylaxis has been reported in one patient with no prior history of allergies; (2) Anaphylactoid reactions with circulatory collapse, capillary leak, and noncardiogenic pulmonary edema; acute pulmonary hypertension.</paragraph>
+                  <paragraph>Complement activation by the heparin-protamine complexes, release of lysosomal enzymes from neutrophils, and prostaglandin and thomboxane generation have been associated with the development of anaphylactoid reactions.</paragraph>
+                  <paragraph>Severe and potentially irreversible circulatory collapse associated with myocardial failure and reduced cardiac output can also occur. The mechanism(s) of this reaction and the role played by concurrent factors are unclear.</paragraph>
+                  <paragraph>High-protein, noncardiogenic pulmonary edema associated with the use of protamine has been reported in patients on cardiopulmonary bypass who are undergoing cardiovascular surgery. The etiologic role of protamine in the pathogenesis of this condition is uncertain, and multiple factors have been present in most cases. The condition has been reported in association with administration of certain blood products, other drugs, cardiopulmonary bypass alone, and other etiologic factors. It is difficult to treat, and it can be life-threatening. Because fatal anaphylactic and anaphylactoid reactions have been reported after the administration of protamine sulfate, the drug should be given only when resuscitation techniques and treatment of anaphylactic and anaphylactoid shock are readily available.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f4ab4f41-8fe5-479c-a9c9-886a174a41d6">
+               <id root="4c181a68-e4a8-4755-8ff5-5f6424d3e3d1"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE:</title>
+               <effectiveTime value="20250429"/>
+               <component>
+                  <section ID="d386ddb6-e9d0-48e2-937b-e9f6d1850a37">
+                     <id root="d72d1172-d2da-45e8-ae04-faa5be763ff7"/>
+                     <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Signs and Symptoms</content>
+                     </title>
+                     <text>
+                        <paragraph>Overdose of protamine sulfate may cause bleeding. Protamine has a weak anticoagulant effect due to an interaction with platelets and with many proteins including fibrinogen. This effect should be distinguished from the rebound anticoagulation that may occur 30 minutes to 18 hours following the reversal of heparin with protamine.</paragraph>
+                        <paragraph>Rapid administration of protamine is more likely to result in bradycardia, dyspnea, a sensation of warmth, flushing, and severe hypotension. Hypertension has also occurred.</paragraph>
+                        <paragraph>The median lethal dose of protamine sulfate is 50 mg/kg in mice. Serum concentrations of protamine sulfate are not clinically useful. Information is not available on the amount of drug in a single dose that is associated with overdosage or is likely to be life-threatening.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ef468496-59ce-433f-b6a6-0df366e4a9c6">
+                     <id root="08d985e6-0454-427c-bbb4-eaeaffca9c62"/>
+                     <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Treatment</content>
+                     </title>
+                     <text>
+                        <paragraph>To obtain up-to-date information about the treatment of overdose, a good resource is your certified Regional Poison Control Center. Telephone numbers of certified poison control centers are listed in the <content styleCode="italics">Physicians' Desk Reference (PDR)</content>. In managing overdosage, consider the possibility of multiple drug overdoses, interaction among drugs and unusual drug kinetics in your patient.</paragraph>
+                        <paragraph>Replace blood loss with blood transfusions or fresh frozen plasma.</paragraph>
+                        <paragraph>If the patient is hypotensive, consider fluids, epinephrine, dobutamine or dopamine.</paragraph>
+                     </text>
+                     <effectiveTime value="20250429"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="f78d07a1-8d64-4590-92bd-e59d80d60a65">
+               <id root="2fc40bd1-2691-4239-b4e9-92cf9caa64ab"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>Each mg of protamine sulfate, calculated on the dried basis, neutralizes not less than 100 USP Heparin Units.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protamine sulfate injection should be given by very slow intravenous injection over a 10-minute period in doses not to exceed 50 mg</content> (see <content styleCode="bold">
+                        <linkHtml href="#a5ec87f0-2387-4502-b586-9c3962c0bfd0">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Protamine sulfate is intended for injection without further dilution; however, if further dilution is desired, D5-W or normal saline may be used. Diluted solutions should not be stored since they contain no preservative.</paragraph>
+                  <paragraph>Protamine sulfate should not be mixed with other drugs without knowledge of their compatibility, because protamine sulfate has been shown to be incompatible with certain antibiotics, including several of the cephalosporins and penicillins.</paragraph>
+                  <paragraph>Because heparin disappears rapidly from the circulation, the dose of protamine sulfate required also decreases rapidly with the time elapsed following intravenous injection of heparin. For example, if the protamine sulfate is administered 30 minutes after the heparin, one-half the usual dose may be sufficient.</paragraph>
+                  <paragraph>The dosage of protamine sulfate should be guided by blood coagulation studies (see <content styleCode="bold">
+                        <linkHtml href="#a5ec87f0-2387-4502-b586-9c3962c0bfd0">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Parenteral drug products should be visually inspected for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e87ab89d-dfac-4355-a94d-f6d0278188df">
+               <id root="4c453cd3-84f7-49d3-a712-fe60a2205dd5"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:</title>
+               <text>
+                  <table width="100%">
+                     <col width="17%"/>
+                     <col width="23%"/>
+                     <col width="23%"/>
+                     <col width="34%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Product Code</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Unit of Sale</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Strength</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Each</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>22905</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>NDC 63323-229-05<br/>Unit of 25</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>50 mg per 5 mL<br/>(10 mg per mL)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>NDC 63323-229-01<br/>5 mL Single Dose Flip-top Vial </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>RF22905</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>NDC 65219-646-05<br/>Unit of 25</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>50 mg per 5 mL<br/>(10 mg per mL)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>NDC 65219-646-02<br/>5 mL Single Dose Flip-top Vial<br/>This product contains an RFID.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule " valign="top">
+                              <paragraph>22930 </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>NDC 63323-229-30<br/>Individually Packaged </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>250 mg per 25 mL<br/>(10 mg per mL) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule " valign="top">
+                              <paragraph>NDC 63323-229-30<br/>25 mL Single Dose Flip-top Vial </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature]. Do not permit to freeze.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: The total dose of protamine sulfate contained in product No. 22925 and 22930 (250 mg in 25 mL) is 5 times greater than in product No. 22905 and product No. RF22905 (50 mg in 5 mL).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The large size 25 mL vials are designed for antiheparin treatment only when large doses of heparin have been given during surgery and are to be neutralized by large doses of protamine sulfate after surgical procedures.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b82e94ce-5ef7-44a3-8ab6-4dca666433c3">
+               <id root="37b6effb-e3cb-44b6-b4c2-9ea7982599e1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia ID="id537" referencedObject="ID_4b6d8220-d9f5-4782-ba23-946039fe553e"/>
+                     <br/> www.fresenius-kabi.com/us   <br/>
+                     <br/>45848J          </paragraph>
+                  <paragraph>November 2024</paragraph>
+               </text>
+               <effectiveTime value="20250429"/>
+               <component>
+                  <observationMedia ID="ID_4b6d8220-d9f5-4782-ba23-946039fe553e">
+                     <text>prota-img-01.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="prota-img-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_aa7155f7-d560-4dff-ade0-512c3cc45273">
+               <id root="aa7155f7-d560-4dff-ade0-512c3cc45273"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - PRINCIPAL DISPLAY - Protamine 5 mL Single Dose Vial Label </title>
+               <text>
+                  <paragraph>NDC 65219-646-02           RF22905 </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protamine</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sulfate</content>
+                  </paragraph>
+                  <paragraph>Injection, USP </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg per 5 mL</content>
+                  </paragraph>
+                  <paragraph>(10 mg per mL) </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use Only</content>
+                  </paragraph>
+                  <paragraph>           Rx only </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mL</content> Single Dose Vial</paragraph>
+                  <renderMultiMedia ID="id1172761209" referencedObject="ID_7fbeff13-1517-44c9-af81-faa884a6eb13"/>
+               </text>
+               <effectiveTime value="20250429"/>
+               <component>
+                  <observationMedia ID="ID_7fbeff13-1517-44c9-af81-faa884a6eb13">
+                     <text>prota-label-01.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="prota-label-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_baacbce8-df8f-4e01-a743-8c90364a4db2">
+               <id root="baacbce8-df8f-4e01-a743-8c90364a4db2"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL - PRINCIPAL DISPLAY - Protamine 5 mL Single Dose Vial Tray Label </title>
+               <text>
+                  <paragraph>NDC 65219-646-05           RF22905 </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protamine</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sulfate</content>
+                  </paragraph>
+                  <paragraph>Injection, USP </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">50 mg per 5 mL</content>
+                  </paragraph>
+                  <paragraph>(10 mg per mL) </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use Only</content>
+                  </paragraph>
+                  <paragraph>           Rx only </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">25 x 5 mL</content> Single Dose Vials</paragraph>
+                  <renderMultiMedia ID="id-1484385375" referencedObject="ID_9d32a8e9-ecce-4d7e-bb84-03d2459ed0fa"/>
+               </text>
+               <effectiveTime value="20250429"/>
+               <component>
+                  <observationMedia ID="ID_9d32a8e9-ecce-4d7e-bb84-03d2459ed0fa">
+                     <text>prota-label-02.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="prota-label-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

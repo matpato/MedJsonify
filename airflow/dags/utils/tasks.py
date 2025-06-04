@@ -23,7 +23,7 @@ from NER.Biomedical_preprocessing import BiomedicalPreprocessor
 config = DAGConfig()
 
 # -------------------------------------------------------------------------------------------
-# DATA ACQUISITION TASKS
+# DATA ACCESS TASKS
 # -------------------------------------------------------------------------------------------
 
 def download_zip_task():
@@ -69,9 +69,21 @@ def extract_xml_files_task():
     """
     from upload.extract_files import copy_xml_files
     
+    # OBJECTIVE: Create destination directories if they don't exist
+    for dest in config.dest_directories:
+        os.makedirs(dest, exist_ok=True)
+        logging.info(f"Ensured directory exists: {dest}")
+    
     # OBJECTIVE: Copy XML files from each source to its corresponding destination
     for src, dest in zip(config.src_directories, config.dest_directories):
+        if not os.path.exists(src):
+            logging.warning(f"Source directory does not exist: {src}")
+            continue
         copy_xml_files(src, dest)
+
+# -------------------------------------------------------------------------------------------
+# CONVERSION TASKS
+# -------------------------------------------------------------------------------------------
 
 def convert_files_to_json_task():
     """

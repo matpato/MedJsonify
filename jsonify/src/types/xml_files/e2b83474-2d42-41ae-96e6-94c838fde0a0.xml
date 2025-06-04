@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e2b83474-2d42-41ae-96e6-94c838fde0a0"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">Sterile Water                                                                                                                                     Rx only</content>
+      <br/>
+      <content styleCode="bold">for Injection, USP                                                                                                                                          </content>
+   </title>
+   <effectiveTime value="20240131"/>
+   <setId root="dba87371-31d2-47c2-ab83-89aabce4b184"/>
+   <versionNumber value="30"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+            <name>A-S Medication Solutions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+                        <name>A-S Medication Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="RELABEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-2874" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="1db08c3c-f392-4f4e-801b-b19dbe33cd9f"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240111"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50090-2874" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sterile Water</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>WATER</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0409-4887" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43214" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50090-2874-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170217"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018801" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20050616"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="b6326354-c82a-4c69-a432-5bc8066a3f83">
+               <id root="fa252bc3-3128-4ee0-9c06-c84a5c83c936"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Glass Vial</content>
+                     </content>
+                     <br/>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Plastic Vial</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e7b2efbd-ee42-401b-8c19-5aaab5f5cf3d">
+               <id root="5a3f1258-ac1b-410b-9066-4864b1dc983d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>This preparation is designed solely for parenteral use only after addition of drugs that require dilution or must be dissolved in an aqueous vehicle prior to injection.</paragraph>
+                  <paragraph>Sterile Water for Injection, USP is a sterile, nonpyrogenic preparation of water for injection which contains no bacteriostat, antimicrobial agent or added buffer and is supplied only in single-dose containers to dilute or dissolve drugs for injection. For I.V. injection, add sufficient solute to make an approximately isotonic solution. </paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>The glass vial is Type I or II borosilicate glass and meets the requirements of the powdered glass test according to the USP standards.</paragraph>
+                  <paragraph>The semi-rigid vial is fabricated from a specially formulated polyolefin. It is a copolymer of ethylene and propylene. The safety of the plastic has been confirmed by tests in animals according to USP biological standards for plastic containers. The container requires no vapor barrier to maintain the proper labeled volume.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b149c01f-4888-4df6-9f78-6ac7a30e6149">
+               <id root="563c61f1-b13f-4c80-9428-3c929c8bc7f3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirement ranges from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>Water balance is maintained by various regulatory mechanisms. Water for distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na<sup>+</sup>) plays a major role in maintaining physiologic equilibrium.</paragraph>
+                  <paragraph>The small volume of fluid provided by Sterile Water for Injection, USP when used only as a pharmaceutic aid for diluting or dissolving drugs for parenteral injection, is unlikely to exert a significant effect on fluid balance except possibly in neonates or very small infants.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c11cb0fe-fa17-4a4c-959c-a4ddf47653bd">
+               <id root="61125205-2408-4263-bc0e-dfeef5f8a296"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>This parenteral preparation is indicated only for diluting or dissolving drugs for intravenous, intramuscular or subcutaneous injection, according to instructions of the manufacturer of the drug to be administered.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="aee6d6cb-cc98-4d29-9901-f56da450d50b">
+               <id root="0f4eb713-a3db-4f5b-a399-0ac1a2c4387b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Sterile Water for Injection, USP must be made approximately isotonic prior to use.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c0be72b6-25ee-49c0-8397-8749e9f8afaa">
+               <id root="93317f33-8b11-4d49-8f69-11735a17d3b4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Intravenous administration of Sterile Water for Injection without a solute may result in hemolysis.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="adc10c02-8ba0-46dd-8cf8-4c0ed9da196b">
+               <id root="889c6c4d-ebdc-485a-916c-675209809e69"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Do not use for intravenous injection unless the osmolar concentration of additives results in an approximate isotonic admixture.</paragraph>
+                  <paragraph>Consult the manufacturer's instructions for choice of vehicle, appropriate dilution or volume for dissolving the drugs to be injected, including the route and rate of injection.</paragraph>
+                  <paragraph>Inspect reconstituted (diluted or dissolved) drugs for clarity (if soluble) and freedom from unexpected precipitation or discoloration prior to administration.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Pregnancy:</content>
+                     </content> Animal reproduction studies have not been conducted with Sterile Water for Injection. It is also not known whether sterile water containing additives can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Sterile Water for Injection with additives should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pediatric Use</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Safety and effectiveness have been established in pediatric patients. However, in neonates or very small infants the volume of fluid may affect fluid and electrolyte balance.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Drug Interactions</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Some drugs for injection may be incompatible in a given vehicle, or when combined in the same vehicle or in a vehicle containing benzyl alcohol. Consult with pharmacist, if available.</paragraph>
+                  <paragraph>Use aseptic technique for single or multiple entry and withdrawal from all containers.</paragraph>
+                  <paragraph>When diluting or dissolving drugs, mix thoroughly and use promptly.</paragraph>
+                  <paragraph>Do not store reconstituted solutions of drugs for injection unless otherwise directed by the manufacturer of the solute.</paragraph>
+                  <paragraph>Do not use unless the solution is clear and seal intact. Do not reuse single-dose containers. Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cbeb4367-3ce6-4af4-9b43-51018789ce73">
+               <id root="35f7f316-718a-4d06-a2b3-d96e48a1c0ad"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Reactions which may occur because of this solution, added drugs or the technique of reconstitution or administration include febrile response, local tenderness, abscess, tissue necrosis or infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection and extravasation.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate countermeasures, and if possible, retrieve and save the remainder of the unused vehicle for examination.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cc332673-9b6a-4a2a-8de0-0b2db2a0994b">
+               <id root="db08a743-7ec7-48e0-bfd0-2495e4b673a4"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Use only as a diluent or solvent. This parenteral preparation is unlikely to pose a threat of fluid overload except possibly in neonates or very small infants. In the event these should occur, re-evaluate the patient and institute appropriate corrective measures. See <content styleCode="bold">
+                        <linkHtml href="#c0be72b6-25ee-49c0-8397-8749e9f8afaa">WARNINGS</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#adc10c02-8ba0-46dd-8cf8-4c0ed9da196b">PRECAUTIONS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#cbeb4367-3ce6-4af4-9b43-51018789ce73">ADVERSE REACTIONS</linkHtml>
+                     </content>.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="dc0b6ed1-3879-49c6-9c73-a394f48f2bcf">
+               <id root="e0e48e2a-81fb-42e3-bde8-91b771a108e6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The volume of the preparation to be used for diluting or dissolving any drug for injection is dependent on the vehicle concentration, dose and route of administration as recommended by the manufacturer.</paragraph>
+                  <paragraph>This parenteral should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20240111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d8a9f149-0a20-4b24-88cb-cdd73c9aa59d">
+               <id root="3ed43083-7222-469a-bd79-217255efa258"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Product:    50090-2874</paragraph>
+                  <paragraph>NDC:    50090-2874-1   10 mL in a VIAL, PLASTIC   /  25  in a  TRAY </paragraph>
+               </text>
+               <effectiveTime value="20240131"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ce6bb996-239e-4972-8400-8e710aa6f0db"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>Storage</title>
+               <text>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.]
+Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+               </text>
+               <effectiveTime value="20240131"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="311f6d90-504b-4a1a-b627-cffdd9b74e95"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>WATER</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl500902874"/>
+               </text>
+               <effectiveTime value="20240131"/>
+               <component>
+                  <observationMedia ID="lbl500902874">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl500902874.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

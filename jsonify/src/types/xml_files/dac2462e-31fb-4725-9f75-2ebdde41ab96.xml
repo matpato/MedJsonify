@@ -1,0 +1,1747 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dac2462e-31fb-4725-9f75-2ebdde41ab96"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml">
+      <content styleCode="bold">These highlights do not include all the information needed to use KIMMTRAK<sup>®</sup> safely and effectively.  See full prescribing information for KIMMTRAK<sup>®</sup>.
+			<br/>
+         <br/>KIMMTRAK<sup>®</sup> (tebentafusp-tebn) injection, for intravenous use
+			<br/>Initial U.S. Approval: 2022</content>
+   </title>
+   <effectiveTime value="20250506"/>
+   <setId root="24a49f57-d2fc-4ffe-9eb1-fe0460c6b067"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="117793852" root="1.3.6.1.4.1.519.1"/>
+            <name>Immunocore Commercial LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="211024107" root="1.3.6.1.4.1.519.1"/>
+                  <name>Immunocore Limited</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="db148ecd-b148-4619-a634-8aa4fa9f98f7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20210722"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="80446-401" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>KIMMTRAK</name>
+                        <formCode code="C42899" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION, CONCENTRATE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TEBENTAFUSP</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="100" unit="ug"/>
+                              <denominator value="0.5" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N658GY6L3E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TEBENTAFUSP</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="N658GY6L3E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TEBENTAFUSP</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value=".5" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="80446-401-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220126"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA761228" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220126"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0000">
+               <id root="a4acfd91-ffe3-42b4-ba62-ea624e753931"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">WARNING: CYTOKINE RELEASE SYNDROME</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Cytokine Release Syndrome (CRS), which may be serious or life-threatening, occurred in patients receiving KIMMTRAK. Monitor for at least 16 hours following first three infusions and then as clinically indicated <content styleCode="italics">[(see <linkHtml href="#s_0202">Dosage and Administration (2.2)</linkHtml>, see <linkHtml href="#s_0501">Warnings and Precautions (5.1)</linkHtml>]</content>.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220111"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>WARNING: CYTOKINE RELEASE SYNDROME</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Cytokine Release Syndrome (CRS), which may be serious or life-threatening, occurred in patients receiving KIMMTRAK. Monitor for at least 16 hours following first three infusions and then as clinically indicated (<linkHtml href="#s_0202">2.2</linkHtml>, <linkHtml href="#s_0501">5.1</linkHtml>).</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0100">
+               <id root="3f820574-31af-4565-9c9b-19ba3989d88d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>KIMMTRAK is indicated for the treatment of HLA-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma.</paragraph>
+               </text>
+               <effectiveTime value="20220111"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>KIMMTRAK is a bispecific gp100 peptide-HLA-directed CD3 T cell engager indicated for the treatment of HLA-A*02:01-positive adult patients with unresectable or metastatic uveal melanoma (<linkHtml href="#s_0100">1</linkHtml>, <linkHtml href="#s_0201">2.1</linkHtml>).</paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0200">
+               <id root="f5db8d20-a174-4a7e-ad87-5e753c8753a1"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20221130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Recommended dosage: 20 mcg intravenously on Day 1, 30 mcg intravenously on Day 8, 68 mcg intravenously on Day 15, and 68 mcg intravenously once every week thereafter (<linkHtml href="#s_0202">2.2</linkHtml>).</item>
+                           <item>Dilute and administer by intravenous infusion over 15-20 minutes (<linkHtml href="#s_0202">2.2</linkHtml>, <linkHtml href="#s_0204">2.4</linkHtml>).</item>
+                           <item>See Full Prescribing Information for instructions on preparation and administration of the diluted solution for intravenous infusion (<linkHtml href="#s_0202">2.2</linkHtml>, <linkHtml href="#s_0204">2.4</linkHtml>).</item>
+                           <item>Dosage interruption or permanent discontinuation may be required based on individual safety and tolerability (<linkHtml href="#s_0203">2.3</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0201">
+                     <id root="3c943710-4c35-4eb0-b98e-6b8c290b49f4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.1 Patient Selection</title>
+                     <text>
+                        <paragraph>Select patients for treatment of unresectable or metastatic uveal melanoma with KIMMTRAK based on a positive HLA-A*02:01 genotyping test of a whole blood sample <content styleCode="italics">[see <linkHtml href="#s_1400">Clinical Studies (14)</linkHtml>]</content>. Information on FDA-approved tests is available at <content styleCode="underline">http://www.fda.gov/companiondiagnostics</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20221130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0202">
+                     <id root="bf6b47ea-9957-4c05-9473-9500e1b53282"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.2 Recommended Dosage</title>
+                     <text>
+                        <paragraph>The recommended dosage of KIMMTRAK administered intravenously is:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>20 mcg on Day 1</item>
+                           <item>30 mcg on Day 8</item>
+                           <item>68 mcg on Day 15</item>
+                           <item>68 mcg once every week thereafter</item>
+                        </list>
+                        <paragraph>Treat patients until unacceptable toxicity or disease progression occur.</paragraph>
+                        <paragraph>Administer the first three infusions of KIMMTRAK in an appropriate healthcare setting by intravenous infusion over 15-20 minutes. Monitor patients during the infusion and for at least 16 hours after the infusion is complete.</paragraph>
+                        <paragraph>If the patient does not experience Grade 2 or worse hypotension (requiring medical intervention) during or after the third infusion, administer subsequent doses in an appropriate ambulatory care setting, and monitor patients for a minimum of 30 minutes following each of these infusions <content styleCode="italics">[see <linkHtml href="#s_0501">Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0203">
+                     <id root="3c23ff12-6494-43d0-9067-540779b3b172"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.3 Dosage Modifications for Adverse Reactions</title>
+                     <text>
+                        <paragraph>No dosage reduction for KIMMTRAK is recommended. Dosage modifications for KIMMTRAK for adverse reactions are summarized in <linkHtml href="#table1"> Table 1</linkHtml>.</paragraph>
+                        <paragraph ID="table1">
+                           <content styleCode="bold">Table 1: Dose Modifications for Adverse Reactions</content>
+                        </paragraph>
+                        <table width="775" styleCode="Noautorules">
+                           <col width="20%" align="left"/>
+                           <col width="38%" align="center"/>
+                           <col width="42%" align="center"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="3">
+                                    <sup>a</sup> Based on National Cancer Institute Common Terminology Criteria for Adverse Events (CTCAE) version 4.03 (NCI CTCAEv4.03).</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">Adverse Reaction</content>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">Severity</content>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">KIMMTRAK Dosage Modifications</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="3" align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">Cytokine Release Syndrome (CRS)</content>
+                                    <br/>
+                                    <br/>
+                                    <content styleCode="italics">[see <linkHtml href="#s_0501">Warnings and Precautions (5.1)</linkHtml>]</content>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">Moderate defined as temperature ≥ 38°C with
+												<list listType="unordered" styleCode="disc">
+                                       <item>Hypotension that responds to fluids (does not require vasopressors) or</item>
+                                       <item>Hypoxia requiring low flow nasal canula (≤ 6 L/min) or blow-by oxygen</item>
+                                    </list>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>If hypotension and hypoxia do not improve within 3 hours or CRS worsens, escalate care and manage according to next higher level of severity</item>
+                                       <item>For moderate CRS that is persistent (lasting 2-3 hours) or recurrent, administer corticosteroid premedication (e.g. dexamethasone 4 mg or equivalent) at least 30 minutes prior to next dose</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Toprule Rrule Lrule">Severe defined as temperature ≥ 38°C with <list listType="unordered" styleCode="disc">
+                                       <item>Hemodynamic instability requiring a vasopressor (with or without vasopressin) or</item>
+                                       <item>Worsening hypoxia or respiratory distress requiring high flow nasal canula (&gt; 6 L/min oxygen) or face mask</item>
+                                    </list>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Rrule Lrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Withhold KIMMTRAK until CRS and sequelae have resolved </item>
+                                       <item>Administer intravenous corticosteroid (e.g., 2 mg/kg/day methylprednisolone or equivalent)</item>
+                                       <item>Resume KIMMTRAK at same dose level (i.e., do not escalate if severe CRS occurred during initial dose escalation; resume escalation once dosage is tolerated)</item>
+                                       <item>For severe CRS, administer corticosteroid premedication (e.g. dexamethasone 4 mg or equivalent) at least 30 minutes prior to next dose</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">Life threatening defined as temperature ≥ 38°C with <list listType="unordered" styleCode="disc">
+                                       <item>Hemodynamic instability requiring multiple vasopressors (excluding vasopressin)</item>
+                                       <item>Worsening hypoxia or respiratory distress despite oxygen administration requiring positive pressure</item>
+                                    </list>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Permanently discontinue KIMMTRAK</item>
+                                       <item>Administer intravenous corticosteroid (e.g., 2 mg/kg/day methylprednisolone or equivalent)</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">Skin Reactions</content>
+                                    <br/>
+                                    <br/>
+                                    <content styleCode="italics">[see <linkHtml href="#s_0502">Warnings and Precautions (5.2)</linkHtml>]</content>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">Grade 2 or 3<sup>a</sup>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Withhold KIMMTRAK until ≤ Grade 1 or baseline</item>
+                                       <item>Resume KIMMTRAK at same dose level (i.e., do not escalate if Grade 3 skin reactions occurred during initial dose escalation; resume escalation once dosage is tolerated)</item>
+                                       <item>For persistent reactions not responding to oral steroids, consider intravenous corticosteroid (e.g., 2 mg/kg/day methylprednisolone or equivalent)</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">Grade 4<sup>a</sup>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Permanently discontinue KIMMTRAK</item>
+                                       <item>Administer intravenous corticosteroid (e.g., 2 mg/kg/day methylprednisolone or equivalent)</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">Elevated Liver Enzymes</content>
+                                    <br/>
+                                    <br/>
+                                    <content styleCode="italics">[see <linkHtml href="#s_0503">Warnings and Precautions (5.3)</linkHtml>]</content>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">Grade 3 or 4<sup>a</sup>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Withhold KIMMTRAK until ≤ Grade 1 or baseline.</item>
+                                       <item>Resume KIMMTRAK at same dose level if the elevated liver enzymes occur in the setting of Grade 3 CRS; resume escalation if next administration is tolerated.</item>
+                                       <item>If the elevated liver enzymes occur outside the setting of Grade 3 CRS
+													<list listType="unordered">
+                                             <item>resume escalation if the current dose is less than 68 mcg, </item>
+                                             <item>or resume  at same dose level if dose escalation has completed</item>
+                                          </list>
+                                       </item>
+                                       <item>Administer intravenous corticosteroids if no improvement within 24 hours</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td rowspan="2" align="left" valign="top" styleCode="Toprule Lrule Rrule Botrule">
+                                    <content styleCode="bold">Other Adverse Reactions</content>
+                                    <br/>
+                                    <br/>
+                                    <content styleCode="italics">[see <linkHtml href="#s_0601">Adverse Reactions (6.1)</linkHtml>]</content>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">Grade 3<sup>a</sup>
+                                 </td>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Withhold KIMMTRAK until ≤ Grade 1 or baseline</item>
+                                       <item>Resume KIMMTRAK at same dose level (i.e., do not escalate if other Grade 3 adverse reaction occurred during initial dose escalation; resume escalation once dosage is tolerated)</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Toprule Lrule Rrule Botrule">Grade 4<sup>a</sup>
+                                 </td>
+                                 <td align="left" styleCode="Toprule Lrule Rrule Botrule">
+                                    <list listType="unordered" styleCode="disc">
+                                       <item>Permanently discontinue KIMMTRAK</item>
+                                    </list>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20220124"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0204">
+                     <id root="4effd0fa-e553-4b3d-bfc3-4adf919e6d9a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.4 Preparation and Administration</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Preparation</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>A 2-step dilution process is required for preparation of the final KIMMTRAK dose for infusion.</item>
+                           <item>Use aseptic technique for dilution and preparation of intravenous infusion solutions.</item>
+                           <item>Visually inspect parenteral drug products and infusion bags for particulate matter and discoloration prior to administration, whenever solution and container permit.</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Step 1: Preparation of the Infusion Bag</content>
+                        </paragraph>
+                        <paragraph>To prevent adsorption of tebentafusp-tebn to the infusion bag and other components of the drug delivery system, prepare an Albumin (Human) in 0.9% Sodium Chloride Injection, USP solution as follows:</paragraph>
+                        <list listType="ordered" styleCode="LittleAlpha">
+                           <item>Using a 1 mL syringe with graduations of 2 decimal places and a sterile needle, withdraw the calculated volume of Albumin (Human) into the syringe (see <linkHtml href="#table2"> Table 2</linkHtml> below) and add to the 100 mL 0.9% Sodium Chloride Injection, USP bag constructed of polyolefins (PO) [such as polyethylene (PE) and polypropylene (PP)] or polyvinyl chloride (PVC) to make a final Albumin (Human) concentration of 250 mcg/mL.
+										<paragraph ID="table2">
+                                 <content styleCode="bold">Table 2: Examples of Albumin (Human) Concentration and Volumes</content>
+                              </paragraph>
+                              <table width="700" styleCode="Noautorules">
+                                 <col width="30%" align="center"/>
+                                 <col width="70%" align="center"/>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="2" align="left">*Albumin (Human); use concentration as per local availability. Examples include but are not restricted to the following strengths: 5%, 20%, or 25%.
+													</td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr valign="top">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">Albumin (Human) concentration*</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">Albumin (Human) volume for addition to a 100 mL 0.9% Sodium Chloride Injection, USP Infusion Bag to prepare a concentration of 250 mcg/mL Albumin (Human) in 0.9% Sodium Chloride Injection, USP </td>
+                                    </tr>
+                                    <tr valign="middle">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">5% (50 g/L)</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">0.5 mL </td>
+                                    </tr>
+                                    <tr valign="middle">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">20% (200 g/L)</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">0.13 mL </td>
+                                    </tr>
+                                    <tr valign="middle">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">25% (250 g/L)</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">0.1 mL </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </item>
+                           <item>Gently homogenize the prepared solution by completing the following steps:
+										<list listType="ordered" styleCode="LittleRoman">
+                                 <item>Invert the infusion bag so that the bag is upside down with the entry port positioned on top. Then tap the side of the port tubing to ensure that any residual solution is released into the bulk solution.</item>
+                                 <item>Mix the prepared solution by gently rotating the bag lengthwise 360 degrees from the inverted position at least 5 times. <content styleCode="underline">Do not shake the infusion bag.</content>
+                                 </item>
+                                 <item>Repeat (i) and (ii) an additional three times.</item>
+                              </list>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="italics">Step 2- Preparation of KIMMTRAK Solution for Infusion</content>
+                        </paragraph>
+                        <list listType="ordered" styleCode="LittleAlpha">
+                           <item>Do not shake the KIMMTRAK vial.</item>
+                           <item>Using a 1 mL syringe with graduations of 2 decimal places and a sterile needle, withdraw the required volume of KIMMTRAK 100 mcg/ 0.5 mL as per the dose required (shown in <linkHtml href="#table3"> Table 3</linkHtml> below) and add to the prepared 100 mL infusion bag containing 0.9% Sodium Chloride Injection, USP plus Albumin (Human).</item>
+                           <item>Discard the single-dose vial containing the unused portion of KIMMTRAK in accordance with local requirements. Do not prepare more than one dose from the vial.
+										<paragraph ID="table3">
+                                 <content styleCode="bold">Table 3: KIMMTRAK Volumes Required for Addition to the Infusion Bag</content>
+                              </paragraph>
+                              <table width="700" styleCode="Noautorules">
+                                 <col width="40%" align="center"/>
+                                 <col width="26%" align="center"/>
+                                 <col width="34%" align="center"/>
+                                 <tbody>
+                                    <tr valign="top">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Day of treatment</content>
+                                       </td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Dose (mcg) of KIMMTRAK</content>
+                                       </td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">
+                                          <content styleCode="bold">Volume (mL) of KIMMTRAK</content>
+                                       </td>
+                                    </tr>
+                                    <tr valign="middle">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">Day 1</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">20</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">0.1</td>
+                                    </tr>
+                                    <tr valign="middle">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">Day 8</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">30</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">0.15</td>
+                                    </tr>
+                                    <tr valign="middle">
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">Day 15 and weekly thereafter</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">68</td>
+                                       <td align="center" styleCode="Toprule Botrule Lrule Rrule">0.34</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </item>
+                           <item>Mix the infusion bag by following the same procedure outlined in Step 1b. </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Administration</content>
+                        </paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Immediately administer the diluted solution via intravenous infusion over 15-20 minutes through a dedicated intravenous line. A sterile, non-pyrogenic, low protein binding 0.2 micron in-line filter infusion set should be used. Administer the entire contents of the KIMMTRAK infusion bag.</item>
+                           <item>Administer the prepared infusion bag within 4 hours from the time of preparation including the duration of infusion. During the 4-hour window, the KIMMTRAK infusion bag should remain at room temperature.</item>
+                           <item>If not used immediately, store the KIMMTRAK infusion bag in a refrigerator at 2°C to 8°C (36°F to 46°F) and infuse within 24 hours from the time of preparation, which includes the storage time in the refrigerator, the time allowed for equilibration of the infusion bag to room temperature, and the duration of the infusion.</item>
+                           <item>Once removed from the refrigerator, do not refrigerate KIMMTRAK infusion bag again. Do not freeze. Discard unused KIMMTRAK solution beyond the recommended storage time.</item>
+                           <item>Do not mix KIMMTRAK with other drugs or administer other drugs through the same intravenous line. </item>
+                           <item>Upon completion of KIMMTRAK infusion, flush the infusion line with adequate volume of sterile 0.9% Sodium Chloride Injection, USP to ensure that the entire contents of the infusion bag are administered.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20220127"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0300">
+               <id root="18ad6492-0fb7-457e-9d26-794eb548bb3d"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection: 100 mcg/0.5 mL clear, colorless to slightly yellowish solution in a single-dose vial</paragraph>
+               </text>
+               <effectiveTime value="20220111"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 100 mcg/0.5 mL solution in a single-dose vial (<linkHtml href="#s_0300">3</linkHtml>).</paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0400">
+               <id root="fe93e66f-bbab-477d-bce7-3d356e6a5934"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20220111"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None (<linkHtml href="#s_0400">4</linkHtml>).</paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0500">
+               <id root="70b6dab2-ffe5-42ab-acc4-148e09dcaf92"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20221130"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Skin reactions</content>: Rash, pruritus, and cutaneous edema occurred in patients treated with KIMMTRAK. If skin reactions occur, treat based on persistence and severity of symptoms (<linkHtml href="#s_0203">2.3</linkHtml>, <linkHtml href="#s_0502">5.2</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Elevated liver enzymes</content>: Elevations in liver enzymes occurred in patients treated with KIMMTRAK. Monitor ALT, AST, and total bilirubin (<linkHtml href="#s_0203">2.3</linkHtml>, <linkHtml href="#s_0503">5.3</linkHtml>).</item>
+                           <item>
+                              <content styleCode="underline">Embryo-Fetal toxicity</content>: May cause fetal harm. Advise patients of reproductive potential of the potential risk to the fetus and to use effective contraception (<linkHtml href="#s_0504">5.4</linkHtml>, <linkHtml href="#s_0801">8.1</linkHtml>, <linkHtml href="#s_0803">8.3</linkHtml>).</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0501">
+                     <id root="703e0e35-725f-4f7e-a2d3-9c4eac69dd1e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.1 Cytokine Release Syndrome</title>
+                     <text>
+                        <paragraph>Cytokine release syndrome (CRS), which may be life threatening, occurred in patients receiving KIMMTRAK. Manifestations of CRS may include fever, hypotension, hypoxia, chills, nausea, vomiting, rash, elevated transaminases, fatigue, and headache. CRS (≥ Grade 2) occurred in 77% of patients in Study IMCgp100-202 who received KIMMTRAK <content styleCode="italics">[see <linkHtml href="#s_0601">Adverse Reactions (6.1)</linkHtml>]</content>. Among patients who received KIMMTRAK, 23% received systemic corticosteroids for at least 1 infusion, 8% received supplemental oxygen during at least 1 infusion, and 0.8% received a vasopressor for at least 1 infusion. CRS led to permanent discontinuation in 1.2% of patients.</paragraph>
+                        <paragraph>In Study IMCgp100-202, 60% of patients experienced ≥ Grade 2 CRS with more than 1 infusion, with the median number of events being 2 (range 1 - 12). The majority (84%) of episodes of CRS started the day of infusion. Among cases that resolved, the median time to resolution of CRS was 2 days.</paragraph>
+                        <paragraph>Ensure that healthcare providers administering KIMMTRAK have immediate access to medications and resuscitative equipment to manage CRS. Ensure patients are euvolemic prior to initiating the infusions. Closely monitor patients for signs or symptoms of CRS following infusions of KIMMTRAK <content styleCode="italics">[see <linkHtml href="#s_0202">Dosage and Administration (2.2)</linkHtml>]</content>.</paragraph>
+                        <paragraph>Monitor fluid status, vital signs, and oxygenation level and provide appropriate therapy. Withhold or discontinue KIMMTRAK depending on persistence and severity of CRS <content styleCode="italics">[see <linkHtml href="#s_0203">Dosage and Administration (2.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20221130"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0502">
+                     <id root="c6d935d3-6539-437f-91b1-bbd0a44efb8a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.2 Skin Reactions</title>
+                     <text>
+                        <paragraph>Skin reactions, including rash, pruritus, and cutaneous edema occurred in patients treated with KIMMTRAK. In study IMCgp100-202, skin reactions occurred in 91% of patients treated with KIMMTRAK, including Grade 2 (44%) and Grade 3 (21%) events. Skin reactions included rash (83%), pruritus (69%), erythema (25%), and cutaneous edema (27%) <content styleCode="italics">[see <linkHtml href="#s_0601">Adverse Reactions (6.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>The median time to onset of skin reactions was 1 day (range: 1 – 55 days).  The median time to improvement to ≤ Grade 1 was approximately 6 days.</paragraph>
+                        <paragraph>Monitor patients for skin reactions. If skin reactions occur, treat with antihistamine and topical or systemic steroids based on persistence and severity of symptoms. Withhold or permanently discontinue KIMMTRAK depending on the severity of skin reactions <content styleCode="italics">[see <linkHtml href="#s_0203">Dosage and Administration (2.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220118"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0503">
+                     <id root="7a2a9854-0756-4f07-abde-cf0ae1d00599"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.3 Elevated Liver Enzymes</title>
+                     <text>
+                        <paragraph>In Study IMCgp100-202, increases in alanine aminotransferase or aspartate aminotransferase were observed in 65% of patients treated with KIMMTRAK.</paragraph>
+                        <paragraph>In patients experiencing ALT/AST elevations, 73% initially occurred within the first 3 infusions with KIMMTRAK. Most patients experiencing Grade 3 or 4 ALT/AST elevations had improvement to ≤ Grade 1 within 7 days. For events that were observed outside the setting of CRS, the median time to onset was 129 days. Grade 3 or greater elevations in liver enzymes outside the setting of CRS occurred in approximately 8% of patients.</paragraph>
+                        <paragraph>Elevations in liver enzymes led to permanent discontinuation in 0.4% of patients receiving KIMMTRAK.</paragraph>
+                        <paragraph>Monitor alanine aminotransferase (ALT), aspartate aminotransferase (AST), and total blood bilirubin prior to the start of and during treatment with KIMMTRAK. Withhold KIMMTRAK according to severity <content styleCode="italics">[see <linkHtml href="#s_0203">Dosage and Administration (2.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0504">
+                     <id root="7aba060a-cc01-4c44-8fea-52945ec9f5de"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.4  Embryo-Fetal Toxicity</title>
+                     <text>
+                        <paragraph>Based on the mechanism of action, KIMMTRAK may cause fetal harm when administered to a pregnant woman. Advise pregnant women of the potential risk to the fetus. Advise females of reproductive potential to use effective contraception during treatment with KIMMTRAK and for 1 week after the last dose <content styleCode="italics">[see <linkHtml href="#s_0801">Use in Specific Populations (8.1, </linkHtml>
+                              <linkHtml href="#s_0803">8.3)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0600">
+               <id root="1473374c-5de9-4989-aae3-35ad1a2fdd36"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following serious adverse reactions are discussed in greater detail in other sections of the label:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Cytokine Release Syndrome [<content styleCode="italics">see <linkHtml href="#s_0000">Boxed Warning</linkHtml>, <linkHtml href="#s_0501">Warnings and Precautions (5.1)</linkHtml>
+                        </content>]</item>
+                     <item>Skin Reactions [<content styleCode="italics">see <linkHtml href="#s_0502"> Warnings and Precautions (5.2)</linkHtml>
+                        </content>]</item>
+                     <item>Elevated Liver Enzymes [<content styleCode="italics">see <linkHtml href="#s_0503"> Warnings and Precautions (5.3)</linkHtml>
+                        </content>]</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240630"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The most common adverse reactions (occurring in ≥ 30%) are cytokine release syndrome, rash, pyrexia, pruritus, fatigue, nausea, chills, abdominal pain, edema, hypotension, dry skin, headache and vomiting (<linkHtml href="#s_0601">6.1</linkHtml>). The most common laboratory abnormalities (occurring in ≥50%) are decreased lymphocyte count, increased creatinine, increased glucose, increased aspartate aminotransferase, increased alanine aminotransferase, decreased hemoglobin, and decreased phosphate (<linkHtml href="#s_0601">6.1</linkHtml>).</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Immunocore at 1-844-IMMUNO1 (1-844-466-8661)  or FDA at 1-800-FDA-1088 or <content styleCode="italics underline">www.fda.gov/medwatch</content>.</content>
+                        </paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0601">
+                     <id root="34a38e97-cc54-4f6f-b1e2-77a1fc122101"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics underline">First line metastatic uveal melanoma</content>
+                        </paragraph>
+                        <paragraph>The safety of KIMMTRAK was evaluated in study IMCgp100-202, a randomized (2:1), open-label, active-controlled trial in patients who had not received prior systemic therapy for metastatic or advanced uveal melanoma <content styleCode="italics">[see <linkHtml href="#s_1400">Clinical Studies (14)</linkHtml>]</content>. Patients received either KIMMTRAK administered at 20 mcg intravenously on Day 1, 30 mcg intravenously on Day 8, 68 mcg intravenously on Day 15, and 68 mcg intravenously once every week thereafter (N=245) or investigator’s choice treatment (N=111). The median duration of exposure was 5.3 months (range: 0.3 to 33 months) in patients treated with KIMMTRAK.</paragraph>
+                        <paragraph>Serious adverse reactions occurred in 28% of patients who received KIMMTRAK. Serious adverse reactions occurring in ≥ 2% of patients were cytokine release syndrome (10%), rashes (4.5%), pyrexia (2.4%), and hypotension (2%). One patient (0.4%) experienced a fatal adverse reaction (pulmonary embolism).</paragraph>
+                        <paragraph>Adverse reactions led to permanent discontinuation in 3.3% of patients who received KIMMTRAK. Adverse reactions that led to permanent discontinuation of KIMMTRAK were anaphylactic reaction, brain edema, cytokine release syndrome, fatigue, hepatotoxicity, hypotension, and nausea (each 0.4%).</paragraph>
+                        <paragraph>Adverse reactions resulting in dosage interruption occurred in 25% of patients who received KIMMTRAK. Adverse reactions which required dosage interruption in ≥ 2% of patients included fatigue (3.7%), lipase increased (2.9%), pyrexia (2.4%), alanine aminotransferase increase (2%), and aspartate aminotransferase increase (2%).</paragraph>
+                        <paragraph>Adverse reactions leading to dose reduction occurred in 5% of patients who received KIMMTRAK. Adverse reactions which required dosage reduction in ≥ 2% of patients were cytokine release syndrome (2.4%), and rashes (2%).</paragraph>
+                        <paragraph>The most common adverse reactions (≥30%) in patients who received KIMMTRAK were cytokine release syndrome, rash, pyrexia, pruritus, fatigue, nausea, chills, abdominal pain, edema, hypotension, dry skin, headache, and vomiting. The most common (≥50%) laboratory abnormalities in patient who received KIMMTRAK were decreased lymphocyte count, increased creatinine, increased glucose, increased AST, increased ALT, decreased hemoglobin, and decreased phosphate.</paragraph>
+                        <paragraph>
+                           <linkHtml href="#table4">Table 4</linkHtml> summarizes the adverse reactions observed in study IMCgp100-202.</paragraph>
+                        <paragraph ID="table4">
+                           <content styleCode="bold">Table 4: Adverse Reactions (≥20%) in Patients with Metastatic Uveal Melanoma Who Received KIMMTRAK in Study IMCgp100-202</content>
+                        </paragraph>
+                        <table width="700" styleCode="Noautorules">
+                           <col width="35%" align="left"/>
+                           <col width="13%" align="center"/>
+                           <col width="13%" align="center"/>
+                           <col width="13%" align="center"/>
+                           <col width="13%" align="center"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5" align="left">
+                                    <sup>a</sup> Represents algorithmic identification of CRS cases based on ASTCT grading criteria (Lee et al. 2019).<br/>
+                                    <sup>b</sup> Represents a composite of multiple related terms.
+											</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Adverse Reactions</content>
+                                 </td>
+                                 <td colspan="2" valign="middle" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">KIMMTRAK<br/>(N=245)</content>
+                                 </td>
+                                 <td colspan="2" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Investigator’s Choice (pembrolizumab, or ipilimumab, or dacarbazine)<br/>(N=111)</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">All Grades<br/>(%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Grade 3 or 4<br/>(%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">All Grades<br/>(%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Grade 3 or 4<br/>(%</content>)</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Immune system disorders</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Cytokine release syndrome<sup>a</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">89</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.7</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Skin and subcutaneous tissue disorders</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Rash<sup>b</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">83</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">18</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">28</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Pruritus</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">69</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">4.5</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">23</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Dry skin</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">31</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.6</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Skin Hypopigmentation<sup>b</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">28</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">NA</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">5</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">NA</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Erythema</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">24</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Hair color changes<sup>b</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">20</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">NA</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">NA</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">General disorders and administration site conditions</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Pyrexia</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">76</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.7</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">7</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Fatigue<sup>b</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">64</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">6</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">42</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Chills</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">48</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.4</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.6</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Edema<sup>b</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">45</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">10</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Gastrointestinal disorders</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Nausea</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">49</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">26</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Abdominal pain<sup>b</sup>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">45</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.9</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">33</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.6</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Vomiting</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">30</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.2</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">9</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Diarrhea</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">25</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.2</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">20</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.7</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Vascular disorders</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Hypotension</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">39</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.3</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.7</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Nervous system disorders</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Headache</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">31</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.4</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">10</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Musculoskeletal and connective tissue disorders</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Arthralgia</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">22</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">16</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                        <paragraph>Clinically relevant adverse reactions occurring in &lt; 20% of patients who received KIMMTRAK included back pain, decreased appetite, constipation, hypertension, tachycardia or sinus tachycardia, dyspnea, paresthesia, dizziness, flushing, muscle spasms, myalgia, pain in extremity, alopecia, skin hyperpigmentation, influenza-like illness, oropharyngeal pain and night sweats.</paragraph>
+                        <paragraph>
+                           <linkHtml href="#table5">Table 5</linkHtml> summarizes the selected laboratory abnormalities observed in study IMCgp100-202.</paragraph>
+                        <table ID="table5" width="700" styleCode="Noautorules">
+                           <caption>Table 5: Selected Laboratory Abnormalities (≥ 10%) worsening from baseline in patients who received KIMMTRAK versus Investigator’s Choice</caption>
+                           <col width="28%" align="left"/>
+                           <col width="18%" align="center"/>
+                           <col width="18%" align="center"/>
+                           <col width="18%" align="center"/>
+                           <col width="18%" align="center"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5" align="left">Alk Phos = Alkaline Phosphatase; AST=aspartate aminotransferase; ALT=alanine aminotransferase<br/>
+                                    <sup>a</sup> The denominator used to calculate the rate varied from 242 to 245 for KIMMTRAK and 105 to 109 for IC based on the number of patients with a baseline value and at least one post-treatment value for the laboratory assessment.
+											</td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="middle" styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td colspan="2" valign="middle" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">KIMMTRAK</content>
+                                    <sup>a</sup>
+                                    <br/>
+                                    <content styleCode="bold">(N=245)</content>
+                                 </td>
+                                 <td colspan="2" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Investigator’s Choice</content>
+                                    <sup>a</sup>
+                                    <content styleCode="bold">(pembrolizumab, or ipilimumab, or dacarbazine)<br/>(N=111)</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Grades 1-4 <br/>(%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Grades 3-4 <br/>(%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Grades 1-4 <br/>(%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Grades 3-4 <br/>(%</content>)</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td colspan="5" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">HEMATOLOGY</content>
+                                 </td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Lymphocyte count decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">91</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">56</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">26</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.8</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Hemoglobin decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">51</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">20</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Platelet count decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">16</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Neutrophil count decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">14</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.8</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">CHEMISTRY</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Creatinine increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">87</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.4</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">73</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Glucose increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">66</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.3</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">39</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">4.6</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AST increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">55</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">13</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">39</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">ALT increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">52</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">9</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">29</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.8</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Phosphate decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">51</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">11</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">20</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Albumin decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">47</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">14</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Calcium decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">45</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.6</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Lipase increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">37</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">28</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">6</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Magnesium decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">34</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Alk phos increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">34</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.9</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">36</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.8</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Sodium decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">30</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">2.9</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Potassium increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">29</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1.6</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Bilirubin increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">27</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">4.1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">14</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">7</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Amylase increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">23</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">4.1</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">18</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">1</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Glucose decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">18</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.4</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">4.6</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Potassium decreased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">17</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">8</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0.9</td>
+                              </tr>
+                              <tr valign="top">
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Calcium increased </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">13</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">3.7</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">0</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20220127"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0800">
+               <id root="c97a99a3-9d10-47d0-9836-611f57d537b1"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20220111"/>
+               <component>
+                  <section ID="s_0801">
+                     <id root="108f6b1a-5100-4276-8be7-c9d3a8b4f6ab"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary </content>
+                        </paragraph>
+                        <paragraph>Based on the mechanism of action, KIMMTRAK may cause fetal harm when administered to a pregnant woman <content styleCode="italics">[see <linkHtml href="#s_1201">Clinical Pharmacology (12.1)</linkHtml>]</content>. There are no available data with KIMMTRAK in pregnant woman. No animal reproductive and developmental toxicity studies have been conducted with KIMMTRAK. Molecules of similar molecular weight can cross the placenta resulting in fetal exposure. Advise women of the potential risk to the fetus.</paragraph>
+                        <paragraph>In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2%-4% and 15%-20%, respectively.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0802">
+                     <id root="dd6eafb6-89ec-4d2d-adc2-2b88474ae8a5"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There are no data on the presence of tebentafusp-tebn in human milk, the effect on the breastfed child, or the effects on milk production. Because tebentafusp-tebn may be excreted in human milk and because of the potential for serious adverse reactions in a breastfed child, advise patients not to breastfeed during treatment with KIMMTRAK and for at least 1 week after the last dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0803">
+                     <id root="43d54c21-b1a5-43d9-b1cb-47fa0e7015f7"/>
+                     <code code="77291-3" codeSystem="2.16.840.1.113883.6.1" displayName="FEMALES &amp; MALES OF REPRODUCTIVE POTENTIAL SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.3 Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>KIMMTRAK may cause fetal harm when administered to a pregnant woman <content styleCode="italics">[see <linkHtml href="#s_0801">Use in Specific Populations (8.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy Testing</content>
+                        </paragraph>
+                        <paragraph>Verify pregnancy status in females of reproductive potential prior to initiating KIMMTRAK treatment.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Contraception</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Females </content>
+                        </paragraph>
+                        <paragraph>Advise female of reproductive potential to use effective contraception during treatment and for 1 week following the last dose of KIMMTRAK <content styleCode="italics">[see <linkHtml href="#s_0801">Use in Specific Populations (8.1)</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0804">
+                     <id root="396cc13a-a042-4808-a779-d6f34f23b84c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and efficacy of KIMMTRAK have not been established in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0805">
+                     <id root="1c996142-782a-41e8-a710-0884e8d5032e"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 245 patients with metastatic uveal melanoma treated with KIMMTRAK on IMCgp100-202, 47% were 65 years of age and older and 9% were 75 years of age and older. No overall differences in safety or efficacy were observed between patients ≥ 65 years of age compared to younger adult patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1100">
+               <id root="2c851992-5897-4a31-a43f-3a11a3a36609"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">11 DESCRIPTION</title>
+               <text>
+                  <paragraph>Tebentafusp-tebn is a bispecific gp100 peptide-HLA-directed T cell receptor CD3 T cell engager. Tebentafusp-tebn has an approximate molecular weight of 77 kDa. Tebentafusp-tebn is produced by recombinant DNA technology in <content styleCode="italics">Escherichia coli</content> cells.</paragraph>
+                  <paragraph>KIMMTRAK (tebentafusp-tebn) injection is supplied in a single-dose vial as a sterile, preservative-free, clear, colorless or slightly yellowish solution for intravenous administration by infusion.</paragraph>
+                  <paragraph>Each single-dose vial contains tebentafusp-tebn (100 mcg), citric acid monohydrate (0.95 mg), di-sodium hydrogen phosphate (2.91 mg), mannitol (5 mg), polysorbate 20 (0.1 mg) trehalose (25 mg), and water for injection, with a pH of 6.5.</paragraph>
+               </text>
+               <effectiveTime value="20220111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1200">
+               <id root="3cc69f28-d653-48a8-ae41-5aadcaead9e8"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20240630"/>
+               <component>
+                  <section ID="s_1201">
+                     <id root="8116a360-74de-4e0f-86f8-069989344001"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Tebentafusp-tebn is a bispecific gp100 peptide-HLA-A*02:01 directed T cell receptor CD3 T cell engager. The TCR arm binds to a gp100 peptide presented by human leukocyte antigen-A*02:01 (HLA-A*02:01) on the cell surface of uveal melanoma tumor cells.</paragraph>
+                        <paragraph>In vitro, tebentafusp-tebn bound to HLA-A*02:01-positive uveal melanoma cells and activated polyclonal T cells to release inflammatory cytokines and cytolytic proteins, which results in direct lysis of uveal melanoma tumor cells.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1202">
+                     <id root="ae7ae736-f854-467b-b9ac-3e66368ddfe1"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Lymphocyte counts declined the day after the first 3 doses and returned to baseline prior to subsequent doses.</paragraph>
+                        <paragraph>Serum levels of cytokines (IFN-γ, TNFα, IL-2, IL-6, IL-10 and IL-1RA) and chemokines (CXCL9, CXCL10, CXCL11, hepatocyte growth factor, and monocyte chemoattractant protein-1)  were increased during the first three doses of KIMMTRAK with peak levels between 8 to 24 hours after treatment with KIMMTRAK and levels returned to baseline prior to subsequent doses. In subsequent treatment cycles, cytokine elevation occurred in fewer patients with lesser intensity compared to the first 3 doses.</paragraph>
+                        <paragraph>The exposure-response relationship and time course of pharmacodynamic response for the safety and effectiveness of KIMMTRAK have not been fully characterized.</paragraph>
+                     </text>
+                     <effectiveTime value="20220126"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1203">
+                     <id root="9d4694fe-b4d2-416d-a046-d79f0c4ed85b"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>After a single dose administration, tebentafusp-tebn C<sub>max</sub> and AUC<sub>0-7d</sub> increased in an approximately dose proportional manner from 20 to 68 mcg (0.3 to 1 times the approved recommended dose). Following administration of the approved recommended dosage in patients with metastatic uveal melanoma, the steady-state geometric mean (% CV) C<sub>max</sub> of tebentafusp-tebn is 13 ng/mL (34.6%) and AUC<sub>0-7d</sub> is 4.6 ng.day/mL (23%) with no accumulation.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>Tebentafusp-tebn geometric mean (% CV) steady-state volume of distribution is 7.56 L (24%).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>The geometric mean clearance of tebentafusp-tebn is 16.4 L/d (CV: 24.5%) and median terminal half-life is 7.5 hours (range: 6.8-7.5 hours).</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Tebentafusp-tebn is expected to be catabolized into small peptides and amino acids.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations</content>
+                        </paragraph>
+                        <paragraph>No clinically significant difference in the pharmacokinetics of tebentafusp-tebn were identified based on weight (43 to 163 kg), sex (48% female), age (23 to 91 years), or mild to moderate  renal impairment based on creatinine clearance (CL<sub>cr</sub>) estimated by C-G formula (CL<sub>cr</sub> 30 to 89 mL/min) or mild hepatic impairment as measured by total bilirubin (TB) and aspartate aminotransferase (AST) (TB ≤ upper limit of normal (ULN) and AST &gt; ULN or TB &gt; 1 to 1.5x ULN and any AST).</paragraph>
+                        <paragraph>Tebentafusp-tebn has not been studied in patients with severe (CL<sub>cr</sub> &lt; 30 mL/min) renal impairment or in patients with moderate (TB &gt;1.5 to 3x ULN, any AST) to severe (TB &gt; 3 to 10x ULN, any AST) hepatic impairment.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interaction</content>
+                        </paragraph>
+                        <paragraph>Elevation of certain proinflammatory cytokines may suppress CYP450 enzyme activities.</paragraph>
+                     </text>
+                     <effectiveTime value="20240630"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1206">
+                     <id root="2e0aadc2-e62b-4c70-8a65-a66b1b00eb78"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.6 Immunogenicity</title>
+                     <text>
+                        <paragraph>The observed incidence of anti-drug antibodies is highly dependent on the sensitivity and specificity of the assay. Differences in assay methods preclude meaningful comparisons of the incidence of anti-drug antibodies in the studies described below with the incidence of anti-drug antibodies in other products or studies, including those of KIMMTRAK.</paragraph>
+                        <paragraph>In studies IMCgp100-102 and IMCgp100-202, 36% (47/131) and 28% (67/240) of patients who were treated with tebentafusp-tebn at the recommended dosing regimen for up to 29 cycles and 45 cycles, respectively, developed anti-tebentafusp-tebn antibodies (ADA). Among the patients who developed ADAs, neutralizing antibodies (NAb) against tebentafusp-tebn were detected in 57% (27/47) and 63% (42/67), respectively, in studies IMCgp100-102 and IMCgp100-202. The median onset time to ADA formation was 8 and 12 weeks and 15 and 16 weeks for NAb formation after tebentafusp-tebn treatment in studies IMCgp100-102 and IMCgp100-202, respectively.</paragraph>
+                        <paragraph>Tebentafusp-tebn exposure was lower in the presence of ADAs and NAbs. In Studies IMCgp100-102 and IMCgp100-202, tebentafusp-tebn treated patients who developed ADAs had tebentafusp-tebn concentrations (C<sub>max</sub>) that were 50% to 99% lower compared to patients who did not develop ADAs. Tebentafusp-tebn clearance was higher in patients with high titer ADAs (titers &gt; 8192), resulting in a lower exposure (AUC<sub>0-7 days</sub>) by 97% compared to patients who did not develop ADA, and terminal half-life decreased to 10-14 minutes. Development of high titer Nabs (titers &gt;100 in Study IMCgp100-102 or &gt;640 in Study IMCgp100-202) resulted in lower C<sub>max</sub> of tebentafusp-tebn by 85% to 99% compared to patients who did not develop NAbs, and the tebentafusp-tebn concentrations (C<sub>max</sub>) became undetectable in 43.5% (30/69) of patients who developed NAbs in both studies.</paragraph>
+                        <paragraph>The effect of ADA and NAb on pharmacodynamics, safety, or effectiveness of tebentafusp-tebn has not been fully characterized.</paragraph>
+                     </text>
+                     <effectiveTime value="20240630"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1300">
+               <id root="e57ebb70-344a-40ed-be9b-4b6d4013e64e"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20220111"/>
+               <component>
+                  <section ID="s_1301">
+                     <id root="71d7fbeb-e3e5-451c-976e-fba1d93781de"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No carcinogenicity or genotoxicity studies have been conducted with tebentafusp-tebn.</paragraph>
+                        <paragraph>No studies have been conducted to evaluate the effects of tebentafusp-tebn on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20220111"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1400">
+               <id root="5bc2e488-1b82-4106-8f65-a61d727196a4"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Study IMCgp100-202: First line metastatic uveal melanoma</content>
+                  </paragraph>
+                  <paragraph>KIMMTRAK was evaluated in IMCgp100-202, a randomized, open-label, multicenter trial (NCT03070392) that enrolled patients with metastatic uveal melanoma (N=378). Patients were required to be HLA-A*02:01 genotype positive identified by a central assay. Patients were excluded if they received prior systemic therapy for metastatic or advanced uveal melanoma or localized liver-directed therapy. Prior surgical resection of oligometastatic disease was permitted. Patients with clinically significant cardiac disease or the presence of symptomatic or untreated brain metastasis were excluded.</paragraph>
+                  <paragraph>Patients were randomized (2:1) to receive KIMMTRAK weekly by intravenous infusion administered at 20 mcg intravenously on Day 1, 30 mcg intravenously on Day 8, 68 mcg intravenously on Day 15, and 68 mcg intravenously once every week thereafter (N=252) or Investigator’s choice (N=126) of pembrolizumab, ipilimumab, or dacarbazine. Randomization was stratified by lactate dehydrogenase (LDH) level at study entry. Across both arms, patients stopped treatment for disease progression, unless the patient was otherwise deriving benefit, or for unacceptable toxicity.</paragraph>
+                  <paragraph>The major efficacy outcome was overall survival (OS). Additional efficacy outcomes were investigator-assessed progression free survival (PFS) and objective response rate (ORR) per RECIST 1.1.</paragraph>
+                  <paragraph>The median age was 64 years (range 23 to 92 years); 50% were female; 87% were White, and 12% were unreported or unknown race. The reported ethnicity was Hispanic or Latino in 2.4% of patients. Baseline ECOG performance status was 0 (73%), 1 (21%), or 2 (0.3%); 36% had elevated LDH level; and 94% had liver metastasis.</paragraph>
+                  <paragraph>The efficacy results are summarized in <linkHtml href="#table6">Table 6</linkHtml> and <linkHtml href="#figure1">Figure 1</linkHtml>.</paragraph>
+                  <paragraph ID="table6">
+                     <content styleCode="bold">Table 6: Efficacy Results in Study IMCgp100-202</content>
+                  </paragraph>
+                  <table width="750" styleCode="Noautorules">
+                     <col width="34%" align="center"/>
+                     <col width="33%" align="center"/>
+                     <col width="33%" align="center"/>
+                     <tfoot>
+                        <tr>
+                           <td colspan="3" align="left">CI= Confidence Interval, HR= Hazard Ratio
+										<br/>
+                              <sup>1</sup> Based on prespecified interim analysis
+										<br/>
+                              <sup>2</sup> Hazard ratio is from a cox proportional hazards model stratified by LDH status
+										<br/>
+                              <sup>3</sup> Two-sided p-value based on log rank test stratified by LDH
+										<br/>
+                              <sup>4</sup> Compared to the interim efficacy boundary of 0.006
+										<br/>
+                              <sup>5</sup> Final PFS analysis
+										<br/>
+                              <sup>6</sup> Compared to the efficacy boundary of 0.05.
+										<br/>
+                              <sup>7</sup> Not formally tested
+									</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr valign="middle">
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold"/>
+                           </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">KIMMTRAK<br/>(N=252)</content>
+                           </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Investigator’s Choice (pembrolizumab, or ipilimumab, or dacarbazine)<br/>(N=126)</content>
+                           </td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" colspan="3" align="left">
+                              <content styleCode="bold">Overall Survival (OS)</content>
+                              <sup>1</sup>
+                           </td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">Number of deaths</td>
+                           <td styleCode="Botrule Lrule Rrule">87 (34.5%)</td>
+                           <td styleCode="Botrule Lrule Rrule">63 (50%)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">Median in months (95% CI)</td>
+                           <td styleCode="Botrule Lrule Rrule">21.7 (18.6, 28.6)</td>
+                           <td styleCode="Botrule Lrule Rrule">16 (9.7, 18.4)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">HR (95% CI)<sup>2</sup>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2">0.51 (0.37, 0.71)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">p-value<sup>3, 4</sup>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2">&lt;0.0001</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" colspan="3" align="left">
+                              <content styleCode="bold">Progression-free Survival</content>
+                              <sup>5</sup>
+                           </td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">Number (%) of patients with<br/> event</td>
+                           <td styleCode="Botrule Lrule Rrule">198 (78.6%)</td>
+                           <td styleCode="Botrule Lrule Rrule">97 (77%)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">Median in months (95% CI)</td>
+                           <td styleCode="Botrule Lrule Rrule">3.3 (3, 5)</td>
+                           <td styleCode="Botrule Lrule Rrule">2.9 (2.8, 3)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">HR (95% CI)<sup>2</sup>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2">0.73 (0.58, 0.94)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">p-value<sup>3, 6</sup>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2">0.0139</td>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Botrule Lrule Rrule" align="left">
+                              <content styleCode="bold">Objective Response Rate<br/> (95% CI)</content>
+                              <sup>7</sup>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule">9.1% (5.9, 13.4)</td>
+                           <td styleCode="Botrule Lrule Rrule">4.8% (1.8, 10.1)</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">Complete Response</td>
+                           <td styleCode="Botrule Lrule Rrule">1 (0.4%)</td>
+                           <td styleCode="Botrule Lrule Rrule">0</td>
+                        </tr>
+                        <tr valign="middle">
+                           <td styleCode="Botrule Lrule Rrule" align="left">Partial Response</td>
+                           <td styleCode="Botrule Lrule Rrule">22 (8.7%)</td>
+                           <td styleCode="Botrule Lrule Rrule">6 (4.8%)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="figure1">
+                     <content styleCode="bold">Figure 1: Kaplan-Meier Curves of Overall Survival in Study IMCgp100-202 </content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM01"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220124"/>
+               <component>
+                  <observationMedia ID="MM01">
+                     <text>Figure 1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tabentafusp-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1600">
+               <id root="7be42dc3-88de-42b7-83f8-de2301ff59c3"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">How Supplied</content>
+                  </paragraph>
+                  <paragraph>Each KIMMTRAK (tebentafusp-tebn) injection carton (NDC 80446-401-01) contains:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>One single-dose vial containing 100 mcg of tebentafusp-tebn in 0.5 mL of sterile, preservative-free, clear, colorless or slightly yellowish solution.</item>
+                  </list>
+                  <paragraph>The vial stopper is not made with natural rubber latex.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Storage and Handling</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Store KIMMTRAK vials in the original carton refrigerated at 2°C to 8°C (36°F to 46°F) and protect from light until time of use. Do not freeze. Do not shake.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20220111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1700">
+               <id root="60b7b1c2-c905-4e24-b9a6-c26b0d3865bf"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (<linkHtml href="#s_ppi">Patient Information</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Cytokine Release Syndrome (CRS)</content>
+                  </paragraph>
+                  <paragraph>Inform patients of the risk of CRS, and to immediately contact their healthcare provider for signs and symptoms associated with CRS (e.g., pyrexia, hypotension, hypoxia, chills, nausea, vomiting, fatigue, or headache) <content styleCode="italics">[see <linkHtml href="#s_0501">Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Skin Reactions</content>
+                  </paragraph>
+                  <paragraph>Inform patients that rashes and skin reactions have occurred in patients who have received KIMMTRAK. Advise patients to contact their healthcare provider for signs and symptoms of progressive or intolerable skin reactions <content styleCode="italics">[see <linkHtml href="#s_0502">Warnings and Precautions (5.2)</linkHtml>]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Elevated Liver Enzymes </content>
+                  </paragraph>
+                  <paragraph>Inform patients that elevations in liver enzymes have occurred in patients who have received KIMMTRAK. Advise patients to contact their healthcare provider for signs and symptoms of liver toxicity (e.g., right sided abdominal pain, jaundice, scleral icterus) <content styleCode="italics">[see <linkHtml href="#s_0503">Warnings and Precautions (5.3)</linkHtml>]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Embryo-Fetal Toxicity</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Advise females to inform their healthcare provider if they are pregnant or become pregnant. Inform females of the risk to a fetus <content styleCode="italics">[see <linkHtml href="#s_0504">Warnings and Precautions (5.4)</linkHtml> and <linkHtml href="#s_0801">Use in Specific Populations (8.1)</linkHtml>]</content>. </item>
+                     <item>Advise females of reproductive potential to use effective contraception while on KIMMTRAK and for 1 week after the last dose <content styleCode="italics">[see <linkHtml href="#s_0801">Use in Specific Populations (8.1)</linkHtml> and <linkHtml href="#s_0803">(8.3)</linkHtml>]</content>. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Lactation</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Advise patients not to breastfeed during treatment with KIMMTRAK and for 1 week after the last dose <content styleCode="italics">[see <linkHtml href="#s_0802">Use in Specific Populations (8.2)</linkHtml>]</content>.</item>
+                  </list>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/>Immunocore Limited
+							<br/>92 Park Drive, Milton Park
+							<br/>Abingdon, Oxfordshire
+							<br/>United Kingdom, OX144RY
+							<br/>License no: 2239</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">At:</content>
+                     <br/>Baxter Oncology GmbH
+							<br/>Kantstraβe 2
+							<br/>33790 Halle/Westfalen
+							<br/>Germany</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For:</content>
+                     <br/>Immunocore Commercial LLC
+							<br/>181 Washington Street, 
+							<br/>Conshohocken, PA, US</paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20220111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_ppi">
+               <id root="3ebbd292-0ca1-40b2-9fc5-d5ce1d56b75c"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="80%" align="left"/>
+                     <col width="20%" align="left"/>
+                     <tfoot>
+                        <tr>
+                           <td>This Patient Information has been approved by the U.S. Food and Drug Administration       Issued: January 2022</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr valign="top">
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule" align="center">
+                              <paragraph>
+                                 <content styleCode="bold">PATIENT INFORMATION</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">KIMMTRAK<sup>®</sup>(KIM-track)
+											<br/>(tebentafusp-tebn)
+											<br/>Injection</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph ID="impinf">
+                                 <content styleCode="bold">What is the most important information I should know about KIMMTRAK?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">KIMMTRAK can cause serious side effects that can be severe or, life threatening, and usually happens within the first three infusions. These side effects include:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">Cytokine Release Syndrome (CRS). Tell your healthcare provider right away if you get any of the following symptoms:</content>
+                                    <list listType="unordered">
+                                       <item>fever</item>
+                                       <item>tiredness or weakness</item>
+                                       <item>vomiting</item>
+                                       <item>chills</item>
+                                       <item>nausea</item>
+                                       <item>low blood pressure </item>
+                                       <item>dizziness and light headedness</item>
+                                       <item>headache</item>
+                                       <item>wheezing and trouble breathing</item>
+                                       <item>rash</item>
+                                    </list>
+                                 </item>
+                              </list>
+                              <paragraph>Your healthcare provider will check for these problems during treatment with KIMMTRAK. Your healthcare provider may temporarily stop or completely stop your treatment with KIMMTRAK, if you have severe side effects.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">See “<linkHtml href="#psblsideeffects">What are the possible side effects of KIMMTRAK?</linkHtml>
+                                 </content>” for more information about side effects.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What is KIMMTRAK?</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>KIMMTRAK is a prescription medicine used to treat HLA-A*02:01-positive adults with uveal melanoma that cannot be removed by surgery or has spread.</paragraph>
+                              <br/>
+                              <paragraph>Your healthcare provider will test you for a presence of HLA-A*02:01 gene to make sure KIMMTRAK is right for you. It is not known if KIMMTRAK is safe and effective in children.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">Before you receive KIMMTRAK, tell your healthcare provider about all of your medical conditions, including if you:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>are pregnant or plan to become pregnant. KIMMTRAK may harm your unborn baby. Tell your healthcare provider if you become pregnant during treatment with KIMMTRAK.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">For females who are able to become pregnant:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Your healthcare provider should do a pregnancy test before you start treatment with KIMMTRAK.</item>
+                                 <item>Use an effective form of birth control during treatment with KIMMTRAK and for at least 1 week after the last dose of KIMMTRAK.</item>
+                                 <item>are breastfeeding or plan to breastfeed. It is not known if KIMMTRAK passes into your breast milk. Do not breastfeed during the treatment with KIMMTRAK and for at least 1 week after the last dose of KIMMTRAK.</item>
+                              </list>
+                              <paragraph>Tell your healthcare provider about all medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How will I receive KIMMTRAK?</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>KIMMTRAK will be given to you by intravenous (IV) infusion into your vein for 15 to 20 minutes.</item>
+                                 <item>KIMMTRAK is usually given every week.</item>
+                                 <item>Your healthcare provider will decide how many treatments you need.</item>
+                                 <item>Your healthcare provider will keep you under observation for at least 16 hours following the first three KIMMTRAK treatments and for at least 30 minutes after future treatments.</item>
+                                 <item>Your healthcare provider may delay your treatment of KIMMTRAK if you have certain side effects.</item>
+                                 <item>Your healthcare provider may do blood tests regularly during treatment with KIMMTRAK.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph ID="psblsideeffects">
+                                 <content styleCode="bold">What are the possible side effects of KIMMTRAK?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">KIMMTRAK can cause serious side effects, including:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>
+                                    <content styleCode="bold">See "<linkHtml href="#impinf">What is the most important information I should know about KIMMTRAK?</linkHtml>”.</content>
+                                 </item>
+                                 <item>
+                                    <content styleCode="bold">Skin reactions</content>. KIMMTRAK may cause skin reactions that require treatment. Tell your healthcare provider if you get symptoms of skin reactions, such as rash, itching, or skin swelling, that are severe and do not go away.</item>
+                                 <item>
+                                    <content styleCode="bold">Abnormal liver blood tests. </content>Your healthcare provider will do blood tests to check your liver before you start KIMMTRAK and during treatment with KIMMTRAK. Tell your healthcare provider if you get symptoms of liver problems such as right-sided abdominal pain or yellowing of the skin or eyes.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">The most common side effects of KIMMTRAK include:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>cytokine release syndrome (CRS)</item>
+                                 <item>rash</item>
+                                 <item>fever</item>
+                                 <item>itching</item>
+                                 <item>tiredness</item>
+                                 <item>nausea</item>
+                                 <item>chills</item>
+                                 <item>stomach pain</item>
+                                 <item>swelling</item>
+                                 <item>low blood pressure (symptoms may include dizziness or light headedness)</item>
+                                 <item>dry skin</item>
+                                 <item>headache</item>
+                                 <item>vomiting</item>
+                                 <item>abnormal liver blood tests</item>
+                              </list>
+                              <paragraph>These are not all the possible side effects of KIMMTRAK.</paragraph>
+                              <paragraph>Call your healthcare provider for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">General information about safe and effective use of KIMMTRAK.</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information Leaflet. If you would like more information about KIMMTRAK, talk with your healthcare provider. You can ask your healthcare provider for more information about KIMMTRAK that is written for healthcare professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients in KIMMTRAK?</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">Active ingredient:</content> tebentafusp</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">Inactive ingredients:</content> citric acid monohydrate, di-sodium hydrogen phosphate, mannitol, polysorbate 20, trehalose, and Water for injection.</paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">Manufactured by:</content>
+                                 <br/>Immunocore  Limited
+											<br/>92 Park Drive, Milton Park
+											<br/>Abingdon, Oxfordshire
+											<br/>United Kingdom, OX144RY
+											<br/>License no: 2239</paragraph>
+                              <br/>
+                              <paragraph>at: Baxter Oncology GmbH, Kantstraβe 2, 33790 Halle/Westfalen Germany.</paragraph>
+                              <br/>
+                              <paragraph>For: Immunocore Commercial LLC 181 Washington Street Conshohocken, PA, US</paragraph>
+                              <br/>
+                              <paragraph>KIMMTRAK is a trademark of the Immunocore Limited</paragraph>
+                              <br/>
+                              <paragraph>For more information, go to www.KIMMTRAK.com or call 1-844-IMMUNO1 (1-844-466-8661).</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <br/>
+               </text>
+               <effectiveTime value="20220124"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp01">
+               <id root="f92eff3b-235c-476e-b1e2-59ebfa8dd4ee"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 80446-401-01 - 100 mcg/0.5 mL Carton Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM02"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20220111"/>
+               <component>
+                  <observationMedia ID="MM02">
+                     <text>80446-401-01 - 100 mcg/0.5 mL Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tabentafusp-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp02">
+               <id root="0b4421a3-f97f-4579-8662-a3d038c12588"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 80446-401-01 - 100 mcg/0.5 mL Vial Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20220111"/>
+               <component>
+                  <observationMedia ID="MM03">
+                     <text>80446-401-01 - 100 mcg/0.5 mL Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tabentafusp-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

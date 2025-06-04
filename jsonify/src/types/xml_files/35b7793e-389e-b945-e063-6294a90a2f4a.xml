@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="35b7793e-389e-b945-e063-6294a90a2f4a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250522"/>
+   <setId root="6484c309-2041-4c25-a233-9d1fb6da583c"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="867530307"/>
+            <name>ONESOURCE SPECIALTY PHARMA LIMITED</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="599466600"/>
+                  <name>Onesource Specialty Pte. Limited</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="867530307"/>
+                        <name>ONESOURCE SPECIALTY PHARMA LIMITED</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="83270-002" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="83270-002" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="83270-002" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="35b7739c-0996-282e-e063-6394a90a9828"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250522"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="83270-002" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Carboprost Tromethamine</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Carboprost Tromethamine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="023C2WHX2V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TROMETHAMINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="ug" value="250"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U4526F86FJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOPROST TROMETHAMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="7B5032XT6O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CARBOPROST</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83270-002-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="83270-002-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20231101"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA216897" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20231101"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>white to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L878fa7b7-19f7-4f93-a5f3-a3b83b41270e">
+               <id root="22c53f50-9843-ff46-e063-6394a90a8ecb"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Carboprost tromethamine injection, USP Sterile Solution, an oxytocic, contains the tromethamine salt of the (15S)-15 methyl analogue of naturally occurring prostaglandin F2α in a solution suitable for intramuscular injection. Carboprost tromethamine is the established name for the active ingredient in Carboprost tromethamine injection, USP. Four other chemical names are: 
+  <br/>  1. (15S)-15-methyl prostaglandin F2α tromethamine salt 
+  <br/>  2. 7-(3α,5α-dihydroxy-2ß-[(3S)-3-hydroxy-3-methyl-trans-1-octenyl]-1α-cyclopentyl]-cis-5-heptenoic acid compound with 2-amino-2-(hydroxymethyl)-1,3-propanediol 
+  <br/>  3. (15S)-9α,11α,15-trihydroxy-15-methylprosta-cis-5, trans-13-dienoic acid tromethamine salt 
+  <br/>  4. (15S)-15-methyl PGF2α-THAM 
+  <br/>  The structural formula is represented below:
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9df2db18-3851-4b2d-bfe6-18c1ba046fd0"/>
+                  </paragraph>
+                  <paragraph>The molecular formula is C25H47O8N. The molecular weight of carboprost tromethamine is 489.64. It is a white to slightly off-white crystalline powder. It generally melts between 95° and 105° C, depending on the rate of heating.</paragraph>
+                  <paragraph>Carboprost tromethamine dissolves readily in water at room temperature at a concentration greater than 75 mg/mL. 
+  <br/>  Each mL of carboprost tromethamine injection, USP Sterile Solution contains carboprost tromethamine equivalent to 250 mcg of carboprost, 83 mcg tromethamine, 9 mg sodium chloride, and 9.45 mg benzyl alcohol added as preservative. When necessary, pH is adjusted with sodium hydroxide and/or hydrochloric acid. The solution is sterile.
+ </paragraph>
+               </text>
+               <effectiveTime value="20240923"/>
+               <component>
+                  <observationMedia ID="L9df2db18-3851-4b2d-bfe6-18c1ba046fd0">
+                     <text>chemical-structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="chemical-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L46aa69aa-bd39-43cd-94f3-bd3fe4c519f1">
+               <id root="22c53f50-9844-ff46-e063-6394a90a8ecb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Carboprost tromethamine administered intramuscularly stimulates in the gravid uterus myometrial contractions similar to labor contractions at the end of a full term pregnancy. Whether or not these contractions result from a direct effect of carboprost on the myometrium has not been determined. Nonetheless, they evacuate the products of conception from the uterus in most cases.</paragraph>
+                  <paragraph>Postpartum, the resultant myometrial contractions provide hemostasis at the site of placentation.</paragraph>
+                  <paragraph>Carboprost tromethamine also stimulates the smooth muscle of the human gastrointestinal tract. This activity may produce the vomiting or diarrhea or both that is common when carboprost tromethamine is used to terminate pregnancy and for use postpartum. In laboratory animals and also in humans carboprost tromethamine can elevate body temperature. With the clinical doses of carboprost tromethamine used for the termination of pregnancy, and for use postpartum, some patients do experience transient temperature increases.</paragraph>
+                  <paragraph>In laboratory animals and in humans large doses of carboprost tromethamine can raise blood pressure, probably by contracting the vascular smooth muscle. With the doses of carboprost tromethamine used for terminating pregnancy, this effect has not been clinically significant. In laboratory animals and also in humans carboprost tromethamine can elevate body temperature. With the clinical doses of carboprost tromethamine used for the termination of pregnancy, some patients do experience temperature increases. In some patients, carboprost tromethamine may cause transient bronchoconstriction.</paragraph>
+                  <paragraph>Drug plasma concentrations were determined by radioimmunoassay in peripheral blood samples collected by different investigators from 10 patients undergoing abortion. The patients had been injected intramuscularly with 250 micrograms of carboprost at two hour intervals. Blood levels of drug peaked at an average of 2060 picograms/mL one-half hour after the first injection then declined to an average concentration of 770 picograms/mL two hours after the first injection just before the second injection. The average plasma concentration one-half hour after the second injection was slightly higher (2663 picograms/mL) than that after the first injection and decreased again to an average of 1047 picograms/mL by two hours after the second injection. Plasma samples were collected from 5 of these 10 patients following additional injections of the prostaglandin. The average peak concentrations of drug were slightly higher following each successive injection of the prostaglandin, but always decreased to levels less than the preceding peak values by two hours after each injection.</paragraph>
+                  <paragraph>Five women who had delivery spontaneously at term were treated immediately postpartum with a single injection of 250 micrograms of carboprost tromethamine. Peripheral blood samples were collected at several times during the four hours following treatment and carboprost tromethamine levels were determined by radioimmunoassay. The highest concentration of carboprost tromethamine was observed at 15 minutes in two patients (3009 and 2916 picograms/mL), at 30 minutes in two patients (3097 and 2792 picograms/mL), and at 60 minutes in one patient (2718 picograms/mL).</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1723c463-027e-4cd0-975b-9dc4988fdcb2">
+               <id root="22c53f50-9845-ff46-e063-6394a90a8ecb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Carboprost tromethamine administered intramuscularly stimulates in the gravid uterus myometrial contractions similar to labor contractions at the end of a full term pregnancy. Whether or not these contractions result from a direct effect of carboprost on the myometrium has not been determined. Nonetheless, they evacuate the products of conception from the uterus in most cases.</paragraph>
+                  <paragraph>Postpartum, the resultant myometrial contractions provide hemostasis at the site of placentation.</paragraph>
+                  <paragraph>Carboprost tromethamine also stimulates the smooth muscle of the human gastrointestinal tract. This activity may produce the vomiting or diarrhea or both that is common when carboprost tromethamine is used to terminate pregnancy and for use postpartum. In laboratory animals and also in humans carboprost tromethamine can elevate body temperature. With the clinical doses of carboprost tromethamine used for the termination of pregnancy, and for use postpartum, some patients do experience transient temperature increases.</paragraph>
+                  <paragraph>In laboratory animals and in humans large doses of carboprost tromethamine can raise blood pressure, probably by contracting the vascular smooth muscle. With the doses of carboprost tromethamine used for terminating pregnancy, this effect has not been clinically significant. In laboratory animals and also in humans carboprost tromethamine can elevate body temperature. With the clinical doses of carboprost tromethamine used for the termination of pregnancy, some patients do experience temperature increases. In some patients, carboprost tromethamine may cause transient bronchoconstriction.</paragraph>
+                  <paragraph>Drug plasma concentrations were determined by radioimmunoassay in peripheral blood samples collected by different investigators from 10 patients undergoing abortion. The patients had been injected intramuscularly with 250 micrograms of carboprost at two hour intervals. Blood levels of drug peaked at an average of 2060 picograms/mL one-half hour after the first injection then declined to an average concentration of 770 picograms/mL two hours after the first injection just before the second injection. The average plasma concentration one-half hour after the second injection was slightly higher (2663 picograms/mL) than that after the first injection and decreased again to an average of 1047 picograms/mL by two hours after the second injection. Plasma samples were collected from 5 of these 10 patients following additional injections of the prostaglandin. The average peak concentrations of drug were slightly higher following each successive injection of the prostaglandin, but always decreased to levels less than the preceding peak values by two hours after each injection.</paragraph>
+                  <paragraph>Five women who had delivery spontaneously at term were treated immediately postpartum with a single injection of 250 micrograms of carboprost tromethamine. Peripheral blood samples were collected at several times during the four hours following treatment and carboprost tromethamine levels were determined by radioimmunoassay. The highest concentration of carboprost tromethamine was observed at 15 minutes in two patients (3009 and 2916 picograms/mL), at 30 minutes in two patients (3097 and 2792 picograms/mL), and at 60 minutes in one patient (2718 picograms/mL).</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L09e3ba93-6acf-47fb-816a-c76027d92249">
+               <id root="22c53f50-9846-ff46-e063-6394a90a8ecb"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Carboprost tromethamine injection Sterile Solution is indicated for aborting pregnancy between the 13th and 20th weeks of gestation as calculated from the first day of the last normal menstrual period and in the following conditions related to second trimester abortion: Failure of expulsion of the fetus during the course of treatment by another method; Premature rupture of membranes in intrauterine methods with loss of drug and insufficient or absent uterine activity; Requirement of a repeat intrauterine instillation of drug for expulsion of the fetus; Inadvertent or spontaneous rupture of membranes in the presence of a previable fetus and absence of adequate activity for expulsion. Carboprost tromethamine injection is indicated for the treatment of postpartum hemorrhage due to uterine atony which has not responded to conventional methods of management. Prior treatment should include the use of intravenously administered oxytocin, manipulative techniques such as uterine massage and, unless contraindicated, intramuscular ergot preparations. Studies have shown that in such cases, the use of carboprost tromethamine injection has resulted in satisfactory control of hemorrhage, although it is unclear whether or not ongoing or delayed effects of previously administered ecbolic agents have contributed to the outcome. In a high proportion of cases, carboprost tromethamine injection used in this manner has resulted in the cessation of life threatening bleeding and the avoidance of emergency surgical intervention.</paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6e6f6c74-148e-40c2-a3d4-8ea2e228a8dc">
+               <id root="22c53f50-9847-ff46-e063-6394a90a8ecb"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>1. Hypersensitivity (including anaphylaxis and angioedema) to Carboprost tromethamine injection Sterile Solution [ see ADVERSE REACTIONS, Post-marketing Experience] 
+  <br/>  2. Acute pelvic inflammatory disease 
+  <br/>  3. Patients with active cardiac, pulmonary, renal or hepatic disease
+ </paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+               <component>
+                  <section ID="L7216dc0d-b321-4390-a4db-2d7293355a7b">
+                     <id root="22c53f50-9848-ff46-e063-6394a90a8ecb"/>
+                     <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+                     <title>WARNINGS</title>
+                     <text>
+                        <paragraph>Carboprost tromethamine injection Sterile Solution (carboprost tromethamine), like other potent oxytocic agents, should be used only with strict adherence to recommended dosages. 
+  <br/>  Carboprost tromethamine injection should be used by medically trained personnel in a hospital which can provide immediate intensive care and acute surgical facilities.
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20211112"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L6e7b72a2-0cb2-4d9a-9420-dc4cc25f8e8a">
+               <id root="22c53f50-9849-ff46-e063-6394a90a8ecb"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Carboprost tromethamine does not appear to directly affect the fetoplacental unit. Therefore, the possibility does exist that the previable fetus aborted by Carboprost tromethamine could exhibit transient life signs. Carboprost tromethamine is not indicated if the fetus in utero has reached the stage of viability. Carboprost tromethamine injection should not be considered a feticidal agent. 
+  <br/>  Evidence from animal studies has suggested that certain other prostaglandins have some teratogenic potential. Although these studies do not indicate that Carboprost tromethamine injection is teratogenic, any pregnancy termination with Carboprost tromethamine injection that fails should be completed by some other means. 
+  <br/>  This product contains benzyl alcohol. Benzyl alcohol has been reported to be associated with a fatal "Gasping Syndrome" in premature infants.
+ </paragraph>
+               </text>
+               <effectiveTime value="20220701"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L77eb8cea-94e8-4b18-8338-1d86f71e407f">
+               <id root="22c53f50-984a-ff46-e063-6394a90a8ecb"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Animal studies lasting several weeks at high doses have shown that prostaglandins of the E and F series can induce proliferation of bone. Such effects have also been noted in newborn infants who have received prostaglandin E1 during prolonged treatment. There is no evidence that short term administration of Carboprost tromethamine injection Sterile Solution can cause similar bone effects.</paragraph>
+                  <paragraph>In patients with a history of asthma, hypo- or hypertension, cardiovascular, renal, or hepatic disease, anemia, jaundice, diabetes, or epilepsy, carboprost tromethamine should be used cautiously.</paragraph>
+                  <paragraph>As with any oxytocic agent, carboprost tromethamine should be used with caution in patients with compromised (scarred) uteri.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Abortion</content>
+                  </paragraph>
+                  <paragraph>As with spontaneous abortion, a process which is sometimes incomplete, abortion induced by Carboprost tromethamine may be expected to be incomplete in about 20% of cases.</paragraph>
+                  <paragraph>Although the incidence of cervical trauma is extremely small, the cervix should always be carefully examined immediately post-abortion.</paragraph>
+                  <paragraph>Use of Carboprost tromethamine is associated with transient pyrexia that may be due to its effect on hypothalamic thermoregulation. Temperature elevations exceeding 2° F (1.1° C) were observed in approximately one-eighth of the patients who received the recommended dosage regimen. In all cases, temperature returned to normal when therapy ended. Differentiation of post-abortion endometritis from drug-induced temperature elevations is difficult, but with increasing clinical experience, the distinctions become more obvious and are summarized below:</paragraph>
+                  <table cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td valign="top"/>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Endometritis</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Pyrexia</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Pyrexia induced by</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Carboprost tromethamine injection</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>1.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Time of onset:</content>Typically, on third post-abortion day (38° C or higher).
+    
+     </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Within 1 to 16 hours after the first injection.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>2</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Duration:</content>Untreated pyrexia and infection continue and may give rise to other pelvic infections
+    
+     </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Temperatures revert to pretreatment levels after discontinuation of therapy without any other treatment.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>3</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Retention:</content>Products of conception are often retained in the cervical os or uterine cavity.
+    
+     </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Temperature elevation occurs whether or not tissue is retained.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>4.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Histology:</content>Endometrium is infiltrated with lymphocytes and some areas are and hemorrhagic.
+    
+     </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Although the endometrial stroma may be edematous and vascular, it is not necrotic inflamed.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>5.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">The uterus:</content>Often remains boggy and soft with tenderness over the fundus, and pain on moving the cervix on bimanual examination.
+    
+     </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Uterine involution normal and uterus is not tender.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>6.</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Discharge:</content>Often associated with foul- smelling lochia and leukorrhea.
+    
+     </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Lochia normal.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>7.</paragraph>
+                           </td>
+                           <td colspan="2" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Cervical culture:</content>The culture of pathological organisms from the cervix or uterine cavity after abortion alone does not warrant the diagnosis of septic abortion in the absence of clinical evidence of sepsis. Pathogens have been cultured soon after abortion in patients with no infections. Persistent positive culture with clear clinical signs of infections are significant in the differential diagnosis.
+    
+     </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>8.</paragraph>
+                           </td>
+                           <td colspan="2" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Blood count</content>: Leukocytosis and differential white cell counts do not distinguish between endometritis and hyperthermia caused by carboprost tromethamine injection since total WBC’s may increase during infection and transient leukocytosis may also be drug-induced.
+    
+     </paragraph>
+                              <paragraph>Fluids should be forced in patients with drug-induced fever and no clinical or bacteriological evidence of intrauterine infection. Any other simple empirical measures for temperature reduction are unnecessary because all fevers induced by carboprost tromethamine have been transient or self-limiting.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Postpartum Hemorrhage</content>
+                  </paragraph>
+                  <paragraph>Increased blood pressure. In the postpartum hemorrhage series, 5/115 (4%) of patients had an increase of blood pressure reported as a side effect. The degree of hypertension was moderate and it is not certain as to whether this was in fact due to a direct effect of Carboprost tromethamine or a return to a status of pregnancy associated hypertension manifest by the correction of hypovolemic shock. In any event the cases reported did not require specific therapy for the elevated blood pressure. Use in patients with chorioamnionitis. During the clinical trials with Carboprost tromethamine, chorioamnionitis was identified as a complication contributing to postpartum uterine atony and hemorrhage in 8/115 (7%) of cases, 3 of which failed to respond to Carboprost tromethamine. This complication during labor may have an inhibitory effect on the uterine response to Carboprost tromethamine similar to what has been reported for other oxytocic agents.
+ 
+  <sup>1</sup>
+                  </paragraph>
+                  <paragraph>
+                     <sup>1</sup>Duff, Sanders, and Gibbs; The course of labor in term patients with chorioamnionitis; Am. J. Obstet. Gynecol.; vol. 147, no. 4, October 15, 1983 pp 391–395.
+
+ </paragraph>
+                  <paragraph styleCode="CM1">
+                     <content styleCode="bold">Drug Interactions</content>
+                  </paragraph>
+                  <paragraph styleCode="CM10">Carboprost tromethamine may augment the activity of other oxytocic agents. Concomitant use with other oxytocic agents is not recommended.</paragraph>
+                  <paragraph styleCode="CM1">
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>Carcinogenic bioassay studies have not been conducted in animals with Carboprost tromethamine due to the limited indications for use and short duration of administration. No evidence of mutagenicity was observed in the Micronucleus Test or Ames Assay.</paragraph>
+                  <paragraph styleCode="CM1">
+                     <content styleCode="bold">Pregnancy:</content>
+                  </paragraph>
+                  <paragraph styleCode="CM1">Teratogenic Effects </paragraph>
+                  <paragraph styleCode="CM10">Animal studies do not indicate that Carboprost tromethamine is teratogenic, however, it has been shown to be embryotoxic in rats and rabbits and any dose which produces increased uterine tone could put the embryo or fetus at risk.</paragraph>
+                  <paragraph styleCode="CM1">
+                     <content styleCode="bold">Pediatric Use</content>
+                  </paragraph>
+                  <paragraph styleCode="CM10">Safety and effectiveness in pediatric patients have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20230627"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7db11224-b677-4ed7-8f91-1eeb9a5e2c9b">
+               <id root="22c53f50-984b-ff46-e063-6394a90a8ecb"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph styleCode="CM10 First">The adverse effects of Carboprost tromethamine Sterile Solution are generally transient and reversible when therapy ends. The most frequent adverse reactions observed are related to its contractile effect on smooth muscle.</paragraph>
+                  <paragraph styleCode="CM10">In patients studied, approximately two-thirds experienced vomiting and diarrhea, approximately one-third had nausea, one-eighth had a temperature increase greater than 2° F, and one-fourteenth experienced flushing.</paragraph>
+                  <paragraph styleCode="CM10">The pretreatment or concurrent administration of antiemetic and antidiarrheal drugs decreases considerably the very high incidence of gastrointestinal effects common with all prostaglandins used for abortion. Their use should be considered an integral part of the management of patients undergoing abortion with carboprost tromethamine injection.</paragraph>
+                  <paragraph styleCode="CM10">Of those patients experiencing a temperature elevation, approximately one-sixteenth had a clinical diagnosis of endometritis. The remaining temperature elevations returned to normal within several hours after the last injection.</paragraph>
+                  <paragraph>Adverse effects observed during the use of carboprost tromethamine injection for abortion and for hemorrhage, not all of which are clearly drug related, in decreasing order of frequency include:</paragraph>
+                  <table cellspacing="0" cellpadding="0">
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Vomiting</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Nervousness</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Diarrhea</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Nosebleed</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Nausea</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Sleep Disorders</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Flushing or hot flashes</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Dyspnea</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Chills or Shivering</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Tightness in chest</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Coughing</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Wheezing</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Headaches</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Posterior cervical</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Endometritis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>   perforation</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Hiccough</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Weakness</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Dysmenorrhea-like</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Diaphoresis</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>   pain</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Dizziness</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Paresthesia</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Blurred vision</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Backache</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Epigastric pain</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Muscular pain</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Excessive thirst</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Breast tenderness</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Twitching eyelids</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Eye pain</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Gagging, retching</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Drowsiness</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Dry throat</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Dystonia</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Sensation of choking</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Asthma</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Thyroid storm</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Injection site pain</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Syncope</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Tinnitus</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Palpitations</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Vertigo</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Rash</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Vaso-vagal syndrome</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Upper respiratory</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Dryness of mouth</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>   infection</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Hyperventilation</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Leg cramps</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Respiratory distress</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Perforated uterus</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Hematemesis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Anxiety</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Taste alteration</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Chest pain</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Urinary tract infection</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Retained placental</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Septic shock</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>   fragment</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Torticollis</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Shortness of breath</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Lethargy</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Fullness of throat</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Hypertension</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Uterine sacculation</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Tachycardia</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Faintness, light-</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Pulmonary edema</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>  headedness</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>Endometritis from</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>Uterine rupture</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>   IUCD</paragraph>
+                           </td>
+                           <td valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The most common complications when Carboprost tromethamine injection was utilized for abortion requiring additional treatment after discharge from the hospital were endometritis, retained placental fragments, and excessive uterine bleeding, occurring in about one in every 50 patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Post-marketing experience:</content>
+                  </paragraph>
+                  <paragraph>Hypersensitivity reactions (e.g. Anaphylactic reaction, Anaphylactic shock, Anaphylactoid reaction, Angioedema). </paragraph>
+               </text>
+               <effectiveTime value="20230628"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2cecb832-0aa3-4ff4-9f1b-3440ca34776a">
+               <id root="22c53f50-984c-ff46-e063-6394a90a8ecb"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1. Abortion and Indications 1–4</content>
+                  </paragraph>
+                  <paragraph>An initial dose of 1 mL of Carboprost tromethamine injection Sterile Solution (containing the equivalent of 250 micrograms of carboprost) is to be administered deep in the muscle with a tuberculin syringe. Subsequent doses of 250 micrograms should be administered at 1½ to 3½ hour intervals depending on uterine response.</paragraph>
+                  <paragraph>An optional test dose of 100 micrograms (0.4 mL) may be administered initially. The dose may be increased to 500 micrograms (2 mL) if uterine contractility is judged to be inadequate after several doses of 250 micrograms (1 mL).</paragraph>
+                  <paragraph>The total dose administered of carboprost tromethamine should not exceed 12 milligrams and continuous administration of the drug for more than two days is not recommended.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. For Refractory Postpartum Uterine Bleeding:</content>
+                  </paragraph>
+                  <paragraph>An initial dose of 250 micrograms of carboprost tromethamine injection Sterile Solution (1 mL of Carboprost tromethamine injection) is to be given deep, intramuscularly. In clinical trials it was found that the majority of successful cases (73%) responded to single injections. In some selected cases, however, multiple dosing at intervals of 15 to 90 minutes was carried out with successful outcome. The need for additional injections and the interval at which these should be given can be determined only by the attending physicians as dictated by the course of clinical events. The total dose of carboprost tromethamine injection USP should not exceed 2 milligrams (8 doses).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230628"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L1556486e-3027-4986-bd59-38ab8e390c15">
+               <id root="22c53f50-984d-ff46-e063-6394a90a8ecb"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Carboprost tromethamine injection, USP Sterile Solution is available in the following packages:</paragraph>
+                  <paragraph>1 mL single-dose vial NDC 83270-002-01</paragraph>
+                  <paragraph>10 x 1 mL single-dose vials NDC 83270-002-02</paragraph>
+                  <paragraph>Each mL of carboprost tromethamine injection contains carboprost tromethamine equivalent to 250 mcg of carboprost.</paragraph>
+                  <paragraph>Carboprost tromethamine injection must be refrigerated at 2° to 8° C (36° to 46° F). </paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured For:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>Steriscience Specialities Pte. Limited
+
+ </paragraph>
+                  <paragraph>Revised: September 2024</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Steriscience at 1-888-278-1784 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240923"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lffd27799-5a57-477f-b45c-3cb852ec8775">
+               <id root="22c53f50-984e-ff46-e063-6394a90a8ecb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 83270-
+ 
+  <content styleCode="bold">002</content>-01
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carboprost Tromethamine Injection</content>, USP 250 mcg/mL
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular use only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La630a3e8-b835-4150-bcf7-dca7719a83bc"/>
+                  </paragraph>
+                  <paragraph>NDC83270-
+ 
+  <content styleCode="bold">002</content>-02
+
+ </paragraph>
+                  <paragraph>Contains 10 of NDC 83270-
+ 
+  <content styleCode="bold">002</content>-01
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carboprost Tromethamine Injection, USP 250 mcg/mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular use only</content>
+                  </paragraph>
+                  <paragraph>10 x 1 mL Single-Dose Vials</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>      Steriscience
+
+ </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9212dfa9-9a34-44cf-8488-f5c727dd1f3e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240923"/>
+               <component>
+                  <observationMedia ID="La630a3e8-b835-4150-bcf7-dca7719a83bc">
+                     <text>image-vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="vial-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L9212dfa9-9a34-44cf-8488-f5c727dd1f3e">
+                     <text>image-carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

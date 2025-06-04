@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="34925c0c-1708-7485-e063-6294a90a6701"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20250507"/>
+   <setId root="23e772f8-26d0-b516-e063-6394a90ada58"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1661" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="34926ad6-5b65-8e05-e063-6294a90ab727"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250507"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1661" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>AUVI-Q</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>AUVI-Q</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="60842-021" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.78"/>
+                              <denominator unit="mL" value="0.1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="0.1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPINEPHRINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPINEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.15"/>
+                              <denominator unit="mL" value="0.1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1661-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43192" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DOSE PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51662-1661-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20121115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA201739" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20121115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7f865-ca2b-998e-e063-6294a90a1f5c">
+               <id root="23e7f865-ca2a-998e-e063-6294a90a1f5c"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>HIGHLIGHTS OF PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <br/>
+These highlights do not include all the information needed to use AUVI-Q® safely and effectively. See full prescribing information for AUVI-Q.
+  <br/>
+                     <br/>
+AUVI-Q® (epinephrine injection, USP),
+  <br/>
+for intramuscular or subcutaneous use
+  <br/>
+                     <br/>
+Initial U.S. Approval: 1939
+ </paragraph>
+                  <paragraph>INDICATIONS AND USAGE</paragraph>
+                  <paragraph>AUVI-Q is a non-selective alpha and beta-adrenergic receptor agonist indicated in the emergency treatment of allergic reactions (Type I) including anaphylaxis. (1)</paragraph>
+                  <paragraph>DOSAGE AND ADMINISTRATION</paragraph>
+                  <paragraph>Patients greater than or equal to 30 kg (66 lbs): AUVI-Q 0.3 mg (2)
+  <br/>
+Patients 15 to 30 kg (33 to 66 lbs): AUVI-Q 0.15 mg (2)
+  <br/>
+Patients 7.5 to 15 kg (16.5 to 33 lbs): AUVI-Q 0.1 mg (2)
+ </paragraph>
+                  <paragraph>Inject AUVI-Q intramuscularly or subcutaneously into the anterolateral aspect of the thigh, through clothing if necessary. Each device is a single-dose injection. (2)</paragraph>
+                  <paragraph>DOSAGE FORMS AND STRENGTHS</paragraph>
+                  <paragraph>Injection:</paragraph>
+                  <paragraph>0.3 mg: 0.3 mg/0.3 mL epinephrine injection, USP, pre-filled autoinjector (3)
+  <br/>
+0.15 mg: 0.15 mg/0.15 mL epinephrine injection, USP, pre-filled autoinjector (3)
+  <br/>
+0.1 mg: 0.1 mg/0.1 mL epinephrine injection, USP, pre-filled autoinjector (3)
+ </paragraph>
+                  <paragraph>CONTRAINDICATIONS</paragraph>
+                  <paragraph>None. (4)</paragraph>
+                  <paragraph>WARNINGS AND PRECAUTIONS</paragraph>
+                  <paragraph>In conjunction with use, seek immediate medical or hospital care. (5.1)
+  <br/>
+Do not inject intravenously, into buttock, or into digits, hands, or feet. (5.2)
+  <br/>
+To minimize the risk of injection-related injury, instruct caregivers to hold the child’s leg firmly in place and limit movement prior to and during injection when administering to young children or infants. (5.2)
+  <br/>
+Rare cases of serious skin and soft tissue infections have been reported following epinephrine injection. Advise patients to seek medical care if they develop signs or symptoms of infection at the epinephrine injection site. (5.3)
+  <br/>
+The presence of a sulfite in this product should not deter use. (5.4)
+  <br/>
+Administer with caution in patients with heart disease; may aggravate angina pectoris or produce ventricular arrhythmias. (5.5)
+ </paragraph>
+                  <paragraph>ADVERSE REACTIONS</paragraph>
+                  <paragraph>Adverse reactions to epinephrine include anxiety, apprehensiveness, restlessness, tremor, weakness, dizziness, sweating, palpitations, pallor, nausea and vomiting, headache, and/or respiratory difficulties. (6)</paragraph>
+                  <paragraph/>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact kaleo, Inc. at 1-877-302-8847 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>DRUG INTERACTIONS</paragraph>
+                  <paragraph>Cardiac glycosides or diuretics: observe for development of cardiac arrhythmias. (7)
+  <br/>
+Tricyclic antidepressants, monoamine oxidase inhibitors, levothyroxine sodium, and certain antihistamines: potentiate effects of epinephrine. (7)
+  <br/>
+Beta-adrenergic blocking drugs: antagonize cardiostimulating and bronchodilating effects of epinephrine. (7)
+  <br/>
+Alpha-adrenergic blocking drugs: antagonize vasoconstricting and hypertensive effects of epinephrine. (7)
+  <br/>
+Ergot alkaloids: may reverse the pressor effects of epinephrine. (7)
+ </paragraph>
+                  <paragraph>USE IN SPECIFIC POPULATIONS</paragraph>
+                  <paragraph>Elderly patients may be at greater risk of developing adverse reactions. (5.5, 8.5)</paragraph>
+                  <paragraph>See 17 for PATIENT COUNSELING INFORMATION and FDA-approved patient labeling.</paragraph>
+                  <paragraph>Revised: 2/2024</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7d92f-23ec-413b-e063-6394a90acd64">
+               <id root="23e7d92f-23eb-413b-e063-6394a90acd64"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TABLE OF CONTENTS</title>
+               <text>
+                  <paragraph>FULL PRESCRIBING INFORMATION: CONTENTS*
+  <br/>
+1 INDICATIONS AND USAGE
+  <br/>
+2 DOSAGE AND ADMINISTRATION
+  <br/>
+3 DOSAGE FORMS AND STRENGTHS
+  <br/>
+4 CONTRAINDICATIONS
+  <br/>
+5 WARNINGS AND PRECAUTIONS
+  <br/>
+5.1 Emergency Treatment
+  <br/>
+5.2 Injection-Related Complications
+  <br/>
+5.3 Serious Infections at the Injection Site
+  <br/>
+5.4 Allergic Reactions Associated with Sulfite
+  <br/>
+5.5 Disease Interactions
+  <br/>
+6 ADVERSE REACTIONS
+  <br/>
+7 DRUG INTERACTIONS
+  <br/>
+7.1 Drugs Increasing Risk of Cardiac Arrhythmias
+  <br/>
+7.2 Drugs Potentiating Effects of Epinephrine
+  <br/>
+7.3 Drugs Antagonizing Effects of Epinephrine
+  <br/>
+8 USE IN SPECIFIC POPULATIONS
+  <br/>
+8.1 Pregnancy
+  <br/>
+8.2 Lactation
+  <br/>
+8.4 Pediatric Use
+  <br/>
+8.5 Geriatric Use
+  <br/>
+10 OVERDOSAGE
+  <br/>
+11 DESCRIPTION
+  <br/>
+12 CLINICAL PHARMACOLOGY
+  <br/>
+12.1 Mechanism of Action
+  <br/>
+12.2 Pharmacodynamics
+  <br/>
+13 NONCLINICAL TOXICOLOGY
+  <br/>
+13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+  <br/>
+16 HOW SUPPLIED/STORAGE AND HANDLING
+  <br/>
+17 PATIENT COUNSELING INFORMATION
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Sections or subsections omitted from the full prescribing information are not listed.
+ </paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7fdd5-34a3-e5e0-e063-6294a90a7080">
+               <id root="23e7fdd5-34a2-e5e0-e063-6294a90a7080"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>AUVI-Q® is indicated in the emergency treatment of allergic reactions (Type I) including anaphylaxis to stinging insects (e.g., order Hymenoptera, which include bees, wasps, hornets, yellow jackets and fire ants) and biting insects (e.g., triatoma, mosquitoes), allergen immunotherapy, foods, drugs, diagnostic testing substances (e.g., radiocontrast media) and other allergens, as well as idiopathic anaphylaxis or exercise-induced anaphylaxis.</paragraph>
+                  <paragraph>AUVI-Q is intended for immediate administration in patients who are determined to be at increased risk for anaphylaxis, including individuals with a history of anaphylactic reactions.</paragraph>
+                  <paragraph>Anaphylactic reactions may occur within minutes after exposure and consist of flushing, apprehension, syncope, tachycardia, thready or unobtainable pulse associated with a fall in blood pressure, convulsions, vomiting, diarrhea and abdominal cramps, involuntary voiding, wheezing, dyspnea due to laryngeal spasm, pruritus, rashes, urticaria or angioedema.</paragraph>
+                  <paragraph>AUVI-Q is intended for immediate self-administration as emergency supportive therapy only and is not a substitute for immediate medical care.</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e80332-b3cd-6877-e063-6394a90ac195">
+               <id root="23e80332-b3cc-6877-e063-6394a90ac195"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>Selection of the appropriate dosage strength (AUVI-Q 0.3 mg, AUVI-Q 0.15 mg or AUVI-Q 0.1 mg) is determined according to patient body weight.</paragraph>
+                  <paragraph>Patients greater than or equal to 30 kg (approximately 66 pounds or more): AUVI-Q 0.3 mg
+  <br/>
+Patients 15 to 30 kg (33 to 66 pounds): AUVI-Q 0.15 mg
+  <br/>
+Patients 7.5 to 15 kg (16.5 to 33 pounds): AUVI-Q 0.1 mg
+ </paragraph>
+                  <paragraph>Inject AUVI-Q intramuscularly or subcutaneously into the anterolateral aspect of the thigh, through clothing if necessary. Instruct caregivers of young children and infants who are prescribed AUVI-Q and who may be uncooperative and kick or move during an injection to hold the child’s leg firmly in place and limit movement prior to and during an injection [see Warnings and Precautions (5.2)].</paragraph>
+                  <paragraph>Each AUVI-Q contains a single dose of epinephrine for single-dose injection. Since the doses of epinephrine delivered from AUVI-Q are fixed, consider using other forms of injectable epinephrine if doses lower than 0.1 mg are deemed necessary.</paragraph>
+                  <paragraph>The prescriber should carefully assess each patient to determine the most appropriate dose of epinephrine, recognizing the life-threatening nature of the reactions for which this drug is indicated. With severe persistent anaphylaxis, repeat injections with an additional AUVI-Q may be necessary. More than two sequential doses of epinephrine should only be administered under direct medical supervision [see Warnings and Precautions (5.1)].</paragraph>
+                  <paragraph>The epinephrine solution in the viewing window of AUVI-Q should be inspected visually for particulate matter and discoloration. Epinephrine is light sensitive and should be stored in the outer case provided to protect it from light [see How Supplied/ Storage and Handling (16)].</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e80332-b3d0-6877-e063-6394a90ac195">
+               <id root="23e80332-b3cf-6877-e063-6394a90ac195"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS &amp; STRENGTHS</title>
+               <text>
+                  <paragraph>Injection:</paragraph>
+                  <paragraph>0.3 mg/0.3 mL epinephrine injection, USP, pre-filled autoinjector
+  <br/>
+0.15 mg/0.15 mL epinephrine injection, USP, pre-filled autoinjector
+  <br/>
+0.1 mg/0.1 mL epinephrine injection, USP, pre-filled autoinjector
+ </paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7fdd5-34aa-e5e0-e063-6294a90a7080">
+               <id root="23e7fdd5-34a9-e5e0-e063-6294a90a7080"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>NONE</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7c79e-dfcb-217c-e063-6294a90abba6">
+               <id root="23e7c79e-dfca-217c-e063-6294a90abba6"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>5.1 Emergency Treatment</paragraph>
+                  <paragraph>AUVI-Q is not intended as a substitute for immediate medical care. In conjunction with the administration of epinephrine, the patient should seek immediate medical or hospital care. More than two sequential doses of epinephrine should only be administered under direct medical supervision [see Indications and Usage (1), Dosage and Administration (2) and Patient Counseling Information (17)].</paragraph>
+                  <paragraph>5.2 Injection-Related Complications</paragraph>
+                  <paragraph>AUVI-Q should ONLY be injected into the anterolateral aspect of the thigh [see Dosage and Administration (2) and Patient Counseling Information (17)].</paragraph>
+                  <paragraph>Do not inject intravenously. Large doses or accidental intravenous injection of epinephrine may result in cerebral hemorrhage due to sharp rise in blood pressure. Rapidly acting vasodilators can counteract the marked pressor effects of epinephrine if there is such inadvertent administration.
+  <br/>
+Do not inject into buttock. Injection into the buttock may not provide effective treatment of anaphylaxis. Advise the patient to go immediately to the nearest emergency room for further treatment of anaphylaxis. Additionally, injection into the buttock has been associated with Clostridial infections (gas gangrene). Cleansing with alcohol does not kill bacterial spores, and therefore, does not lower this risk.
+  <br/>
+Do not inject into digits, hands or feet. Since epinephrine is a strong vasoconstrictor, accidental injection into the digits, hands or feet may result in loss of blood flow to the affected area. Advise the patient to go immediately to the nearest emergency room and to inform the healthcare provider in the emergency room of the location of the accidental injection. Treatment of such inadvertent administration should consist of vasodilation, in addition to further appropriate treatment of anaphylaxis [see Adverse Reactions (6)].
+  <br/>
+Hold leg firmly during injection. To minimize the risk of injection-related injury when administering AUVI-Q to young children or infants, instruct caregivers to hold the child’s leg firmly in place and limit movement prior to and during injection.
+ </paragraph>
+                  <paragraph>5.3 Serious Infections at the Injection Site</paragraph>
+                  <paragraph>Rare cases of serious skin and soft tissue infections, including necrotizing fasciitis and myonecrosis caused by Clostridia (gas gangrene), have been reported at the injection site following epinephrine injection for anaphylaxis. Clostridium spores can be present on the skin and introduced into the deep tissue with subcutaneous or intramuscular injection. While cleansing with alcohol may reduce the presence of bacteria on the skin, alcohol cleansing does not kill Clostridium spores. To decrease the potential risk of a rare, but serious Clostridium infection, do not inject AUVI-Q into the buttock [see Warnings and Precautions (5.2)]. Advise patients to seek medical care if they develop signs or symptoms of infection, such as persistent redness, warmth, swelling, or tenderness, at the epinephrine injection site.</paragraph>
+                  <paragraph>5.4 Allergic Reactions Associated with Sulfite</paragraph>
+                  <paragraph>Epinephrine is the preferred treatment for serious allergic reactions or other emergency situations even though this product contains sodium bisulfite, a sulfite that may, in other products, cause allergic-type reactions including anaphylactic symptoms or life-threatening or less severe asthmatic episodes in certain susceptible persons.</paragraph>
+                  <paragraph>The presence of a sulfite in this product should not deter administration of the drug for treatment of serious allergic or other emergency situations even if the patient is sulfite-sensitive.</paragraph>
+                  <paragraph>The alternatives to using epinephrine in a life-threatening situation may not be satisfactory.</paragraph>
+                  <paragraph>5.5 Disease Interactions</paragraph>
+                  <paragraph>Some patients may be at greater risk for developing adverse reactions after epinephrine administration. Despite these concerns, it should be recognized that the presence of these conditions is not a contraindication to epinephrine administration in an acute, life-threatening situation. Therefore, patients with these conditions, and/or any other person who might be in a position to administer AUVI-Q to a patient experiencing anaphylaxis should be carefully instructed in regard to the circumstances under which epinephrine should be used.</paragraph>
+                  <paragraph>Patients with Heart Disease</paragraph>
+                  <paragraph>Epinephrine should be administered with caution to patients who have heart disease, including patients with cardiac arrhythmias, coronary artery or organic heart disease, or hypertension. In such patients, or in patients who are on drugs that may sensitize the heart to arrhythmias, epinephrine may precipitate or aggravate angina pectoris as well as produce ventricular arrhythmias [see Drug Interactions (7) and Adverse Reactions (6)].</paragraph>
+                  <paragraph>Other Patients and Diseases</paragraph>
+                  <paragraph>Epinephrine should be administered with caution to patients with hyperthyroidism, diabetes, elderly individuals, and pregnant women. Patients with Parkinson’s disease may notice a temporary worsening of symptoms.</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7fdd5-34ad-e5e0-e063-6294a90a7080">
+               <id root="23e7fdd5-34ac-e5e0-e063-6294a90a7080"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Due to lack of randomized, controlled clinical trials of epinephrine for the treatment of anaphylaxis, the true incidence of adverse reactions associated with the systemic use of epinephrine is difficult to determine. Adverse reactions reported in observational trials, case reports, and studies are listed below.</paragraph>
+                  <paragraph>Common adverse reactions to systemically administered epinephrine include anxiety; apprehensiveness; restlessness; tremor; weakness; dizziness; sweating; palpitations; pallor; nausea and vomiting; headache; and/or respiratory difficulties. These symptoms occur in some persons receiving therapeutic doses of epinephrine, but are more likely to occur in patients with hypertension or hyperthyroidism [see Warnings and Precautions (5.5)].</paragraph>
+                  <paragraph>Arrhythmias, including fatal ventricular fibrillation, have been reported, particularly in patients with underlying cardiac disease or those receiving certain drugs [see Warnings and Precautions (5.5) and Drug Interactions (7)].</paragraph>
+                  <paragraph>Rapid rises in blood pressure have produced cerebral hemorrhage, particularly in elderly patients with cardiovascular disease [see Warnings and Precautions (5.5)].</paragraph>
+                  <paragraph>Angina may occur in patients with coronary artery disease [see Warnings and Precautions (5.5)].</paragraph>
+                  <paragraph>Rare cases of stress cardiomyopathy have been reported in patients treated with epinephrine.</paragraph>
+                  <paragraph>Accidental injection into the digits, hands or feet may result in loss of blood flow to the affected area [see Warnings and Precautions (5.2)].</paragraph>
+                  <paragraph>Adverse events experienced as a result of accidental injections may include increased heart rate, local reactions including injection site pallor, coldness and hypoesthesia or injury at the injection site resulting in bruising, bleeding, discoloration, erythema or skeletal injury.</paragraph>
+                  <paragraph>Injection of epinephrine into the buttock has resulted in cases of gas gangrene [see Warnings and Precautions (5.2)].</paragraph>
+                  <paragraph>Rare cases of serious skin and soft tissue infections, including necrotizing fasciitis and myonecrosis caused by Clostridia (gas gangrene), have been reported at the injection site following epinephrine injection in the thigh [see Warnings and Precautions (5.2)].</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e81aca-7f4b-eaa6-e063-6294a90a115d">
+               <id root="23e81aca-7f4a-eaa6-e063-6294a90a115d"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>7.1 Drugs Increasing Risk of Cardiac Arrhythmias</paragraph>
+                  <paragraph>Patients who receive epinephrine while concomitantly taking cardiac glycosides, diuretics, or anti-arrhythmics should be observed carefully for the development of cardiac arrhythmias [see Warnings and Precautions (5.5)].</paragraph>
+                  <paragraph>7.2 Drugs Potentiating Effects of Epinephrine</paragraph>
+                  <paragraph>The effects of epinephrine may be potentiated by tricyclic antidepressants, monoamine oxidase inhibitors, levothyroxine sodium, and certain antihistamines, notably chlorpheniramine, tripelennamine, and diphenhydramine.</paragraph>
+                  <paragraph>7.3 Drugs Antagonizing Effects of Epinephrine</paragraph>
+                  <paragraph>The cardiostimulating and bronchodilating effects of epinephrine are antagonized by beta-adrenergic blocking drugs, such as propranolol.</paragraph>
+                  <paragraph>The vasoconstricting and hypertensive effects of epinephrine are antagonized by alpha-adrenergic blocking drugs, such as phentolamine.</paragraph>
+                  <paragraph>Ergot alkaloids may also reverse the pressor effects of epinephrine.</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e81e63-0349-0392-e063-6394a90ae79c">
+               <id root="23e81e63-0348-0392-e063-6394a90ae79c"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>There are no adequate and well controlled studies of the acute effect of epinephrine in pregnant women. In animal reproductive studies, epinephrine administered by the subcutaneous route to rabbits, mice, and hamsters during the period of organogenesis was teratogenic at doses 7 times and higher than the maximum recommended human intramuscular and subcutaneous dose on a mg/m2 basis. Epinephrine is the first-line medication of choice for the treatment of anaphylaxis during pregnancy in humans. Epinephrine should be used for treatment of anaphylaxis during pregnancy in the same manner as it is used in non-pregnant patients.</paragraph>
+                  <paragraph>In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                  <paragraph>Clinical Considerations</paragraph>
+                  <paragraph>Disease-associated maternal and embryo/fetal risk:</paragraph>
+                  <paragraph>During pregnancy, anaphylaxis can be catastrophic and can lead to hypoxic-ischemic encephalopathy and permanent central nervous system damage or death in the mother and, more commonly, in the fetus or neonate. The prevalence of anaphylaxis occurring during pregnancy is reported to be approximately 3 cases per 100,000 deliveries.</paragraph>
+                  <paragraph>Management of anaphylaxis during pregnancy is similar to management in the general population. Epinephrine is the first line-medication of choice for treatment of anaphylaxis; it should be used in the same manner in pregnant and non-pregnant patients. In conjunction with the administration of epinephrine, the patient should seek immediate medical or hospital care.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Animal Data:</paragraph>
+                  <paragraph>In an embryofetal development study with rabbits dosed during the period of organogenesis, epinephrine was shown to be teratogenic (including gastroschisis and embryonic lethality) at doses approximately 40 times the maximum recommended intramuscular or subcutaneous dose (on a mg/m2 basis at a maternal subcutaneous dose of 1.2 mg/kg/day for two to three days).</paragraph>
+                  <paragraph>In an embryofetal development study with mice dosed during the period of organogenesis, epinephrine was shown to be teratogenic (including embryonic lethality) at doses approximately 8 times the maximum recommended intramuscular or subcutaneous dose (on a mg/m2 basis at a maternal subcutaneous dose of 1 mg/kg/day for 10 days). These effects were not seen in mice at approximately 4 times the maximum recommended daily intramuscular or subcutaneous dose (on a mg/m2 basis at a subcutaneous maternal dose of 0.5 mg/kg/day for 10 days).</paragraph>
+                  <paragraph>In an embryofetal development study with hamsters dosed during the period of organogenesis from gestation days 7 to 10, epinephrine was shown to be teratogenic at doses approximately 7 times the maximum recommended daily intramuscular or subcutaneous dose (on a mg/m2 basis at a maternal subcutaneous dose of 0.5 mg/kg/day for 4 days).</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>There is no information on the presence of epinephrine in human milk, the effects on breastfed infants, or the effects on milk production. Epinephrine is the first line-medication of choice for treatment of anaphylaxis; it should be used in the same manner in breastfeeding and non-breastfeeding patients.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>AUVI-Q may be administered to pediatric patients at a dosage appropriate to body weight [see Dosage and Administration (2)]. Clinical experience with the use of epinephrine suggests that the adverse reactions seen in children are similar in nature and extent to those both expected and reported in adults. Since the doses of epinephrine delivered from AUVI-Q are fixed, consider using other forms of injectable epinephrine if doses lower than 0.1 mg are deemed necessary.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of AUVI-Q did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. Epinephrine should be administered with caution in elderly individuals, who may be at greater risk for developing adverse reactions after epinephrine administration [see Warnings and Precautions (5.5), Overdosage (10)].</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e7f098-0b03-ae4b-e063-6294a90a105c">
+               <id root="23e7f098-0b02-ae4b-e063-6294a90a105c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage of epinephrine may produce extremely elevated arterial pressure, which may result in cerebrovascular hemorrhage, particularly in elderly patients. Overdosage may also result in pulmonary edema because of peripheral vascular constriction together with cardiac stimulation. Treatment consists of rapidly acting vasodilators or alpha-adrenergic blocking drugs and/or respiratory support.</paragraph>
+                  <paragraph>Epinephrine overdosage can also cause transient bradycardia followed by tachycardia, and these may be accompanied by potentially fatal cardiac arrhythmias. Premature ventricular contractions may appear within one minute after injection and may be followed by multifocal ventricular tachycardia (prefibrillation rhythm). Subsidence of the ventricular effects may be followed by atrial tachycardia and occasionally by atrioventricular block. Treatment of arrhythmias consists of administration of a beta-adrenergic blocking drug such as propranolol.</paragraph>
+                  <paragraph>Overdosage sometimes results in extreme pallor and coldness of the skin, metabolic acidosis, and kidney failure. Suitable corrective measures must be taken in such situations.</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e82929-4146-2ebc-e063-6294a90a709a">
+               <id root="23e82929-4145-2ebc-e063-6294a90a709a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>AUVI-Q (epinephrine injection, USP) 0.3 mg, 0.15 mg and 0.1 mg is an autoinjector and a combination product containing drug and device components.</paragraph>
+                  <paragraph>AUVI-Q includes audible (electronic voice instructions, beeps) and visible (LED lights) cues for use. The needle automatically retracts after the injection is complete.</paragraph>
+                  <paragraph>Each AUVI-Q 0.3 mg delivers a single dose of 0.3 mg epinephrine from epinephrine injection, USP (0.3 mL) in a sterile solution.</paragraph>
+                  <paragraph>Each AUVI-Q 0.15 mg delivers a single dose of 0.15 mg epinephrine from epinephrine injection, USP (0.15 mL) in a sterile solution.</paragraph>
+                  <paragraph>Each AUVI-Q 0.1 mg delivers a single dose of 0.1 mg epinephrine from epinephrine injection, USP (0.1 mL) in a sterile solution .</paragraph>
+                  <paragraph>AUVI-Q 0.3 mg, AUVI-Q 0.15 mg and AUVI-Q 0.1 mg each contain 0.76 mL epinephrine solution. 0.3 mL, 0.15 mL and 0.1 mL epinephrine solution is dispensed for AUVI-Q 0.3 mg, AUVI-Q 0.15 mg and AUVI-Q 0.1 mg, respectively, when activated. The remaining solution is not available for future use and should be discarded.</paragraph>
+                  <paragraph>Each 0.3 mL in AUVI-Q 0.3 mg contains 0.3 mg epinephrine, 2.3 mg sodium chloride, 0.5 mg sodium bisulfite, hydrochloric acid to adjust pH, and water for injection. The pH range is 2.2–5.0.</paragraph>
+                  <paragraph>Each 0.15 mL in AUVI-Q 0.15 mg contains 0.15 mg epinephrine, 1.2 mg sodium chloride, 0.2 mg sodium bisulfite, hydrochloric acid to adjust pH, and water for injection. The pH range is 2.2–5.0.</paragraph>
+                  <paragraph>Each 0.1 mL in AUVI-Q 0.1 mg contains 0.1 mg epinephrine, 0.78 mg sodium chloride, 0.15 mg sodium bisulfite, hydrochloric acid to adjust pH, and water for injection. The pH range is 2.2–5.0.</paragraph>
+                  <paragraph>Epinephrine is a sympathomimetic catecholamine. Chemically, epinephrine is (-)-3,4-Dihydroxy-α-[(methylamino)methyl]benzyl alcohol with the following structure:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23e81aca-7f50-eaa6-e063-6294a90a115d"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Epinephrine solution deteriorates rapidly on exposure to air or light, turning pink from oxidation to adrenochrome and brown from the formation of melanin.</paragraph>
+                  <paragraph>AUVI-Q is not made with natural rubber latex.</paragraph>
+                  <paragraph>AUVI-Q instructional and safety systems should be thoroughly reviewed with patients and caregivers prior to use [see Patient Counseling Information (17)].</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20241007"/>
+               <component>
+                  <observationMedia ID="img_23e81aca-7f50-eaa6-e063-6294a90a115d">
+                     <text>Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1661 STRUCTURE.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e83048-2404-b588-e063-6394a90adc4c">
+               <id root="23e83048-2403-b588-e063-6394a90adc4c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Epinephrine acts on both alpha and beta-adrenergic receptors.</paragraph>
+                  <paragraph>12.2 Pharmacodynamics</paragraph>
+                  <paragraph>Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension.</paragraph>
+                  <paragraph>Through its action on beta-adrenergic receptors, epinephrine causes bronchial smooth muscle relaxation and helps alleviate bronchospasm, wheezing and dyspnea that may occur during anaphylaxis.</paragraph>
+                  <paragraph>Epinephrine also alleviates pruritus, urticaria, and angioedema and may relieve gastrointestinal and genitourinary symptoms associated with anaphylaxis because of its relaxer effects on the smooth muscle of the stomach, intestine, uterus and urinary bladder.</paragraph>
+                  <paragraph>When given subcutaneously or intramuscularly, epinephrine has a rapid onset and short duration of action.</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e83048-2406-b588-e063-6394a90adc4c">
+               <id root="23e83048-2405-b588-e063-6394a90adc4c"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Long-term studies to evaluate the carcinogenic potential of epinephrine have not been conducted.</paragraph>
+                  <paragraph>Epinephrine and other catecholamines have been shown to have mutagenic potential in vitro. Epinephrine was positive in the Salmonella bacterial reverse mutation assay, positive in the mouse lymphoma assay, and negative in the in vivo micronucleus assay. Epinephrine is an oxidative mutagen based on the E. coli WP2 Mutoxitest bacterial reverse mutation assay. This should not prevent the use of epinephrine under the conditions noted under the Indications and Usage (1).</paragraph>
+                  <paragraph>The potential for epinephrine to impair reproductive performance has not been evaluated, but epinephrine has been shown to decrease implantation in female rabbits dosed subcutaneously with 1.2 mg/kg/day (40-fold the highest human intramuscular or subcutaneous daily dose) during gestation days 3 to 9.</paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e884c4-c867-1926-e063-6394a90a0310">
+               <id root="23e884c4-c866-1926-e063-6394a90a0310"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23e86a22-d89a-e023-e063-6394a90a39b7"/>
+                  </paragraph>
+                  <paragraph>Storage and Handling</paragraph>
+                  <paragraph>Epinephrine is light sensitive and should be stored in the outer case provided to protect it from light. Store at 20℃ to 25℃ (68℉ to 77℉); excursions permitted to 15℃ to 30℃℉ (59℉ to 86℉) [See USP Controlled Room Temperature]. Do not freeze. Before using, check to make sure the solution in the autoinjector is clear and colorless. Replace the autoinjector if the solution is discolored, cloudy, or contains particles.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20241007"/>
+               <component>
+                  <observationMedia ID="img_23e86a22-d89a-e023-e063-6394a90a39b7">
+                     <text>HOW SUPPLIED</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1661 how supplied.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e891f2-b1c0-90da-e063-6294a90a40a8">
+               <id root="23e891f2-b1bf-90da-e063-6294a90a40a8"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information and Instructions for Use).</paragraph>
+                  <paragraph>A healthcare provider should review the patient instructions and operation of AUVI-Q, in detail, with the patient or caregiver.</paragraph>
+                  <paragraph>Epinephrine is essential for the treatment of anaphylaxis. Patients who are at risk of or with a history of severe allergic reactions (anaphylaxis) to insect stings or bites, foods, drugs, and other allergens, as well as idiopathic and exercise-induced anaphylaxis, should be carefully instructed about the circumstances under which epinephrine should be used.</paragraph>
+                  <paragraph>Administration and Training</paragraph>
+                  <paragraph>Instruct patients and/or caregivers in the appropriate use of AUVI-Q. AUVI-Q should be injected into the middle of the outer thigh (through clothing, if necessary). Each device is a single-dose injection. Advise patients to seek immediate medical care in conjunction with administration of AUVI-Q.</paragraph>
+                  <paragraph>Young children or infants may be uncooperative and kick or move during an injection. Instruct caregivers to hold the leg of young children or infants firmly in place and limit movement prior to and during injection [see Warnings and Precautions (5.2)].</paragraph>
+                  <paragraph>Complete patient information, including dosage, directions for proper administration and precautions can be found inside each AUVI-Q carton. Review AUVI-Q’s instructional and safety systems with patients and/or caregivers. These systems include the printed label on the surface of AUVI-Q showing instructions for use and a diagram depicting the injection process, an automatic needle retraction system, visual prompts, electronic beeps, and voice instructions for use. Instruct patients and/or caregivers that the needle will not be visible after the injection and they may not feel the injection when it occurs. Instruct patients that AUVI-Q includes a 2-second countdown after it is activated and then the voice instructions will indicate the injection is complete and to seek emergency medical attention. Instruct patients that AUVI-Q’s black base will lock up onto the device housing and the lights will blink red after the injection is complete. These post-use indicators help patients and/or caregivers know that AUVI-Q has been activated and an epinephrine injection administered.</paragraph>
+                  <paragraph>Instruct patients and/or caregivers to use and practice with the Trainer to familiarize themselves with the use of AUVI-Q in an allergic emergency. The Trainer may be used multiple times.</paragraph>
+                  <paragraph>Adverse Reactions</paragraph>
+                  <paragraph>Epinephrine may produce symptoms and signs that include an increase in heart rate, the sensation of a more forceful heartbeat, palpitations, sweating, nausea and vomiting, difficulty breathing, pallor, dizziness, weakness or shakiness, headache, apprehension, nervousness, or anxiety. These symptoms and signs usually subside rapidly, especially with rest, quiet and recumbency. Patients with hypertension or hyperthyroidism may develop more severe or persistent effects, and patients with coronary artery disease could experience angina. Patients with diabetes may develop increased blood glucose levels following epinephrine administration. Patients with Parkinson’s disease may notice a temporary worsening of symptoms [see Warnings and Precautions (5.5)].</paragraph>
+                  <paragraph>Accidental Injection</paragraph>
+                  <paragraph>Patients should be advised to seek immediate medical care in the case of accidental injection. Since epinephrine is a strong vasoconstrictor when injected into the digits, hands, or feet, treatment should be directed at vasodilatation if there is such an accidental injection to these areas [see Warnings and Precautions (5.2)].</paragraph>
+                  <paragraph>Serious Infections at the Injection Site</paragraph>
+                  <paragraph>Rare cases of serious skin and soft tissue infections, including necrotizing fasciitis and myonecrosis caused by Clostridia (gas gangrene), have been reported at the injection site following epinephrine injection for anaphylaxis. Advise patients to seek medical care if they develop signs or symptoms of infection, such as persistent redness, warmth, swelling, or tenderness, at the epinephrine injection site [see Warnings and Precautions (5.3)].</paragraph>
+                  <paragraph>Storage and Handling</paragraph>
+                  <paragraph>Patients should be instructed to inspect the epinephrine solution visually through the viewing window periodically. AUVI-Q should be replaced if the epinephrine solution appears discolored (pinkish color or darker than slightly yellow), cloudy, or contains particles. Epinephrine is light sensitive and should be stored in the outer case provided to protect it from light. Instruct patients that AUVI-Q must be used or properly disposed once the red safety guard is removed [see How Supplied/ Storage and Handling (16)].</paragraph>
+                  <paragraph>Complete patient information, including dosage, directions for proper administration and precautions can be found inside each AUVI-Q carton.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20241007"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e8bc4b-fae0-0e63-e063-6294a90a4e4d">
+               <id root="349278b7-b387-862a-e063-6294a90ad464"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 51662-1661-1 LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_349267a6-8fd0-23f0-e063-6294a90a2edd"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+               <component>
+                  <observationMedia ID="img_349267a6-8fd0-23f0-e063-6294a90a2edd">
+                     <text>RFID Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="00351662166116  RFID Label Image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_23e8d32f-6e24-4471-e063-6394a90a2a3a">
+               <id root="23e8d32f-6e23-4471-e063-6394a90a2a3a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 51662-1661-2 LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_23e8bc4b-fae4-0e63-e063-6294a90a4e4d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241007"/>
+               <component>
+                  <observationMedia ID="img_23e8bc4b-fae4-0e63-e063-6294a90a4e4d">
+                     <text>SERIALIZED LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1661-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

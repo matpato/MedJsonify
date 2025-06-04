@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="f50e7f65-8bca-4df1-bff1-8069b33def90"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nafcillin for Injection, USP
+</title>
+   <effectiveTime value="20250427"/>
+   <setId root="a6a4e122-b7f5-4eb5-8555-7aea6eda794b"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080579617" root="1.3.6.1.4.1.519.1"/>
+            <name>Sagent Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="2404648f-c0fa-44af-b4c1-8eb951659c5b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250427"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="25021-198" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nafcillin</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Nafcillin Sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="10" unit="g"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="49G3001BCK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>nafcillin sodium</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="4CNZ27M7RV" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>nafcillin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="25021-198-99" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250415"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250415"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090005" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="d34cbda8-aa5a-4349-b3b9-34184825a161"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="25.000%" align="left"/>
+                     <col width="50.000%" align="left"/>
+                     <col width="25.000%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="top"/>
+                           <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">PHARMACY BULK PACKAGE – <br/>NOT FOR DIRECT INFUSION</content>
+                           </td>
+                           <td align="center" valign="top"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>SAGENT<sup>®</sup>
+                     <br/>Rx only
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Nafcillin for Injection and other antibacterial drugs, Nafcillin for Injection should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="70b1ea9a-1441-4017-a51e-f248692d1d16"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Nafcillin for Injection, USP is a semisynthetic antibiotic penicillin derived from the penicillin nucleus 6-aminopenicillanic acid. It is the sodium salt in a parenteral dosage form. The chemical name is 4-Thia-1-azabicyclo [3.2.0]heptane-2-carboxylic acid, 6-[[(2-ethoxy-1-naphthalenyl)carbonyl]amino]-3,3-dimethyl-7-oxo-monosodium salt, monohydrate [2<content styleCode="italics">S</content>(2α,5α,6β)]. It is resistant to inactivation by the enzyme penicillinase (beta-lactamase). The structural formula of nafcillin sodium is as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="50.000%" align="left"/>
+                     <col width="50.000%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="2" align="center" valign="top">
+                              <renderMultiMedia ID="f01" referencedObject="mm01"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" valign="top">C<sub>21</sub>H<sub>21</sub>N<sub>2</sub>NaO<sub>5</sub>S·H<sub>2</sub>O
+</td>
+                           <td align="center" valign="top">M.W. 454.47
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Each Nafcillin for Injection, USP Pharmacy Bulk Package is supplied as a dry powder in bottles containing nafcillin sodium and is intended for intravenous use only. It is soluble in water. The pH of the aqueous solution is 6.0 to 8.5. Each Pharmacy Bulk Package bottle contains nafcillin sodium, as the monohydrate equivalent to 10 grams of nafcillin. The sodium content is 65.8 mg [2.9 mEq] per gram of nafcillin. The product is buffered with 40 mg sodium citrate per gram.
+</paragraph>
+                  <paragraph>A Pharmacy Bulk Package is a container of sterile dosage form which contains many single doses. The contents are intended for use in a pharmacy admixture program and are restricted to the preparation of admixtures for intravenous infusion. FURTHER DILUTION IS REQUIRED AFTER RECONSTITUTION (see <content styleCode="bold">
+                        <linkHtml href="#s32">DOSAGE AND ADMINISTRATION</linkHtml>,</content> and <content styleCode="bold">
+                        <linkHtml href="#s33">DIRECTIONS FOR PROPER USE OF PHARMACY BULK PACKAGE</linkHtml>
+                     </content>). <content styleCode="bold">NOT TO BE DISPENSED AS A UNIT.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <observationMedia ID="mm01">
+                     <text>Structural Formula of Nafcillin Sodium
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naf0c-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="f95c4dba-35c8-4cf4-89a3-72bc29821cf6"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <text>
+                  <paragraph>In a study of five healthy adults administered a single 500 mg dose of nafcillin by intravenous injection over seven minutes, the mean plasma concentration of the drug was approximately 30 mcg/mL at 5 minutes after injection. The mean area under the plasma concentration-versus-time curve (AUC) for nafcillin in this study was 18.06 mcg•h/mL.
+</paragraph>
+                  <paragraph>The serum half-life of nafcillin administered by the intravenous route ranged from 33 to 61 minutes as measured in three separate studies.
+</paragraph>
+                  <paragraph>In contrast to the other penicillinase-resistant penicillins, only about 30% of nafcillin is excreted as unchanged drug in the urine of normal volunteers, and most within the first six hours. Nafcillin is primarily eliminated by nonrenal routes, namely hepatic inactivation and excretion in the bile.
+</paragraph>
+                  <paragraph>Nafcillin binds to serum proteins, mainly albumin. The degree of protein binding reported for nafcillin is 89.9 ± 1.5%. Reported values vary with the method of study and the investigator.
+</paragraph>
+                  <paragraph>The concurrent administration of probenecid with nafcillin increases and prolongs plasma concentrations of nafcillin. Probenecid significantly reduces the total body clearance of nafcillin with renal clearance being decreased to a greater extent than nonrenal clearance.
+</paragraph>
+                  <paragraph>The penicillinase-resistant penicillins are widely distributed in various body fluids, including bile, pleural, amniotic and synovial fluids. With normal doses insignificant concentrations are found in the aqueous humor of the eye. High nafcillin CSF levels have been obtained in the presence of inflamed meninges.
+</paragraph>
+                  <paragraph>Renal failure does not appreciably affect the serum half-life of nafcillin; therefore, no modification of the usual nafcillin dosage is necessary in renal failure with or without hemodialysis. Hemodialysis does not accelerate the rate of clearance of nafcillin from the blood.
+</paragraph>
+                  <paragraph>A study which assessed the effects of cirrhosis and extrahepatic biliary obstruction in man demonstrated that the plasma clearance of nafcillin was significantly decreased in patients with hepatic dysfunction. In these patients with cirrhosis and extrahepatic obstruction, nafcillin excretion in the urine was significantly increased from about 30 to 50% of the administered dose, suggesting that renal disease superimposed on hepatic disease could further decrease nafcillin clearance.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <section ID="s4">
+                     <id root="17952256-2227-47a7-81bc-f787925cf305"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology
+</title>
+                     <text>
+                        <paragraph>Penicillinase-resistant penicillins exert a bactericidal action against penicillin-susceptible microorganisms during the state of active multiplication. All penicillins inhibit the biosynthesis of the bacterial cell wall. Nafcillin sodium has been shown to be active against most isolates of the following microorganism, both <content styleCode="italics">in vitro</content> and in clinical infections as described in the <content styleCode="bold">
+                              <linkHtml href="#s7">INDICATIONS AND USAGE</linkHtml>
+                           </content> section.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                     <component>
+                        <section ID="s5">
+                           <id root="cbee44a3-a893-4c9b-8715-5ba43a77a052"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Gram-Positive Bacteria
+</title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Staphylococcus aureus</content> (Methicillin susceptible isolates only)
+</paragraph>
+                           </text>
+                           <effectiveTime value="20250427"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="0d274815-3842-466c-85d7-5b823b76caec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Susceptibility Testing
+</title>
+                     <text>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="653bc9d0-7de1-4bfd-902d-91875ab0d666"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Nafcillin is indicated in the treatment of infections caused by penicillinase-producing staphylococci which have demonstrated susceptibility to the drug. Culture and susceptibility tests should be performed initially to determine the causative organism and its susceptibility to the drug (see <content styleCode="bold">
+                        <linkHtml href="#s6">CLINICAL PHARMACOLOGY - Susceptibility Testing</linkHtml>
+                     </content>).
+</paragraph>
+                  <paragraph>Nafcillin should not be used in infections caused by organisms susceptible to penicillin G. If the susceptibility tests indicate that the infection is due to a methicillin-resistant <content styleCode="italics">Staphylococcus</content> sp., therapy with Nafcillin for Injection should be discontinued and alternative therapy provided.
+</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Nafcillin for Injection, USP and other antibacterial drugs, Nafcillin for Injection, USP should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s8">
+               <id root="f61e45cf-736d-4098-9520-4cca390dbf12"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>A history of a hypersensitivity (anaphylactic) reaction to any penicillin is a contraindication.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s9">
+               <id root="7d81c17a-f96f-42a8-bf67-ea4566dd8018"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>Serious and occasionally fatal hypersensitivity (anaphylactic) reactions have been reported in patients on penicillin therapy. These reactions are more likely to occur in individuals with a history of penicillin hypersensitivity and/or a history of sensitivity to multiple allergens. Before initiating therapy with nafcillin, careful inquiry should be made concerning previous hypersensitivity reactions to penicillins, cephalosporins, or other allergens. If an allergic reaction occurs, nafcillin should be discontinued and appropriate therapy instituted.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium difficile</content> associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including Nafcillin for Injection, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.
+</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile</content> produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile</content> cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.
+</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile</content> may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s10">
+               <id root="51e47c2f-96c5-451b-9b1e-23344712059a"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <section ID="s11">
+                     <id root="fb38e277-9f53-4550-9162-f93686aac825"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Nafcillin should generally not be administered to patients with a history of sensitivity to any penicillin.
+</paragraph>
+                        <paragraph>Penicillin should be used with caution in individuals with histories of significant allergies and/or asthma. Whenever allergic reactions occur, penicillin should be withdrawn unless, in the opinion of the physician, the condition being treated is life-threatening and amenable only to penicillin therapy. The use of antibiotics may result in overgrowth of nonsusceptible organisms. If new infections due to bacteria or fungi occur, the drug should be discontinued and appropriate measures taken.
+</paragraph>
+                        <paragraph>The liver/biliary tract is the primary route of nafcillin clearance. Caution should be exercised when patients with concomitant hepatic insufficiency and renal dysfunction are treated with nafcillin.
+</paragraph>
+                        <paragraph>Prescribing Nafcillin for Injection in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="4a890a73-03c5-4017-a340-1fc49bd60fbf"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests
+</title>
+                     <text>
+                        <paragraph>Bacteriologic studies to determine the causative organisms and their susceptibility to penicillinase-resistant penicillins should be performed (see <content styleCode="bold">
+                              <linkHtml href="#s4">CLINICAL PHARMACOLOGY, Microbiology</linkHtml>
+                           </content>). In the treatment of suspected staphylococcal infections, therapy should be changed to another active agent if culture tests fail to demonstrate the presence of staphylococci.
+</paragraph>
+                        <paragraph>Periodic assessment of organ system function including renal, hepatic, and hematopoietic should be made during prolonged therapy with nafcillin. White blood cell and differential cell counts should be obtained prior to initiation of therapy and periodically during therapy with nafcillin. Urinalysis, serum blood urea nitrogen, and creatinine determinations should be performed at baseline and periodically during therapy with nafcillin. Serum bilirubin, aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase, and gamma glutamyl transferase should be obtained at baseline and periodically during therapy, especially when using high nafcillin doses. In patients with worsening hepatic function, the risk versus benefit of continued nafcillin use should be re-evaluated.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="b9752942-f8a3-4098-aede-9b9319cac7b2"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <text>
+                        <paragraph>Tetracycline, a bacteriostatic antibiotic, may antagonize the bactericidal effect of penicillin, and concurrent use of these drugs should be avoided.
+</paragraph>
+                        <paragraph>Nafcillin in high dosage regimens, i.e., 2 grams every 4 hours, has been reported to decrease the effects of warfarin. When nafcillin and warfarin are used concomitantly, the prothrombin time should be closely monitored and the dose of warfarin adjusted as necessary. This effect may persist for up to 30 days after nafcillin has been discontinued.
+</paragraph>
+                        <paragraph>Nafcillin when administered concomitantly with cyclosporine has been reported to result in subtherapeutic cyclosporine levels. The nafcillin-cyclosporine interaction was documented in a patient during two separate courses of therapy. When cyclosporine and nafcillin are used concomitantly in organ transplant patients, the cyclosporine levels should be monitored.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s14">
+                     <id root="aa07381f-2bdd-423e-b8b1-4cdea7f63810"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions
+</title>
+                     <text>
+                        <paragraph>Nafcillin in the urine can cause a false-positive urine reaction for protein when the sulfosalicylic acid test is used, but not with the dipstick.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s15">
+                     <id root="abac1cf8-d597-4251-810b-f8228192ae20"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>No long term animal studies have been conducted with these drugs. Studies on reproduction (nafcillin) in rats and mice reveal no fetal or maternal abnormalities before conception and continuously through weaning (one generation).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="8fe01fec-a1a5-4bee-8c3c-8acf9ee4feb3"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy
+</title>
+                     <effectiveTime value="20250427"/>
+                     <component>
+                        <section ID="s17">
+                           <id root="aa1f3ed2-8669-4395-b73b-b51b5d9b2457"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects
+</title>
+                           <effectiveTime value="20250427"/>
+                           <component>
+                              <section ID="s18">
+                                 <id root="1a9986bf-39c3-4ea4-af75-5727c8f558ae"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category B
+</title>
+                                 <text>
+                                    <paragraph>Reproduction studies have been performed in the mouse with oral doses up to 20 times the human dose and orally in the rat at doses up to 40 times the human dose and have revealed no evidence of impaired fertility or harm to the rodent fetus due to nafcillin. There are, however, no adequate or well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, nafcillin should be used during pregnancy only if clearly needed.
+</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250427"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s19">
+                     <id root="7d444026-8cb6-4243-af7e-043a5cfa3dd8"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>Penicillins are excreted in human milk. Caution should be exercised when penicillins are administered to a nursing woman.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s20">
+                     <id root="3cf1307a-05af-4279-bdcb-da58001fb46d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>The liver/biliary tract is the principal route of nafcillin elimination. Because of immature hepatic and renal function in pediatric patients, nafcillin excretion may be impaired. Safety and effectiveness in pediatric patients have not been established for the use of intravenous nafcillin. Safety and effectiveness in pediatric patients have been established for the use of intramuscular nafcillin.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s21">
+                     <id root="e8e67a65-1b87-4fe3-889e-f40a9963736c"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use
+</title>
+                     <text>
+                        <paragraph>Clinical studies of Nafcillin for Injection did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients.
+</paragraph>
+                        <paragraph>In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.
+</paragraph>
+                        <paragraph>Each Pharmacy Bulk Package bottle contains nafcillin sodium, as the monohydrate equivalent to 10 grams of nafcillin. The sodium content is 65.8 mg [2.9 mEq] per gram of nafcillin. The product is buffered with 40 mg sodium citrate per gram. At the usual recommended doses, patients would receive between 197.4 and 394.8 mg/day (8.7 and 17.4 mEq) of sodium. The geriatric population may respond with a blunted natriuresis to salt loading. This may be clinically important with regard to such diseases as congestive heart failure.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s22">
+                     <id root="65752fc8-f479-4e40-9a63-e07ee261f18f"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients
+</title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs including Nafcillin for Injection should only be used to treat bacterial infections. They do not treat viral infections (e.g. the common cold). When Nafcillin for Injection is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Nafcillin for Injection or other antibacterial drugs in the future.
+</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s23">
+               <id root="62024adc-6c01-4fa9-be6a-8811e10d23f8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <section ID="s24">
+                     <id root="872a970c-560e-4ae9-a491-4a61f31a1e67"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Body as a Whole
+</title>
+                     <text>
+                        <paragraph>The reported incidence of allergic reactions to penicillin ranges from 0.7 to 10 percent (see <content styleCode="bold">
+                              <linkHtml href="#s9">WARNINGS</linkHtml>
+                           </content>). Sensitization is usually the result of treatment, but some individuals have had immediate reactions to penicillin when first treated. In such cases, it is thought that the patients may have had prior exposure to the drug via trace amounts present in milk or vaccines. Two types of allergic reactions to penicillins are noted clinically, immediate and delayed.
+</paragraph>
+                        <paragraph>Immediate reactions usually occur within 20 minutes of administration and range in severity from urticaria and pruritus to angioedema, laryngospasm, bronchospasm, hypotension, vascular collapse, and death. Such immediate anaphylactic reactions are very rare (see <content styleCode="bold">
+                              <linkHtml href="#s9">WARNINGS</linkHtml>
+                           </content>) and usually occur after parenteral therapy but have occurred in patients receiving oral therapy. Another type of immediate reaction, an accelerated reaction, may occur between 20 minutes and 48 hours after administration and may include urticaria, pruritus, and fever.
+</paragraph>
+                        <paragraph>Although laryngeal edema, laryngospasm, and hypotension occasionally occur, fatality is uncommon. Delayed allergic reactions to penicillin therapy usually occur after 48 hours and sometimes as late as 2 to 4 weeks after initiation of therapy. Manifestations of this type of reaction include serum sickness-like symptoms (i.e., fever, malaise, urticaria, myalgia, arthralgia, abdominal pain) and various skin rashes. Nausea, vomiting, diarrhea, stomatitis, black or hairy tongue, and other symptoms of gastrointestinal irritation may occur, especially during oral penicillin therapy.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s25">
+                     <id root="3b305f31-527a-49ac-9eae-676e7df663a3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Local Reactions
+</title>
+                     <text>
+                        <paragraph>Pain, swelling, inflammation, phlebitis, thrombophlebitis, and occasional skin sloughing at the injection site have occurred with intravenous administration of nafcillin (see <content styleCode="bold">
+                              <linkHtml href="#s32">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>). Severe tissue necrosis with sloughing secondary to subcutaneous extravasation of nafcillin has been reported.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s26">
+                     <id root="ae3d3e2b-8829-4c9b-ba46-475c23ff8656"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nervous System Reactions
+</title>
+                     <text>
+                        <paragraph>Neurotoxic reactions similar to those observed with penicillin G could occur with large intravenous or intraventricular doses of nafcillin especially in patients with concomitant hepatic insufficiency and renal dysfunction (see <content styleCode="bold">
+                              <linkHtml href="#s10">PRECAUTIONS</linkHtml>
+                           </content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="a13ba8f0-8d43-4f59-b058-eb0dd2555b87"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nephrotoxicity
+</title>
+                     <text>
+                        <paragraph>Renal tubular damage and interstitial nephritis have been associated with the administration of nafcillin. Manifestations of nephrotoxicity are hematuria, proteinuria, and acute kidney injury, and may be associated with rash, fever, and eosinophilia. The majority of cases resolve upon discontinuation of nafcillin. Some patients, however, may require dialysis treatment and may develop permanent renal damage.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="edbdb0e7-0141-4b87-9aa6-08c822abb3da"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic Reactions
+</title>
+                     <text>
+                        <paragraph>Elevation of liver transaminases and/or cholestasis may occur, especially with administration of high doses of nafcillin.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s29">
+                     <id root="403fbd50-68db-4668-8be4-0ee87a7fd797"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal Reactions
+</title>
+                     <text>
+                        <paragraph>Pseudomembranous colitis has been reported with the use of nafcillin. The onset of pseudomembranous colitis symptoms may occur during or after antibiotic treatment (see <content styleCode="bold">
+                              <linkHtml href="#s9">WARNINGS</linkHtml>
+                           </content>).
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="4571030d-c263-46b0-afc6-236bf15a3463"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Metabolic Reactions
+</title>
+                     <text>
+                        <paragraph>Agranulocytosis, neutropenia, and bone marrow depression have been associated with the use of nafcillin.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Sagent Pharmaceuticals at 1-866-625-1618 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="bold underline">www.fda.gov/medwatch</content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s31">
+               <id root="cc4f1a22-05cb-4e8c-b2f5-e80f3b63144c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE
+</title>
+               <text>
+                  <paragraph>Neurotoxic reactions similar to those observed with penicillin G may arise with intravenous doses of nafcillin especially in patients with concomitant hepatic insufficiency and renal dysfunction (see <content styleCode="bold">
+                        <linkHtml href="#s10">PRECAUTIONS</linkHtml>
+                     </content>).
+</paragraph>
+                  <paragraph>In the case of overdosage, discontinue nafcillin, treat symptomatically and institute supportive measures as required. Hemodialysis does not increase the rate of clearance of nafcillin from the blood.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="4878382b-4f86-496a-836b-745c6ba1b44c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>Nafcillin for Injection, in the Pharmacy Bulk Package Bottle is for intravenous injection only.
+</paragraph>
+                  <paragraph>The usual IV dosage for adults is 500 mg every 4 hours. For severe infections, 1 gram every 4 hours is recommended. Administer slowly over at least 30 to 60 minutes to minimize the risk of vein irritation and extravasation.
+</paragraph>
+                  <paragraph>Bacteriologic studies to determine the causative organisms and their susceptibility to nafcillin should always be performed. Duration of therapy varies with the type and severity of infection as well as the overall condition of the patient; therefore, it should be determined by the clinical and bacteriological response of the patient. In severe staphylococcal infections, therapy with nafcillin should be continued for at least 14 days. The treatment of endocarditis and osteomyelitis may require a longer duration of therapy.
+</paragraph>
+                  <paragraph>No dosage alterations are necessary for patients with renal dysfunction, including those on hemodialysis. Hemodialysis does not accelerate nafcillin clearance from the blood.
+</paragraph>
+                  <paragraph>With intravenous administration, particularly in elderly patients, care should be taken because of the possibility of thrombophlebitis.
+</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.
+</paragraph>
+                  <paragraph>Do not add supplementary medication to Nafcillin for Injection, USP.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s33">
+               <id root="3064eb8f-0fe5-4098-83b2-8c13d556a1df"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR PROPER USE OF PHARMACY BULK PACKAGE:
+</title>
+               <text>
+                  <list listType="ordered" styleCode="LittleAlpha">
+                     <item>
+                        <caption>a)
+</caption>The container closure may be penetrated only one time after reconstitution, utilizing a suitable sterile dispensing set which allows measured distribution of the contents.
+</item>
+                     <item>
+                        <caption>b)
+</caption>Use of this product is restricted to a suitable work area, such as a laminar flow hood.
+</item>
+                     <item>
+                        <caption>c)
+</caption>Once this container closure has been punctures, withdrawal of the contents should be completed without delay. If prompt fluid transfer cannot be accomplished, discard the contents no later than 4 HOURS after initial closure puncture. This time limit should begin with the introduction of solvent for diluent into the Pharmacy Bulk Package.
+</item>
+                  </list>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.
+</paragraph>
+                  <paragraph>Do not add supplementary medication to Nafcillin for Injection, USP.
+</paragraph>
+               </text>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <section ID="s34">
+                     <id root="3cf1efcf-bb01-4455-b0f8-44361d6908f2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacy Bulk Package
+</title>
+                     <text>
+                        <paragraph>Each Nafcillin for Injection, USP Pharmacy Bulk Package bottle contains nafcillin sodium as the monohydrate equivalent to 10 grams nafcillin and is designed for use in the pharmacy in preparing IV additives. Add 93 mL Sterile Water for Injection, USP or 0.9% Sodium Chloride Injection, USP. The resulting solution will contain 100 mg nafcillin per mL and will require further dilution.
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">CAUTION: NOT TO BE DISPENSED AS A UNIT.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s35">
+               <id root="c541a14d-ae72-4295-b629-13a67ba6baf8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DIRECTIONS FOR USE:
+</title>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <section ID="s36">
+                     <id root="1aeb5be2-0512-497d-9c1b-41595de53ab6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>For Administration by Intravenous Drip
+</title>
+                     <text>
+                        <paragraph>Reconstitute as directed above (For Intravenous Use) prior to diluting with intravenous solution.
+</paragraph>
+                        <table ID="t300" width="100%">
+                           <caption>STABILITY PERIODS FOR NAFCILLIN FOR INJECTION, USP*
+</caption>
+                           <col width="17.223%" align="left"/>
+                           <col width="11.949%" align="left"/>
+                           <col width="11.949%" align="left"/>
+                           <col width="11.699%" align="left"/>
+                           <col width="11.949%" align="left"/>
+                           <col width="11.949%" align="left"/>
+                           <col width="11.949%" align="left"/>
+                           <col width="11.336%" align="left"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="8" align="left" valign="top">
+                                    <paragraph styleCode="footnote">*IMPORTANT: This chemical stability information in no way indicates that it would be acceptable practice to use this product well after the preparation time. Good professional practice suggests that a product should be used as soon after preparation as feasible.
+</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Concentration mg/mL</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Sterile Water for Injection, USP</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Sodium Chloride Injection, USP (0.9%)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Sodium Lactate Solution, USP (M/6 Molar)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Dextrose Injection, USP (5%)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Dextrose and Sodium Chloride Injection, USP (5% Dextrose and 0.45% Sodium Chloride)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Invert Sugar Injection, USP (10%)</content>
+                                 </td>
+                                 <td align="center" valign="top" styleCode="Toprule Botrule Rrule">
+                                    <content styleCode="bold">Lactated Ringers Injection USP</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="8" align="center" valign="top" styleCode="Botrule Lrule Rrule">ROOM TEMPERATURE (25ºC)
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">10 to 200
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">30
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">2 to 30
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">10 to 30
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">24 hrs
+</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="8" align="center" valign="top" styleCode="Botrule Lrule Rrule">REFRIGERATION (4ºC)
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">10 to 200
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">10 to 30
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">7 days
+</td>
+                              </tr>
+                              <tr>
+                                 <td colspan="8" align="center" valign="top" styleCode="Botrule Lrule Rrule">FROZEN (-15ºC)
+</td>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">250
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                              </tr>
+                              <tr>
+                                 <td align="left" valign="top" styleCode="Botrule Lrule Rrule">10 to 250
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule"/>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                                 <td align="left" valign="top" styleCode="Botrule Rrule">90 days
+</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Only those solutions listed above should be used for the intravenous infusion of Nafcillin for Injection. The concentration of the antibiotic should fall within the range specified. The drug concentration and the rate and volume of the infusion should be adjusted so that the total dose of nafcillin is administered before the drug loses its stability in the solution in use.
+</paragraph>
+                        <paragraph>There is no clinical experience available on the use of this agent in neonates or infants for this route of administration.
+</paragraph>
+                        <paragraph>This route of administration should be used for relatively short-term therapy (24 to 48 hours) because of the occasional occurrence of thrombophlebitis particularly in elderly patients.
+</paragraph>
+                        <paragraph>If another agent is used in conjunction with nafcillin therapy, <content styleCode="bold">it should not be physically mixed</content> with nafcillin but should be administered separately.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="7a9a4d35-1235-42c6-b75e-6be4532e7010"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Nafcillin for Injection, USP in a Pharmacy Bulk Package contains nafcillin sodium equivalent to 10 grams of nafcillin and is supplied as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="19.000%" align="left"/>
+                     <col width="58.267%" align="left"/>
+                     <col width="22.733%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Nafcillin for Injection, USP</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="justify" valign="top">25021-198-99
+</td>
+                           <td align="justify" valign="top">10 grams per Pharmacy Bulk Package Bottle
+</td>
+                           <td align="justify" valign="top">1 vial per carton
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <section ID="s38">
+                     <id root="80b9cab7-97d0-4372-b624-98aee8bcd0c2"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage Conditions
+</title>
+                     <text>
+                        <paragraph>Prior to reconstitution store sterile powder at 20º to 25ºC (68º to 77ºF). [See USP Controlled Room Temperature.]
+</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free.<br/>The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                        <paragraph>SAGENT<sup>®</sup>
+                           <br/>Mfd. for: SAGENT Pharmaceuticals<br/>Schaumburg, IL 60195 (USA)<br/>Made in Italy<br/>©2024 Sagent Pharmaceuticals
+</paragraph>
+                        <paragraph>May 2024
+</paragraph>
+                        <paragraph>SAGENT Pharmaceuticals <sup>®</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20250427"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s39">
+               <id root="38e8b0ff-3206-4b40-a2ed-8419d974a69a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Bottle Label
+</paragraph>
+                  <paragraph>NDC 25021-198-99
+</paragraph>
+                  <paragraph>Rx only
+</paragraph>
+                  <paragraph>Nafcillin for Injection, USP10 grams per Pharmacy Bulk Package
+</paragraph>
+                  <paragraph>PHARMACY BULK PACKAGE
+</paragraph>
+                  <paragraph>NOT FOR DIRECT INFUSION
+</paragraph>
+                  <paragraph>THIS PHARMACY BULK PACKAGE
+</paragraph>
+                  <paragraph>IS NOT TO BE DISPENSED AS A UNIT.
+</paragraph>
+                  <paragraph>Buffered – For Intravenous Use
+</paragraph>
+                  <renderMultiMedia ID="f02" referencedObject="mm02"/>
+               </text>
+               <effectiveTime value="20250427"/>
+               <component>
+                  <observationMedia ID="mm02">
+                     <text>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – Bottle Label
+</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="naf0c-0000-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

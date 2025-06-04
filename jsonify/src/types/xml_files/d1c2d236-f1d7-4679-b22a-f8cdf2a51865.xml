@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d1c2d236-f1d7-4679-b22a-f8cdf2a51865"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">0.9% Sodium Chloride Processing Solution </content>
+      <br/>
+      <content styleCode="bold">in Flexible Plastic Container </content>
+      <br/>
+      <content styleCode="bold">Not for injection</content>
+   </title>
+   <effectiveTime value="20140725"/>
+   <setId root="2a96096d-43cc-49b7-af53-b53c17f41001"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="005083209" root="1.3.6.1.4.1.519.1"/>
+            <name>Baxter Healthcare Corporation</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="059140764" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84382" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="STERILIZE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="194684502" root="1.3.6.1.4.1.519.1"/>
+                        <name>Baxter Healthcare Corporation</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8e45247b-9efd-45e8-819f-eb4c37ec7944"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20140725"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0338-0050" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sodium Chloride</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sodium Chloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="900"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LYR4M0NH37" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q32ZN48698" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CHLORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="3000"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="4"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0338-0050-47" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19800530"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017867" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19800530"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38212" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="EXTRACORPOREAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_description_id_5c461749-587e-458f-b952-60b7ffc29cae">
+               <id root="76fb9240-3012-43e2-af63-d4fbe900fcf7"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sodium Chloride Processing Solution is a sterile, nonpyrogenic solution in single dose container for use in blood cell processing devices. It contains no antimicrobial agents. Composition, osmolarity, pH, and ionic concentration are shown in Table 1.</paragraph>
+                  <table styleCode="Noautorules" width="100%">
+                     <caption>Table 1</caption>
+                     <col width="20%"/>
+                     <col width="7%"/>
+                     <col width="16%"/>
+                     <col width="15%"/>
+                     <col width="13%"/>
+                     <col width="16%"/>
+                     <col width="11%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" rowspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>0.9% Sodium Chloride Processing Solution</paragraph>
+                           </td>
+                           <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>Size <br/>(mL)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>Composition (g/L)</paragraph>
+                           </td>
+                           <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>Osmolarity (mOsmol/L) (calc)</paragraph>
+                           </td>
+                           <td align="center" rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>pH</paragraph>
+                           </td>
+                           <td align="center" colspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>Ionic Concentration <br/>(mEq/L)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="middle">
+                              <paragraph>Sodium <br/>Chloride, USP (NaCl)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="middle">
+                              <paragraph>Sodium</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="middle">
+                              <paragraph>Chloride</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>3000</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>9</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>308</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>5.5<br/>(4.5 to 7.0)</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>154</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="middle">
+                              <paragraph>154</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The plastic container is fabricated from a specially formulated polyvinyl chloride (<content styleCode="bold">PL 146</content> Plastic). The amount of water that can permeate from inside the container into the overwrap is insufficient to affect the solution significantly. Solutions in contact with the plastic container can leach out certain of its chemical components in very small amounts within the expiration period, e.g., di-2-ethylhexylphthalate (DEHP), up to 5 parts per million. However, the safety of the plastic has been confirmed in tests in animals according to USP biological tests for plastic containers as well as by tissue culture toxicity studies.</paragraph>
+               </text>
+               <effectiveTime value="20140725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_clinical_pharmacology_id_0198b0cf-57e8-47ad-bde6-3d66f3c56eba">
+               <id root="c06e1402-0381-49ae-80aa-54299d5791e3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>0.9% Sodium Chloride Processing Solution has value as a physiological blood cell processing aid.</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_indications_id_328106ca-8083-4b3a-bbcb-42582b37d792">
+               <id root="058146bf-b727-4a29-9629-60ce56e7a6ba"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>0.9% Sodium Chloride Processing Solution is indicated in processing blood cells.</paragraph>
+                  <paragraph>See directions accompanying blood cell processing device for complete instructions for use.</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_contraindications_id_a1b7a2b4-513b-4afd-9c7c-56eec4c82b7d">
+               <id root="dd202995-cb77-482b-a28a-2b38c8c71e0e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None known</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_warnings_id_66b3660c-dcb3-4023-a5ac-eb4a3b49eb3e">
+               <id root="1ee6b660-0149-46dc-9a06-4ade76e17215"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>This container should not be connected for direct intravenous administration. </paragraph>
+                  <paragraph>The contents of an opened container should be used promptly to minimize the possibility of bacterial growth or pyrogen formation. Discard the unused portion of processing solution.</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_precautions_id_3402d52c-2683-42d3-9d6e-dd2603fe9844">
+               <id root="e34199b0-0618-4680-9f6f-4e85a647cec1"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Careful review and understanding of the use of this solution in conjunction with blood cell processing equipment is essential.</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+               <component>
+                  <section ID="i4i_pregnancy_id_55bb96d6-c4bd-418a-bc11-6f4b596779dc">
+                     <id root="417b7e78-ba7d-4f2b-9593-e47b4213b42a"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20120723"/>
+                     <component>
+                        <section ID="i4i_teratogenic_id_7abdb93c-c47c-4be5-8975-3395fa117749">
+                           <id root="e36bedd8-afd5-4d69-9f29-f0d7265f4328"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20120723"/>
+                           <component>
+                              <section ID="i4i_pregnancy_C_id_df119dda-6f3e-46db-9fff-4775f091d2d0">
+                                 <id root="a515c59e-b153-4089-b427-aed2df6b4957"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category C.</title>
+                                 <text>
+                                    <paragraph>Animal reproduction studies have not been conducted with 0.9% Sodium Chloride Processing Solution. It is also not known whether 0.9% Sodium Chloride Processing Solution can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. 0.9% Sodium Chloride Processing Solution should be given to a pregnant woman only if clearly needed.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20120723"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_pediatric_use_id_e728eaed-5dfd-4840-85c7-a2edd94bf63b">
+                     <id root="e2ec502f-5710-4b3e-b589-95d3c9a09e79"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established. </paragraph>
+                        <paragraph>Do not administer unless solution is clear and seal is intact.</paragraph>
+                     </text>
+                     <effectiveTime value="20120723"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_adverse_effects_id_415ebea5-36ff-494f-bab7-9b460ab0bdcd">
+               <id root="c0c912e6-32ea-4079-8ada-eb502a1f76b4"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>None known</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_dosage_admin_id_3ad22a61-969d-416c-b14c-bed324401293">
+               <id root="85d14f53-e412-4bee-b69a-e1286e490989"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>As directed by a physician. See directions accompanying blood cell processing device. </paragraph>
+                  <paragraph>Processing Solutions should be inspected visually for particulate matter and discoloration prior to use.</paragraph>
+               </text>
+               <effectiveTime value="20120723"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_how_supplied_id_a6645c6f-65aa-44b3-b2c7-375b757e363e">
+               <id root="6b072600-6a59-48b6-8b53-26fe90eec716"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>0.9% Sodium Chloride Processing Solution in Flexible Plastic Container is available as follows:</paragraph>
+                  <table styleCode="Noautorules" width="97.74%">
+                     <col width="25%"/>
+                     <col width="32%"/>
+                     <col width="41%"/>
+                     <tbody>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Code</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Size (mL)</content>
+                              </paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td valign="top">
+                              <paragraph>2B7207</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>3000</paragraph>
+                           </td>
+                           <td valign="top">
+                              <paragraph>0338-0050-47</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. It is recommended the product be stored at room temperature (25º C); brief exposure up to 40º C does not adversely affect the product.</paragraph>
+               </text>
+               <effectiveTime value="20140725"/>
+               <component>
+                  <section ID="i4i_section_id_c4044d16-4440-43e7-ace2-c72441a2104e">
+                     <id root="b5f1e059-5e0e-4685-9fe7-e145acc40da7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>To Open</title>
+                     <text>
+                        <paragraph>Tear overwrap down side at slit and remove solution container. Visually inspect the container. If the outlet port protector is damaged, detached, or not present, discard container as solution path sterility may be impaired. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect the solution quality or safety. The opacity will diminish gradually. Check for minute leaks by squeezing inner bag firmly. If leaks are found, discard solution as sterility may be impaired.</paragraph>
+                     </text>
+                     <effectiveTime value="20140725"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="i4i_section_id_c5552ed5-a6f9-4bfa-bbf0-a0f51c4ef1a5">
+                     <id root="ecbf79ea-4081-49ae-a337-a51c1ec6e034"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation for Use</title>
+                     <text>
+                        <list listType="ordered">
+                           <item>
+                              <caption>1.</caption>Suspend container from eyelet support. </item>
+                           <item>
+                              <caption>2.</caption>Remove plastic protector from outlet port at bottom of container. </item>
+                           <item>
+                              <caption>3.</caption>Attach to blood cell processing device. Refer to complete directions accompanying blood cell processing device.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20140725"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_section_id_1c681cef-51f3-4b11-a14a-f8ac6c96231a">
+               <id root="be27a426-91f8-45bb-b1fa-1d89746efee4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Baxter Healthcare Corporation</content>
+                     <br/>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>Printed in USA</paragraph>
+                  <paragraph>©Copyright 1983, 1990, 1995, Baxter Healthcare Corporation. All rights <br/>reserved. </paragraph>
+                  <paragraph>07-19-73-065</paragraph>
+                  <paragraph>Rev. May 2014 </paragraph>
+                  <paragraph>BAXTER, AND PL 146 ARE TRADEMARKS OF BAXTER INTERNATIONAL INC.</paragraph>
+               </text>
+               <effectiveTime value="20140725"/>
+            </section>
+         </component>
+         <component>
+            <section ID="i4i_Principal_display_panel_id_cb4e1456-13b7-4d60-b5e8-c9ea8dfe425a">
+               <id root="1594f0f8-1d20-44e1-b695-f256127ddc63"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE/LABEL PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia ID="id355" referencedObject="id_3219d03c-eb2f-4c50-8a58-250893c7559e"/>
+                  <paragraph>3000 mL</paragraph>
+                  <paragraph>2B7207<br/>NDC 0338-0050-47</paragraph>
+                  <paragraph>NOT FOR INJECTION</paragraph>
+                  <paragraph>0.9%<br/>SODIUM CHLORIDE<br/>Processing Solution</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS 900 mg SODIUM CHLORIDE USP<br/>NO ANTIMICROBIAL AGENT HAS BEEN ADDED pH 5.5 (4.5 TO 7.0)<br/>mEq/L SODIUM 154 CHLORIDE 154 OSMOLARITY 308<br/>mOsmol/L (CALC) STERILE NONPYROGENIC SINGLE DOSE<br/>CONTAINER</paragraph>
+                  <paragraph>DOSAGE AS DIRECTED BY A PHYSICIAN SEE DIRECTIONS<br/>ACCOMPANYING BLOOD CELL PROCESSING DEVICE FOR USE THIS<br/>CONTAINER SHOULD NOT BE CONNECTED FOR DIRECT INTRAVENOUS<br/>ADMINISTRATION</paragraph>
+                  <paragraph>CAUTIONS SQUEEZE AND INSPECT INNER BAG WHICH MAINTAINS<br/>PRODUCT STERILITY DISCARD IF LEAKS ARE FOUND DO NOT USE<br/>UNLESS SOLUTION IS CLEAR DISCARD UNUSED PORTION <content styleCode="bold">RX ONLY</content>
+                     <br/>STORE UNIT IN MOISTURE BARRIER OVERWRAP AT ROOM TEMPERATURE<br/>(25°C) UNTIL READY TO USE AVOID EXCESSIVE HEAT SEE INSERT</paragraph>
+                  <paragraph>0.9%<br/>Sodium Chloride<br/>NaCl<br/>Processing Solution</paragraph>
+                  <paragraph>VIAFLEX CONTAINER</paragraph>
+                  <paragraph>PL146 PLASTIC<br/>
+                     <content styleCode="bold">FOR PRODUCT INFORMATION</content>
+                  </paragraph>
+                  <paragraph>1-800-933-0303</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Baxter Logo</content>
+                     </content>
+                     <br/>Baxter Healthcare Corporation<br/>Deerfield, IL 60015 USA</paragraph>
+                  <paragraph>Made in USA</paragraph>
+                  <paragraph>Baxter VIAFLEX and<br/>PL 146 are trademarks of <br/>Baxter International Inc</paragraph>
+               </text>
+               <effectiveTime value="20140725"/>
+               <component>
+                  <observationMedia ID="id_3219d03c-eb2f-4c50-8a58-250893c7559e">
+                     <text>Sodium Chloride Representative Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

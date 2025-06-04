@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="78aec72a-724c-4465-870a-f2e29e8eabe4"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">
+         <content styleCode="bold">Magnesium Sulfate in Water for Injection</content>
+      </content>
+   </title>
+   <effectiveTime value="20250523"/>
+   <setId root="f5f6b4c9-4a68-4342-b1e4-f4b61b7fb9cb"/>
+   <versionNumber value="9"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="002397347" root="1.3.6.1.4.1.519.1"/>
+            <name>B. Braun Medical Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ce55e245-64d5-4788-8270-d04482173cc5"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20250523"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0264-4204" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Magnesium Sulfate in Water</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>magnesium sulfate heptahydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="2"/>
+                              <denominator unit="mL" value="50"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="SK47B8698T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM SULFATE HEPTAHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="24"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-4204-52" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207967" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210426"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0264-4205" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Magnesium Sulfate in Water</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>magnesium sulfate heptahydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="4"/>
+                              <denominator unit="mL" value="50"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="SK47B8698T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM SULFATE HEPTAHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="50"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="24"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-4205-52" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207967" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210426"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0264-4206" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Magnesium Sulfate in Water</name>
+                        <formCode code="C42945" displayName="INJECTION, SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>magnesium sulfate heptahydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="4"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="SK47B8698T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM SULFATE HEPTAHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="100"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43186" displayName="CONTAINER" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="24"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0264-4206-54" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" displayName="CASE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210426"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA207967" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210426"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5b844676-5d58-497e-817b-1106ea1ea88e">
+               <id root="c36b194e-9124-4dd5-9cf0-905cb5732b57"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">PAB<sup>®</sup> Container</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous Use Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f8afff69-ba8d-4769-946a-aacb20e14e37">
+               <id root="7d3d42cd-b6ac-4cd7-97fd-f815c07d6298"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Magnesium Sulfate in Water for Injection is a sterile, nonpyrogenic solution of magnesium sulfate heptahydrate in water for injection. May contain sulfuric acid and/or sodium hydroxide for pH adjustment. The pH is 4.5 (3.5 to 6.5). It is available in 4% and 8% concentrations. See <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#www.splportal.comLINK_51fcd192-8738-4cdf-b280-22250a3c9c2e">HOW SUPPLIED </linkHtml>
+                        </content>
+                     </content>section for the content and characteristics of available dosage forms and fill volumes. Magnesium Sulfate, USP heptahydrate is chemically designated MgSO<sub>4</sub> • 7H<sub>2</sub>O, colorless crystals or white powder freely soluble in water.</paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>Not made with natural rubber latex, DEHP or PVC.</paragraph>
+                  <paragraph>The plastic container is a copolymer of ethylene and propylene formulated and developed for parenteral drugs. The copolymer contains no plasticizers. The safety of the plastic container has been confirmed by biological evaluation procedures. The material passes Class Vl testing as specified in the U.S. Pharmacopeia for Biological Tests — Plastic Containers.</paragraph>
+                  <paragraph>The container/solution unit is a closed system and is not dependent upon entry of external air during administration. The container has two ports, one is for the intravenous administration set covered by a tamperproof barrier and the other is a blocked port. Refer to the <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#www.splportal.comLINK_eaea24f2-4a85-4079-ad70-3045573fc16a">DIRECTIONS FOR USE</linkHtml>
+                        </content>
+                     </content> of the container to properly identify the ports.</paragraph>
+                  <paragraph>No vapor barrier is necessary.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_315c9288-35fb-4376-a7e2-d0e25f01c238">
+               <id root="45f2d7b8-0517-4304-aafc-d0a0ebad3aee"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Magnesium (Mg<sup>++</sup>) is an important cofactor for enzymatic reactions and plays an important role in neurochemical transmission and muscular excitability.</paragraph>
+                  <paragraph>Magnesium prevents or controls convulsions by blocking neuromuscular transmission and decreasing the amount of acetylcholine liberated at the end plate by the motor nerve impulse. Magnesium is said to have a depressant effect on the central nervous system, but it does not adversely affect the mother, fetus or neonate when used as directed in eclampsia or pre-eclampsia. Normal serum magnesium levels range from 1.3 to 2.1 mEq/liter.</paragraph>
+                  <paragraph>As serum magnesium rises above 4 mEq/liter, the deep tendon reflexes are first decreased and then disappear as the serum level approaches 10 mEq/liter. At this level respiratory paralysis may occur. Heart block also may occur at this or lower serum levels of magnesium.</paragraph>
+                  <paragraph>Magnesium acts peripherally to produce vasodilation. With low doses only flushing and sweating occur, but larger doses cause lowering of blood pressure. The central and peripheral effects of magnesium poisoning are antagonized to some extent by intravenous administration of calcium.</paragraph>
+                  <paragraph>With intravenous administration the onset of anticonvulsant action is immediate and lasts about 30 minutes. Following intramuscular administration the onset of action occurs in about one hour and persists for three to four hours. Effective anticonvulsant serum levels range from 2.5 to 7.5 mEq/liter.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <section ID="LINK_862ea9cf-7359-49b3-b97f-bd031e676aa3">
+                     <id root="70c63d2c-662e-485d-9ec3-ebff8b350dad"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pharmacokinetics:</content>
+                     </title>
+                     <text/>
+                     <effectiveTime value="20250523"/>
+                     <component>
+                        <section ID="LINK_1480c308-5abc-4b07-b394-df7abba94bcb">
+                           <id root="0bd350a5-1808-4cec-a167-fe4cad72cacc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Absorption:</content>
+                           </title>
+                           <text>
+                              <paragraph>Intravenously administered magnesium is immediately absorbed.</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_af189416-73c4-49b9-967e-6fb0723a9d70">
+                           <id root="7ec26376-b846-4985-a506-ca431b74b242"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Distribution:</content>
+                           </title>
+                           <text>
+                              <paragraph>Approximately 1-2% of total body magnesium is located in the extracellular fluid space. Magnesium is 30% bound to albumin.</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_a68aee65-4420-48e1-8b7c-c4ef08e452ff">
+                           <id root="dd7791ce-30a9-41d8-9ebd-62e72d7e3965"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Metabolism:</content>
+                           </title>
+                           <text>
+                              <paragraph>Magnesium is not metabolized.</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0ca108c8-c0c0-4129-a860-29b32faf5ea3">
+                           <id root="0040d4d9-b585-4012-9997-fa014c7d0e7a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Excretion:</content>
+                           </title>
+                           <text>
+                              <paragraph>Magnesium is excreted solely by the kidney at a rate proportional to the serum concentration and glomerular filtration.</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a8d6c719-036e-43eb-8eb0-8c45d3373368">
+                     <id root="03a5974e-5a88-4ee6-8ac3-b1fd11dae4ae"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Special Populations:</content>
+                     </title>
+                     <text/>
+                     <effectiveTime value="20250523"/>
+                     <component>
+                        <section ID="LINK_6add72f9-bccd-46d3-bee0-211b940a85dd">
+                           <id root="169febea-6a3c-4c39-9e48-ef2707ec9ebe"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Renal Insufficiency:</content>
+                           </title>
+                           <text>
+                              <paragraph>Magnesium is excreted solely by the kidney. In patients with severe renal insufficiency, the dose should be lower and frequent serum magnesium levels must be obtained (see <content styleCode="bold">
+                                    <content styleCode="italics">
+                                       <linkHtml href="#LINK_feb21b49-0337-4d87-b23e-115ee6a8e685">DOSAGE AND ADMINISTRATION</linkHtml>
+                                    </content>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_bc1ac34c-9423-47e6-8e0b-587b97438da3">
+                           <id root="dde806f7-9df9-4747-b296-d4d01193e2c8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Hepatic Insufficiency:</content>
+                           </title>
+                           <text>
+                              <paragraph>Magnesium is excreted solely by the kidney. No dosing adjustments are necessary in hepatic insufficiency.</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_a0121d01-92a9-4dff-8f0a-dcac3084509b">
+                           <id root="0b8f0512-5b27-463c-961a-ad0957432d81"/>
+                           <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                           <title>
+                              <content styleCode="bold">Drug-Drug Interactions:</content>
+                           </title>
+                           <text>
+                              <paragraph>Drug induced renal losses of magnesium occur with the following drugs or drug classes:</paragraph>
+                              <paragraph>Aminoglycosides </paragraph>
+                              <paragraph>Cyclosporine  </paragraph>
+                              <paragraph>Digitalis  </paragraph>
+                              <paragraph>Alcohol</paragraph>
+                              <paragraph>Amphotericin B</paragraph>
+                              <paragraph>Diuretics</paragraph>
+                              <paragraph>Cisplatin</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ba5137f3-66a4-4869-baf4-64e58586be02">
+               <id root="da69be48-8274-4315-b989-21b823e8cad5"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Magnesium Sulfate in Water for Injection is indicated for the prevention and control of seizures in pre-eclampsia and eclampsia, respectively. When used judiciously it effectively prevents and controls the convulsions of eclampsia without producing deleterious depression of the central nervous system of the mother or infant. However, other effective drugs are available for this purpose.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e5ead278-34dd-4626-a549-b535981c2533">
+               <id root="1028cc6e-cba8-4a5b-b3a0-9dc33ef07ceb"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Intravenous magnesium should not be given to mothers with toxemia of pregnancy during the two hours preceding delivery.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_50978613-77dd-43e4-b06c-70cd9911b279">
+               <id root="6d8069e6-bf1a-4d0b-9044-d00d38c932bc"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>FETAL HARM: Continuous administration of magnesium sulfate beyond 5-7 days to pregnant women can lead to hypocalcemia and bone abnormalities in the developing fetus. These bone abnormalities include skeletal demineralization and osteopenia. In addition, cases of neonatal fracture have been reported. The shortest duration of treatment that can lead to fetal harm is not known. Magnesium sulfate should be used during pregnancy only if clearly needed. If magnesium sulfate is given for treatment of preterm labor, the woman should be informed that the efficacy and safety of such use have not been established and that use of magnesium sulfate beyond 5-7 days may cause fetal abnormalities.</paragraph>
+                  <paragraph>Parenteral use in the presence of renal insufficiency may lead to magnesium intoxication.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_d069f481-b265-4fdd-8e0a-158fde19ea14">
+               <id root="5c8619c3-e327-4931-9ab2-da707b2223d3"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Because magnesium is removed from the body solely by the kidneys, the drug should be used with caution in patients with renal impairment. Urine output should be maintained at a level of 100 mL every four hours. Monitoring serum magnesium levels and the patient’s clinical status is essential to avoid the consequences of overdosage in toxemia. Clinical indications of a safe dosage regimen include the presence of the patellar reflex (knee jerk) and absence of respiratory depression (approximately 16 breaths or more/minute). Serum magnesium levels usually sufficient to control convulsions range from 3 to 6 mg/100 mL (2.5 to 5 mEq/liter). The strength of the deep tendon reflexes begins to diminish when serum magnesium levels exceed 4 mEq/liter. Reflexes may be absent at 10 mEq magnesium/liter, where respiratory paralysis is a potential hazard. An injectable calcium salt should be immediately available to counteract the potential hazards of magnesium intoxication in eclampsia.</paragraph>
+                  <paragraph>Magnesium Sulfate in Water for Injection should be administered slowly to avoid producing hypermagnesemia.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <section ID="LINK_059aa60e-17a5-4f12-a6e2-c4bb9f41a8a9">
+                     <id root="1df7e2da-b04c-401f-92c5-9c55589b3666"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility:</content>
+                     </title>
+                     <text>
+                        <paragraph>Studies with Magnesium Sulfate in Water for Injection have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20250523"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d5b124d0-7b9a-41a9-9a5e-50a488300621">
+                     <id root="7ebf05c4-1aaa-4b08-92ef-e13f3a4973e9"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pregnancy</content>
+                     </title>
+                     <text/>
+                     <effectiveTime value="20250523"/>
+                     <component>
+                        <section ID="LINK_a57286c5-d41c-4988-9960-0c5037e99a72">
+                           <id root="7578e254-f24e-4401-8c5e-c419230d8d93"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">Teratogenic Effects:</content>
+                           </title>
+                           <text>
+                              <paragraph>See <content styleCode="bold">
+                                    <content styleCode="italics">
+                                       <linkHtml href="#www.splportal.comLINK_50978613-77dd-43e4-b06c-70cd9911b279">WARNINGS</linkHtml> </content>
+                                 </content>and <content styleCode="bold">
+                                    <content styleCode="italics">
+                                       <linkHtml href="#www.splportal.comLINK_d069f481-b265-4fdd-8e0a-158fde19ea14">PRECAUTIONS</linkHtml>
+                                    </content>
+                                 </content>.</paragraph>
+                              <paragraph>Magnesium Sulfate in Water for Injection, can cause fetal abnormalities when administered beyond 5-7 days to pregnant women.</paragraph>
+                              <paragraph>There are retrospective epidemiological studies and case reports documenting fetal abnormalities such as hypocalcemia, skeletal demineralizations, osteopenia and other skeletal abnormalities with continuous maternal administration of magnesium sulfate for more than 5-7 days.<sup>1-12</sup> Magnesium Sulfate in Water for Injection should be used during pregnancy only if clearly needed. If this drug is used during pregnancy the woman should be apprised of the potential harm to the fetus.</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_c34326c3-a182-4167-989c-64bbf82e59d2">
+                           <id root="d8f66d45-0a72-4433-bac1-b4a2d7f332d7"/>
+                           <code code="34078-6" codeSystem="2.16.840.1.113883.6.1" displayName="NONTERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="bold">Nonteratogenic Effects:</content>
+                           </title>
+                           <text>
+                              <paragraph>When administered by continuous I.V. infusion (especially for more than 24 hours preceding delivery) to control convulsions in a toxemic woman, the newborn may show signs of magnesium toxicity, including neuromuscular or respiratory depression. (See <content styleCode="bold">
+                                    <content styleCode="italics">
+                                       <content styleCode="bold">
+                                          <content styleCode="italics">
+                                             <linkHtml href="#www.splportal.comLINK_1b47611a-1f5e-42ba-93f9-26c81728eff3">OVERDOSAGE</linkHtml>
+                                          </content>
+                                       </content>.</content>
+                                 </content>)</paragraph>
+                           </text>
+                           <effectiveTime value="20250523"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_08f9d0c5-60a5-46e1-89d6-8add254bda11">
+                     <id root="bb323a7a-52bc-4806-adcf-842dc83f6399"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>
+                        <content styleCode="bold">Labor and Delivery:</content>
+                     </title>
+                     <text>
+                        <paragraph>Continuous administration of magnesium sulfate is an unapproved treatment for preterm labor. The safety and efficacy of such use have not been established. The administration of Magnesium Sulfate in Water for Injection outside of its approved indication in pregnant women should be by trained obstetrical personnel in a hospital setting with appropriate obstetrical care facilities.</paragraph>
+                     </text>
+                     <effectiveTime value="20250523"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4a0742ac-73db-4bdc-8ad3-7551e7e9ff79">
+                     <id root="7f18493e-ffdd-47bb-95d0-e5b1095a7503"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Nursing Mothers:</content>
+                     </title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when Magnesium Sulfate in Water for Injection is administered to a nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20250523"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e98c9f1e-8528-4fdf-9b07-bc8a6b63db70">
+               <id root="bc48a952-b2ad-49ae-bc9a-cc3e858dab0a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The adverse effects of parenterally administered magnesium usually are the result of magnesium intoxication. These include flushing, sweating, hypotension, depressed reflexes, flaccid paralysis, hypothermia, circulatory collapse, cardiac and central nervous system depression proceeding to respiratory paralysis.</paragraph>
+                  <paragraph>Hypocalcemia with signs of tetany secondary to magnesium sulfate therapy for eclampsia has been reported.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1b47611a-1f5e-42ba-93f9-26c81728eff3">
+               <id root="c5c2b08f-3b71-4925-bb4f-dda9166f6207"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Magnesium intoxication is manifested by a sharp drop in blood pressure and respiratory paralysis. Disappearance of the patellar reflex is a useful clinical sign to detect the onset of magnesium intoxication. In the event of overdosage, artificial ventilation must be provided until a calcium salt can be injected I.V. to antagonize the effects of magnesium.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <section ID="LINK_ff86aeed-088f-4a80-afd0-8f6f6e6f6bf2">
+                     <id root="7482b932-c784-4d14-aaba-f3026caf5f36"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">For Treatment of Overdose</content>
+                     </title>
+                     <text>
+                        <paragraph>Artificial respiration is often required. Intravenous calcium, 10 to 20 mL of a 5% solution (diluted if desirable with isotonic sodium chloride for injection) is used to counteract effects of hypermagnesemia. Subcutaneous physostigmine, 0.5 to 1 mg may be helpful.</paragraph>
+                        <paragraph>Hypermagnesemia in the newborn may require resuscitation and assisted ventilation via endotracheal intubation or intermittent positive pressure ventilation as well as I.V. calcium.</paragraph>
+                     </text>
+                     <effectiveTime value="20250523"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_feb21b49-0337-4d87-b23e-115ee6a8e685">
+               <id root="c6c8a909-914b-473d-b92c-f59aea40fe3d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Magnesium Sulfate in Water for Injection is intended for intravenous use only. For the management of pre-eclampsia or eclampsia, intravenous infusions of dilute solutions of magnesium (1% to 8%) are often given in combination with intramuscular injections of 50% Magnesium Sulfate Injection, USP. Therefore, in the clinical conditions cited below, both forms of therapy are noted, as appropriate.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Continuous maternal administration of magnesium sulfate in pregnancy beyond 5-7 days can cause fetal abnormalities.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <section ID="LINK_72d64680-4176-431a-98a8-584d35eb5fe4">
+                     <id root="41a5478a-169d-4d2a-b9a3-fabf40bc1d45"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>In Eclampsia</title>
+                     <text>
+                        <paragraph>In severe pre-eclampsia or eclampsia, the total initial dose is 10 to 14 g of magnesium sulfate. To initiate therapy, 4 g of Magnesium Sulfate in Water for Injection may be administered intravenously. The rate of I.V. infusion should generally not exceed 150 mg/minute, or 3.75 mL of a 4% concentration (or its equivalent) per minute, except in severe eclampsia with seizures. Simultaneously, 4 to 5 g (32.5 to 40.6 mEq) of magnesium sulfate may be administered intramuscularly into each buttock using undiluted 50% Magnesium Sulfate Injection, USP. After the initial I.V. dose, some clinicians administer 1 to 2 g/hour by constant I.V. infusion. </paragraph>
+                        <paragraph>Subsequent intramuscular doses of 4 to 5 g of magnesium sulfate may be injected into alternate buttocks every four hours, depending on the continuing presence of the patellar reflex, adequate respiratory function, and absence of signs of magnesium toxicity. Therapy should continue until paroxysms cease.</paragraph>
+                        <paragraph>A serum magnesium level of 6 mg/100 mL is considered optimal for control of seizures. A total daily (24 hr) dose of 30 to 40 g magnesium sulfate should not be exceeded. In the presence of severe renal insufficiency, frequent serum magnesium concentrations must be obtained and the maximum dosage of magnesium sulfate is 20 g per 48 hours.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                        <paragraph>Do not administer unless solution is clear. Discard unused portion.</paragraph>
+                     </text>
+                     <effectiveTime value="20250523"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_51fcd192-8738-4cdf-b280-22250a3c9c2e">
+               <id root="83aaa547-7b8a-4a52-b42a-153c8ca2d58f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Magnesium Sulfate in Water for Injection is supplied in 100 mL fill and 50 mL fill PAB<sup>®</sup> containers packaged 24 per case as follows:</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">  <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">  <content styleCode="bold">REF</content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">
+                                 <content styleCode="bold">Fill Volume</content>
+                              </content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Total <br/>
+                              </content>
+                              <content styleCode="bold">Magnesium<br/>
+                              </content>
+                              <content styleCode="bold">Sulfate<footnote ID="FOOT_7066">As the heptahydrate.</footnote>
+                              </content>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Total </content>
+                              <content styleCode="bold">Magnesium<br/>Ion</content> </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Magnesium </content>
+                              <content styleCode="bold">Sulfate<footnoteRef IDREF="FOOT_7066"/> <br/>
+                              </content>
+                              <content styleCode="bold">Concentration</content> </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Magnesium <br/>Ion <br/>
+                              </content>
+                              <content styleCode="bold">Concentration</content>
+                           </td>
+                           <td align="center" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                              <content styleCode="bold">Osmolarity<br/>
+                              </content>
+                              <content styleCode="bold">(calc.)</content> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">0264-4206-54 </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">D4206-54</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">100 mL<footnote ID="FOOT_9972">Partial fill container 100 mL in 150 mL container.</footnote> </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 4 g</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 32.5 mEq</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4% (40 mg/mL)</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">32.5 mEq/100 mL</td>
+                           <td align="center" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">325 mOsmol/Liter</td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">0264-4204-52</td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule"> D4204-52</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">50 mL<footnote ID="FOOT_9962">Partial fill container 50 mL in 100 mL container.</footnote> </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 2 g</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 16.25 mEq</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">4% (40 mg/mL)</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">16.25 mEq/50 mL</td>
+                           <td align="center" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">325 mOsmol/Liter</td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">0264-4205-52</td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">D4205-52</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">50 mL<footnoteRef IDREF="FOOT_9962"/> </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 4 g</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> 32.5 mEq</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">8% (80 mg/mL)</td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">32.5 mEq/50 mL</td>
+                           <td align="center" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">649 mOsmol/Liter</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature.] Avoid excessive heat. Protect from freezing.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dea6ca87-cea2-4db8-a408-02200181ec9a">
+               <id root="c3e1e050-9d67-40f9-b683-4472bdb1d98c"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Yokoyama K, Takahashi N, Yada Y. Prolonged maternal magnesium administration and bone metabolism in neonates. <content styleCode="italics">Early Human Dev</content>. 2010; 86(3):187-91. Epub 2010 Mar 12. 
+
+</item>
+                     <item>Wedig KE, Kogan J, Schorry EK et al. Skeletal demineralization and fractures caused by fetal magnesium toxicity. <content styleCode="italics">J Perinatol</content>. 2006; 26(6):371-4. 
+
+</item>
+                     <item>Nassar AH, Sakhel K, Maarouf H, et al. Adverse maternal and neonatal outcome of prolonged course of magnesium sulfate tocolysis. <content styleCode="italics">Acta Obstet Gynecol Scan</content>. 2006; 85(9):1099-103. 
+
+</item>
+                     <item>Malaeb SN, Rassi A, Haddad MC. Bone mineralization in newborns whose mothers received magnesium sulphate for tocolysis of premature labor. <content styleCode="italics">Pediatr Radiol</content>. 2004; 34(5):384-6. Epub 2004 Feb 18. 
+
+</item>
+                     <item>Matsuda Y, Maeda Y, Ito M, et al. Effect of magnesium sulfate treatment on neonatal bone abnormalities. <content styleCode="italics">Gynecol Obstet Invest</content>.1997; 44(2):82-8. 
+
+</item>
+                     <item>Schanler RJ, Smith LG, Burns PA. Effects of long-term maternal intravenous magnesium sulfate therapy on neonatal calcium metabolism and bone mineral content. <content styleCode="italics">Gynecol Obstet Invest. </content>1997; 43(4):236-41. 
+
+</item>
+                     <item>Santi MD, Henry GW, Douglas GL. Magnesium sulfate treatment of preterm labor as a cause of abnormal neonatal bone mineralization. <content styleCode="italics">J Pediatr Orthop</content>. 1994; 14(2):249-53. 
+
+</item>
+                     <item>Holocomb WL, Shackelford GD, Petrie RH. Magnesium tocolysis and neonatal bone abnormalities: a controlled study. <content styleCode="italics">Obstet Gynecol</content>. 1991; 78(4):611-4. 
+
+</item>
+                     <item>Cumming WA, Thomas VJ. Hypermagnesemia: a cause of abnormal metaphyses in the neonate. <content styleCode="italics">Am J Roentgenol</content>. 1989; 152(5):1071-2. 
+
+</item>
+                     <item>Lamm CL, Norton KL, Murphy RJ. Congenital rickets associated with magnesium sulfate infusion for tocolysis.  <content styleCode="italics">J Pediatr</content>. 1988;113(6):1078-82. 
+
+</item>
+                     <item>McGuinness GA, Weinstein MM, Cruikshank DP, et al. Effects of magnesium sulfate treatment on perinatal calcium metabolism. II. Neonatal responses. <content styleCode="italics">Obstet Gynecol</content>. 1980; 56(5):595-600. 
+
+</item>
+                     <item>Riaz M, Porat R, Brodsky NL, et al. The effect of maternal magnesium sulfate treatment on newborns: a prospective controlled study. <content styleCode="italics">J Perinatol. </content>1998; 18(6 pt 1):449-54.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_51d64c0d-a4b8-48d4-ba18-20a661c39437">
+               <id root="7faa0d6f-f928-42fa-904f-cc255aa81f82"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Revised: July 2024 </paragraph>
+                  <paragraph>PAB is a registered trademark of B. Braun Medical Inc.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_eaea24f2-4a85-4079-ad70-3045573fc16a">
+               <id root="0a59ae29-04b2-458d-84d4-8c9b019ef820"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">Directions For Use of PAB<sup>®</sup> Container</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: </content> <content styleCode="bold">DO NOT ADD SUPPLEMENTARY MEDICATION. WHENEVER POSSIBLE USE CENTRAL ROUTE.</content>
+                  </paragraph>
+                  <paragraph>Aseptic technique is required.</paragraph>
+                  <paragraph>Before use, perform the following checks: Read the label. Ensure solution is the one ordered and is within the expiration date.</paragraph>
+                  <paragraph>Inspect the solution in good light for cloudiness, haze or particulate matter; check the container for leakage or damage. Any container which is suspect should not be used.</paragraph>
+                  <paragraph>Use only if solution is clear and container and seals are intact. Single dose plastic container. Discard unused portion. Consult Package Insert for complete product information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: DO NOT USE PLASTIC CONTAINER IN SERIES CONNECTION.</content>
+                  </paragraph>
+                  <paragraph>This solution is intended for intravenous administration using sterile equipment. It is recommended that intravenous administration apparatus be replaced at least once every 24 hours.</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>
+                        <content styleCode="bold">Identify Two Ports (See Figure A).<br/>
+                           <renderMultiMedia referencedObject="MM1"/>
+                        </content>
+                     </item>
+                     <item>
+                        <content styleCode="bold">To Attach Administration Set<br/>
+                        </content>To aseptically remove the set port closure: hold container below the set port and grasp the foil tab between the thumb and forefinger then pull the tab in two steps as shown in <content styleCode="bold">Figure B Steps 1 and 2</content>.<br/>
+                        <renderMultiMedia referencedObject="MM2"/>
+                        <br/>
+                        <br/>
+                     </item>
+                     <item>Push spike through the diaphragm of the port <content styleCode="bold">(See Figure C)</content>. Hang container using hole on the lower flap. Prime set in accordance with the <content styleCode="bold">
+                           <linkHtml href="#LINK_eaea24f2-4a85-4079-ad70-3045573fc16a">Directions for Use</linkHtml>
+                        </content> provided with the set in use.<br/>
+                        <renderMultiMedia referencedObject="MM3"/>
+                     </item>
+                  </list>
+                  <paragraph>PAB<sup>®</sup> containers can be safely transported in a standard 6-inch carrier through a pneumatic tube system that is well maintained and running properly.</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Figure A Illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="magnesium-sulfate-in-water-for-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Figure B Illustrations</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="magnesium-sulfate-in-water-for-injection-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Figure C Illustration</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="magnesium-sulfate-in-water-for-injection-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b6419816-fe1e-4297-a882-6d2d397dff60">
+               <id root="b5bb0158-6a83-436e-b235-0f3d2b202dc9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<br/>
+1-800-227-2862<br/>
+Prepared in USA. API from USA or Czech Republic.</paragraph>
+                  <paragraph>Y36-003-088     LD-475-2</paragraph>
+               </text>
+               <effectiveTime value="20250523"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_040b38e3-5c26-448c-90eb-50c8de734d88">
+               <id root="8e987c16-7196-4482-9164-6297677d9ea8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">NDC 0264-4204-52</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Magnesium Sulfate<br/>
+                        <content styleCode="bold">In Water for Injection<br/>
+                           <content styleCode="bold">2 g/50 mL (40 mg/mL) <br/>
+                           </content>
+                        </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">(0.325 mEq Mg<sup>++</sup>/mL) </content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">2 g Total</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold"> </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">50 mL  </content>
+                     </content>PAB<sup>®</sup> Container    <content styleCode="bold">
+                        <content styleCode="bold">
+                           <br/>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Each 50 mL contains Magnesium Sulfate Heptahydrate 2 g (equivalent to 16.25 mEq <br/>
+Magnesium) in Water for Injection. May contain Sulfuric Acid and/or Sodium <br/>
+Hydroxide for pH adjustment.</paragraph>
+                  <paragraph>pH 4.5 (3.5 to 6.5); 325 mOsmol/liter (Calc.)    </paragraph>
+                  <paragraph>Single dose container. Discard unused portion. For Intravenous Use Only. Usual <br/>
+dosage: See prescribing information. Sterile, nonpyrogenic. Use only if solution <br/>
+is clear and container is undamaged. Must not be used in series connections.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: </content>DO NOT ADD SUPPLEMENTARY MEDICATION. WHENEVER <br/>
+POSSIBLE USE CENTRAL ROUTE.</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between <br/>
+15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature.] <br/>
+Avoid excessive heat. Protect from freezing.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REF D4204-52</content>
+                  </paragraph>
+                  <paragraph>Not made with natural rubber latex, DEHP or PVC.</paragraph>
+                  <paragraph>Rx only    </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<content styleCode="bold">
+                        <br/>
+                     </content>1-800-227-2862. Prepared in USA.<br/>
+API from USA or Czech Republic.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>Y94-003-507    LD-476-2</paragraph>
+                  <paragraph>LOT</paragraph>
+                  <paragraph>EXP</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>D4204-52 Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="magnesium-sulfate-in-water-for-injection-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_85ad9a35-68fb-49c3-8659-ea4e8d0d42c8">
+               <id root="dd4c7f77-4b98-467e-bf15-60f1bc86a282"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">NDC </content>
+                        <content styleCode="bold">0264-4205-52</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Magnesium Sulfate<br/>
+                        <content styleCode="bold">In Water for Injection<br/>
+                           <content styleCode="bold">4 g/50 mL (80 mg/mL)<br/>
+(0.65 mEq Mg<sup>++</sup>/mL)  <br/>
+                           </content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">
+                              <content styleCode="bold">4 g Total</content>
+                           </content>
+                        </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">
+                              <br/>
+                           </content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">50 mL  </content>
+                     </content>PAB<sup>®</sup> Container     </paragraph>
+                  <paragraph>Each 50 mL contains Magnesium Sulfate Heptahydrate 4 g (equivalent to 32.5 mEq <br/>
+Magnesium) in Water for Injection. May contain Sulfuric Acid and/or Sodium <br/>
+Hydroxide for pH adjustment.</paragraph>
+                  <paragraph>pH 4.5 (3.5 to 6.5); 649 mOsmol/liter (Calc.)    </paragraph>
+                  <paragraph>Single dose container. Discard unused portion. For Intravenous Use Only. Usual <br/>
+dosage: See prescribing information. Sterile, nonpyrogenic. Use only if solution <br/>
+is clear and container is undamaged. Must not be used in series connections.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: </content>DO NOT ADD SUPPLEMENTARY MEDICATION. WHENEVER <br/>
+POSSIBLE USE CENTRAL ROUTE.</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between <br/>
+15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature.] <br/>
+Avoid excessive heat. Protect from freezing.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REF </content>
+                     <content styleCode="bold">D4205-52</content>
+                  </paragraph>
+                  <paragraph>Not made with natural rubber latex, DEHP or PVC.</paragraph>
+                  <paragraph>Rx only    </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<content styleCode="bold">
+                        <br/>
+                     </content>1-800-227-2862. Prepared in USA.<br/>
+API from USA or Czech Republic.<content styleCode="bold">
+                        <br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>Y94-003-508   LD-477-2</paragraph>
+                  <paragraph>LOT</paragraph>
+                  <paragraph>EXP</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>D4205-52 Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="magnesium-sulfate-in-water-for-injection-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_089d6541-2ff2-4e0a-86da-31c79fb77bff">
+               <id root="751429a9-ef36-47b5-8f6f-d7fede154909"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">NDC 0264-4206-54</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Magnesium Sulfate<br/>
+                        <content styleCode="bold">In Water for Injection<br/>
+                           <content styleCode="bold">4 g/100 mL (40 mg/mL)<br/>
+(0.325 mEq Mg<sup>++</sup>/mL) <br/>
+                           </content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">
+                              <content styleCode="bold">4 g Total</content>
+                           </content>
+                        </content>
+                     </content>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <content styleCode="bold">
+                              <br/>
+                           </content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">100 mL  </content>
+                     </content>PAB<sup>®</sup> Container     </paragraph>
+                  <paragraph>Each 100 mL contains Magnesium Sulfate Heptahydrate 4 g <br/>
+(equivalent to 32.5 mEq Magnesium) in Water for Injection. <br/>
+May contain Sulfuric Acid and/or Sodium Hydroxide for pH adjustment.</paragraph>
+                  <paragraph>pH 4.5 (3.5 to 6.5); 325 mOsmol/liter (Calc.)    </paragraph>
+                  <paragraph>Single dose container. Discard unused portion. For Intravenous <br/>
+Use Only. Usual dosage: See prescribing information. <br/>
+Sterile, nonpyrogenic. Use only if solution is clear and container <br/>
+is undamaged. Must not be used in series connections.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">CAUTION: </content>DO NOT ADD SUPPLEMENTARY MEDICATION. <br/>
+WHENEVER POSSIBLE USE CENTRAL ROUTE.</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between <br/>
+15° to 30°C (59° to 86°F). [See USP Controlled Room Temperature.] <br/>
+Avoid excessive heat. Protect from freezing.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">REF D4206-54</content>
+                  </paragraph>
+                  <paragraph>Not made with natural rubber latex, DEHP or PVC.</paragraph>
+                  <paragraph>Rx only    </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">B. Braun Medical Inc.<br/>
+                     </content>Bethlehem, PA 18018-3524 USA<content styleCode="bold">
+                        <br/>
+                     </content>1-800-227-2862<br/>
+Prepared in USA.<br/>
+API from USA or Czech Republic.</paragraph>
+                  <paragraph>Y94-003-509    LD-478-2</paragraph>
+                  <paragraph>LOT</paragraph>
+                  <paragraph>EXP</paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+               </text>
+               <effectiveTime value="20250523"/>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>D4206-54 Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="magnesium-sulfate-in-water-for-injection-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

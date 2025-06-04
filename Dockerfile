@@ -5,6 +5,8 @@ RUN apt-get update && \
     apt-get install -y gawk git wget && \
     apt-get clean && \
     mkdir -p /opt/airflow/dags/jsonify/src/types/xml_files && \
+    mkdir -p /opt/airflow/dags/jsonify/src/types/csv_files && \
+    mkdir -p /opt/airflow/dags/jsonify/src/types/txt_files && \
     mkdir -p /opt/airflow/dags/database && \
     mkdir -p /opt/airflow/dags/upload && \
     mkdir -p /opt/airflow/dags/NER/data/ontologies && \

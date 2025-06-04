@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="35bb4953-ca8e-e927-e063-6394a90a1a31"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Xiclo Patch</title>
+   <effectiveTime value="20250522"/>
+   <setId root="2d93a01c-40a9-8fb0-e063-6394a90a2cc6"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="118929144"/>
+            <name>Strand Health Group</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="35bb63ff-58c6-fc01-e063-6394a90a6cef"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20250522"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="83295-5500" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Xiclo</name>
+                        <formCode code="C42968" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>diclofenac</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N08U5BOQ1K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLUCOSAMINE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.0125"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FS2D4T67EA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYACRYLATE-13</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2.7" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C82332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PATCH"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="5" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="83295-5500-1" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20250207"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250207"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da0cdbb-08ac-f6a2-e063-6294a90a9a35">
+               <id root="2df49c82-2269-b54c-e063-6394a90a92b4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Xiclo™ Transdermal Patch</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Diclofenac 1.25%</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">1. Indications and Usage</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. Dosage and Administration</content>
+                  </paragraph>
+                  <paragraph>2.1 General Dosing Instructions</paragraph>
+                  <paragraph>2.2 Dosing and Instructions for Use</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Dosage Forms and Strengths</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Contraindications</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Warnings, Precautions, and Adverse Reactions </content>
+                  </paragraph>
+                  <paragraph>5.1 Risk of Serious Cardiovascular and Gastrointestinal Events</paragraph>
+                  <paragraph>5.2 Gastrointestinal Bleeding, Ulceration, and Perforation</paragraph>
+                  <paragraph>5.3 Hepatotoxicity</paragraph>
+                  <paragraph>5.4 Renal Toxicity and Hyperkalemia</paragraph>
+                  <paragraph>5.5 Anaphylactic Reactions</paragraph>
+                  <paragraph>5.6 Exacerbation of Asthma Related to Aspirin Sensitivity</paragraph>
+                  <paragraph>5.7 Serious Skin Reactions</paragraph>
+                  <paragraph>5.8 Hematologic Toxicity</paragraph>
+                  <paragraph>5.9 Masking of Inflammation and Fever</paragraph>
+                  <paragraph>5.10 Sun Exposure</paragraph>
+                  <paragraph>5.11 Excessive Dosing</paragraph>
+                  <paragraph>5.12 Application-Associated Pain</paragraph>
+                  <paragraph>5.13 Increase in Blood Pressure</paragraph>
+                  <paragraph>5.14 Sensory Function</paragraph>
+                  <paragraph>5.15 Precautions</paragraph>
+                  <paragraph>5.16 Other Adverse Events</paragraph>
+                  <paragraph>5.17 Systemic (Dose-Related) Reactions</paragraph>
+                  <paragraph>5.18 Oral Nonsteroidal Anti-Inflammatory Drugs</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6. Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">7. Use in Specific Populations</content>
+                  </paragraph>
+                  <paragraph>7.1 Pregnancy</paragraph>
+                  <paragraph>7.2 Lactation</paragraph>
+                  <paragraph>7.3 Pediatric Use</paragraph>
+                  <paragraph>7.4 Geriatric Use</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8. Overdosage</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">9. Description</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10. Clinical Pharmacology</content>
+                  </paragraph>
+                  <paragraph>10.1 Mechanism of Action</paragraph>
+                  <paragraph>10.2 Pharmacokinetics</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">11. Nonclinical Toxicology</content>
+                  </paragraph>
+                  <paragraph>11.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">12. How Supplied / Storage and Handling</content>
+                  </paragraph>
+                  <paragraph>12.1 How Supplied</paragraph>
+                  <paragraph>12.2 Storage</paragraph>
+                  <paragraph>12.3 Handling and Disposal</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">13. Patient Counseling Information</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">14. General Information on NSAIDs</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da0c34e-cc8d-9db7-e063-6394a90afe92">
+               <id root="2d9449b4-b2f8-e86a-e063-6294a90a7189"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">1. ​INDICATIONS &amp; USAGE</content>
+               </title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Xiclo™ Transdermal Patch is indicated in adults over the age of 12 years old for the treatment of signs and symptoms of osteoarthritis of the joints, and of acute and chronic pain in muscles and joints associated with muscle soreness, strains, sprains, arthritis, simple backache, muscle stiffness, and more.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da0cdbb-08af-f6a2-e063-6294a90a9a35">
+               <id root="2df4b71f-a586-5d7c-e063-6294a90a7d5d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">2. DOSAGE &amp; ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">2.1 General Dosing Instructions</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Use Xiclo™ Transdermal Patch only on dry, intact (unbroken) skin.</item>
+                     <item>Use the lowest effective dosage for the shortest duration consistent with individual patient treatment goals.</item>
+                     <item>Avoid contact with eyes and mucous membranes.</item>
+                     <item>Avoid concomitant use of Xiclo™ Transdermal Patch on the treated skin site with other external products, including sunscreens, cosmetics, lotions, moisturizers, insect repellants, or other external medications.</item>
+                     <item>Do not use combination therapy with diclofenac and an oral NSAID unless the benefit outweighs the risk and conduct periodic assessments.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="italics">2.2 Dosing and Instructions for Use</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>Tear open pouch bag and remove one patch. Place remaining patches back in pouch bag and seal pouch bag closed.</item>
+                     <item>Peel the clear plastic film away and apply Xiclo™ Transdermal Patch to intact skin to cover most painful area. Apply one patch per day for up to 12 hours within a 24-hout period (12 on, 12 off). One single Xiclo™ Transdermal Patch may be used twice per day. To re-use after the first application, place the clear plastic film back onto the medicated hydrogel pad.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da0eabf-a0b0-c4aa-e063-6394a90ab10e">
+               <id root="2df4babb-e0ea-5e06-e063-6294a90a8cc4"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>
+                  <content styleCode="bold">3. DOSAGE FORMS &amp; STRENGTHS</content>
+               </title>
+               <text>
+                  <paragraph>Xiclo™ Transdermal Patch contains 1.25% diclofenac. Each patch is 2 in x 4 in (5.08 cm x 10.16 cm) and consists of an adhesive side containing active/inactive ingredients and an outer surface backing layer. The adhesive side is covered with a removable, clear, plastic film. The outer surface of the backing layer is imprinted with the Xiclo™ Transdermal Patch logo.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1095a-7a30-9be0-e063-6294a90a9492">
+               <id root="2df4c0b1-10f8-5e64-e063-6294a90a6fbb"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">4. CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Xiclo™ Transdermal Patch is contraindicated in patients with a known history of hypersensitivity to non-steroidal anti-inflammatory medications such as diclofenac. Diclofenac is contraindicated in the setting of coronary artery bypass graft (CABG) surgery. History of asthma, uticaria, or allergic-type reactions after absorbing non-steroidal anti-inflammatory drugs (NSAIDs) should also be considered.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1095a-7a34-9be0-e063-6294a90a9492">
+               <id root="2df4bf24-e079-c27d-e063-6394a90a386b"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">5. WARNINGS, PRECAUTIONS &amp; ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">5.1 Risk of Serious Cardiovascular and Gastrointestinal Events</content>
+                  </paragraph>
+                  <paragraph>Nonsteroidal anti-inflammatory drugs (NSAIDs) can cause an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction and stroke, which can be fatal. This risk may occur early in treatment and may increase with duration of use. NSAIDs, including diclofenac, can lead to new onset of hypertension, or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Avoid the use of diclofenac external in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If diclofenac external is used in patients with a recent MI, monitor patients for signs of cardiac ischemia. Avoid using NSAIDs within 14 days following coronary artery bypass graft (CABG) surgery.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.2 Gastrointestinal Bleeding, Ulceration, and Perforation</content>
+                  </paragraph>
+                  <paragraph>Nonsteroidal anti-inflammatory drugs (NSAIDs) can cause an increased risk of serious gastrointestinal (GI) adverse events including bleeding, ulceration, and perforation of the stomach or intestines, which can be fatal. These events can occur at any time during use and without warning symptoms. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include concomitant use of oral corticosteroids, aspirin, anticoagulants, or selective serotonin reuptake inhibitors (SSRIs). Elderly patients and patients with a prior history of peptic ulcer disease and/or GI bleeding are at greater risk for serious GI events. Additionally, patients with advanced liver disease and/or coagulopathy are at increased risk for GI bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.3 Hepatotoxicity</content>
+                  </paragraph>
+                  <paragraph>In postmarketing reports, cases of drug-induced hepatotoxicity have been reported in the first month, and in some cases, the first 2 months of therapy, but can occur at any time during treatment with diclofenac. Postmarketing surveillance has reported cases of severe hepatic reactions, including liver necrosis, jaundice, fulminant hepatitis, with and without jaundice, and liver failure. Some of these reported cases resulted in fatalities or liver transplantation. Monitor for 4 to 8 weeks after initiating treatment with diclofenac. However, severe hepatic reactions can occur at any time during treatment with diclofenac. Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and “flu-like” symptoms). To minimize potential risk for an adverse liver-related event in patients treated with diclofenac external, exercise caution when prescribing diclofenac external with concomitant drugs that are known to be potentially hepatotoxic (e.g., acetaminophen, antibiotics, antiepileptics).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.4 Renal Toxicity and Hyperkalemia</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Renal Toxicity</content>
+                  </paragraph>
+                  <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury. Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, dehydration, hypovolemia, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors or ARBs, and the elderly. Discontinuation of NSAID therapy was usually followed by recovery to the pretreatment state. Avoid the use of diclofenac external in patients with advanced renal disease unless the benefits are expected to outweigh the risk of worsening renal function. If diclofenac is used in patients with advanced renal disease, monitor patients for signs of worsening symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Hyperkalemia</content>
+                  </paragraph>
+                  <paragraph>Increases in serum potassium concentration, including hyperkalemia, have been reported with use of NSAIDs, even in some patients without renal impairment. In patients with normal renal function, these effects have been attributed to a hyporeninemic-hypoaldosteronism state.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.5 Anaphylactic Reactions</content>
+                  </paragraph>
+                  <paragraph>Diclofenac has been associated with anaphylactic reactions in patients with and without known hypersensitivity to diclofenac and in patients with aspirin-sensitive asthma. Seek emergency help if an anaphylactic reaction occurs.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.6 Exacerbation of Asthma Related to Aspirin Sensitivity</content>
+                  </paragraph>
+                  <paragraph>A subpopulation of patients with asthma may have aspirin-sensitive asthma which may include chronic rhinosinusitis complicated by nasal polyps; severe, potentially fatal bronchospasm; and/or intolerance to aspirin and other NSAIDs. Because cross-reactivity between aspirin and other NSAIDs has been reported in such aspirin-sensitive patients, diclofenac external is contraindicated in patients with this form of aspirin sensitivity. When diclofenac is used in patients with preexisting asthma, monitor patients for changes in the signs and symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.7 Serious Skin Reactions</content>
+                  </paragraph>
+                  <paragraph>NSAIDs, including diclofenac, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. Inform patients about the signs and symptoms of serious skin reactions, and to discontinue the use of diclofenac external at the first appearance of any skin hypersensitivity.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.8 Hematologic Toxicity</content>
+                  </paragraph>
+                  <paragraph>Anemia has occurred in NSAID-treated patients. If a patient treated with diclofenac external has any signs or symptoms of anemia, monitor hemoglobin or hematocrit. NSAIDs, including diclofenac, may increase the risk of bleeding events. Co-morbid conditions such as coagulation disorders, concomitant use of warfarin, other anticoagulants, antiplatelet agents (e.g., aspirin), serotonin reuptake inhibitors (SSRIs) may increase this risk.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.9 Masking of Inflmmation and Fever</content>
+                  </paragraph>
+                  <paragraph>The pharmacological activity of diclofenac in reducing inflammation, and possibly fever, may diminish the utility of diagnostic signs in detecting infections.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.10 Sun Exposure</content>
+                  </paragraph>
+                  <paragraph>Instruct patients to avoid exposure to natural or artificial sunlight after treatment of Xiclo™ Transdermal Patch because studies in animals indicated external diclofenac treatment resulted in an earlier onset of ultraviolet light-induced skin tumors. The potential effects of diclofenac external on skin response to ultraviolet damage in humans are not known.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.11 Excessive Dosing</content>
+                  </paragraph>
+                  <paragraph>Excessive dosing by applying larger amounts of Xiclo™ Transdermal Patch could result in increased absorption of diclofenac and high blood concentrations. Longer duration of application, application of more than the recommended dosage, smaller patients, or impaired elimination may all contribute to increasing the blood concentration of diclofenac.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.12 Application-Associated Pain</content>
+                  </paragraph>
+                  <paragraph>During or immediately after treatment with Xiclo™ Transdermal Patch, the skin at the site of application may develop blisters, bruising, burning sensation, depigmentation, dermatitis, discoloration, edema, erythema, exfoliation, irritation, papules, petechia, pruritus, vesicles, or may be the locus of abnormal sensation. These reactions are generally mild and transient, resolving spontaneously within a few minutes to hours.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.13 Increase in Blood Pressure</content>
+                  </paragraph>
+                  <paragraph>Patient with unstable or poorly controlled hypertension, or a recent history of cardiovascular or cerebrovascular events, may be at increased risk of adverse cardiovascular effects. Consider these factors prior to initiating Xiclo™ Transdermal Patch treatment. Monitor blood pressure periodically during and following the treatment procedure and provide adequate support for treatment-related pain.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.14 Sensory Function</content>
+                  </paragraph>
+                  <paragraph>Decreases in sensory functions are generally minor and temporary (including thermal and other harmful stimuli). All patients with pre-existing sensory deficits should be clinically assessed for signs of sensory deterioration or loss prior to each prescription of Xiclo™ Transdermal Patch. If sensory deterioration or loss is detected or pre-existing sensory deficit worsens, continued use of Xiclo™ Transdermal Patch treatment should be reconsidered.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.15 Precautions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Allergic Reactions</content>
+                  </paragraph>
+                  <paragraph>Xiclo™ Transdermal Patch should be used with caution in patients with a history of drug sensitivities, especially if the etiologic agent is uncertain.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">External Heat Sources</content>
+                  </paragraph>
+                  <paragraph>Placement of external heat sources, such as heating pads or electric blankets, over Xiclo™ Transdermal Patch is not recommended.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Eye Exposure</content>
+                  </paragraph>
+                  <paragraph>The contact of Xiclo™ Transdermal Patch with eyes should be avoided based on finding from previous studies with use of similar products. If eye contact occurs, immediately wash out the eye with water and saline and protect the eye until sensation returns.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Non-Intact Skin</content>
+                  </paragraph>
+                  <paragraph>Xiclo™ Transdermal Patch is only recommended for use on intact skin. Application to broken or inflamed skin may result in increased irritation and/or increased absorption of ingredients.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.16 Other Adverse Events</content>
+                  </paragraph>
+                  <paragraph>Due to the nature and limitation of spontaneous reports in postmarketing surveillance, causality has not been established for additional reported adverse events including asthenia, confusion, disorientation, dizziness, headache, hyperesthesia, hypoesthesia, lightheadedness, metallic taste, nausea, nervousness, pain exacerbated, paresthesia, somnolence, taste alteration, vomiting, visual disturbances such as blurred vision, flushing, tinnitus, and tremor.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.17 Systemic (Dose-Related) Reactions</content>
+                  </paragraph>
+                  <paragraph>Systemic adverse reactions following appropriate use of Xiclofen
+  <sup>TM</sup> Transdermal Patch are unlikely due to the small dose absorbed.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">5.18 Oral Nonsteroidal Anti-Inflammatory Drugs</content>
+                  </paragraph>
+                  <paragraph>Concomitant use of oral NSAIDs with diclofenac external resulted in a higher rate of rectal hemorrhage, more frequent abnormal creatinine, urea, and hemoglobin. Therefore, do not use combination therapy with diclofenac external and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1200e-d60b-9d53-e063-6294a90adf5b">
+               <id root="2df4cd72-598f-5f99-e063-6294a90ac6be"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">6. DRUG INTERACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Drugs That Interfere with Hemostasis</content>
+                  </paragraph>
+                  <paragraph>Monitor patients with concomitant use of diclofenac external with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Aspirin</content>
+                  </paragraph>
+                  <paragraph>Concomitant use of diclofenac external and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">ACE Inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers</content>
+                  </paragraph>
+                  <paragraph>When these drugs are administered concomitantly, patients should be adequately hydrated. Assess renal function at the beginning of the concomitant treatment.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Diuretics</content>
+                  </paragraph>
+                  <paragraph>During concomitant use of diclofenac external with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Digoxin</content>
+                  </paragraph>
+                  <paragraph>During concomitant use of diclofenac external and digoxin, monitor serum digoxin levels.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Lithium</content>
+                  </paragraph>
+                  <paragraph>During concomitant use of diclofenac external and lithium, monitor patients for signs of lithium toxicity.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Methotrexate</content>
+                  </paragraph>
+                  <paragraph>During concomitant use of diclofenac external and methotrexate, monitor patients for methotrexate toxicity.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Cyclosporine</content>
+                  </paragraph>
+                  <paragraph>During concomitant use of diclofenac external and cyclosporine, monitor patients for signs of worsening renal function.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Pemetrexed</content>
+                  </paragraph>
+                  <paragraph>Concomitant use of diclofenac external and pemetrexed may increase the risk of pemetrexed-associated myelosuppression, renal, and GI toxicity.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1095a-7a36-9be0-e063-6294a90a9492">
+               <id root="2df4c0b1-10fb-5e64-e063-6294a90a6fbb"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">7. USE IN SPECIFIC POPULATIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">7.1 Pregnancy</content>
+                  </paragraph>
+                  <paragraph>Diclofenac may cause premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including diclofenac external, in pregnant women starting at 30 weeks of gestation. There are no adequate and well-controlled studies of diclofenac external in pregnant women.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">7.2 Lactation</content>
+                  </paragraph>
+                  <paragraph>Based on available data, diclofenac may be present in human milk. Caution should be exercised when Xiclofen
+  <sup>TM</sup> Transdermal Patch is administered to a nursing woman. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for Xiclofen
+  <sup>TM</sup> Transdermal Patch and any potential adverse effects on the breastfed infant.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">7.3 Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients under the age of 12 has not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">7.4 Geriatric Use</content>
+                  </paragraph>
+                  <paragraph>Elderly patients, compared to younger patients, are at a greater risk of NSAID-associated serious cardiovascular, gastrointestinal, and/or renal adverse reactions. If a risk is present, start dosing at the low end of the dosing range, and monitor patients for adverse effects.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da11862-d12c-c6c9-e063-6294a90a28bd">
+               <id root="2d92fdc4-f615-5432-e063-6394a90a7092"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">8. OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Symptoms following acute NSAID overdosages have been typically limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which have been generally reversible with supportive care. Gastrointestinal bleeding has occurred. Hypertension, acute renal failure, respiratory depression, and coma have occurred, but were rare. Manage patients with symptomatic and supportive care following an NSAID overdosage. There are no specific antidotes. For additional information about overdose treatment, contact your poison control center.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1095a-7a38-9be0-e063-6294a90a9492">
+               <id root="2df4cd72-5990-5f99-e063-6294a90ac6be"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">9. DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Xiclo™ Transdermal Patch is comprised of an adhesive material containing 1.25% diclofenac. Each patch is 2 in x 4 in (5.06 cm x 10.16 cm) and consists of an adhesive side containing the active/inactive ingredients and an outer surface backing layer with breathable fabric. The adhesive side is covered with a removable, clear, unprinted, plastic film. The outer surface of the backing layer is imprinted with the Xiclo™ Transdermal Patch logo. 2 patches are in each pouch bag. The inactive ingredients include: Glucosamine, Polyacrylate, Vegan Glycerol, and Water. Xiclo™ Transdermal Patch is Latex Free, Paraben Free, and Vegan.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da12fd8-3f2d-f50f-e063-6294a90adf27">
+               <id root="2d92f0b3-8813-138b-e063-6294a90ae7bd"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">10. CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">10.1 Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2). Diclofenac is a potent inhibitor of prostaglandin synthesis in vitro. Diclofenac concentrations reached during therapy have produced in vivo effects. Prostaglandins sensitive afferent nerves and potentiate the action of bradykinin in inducing pain in animal models. Prostaglandins are mediators of inflammation. Because diclofenac is an inhibitor of prostaglandin synthesis, its mode of action may be due to a decrease of prostaglandins in peripheral tissues.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">10.2 Pharmacokinetics</content>
+                  </paragraph>
+                  <paragraph>Diclofenac is more than 99% bound to human serum proteins, primarily to albumin. Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint occurs when plasma levels are higher than those in the synovial fluid, after which the process reverses and synovial fluid levels are higher than plasma levels. It is not known whether diffusion into the joint plays a role in the effectiveness of diclofenac. Five diclofenac metabolites have been identified in human plasma and urine. The metabolites include 4’-hydroxy-, 5-hydroxy-, 3/hydroxy-, 4’,5-dihydroxy- and 3’-hydroxy-4’-methoxy diclofenac. Diclofenac is eliminated through metabolism and subsequent urinary and biliary excretion of the glucuronide and the sulfate conjugates of the metabolites.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1333f-b11f-bef1-e063-6294a90a0406">
+               <id root="2df4c4fb-9cbe-6446-e063-6294a90afe4b"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">11. NONCLINICAL TOXICOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">11.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Carcinogenesis</content>
+                  </paragraph>
+                  <paragraph>In dermal carcinogenicity study, daily external applications of diclofenac for two years did not increase neoplasm incidence. In a photocarcinogenicity study, external application of diclofenac resulted in an earlier median time of onset of tumors.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Mutagenesis</content>
+                  </paragraph>
+                  <paragraph>Diclofenac was not mutagenic or clastogenic in genotoxicity tests that included the bacterial reverse mutation assay, in vitro mouse lymphoma point mutation assay, chromosomal aberration studies in Chinese hamster ovarian cells in vitro, and in vivo rat chromosomal aberration assay of bone marrow cells.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>Based on the mechanism of action, the use of prostaglandin-mediated NSAIDs, including diclofenac, may delay or prevent rupture of ovarian follicles, which ash been associated with reversible infertility in some women. Consider withdrawal of NSAIDs, including diclofenac, in women who have difficulties conceiving or who are undergoing investigation of infertility.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da11862-d12e-c6c9-e063-6294a90a28bd">
+               <id root="2d9486f2-7d56-0e99-e063-6294a90a8f69"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">12. HOW SUPPLIED / STORAGE &amp; HANDLING</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">12.1 How Supplied</content>
+                  </paragraph>
+                  <paragraph>Xiclo™ Transdermal Patch comes in a sealed pouch bag. Each patch is 2 in x 2 in (5.08 cm x 10.16 cm) and consists of an adhesive side containing the active/inactive ingredients and an outer surface backing layer. The adhesive side is covered with a removable, clear, unprinted, plastic film. The outer surface of the backing layer is imprinted with the Xiclo™ Transdermal Patch logo.</paragraph>
+                  <paragraph>Xiclo™ Transdermal Patch is available as a unit box containing 10 patches (5 pouch bags). NDC 83295-5500-1</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">12.2 Storage</content>
+                  </paragraph>
+                  <paragraph>Store unit box between 69
+  <sup>o</sup>-77
+  <sup>o </sup>F (20
+  <sup>o</sup>-25
+  <sup>o</sup> C). Excursions between 15
+  <sup>o</sup>-30
+  <sup>o</sup> C (59
+  <sup>o</sup>-86
+  <sup>o</sup> F) are allowed. Keep Xiclo™ Transdermal Patch in the sealed pouch bags until immediately before use.
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">12.3 Handling and Disposal</content>
+                  </paragraph>
+                  <paragraph>Unintended exposure to diclofenac can cause irritation of the eyes, skin, respiratory tract, and mucous membranes. Avoid contact with your eyes, nose, or mouth. Keep used and unused patches out of the reach of children and pets. Pouch bags are not child resistant. Wash hands with soap and water after handling the patches. If irritation or a burning sensation occurs during application, remove the patch and do not reapply until the irritation subsides. After use, fold patches so that the adhesive sticks to itself, then safely discard used patches where children and pets cannot get to them.</paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1201b-5f02-2f85-e063-6294a90a969c">
+               <id root="2df4d0b7-ab72-6d45-e063-6294a90a0a00"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <title>
+                  <content styleCode="bold">13. PATIENT COUNSELING INFORMATION</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>Inform patients that the treated area may be sensitive to heat (e.g., hot showers/bath, direct sunlight, vigorous exercise) for a few days following treatment.</item>
+                     <item>Instruct patients not to apply diclofenac external to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and reduce tolerability of the drug.</item>
+                     <item>Inform patients that as a result of treatment-related increases in pain, small transient increases in blood pressure may occur during and shortly after Xiclofen
+   <sup>TM</sup> Transdermal Patch treatment and that blood pressure will be monitored during the treatment process. If any cardiovascular event occurs, patients should notify a healthcare professional immediately.
+  </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da1200e-d610-9d53-e063-6294a90adf5b">
+               <id root="2d94a78e-24c2-167d-e063-6294a90ab6fc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>
+                  <content styleCode="bold">14. ​GENERAL INFORMATION ON NSAIDs</content>
+               </title>
+               <text>
+                  <list listType="unordered">
+                     <item>Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them. You can ask your pharmacist or healthcare provider about more information on the effective use of NSAIDs to avoid adverse effects.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>Manufactured for Strand Health Group, Las Vegas, NV 89102, USA.</paragraph>
+                  <paragraph>Copyright © 2025 Strand Health Group, LLC. All Rights Reserved.</paragraph>
+                  <paragraph/>
+                  <paragraph>For comments or questions, please email cs@strandhealthgroup.com.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">NDC 83295-5500-1</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Xiclo™ Transdermal Patch</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">[Xiclo Patch Logo]</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_1da11862-d131-c6c9-e063-6294a90a28bd">
+               <id root="35bb4d67-3741-f60c-e063-6394a90a974d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_34a2a5e8-21b5-70c2-e063-6394a90a7bbf"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_35bb549b-ec99-e467-e063-6394a90aed49"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20250522"/>
+               <component>
+                  <observationMedia ID="img_34a2a5e8-21b5-70c2-e063-6394a90a7bbf">
+                     <text>box</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="UPDATED Xiclo Patch Box - 5.7.25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_35bb549b-ec99-e467-e063-6394a90aed49">
+                     <text>pouch</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Xiclo Patch Pouch 5.21.25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

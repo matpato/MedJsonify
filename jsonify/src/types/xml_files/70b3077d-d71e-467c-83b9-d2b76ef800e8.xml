@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="70b3077d-d71e-467c-83b9-d2b76ef800e8"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">10% LMD in 5% Dextrose Injection     Rx only</content>
+      <br/>
+      <content styleCode="bold">(Dextran 40 in Dextrose Injection, USP)</content>
+   </title>
+   <effectiveTime value="20241205"/>
+   <setId root="3c273512-84e2-2cea-b201-12345a6bd1fe"/>
+   <versionNumber value="24"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="827731089" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-7418" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-7419" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0c4b65ea-e950-4638-872a-151662177ed3"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230215"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-7418" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>LMD in Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DEXTRAN 40</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="10"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="K3R6ZDH4DU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTRAN 40</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K3R6ZDH4DU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXTRAN 40</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-7418-13" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="12"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-7418-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BA720563" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20060214"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-7419" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>LMD in Sodium Chloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DEXTRAN 40</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="10"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="K3R6ZDH4DU" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTRAN 40</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="K3R6ZDH4DU" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DEXTRAN 40</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-7419-14" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="12"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-7419-03" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BA720562" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20050812"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="f5952460-b3ff-44e6-a548-44a37a1101b5">
+               <id root="4f70d2cd-a7a5-4459-a2fe-897bbb03361f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">10% LMD in 0.9% Sodium Chloride Injection</content>
+                     <br/>
+                     <content styleCode="bold">(Dextran 40 in Sodium Chloride Injection, USP)</content>
+                  </paragraph>
+                  <paragraph>Low Molecular Weight Dextran for Intravenous Administration</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Flexible Plastic Container</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230215"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ca0fc963-6e08-4b76-bdbb-2b70304401b8">
+               <id root="3b5f561b-b1a7-4d1a-a7d2-912fcc0bb7fe"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>LMD (dextran 40) is a sterile, nonpyrogenic preparation of low molecular weight dextran (average mol. wt. 40,000) in 5% Dextrose Injection or 0.9% Sodium Chloride Injection. It is administered by intravenous infusion.</paragraph>
+                  <paragraph>Also described as low viscous or low viscosity dextran, dextran 40 is prepared by acid hydrolysis and differential fractionation of a crude macromolecular polysaccharide produced from the fermentation of sucrose by the bacterium, Leuconostoc mesenteroides (strain B-512). The crude material is composed of linked glucose units. In the fraction represented by dextran 40, 80% of the molecules have a molecular weight ranging from 10,000 to 90,000 (average approximately 40,000) when measured by a light scattering method. More than 90% of the linkages are of the 1,6 alpha glucosidic, straight chain type.</paragraph>
+                  <paragraph>Each 100 mL of 10% LMD (dextran 40) in 5% Dextrose Injection contains 10 g dextran 40 and 5 g dextrose hydrous in water for injection. Total osmolar concentration is 255 mOsmol/liter (calc.); pH is 4.4 (3.0 to 7.0).</paragraph>
+                  <paragraph>Each 100 mL of 10% LMD (dextran 40) in 0.9% Sodium Chloride Injection contains 10 g dextran 40 and 0.9 g sodium chloride in water for injection. Total osmolar concentration is 310 mOsmol/liter (calc.); pH is 4.9 (3.5 to 7.0) (may contain sodium hydroxide and/or hydrochloric acid for pH adjustment). Electrolyte concentration per liter: Na<sup>+</sup> 154 mEq; Cl<sup>-</sup> 154 mEq (not including ions for pH adjustment).</paragraph>
+                  <paragraph>The solutions contain no bacteriostat, antimicrobial agent or added buffers (except for pH adjustment) and are intended only for single-dose injection. When smaller doses are required the unused portion should be discarded.</paragraph>
+                  <paragraph>10% LMD (dextran 40) is an artificial colloid pharmacologically classified as a plasma volume expander; 5% Dextrose Injection is a fluid and nutrient replenisher; 0.9% Sodium Chloride Injection is a fluid and electrolyte replenisher.</paragraph>
+                  <paragraph>Dextran 40 is a linear glucose polymer (polysaccharide) chemically designated (C<sub>6</sub> H<sub>10</sub> O<sub>5</sub>)<sub>n</sub>. </paragraph>
+                  <paragraph>The structural formula for dextran (repeating unit) is:</paragraph>
+                  <renderMultiMedia ID="id-1869979265" referencedObject="C9E30EA8-8B6C-4C4C-9134-5B8E698F3804"/>
+                  <paragraph>Dextrose, USP is chemically designated D-glucose monohydrate (C<sub>6</sub> H<sub>12</sub> O<sub>6</sub> • H<sub>2</sub>O), a hexose sugar freely soluble in water.</paragraph>
+                  <paragraph>Sodium Chloride, USP is chemically designated NaCl, a white crystalline powder freely soluble in water.</paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>The flexible plastic container is fabricated from a specially formulated polyvinylchloride. Water can permeate from inside the container into the overwrap but not in amounts sufficient to affect the solution significantly. Solutions inside the plastic container also can leach out certain of the chemical components of the plastic in very small amounts before the expiration period is attained. However, safety of the plastic has been confirmed by tests in animals according to USP biological standards for plastic containers.</paragraph>
+               </text>
+               <effectiveTime value="20230215"/>
+               <component>
+                  <observationMedia ID="C9E30EA8-8B6C-4C4C-9134-5B8E698F3804">
+                     <text>structural formula dextrose</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lmd-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="c6088393-1893-4124-89a0-7c435bce5eed">
+               <id root="fe620870-eb7b-47fd-bdd5-af4d96a86289"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>The fundamental action of LMD (dextran 40) is the <content styleCode="italics">enhancement of blood flow</content>, particularly in the microcirculation. This enhancement is due to:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Its primary effect of volume expansion with resultant hemodilution; </item>
+                     <item>
+                        <caption>2.</caption>Maintenance of the electronegativity of red blood cells;</item>
+                     <item>
+                        <caption>3.</caption>Coating of red blood cells and platelets;</item>
+                     <item>
+                        <caption>4.</caption>Increase in the suspension stability of blood;</item>
+                     <item>
+                        <caption>5.</caption>Decrease in the viscosity of blood.</item>
+                  </list>
+                  <paragraph>It should be emphasized that the above effects are not exerted separately, but conjointly they result in the enhancement of blood flow.</paragraph>
+                  <paragraph>LMD, used in the treatment of shock, produces significant increases in blood volume, central venous pressure, cardiac output, stroke volume, blood pressure and urinary output. It reduces blood viscosity, peripheral resistance and improves peripheral blood flow with the release of sequestered blood cells, thereby increasing venous return to the heart.</paragraph>
+                  <paragraph>When used as part of the pump prime for extracorporeal procedures, LMD, as compared to whole blood, albumin 5%, or whole blood plus 5% dextrose and water, leads to less destruction of red blood cells and platelets, reduces intravascular hemagglutination and maintains erythrocyte electronegativity.</paragraph>
+                  <paragraph>The infusion of LMD (dextran 40) during and after surgical trauma reduces the incidence of deep venous thrombosis (DVT) and pulmonary embolism (PE) in patients subject to surgical procedures with a high incidence of thromboembolic complication. Unlike antithrombogenic agents of the anticoagulant type, LMD does not achieve its effect so much by blocking fibrinogen-fibrin conversion but acts by simultaneously inhibiting other mechanisms essential to thrombus formation such as vascular stasis and platelet adhesiveness and by altering the structure and thereby the lysability of fibrin clots.</paragraph>
+                  <paragraph>Histopathological studies have shown that the development of a mural platelet thrombus is the first stage of thrombus formation not only in the arterial, but also in the venous system. A number of studies have further shown that many patients who develop thromboembolic complications show an abnormally high platelet adhesiveness. Infusion of LMD has been shown to reduce platelet adhesiveness as measured by various <content styleCode="italics">in vitro</content> tests on blood samples obtained from humans and to inhibit the growth of a mural platelet thrombus at the site of experimental (laser beam) injury in the rabbit's ear chamber.</paragraph>
+                  <paragraph>Studies have shown an increase in the lysability of thrombi formed in the presence of dextran. A consistent and characteristic alteration in fibrin structure has been observed when fibrin is formed in the presence of dextran, and further experiments demonstrated such fibrin to be more susceptible to plasmin digestion. Other studies have shown that dextran infused into patients during surgery increases the lysability of <content styleCode="italics">ex vivo</content> thrombi. Controlled clinical trials have shown that thrombi in patients treated with dextran have a more pronounced tendency to undergo lysis as determined by phlebography.</paragraph>
+                  <paragraph>LMD is evenly distributed in the vascular system. Its distribution according to molecular weight shifts toward higher molecular weights as the smaller molecules are excreted by the kidney. In normovolemic subjects, approximately 50% is excreted within 3 hours, 60% is excreted within 6 hours and about 75% within 24 hours. Reabsorption of dextran by the renal tubules is negligible. The unexcreted molecules of dextran diffuse into the extravascular compartment and are temporarily taken up by the reticuloendothelial system. Some of these molecules are returned to the intravascular compartment via the lymphatics. Dextran is slowly degraded by the enzyme dextranase to glucose.</paragraph>
+                  <paragraph>Solutions containing carbohydrate in the form of dextrose restore blood glucose levels and provide calories. Carbohydrate in the form of dextrose may aid in minimizing liver glycogen depletion and exerts a protein sparing action. Dextrose injected parenterally undergoes oxidation to carbon dioxide and water.</paragraph>
+                  <paragraph>Sodium chloride in water dissociates to provide sodium (Na<sup>+</sup>) and chloride (Cl<sup>-</sup>) ions. Sodium (Na<sup>+</sup>) is the principal cation of the extracellular fluid and plays a large part in the therapy of fluid and electrolyte disturbances. Chloride (Cl<sup>-</sup>) has an integral role in buffering action when oxygen and carbon dioxide exchange occurs in red blood cells. The distribution and excretion of sodium (Na<sup>+</sup>) and chloride (Cl<sup>-</sup>) are largely under the control of the kidney, which maintains a balance between intake and output.</paragraph>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirement ranges from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>Water balance is maintained by various regulatory mechanisms. Water distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na<sup>+</sup>) plays a major role in maintaining physiologic equilibrium.</paragraph>
+               </text>
+               <effectiveTime value="20241205"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ae53fe14-0ce9-46cd-8c11-50c30bd69376">
+               <id root="b3324216-c061-49a4-b47f-4a5e8c2d7c56"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>LMD (dextran 40) is indicated for use in the adjunctive treatment of shock or impending shock due to hemorrhage, burns, surgery or other trauma. It is not indicated as a replacement for whole blood or blood components if they are available. It should not replace other forms of therapy known to be of value in the treatment of shock.</paragraph>
+                  <paragraph>LMD is also indicated for use as a priming fluid, either as a sole prime or as an additive, in pump oxygenators during extracorporeal circulation.</paragraph>
+                  <paragraph>LMD is also indicated for use in prophylaxis of venous thrombosis and pulmonary embolism in patients undergoing procedures known to be associated with a high incidence of thromboembolic complications, such as hip surgery.</paragraph>
+               </text>
+               <effectiveTime value="20230215"/>
+            </section>
+         </component>
+         <component>
+            <section ID="cd6cd90c-bfec-438b-954f-2880d74c54e2">
+               <id root="342e0daf-822e-4f44-9040-e3cd9910e017"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>LMD (dextran 40) is contraindicated in patients with known hypersensitivity to dextran, in those with marked hemostatic defects of all types (thrombocytopenia, hypofibrinogenemia, etc.) including those caused by drugs (heparin, warfarin, etc.), marked cardiac decompensation and in renal disease with severe oliguria or anuria.</paragraph>
+               </text>
+               <effectiveTime value="20230215"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b78cab29-cc04-4466-943f-15dbb1da10b9">
+               <id root="a3c03a43-7c1c-4374-86d6-bee2a415e005"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Although infrequent, severe and fatal anaphylactoid reactions consisting of marked hypotension or cardiac and respiratory arrest have been reported, most of these reactions have occurred in patients not previously exposed to intravenous dextran and early in the infusion period. It is strongly recommended, therefore, that patients not previously exposed to dextran be observed closely during the first minutes of the infusion period.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Anaphylactoid Reactions</content>
+                  </paragraph>
+                  <paragraph>There have been rare reports of serious and life-threatening dextran-induced anaphylactoid reactions (DIAR) associated with Dextran 40 and Dextran 70 administration. To reduce the likelihood of DIAR, 20 mL dextran 1 should be administered prior to infusion of Dextran 40 or Dextran 70 consistent with the dextran 1 package insert.<sup>1-5</sup> See <content styleCode="bold">
+                        <linkHtml href="#e7445a00-69fc-42a9-8dba-277ac0bf6b78">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>. Investigators have reported a 35-fold decrease (from 1:2000 to 1:70,000) in the incidence of DIAR following prophylactic use of dextran 1.<sup>6</sup> However, serious and life-threatening reactions may still occur following initiation of an infusion of any clinical dextran (see <content styleCode="bold">
+                        <linkHtml href="#ef938dd1-c883-48ea-ab2c-e67912a6b3a0">ADVERSE REACTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Because of the seriousness of anaphylactoid reactions, it is recommended that the infusion of intravenous dextran be stopped at the first sign of an allergic reaction provided that other means of sustaining the circulation are available. Resuscitative measures should be readily available for emergency administration in the event such a reaction occurs. In circulatory collapse due to anaphylaxis, rapid volume substitutions with an agent other than dextran should be instituted.</paragraph>
+                  <paragraph>Because LMD (dextran 40) is a hypertonic colloid solution, it attracts water from the extravascular space. This shift of fluid should be considered if the drug is used for poorly hydrated patients where additional fluid therapy will be needed. If LMD is given in excess, vascular overload could occur. The latter possibility can be avoided with careful clinical monitoring preferably by central venous pressure.</paragraph>
+                  <paragraph>Renal excretion of LMD causes elevations of the specific gravity of the urine. In the presence of adequate urine flow only minor elevation will occur, whereas in patients with reduced urine output, urine viscosity and specific gravity can be increased markedly. Since urine osmolarity is only slightly increased by the presence of dextran molecules, it is recommended that, when desired, a patient's state of hydration be assessed by determination of urine or serum osmolarity. If signs of dehydration are present, additional fluid should be administered. An osmotic diuretic such as mannitol also can be used to maintain an adequate urine flow.</paragraph>
+                  <paragraph>Although numerous studies attest to the "nephrotonic" effect of LMD, renal failure has been reported to occur after the use of LMD.</paragraph>
+                  <paragraph>Evidence of tubular vacuolization (osmotic nephrosis) has been found following LMD administration in animals and man. While this appears to be reversible experimentally in animals and to be a consequence of high urine concentration of the drug, its exact clinical significance is presently unknown.</paragraph>
+                  <paragraph>Occasional abnormal renal and hepatic function values have been reported following administration of LMD. However, the specific effect of LMD on renal and hepatic function could not be determined because most of the patients also had undergone surgery or cardiac catheterization. A comparative study of dextran 40 and 5% dextrose in water as pump-priming fluids in open-heart surgery has shown similar elevations of serum glutamic oxaloacetic transaminase (SGOT), aspartate aminotransferase and serum glutamic pyruvic transaminase (SGPT), alanine aminotransferase values in both groups.</paragraph>
+                  <paragraph>Caution should be employed when LMD is administered to patients with active hemorrhage as the resulting increase in perfusion pressure and improved microcirculatory flow may result in additional blood loss.</paragraph>
+                  <paragraph>Administering infusions of LMD that exceed the recommended dose should be avoided, since a dose-related increase in the incidence of wound hematoma, wound seroma, wound bleeding, distant bleeding (hematuria and melena) and pulmonary edema has been observed. Recommended doses should never be exceeded in patients with advanced renal disease, since excessive doses may precipitate renal failure.</paragraph>
+                  <paragraph>Dextran may interfere to some extent with platelet function and should be used with caution in cases with thrombocytopenia. Transient prolongation of bleeding time and/or slightly increased bleeding tendency may occur with the administration of doses greater than 1,000 mL. Care should be taken to prevent a depression of hematocrit below 30% by volume. When large volumes of dextran are administered, plasma protein levels will be decreased.</paragraph>
+                  <paragraph>Solutions containing sodium ions should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>The intravenous administration of this solution can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema. The risk of dilutional states is inversely proportional to the electrolyte concentrations of administered parenteral solutions.</paragraph>
+                  <paragraph>The risk of solute overload causing congested states with peripheral and pulmonary edema is directly proportional to the electrolyte concentrations of such solutions.</paragraph>
+                  <paragraph>In patients with diminished renal function, administration of solutions containing sodium ions may result in sodium retention.</paragraph>
+               </text>
+               <effectiveTime value="20230215"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a07a1394-0e85-47df-aecb-82920698405b">
+               <id root="fc4db87f-d304-4d38-ad6a-1b2718e3f39f"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>The possibility of circulatory overload should be kept in mind. Special care should be exercised in patients with impaired renal clearance of dextran. When the risk of pulmonary edema and/or congestive heart failure may be increased, dextran should be used with caution.</paragraph>
+                  <paragraph>In patients with normal hemostasis, dosage of LMD (dextran 40) approximating 15 mL/kg of body weight may prolong bleeding time and depress platelet function. Dosages in this range also markedly decrease factor VIII, and decrease factors V and IX to a greater degree than would be expected to occur from hemodilution alone. Since these changes tend to be more pronounced following trauma or major surgery, patients should be observed for early signs of bleeding complications.</paragraph>
+                  <paragraph>Since increased rouleaux formation may occur in the presence of dextran, it is recommended that blood samples be drawn for typing and cross-matching prior to the infusion of dextran and reserved for subsequent use if necessary. If blood is drawn after infusion of dextran, the saline agglutination and indirect antiglobulin methods may be used for typing and cross-matching. Difficulty may be encountered when proteolytic enzyme techniques are used to match blood.</paragraph>
+                  <paragraph>Consideration should be given to withdrawal of blood for chemical laboratory tests prior to initiating therapy with dextran because of the following:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Blood sugar determinations that employ high concentrations of acid may result in hydrolysis of dextran, yielding falsely elevated glucose assay results. This has been observed both with sulfuric acid and with acetic acid.</item>
+                     <item>
+                        <caption>2.</caption>In other laboratory tests, the presence of dextran in the blood may result in the development of turbidity, which can interfere with the assay. This has been observed in bilirubin assays in which alcohol is employed and in total protein assays employing biuret reagent.</item>
+                  </list>
+                  <paragraph>Solutions containing dextrose should be used with caution in patients with known subclinical or overt diabetes mellitus.</paragraph>
+                  <paragraph>Caution must be exercised in the administration of parenteral fluids, especially those containing sodium ions, to patients receiving corticosteroids or corticotropin.</paragraph>
+                  <paragraph>Do not administer unless solution is clear and container is undamaged. Discard unused portion. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions.</content> Additive medications should not be delivered via plasma volume expanders.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy.</content> Animal reproduction studies have not been conducted with dextran 40 in dextrose or sodium chloride. It is also not known whether dextran 40 in dextrose or sodium chloride can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. 10% LMD (dextran 40) in dextrose or sodium chloride should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers.</content> It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when 10% LMD (dextran 40) in dextrose or sodium chloride is administered to a nursing woman.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use.</content> The safety and effectiveness of dextran 40 have not been established in neonates. Its limited use in neonates has been inadequate to fully define proper dosage and limitations for use.</paragraph>
+               </text>
+               <effectiveTime value="20241205"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ef938dd1-c883-48ea-ab2c-e67912a6b3a0">
+               <id root="f35ee659-f016-4007-b5ce-2f5a4538d484"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Antigenicity of dextrans is directly related to their degree of branching. Since LMD (dextran 40) has a low degree of branching, it is relatively free of antigenic effect. However, a few individuals have experienced mild urticarial reactions. More severe reactions, consisting of severe anaphylactoid reaction, generalized urticaria, tightness of the chest, wheezing, hypotension, nausea and vomiting may occur in rare instances. Symptoms and signs of adverse systemic reaction may be relieved by parenteral administration of antihistamines, ephedrine or epinephrine, while other means of shock therapy are instituted. The route of administration and dosages of the therapeutic agent selected will depend upon the severity and rapidity of progression of the reaction.</paragraph>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures, and save the remainder of the fluid for examination if deemed necessary (see <content styleCode="bold">
+                        <linkHtml href="#b78cab29-cc04-4466-943f-15dbb1da10b9">WARNINGS</linkHtml>
+                     </content> for treatment of anaphylactic shock).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Post Marketing</content>
+                  </paragraph>
+                  <paragraph>Severe reactions have been observed with Dextran 40 and Dextran 70. Reported reactions include: generalized urticaria, nausea and vomiting, wheezing, hypotension, shock and cardiac arrest (dextran-induced anaphylactoid reactions, DIAR). FDA has received 94 reports of severe DIAR since 1964. Because these reactions are reported voluntarily and the treated population is of indeterminate size, the frequency of reactions cannot be estimated reliably.</paragraph>
+               </text>
+               <effectiveTime value="20230215"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e7445a00-69fc-42a9-8dba-277ac0bf6b78">
+               <id root="8cef8b89-0570-46fb-b50d-4fd3c57308ce"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">LMD (dextran 40) is administered by I.V. infusion only.</content>
+                  </paragraph>
+                  <paragraph>Dextran 1 should be administered prior to administration of clinical dextran solutions.</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>
+                        <content styleCode="bold">In shock,</content> it is suggested that total dosage not exceed 20 mL/kg for adults and adolescents, during the first 24 hours. The first 10 mL/kg may be infused as rapidly as necessary to effect improvement. It is strongly recommended that central venous pressure be monitored frequently during the initial infusion of the drug. Should therapy continue beyond 24 hours, subsequent dosage should not exceed 10 mL/kg per day and therapy should not continue beyond five days.</item>
+                     <item>
+                        <caption>2.</caption>
+                        <content styleCode="bold">In extracorporeal perfusion,</content> the dosage of LMD used will vary with the volume of the pump oxygenator. LMD can serve as a sole primer or as an additive to other priming fluids. For adults and adolescents, generally 10 to 20 mL of a 10% solution (1 to 2 g) of LMD per kilogram of body weight are added to the perfusion circuit. Usually total dosage should not exceed 2 g/kg of body weight.</item>
+                     <item>
+                        <caption>3.</caption>
+                        <content styleCode="bold">In prophylaxis of venous thrombosis and thromboembolism,</content> the dosage of LMD for adults and adolescents, should be chosen according to the risk of thromboembolic complications, e.g., type of surgery and duration of immobilization. In general, treatment should be initiated during surgery; 500 to 1,000 mL (approximately 10 mL/kg of body weight) should be administered on the day of operation. Treatment should be continued at a dose of 500 mL daily for an additional two to three days; then, according to the risk of complications, 500 mL may be given every second or third day during the period of risk, for up to two weeks.</item>
+                     <item>
+                        <caption>4.</caption>Infants may be given 5 mL per kg body weight and children 10 mL per kg.</item>
+                  </list>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. See <content styleCode="bold">
+                        <linkHtml href="#a07a1394-0e85-47df-aecb-82920698405b">PRECAUTIONS</linkHtml>
+                     </content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note</content>: When infusing concentrated LMD, the administration set should include a filter.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To Open</content>
+                  </paragraph>
+                  <paragraph>Tear outer wrap at notch and remove solution container. Some opacity of the plastic due to moisture absorption during the sterilization process may be observed. This is normal and does not affect solution quality or safety. The opacity will diminish gradually.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preparation for Administration</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(Use aseptic technique)</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Close flow control clamp of administration set.</item>
+                     <item>
+                        <caption>2.</caption>Remove cover from outlet port at bottom of container.</item>
+                     <item>
+                        <caption>3.</caption>Insert piercing pin of administration set into port with a twisting motion until the set is firmly seated. <content styleCode="bold">Note</content>: See full directions on administration set carton.</item>
+                     <item>
+                        <caption>4.</caption>Suspend container from hanger.</item>
+                     <item>
+                        <caption>5.</caption>Squeeze and release drip chamber to establish proper fluid level in drip chamber.</item>
+                     <item>
+                        <caption>6.</caption>Open flow control clamp and clear air from set. Close clamp.</item>
+                     <item>
+                        <caption>7.</caption>Attach set to venipuncture device. If device is not indwelling, prime and make venipuncture.</item>
+                     <item>
+                        <caption>8.</caption>Regulate rate of administration with flow control clamp.</item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="bold">WARNING: Do not use flexible container in series connections.</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20241205"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c244d310-226e-4d53-a9e1-7c630e455e65">
+               <id root="cc243034-8832-42df-93b2-fbd0b897172b"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>10% LMD in 5% Dextrose Injection (Dextran 40 in Dextrose Injection, USP) is supplied as follows:</paragraph>
+                  <table styleCode="Noautorules" width="65%">
+                     <col width="31%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Unit of Sale</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Concentration Dextran 40</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-7418-03</content>
+                                 <br/>Case containing 12<br/>500 mL Single-dose flexible containers</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>50 g/500 mL<br/>(10 g/100 mL)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>10% LMD in 0.9% Sodium Chloride Injection (Dextran 40 in Sodium Chloride Injection, USP) is supplied as follows:</paragraph>
+                  <table styleCode="Noautorules" width="65%">
+                     <col width="31%"/>
+                     <col width="33%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Unit of Sale</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Concentration Dextran 40</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-7419-03</content>
+                                 <br/>Case containing 12<br/>500 mL Single-dose flexible containers</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>50 g/500 mL<br/>(10 g/100 mL)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Do not use if crystallization has occurred.</content>
+                  </paragraph>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.] Protect from freezing.</paragraph>
+               </text>
+               <effectiveTime value="20241205"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ba6fee51-7abb-4d82-ac89-b9d613200747">
+               <id root="7ce674be-5808-4247-a7e2-149365f3bf7a"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Richter W. Build-in hapten inhibition of anaphylaxis by the low molecular weight fractions of a B 512 dextran fraction of MW 3400. <content styleCode="italics">Int Arch Allergy</content> 1973;45:930</item>
+                     <item>
+                        <caption>2.</caption>Lungstrom K-G, Renck H, Hedin H, et al. Prevention of dextran-induced anaphylactic reactions by hapten inhibition. I. A Scandinavian multicenter study on the effects of 10 mL dextran 1, 15%, administered before Dextran 70 or Dextran 40. <content styleCode="italics">Acta Chir Scand</content> 1983;149:341-348</item>
+                     <item>
+                        <caption>3.</caption>Renck H, Ljungstrom K-G, Rosberg B, et al. Prevention of dextran-induced anaphylactic reactions by hapten inhibition. II. A comparison of the effects of 20 mL dextran 1, 15%, administered either admixed to or before Dextran 70 or Dextran 40. <content styleCode="italics">Acta Chir Scand</content> 1983;149:349-353</item>
+                     <item>
+                        <caption>4.</caption>Renck H, Ljungstrom K-G, Hedin H, et al. Prevention of dextran-induced anaphylactic reactions by hapten inhibition. III. A Scandinavian multicenter study on the effects of 20 mL dextran 1, 15%, administered before Dextran 70 or Dextran 40. <content styleCode="italics">Acta Chir Scand</content> 1983;149:355-360</item>
+                     <item>
+                        <caption>5.</caption>Ljungstrom K-G, Renck H, Strandberg K, et al. Adverse reactions to dextran in Sweden 1970-1979. <content styleCode="italics">Acta Chir Scand</content> 1983;149:253-262</item>
+                     <item>
+                        <caption>6.</caption>Hedin H, Ljungstrom K-G. Prevention of dextran anaphylaxis. Ten years experience with hapten dextran. <content styleCode="italics">Int Arch Allergy Immunol</content> 1997;113:358-359</item>
+                  </list>
+                  <renderMultiMedia ID="id-588697365" referencedObject="ID_4f7a5f3b-1657-4d7c-9f94-3ffbb80cea30"/>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>LAB-1252-4.0</paragraph>
+                  <paragraph>Revised: 10/2018</paragraph>
+               </text>
+               <effectiveTime value="20241205"/>
+               <component>
+                  <observationMedia ID="ID_4f7a5f3b-1657-4d7c-9f94-3ffbb80cea30">
+                     <text>Hospira logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lmd-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bf125564-634e-4221-bb92-72745d3354b5">
+               <id root="8b302410-f8c9-490a-9d22-803294bc2e6f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Bag - 7418</title>
+               <text>
+                  <paragraph>500 mL</paragraph>
+                  <paragraph>NDC 0409-7418-13</paragraph>
+                  <paragraph>10% LMD<br/> in 5% Dextrose Injection<br/> DEXTRAN 40 IN DEXTROSE INJECTION, USP</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS 10g DEXTRAN 40, 5g DEXTROSE,<br/> HYDROUS. 255 mOsmol/LITER (CALC.). pH 4.4 (3.0 TO 7.0)<br/> STERILE, NONPYROGENIC.</paragraph>
+                  <paragraph>ADDITIVE MEDICATIONS SHOULD NOT BE DELIVERED VIA<br/> PLASMA VOLUME EXPANDERS.</paragraph>
+                  <paragraph>SINGLE-DOSE CONTAINER. CONTAINS NO BACTERIOSTAT.<br/> DISCARD UNUSED PORTION. FOR INTRAVENOUS USE.<br/> USUAL DOSAGE: SEE INSERT. STORE AT 20 TO 25°C (68<br/> TO 77°F). [SEE USP CONTROLLED ROOM TEMPERATURE.]<br/> PROTECT FROM FREEZING. DO NOT USE IF CRYSTALLIZATION<br/> HAS OCCURRED. USE ONLY IF SOLUTION IS CLEAR AND<br/> CONTAINER IS UNDAMAGED. MUST NOT BE USED IN<br/> SERIES CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>3<br/> v<br/> CONTAINS DEHP</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>DISTRIBUTED BY HOSPIRA, INC.,<br/> LAKE FOREST, IL 60045 USA</paragraph>
+                  <paragraph>14478201<br/> IM-4484</paragraph>
+                  <renderMultiMedia ID="id725" referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20230215"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mL Bag - 7418</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lmd-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_77eb1467-5fbe-4c1b-8c4d-839c56e0c385">
+               <id root="74e3bc61-9784-407c-977e-46683a6f2427"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Bag Overwrap - 7418</title>
+               <text>
+                  <paragraph>2 <br/>HDPE</paragraph>
+                  <paragraph>TO OPEN TEAR AT NOTCH</paragraph>
+                  <paragraph>DO NOT REMOVE FROM OVERWRAP UNTIL READY FOR USE. AFTER REMOVING<br/> THE OVERWRAP, CHECK FOR MINUTE LEAKS BY SQUEEZING CONTAINER<br/> FIRMLY. IF LEAKS ARE FOUND, DISCARD SOLUTION AS STERILITY MAY BE<br/> IMPAIRED. RECOMMENDED STORAGE: ROOM TEMPERATURE (25°C). AVOID<br/> EXCESSIVE HEAT. PROTECT FROM FREEZING. SEE INSERT.<br/> IM-4498</paragraph>
+                  <paragraph>Not Made With Natural Rubber Latex</paragraph>
+                  <paragraph>14622100</paragraph>
+                  <renderMultiMedia ID="id750" referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20230215"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mL Bag Overwrap - 7418</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lmd-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ce9a8a0e-dc93-4df6-a160-048b520092c2">
+               <id root="fe49aef8-0075-4d2b-b595-37a16baec123"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Bag - 7419</title>
+               <text>
+                  <paragraph>500 mL</paragraph>
+                  <paragraph>NDC 0409-7419-14</paragraph>
+                  <paragraph>10% LMD<br/> in 0.9% Sodium Chloride Injection<br/> DEXTRAN 40 IN SODIUM CHLORIDE INJECTION, USP</paragraph>
+                  <paragraph>EACH 100 mL CONTAINS 10g DEXTRAN 40, 0.9g SODIUM<br/> CHLORIDE. MAY CONTAIN SODIUM HYDROXIDE AND/OR<br/> HYDROCHLORIC ACID FOR pH ADJUSTMENT. ELECTROLYTES<br/> PER 1000 mL (NOT INCLUDING IONS FOR pH ADJUSTMENT):<br/> 154 mEq SODIUM; 154 mEq CHLORIDE. 310 mOsmol/LITER<br/> (CALC.). pH 4.9 (3.5 TO 7.0) STERILE, NONPYROGENIC.</paragraph>
+                  <paragraph>ADDITIVE MEDICATIONS SHOULD NOT BE DELIVERED VIA<br/> PLASMA VOLUME EXPANDERS.</paragraph>
+                  <paragraph>SINGLE-DOSE CONTAINER. CONTAINS NO BACTERIOSTAT.<br/> DISCARD UNUSED PORTION. FOR INTRAVENOUS USE. USUAL<br/> DOSAGE: SEE INSERT. STORE AT 20 TO 25°C (68 TO 77°F). [SEE<br/> USP CONTROLLED ROOM TEMPERATURE.] PROTECT FROM<br/> FREEZING. DO NOT USE IF CRYSTALLIZATION HAS OCCURRED.<br/> USE ONLY IF SOLUTION IS CLEAR AND CONTAINER IS<br/> UNDAMAGED. MUST NOT BE USED IN SERIES CONNECTIONS.</paragraph>
+                  <paragraph>Rx ONLY</paragraph>
+                  <paragraph>3<br/> v<br/> CONTAINS DEHP</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>DISTRIBUTED BY HOSPIRA, INC.,<br/> LAKE FOREST, IL 60045 USA</paragraph>
+                  <paragraph>14478701<br/> IM-4485</paragraph>
+                  <renderMultiMedia ID="id793" referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20230215"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mL Bag - 7419</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lmd-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ff721b14-c864-410b-b18b-a9466f074f55">
+               <id root="3ff6e575-2dcb-4a6d-9d09-627c213c315c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Bag Overwrap - 7419</title>
+               <text>
+                  <paragraph>2 <br/>HDPE</paragraph>
+                  <paragraph>TO OPEN TEAR AT NOTCH</paragraph>
+                  <paragraph>DO NOT REMOVE FROM OVERWRAP UNTIL READY FOR USE. AFTER REMOVING<br/> THE OVERWRAP, CHECK FOR MINUTE LEAKS BY SQUEEZING CONTAINER<br/> FIRMLY. IF LEAKS ARE FOUND, DISCARD SOLUTION AS STERILITY MAY BE<br/> IMPAIRED. RECOMMENDED STORAGE: ROOM TEMPERATURE (25°C). AVOID<br/> EXCESSIVE HEAT. PROTECT FROM FREEZING. SEE INSERT.<br/> IM-4498</paragraph>
+                  <paragraph>Not Made With Natural Rubber Latex</paragraph>
+                  <paragraph>14622100</paragraph>
+                  <renderMultiMedia ID="id818" referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20230215"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mL Bag Overwrap - 7419</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="lmd-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

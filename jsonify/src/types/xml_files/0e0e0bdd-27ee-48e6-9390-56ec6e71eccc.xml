@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="0e0e0bdd-27ee-48e6-9390-56ec6e71eccc"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nalbuphine Hydrochloride 10 mg Injection, USP 1 mL Single Dose Ampule</title>
+   <effectiveTime value="20250521"/>
+   <setId root="596826ff-e471-4d4f-9a73-2a34e2af2dd6"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="012430880" root="1.3.6.1.4.1.519.1"/>
+            <name>Henry Schein, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="37271f01-a789-4138-9ba9-8589fcb27253"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20231110"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0404-9918" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nalbuphine Hydrochloride</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Nalbuphine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0409-1463" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="ZU4275277R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Nalbuphine Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="L2T84IQI2K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Nalbuphine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43165" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="AMPULE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0404-9918-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220113"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220113"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA070914" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfe436db8-5286-4f3c-849e-3f4b9f9dd7eb">
+               <id root="b6629275-939d-4b4d-8f5c-cbcd0d94d926"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content>
+                        <content styleCode="bold">﻿Injection</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>
+                        <content styleCode="bold">Ampul</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>
+                        <content styleCode="bold">Fliptop Vial</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>
+                        <content styleCode="bold">Protect from light.</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>
+                        <content styleCode="bold">Rx only</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L63520b6f-a94b-405a-a08d-ceaa2369c364">
+               <id root="079253d9-6d63-4e31-b5de-af7a4ae6ce11"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: SERIOUS AND LIFE-THREATENING RISKS FROM USE OF NALBUPHINE HYDROCHLORIDE INJECTION</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">Life-Threatening Respiratory Depression</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Serious, life-threatening, or fatal respiratory depression may occur with use of Nalbuphine Hydrochloride Injection, especially during initiation or following a dosage increase. To reduce the ‎risk of respiratory depression, proper dosing and titration of ‎‎Nalbuphine Hydrochloride Injection are essential [see WARNINGS].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">
+                        <content styleCode="bold">Risks From Concomitant Use With Benzodiazepines Or Other CNS Depressants</content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">Concomitant use with benzodiazepines and/or other central nervous system (CNS) depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death. Reserve concomitant prescribing of Nalbuphine Hydrochloride Injection and benzodiazepines or other CNS depressants for use in patients for whom alternative treatment options are inadequate [see WARNINGS; DRUG INTERACTIONS].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240618"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L9865b609-139b-427a-9404-ee1dec1a2938">
+               <id root="9e0f2c23-7b46-40b6-8655-425bf4d9ca63"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Nalbuphine hydrochloride is a synthetic opioid agonist-antagonist analgesic of the phenanthrene series. It is chemically related to both the widely used opioid antagonist, naloxone, and the potent opioid analgesic, oxymorphone. Chemically nalbuphine hydrochloride is 17-(cyclobutylmethyl)-4,5α-epoxymorphinan-3,6α,14-triol hydrochloride. Nalbuphine hydrochloride molecular weight is 393.91 and is soluble in H<sub>2</sub>O (35.5 mg/mL at 25ºC) and ethanol (0.8%); insoluble in CHCl<sub>3</sub> and ether. Nalbuphine hydrochloride has pKa values of 8.71 and 9.96. The molecular formula is C<sub>21</sub>H<sub>27</sub>NO<sub>4</sub> • HCl.</paragraph>
+                  <paragraph>The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L4498d79d-b965-44ce-a6b0-d0987859328c"/>
+                  </paragraph>
+                  <paragraph>Nalbuphine Hydrochloride Injection is a sterile, nonpyrogenic solution of nalbuphine hydrochloride in water for injection. This product may be administered by subcutaneous, intramuscular or intravenous injection.</paragraph>
+                  <paragraph>Each milliliter (mL) contains nalbuphine hydrochloride 10 mg or 20 mg; sodium citrate, dihydrate 0.47 mg and citric acid, anhydrous 0.63 mg added as buffers and may contain sodium hydroxide and/or hydrochloric acid for pH adjustment; pH 3.7 (3.0 to 4.5). Contains sodium chloride for tonicity adjustment.</paragraph>
+                  <paragraph>Multiple-dose vials contain 1.8 mg/mL methylparaben and 0.2 mg/mL propylparaben added as preservatives. Single-dose products contain no bacteriostat or antimicrobial agent and unused portions must be discarded.</paragraph>
+               </text>
+               <effectiveTime value="20250521"/>
+               <component>
+                  <observationMedia ID="L4498d79d-b965-44ce-a6b0-d0987859328c">
+                     <text>Formula1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Formula1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1aff10f1-4877-4847-a846-20ca21a20ffc"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Mechanism of Action</content>
+                     <br/>Nalbuphine is an agonist at kappa opioid receptors and an antagonist at mµ opioid receptors.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacodynamics</content>
+                     <br/>Nalbuphine Hydrochloride Injection is a potent analgesic. Its analgesic potency is essentially equivalent to that of morphine on a milligram basis up to a dosage of approximately 30 mg.</paragraph>
+                  <paragraph>The opioid antagonist activity of nalbuphine hydrochloride is one-fourth as potent as nalorphine and 10 times that of pentazocine.</paragraph>
+                  <paragraph>Nalbuphine hydrochloride may produce the same degree of respiratory depression as equianalgesic doses of morphine. However, Nalbuphine Hydrochloride Injection exhibits a ceiling effect such that increases in dose greater than 30 mg do not produce further respiratory depression in the absence of other CNS active medications affecting respiration.</paragraph>
+                  <paragraph>Nalbuphine hydrochloride by itself has potent opioid antagonist activity at doses equal to or lower than its analgesic dose. When administered following or concurrent with mµ agonist opioid analgesics (e.g., morphine, oxymorphone, fentanyl), nalbuphine hydrochloride may partially reverse or block opioid-induced respiratory depression from the mµ agonist analgesic. Nalbuphine Hydrochloride Injection may precipitate withdrawal in patients dependent on opioid drugs. Nalbuphine Hydrochloride Injection should be used with caution in patients who have been receiving mµ opioid analgesics on a regular basis.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the Central Nervous System</content>
+                     <br/>Nalbuphine produces respiratory depression by direct action on brain stem respiratory centers. The respiratory depression involves a reduction in the responsiveness of the brain stem respiratory centers to both increases in carbon dioxide tension and electrical stimulation. However, there may be a ceiling effect for the respiratory depression caused by nalbuphine. Although a mixed agonist/antagonist, the respiratory depressant effects of nalbuphine can be reversed by naloxone.</paragraph>
+                  <paragraph>Nalbuphine causes miosis, even in total darkness. Pinpoint pupils are a sign of opioid overdose but are not pathognomonic (e.g., pontine lesions of hemorrhagic or ischemic origins may produce similar findings). Marked mydriasis rather than miosis may be seen due to hypoxia in overdose situations.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the Gastrointestinal Tract and Other Smooth Muscle</content>
+                     <br/>Nalbuphine causes a reduction in motility associated with an increase in smooth muscle tone in the antrum of the stomach and duodenum. Digestion of food in the small intestine is delayed and propulsive contractions are decreased. Propulsive peristaltic waves in the colon are decreased, while tone may be increased to the point of spasm, resulting in constipation. Other opioid-induced effects may include a reduction in biliary and pancreatic secretions, spasm of sphincter of Oddi, and transient elevations in serum amylase.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the Cardiovascular System</content>
+                     <br/>During use of nalbuphine during anesthesia, a higher incidence of bradycardia has been reported in patients who did not receive atropine pre-operatively.</paragraph>
+                  <paragraph>Opioids produce peripheral vasodilation, which may result in orthostatic hypotension or syncope. Manifestations of histamine release and/or peripheral vasodilation may include pruritus, flushing, red eyes, sweating, and/or orthostatic hypotension.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the Endocrine System</content>
+                     <br/>Opioids inhibit the secretion of adrenocorticotropic hormone (ACTH), cortisol, and luteinizing hormone (LH) in humans [see <content styleCode="bold">ADVERSE</content>
+                     <content styleCode="bold">REACTIONS</content>]. They also stimulate prolactin, growth hormone (GH) secretion, and pancreatic secretion of insulin and glucagon.</paragraph>
+                  <paragraph>Use of opioids for an extended period of time may influence the hypothalamic-pituitary-gonadal axis, leading to androgen deficiency that may manifest as low libido, impotence, erectile dysfunction, amenorrhea, or infertility. </paragraph>
+                  <paragraph>The causal role of opioids in the clinical syndrome of hypogonadism is unknown because the various medical, physical, lifestyle, and psychological stressors that may influence gonadal hormone levels have not been adequately controlled for in studies conducted to date [see <content styleCode="bold">ADVERSE</content>
+                     <content styleCode="bold">REACTIONS</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the Immune System</content>
+                     <br/>Opioids have been shown to have a variety of effects on components of the immune system in in vitro and animal models. The clinical significance of these findings is unknown. Overall, the effects of opioids appear to be modestly immunosuppressive.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Concentration–Efficacy Relationships</content>
+                     <br/>The minimum effective analgesic concentration will vary widely among patients, especially among patients who have been previously treated with potent agonist opioids. The minimum effective analgesic concentration of nalbuphine for any individual patient may increase over time due to an increase in pain, the development of a new pain syndrome, and/or the development of analgesic tolerance [see<content styleCode="bold"> DOSAGE AND ADMINISTRATION</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics</content>
+                     <br/>The onset of action of Nalbuphine Hydrochloride Injection occurs within 2 to 3 minutes after intravenous administration, and in less than 15 minutes following subcutaneous or intramuscular injection. The plasma half-life of nalbuphine is 5 hours, and in clinical studies the duration of analgesic activity has been reported to range from 3 to 6 hours.</paragraph>
+                  <paragraph>The metabolic pathway for nalbuphine has not been defined, but is likely hepatic.</paragraph>
+               </text>
+               <effectiveTime value="20240618"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ad578c4e-1808-4dd5-962f-5a3a11c6fe17"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Nalbuphine Hydrochloride Injection is indicated for the management of pain severe enough to require an opioid analgesic and for which alternative treatments are inadequate. Nalbuphine Hydrochloride Injection can also be used as a supplement to balanced anesthesia, for preoperative and postoperative analgesia, and for obstetrical analgesia during labor and delivery.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Limitations of Use:</content>
+                     <br/>Because of the risks of addiction, abuse, and misuse with opioids, which can occur at any dosage or duration [see <content styleCode="bold">WARNINGS</content>], reserve Nalbuphine Hydrochloride Injection for use in patients for whom alternative treatment options (e.g., non-opioid analgesics):</paragraph>
+                  <paragraph>•Have not been tolerated, or are not expected to be tolerated,<br/>•Have not provided adequate analgesia, or are not expected to provide adequate analgesia.</paragraph>
+                  <paragraph>Nalbuphine Hydrochloride Injection should not be used for an extended period of time unless the pain ‎remains severe enough to require an opioid analgesic and for which ‎alternative treatment options continue to be inadequate.‎</paragraph>
+               </text>
+               <effectiveTime value="20240618"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="52924d5d-9d9a-4172-8c6f-901c408c218d"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Nalbuphine Hydrochloride Injection in contraindicated in patients with:</paragraph>
+                  <list listType="unordered">
+                     <item>Significant respiratory depression [see <content styleCode="bold">WARNINGS</content>
+                        <content styleCode="bold"/>]</item>
+                     <item>Acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment [see <content styleCode="bold">WARNINGS</content>﻿]</item>
+                     <item>Known or suspected gastrointestinal obstruction, including paralytic ileus [see <content styleCode="underline">
+                           <content styleCode="bold"/>
+                        </content>
+                        <content styleCode="bold">WARNINGS</content>﻿]</item>
+                     <item>Hypersensitivity to nalbuphine or to any of the other ingredients in Nalbuphine Hydrochloride Injection</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240618"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0b006133-7f8b-433f-8a88-a13d4fa67ee1"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Life-Threatening Respiratory Depression</content>
+                     <br/>Serious, life-threatening, or fatal respiratory depression has been reported with the use of opioids, even when used as recommended. Respiratory depression, if not immediately recognized and treated, may lead to respiratory arrest and death. Management of respiratory depression may include close observation, supportive measures, and use of opioid antagonists, depending on the patient's clinical status [see <content styleCode="bold">OVERDOSAGE</content>]. Carbon dioxide (CO<sub>2</sub>) retention from opioid-induced respiratory depression can exacerbate the sedating effects of opioids.</paragraph>
+                  <paragraph>While serious, life-threatening, or fatal respiratory depression can occur at any time during the use of Nalbuphine Hydrochloride Injection, the risk is greatest during the initiation of therapy or following a dosage increase. Monitor patients closely for respiratory depression, especially within the first 24 to 72 hours of initiating therapy with and following dosage increases of Nalbuphine Hydrochloride Injection.</paragraph>
+                  <paragraph>To reduce the risk of respiratory depression, proper dosing and titration of Nalbuphine Hydrochloride Injection is essential [see <content styleCode="bold">DOSAGE AND</content>
+                     <content styleCode="bold">ADMINISTRATION</content>]. Overestimating the Nalbuphine Hydrochloride Injection dosage when converting patients from another opioid product can result in a fatal overdose with the first dose.</paragraph>
+                  <paragraph>Opioids can cause sleep-related breathing disorders including central sleep apnea (CSA) and sleep-related hypoxemia. Opioid use increases the risk of CSA in a dose-dependent fashion. In patients who present with CSA, consider decreasing the opioid dosage using best practices for opioid taper [see<content styleCode="bold"> DOSAGE AND ADMINISTRATION</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risks from Concomitant Use with Benzodiazepines or Other CNS </content>
+                     <content styleCode="bold">Depressants</content>
+                  </paragraph>
+                  <paragraph>Profound sedation, respiratory depression, coma, and death may result from the concomitant use of Nalbuphine Hydrochloride Injection with benzodiazepines or other CNS depressants (e.g., non-benzodiazepine sedatives/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, other opioids, alcohol). Because of these risks, reserve concomitant prescribing of these drugs for use in patients for whom alternative treatment options are inadequate.</paragraph>
+                  <paragraph>Observational studies have demonstrated that concomitant use of opioid analgesics and benzodiazepines increases the risk of drug-related mortality compared to use of opioid analgesics alone. Because of similar pharmacological properties, it is reasonable to expect similar risk with the concomitant use of other CNS depressant drugs with opioid analgesics [see <content styleCode="bold">PRECAUTIONS; DRUG INTERACTIONS</content>].</paragraph>
+                  <paragraph>If the decision is made to prescribe a benzodiazepine or other CNS depressant concomitantly with an opioid analgesic, prescribe the lowest effective dosages and minimum durations of concomitant use. In patients already receiving an opioid analgesic, prescribe a lower initial dose of the benzodiazepine or other CNS depressant than indicated in the absence of an opioid, and titrate based on clinical response. If an opioid analgesic is initiated in a patient already taking a benzodiazepine or other CNS depressant, prescribe a lower initial dose of the opioid analgesic, and titrate based on clinical response. Follow patients closely for signs and symptoms of respiratory depression and sedation.</paragraph>
+                  <paragraph>Advise both patients and caregivers about the risks of respiratory depression and sedation when Nalbuphine Hydrochloride Injection is used with benzodiazepines or other CNS depressants (including alcohol and illicit drugs). Advise patients not to drive or operate heavy machinery until the effects of concomitant use of the benzodiazepine or other CNS depressant have been determined. Screen patients for risk of substance use disorders, including opioid abuse and misuse, and warn them of the risk for overdose and death associated with the use of additional CNS depressants including alcohol and illicit drugs [see <content styleCode="bold">PRECAUTIONS; DRUG INTERACTIONS and INFORMATION FOR PATIENTS</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Opioid-Induced Hyperalgesia and Allodynia</content>
+                  </paragraph>
+                  <paragraph>Opioid-Induced Hyperalgesia (OIH) occurs when an opioid analgesic ‎paradoxically causes an increase in pain, or an increase in sensitivity to ‎pain. This condition differs from tolerance, which is the need for ‎increasing doses of opioids to maintain a defined effect [see Dependence]. ‎Symptoms of OIH include (but may not be limited to) increased levels of ‎pain upon opioid dosage increase, decreased levels of pain upon opioid ‎dosage decrease, or pain from ordinarily non-painful stimuli (allodynia). ‎These symptoms may suggest OIH only if there is no evidence of ‎underlying disease progression, opioid tolerance, opioid withdrawal, or addictive ‎behavior.‎</paragraph>
+                  <paragraph>Cases of OIH have been reported, both with short-term and longer-term ‎use of opioid analgesics. Though the mechanism of OIH is not fully ‎understood, multiple biochemical pathways have been implicated. Medical ‎literature suggests a strong biologic plausibility between opioid ‎analgesics and OIH and allodynia. If a patient is suspected to be ‎experiencing OIH, carefully consider appropriately decreasing the dose of ‎the current opioid analgesic or opioid rotation (safely switching the ‎patient to a different opioid moiety) [see <content styleCode="bold">DOSAGE AND ADMINISTRATION, ‎WARNINGS</content>].‎</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Life-Threatening Respiratory Depression in Patients with Chronic Pulmonary Disease or in Elderly, Cachectic, or Debilitated Patients</content>
+                     <br/>The use of Nalbuphine Hydrochloride Injection in patients with acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment is contraindicated.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Patients with Chronic Pulmonary Disease</content>
+                     <br/>Nalbuphine Hydrochloride Injection-treated patients with significant chronic obstructive pulmonary disease or cor pulmonale, and those with a substantially decreased respiratory reserve, hypoxia, hypercapnia, or pre-existing respiratory depression are at increased risk of decreased respiratory drive including apnea, even at recommended dosages of use of Nalbuphine Hydrochloride Injection [see <content styleCode="bold">WARNINGS</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Elderly, Cachectic, or Debilitated Patients</content>
+                     <br/>Life-threatening respiratory depression is more likely to occur in elderly, cachectic, or debilitated patients because they may have altered pharmacokinetics or altered clearance compared to younger, healthier patients [see <content styleCode="bold">WARNINGS</content>]. Monitor such patients closely, particularly when initiating and titrating Nalbuphine Hydrochloride Injection and when Nalbuphine Hydrochloride Injection is given concomitantly with other drugs that depress respiration [see <content styleCode="bold">WARNINGS</content>]. Alternatively, consider the use of non-opioid analgesics in these patients.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adrenal Insufficiency</content>
+                     <br/>Cases of adrenal insufficiency have been reported with opioid use, more often following greater than 1 month of use. Presentation of adrenal insufficiency may include non-specific symptoms and signs including nausea, vomiting, anorexia, fatigue, weakness, dizziness, and low blood pressure. If adrenal insufficiency is suspected, confirm the diagnosis with diagnostic testing as soon as possible. If adrenal insufficiency is diagnosed, treat with physiologic replacement doses of corticosteroids. Wean the patient off of the opioid to allow adrenal function to recover and continue corticosteroid treatment until adrenal function recovers. Other opioids may be tried as some cases reported use of a different opioid without recurrence of adrenal insufficiency. The information available does not identify any particular opioids as being more likely to be associated with adrenal insufficiency.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Severe Hypotension</content>
+                     <br/>Nalbuphine Hydrochloride Injection may cause severe hypotension including orthostatic hypotension and syncope in ambulatory patients. There is increased risk in patients whose ability to maintain blood pressure has already been compromised by a reduced blood volume or concurrent administration of certain CNS depressant drugs (e.g., phenothiazines or general anesthetics) [see <content styleCode="bold">PRECAUTIONS; DRUG INTERACTIONS</content>]. Monitor these patients for signs of hypotension after initiating or titrating the dosage of Nalbuphine Hydrochloride Injection. In patients with circulatory shock, Nalbuphine Hydrochloride Injection may cause vasodilation that can further reduce cardiac output and blood pressure. Avoid the use of Nalbuphine Hydrochloride Injection in patients with circulatory shock.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risks of Use in Patients with Increased Intracranial Pressure, Brain Tumors, Head Injury, or Impaired Consciousness</content>
+                     <br/>In patients who may be susceptible to the intracranial effects of CO<sub>2</sub> retention (e.g., those with evidence of increased intracranial pressure or brain tumors), Nalbuphine Hydrochloride Injection may reduce respiratory drive, and the resultant CO<sub>2</sub> retention can further increase intracranial pressure. Monitor such patients for signs of sedation and respiratory depression, particularly when initiating therapy with Nalbuphine Hydrochloride Injection.</paragraph>
+                  <paragraph>Opioids may also obscure the clinical course in a patient with a head injury. Avoid the use of Nalbuphine Hydrochloride Injection in patients with impaired consciousness or coma.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risks of Use in Patients with Gastrointestinal Conditions</content>
+                     <br/>Nalbuphine Hydrochloride Injection is contraindicated in patients with known or suspected gastrointestinal obstruction, including paralytic ileus.</paragraph>
+                  <paragraph>The nalbuphine in Nalbuphine Hydrochloride Injection may cause spasm of the sphincter of Oddi. Opioids may cause increases in serum amylase. Monitor patients with biliary tract disease, including acute pancreatitis, for worsening symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Increased Risk of Seizures in Patients with Seizure Disorders</content>
+                     <br/>The nalbuphine in Nalbuphine Hydrochloride Injection may increase the frequency of seizures in patients with seizure disorders, and may increase the risk of seizures occurring in other clinical settings associated with seizures. Monitor patients with a history of seizure disorders for worsened seizure control during Nalbuphine Hydrochloride Injection therapy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Withdrawal</content>
+                     <br/>The use of Nalbuphine Hydrochloride Injection, a mixed agonist/antagonist opioid analgesic, in patients who are receiving a full opioid agonist analgesic may reduce the analgesic effect and/or precipitate withdrawal symptoms. Avoid concomitant use of Nalbuphine Hydrochloride Injection with a full opioid agonist analgesic.</paragraph>
+                  <paragraph>When discontinuing Nalbuphine Hydrochloride Injection, in a physically-dependent patient, gradually taper the dosage [see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>]. Do not abruptly discontinue Nalbuphine Hydrochloride Injection in these patients [see <content styleCode="bold">DRUG ABUSE AND DEPENDENCE</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risks of Driving and Operating Machinery</content>
+                     <br/>Nalbuphine Hydrochloride Injection may impair the mental or physical abilities needed to perform potentially hazardous activities such as driving a car or operating machinery. Warn patients not to drive or operate dangerous machinery unless they are tolerant to the effects of Nalbuphine Hydrochloride Injection and know how they will react to the medication [see <content styleCode="bold">PRECAUTIONS; INFORMATION FOR PATIENTS</content>].</paragraph>
+                  <paragraph>Maintain patient under observation until recovered from Nalbuphine Hydrochloride Injection effects that would affect driving or other potentially dangerous tasks.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use in Pregnancy (Other Than Labor)</content>
+                     <br/>Severe fetal bradycardia has been reported when Nalbuphine Hydrochloride Injection is administered during labor. Naloxone may reverse these effects. Although there are no reports of fetal bradycardia earlier in pregnancy, it is possible that this may occur. Avoid the use of Nalbuphine Hydrochloride Injection in pregnant women unless the potential benefit outweighs the risk to the fetus, and if appropriate measures such as fetal monitoring are taken to detect and manage any potential adverse effect on the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use During Labor and Delivery</content>
+                     <br/>The placental transfer of nalbuphine is high, rapid, and variable with a maternal to fetal ratio ranging from 1:0.37 to 1:6. Fetal and neonatal adverse effects that have been reported following the administration of nalbuphine to the mother during labor include fetal bradycardia, respiratory depression at birth, apnea, cyanosis, and hypotonia. Some of these events have been life-threatening. Maternal administration of naloxone during labor has normalized these effects in some cases. Severe and prolonged fetal bradycardia has been reported. Permanent neurological damage attributed to fetal bradycardia has occurred. A sinusoidal fetal heart rate pattern associated with the use of nalbuphine has also been reported. Nalbuphine should be used during labor and delivery only if clearly indicated and only if the potential benefit outweighs the risk to the infant. Newborns should be monitored for respiratory depression, apnea, bradycardia and arrhythmias if nalbuphine has been used.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Addiction, Abuse, and Misuse</content>
+                     <br/>Nalbuphine hydrochloride is a synthetic opioid agonist-antagonist analgesic. As an opioid, Nalbuphine Hydrochloride Injection exposes users to the risks of addiction, abuse, and misuse [see <content styleCode="bold">DRUG ABUSE AND DEPENDENCE</content>].</paragraph>
+                  <paragraph>Although the risk of addiction in any individual is unknown, it can occur in patients appropriately prescribed Nalbuphine Hydrochloride Injection. Addiction can occur at recommended dosages and if the drug is misused or abused.</paragraph>
+                  <paragraph>Assess each patient's risk for opioid addiction, abuse, or misuse prior to prescribing Nalbuphine Hydrochloride Injection‎, and reassess all patients receiving ‎‎Nalbuphine Hydrochloride Injection for the development of these behaviors and conditions. Risks are increased in patients with a personal or family history of substance abuse (including drug or alcohol abuse or addiction) or mental illness (e.g., major depression). The potential for these risks should not, however, prevent the proper management of pain in any given patient. Patients at increased risk may be prescribed opioids such as ‎‎Nalbuphine Hydrochloride Injection, but use in such patients necessitates intensive counseling ‎about the risks and proper use of Nalbuphine Hydrochloride Injection along with frequent monitoring for signs of addiction, abuse, and misuse.</paragraph>
+                  <paragraph>Opioids are sought for nonmedical use and are subject to diversion from ‎legitimate prescribed use. Consider these risks when prescribing or dispensing Nalbuphine Hydrochloride Injection. Strategies to reduce these risks include prescribing the drug in the smallest appropriate quantity. Contact local state professional licensing board or state controlled substances authority for information on how to prevent and detect abuse or diversion of this product.</paragraph>
+               </text>
+               <effectiveTime value="20240619"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="04fc853a-3ee8-499e-9efb-6da88b707942"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                     <br/>
+                     <content styleCode="underline">Impaired Renal or Hepatic Function</content>
+                     <br/>Because nalbuphine is metabolized in the liver and excreted by the kidneys, Nalbuphine Hydrochloride Injection should be used with caution in patients with renal or liver dysfunction and administered in reduced amounts.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Myocardial Infarction</content>
+                     <br/>As with all potent analgesics, Nalbuphine Hydrochloride Injection should be used with caution in patients with myocardial infarction who have nausea or vomiting.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Cardiovascular System</content>
+                     <br/>During evaluation of Nalbuphine Hydrochloride Injection in anesthesia, a higher incidence of bradycardia has been reported in patients who did not receive atropine pre-operatively.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Laboratory Tests</content>
+                     <br/>Nalbuphine Hydrochloride Injection may interfere with enzymatic methods for the detection of opioids depending on the specificity/sensitivity of the test. Consult the test manufacturer for specific details.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients</content>
+                     <br/>Patients should be advised of the following information:</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Hyperalgesia and Allodynia</content>
+                     <br/>Inform patients and caregivers not to increase opioid dosage without first consulting a clinician. Advise patients to seek medical attention if they ‎experience symptoms of hyperalgesia, including worsening pain, increased ‎sensitivity to pain, or new pain [see <content styleCode="bold">WARNINGS; Postmarketing Experience</content>].‎</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Serotonin Syndrome</content>
+                     <br/>Inform patients that opioids could cause a rare but potentially life-threatening condition resulting from concomitant administration of serotonergic drugs. Warn patients of the symptoms of serotonin syndrome and to seek medical attention right away if symptoms develop. Instruct patients to inform their physicians if they are taking, or plan to take serotonergic medications [see <content styleCode="bold">PRECAUTIONS; DRUG INTERACTIONS</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Monoamine Oxidase Inhibitor (MAOI) Interaction</content>
+                     <br/>Inform patients to avoid taking Nalbuphine Hydrochloride Injection while using any drugs that inhibit monoamine oxidase. Patients should not start MAOIs while taking Nalbuphine Hydrochloride Injection [see <content styleCode="bold">DRUG INTERACTIONS</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Constipation</content>
+                     <br/>Advise patients of the potential for severe constipation, including management instructions and when to seek medical attention [see <content styleCode="bold">ADVERSE REACTIONS, CLINICAL PHARMACOLOGY</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug Interactions</content>
+                     <br/>
+                     <content styleCode="underline">Benzodiazepines and other Central Nervous System (CNS) Depressants</content>
+                     <br/>Although Nalbuphine Hydrochloride Injection possesses opioid antagonist activity, there is evidence that in nondependent patients it will not antagonize an opioid analgesic administered just before, concurrently, or just after an injection of Nalbuphine Hydrochloride Injection. Therefore, due to additive pharmacologic effects, the concomitant use of other opioid analgesics, benzodiazepines or other CNS depressants such as alcohol, other sedatives/hypnotics, anxiolytics, tranquilizers, muscle relaxants, general anesthetics, antipsychotics, and other opioids, can increase the risk of respiratory depression, profound sedation, coma, and death.</paragraph>
+                  <paragraph>Reserve concomitant prescribing of these drugs for use in patients for whom alternative treatment options are inadequate. Limit dosages and durations to the minimum required. Follow patients closely for signs of respiratory depression and sedation [see <content styleCode="bold">WARNINGS</content>].</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Serotonergic Drugs</content>
+                     <br/>The concomitant use of opioids with other drugs that affect the serotonergic neurotransmitter system, such as selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), triptans, 5-HT3 receptor antagonists, drugs that effect the serotonin neurotransmitter system (e.g., mirtazapine, trazodone, tramadol), certain muscle relaxants (i.e., cyclobenzaprine, metaxalone), and monoamine oxidase (MAO) inhibitors (those intended to treat psychiatric disorders and also others, such as linezolid and intravenous methylene blue), has resulted in serotonin syndrome [see <content styleCode="bold">PRECAUTIONS; INFORMATION FOR PATIENTS</content>].</paragraph>
+                  <paragraph>If concomitant use is warranted, carefully observe the patient, particularly during treatment initiation and dose adjustment. Discontinue Nalbuphine Hydrochloride Injection if serotonin syndrome is suspected.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Muscle Relaxants</content>
+                     <br/>Nalbuphine may enhance the neuromuscular blocking action of skeletal muscle relaxants and produce an increased degree of respiratory depression.</paragraph>
+                  <paragraph>Monitor patients for signs of respiratory depression that may be greater than otherwise expected and decrease the dosage of Nalbuphine Hydrochloride Injection and/or the muscle relaxant as necessary.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Diuretics</content>
+                     <br/>Opioids can reduce the efficacy of diuretics by inducing the release of antidiuretic hormone.</paragraph>
+                  <paragraph>Monitor patients for signs of diminished diuresis and/or effects on blood pressure and increase the dosage of the diuretic as needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Anticholinergic Drugs</content>
+                     <br/>The concomitant use of anticholinergic drugs may increase risk of urinary retention and/or severe constipation, which may lead to paralytic ileus.</paragraph>
+                  <paragraph>Monitor patients for signs of urinary retention or reduced gastric motility when Nalbuphine Hydrochloride Injection is used concomitantly with anticholinergic drugs.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Monoamine Oxidase Inhibitors (MAOIs)</content>
+                     <br/>MAOI (e.g., phenelzine, tranylcypromine, linezolid) interactions with opioids may manifest as serotonin syndrome [see <content styleCode="bold">DRUG INTERACTIONS</content>] or opioid toxicity (e.g., respiratory depression, coma [see <content styleCode="bold">WARNINGS</content>]).</paragraph>
+                  <paragraph>The use of Nalbuphine Hydrochloride Injection is not recommended for patients taking MAOIs or within 14 days of stopping such treatment.</paragraph>
+                  <paragraph>If urgent use of an opioid is necessary, use test doses and frequent titration of small doses to treat pain while closely monitoring blood pressure and signs and symptoms of CNS and respiratory depression.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     <br/>
+                     <content styleCode="underline">Carcinogenesis</content>
+                     <br/>There was no evidence of carcinogenicity in long term animal studies were performed in rats (24 months) and mice (19 months) by oral administration at doses up to 200 mg/kg [12 times the maximum recommended human daily dose (MRHD)] and 200 mg/ per day (6 times the MRDH), respectively.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Mutagenesis</content>
+                     <br/>Nalbuphine Hydrochloride Injection induced an increased frequency of mutation in the mouse lymphoma assay. Nalbuphine Hydrochloride Injection did not have mutagenic activity in the Ames test with four bacterial strains, in the Chinese Hamster Ovary HGPRT assays or in the Sister Chromatid Exchange Assay. Clastogenic activity was not observed in the mouse micronucleus test or the cytogenicity bone marrow assay in rats.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Impairment of Fertility</content>
+                     <br/>Female rats were treated with nalbuphine hydrochloride beginning 15 days prior to mating through Lactation Day 20 via subcutaneous doses of 14, 28, or 56 mg/kg/day (0.85, 1.7, or 3.4 times the MRHD of 160 mg/day based on body surface area, respectively). Male rats were treated via oral gavage with the same nalbuphine hydrochloride doses beginning 60 days prior to and throughout mating. There were no adverse effects on either male or female fertility.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>
+                     <br/>
+                     <content styleCode="underline">Risk Summary</content>
+                     <br/>Use of opioid analgesics‎ for an extended period of time during pregnancy may cause neonatal opioid withdrawal syndrome.</paragraph>
+                  <paragraph>Available data with Nalbuphine Hydrochloride Injection in pregnant women are insufficient to inform a drug-associated risk for major birth defects and miscarriage.</paragraph>
+                  <paragraph>In animal reproduction studies, nalbuphine decreased pup survival and pup body weights when pregnant female rats were treated late in gestation and throughout lactation at 1.7 times the MRHD and when female and male rats treated either prior to mating and throughout gestation and lactation. No malformations were observed in either rats or rabbits at doses 6.1 and 3.9 times the MRHD, respectively [<content styleCode="italics">see Data</content>].</paragraph>
+                  <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2–4% and 15–20%, respectively.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Clinical Considerations</content>
+                     <br/>
+                     <content styleCode="italics">Fetal/Neonatal Adverse Reactions</content>
+                     <br/>Severe fetal bradycardia has been reported when nalbuphine hydrochloride is administered during labor. Naloxone may reverse these effects. Although there are no reports of fetal bradycardia earlier in pregnancy, it is possible that this may occur. This drug should be used in pregnancy only if clearly needed, if the potential benefit outweighs the risk to the fetus, and if appropriate measures such as fetal monitoring are taken to detect and manage any potential adverse effect on the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Labor and Delivery</content>
+                     <br/>The placental transfer of nalbuphine is high, rapid, and variable with a maternal to fetal ratio ranging from 1:0.37 to 1:6. Fetal and neonatal adverse effects that have been reported following the administration of nalbuphine to the mother during labor include fetal bradycardia, respiratory depression at birth, apnea, cyanosis, and hypotonia. Some of these events have been life-threatening. Maternal administration of naloxone during labor has normalized these effects in some cases. Severe and prolonged fetal bradycardia has been reported. Permanent neurological damage attributed to fetal bradycardia has occurred. A sinusoidal fetal heart rate pattern associated with the use of nalbuphine has also been reported. Nalbuphine Hydrochloride Injection should be used during labor and delivery only if clearly indicated and only if the potential benefit outweighs the risk to the infant. Newborns should be monitored for respiratory depression, apnea, bradycardia and arrhythmias if Nalbuphine Hydrochloride Injection has been used.</paragraph>
+                  <paragraph>Opioids cross the placenta and may produce respiratory depression and psycho-physiologic effects in neonates. An opioid antagonist, such as naloxone, must be available for reversal of opioid-induced respiratory depression in the neonate. Nalbuphine Hydrochloride Injection is not recommended for use in pregnant women during or immediately prior to labor, when other analgesic techniques are more appropriate. Opioid analgesics, including Nalbuphine Hydrochloride Injection, can prolong labor through actions which temporarily reduce the strength, duration, and frequency of uterine contractions. However, this effect is not consistent and may be offset by an increased rate of cervical dilation, which tends to shorten labor. Monitor neonates exposed to opioid analgesics during labor for signs of excess sedation and respiratory depression.</paragraph>
+                  <paragraph>Data<br/>
+                     <content styleCode="italics">Animal Data</content>
+                     <br/>Pregnant rats were treated with nalbuphine hydrochloride from Gestation Day 6 to 15 via subcutaneous doses of 7, 14, or 100 mg/kg/day (0.4, 0.85, or 6.1 times the MRHD of 160 mg/day based on body surface area, respectively). There was no evidence of malformations or embryotoxicity despite reductions in maternal weight gain in the mid- and high-dose groups.</paragraph>
+                  <paragraph>Pregnant rabbits were treated with nalbuphine hydrochloride from Gestation Day 7 to 19 via intravenous doses of 4, 8, or 32 mg/kg/day (0.5, 1, or 3.9 times the MRHD based on body surface area, respectively).</paragraph>
+                  <paragraph> There was no evidence of malformations or embryotoxicity despite reductions in maternal weight gain in the high-dose group.</paragraph>
+                  <paragraph>Pregnant rats were treated with nalbuphine hydrochloride from Gestation Day 15 to Lactation Day 20 via subcutaneous doses of 14, 28, or 56 mg/kg/day (0.85, 1.7, or 3.4 times the MRHD based on body surface area, respectively). Pup survival was decreased in the mid- and high-dose groups and neonatal body weights were dose dependently reduced. Maternal toxicity was noted in all treatment groups (reduced body weights).</paragraph>
+                  <paragraph>Female rats were treated with nalbuphine hydrochloride beginning 15 days prior to mating through Lactation Day 20 via subcutaneous doses of 14, 28, or 56 mg/kg/day (0.85, 1.7, or 3.4 times the MRHD of 160 mg/day based on body surface area, respectively). Male rats were treated via oral gavage with the same oxymorphone hydrochloride doses beginning 60 days prior to and throughout mating. There was reduced pup survival in the high dose group animals and reduced pup body weights in the mid- and high-dose groups.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Lactation</content>
+                     <br/>Limited data suggest that Nalbuphine Hydrochloride Injection is excreted in maternal milk but only in a small amount (less than 1% of the administered dose) and with a clinically insignificant effect. Infants exposed to Nalbuphine Hydrochloride Injection through breast milk should be monitored for excess sedation and respiratory depression. Withdrawal symptoms can occur in breastfed infants when maternal administration of an opioid analgesic is stopped, or when breast-feeding is stopped.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Use</content>
+                     <br/>Safety and effectiveness in pediatric patients below the age of 18 years have not been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Geriatric Use</content>
+                     <br/>Elderly patients (aged 65 years or older) may have increased sensitivity to Nalbuphine Hydrochloride Injection. In general, use caution when selecting a dosage for an elderly patient, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>Respiratory depression is the chief risk for elderly patients treated with opioids, and has occurred after large initial doses were administered to patients who were not opioid-tolerant or when opioids were co-administered with other agents that depress respiration. Titrate the dosage of Nalbuphine Hydrochloride Injection slowly in geriatric patients and frequently reevaluate the patient for signs of central nervous system ‎and respiratory depression [see <content styleCode="bold">WARNINGS</content>].</paragraph>
+                  <paragraph>Nalbuphine is known to be substantially excreted by the kidney, and the risk of adverse reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+               </text>
+               <effectiveTime value="20240619"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7117b94c-ff93-4b08-9160-e7510b8acc22"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most frequent adverse reaction in 1066 patients treated in clinical studies with Nalbuphine Hydrochloride Injection was sedation 381 (36%).</paragraph>
+                  <paragraph>Less frequent reactions were: sweaty/clammy 99 (9%), nausea/vomiting 68 (6%), dizziness/vertigo 58 (5%), dry mouth 44 (4%), and headache 27 (3%).</paragraph>
+                  <paragraph>Other adverse reactions which occurred (reported incidence of 1% or less) were:</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">CNS Effects</content>: Nervousness, depression, restlessness, crying, euphoria, floating, hostility, unusual dreams, confusion, faintness, hallucinations, dysphoria, feeling of heaviness, numbness, tingling, unreality. The incidence of psychotomimetic effects, such as unreality, depersonalization, delusions, dysphoria and hallucinations has been shown to be less than that which occurs with pentazocine.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Cardiovascular</content>: Hypertension, hypotension, bradycardia, tachycardia.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Gastrointestinal</content>: Cramps, dyspepsia, bitter taste.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Respiratory</content>: Depression, dyspnea, asthma.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Dermatologic</content>: Itching, burning, urticaria.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Miscellaneous</content>: Speech difficulty, urinary urgency, blurred vision, flushing and warmth.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Allergic Reactions</content>: Anaphylactic/anaphylactoid and other serious hypersensitivity reactions have been reported following the use of nalbuphine and may require immediate, supportive medical treatment. These reactions may include shock, respiratory distress, respiratory arrest, bradycardia, cardiac arrest, hypotension, or laryngeal edema. Some of these allergic reactions may be life-threatening. Other allergic-type reactions reported include stridor, bronchospasm, wheezing, edema, rash, pruritus, nausea, vomiting, diaphoresis, weakness, and shakiness.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Postmarketing Experience</content>
+                     <br/>The following adverse reactions have been identified during post approval use of nalbuphine. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Abdominal pain, pyrexia, depressed level or loss of consciousness, somnolence, tremor, anxiety, pulmonary edema, agitation, seizures, and injection site reactions such as pain, swelling, redness, burning, and hot sensations. Death has been reported from severe allergic reactions to Nalbuphine Hydrochloride Injection treatment. Fetal death has been reported where mothers received Nalbuphine Hydrochloride Injection during labor and delivery.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Serotonin syndrome:</content>Cases of serotonin syndrome, a potentially life-threatening condition, have been reported during concomitant use of opioids with serotonergic drugs.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Adrenal insufficiency:</content>Cases of adrenal insufficiency have been reported with opioid use, more often following greater than one month of use.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Hyperalgesia and Allodynia</content>:Cases of hyperalgesia and allodynia have been ‎reported with opioid therapy of any duration [see <content styleCode="bold">WARNINGS</content>]‎.</paragraph>
+                  <paragraph>
+                     <content/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240619"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbe754de3-8722-4900-bd13-a79cbfc64a4d">
+               <id root="3529323f-07ce-49ba-a23a-412478076262"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Abuse</content>
+                     <br/>Nalbuphine Hydrochloride Injection contains nalbuphine, a substance which is subject to misuse and abuse, which can lead to the ‎development of substance use disorder, including addiction‎ [see <content styleCode="bold">WARNINGS</content>].</paragraph>
+                  <paragraph>Misuse is the intentional use, for therapeutic purposes, of a drug by an ‎individual in a way other than prescribed by a healthcare provider or for ‎whom it was not prescribed.‎</paragraph>
+                  <paragraph>Abuse is the intentional, non-therapeutic use of a drug, even once, for its ‎desirable psychological or physiological effects.‎</paragraph>
+                  <paragraph>Drug addiction is a cluster of behavioral, cognitive, and physiological ‎phenomena that may include a strong desire to take the drug, difficulties ‎in controlling drug use (e.g., continuing drug use despite harmful ‎consequences, giving a higher priority to drug use than other activities ‎and obligations), and possible tolerance or physical dependence.‎</paragraph>
+                  <paragraph>Misuse and abuse of Nalbuphine Hydrochloride Injection ‎increases risk of overdose, which ‎may lead to central nervous system and respiratory depression, ‎hypotension, seizures, and death. The risk is increased with concurrent ‎abuse of Nalbuphine Hydrochloride Injection ‎with alcohol and other central nervous system depressants. Abuse of and addiction to opioids in some individuals may ‎not be accompanied by concurrent tolerance and symptoms of physical ‎dependence. In addition, abuse of opioids can occur in the absence of ‎addiction.‎</paragraph>
+                  <paragraph>All patients treated with opioids require careful and frequent re-evaluation ‎for signs of misuse, abuse, and addiction, because use of opioid analgesic ‎products carries the risk of addiction even under appropriate medical use. ‎Patients at high risk of Nalbuphine Hydrochloride Injection ‎abuse include those with a history ‎of prolonged use of any opioid, including products containing nalbuphine, those with a history ‎of drug or alcohol abuse, or those who use Nalbuphine Hydrochloride Injection ‎in combination ‎with other abused drugs.‎</paragraph>
+                  <paragraph>"Drug-seeking" behavior is very common in persons with substance use disorders. Drug-seeking tactics include emergency calls or visits near the end of office hours, refusal to undergo appropriate examination, testing, or referral, repeated "loss" of prescriptions, tampering with prescriptions, and reluctance to provide prior medical records or contact information for other treating healthcare provider(s). "Doctor shopping" (visiting multiple prescribers to obtain additional prescriptions) is common among people who abuse drugs and people with substance use disorder. Preoccupation with achieving adequate pain relief can be appropriate behavior in a patient with inadequate pain control.</paragraph>
+                  <paragraph>Nalbuphine Hydrochloride Injection, like other opioids, can be diverted for non-medical use into illicit channels of distribution. Careful record-keeping of prescribing information, including quantity, frequency, and renewal requests, as required by state and federal law, is strongly advised.</paragraph>
+                  <paragraph>Proper assessment of the patient, proper prescribing practices, periodic reevaluation of therapy, and proper dispensing and storage are appropriate measures that help to limit abuse of opioid drugs.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Risks Specific to Abuse of Nalbuphine Hydrochloride Injection</content>
+                     <br/>Abuse of Nalbuphine Hydrochloride Injection poses a risk of overdose and death. The risk is increased with concurrent use of Nalbuphine Hydrochloride Injection with alcohol and/or other central nervous system depressants.</paragraph>
+                  <paragraph>Parenteral drug abuse is commonly associated with transmission of infectious diseases such as hepatitis and HIV.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dependence</content>
+                     <br/>Both tolerance and physical dependence can develop during use of opioid therapy.</paragraph>
+                  <paragraph>Tolerance is a physiological state characterized by a reduced response to a drug after ‎repeated administration (i.e., a higher dose of a drug is required to ‎produce the same effect that was once obtained at a lower dose).</paragraph>
+                  <paragraph>Physical dependence is a state that develops as a result of a physiological adaptation in response ‎to repeated drug use, manifested by withdrawal signs and symptoms after ‎abrupt discontinuation or a significant dose reduction of a drug.</paragraph>
+                  <paragraph>Withdrawal may be precipitated through the administration of drugs with ‎opioid antagonist activity (e.g., naloxone), mixed agonist/antagonist ‎analgesics (e.g., pentazocine, butorphanol, nalbuphine), or partial agonists ‎‎(e.g., buprenorphine). Physical dependence may not occur to a clinically ‎significant degree until after several days to weeks of continued use.‎</paragraph>
+                  <paragraph>Nalbuphine Hydrochloride Injection should not be abruptly discontinued in a physically-dependent patient [see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>]. If Nalbuphine Hydrochloride Injection is abruptly discontinued in a physically-dependent patient, a withdrawal syndrome may occur, typically characterized by restlessness, lacrimation, rhinorrhea, perspiration, chills, myalgia, and mydriasis. Other signs and symptoms also may develop, including irritability, anxiety, backache, joint pain, weakness, abdominal cramps, insomnia, nausea, anorexia, vomiting, diarrhea, or increased blood pressure, respiratory rate, or heart rate.</paragraph>
+                  <paragraph>Infants born to mothers physically‑dependent on opioids will also be physically‑dependent and may exhibit respiratory difficulties and withdrawal signs [see <content styleCode="bold">PRECAUTIONS; Pregnancy</content>].</paragraph>
+               </text>
+               <effectiveTime value="20240619"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="09113826-2e0a-41b7-8925-1c44a64550e8"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Clinical Presentation</content>
+                  </paragraph>
+                  <paragraph>
+                     <content>Acute overdose with Nalbuphine Hydrochloride Injection alone can be manifested by respiratory depression and dysphoria. Acute overdose with Nalbuphine Hydrochloride Injection and other opioids or CNS depressants can be manifested by respiratory depression, somnolence progressing to stupor or coma, skeletal muscle flaccidity, cold and clammy skin, constricted pupils, and, in some cases, pulmonary edema, bradycardia, hypotension, hypoglycemia, partial or complete airway obstruction, atypical snoring, and death. Marked mydriasis rather than miosis may be seen with hypoxia in overdose situations.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Treatment of Overdose</content>
+                  </paragraph>
+                  <paragraph>In case of overdose, priorities are the reestablishment of a patent and protected airway and institution of assisted or controlled ventilation, if needed. Employ other supportive measures (including oxygen and vasopressors) in the management of circulatory shock and pulmonary edema as indicated. Cardiac arrest or arrhythmias will require advanced life-support techniques.</paragraph>
+                  <paragraph>The opioid antagonists, naloxone or nalmefene, are specific antidotes to respiratory depression resulting from opioid overdose. For clinically significant respiratory or circulatory depression secondary to nalbuphine hydrochloride overdose, administer an opioid antagonist. Opioid antagonists should not be administered in the absence of clinically significant respiratory or circulatory depression secondary to Nalbuphine Hydrochloride Injection overdose.</paragraph>
+                  <paragraph>Because the duration of opioid reversal is expected to be less than the duration of action of nalbuphine, carefully monitor the patient until spontaneous respiration is reliably re-established. If the response to an opioid antagonist is suboptimal or only brief in nature, administer additional antagonist as directed by the product's prescribing information.</paragraph>
+                  <paragraph>In an individual physically‑dependent on opioids, administration of the recommended usual dosage of the antagonist will precipitate an acute withdrawal syndrome. The severity of the withdrawal symptoms experienced will depend on the degree of physical dependence and the dose of the antagonist administered. If a decision is made to treat serious respiratory depression in the physically‑dependent patient, administration of the antagonist should be initiated with care and by titration with smaller than usual doses of the antagonist.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240619"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="875b8c1d-0fa9-4f7e-9c58-fc246d9fa2d0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Important Dosage and Administration Instructions</content>
+                  </paragraph>
+                  <paragraph>Nalbuphine Hydrochloride Injection should be administered as a supplement to general anesthesia only by persons specifically trained in the use of intravenous anesthetics and management of the respiratory effects of potent opioids.</paragraph>
+                  <paragraph>Naloxone, resuscitative and intubation equipment and oxygen should be readily available.</paragraph>
+                  <paragraph>Use the lowest effective dosage for the shortest duration of time ‎consistent with individual patient treatment goals [see <content styleCode="bold">WARNINGS</content>]. ‎Because the risk of overdose increases as opioid doses increase, reserve ‎titration to higher doses of Nalbuphine Hydrochloride Injection ‎for patients in whom lower ‎doses are insufficiently effective and in whom the expected benefits of ‎using a higher dose opioid clearly outweigh the substantial risks.‎</paragraph>
+                  <paragraph>There is variability in the opioid analgesic dose and duration needed to ‎adequately manage pain due both to the cause of pain and to individual ‎patient factors. Initiate the dosing regimen for each patient individually, taking into account the patient's severity of pain, patient response, prior analgesic treatment experience, and risk factors for addiction, abuse, and misuse [see<content styleCode="bold"> WARNINGS</content>].</paragraph>
+                  <paragraph>Respiratory depression can occur at any time during opioid therapy, ‎especially when initiating and following dosage increases with ‎Nalbuphine Hydrochloride Injection‎. Consider this risk when selecting an initial dose and when ‎making dose adjustments [see <content styleCode="bold">WARNINGS</content>].</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Initial Dosage</content>
+                  </paragraph>
+                  <paragraph>The usual recommended adult dose is 10 mg for a 70 kg individual administered subcutaneously, intramuscularly, or intravenously; this dose may be repeated every 3 to 6 hours as necessary. Use the lowest dose necessary to achieve adequate analgesia. Titrate the ‎dose based upon the individual patient’s response to their initial dose of Nalbuphine Hydrochloride Injection. Dosage should be adjusted according to the severity of the pain, physical status of the patient, and other medications which the patient may be receiving [see WARNINGS; Risks from Concomitant Use with Benzodiazepines or Other CNS Depessants]. In nontolerant individuals, the recommended single maximum dose is 20 mg with a maximum total daily dose of 160 mg.</paragraph>
+                  <paragraph>The use of Nalbuphine Hydrochloride Injection as a supplement to balanced anesthesia requires larger doses than those recommended for analgesia. Induction doses of nalbuphine hydrochloride range from 0.3 mg/kg to 3 mg/kg intravenously to be administered over a 10 to 15 minute period with maintenance doses of 0.25 to 0.5 mg/kg in single intravenous administrations as required. The use of Nalbuphine Hydrochloride Injection may be followed by respiratory depression which can be reversed with the opioid antagonist naloxone hydrochloride.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Titration and Maintenance of Therapy</content>
+                  </paragraph>
+                  <paragraph>Individually titrate Nalbuphine Hydrochloride Injection to a dose that provides adequate analgesia and minimizes adverse reactions. Continually reevaluate patients receiving Nalbuphine Hydrochloride Injection to assess the maintenance of pain control and the relative incidence of adverse reactions, as well as to reassess for the development of addiction, abuse, or misuse [see <content styleCode="bold">WARNINGS</content>]. Frequent communication is important among the prescriber, other members of the healthcare team, the patient, and the caregiver/family during periods of changing analgesic requirements, including initial titration.</paragraph>
+                  <paragraph>If the level of pain increases after dosage stabilization, attempt to identify the source of increased pain before increasing the nalbuphine hydrochloride dosage. If unacceptable opioid-related adverse reactions are observed, consider reducing the dosage. Adjust the dosage to obtain an appropriate balance between management of pain and opioid-related adverse events.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Discontinuation of Nalbuphine Hydrochloride Injection</content>
+                  </paragraph>
+                  <paragraph>When a patient who has been taking Nalbuphine Hydrochloride Injection regularly and may be physically‑dependent no longer requires therapy with Nalbuphine Hydrochloride Injection, taper the dose gradually, by 25% to 50% every 2 to 4 days, while monitoring carefully for signs and symptoms of withdrawal. If the patient develops these signs or symptoms, raise the dose to the previous level and taper more slowly, either by increasing the interval between decreases, decreasing the amount of change in dose, or both. Do not abruptly discontinue Nalbuphine Hydrochloride Injection in a physically-dependent patient [see <content styleCode="bold">WARNINGS, DRUG ABUSE AND DEPENDENCE</content>].</paragraph>
+               </text>
+               <effectiveTime value="20240619"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="8d88681c-aa49-4f68-9097-232acd2befcb"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Nalbuphine Hydrochloride Injection is supplied as a sterile solution in single-dose ampuls amd multiple-dose fliptop vials for intramuscular, subcutaneous, or intravenous administration, and available as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L8bfe8a65-55c7-4daa-bfe2-2c47950bf77c"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Protect from excessive light.</content> Store in carton until contents have been used.</paragraph>
+                  <table width="100%">
+                     <caption> Product repackaged by: Henry Schein, Inc., Bastian, VA 24314</caption>
+                     <tbody>
+                        <tr>
+                           <td>From Original Manufacturer/Distributor's NDC and Unit of Sale</td>
+                           <td>To Henry Schein Repackaged Product NDC and Unit of Sale</td>
+                           <td>Total Strength/Total Volume (Concentration) per unit</td>
+                        </tr>
+                        <tr>
+                           <td>NDC 0409-1463-01<br/>Tray of 10<br/>1 mL Single-dose Ampul</td>
+                           <td>NDC 0404-9918-01<br/>1 1 mL Single-dose Ampul in a bag<br/>(Ampul bears NDC 0409-1463-71)</td>
+                           <td>10 mg/mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>For Medical Information about Nalbuphine Hydrochloride Injection, please visit www.pfizermedinfo.com or call 1-800-438-1985.‎</paragraph>
+                  <paragraph>LAB-0839-7.0</paragraph>
+                  <paragraph>Revised 05/2023</paragraph>
+               </text>
+               <effectiveTime value="20250521"/>
+               <component>
+                  <observationMedia ID="L8bfe8a65-55c7-4daa-bfe2-2c47950bf77c">
+                     <text>Image1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L306e13f4-b947-405f-a719-c211217c0af9">
+               <id root="03e09978-4543-418e-b449-da0f1ac60554"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>SAMPLE PACKAGE LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L144fa600-444b-4a1d-916d-b6740ca56025"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250521"/>
+               <component>
+                  <observationMedia ID="L144fa600-444b-4a1d-916d-b6740ca56025">
+                     <text>Label1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ffd7600d-2219-4eed-8ce5-13451041c011"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">50% Dextrose Injection, USP</content>
+   </title>
+   <effectiveTime value="20250417"/>
+   <setId root="8cf6943f-16e8-4521-863c-09bb0b55e2a9"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="012430880" root="1.3.6.1.4.1.519.1"/>
+            <name>Henry Schein, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9dc0d220-1927-42a2-b030-2e0879c388ff"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL listing data elements section"/>
+               <effectiveTime value="20231116"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0404-9845" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dextrose</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Dextrose Monohydrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0409-7517" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="g"/>
+                              <denominator value="50" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LX22YL083G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Dextrose Monohydrate</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0404-9845-50" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220110"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220110"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA019445" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d0b436c8-85f2-462d-ae25-2aee6b909614"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Concentrated Dextrose for</paragraph>
+                  <paragraph>Intravenous Administration</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE: This solution is hypertonic - </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See WARNINGS and PRECAUTIONS.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">LifeShield® Abboject® Syringe</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Abboject® Syringe</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fliptop Container</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Ansyr® II Plastic Syringe</content>
+                     <br/>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20250520"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf08f67cd-93d2-434b-a8b7-c40324c00295">
+               <id root="5d6d5cd1-628a-45fa-b6bf-887a44486cdf"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="bold">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>50% Dextrose Injection, USP is a sterile, nonpyrogenic, hypertonic solution of dextrose in water for injection for intravenous injection as a fluid and nutrient replenisher.</paragraph>
+                  <paragraph>Each mL of fluid contains 0.5 g dextrose, hydrous which delivers 3.4 kcal/gram. The solution has an osmolarity of 2.53 mOsmol/mL (calc.), pH 3.2 to 6.5 and may contain sodium hydroxide and/or hydrochloric acid for pH adjustment.</paragraph>
+                  <paragraph>The solution contains no bacteriostat, antimicrobial agent or added buffer (except for pH adjustment) and is intended only for use as a single-dose injection. When smaller doses are required, the unused portion should be discarded with the entire unit.</paragraph>
+                  <paragraph>Dextrose, USP is chemically designated C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> ∙ H<sub>2</sub>O (D-glucose monohydrate), a hexose sugar freely soluble in water.</paragraph>
+                  <paragraph>Dextrose, hydrous has the following structural formula:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lcf5f03a8-13f8-4a4b-b6a5-c1e1cfcbfe08"/>
+                  </paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>O.</paragraph>
+                  <paragraph>The syringe is molded from a specially formulated polypropylene. Water permeates from inside the container at an extremely slow rate which will have an insignificant effect on solution concentration over the expected shelf life. Solutions in contact with the plastic container may leach out certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the syringe material.</paragraph>
+               </text>
+               <effectiveTime value="20250520"/>
+               <component>
+                  <observationMedia ID="Lcf5f03a8-13f8-4a4b-b6a5-c1e1cfcbfe08">
+                     <text>Formula1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Formula1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="901ce3fe-f429-48bf-a3ea-118947f52b8d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="bold">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>When administered intravenously this solution restores blood glucose levels in hypoglycemia and provides a source of carbohydrate calories.</paragraph>
+                  <paragraph>Carbohydrate in the form of dextrose may aid in minimizing liver glycogen depletion and exerts a protein-sparing action. Dextrose injection undergoes oxidation to carbon dioxide and water.</paragraph>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult requirement ranges from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>Water balance is maintained by various regulatory mechanisms. Water distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na+) plays a major role in maintaining physiologic equilibrium.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dfd6aef1-0d20-42e4-a230-12932cad9aa6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>50% Dextrose Injection is indicated in the treatment of insulin hypoglycemia (hyperinsulinemia or insulin shock) to restore blood glucose levels.</paragraph>
+                  <paragraph>The solution is also indicated, after dilution, for intravenous infusion as a source of carbohydrate calories in patients whose oral intake is restricted or inadequate to maintain nutritional requirements. Slow infusion of hypertonic solutions is essential to ensure proper utilization of dextrose and avoid production of hyperglycemia.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5bdd8a17-ddc0-44a5-b67a-994181f31df4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>A concentrated dextrose solution should not be used when intracranial or intraspinal hemorrhage is present, nor in the presence of delirium tremens if the patient is already dehydrated.</paragraph>
+                  <paragraph>Dextrose injection without electrolytes should not be administered simultaneously with blood through the same infusion set because of the possibility that pseudoagglutination of red cells may occur.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fd7aa457-6554-4753-a9ed-b9f540684491"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="bold">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>50% Dextrose Injection is hypertonic and may cause phlebitis and thrombosis at the site of injection.</paragraph>
+                  <paragraph>Significant hyperglycemia and possible hyperosmolar syndrome may result from too rapid administration. The physician should be aware of the symptoms of hyperosmolar syndrome, such as mental confusion and loss of consciousness, especially in patients with chronic uremia and those with known carbohydrate intolerance.</paragraph>
+                  <paragraph>The intravenous administration of this solution can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema.</paragraph>
+                  <paragraph>Additives may be incompatible. Consult with pharmacist if available. When introducing additives, use aseptic technique, mix thoroughly and do not store.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For peripheral vein administration:</content>
+                     <br/>The solution should be given slowly, preferably through a small-bore needle into a large vein, to minimize venous irritation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For central venous administration:</content>
+                     <br/>Concentrated dextrose should be administered via central vein only after suitable dilution.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a3434df2-e42a-4510-948f-4f352c9e37fb"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">PRECAUTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Do not use unless the solution is clear and seal is intact. Discard unused portion.</paragraph>
+                  <paragraph>Electrolyte deficits, particularly in serum potassium and phosphate, may occur during prolonged use of concentrated dextrose solutions. Blood electrolyte monitoring is essential and fluid and electrolyte imbalances should be corrected. Essential vitamins and minerals also should be provided as needed.</paragraph>
+                  <paragraph>To minimize hyperglycemia and consequent glycosuria, it is desirable to monitor blood and urine glucose and if necessary, add insulin.</paragraph>
+                  <paragraph>When a concentrated dextrose infusion is abruptly withdrawn, it is advisable to follow with the administration of 5% or 10% dextrose injection to avoid rebound hypoglycemia.</paragraph>
+                  <paragraph>Solutions containing dextrose should be used with caution in patients with known subclinical or overt diabetes mellitus.</paragraph>
+                  <paragraph>Care should be exercised to ensure that the needle is well within the lumen of the vein and that extravasation does not occur. If thrombosis should occur during administration, the injection should be stopped and corrective measures instituted.</paragraph>
+                  <paragraph>Concentrated dextrose solutions should not be administered subcutaneously or intramuscularly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility:</content>
+                     <br/>Studies with solutions in polypropylene syringes have not been performed to evaluate carcinogenic potential, mutagenic potential or effects on fertility.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pregnancy: </content>Animal reproduction studies have not been conducted with dextrose. It is also not known whether dextrose can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Dextrose should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nursing Mothers</content>
+                     <br/>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when 50% Dextrose Injection, USP is administered to a nursing mother.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2cd6c1c8-db5c-4f6e-8103-70a45d93bd85"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="bold">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>Hyperosmolar syndrome, resulting from excessively rapid administration of concentrated dextrose may cause mental confusion and/or loss of consciousness.</paragraph>
+                  <paragraph>Reactions which may occur because of the solution or the technique of administration include febrile response, infection at the site of injection, venous thrombosis or phlebitis extending from the site of injection, extravasation and hypervolemia.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion, evaluate the patient, institute appropriate therapeutic countermeasures and save the remainder of the fluid for examination if deemed necessary.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e364e1f6-f4a4-4454-913f-09a59f06bc76"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="bold">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>In the event of overhydration or solute overload during therapy, re-evaluate the patient and institute appropriate corrective measures. See <content styleCode="bold">WARNINGS</content> and <content styleCode="bold">PRECAUTIONS</content>.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="7d570bb9-65dc-4ba4-9de3-74958464919e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For peripheral vein administration:</content>
+                     <br/>Injection of the solution should be made slowly.</paragraph>
+                  <paragraph>The maximum rate at which dextrose can be infused without producing glycosuria is 0.5 g/kg of body weight/hour. About 95% of the dextrose is retained when infused at a rate of 0.8 g/kg/hr.</paragraph>
+                  <paragraph>In insulin-induced hypoglycemia, intravenous injection of 10 to 25 grams of dextrose (20 to 50 mL of 50% dextrose) is usually adequate. Repeated doses and supportive treatment may be required in severe cases. A specimen for blood glucose determination should be taken before injecting the dextrose. In such emergencies, dextrose should be administered promptly without awaiting pretreatment test results.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For central venous administration:</content>
+                     <br/>For total parenteral nutrition 50% Dextrose Injection, USP is administered by slow intravenous infusion (a) after admixture with amino acid solutions via an indwelling catheter with the tip positioned in a large central vein, preferably the superior vena cava, or (b) after dilution with sterile water for injection. Dosage should be adjusted to meet individual patient requirements.</paragraph>
+                  <paragraph>Clinical evaluation and periodic laboratory determinations are necessary to monitor changes in fluid balance, electrolyte concentrations and acid-base balance during prolonged parenteral therapy or whenever the condition of the patient warrants such evaluation.</paragraph>
+                  <paragraph>The maximum rate of dextrose administration which does not result in glycosuria is the same as cited above.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. See <content styleCode="bold">CONTRAINDICATIONS</content>.</paragraph>
+               </text>
+               <effectiveTime value="20250417"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b4ff57e9-0778-4f31-a2ab-8e903d57b977"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="bold">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>50% Dextrose Injection, USP is supplied in single-dose containers as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lecf663fa-f17f-4378-8092-b41d0cffc7c8"/>
+                  </paragraph>
+                  <paragraph>Exposure of pharmaceutical products to heat should be minimized. Avoid excessive heat. Protect from freezing. Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Abboject® is a trademark of Abbott Laboratories.</paragraph>
+                  <paragraph>LifeShield® is the trademark of ICU Medical, Inc. and is used under license.</paragraph>
+                  <paragraph>For Medical Information about 50% Dextrose Injection, please visit www.pfizermedinfo.com or call 1‑800-438-1985.</paragraph>
+                  <table width="100%">
+                     <caption>Product repackaged by: Henry Schein, Inc., Bastian, VA 24314 </caption>
+                     <tbody>
+                        <tr>
+                           <td>From Original Manufacturer/Distributor's NDC and Unit of Sale</td>
+                           <td>To Henry Schein Repackaged Product NDC and Unit of Sale</td>
+                           <td>Total Strength/Total Volume (Concentration) per unit </td>
+                        </tr>
+                        <tr>
+                           <td>NDC 0409-4902-34<br/>Bundle containing 10 Lifeshield® Abboject® Unit of Use Syringe</td>
+                           <td>
+                              <paragraph>NDC 0404-9846-50<br/>1 LIfeshield® Abboject® Unit of Use</paragraph>
+                              <paragraph>Syringe per bag<br/>(Syringe bears NDC 0409-4902-64)</paragraph>
+                           </td>
+                           <td>25 g/50 mL<br/>(0.5 g/mL)</td>
+                        </tr>
+                        <tr>
+                           <td>NDC 0409-6648-02<br/>Tray containing 25<br/>50 mL Single-Dose Fliptop Vials</td>
+                           <td>NDC 0404-9847-50<br/>1 Single-Dose Fliptop Vial per bag<br/>(Vial bears NDC 0409-6648-16)</td>
+                           <td>25 g/50 mL<br/>(0.5 g/mL)</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>NDC 0409-7517-16<br/>Bundle containing 10 Ansyr™ II</paragraph>
+                              <paragraph>Plastic Syringe</paragraph>
+                           </td>
+                           <td>NDC 0404-9845-50<br/>1 Ansyr™ II Plastic Syringe per bag<br/>(Syringe bears NDC 0409-7517-66)</td>
+                           <td>25 g/50 mL<br/>(0.5mg/mL)</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>LAB-1027-7.0</paragraph>
+                  <paragraph>Revised: July 2024</paragraph>
+               </text>
+               <effectiveTime value="20250520"/>
+               <component>
+                  <observationMedia ID="Lecf663fa-f17f-4378-8092-b41d0cffc7c8">
+                     <text>Image1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9e7a6081-12e1-48d0-8244-52ee62e0c813">
+               <id root="82d8a78c-480e-4f64-8eb9-ecbc18cab885"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Sample Package Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lbbc68da9-9d66-452c-8dd8-43bb270174ff"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250520"/>
+               <component>
+                  <observationMedia ID="Lbbc68da9-9d66-452c-8dd8-43bb270174ff">
+                     <text>Label1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

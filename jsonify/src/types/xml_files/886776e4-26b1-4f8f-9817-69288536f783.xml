@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="886776e4-26b1-4f8f-9817-69288536f783"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml">
+      <content styleCode="bold">These highlights do not include all the information needed to use AUVI-Q® safely and effectively. See full prescribing information for AUVI-Q. <br/>
+         <br/>AUVI-Q® (epinephrine injection), for intramuscular or <br/>subcutaneous use <br/>Initial U.S. Approval: 1939 </content>
+   </title>
+   <effectiveTime value="20250414"/>
+   <setId root="6180fb40-7fca-4602-b3da-ce62b8cd2470"/>
+   <versionNumber value="20"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="182938485" root="1.3.6.1.4.1.519.1"/>
+            <name>kaleo, Inc</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="b728e53f-f305-4d45-8fb2-40ab91ac0476"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20240821"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60842-023" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Auvi-Q</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>epinephrine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.3" unit="mg"/>
+                              <denominator value="0.3" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPINEPHRINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPINEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="2.3" unit="mg"/>
+                              <denominator value="0.3" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.45" unit="mg"/>
+                              <denominator value="0.3" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.3" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43192" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DOSE PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="60842-023-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20121115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA201739" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20121115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60842-022" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Auvi-Q</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>epinephrine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.15" unit="mg"/>
+                              <denominator value="0.15" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPINEPHRINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPINEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="1.2" unit="mg"/>
+                              <denominator value="0.15" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.225" unit="mg"/>
+                              <denominator value="0.15" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.15" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43192" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DOSE PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="60842-022-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20121115"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA201739" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20121115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="60842-021" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Auvi-Q</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>epinephrine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="0.1" unit="mg"/>
+                              <denominator value="0.1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>EPINEPHRINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="YKH834O4BH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>EPINEPHRINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.78" unit="mg"/>
+                              <denominator value="0.1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="0.15" unit="mg"/>
+                              <denominator value="0.1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TZX5469Z6I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BISULFITE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID </name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="0.1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43192" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DOSE PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="60842-021-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20171117"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA201739" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20171117"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0100">
+               <id root="4a21ae8b-cc57-4fbd-88ff-172dc1cc6d76"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>AUVI-Q is indicated for the emergency treatment of type I allergic reactions, including anaphylaxis, in adult and pediatric patients who weigh 7.5 kg or greater.</paragraph>
+               </text>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>AUVI-Q is a non-selective alpha and beta-adrenergic receptor agonist indicated for the emergency treatment of type I allergic reactions, including anaphylaxis, in adult and pediatric patients who weigh 7.5 kg or greater. (<linkHtml href="#s_0100">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0200">
+               <id root="75409848-4206-474f-b864-e1c2c8d76992"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>The recommended dosage of AUVI-Q is based on weight. (<linkHtml href="#s_0201">2.1</linkHtml>) Administer AUVI-Q intramuscularly or subcutaneously into the anterolateral aspect of the thigh, through clothing if necessary. (<linkHtml href="#s_0202">2.2</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Recommended Dosage</content>
+                        </paragraph>
+                        <table width="700" styleCode="Noautorules">
+                           <col width="50%" align="center"/>
+                           <col width="50%" align="center"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule bold">Patient’s Weight</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule bold">Dosage</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">30 kg or greater </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AUVI-Q 0.3 mg</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15 kg to less than 30 kg </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AUVI-Q 0.15 mg</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">7.5 kg to less than 15 kg </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AUVI-Q 0.1 mg</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In the absence of clinical improvement or if symptoms worsen after the initial treatment, a second dose of AUVI-Q may be administered with a second autoinjector starting 5 minutes after the first dose. (<linkHtml href="#s_0201">2.1</linkHtml>)</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Advise patients when to seek emergency medical assistance for close monitoring of the anaphylactic episode and in the event further treatment is required. (<linkHtml href="#s_0201">2.1</linkHtml>)</item>
+                           <item>It is recommended that patients are prescribed and have immediate access to two AUVI-Q devices at all times. (<linkHtml href="#s_0201">2.1</linkHtml>)</item>
+                           <item>See full prescribing information for administration instructions. (<linkHtml href="#s_0202">2.2</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0201">
+                     <id root="0d3a70f8-d311-4c6a-bd2b-93c0e50e24c2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.1 Recommended Dosage</title>
+                     <text>
+                        <paragraph>The recommended dosage for patients who weigh 7.5 kg or greater is based on weight and the dosage is provided in <linkHtml href="#table1">Table 1</linkHtml>. Administer AUVI-Q intramuscularly or subcutaneously into the anterolateral aspect of the thigh.</paragraph>
+                        <paragraph ID="table1">
+                           <content styleCode="bold">Table 1. Recommended Dosage of AUVI-Q Based on Patient’s Weight</content>
+                        </paragraph>
+                        <table width="700" styleCode="Noautorules">
+                           <col width="50%" align="center"/>
+                           <col width="50%" align="center"/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule bold">Patient’s Weight</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule bold">Dosage</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">30 kg or greater </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AUVI-Q 0.3 mg</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">15 kg to less than 30 kg </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AUVI-Q 0.15 mg</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">7.5 kg to less than 15 kg </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">AUVI-Q 0.1 mg</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Since the doses of epinephrine delivered from AUVI-Q are fixed, use other forms of injectable epinephrine if doses lower than 0.1 mg are deemed necessary.</item>
+                           <item>In the absence of clinical improvement or if symptoms worsen after the initial treatment, a second dose of AUVI-Q may be administered with a second autoinjector starting 5 minutes after the first dose.</item>
+                           <item>Advise patients when to seek emergency medical assistance for close monitoring of the anaphylactic episode and in the event further treatment is required.</item>
+                           <item>It is recommended that patients are prescribed and have immediate access to two AUVI-Q devices at all times.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0202">
+                     <id root="93847989-6f32-4454-bc98-01397aef0630"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.2	Administration Instructions</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Each AUVI-Q contains a single dose of epinephrine for single use.</item>
+                           <item>Visually inspect the epinephrine solution in the viewing window of AUVI-Q for particulate matter, cloudiness, and discoloration prior to administration.</item>
+                           <item>Instruct caregivers of young children and infants who are prescribed AUVI-Q and who may be uncooperative and kick or move during an injection to hold the child’s leg firmly in place and limit movement prior to and during an injection <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)]</content>.</item>
+                           <item>Inject AUVI-Q intramuscularly or subcutaneously into the anterolateral aspect of the thigh, through clothing if necessary. Do not inject intravenously, and do not inject into buttocks, digits, hands or feet <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)]</content>.</item>
+                           <item>If a second dose is needed, administer a new AUVI-Q starting 5 minutes after the first dose. More than two sequential doses of epinephrine should be administered under direct medical supervision. Refer patients and caregivers to the Instructions for Use for detailed administration instructions.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0300">
+               <id root="ff5d1d84-aee8-4913-a798-ea5ce7633110"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Injection:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>0.3 mg (0.3 mg/0.3 mL) epinephrine injection, USP, clear and colorless solution, single-dose prefilled autoinjector</item>
+                     <item>0.15 mg (0.15 mg/0.15 mL) epinephrine injection, USP, clear and colorless solution, single-dose prefilled autoinjector</item>
+                     <item>0.1 mg (0.1 mg/0.1 mL) epinephrine injection, USP, clear and colorless solution, single-dose prefilled autoinjector</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection:</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>0.3 mg (0.3 mg/0.3 mL) epinephrine in a single-dose prefilled autoinjector (<linkHtml href="#s_0300">3</linkHtml>)</item>
+                           <item>0.15mg (0.15 mg/0.15 mL) epinephrine in a single-dose prefilled autoinjector (<linkHtml href="#s_0300">3</linkHtml>)</item>
+                           <item>0.1 mg (0.1 mg/0.1 mL) epinephrine in a single-dose prefilled autoinjector (<linkHtml href="#s_0300">3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0400">
+               <id root="2ac53d96-e699-49d1-a68b-70c1bbd1bd54"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None. (<linkHtml href="#s_0400">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0500">
+               <id root="9d2a31f2-70c9-4708-9a2b-915783251839"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Do not inject intravenously, into buttock, digits, hands, or feet. (<linkHtml href="#s_0501">5.1</linkHtml>)</item>
+                           <item>Hold the child’s leg firmly in place and limit movement prior to and during injection when administering to young children or infants to minimize the risk of injection-related injury. (<linkHtml href="#s_0501">5.1</linkHtml>)</item>
+                           <item>Rare cases of serious skin and soft tissue infections have been reported following epinephrine injection. Advise patients to seek medical care if they develop signs or symptoms of infection. (<linkHtml href="#s_0502">5.2</linkHtml>)</item>
+                           <item>Administer with caution in patients with heart disease; may aggravate angina pectoris or produce ventricular arrhythmias. (<linkHtml href="#s_0503">5.3</linkHtml>)</item>
+                           <item>May aggravate certain coexisting conditions. (<linkHtml href="#s_0503">5.3</linkHtml>)</item>
+                           <item>The presence of a sulfite in this product should not deter use. (<linkHtml href="#s_0504">5.4</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0501">
+                     <id root="42906879-3c55-4b42-aa67-3d69e30b42a5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.1	Injection-Related Complications</title>
+                     <text>
+                        <paragraph>AUVI-Q should only be injected into the anterolateral aspect of the thigh <content styleCode="italics">[see Dosage and Administration (<linkHtml href="#s_0201">2.1</linkHtml>, <linkHtml href="#s_0202">2.2</linkHtml>)]</content>.</paragraph>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>
+                              <content styleCode="underline">Do not inject intravenously.</content> Large doses or accidental intravenous injection of epinephrine may result in cerebral hemorrhage due to sharp rise in blood pressure. Rapidly acting vasodilators can counteract the marked pressor effects of epinephrine for this inadvertent administration.</item>
+                           <item>
+                              <content styleCode="underline">Do not inject into buttock.</content> Injection into the buttock may not provide effective treatment of anaphylaxis. If AUVI-Q is injected into the buttock, advise the patient to administer a second dose of AUVI-Q into the anterolateral aspect of the thigh and if symptoms worsen or persist, then go immediately to the nearest emergency room for further treatment of anaphylaxis. Additionally, injection into the buttock has been associated with Clostridial infections (gas gangrene). Cleansing with alcohol does not kill bacterial spores, and therefore, does not lower this risk.</item>
+                           <item>
+                              <content styleCode="underline">Do not inject into digits, hands or feet.</content> Since epinephrine is a strong vasoconstrictor, accidental injection into the digits, hands or feet may result in loss of blood flow to the affected area and may not provide effective treatment of anaphylaxis. Advise the patient to administer a second dose of AUVI-Q into the anterolateral aspect of the thigh if experiencing anaphylaxis and then go immediately to the nearest emergency room and inform the healthcare provider in the emergency room of the location of the accidental injection. Treatment of such inadvertent administration should consist of vasodilation, in addition to further appropriate treatment of anaphylaxis <content styleCode="italics">[see Adverse Reactions (<linkHtml href="#s_0600">6</linkHtml>)]</content>.</item>
+                           <item>
+                              <content styleCode="underline">Hold leg firmly during injection.</content> To minimize the risk of injection-related injury when administering AUVI-Q to young children or infants, instruct caregivers to hold the child’s leg firmly in place and limit movement prior to and during injection.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0502">
+                     <id root="c7b6b768-3b83-443c-839a-a87ab2f5cded"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.2	Serious Infections at the Injection Site</title>
+                     <text>
+                        <paragraph>Rare cases of serious skin and soft tissue infections, including necrotizing fasciitis and myonecrosis caused by Clostridia (gas gangrene), have been reported at the injection site following epinephrine injection for anaphylaxis. <content styleCode="italics">Clostridium</content> spores can be present on the skin and introduced into the deep tissue with subcutaneous or intramuscular injection. While cleansing with alcohol may reduce the presence of bacteria on the skin, alcohol cleansing does not kill <content styleCode="italics">Clostridium</content> spores. To decrease the risk of <content styleCode="italics">Clostridium</content> infection, do not inject AUVI-Q into the buttock <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)]</content>. Advise patients to seek medical care if they develop signs or symptoms of infection, such as persistent redness, warmth, swelling, or tenderness, at the epinephrine injection site.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0503">
+                     <id root="a8f35989-09f4-41f0-85dc-da51ff25c0ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.3	Risk Associated with Use of Epinephrine in Certain Coexisting Conditions</title>
+                     <text>
+                        <paragraph>Some patients may be at greater risk for developing adverse reactions after epinephrine administration. Despite these concerns, the presence of these conditions is not a contraindication to epinephrine administration in an acute, life-threatening situation. Therefore, instruct patients with these conditions, and/or caregivers to the circumstances under which epinephrine should be used.</paragraph>
+                        <paragraph>Administer epinephrine with caution to patients who have heart disease, including patients with cardiac arrhythmias, coronary artery disease, or hypertension. In such patients, or in patients who are on drugs that may sensitize the heart to arrhythmias, epinephrine may precipitate or aggravate angina pectoris as well as produce ventricular arrhythmias <content styleCode="italics">[see Drug Interactions (<linkHtml href="#s_0700">7</linkHtml>) and Adverse Reactions (<linkHtml href="#s_0600">6</linkHtml>)]</content>.</paragraph>
+                        <paragraph>Epinephrine can temporarily exacerbate the underlying conditions or increase symptoms in patients with the following:  hyperthyroidism, Parkinson’s disease, diabetes, renal impairment. Administer epinephrine with caution in patients with these conditions, including elderly patients and pregnant women.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0504">
+                     <id root="d759ebf4-c808-4a76-bc71-cbfcbd3d9d6d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.4	Allergic Reactions Associated with Sulfite</title>
+                     <text>
+                        <paragraph>Epinephrine is the preferred treatment for serious allergic reactions or other emergency situations even though AUVI-Q contains sodium bisulfite, a sulfite that may, in other products, cause allergic-type reactions including anaphylactic symptoms or life-threatening or less severe asthmatic episodes in certain susceptible persons. The alternatives to using epinephrine in a life-threatening situation may not be satisfactory. The presence of a sulfite in AUVI-Q should not deter administration of the drug for treatment of serious allergic or other emergency situations.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0600">
+               <id root="732f50d6-2074-4d90-a774-a0bf63c590c3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Injection-Related Complications <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)]</content>
+                     </item>
+                     <item>Serious Infections at the Injection Site <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0502">5.2</linkHtml>)]</content>
+                     </item>
+                     <item>Risks Associated with Use of Epinephrine in Certain Coexisting Conditions <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0503">5.3</linkHtml>)]</content>
+                     </item>
+                     <item>Allergic Reactions Associated with Sulfite <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0504">5.4</linkHtml>)]</content>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Adverse Reactions from Postapproval Use of Epinephrine Products</content>
+                  </paragraph>
+                  <paragraph>The following adverse reactions have been identified during postapproval use of epinephrine. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular:</content> angina, arrhythmias (including fatal ventricular fibrillation), cerebral hemorrhage, hypertension, pallor, palpitations, tachyarrhythmia, tachycardia, vasoconstriction, ventricular ectopy, and stress cardiomyopathy</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal Disorders:</content> nausea, vomiting</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Infections:</content> Clostridial infections (gas gangrene)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolism and Nutrition Disorders:</content> transient hyperglycemia, sweating</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Neurological:</content> disorientation, impaired memory, panic, psychomotor agitations, sleepiness, tingling, weakness, hypoesthesia, dizziness, tremor, headache</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Psychiatric:</content> anxiety, apprehensiveness, restlessness</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory:</content> respiratory difficulties</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Subcutaneous Tissue Disorders:</content> bruising, bleeding, discoloration, erythema, necrotizing fasciitis, myonecrosis</paragraph>
+               </text>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Adverse reactions to epinephrine include anxiety, apprehensiveness, restlessness, tremor, weakness, dizziness, sweating, palpitations, pallor, nausea and vomiting, headache, and/or respiratory difficulties. (<linkHtml href="#s_0600">6</linkHtml>)</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact kaleo, Inc. at 1-877-302-8847 or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</content>
+                        </paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0700">
+               <id root="abb880db-88b1-409d-8ebf-be619adbfbf5"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>Cardiac glycosides, diuretics, or anti-arrhythmics: observe for development of cardiac arrhythmias. (<linkHtml href="#s_0701">7.1</linkHtml>)</item>
+                           <item>Tricyclic antidepressants, monoamine oxidase inhibitors, levothyroxine sodium, certain antihistamines, and catechol-O-methyl transferase inhibitors may potentiate effects of epinephrine. (<linkHtml href="#s_0702">7.2</linkHtml>)</item>
+                           <item>Beta-adrenergic blocking drugs antagonize cardiostimulating and bronchodilating effects of epinephrine. (<linkHtml href="#s_0703">7.3</linkHtml>)</item>
+                           <item>Alpha-adrenergic blocking drugs antagonize vasoconstricting and hypertensive effects of epinephrine. (<linkHtml href="#s_0703">7.3</linkHtml>)</item>
+                           <item>Ergot alkaloids may reverse the pressor effects of epinephrine. (<linkHtml href="#s_0703">7.3</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0701">
+                     <id root="4985e353-bac4-4a70-8484-af42135bea0c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">7.1	Drugs Increasing Risk of Cardiac Arrhythmias</title>
+                     <text>
+                        <paragraph>Observe patients who receive epinephrine while concomitantly taking cardiac glycosides, diuretics, or anti-arrhythmics for the development of cardiac arrhythmias <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0503">5.3</linkHtml>) and Adverse Reactions (<linkHtml href="#s_0600">6</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0702">
+                     <id root="368a1bb4-6424-4ecc-a57c-882334aefa1a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">7.2	Drugs Potentiating Effects of Epinephrine</title>
+                     <text>
+                        <paragraph>The effects of epinephrine may be potentiated by tricyclic antidepressants, monoamine oxidase inhibitors, levothyroxine sodium, and certain antihistamines, notably chlorpheniramine, tripelennamine, and diphenhydramine, and catechol-O-methyl transferase (COMT) inhibitors such as entacapone.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0703">
+                     <id root="3ec74692-6df2-4b77-9d2a-036df55e5e52"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">7.3	Drugs Antagonizing Effects of Epinephrine</title>
+                     <text>
+                        <paragraph>The cardiostimulating and bronchodilating effects of epinephrine are antagonized by beta- adrenergic blocking drugs, such as propranolol.</paragraph>
+                        <paragraph>The vasoconstricting and hypertensive effects of epinephrine are antagonized by alpha- adrenergic blocking drugs, such as phentolamine.</paragraph>
+                        <paragraph>Ergot alkaloids may also reverse the pressor effects of epinephrine.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0800">
+               <id root="0b6e33cc-ebd0-4009-9524-5fc728e1f414"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20250414"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Elderly patients may be at greater risk of developing adverse reactions. (<linkHtml href="#s_0805">8.5</linkHtml>)</paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0801">
+                     <id root="14a5248a-ca2b-4a0f-92a1-5bb80feda406"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Prolonged experience with epinephrine use in pregnant women over several decades, based on published literature, have not identified a drug associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. There are risks to the mother and fetus associated with anaphylaxis. Epinephrine is first-line treatment of anaphylaxis and should not be delayed <content styleCode="italics">(see <linkHtml href="#clinconsider">Clinical Considerations</linkHtml>)</content>. In animal reproductive studies, epinephrine administered by the subcutaneous route to rabbits, mice, and hamsters during the period of organogenesis was teratogenic at doses 7 times and higher than the maximum recommended human intramuscular and subcutaneous dose on a mg/m<sup>2</sup> basis <content styleCode="italics">(see <linkHtml href="#data">Data</linkHtml>)</content>.</paragraph>
+                        <paragraph>The background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively.</paragraph>
+                        <paragraph ID="clinconsider">
+                           <content styleCode="underline">Clinical Considerations</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Disease-associated maternal and embryo/fetal risk:</content>
+                        </paragraph>
+                        <paragraph>During pregnancy, anaphylaxis can be catastrophic and can lead to hypoxic-ischemic encephalopathy and permanent central nervous system damage or death in the mother and, more commonly, in the fetus or neonate. Treatment of anaphylaxis during pregnancy should not be delayed.</paragraph>
+                        <paragraph ID="data">
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data:</content>
+                        </paragraph>
+                        <paragraph>In an embryofetal development study with rabbits dosed during the period of organogenesis, epinephrine was shown to be teratogenic (including gastroschisis and embryonic lethality) at doses approximately 40 times the maximum recommended intramuscular or subcutaneous dose (on a mg/m<sup>2</sup> basis at a maternal subcutaneous dose of 1.2 mg/kg/day for two to three days).</paragraph>
+                        <paragraph>In an embryofetal development study with mice dosed during the period of organogenesis, epinephrine was shown to be teratogenic (including embryonic lethality) at doses approximately 8 times the maximum recommended intramuscular or subcutaneous dose (on a mg/m<sup>2</sup> basis at a maternal subcutaneous dose of 1 mg/kg/day for 10 days). These effects were not seen in mice at approximately 4 times the maximum recommended daily intramuscular or subcutaneous dose (on a mg/m<sup>2</sup> basis at a subcutaneous maternal dose of 0.5 mg/kg/day for 10 days).</paragraph>
+                        <paragraph>In an embryofetal development study with hamsters dosed during the period of organogenesis from gestation days 7 to 10, epinephrine was shown to be teratogenic at doses approximately 7 times the maximum recommended daily intramuscular or subcutaneous dose (on a mg/m<sup>2</sup> basis at a maternal subcutaneous dose of 0.5 mg/kg/day for 4 days).</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0802">
+                     <id root="4881bc4d-9b8c-4c6f-a3b6-a220e20e1ff1"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>There is no information on the presence of epinephrine in human milk, the effects on breastfed infants, or the effects on milk production. However, due to its poor oral bioavailability and short half-life, transfer of epinephrine into breastmilk is expected to be low. Treatment of anaphylaxis in breastfeeding patients should not be delayed. </paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0804">
+                     <id root="a7b2a865-fa61-46a3-8c94-d0e69f7e4dce"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of AUVI-Q for the emergency treatment of type I allergic reactions, including anaphylaxis have been established in pediatric patients who weigh 7.5 kg or greater. The use of AUVI-Q for this indication is supported by clinical experience. Clinical experience with the use of epinephrine suggests that the adverse reactions seen in pediatric patients are similar in nature and extent to those both expected and reported in adults. Since the doses of epinephrine delivered from AUVI-Q are fixed, use other forms of injectable epinephrine if doses lower than 0.1 mg are deemed necessary.</paragraph>
+                        <paragraph>The safety and effectiveness of AUVI-Q have not been established in pediatric patients who weigh less than 7.5 kg.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0805">
+                     <id root="96728291-e86d-4e3e-a530-e2726cc9ea4f"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of AUVI-Q for emergency treatment of type I allergic reactions, including anaphylaxis, were not conducted to determine whether they respond differently from younger patients. However, other reported clinical experience with use of epinephrine for treatment of anaphylaxis has identified that geriatric patients may be particularly sensitive to the effects of epinephrine. Therefore, these patients may be at greater risk for developing adverse reactions after epinephrine administration <content styleCode="italics">[see Overdosage (<linkHtml href="#s_1000">10</linkHtml>)]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1000">
+               <id root="9024286e-dfd7-4fdd-ab8f-206c92a612cd"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage of epinephrine has been reported to produce extremely elevated arterial pressure, which may result in cerebrovascular hemorrhage, particularly in elderly patients. Overdosage may also result in pulmonary edema because of peripheral vascular constriction together with cardiac stimulation.</paragraph>
+                  <paragraph>Epinephrine overdosage can also cause transient bradycardia followed by tachycardia, which may be accompanied by fatal cardiac arrhythmias; premature ventricular contractions followed by multifocal ventricular tachycardia; atrial tachycardia and occasionally by atrioventricular block; extreme pallor and coldness of the skin; metabolic acidosis; kidney failure.</paragraph>
+                  <paragraph>Epinephrine is rapidly inactivated in the body and treatment following overdosage with epinephrine is primarily supportive. Treatment of epinephrine associated pulmonary edema consists of a rapidly acting alpha-adrenergic blocking drug (such as phentolamine mesylate) and respiratory support. Treatment of epinephrine associated arrhythmias consists of administration of a beta-adrenergic blocking drug (such as propranolol).  If necessary, pressor effects may be counteracted by rapidly acting vasodilators or α-adrenergic  blocking drugs. If prolonged hypotension follows such measures, it may be necessary to administer another pressor drug.</paragraph>
+                  <paragraph>Consider contacting the Poison Help line (1-800-222-1222) or a medical toxicologist for additional overdosage management recommendations.</paragraph>
+               </text>
+               <effectiveTime value="20250414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1100">
+               <id root="5ed86bcf-ff4d-4dff-993c-9a24a1374816"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">11 DESCRIPTION</title>
+               <text>
+                  <paragraph>AUVI-Q (epinephrine injection, USP) 0.3 mg, 0.15 mg and 0.1 mg is an autoinjector and a combination product containing drug and device components.</paragraph>
+                  <paragraph>AUVI-Q includes audible (electronic voice instructions, beeps) and visible (LED lights) cues for use. The needle automatically retracts after the injection is complete.</paragraph>
+                  <paragraph>Each AUVI-Q 0.3 mg delivers a single dose of 0.3 mg epinephrine from epinephrine injection, USP (0.3 mL) in a sterile solution.</paragraph>
+                  <paragraph>Each AUVI-Q 0.15 mg delivers a single dose of 0.15 mg epinephrine from epinephrine injection, USP (0.15 mL) in a sterile solution.</paragraph>
+                  <paragraph>Each AUVI-Q 0.1 mg delivers a single dose of 0.1 mg epinephrine from epinephrine injection, USP (0.1 mL) in a sterile solution.</paragraph>
+                  <paragraph>AUVI-Q 0.3 mg, AUVI-Q 0.15 mg and AUVI-Q 0.1 mg each contain 0.76 mL epinephrine solution. 0.3 mL, 0.15 mL and 0.1 mL epinephrine solution is dispensed for AUVI-Q 0.3 mg, AUVI-Q 0.15 mg and AUVI-Q 0.1 mg, respectively, when activated. The remaining solution is not available for future use and should be discarded.</paragraph>
+                  <paragraph>Each 0.3 mL in AUVI-Q 0.3 mg contains 0.3 mg epinephrine, 2.3 mg sodium chloride, 0.45 mg sodium bisulfite, hydrochloric acid to adjust pH, and water for injection. The pH range is 2.2– 5.0.</paragraph>
+                  <paragraph>Each 0.15 mL in AUVI-Q 0.15 mg contains 0.15 mg epinephrine, 1.2 mg sodium chloride, 0.225 mg sodium bisulfite, hydrochloric acid to adjust pH, and water for injection. The pH range is 2.2–5.0.</paragraph>
+                  <paragraph>Each 0.1 mL in AUVI-Q 0.1 mg contains 0.1 mg epinephrine, 0.78 mg sodium chloride, 0.15 mg sodium bisulfite, hydrochloric acid to adjust pH, and water for injection. The pH range is 2.2–5.0.</paragraph>
+                  <paragraph>Epinephrine is a sympathomimetic catecholamine. Chemically, epinephrine is (-)-3,4-Dihydroxy-a-[(methylamino)methyl]benzyl alcohol with the following structure:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM100"/>
+                  </paragraph>
+                  <paragraph>Epinephrine solution deteriorates rapidly on exposure to air or light, turning pink from oxidation to adrenochrome and brown from the formation of melanin.</paragraph>
+                  <paragraph>AUVI-Q is not made with natural rubber latex.</paragraph>
+                  <paragraph>AUVI-Q instructional and safety systems should be thoroughly reviewed with patients and caregivers prior to use <content styleCode="italics">[see Patient Counseling Information (<linkHtml href="#s_1700">17</linkHtml>)]</content>.</paragraph>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM100">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1200">
+               <id root="ebbbccad-58ac-4223-b839-97165718dde5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <section ID="s_1201">
+                     <id root="77c2a1ec-6b76-4156-b652-496d804bf3c9"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Epinephrine acts on both alpha and beta-adrenergic receptors.</paragraph>
+                        <paragraph>Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension.</paragraph>
+                        <paragraph>Through its action on beta-adrenergic receptors, epinephrine causes bronchial smooth muscle relaxation and helps alleviate bronchospasm, wheezing and dyspnea that may occur during anaphylaxis.</paragraph>
+                        <paragraph>Epinephrine also alleviates pruritus, urticaria, and angioedema and may relieve gastrointestinal and genitourinary symptoms associated with anaphylaxis because of its relaxer effects on the smooth muscle of the stomach, intestine, uterus and urinary bladder.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1202">
+                     <id root="51e0ca99-a4f7-4421-90a3-b7a97d6716c4"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>When given subcutaneously or intramuscularly, epinephrine has a rapid onset and short duration of action.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1300">
+               <id root="21741f3d-89c6-414b-bc1e-1645f2e40741"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <section ID="s_1301">
+                     <id root="f6097439-20b5-40e1-a155-fa65970f401f"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term studies to evaluate the carcinogenic potential of epinephrine have not been conducted.</paragraph>
+                        <paragraph>Epinephrine and other catecholamines have been shown to have mutagenic potential <content styleCode="italics">in vitro</content>. Epinephrine was positive in the <content styleCode="italics">Salmonella</content> bacterial reverse mutation assay, positive in the mouse lymphoma assay, and negative in the <content styleCode="italics">in vivo</content> micronucleus assay. Epinephrine is an oxidative mutagen based on the <content styleCode="italics">E. coli</content> WP2 Mutoxitest bacterial reverse mutation assay. This should not prevent the use of epinephrine where indicated <content styleCode="italics">[see Indications and Usage (<linkHtml href="#s_0100">1</linkHtml>)]</content>.</paragraph>
+                        <paragraph>The potential for epinephrine to impair reproductive performance has not been evaluated, but epinephrine has been shown to decrease implantation in female rabbits dosed subcutaneously with 1.2 mg/kg/day (40-fold the highest human intramuscular or subcutaneous daily dose) during gestation days 3 to 9.</paragraph>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1600">
+               <id root="f7c9ef99-ec6b-4348-bd16-87623e176f84"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">How Supplied</content>
+                  </paragraph>
+                  <paragraph>AUVI-Q (epinephrine injection) is a clear and colorless solution for intramuscular or subcutaneous use.  AUVI-Q is available as an autoinjector as described in <linkHtml href="#table2">Table 2</linkHtml>.</paragraph>
+                  <paragraph ID="table2">
+                     <content styleCode="bold">Table 2. AUVI-Q Autoinjector Package Configurations and Strengths</content>
+                  </paragraph>
+                  <table width="750" styleCode="Noautorules">
+                     <col width="34%" align="center"/>
+                     <col width="32%" align="center"/>
+                     <col width="34%" align="center"/>
+                     <tbody valign="top">
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Package Configuration</content>
+                           </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">Strength</content>
+                           </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <content styleCode="bold">National Drug Code (NDC)</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">2 autoinjectors</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">0.3 mg/0.3 mL</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">NDC 60842-023-02</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">2 autoinjectors</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">0.15 mg/0.15 mL</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">NDC 60842-022-02</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">2 autoinjectors</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">0.1 mg/0.1 mL</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">NDC 60842-021-02</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="underline">Storage and Handling</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Protect from light. Epinephrine is light sensitive and should be stored in the outer case.</item>
+                     <item>Store at 20°C to 25°C (68°F to 77°F); excursions permitted to 15°C to 30°C (59°F to 86°F) [See USP Controlled Room Temperature]. Do not freeze.</item>
+                     <item>Before using, check to make sure the solution in the autoinjector is clear and colorless. Replace the autoinjector if the solution is discolored, cloudy, or contains particles.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1700">
+               <id root="dad605d5-e770-48a1-b0bb-efb7bdfece9e"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information and Instructions for Use).</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Administration and Training</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Instruct patients and/or caregivers in the appropriate use of AUVI-Q. AUVI-Q should be injected into the middle of the outer thigh (through clothing, if necessary). Each device is a single-dose injection.</item>
+                     <item>Advise patients and/or caregivers when to seek emergency medical care for close monitoring of the type I allergic emergency and in the event that further treatment is required.</item>
+                     <item>Instruct patients and/or caregivers to inspect the epinephrine solution visually through the viewing window periodically. AUVI-Q should be replaced if the epinephrine solution appears discolored, cloudy, or contains particles.</item>
+                     <item>Instruct caregivers to hold the leg of young children or infants firmly in place and limit movement prior to and during injection <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)]</content>.</item>
+                     <item>Instruct patients and/or caregivers that the needle will not be visible after the injection and they may not feel the injection when it occurs.</item>
+                     <item>Instruct patients and/or caregivers that AUVI-Q includes a 2- second countdown after it is activated and then the voice instructions will indicate when the injection has been completed and to seek medical care, if needed. Instruct patients that AUVI-Q’s black base will lock up onto the device housing and the lights will blink red after the injection has been completed. These post-use indicators help patients and/or caregivers know that AUVI-Q has been activated and an epinephrine injection has been administered.</item>
+                     <item>Instruct patients and/or caregivers to use and practice with the Trainer to familiarize themselves with the use of AUVI-Q in an allergic emergency. The Trainer may be used multiple times.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Injection-Related Complications</content>
+                  </paragraph>
+                  <paragraph>Advise patients to seek immediate medical care in the case of accidental injection into the digits, hands, or feet because such an accidental injection to these areas may cause loss of blood flow to the affected area <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0501">5.1</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Serious Infections at the Injection Site</content>
+                  </paragraph>
+                  <paragraph>Advise patients that rare cases of serious skin and soft tissue infections, including necrotizing fasciitis and myonecrosis caused by Clostridia (gas gangrene), have been reported at the injection site following epinephrine injection for anaphylaxis. Instruct patients to seek medical care if they develop signs or symptoms of infection, such as persistent redness, warmth, swelling, or tenderness, at the epinephrine injection site <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0502">5.2</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Risks Associated with Certain Coexisting Conditions</content>
+                  </paragraph>
+                  <paragraph>Advise patients with coexisting conditions (cardiac arrhythmia and ischemia, hypertension, pulmonary edema, hyperthyroidism, renal impairment, Parkinson’s disease, diabetes), for increased risks that may be associated with use of epinephrine <content styleCode="italics">[see Warnings and Precautions (<linkHtml href="#s_0503">5.3</linkHtml>)]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Storage and Handling</content>
+                  </paragraph>
+                  <paragraph>Epinephrine is light sensitive and should be stored in the outer case provided to protect it from light. Instruct patients that AUVI-Q must be used or properly disposed once the red safety guard is removed <content styleCode="italics">[see How Supplied/Storage and Handling (<linkHtml href="#s_1600">16</linkHtml>)]</content>.</paragraph>
+                  <br/>
+                  <paragraph>Manufactured for:<br/>kaleo, Inc.<br/>Richmond, VA 23219 USA<br/>This product may be covered by one or more U.S. patents or pending patent applications; see www.kaleo.com for details. KALÉO<sup>®</sup> and AUVI-Q<sup>®</sup> are registered trademarks of kaleo, Inc.<br/>© 2025 kaleo, Inc.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">*For California Only: This product uses batteries containing Perchlorate Material – special handling may apply. See <content styleCode="underline">www.dtsc.ca.gov/hazardouswaste/perchlorate</content>
+                     </content>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+            </section>
+         </component>
+         <component>
+            <section ID="JB200">
+               <id root="cde923b0-8f6e-4a2d-9e31-fda0875bb361"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">PATIENT INFORMATION</content>
+                              </paragraph>
+                              <paragraph>AUVI-Q® [Aw-Vee-Kyoo]<br/>(epinephrine injection)<br/>For intramuscular or subcutaneous use<br/>For allergic emergencies (anaphylaxis)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>Read this Patient Information leaflet before you have to use AUVI-Q and each time you get a refill. There may be new information. You, your caregiver, or others who may be in a position to administer AUVI-Q should know how to use it before you have an allergic emergency. This information does not take the place of talking with your healthcare provider about your medical condition or your treatment.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What is the most important information I should know about AUVI-Q?</content>
+                              </paragraph>
+                              <list listType="ordered" styleCode="Arabic">
+                                 <item>Always carry AUVI-Q with you because you may not know when a life-threatening allergic reaction (anaphylactic reaction) may happen. Talk to your healthcare provider if you need additional units to keep at work, school, etc. An anaphylactic reaction is a life-threatening allergic reaction that can happen within minutes and can be caused by stinging and biting insects (bees, wasps, hornets, and mosquitoes), allergy shots, foods, medicines, exercise, or other unknown causes. Follow your healthcare provider’s instructions on when to use AUVI-Q if you have the symptoms of an anaphylactic reaction, which may include the symptoms listed below:
+											<list listType="unordered" styleCode="Disc">
+                                       <item>trouble breathing</item>
+                                       <item>wheezing</item>
+                                       <item>hoarseness (changes in the way your voice sounds)</item>
+                                       <item>hives (raised reddened rash that may itch)</item>
+                                       <item>severe itching</item>
+                                       <item>swelling of your face, lips, mouth or tongue</item>
+                                       <item>skin rash, redness, or swelling</item>
+                                       <item>fast heartbeat</item>
+                                       <item>weak pulse</item>
+                                       <item>feeling very anxious</item>
+                                       <item>confusion</item>
+                                       <item>stomach pain</item>
+                                       <item>losing control of urine or bowel movements</item>
+                                       <item>dizziness or fainting</item>
+                                    </list>
+                                 </item>
+                                 <item>Tell your family members and others where you keep AUVI-Q and how to use it before you need it. You may be unable to speak in an allergic emergency.</item>
+                                 <item>Get medical care for further treatment of the allergic emergency if needed after using AUVI-Q. Before you receive AUVI-Q, your healthcare provider should talk to you about when to get emergency help.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What is AUVI-Q?</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>AUVI-Q is a prescription medicine used to treat life-threatening allergic reactions including anaphylaxis in adults and children who weigh 16.5 pounds (7.5 kilograms) or more who are at risk for or have a history of serious allergic reactions.</item>
+                                 <item>AUVI-Q is for immediate self (or caregiver) administration.</item>
+                              </list>
+                              <paragraph>It is not known if AUVI-Q is safe and effective in children who weigh less than 16.5 pounds (7.5 kilograms).</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What should I tell my healthcare provider before using AUVI-Q?<br/>Before using AUVI-Q, tell your healthcare provider about all of your medical conditions, especially if you:</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>have heart problems or high blood pressure.</item>
+                                 <item>have diabetes. </item>
+                                 <item>have thyroid problems.</item>
+                                 <item>have kidney problems.</item>
+                                 <item>have history of depression. </item>
+                                 <item>have Parkinson’s disease.</item>
+                                 <item>are pregnant or plan to become pregnant. It is not known if AUVI-Q will harm your unborn baby.</item>
+                                 <item>are breastfeeding or plan to breastfeed. It is not known if AUVI-Q passes into your breast milk. </item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Tell your healthcare provider about all the medicines you take,</content>
+                                 <br/>including prescription and non-prescription medicines, vitamins, and herbal supplements. </paragraph>
+                              <paragraph>AUVI-Q and other medicines may affect each other, causing side effects. AUVI-Q may affect the way other medicines work, and other medicines may affect how AUVI-Q works. </paragraph>
+                              <paragraph>Know the medicines you take. Keep a list of them to show your healthcare provider and pharmacist when you get a new medicine.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How should I use AUVI-Q? </content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Read the Instructions for Use at the end of this Patient Information leaflet for information about the right way to use AUVI-Q.</item>
+                                 <item>Use AUVI-Q exactly as your healthcare providers tells you to use it.</item>
+                                 <item>AUVI-Q should only be injected into your outer thigh. If needed, AUVI-Q can be injected through your clothing.</item>
+                                 <item>Each AUVI-Q contains only 1 dose of medicine.</item>
+                                 <item>If a second dose of AUVI-Q is needed, it should be given starting 5 minutes after the first dose.</item>
+                                 <item>You should always carry 2 AUVI-Q devices with you.</item>
+                                 <item>If you need more than 2 doses of epinephrine for a single anaphylaxis episode, more doses must be given by a healthcare provider.</item>
+                                 <item>You may request a Trainer for AUVI-Q. Additional training resources are available at <linkHtml href="https://www.auvi-q.com">www.auvi-q.com</linkHtml>.
+											<list listType="unordered" styleCode="Circle">
+                                       <item>Practice with the Trainer for AUVI-Q before an allergic emergency happens to familiarize yourself with the use of AUVI-Q in an allergic emergency.</item>
+                                       <item>The Trainer for AUVI-Q does not contain a needle or medicine and can be reused to practice your injection.</item>
+                                    </list>
+                                 </item>
+                                 <item>If you take too much AUVI-Q, call your healthcare provider or Poison Help line at 1-800-222-1222 or go to the nearest hospital emergency room right away.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the possible side effects of AUVI-Q?</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">AUVI-Q may cause serious side effects.</content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>
+                                    <content styleCode="bold">AUVI-Q should only be injected into your outer thigh. Do not</content> inject AUVI-Q into your:
+											<list listType="unordered" styleCode="Circle">
+                                       <item>veins</item>
+                                       <item>buttocks</item>
+                                       <item>fingers, toes, hands or feet</item>
+                                    </list> 
+												If you accidentally inject AUVI-Q into any other part of your body, go to the nearest hospital emergency room right away. Tell the healthcare provider where on your body you received the accidental injection.
+											</item>
+                              </list>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Rarely, patients who use AUVI-Q may develop infections at the injection site within a few days of an injection. Some of these infections can be serious. Call your healthcare provider right away if you have any of the following at an injection site:
+												<list listType="unordered" styleCode="Circle">
+                                       <item>redness that does not go away</item>
+                                       <item>swelling</item>
+                                       <item>tenderness</item>
+                                       <item>the area feels warm to the touch</item>
+                                    </list>
+                                 </item>
+                                 <item>If you inject a young child or infant with AUVI-Q, hold their leg firmly in place before and during the injection to prevent injuries. Ask your healthcare provider to show you how to properly hold the leg of a young child or infant during an injection. </item>
+                                 <item>
+                                    <content styleCode="bold">If you have certain medical conditions, or take certain medicines, your condition may get worse or you may have more or longer lasting side effects when you use AUVI-Q. Talk to your healthcare provider about all your medical conditions.</content>
+                                 </item>
+                              </list>
+                              <paragraph>Common side effects of AUVI-Q include:</paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>fast, irregular, or ‘pounding’ heart beat </item>
+                                 <item>sweating</item>
+                                 <item>shakiness</item>
+                                 <item>headache</item>
+                                 <item>paleness</item>
+                                 <item>feelings of over excitement, nervousness, or anxiety</item>
+                                 <item>weakness</item>
+                                 <item>dizziness</item>
+                                 <item>nausea and vomiting</item>
+                                 <item>breathing problems </item>
+                              </list>
+                              <paragraph>Tell your healthcare provider if you have any side effect that bothers you or that does not go away. </paragraph>
+                              <paragraph>These are not all of the possible side effects of AUVI-Q. For more information, ask your healthcare provider or pharmacist. </paragraph>
+                              <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088. </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">How should I store AUVI-Q? </content>
+                              </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>Store AUVI-Q at room temperature between 68° to 77°F (20° to 25°C). </item>
+                                 <item>
+                                    <content styleCode="bold">Do not</content> freeze. <content styleCode="bold">Do not</content> expose to extreme heat or cold. For example, <content styleCode="bold">do not</content> store in your vehicle’s glove box. </item>
+                                 <item>Before using, examine contents in the viewing window. Solution should be clear. If the solution is discolored, cloudy or contains solid particles, replace the autoinjector.</item>
+                                 <item>Your AUVI-Q has an expiration date. Replace it before the expiration date.</item>
+                                 <item>Keep AUVI-Q in the outer case it comes in to protect it from light.</item>
+                              </list>
+                              <paragraph>
+                                 <content styleCode="bold">Keep AUVI-Q and all medicines out of the reach of children.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">General information about the safe and effective use of AUVI-Q.</content>
+                              </paragraph>
+                              <paragraph>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use AUVI-Q for a condition for which it was not prescribed. Do not give AUVI-Q to other people, even if they have the same symptoms that you have. It may harm them.</paragraph>
+                              <paragraph>This Patient Information leaflet summarizes the most important information about AUVI-Q. If you would like more information, talk to your healthcare provider. You can ask your pharmacist or healthcare provider for information about AUVI-Q that is written for health professionals.</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">
+                              <paragraph>
+                                 <content styleCode="bold">What are the ingredients in AUVI-Q? <br/>Active ingredient:</content> epinephrine. <br/>
+                                 <content styleCode="bold">Inactive Ingredients:</content> sodium chloride, sodium bisulfite, hydrochloric acid, and water.</paragraph>
+                              <paragraph>AUVI-Q does not contain latex.</paragraph>
+                              <paragraph>For more information and video instructions on the use of AUVI-Q, go to www.auvi-q.com or call 1-877-302-8847.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <section ID="JB205">
+                     <id root="e0429bb6-dba5-4169-bf8b-fec1387643e4"/>
+                     <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml"/>
+                     <text>
+                        <table width="100%" styleCode="Noautorules">
+                           <col width="100%" align="left"/>
+                           <tbody>
+                              <tr>
+                                 <td align="center">
+                                    <paragraph>
+                                       <content styleCode="bold">Instructions for Use</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <paragraph>Read this Instructions for Use carefully before you need to use your AUVI-Q. Before you use AUVI-Q, make sure your healthcare provider shows you the right way to use it. If you have any questions, ask your healthcare provider. </paragraph>
+                                    <paragraph>If you are administering AUVI-Q to a young child or infant, hold the leg firmly in place and limit movement prior to and while administering an injection. Ask your healthcare provider to show you how to properly hold the leg in place while administering a dose.</paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Automated Voice Instructions</content>
+                                    </paragraph>
+                                    <paragraph>AUVI-Q contains an electronic voice instruction system to help guide you through each step of your injection. If the voice instructions do not work for any reason, use AUVI-Q as instructed in these Instructions for Use. It will still work during an allergic reaction emergency.</paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">How to use your AUVI-Q</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Figure A.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM164"/>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">1. Pull AUVI-Q up from the outer case. See <linkHtml href="#figureb">Figure B</linkHtml>. <br/>Do not</content> go to step 2 until you are ready to use AUVI-Q. If you are not ready to use AUVI-Q, put it back in the outer case. </paragraph>
+                                    <paragraph ID="figureb">
+                                       <content styleCode="bold">Figure B.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM165"/>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">2. Pull Red safety guard down and off of AUVI-Q. See <linkHtml href="#figurec">Figure C</linkHtml>.</content>
+                                       <br/>To reduce the chance of an accidental injection, do not touch the black base of the auto-injector, which is where the needle comes out. If an accidental injection happens, get medical help right away. </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Note:</content> The red safety guard is made to fit tight. <content styleCode="bold">Pull firmly to remove.</content>
+                                    </paragraph>
+                                    <paragraph ID="figurec">
+                                       <content styleCode="bold">Figure C.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM166"/>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">3. Place black end of AUVI-Q against the middle of the outer thigh (through clothing, if needed), then push firmly until you hear a click and hiss sound, and hold in place for 2 seconds. See <linkHtml href="#figured">Figure D</linkHtml>. </content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Only</content> inject into the middle of the outer thigh. <content styleCode="bold">Do not</content> inject into any other part of the body. </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">If you are administering AUVI-Q to a young child or infant, hold the leg firmly in place while administering an injection See <linkHtml href="#figuree">Figure E</linkHtml>.</content>
+                                    </paragraph>
+                                    <paragraph ID="figured">
+                                       <content styleCode="bold">Figure D.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(For AUVI-Q 0.3 mg and AUVI-Q 0.15 mg)</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM167"/>
+                                    </paragraph>
+                                    <paragraph ID="figuree">
+                                       <content styleCode="bold">Figure E.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">(For AUVI-Q 0.1 mg)</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM189"/>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Note:</content> AUVI-Q makes a distinct sound (click and hiss) when you push it firmly against your outer thigh. This is normal and indicates AUVI-Q is working correctly. Do not pull AUVI-Q away from your leg when you hear the click and hiss sound.</paragraph>
+                                    <paragraph>The needle automatically retracts after the injection is complete, so the needle will not be visible after the injection. AUVI-Q includes a 2-second countdown after it is activated, then the voice instruction will indicate the injection is complete, and to seek medical care if needed. AUVI-Q will beep, and the lights will blink red.</paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">4.	Get medical care for further treatment of the allergic emergency if needed after using AUVI-Q.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Before you receive AUVI-Q, your healthcare provider should talk to you about when to get emergency help.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Replace the outer case and talk to your healthcare provider about the right way to throw away your AUVI-Q.</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="bold">Ask your healthcare provider for an AUVI-Q prescription refill. <br/>After the use of AUVI-Q: </content>
+                                    </paragraph>
+                                    <list listType="unordered" styleCode="Disc">
+                                       <item>The black base will lock into place.</item>
+                                       <item>The voice instruction system will say “seek medical care if needed”, say “this AUVI-Q has been used…”, and the lights will blink red. </item>
+                                       <item>Do not replace the red safety guard. </item>
+                                       <item>The viewing window will no longer be clear. </item>
+                                       <item>It is normal for some medicine to remain in your AUVI-Q after you have received your dose of medicine. </item>
+                                       <item>Talk to your healthcare provider about the right way to throw away your AUVI-Q. </item>
+                                       <item>AUVI-Q is a single-dose auto-injector and cannot be reused. AUVI-Q must be used or properly disposed after the red safety guard is removed. </item>
+                                    </list>
+                                    <paragraph>Until you throw away your used AUVI-Q, the electronic voice instruction system will remind you that it has been used when the outer case is removed.</paragraph>
+                                    <paragraph>This Patient Information and Instructions for Use has been approved by the U.S. Food and Drug Administration</paragraph>
+                                    <br/>
+                                    <paragraph>Revised: Apr 2025</paragraph>
+                                    <br/>
+                                    <br/>
+                                    <paragraph>Manufactured for: <br/>kaleo, Inc. <br/>Richmond, VA 23219 USA <br/>This product may be covered by one or more U.S. patents or pending patent applications; see www.kaleo.com for details. KALÉO® and AUVI-Q® are registered trademarks of kaleo, Inc.<br/>© 2025 kaleo, Inc.</paragraph>
+                                    <br/>
+                                    <paragraph>
+                                       <content styleCode="bold">*For California Only: This product uses batteries containing Perchlorate Material – special handling may apply. See <linkHtml href="https://www.dtsc.ca.gov/hazardouswaste/perchlorate">www.dtsc.ca.gov/hazardouswaste/perchlorate</linkHtml>
+                                       </content>
+                                    </paragraph>
+                                    <br/>
+                                    <br/>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20250414"/>
+                  </section>
+               </component>
+               <component>
+                  <observationMedia ID="MM164">
+                     <text>Figure A</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM165">
+                     <text>Figure B</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM166">
+                     <text>Figure C</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM167">
+                     <text>Figure D</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM189">
+                     <text>Figure E</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="JB210">
+               <id root="9b0fb452-60e2-4820-b512-8abb6aace7af"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="center">
+                              <paragraph>
+                                 <content styleCode="bold">TRAINER FOR AUVI-Q®<br/>
+                                    <br/>Trainer Instructions for Use</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <paragraph>
+                                 <content styleCode="bold underline">Important: </content>
+                                 <br/>
+                                 <content styleCode="bold underline">The TRAINER for AUVI-Q Does Not contain a needle or medicine.</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold underline">In case of an allergic emergency, use the real AUVI-Q and not the gray Trainer. <br/>Always carry your real Auvi-Q with you in case of an allergic emergency.</content>
+                              </paragraph>
+                              <br/>
+                              <paragraph>
+                                 <content styleCode="bold">Important Information about the TRAINER for AUVI-Q: </content>
+                              </paragraph>
+                              <paragraph>Inside your TRAINER for AUVI-Q are: </paragraph>
+                              <list listType="unordered" styleCode="Disc">
+                                 <item>batteries </item>
+                                 <item>a speaker that will make a beeping sound and that produces electronic voice instructions</item>
+                                 <item>red and green blinking lights </item>
+                              </list>
+                              <paragraph>The TRAINER for AUVI-Q batteries are made to last long enough for you to practice 1 time each day for 2 years. If your TRAINER for AUVI-Q does not work properly call your healthcare provider for a new Trainer.</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" cellpadding="5" styleCode="Noautorules">
+                     <col width="50%" align="left"/>
+                     <col width="50%" align="left"/>
+                     <tbody>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <content styleCode="bold">What is the TRAINER for AUVI-Q?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>The TRAINER for AUVI-Q does not contain a needle or medicine and can be reused to practice your injection.</item>
+                                 <item>Practice with the TRAINER for AUVI-Q before an allergic emergency happens to make sure you are able to safely use the real AUVI-Q in an emergency.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <content styleCode="bold">Your TRAINER for AUVI-Q<br/>Figure A</content>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td align="center">
+                              <content styleCode="bold">TRAINER for AUVI-Q</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM168"/>
+                              <br/>
+                              <content styleCode="bold">Top view</content>
+                              <renderMultiMedia referencedObject="MM169"/>
+                           </td>
+                           <td align="center">
+                              <content styleCode="bold">AUVI-Q</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM170"/>
+                              <br/>AUVI-Q 0.3 mg is <content styleCode="bold">orange</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM171"/>
+                              <br/>AUVI-Q 0.15 mg is <content styleCode="bold">blue</content>
+                              <br/>
+                              <renderMultiMedia referencedObject="MM172"/>
+                              <br/>AUVI-Q 0.1 mg is <content styleCode="bold">white and lavender</content>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td>
+                              <content styleCode="bold">TRAINER for AUVI-Q:</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>is inside a <content styleCode="bold">gray outer case</content>
+                                 </item>
+                                 <item>does not have a needle or medicine inside</item>
+                                 <item>can be reused (the red safety guard can be placed back on the base of the Trainer after use)</item>
+                                 <item>has no expiration date</item>
+                                 <item>has embossed “TRAINER” on top of the device</item>
+                              </list>
+                           </td>
+                           <td>
+                              <content styleCode="bold">AUVI-Q: </content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>is inside <content styleCode="bold">an orange (0.3 mg)</content> or <content styleCode="bold">blue (0.15 mg)</content> or <content styleCode="bold">white and lavender (0.1 mg) outer case</content>
+                                 </item>
+                                 <item>contains a needle and epinephrine medicine</item>
+                                 <item>
+                                    <content styleCode="bold">cannot be reused</content> (AUVI-Q must be used or properly disposed once the red safety guard is removed)</item>
+                                 <item>has a medicine expiration date listed on the device</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">In case of an allergic emergency, use the real AUVI-Q and <content styleCode="bold">not</content> the gray Trainer.</td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <content styleCode="bold">Who should practice using the TRAINER for AUVI-Q?</content>
+                              <br/>
+                              <br/>Anyone who may need to help you with AUVI-Q in case of an allergic emergency: <list listType="unordered" styleCode="disc">
+                                 <item>You</item>
+                                 <item>Caregivers</item>
+                                 <item>Family</item>
+                                 <item>Friends</item>
+                                 <item>Co-workers</item>
+                                 <item>Teachers</item>
+                                 <item>Child Care or Day Care Workers </item>
+                              </list> Have them practice using the Trainer and review the Patient Information Leaflet included in the packaging with each prescription of AUVI-Q. <br/>
+                              <br/>For more information and video instructions on the use of AUVI -Q, go to <linkHtml href="https://www.auvi-q.com">www.AUVI-Q.com</linkHtml> or call 1-877-302-8847.</td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <content styleCode="bold">Practicing with the TRAINER for AUVI-Q</content>
+                              <br/>
+                              <br/>Practice with the TRAINER for AUVI-Q before an allergic emergency happens to make sure you are able to safely use the real AUVI-Q in an emergency.<br/>
+                              <br/>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>You should practice daily for the first week after you receive your TRAINER for AUVI-Q to help you feel comfortable using AUVI-Q quickly and safely. Even when you are comfortable using the Trainer, continue to practice using it often.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2" align="left">
+                              <content styleCode="bold">How to Use the Trainer</content>
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td colspan="2">
+                              <content styleCode="bold">How the TRAINER for AUVI-Q works</content>
+                              <br/>
+                              <br/>Although the Trainer does not have a needle and contains no medicine, it works the same way as the real AUVI-Q. <br/>
+                              <br/> As with the real AUVI-Q, the TRAINER for AUVI-Q contains an electronic voice instruction system to help guide you through each step of your injection. If the voice instructions do not work for the TRAINER for AUVI-Q for any reason, you can still use the TRAINER for AUVI-Q as instructed in this leaflet to practice. <br/>
+                              <br/> The TRAINER for AUVI-Q has the same blinking red and green lights as the real AUVI-Q. <br/>
+                              <br/> As with the real AUVI-Q, if practicing with a young child or infant, hold the leg firmly in place while using the TRAINER for AUVI-Q. Ask your healthcare provider to show you how to properly hold the leg to practice so that you will be prepared before an allergic emergency happens. <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="50%"/>
+                     <col width="50%"/>
+                     <tbody>
+                        <tr valign="top">
+                           <td styleCode="Toprule Botrule Lrule Rrule" align="center" colspan="2">
+                              <content styleCode="bold">Follow These Steps</content>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Toprule Lrule Rrule" colspan="2" align="left">
+                              <content styleCode="bold">1.Pull the TRAINER for AUVI-Q from the outer case.</content> See <linkHtml href="#figureb1">Figure B</linkHtml>
+                              <paragraph>
+                                 <content styleCode="bold">2. Pull Red safety guard down and off of the Trainer. </content>See <linkHtml href="#figurec1">Figure C</linkHtml>.</paragraph>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Lrule" align="center">
+                              <content ID="figureb1" styleCode="bold">Figure B<br/>
+                                 <renderMultiMedia referencedObject="MM173"/>
+                              </content>
+                           </td>
+                           <td styleCode="Rrule" align="center">
+                              <content ID="figurec1" styleCode="bold">Figure C<br/>
+                                 <renderMultiMedia referencedObject="MM174"/>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left">Note: The red safety guard is made to fit tight similar to the safety guard on the real AUVI-Q. <content styleCode="bold">Pull firmly to remove.</content>
+                           </td>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Toprule Lrule Rrule" colspan="2" align="left">
+                              <content styleCode="bold">3. Place black end against the middle of the outer thigh (through clothing, if needed), then push firmly until you hear a click and hiss sound, and hold in place for 2 seconds.</content> See <linkHtml href="#figured1">Figure D</linkHtml>. <br/>
+                              <br/>
+                              <content styleCode="bold">As with the real AUVI-Q, if practicing with a young child or infant, hold the leg firmly in place while using the TRAINER for AUVI-Q. </content>(See <linkHtml href="#figuree1">Figure E</linkHtml>). </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule" align="center">
+                              <content ID="figured1" styleCode="bold">Figure D<br/>
+                                 <renderMultiMedia referencedObject="MM175"/>
+                              </content>
+                           </td>
+                           <td styleCode="Rrule" align="center">
+                              <content ID="figuree1" styleCode="bold">Figure E<br/>
+                                 <renderMultiMedia referencedObject="MM176"/>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left">Note: In an actual emergency, after the injection you would seek medical care if needed. <br/>
+                              <br/>
+                              <content styleCode="bold">Only</content> practice using the middle of your outer thigh. The outer thigh is where you would inject with the real AUVI-Q. <br/>
+                              <br/>Note: The TRAINER for AUVI-Q makes a distinct sound (click and hiss) when you push it firmly against your outer thigh. This is the same sound that is made with the real AUVI-Q. This is normal, and indicates AUVI-Q is working correctly. Do not pull AUVI-Q away from your leg when you hear the click and hiss sound.</td>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Toprule Lrule Rrule" colspan="2" align="left">
+                              <content styleCode="bold">4. After practicing, reset the TRAINER for AUVI-Q:</content>
+                              <br/>
+                              <content styleCode="bold">    a. Replace the Red safety guard.</content> Do not hold the black base while inserting the Red safety guard. The Black base will drop down into its original location during Red safety guard insertion. See <linkHtml href="#figuref1">Figure F</linkHtml>. <br/>
+                              <content styleCode="bold">    b. Slide the TRAINER for AUVI-Q all the way back into the gray outer case to reset the electronic voice system. </content>See <linkHtml href="#figureg1">Figure G</linkHtml>. </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule" align="center">
+                              <content ID="figuref1" styleCode="bold">Figure F<br/>
+                                 <renderMultiMedia referencedObject="MM177"/>
+                              </content>
+                           </td>
+                           <td styleCode="Rrule" align="center">
+                              <content ID="figureg1" styleCode="bold">Figure G<br/>
+                                 <renderMultiMedia referencedObject="MM178"/>
+                              </content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule" colspan="2" align="left">Note: Leave the TRAINER for AUVI-Q in its outer case for at least 5 seconds between each time you practice to allow the electronic voice system to reset.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Storage: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Store the TRAINER for AUVI-Q at room temperature; the TRAINER for AUVI-Q should not be used at temperatures less than 50°F (10°C) or greater than 104°F (40°C).</item>
+                     <item>Store the TRAINER for AUVI-Q in its outer case. </item>
+                     <item>Keep the TRAINER for AUVI-Q away from dirt, chemicals, and water.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Disposal:</content>
+                     <br/>The TRAINER for AUVI-Q contains electronics and lithium coin cell batteries, and should be disposed of in the correct manner. Follow your State and local environmental regulations for disposal.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For California Only: This product uses batteries containing Perchlorate Material - special handling may apply. See <linkHtml href="https://www.dtsc.ca.gov/hazardouswaste/perchlorate">www.dtsc.ca.gov/hazardouswaste/perchlorate</linkHtml>
+                     </content>
+                  </paragraph>
+                  <br/>
+                  <paragraph>Manufactured for: <br/>kaleo, Inc. <br/>Richmond, VA 23219 USA</paragraph>
+                  <paragraph>This product may be covered by one or more U.S. patents or pending patent applications; see <linkHtml href="http://www.kaleo.com">www.kaleo.com</linkHtml> for details. KALÉO® and AUVI-Q® are registered trademarks of kaleo, Inc.<br/>© 2025 kaleo, Inc.</paragraph>
+                  <paragraph>Rev. Apr 2025</paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM168">
+                     <text>Figure A1</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM169">
+                     <text>Figure A2</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM170">
+                     <text>Figure A3</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-09.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM171">
+                     <text>Figure A4</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM172">
+                     <text>Figure A5</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM173">
+                     <text>Figure B</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM174">
+                     <text>Figure C</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM175">
+                     <text>Figure D</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM176">
+                     <text>Figure E</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM177">
+                     <text>Figure F</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM178">
+                     <text>Figure G</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-17.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP01">
+               <id root="ead8a447-9fe9-4e2a-a7e2-56cf230d470c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-023-02 - 0.3 mg Carton Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM900"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM900">
+                     <text>0.3 mg Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-18.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP02">
+               <id root="319490f4-98d0-4f67-adf5-451bb15a24d6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-023-02 - 0.3 mg Outer Case Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM901"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM901">
+                     <text>0.3 mg Outer Case Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-19.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP03">
+               <id root="493c493e-8921-4b38-af8d-70ac47d6a2f3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-023-02 - 0.3 mg Device Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM902"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM902">
+                     <text>0.3 mg Device Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP04">
+               <id root="4440a538-519a-49cb-9d48-6aeed198dcda"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-022-02 - 0.15 mg Carton Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM903"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM903">
+                     <text>0.15 mg Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-21.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP05">
+               <id root="9eb17cda-50dc-495d-9c43-39fb6b49207b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-022-02 - 0.15 mg Outer Case Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM904"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM904">
+                     <text>0.15 mg Outer Case Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-22.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP06">
+               <id root="8c6db248-2c6f-45b3-8f0e-9fcd61178807"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-022-02 - 0.15 mg Device Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM905"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM905">
+                     <text>0.15 mg Device Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-23.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP07">
+               <id root="41c63e30-7201-4b98-bb95-5c3a685aa2ca"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-024-01 - Trainer Carton Label (Supplied with 0.3 mg and 0.15 mg Auto-Injectors)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM906"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20231214"/>
+               <component>
+                  <observationMedia ID="MM906">
+                     <text>Trainer Carton Label (Supplied with 0.3 mg and 0.15 mg Auto-Injectors)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-24.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP08">
+               <id root="72bba764-481e-469d-8af6-8e89e2145c27"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-024-01 - Trainer Outer Case Label (Supplied with 0.3 mg and 0.15 mg Auto-Injectors)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM907"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20170419"/>
+               <component>
+                  <observationMedia ID="MM907">
+                     <text>Trainer Outer Case Label (Supplied with 0.3 mg and 0.15 mg Auto-Injectors)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-25.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP09">
+               <id root="8ad2ff3a-f535-428b-9b38-c913d95b94f0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-024-01 - Trainer Device Label (Supplied with 0.3 mg and 0.15 mg Auto-Injectors)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM908"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20170419"/>
+               <component>
+                  <observationMedia ID="MM908">
+                     <text>Trainer Device Label (Supplied with 0.3 mg and 0.15 mg Auto-Injectors)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-26.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP10">
+               <id root="d0ed5385-685c-4817-9711-b0ef098e3f8d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-021-02 - 0.1 mg Carton Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM909"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM909">
+                     <text>0.1 mg Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-27.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP11">
+               <id root="2772f281-7a47-4bf6-8ee3-b1deeb1422e5"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-021-02 - 0.1 mg Outer Case Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM910"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM910">
+                     <text>0.1 mg Outer Case Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-28.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP12">
+               <id root="dcaf1810-e3f5-4207-8aaa-fdeb8e77a4ff"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-021-02 - 0.1 mg Device Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM911"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20250414"/>
+               <component>
+                  <observationMedia ID="MM911">
+                     <text>0.1 mg Device Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-29.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP13">
+               <id root="5a692a71-520b-4f7f-b891-0ce832d4b75e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-025-01 - Trainer Carton Label (Supplied with 0.1 mg Auto-Injectors)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM912"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20241211"/>
+               <component>
+                  <observationMedia ID="MM912">
+                     <text>Trainer Carton Label (Supplied with 0.1 mg Auto-Injectors)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP14">
+               <id root="a2b37d8d-4f40-4002-af5b-2d85ce4ab702"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-025-01 - Trainer Outer Case Label (Supplied with 0.1 mg Auto-Injectors)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM913"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20171129"/>
+               <component>
+                  <observationMedia ID="MM913">
+                     <text>Trainer Outer Case Label (Supplied with 0.1 mg Auto-Injectors)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-31.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PDP15">
+               <id root="eddacc7d-7e63-47ba-843e-f70e92af69fb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - NDC: 60842-025-01 - Trainer Device Label (Supplied with 0.1 mg Auto-Injectors)</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM914"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20171129"/>
+               <component>
+                  <observationMedia ID="MM914">
+                     <text>Trainer Device Label (Supplied with 0.1 mg Auto-Injectors)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="auvi-q-32.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
