@@ -1,10 +1,39 @@
 {
-    "root": "6ec783d3-9308-4f6b-bfda-b41888b95102",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Clarinex",
-    "value": "20250517",
+    "id": "6ec783d3-9308-4f6b-bfda-b41888b95102",
+    "indications": {
+        "text": "clarinex histamine-1 ( h1 ) receptor antagonist indicated : seasonal allergic rhinitis : relief nasal non-nasal symptoms patients 2 years age older . ( 1.1 ) perennial allergic rhinitis : relief nasal non-nasal symptoms patients 6 months age older . ( 1.2 ) chronic idiopathic urticaria : symptomatic relief pruritus , reduction number hives , size hives patients 6 months age older . ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "seasonal allergic rhinitis (DOID:4481)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4481"
+            },
+            {
+                "text": "rhinitis (DOID:4483)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4483"
+            },
+            {
+                "text": "chronic idiopathic urticaria (DOID:0080749)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0080749"
+            },
+            {
+                "text": "urticaria (DOID:1555)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1555"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "chronic idiopathic urticaria",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_2197"
+            }
+        ]
+    },
+    "contraindications": {
+        "text": "although oral solution orally disintegrating tablet formulation desloratadine may available marketplace , clarinex\u00ae oral solution clarinex\u00ae reditabs\u00ae tablets longer marketed . clarinex tablets , oral solution , reditabs tablets may taken without regard meals . place clarinex ( desloratadine ) reditabs tablets tongue allow disintegrate swallowing . tablet disintegration occurs rapidly . administer without water . take tablet immediately opening blister . age-appropriate dose clarinex oral solution administered commercially available measuring dropper syringe calibrated deliver 2 ml 2.5 ml ( \u00bd teaspoon ) .",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "clarinex tablets : embossed \u201c c5 \u201d , light blue , film-coated tablets packaged high-density polyethylene plastic bottles 100 ( ndc 78206-119-01 ) . embossed elongated letters \u201c \u201d \u201c p \u201d , light blue , film-coated tablets packaged high-density polyethylene plastic bottles 100 ( ndc 78206-188-01 ) .",
+    "adverseReactions": "clarinex tablets , reditabs , oral solution contraindicated patients hypersensitive medication ingredients loratadine [ ( 5.1 ) ( 6.2 ) ] .",
     "ingredients": [
         {
             "name": "DESLORATADINE",
@@ -71,40 +100,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_25741"
         }
     ],
-    "indications": {
-        "text": "clarinex histamine-1 ( h1 ) receptor antagonist indicated : seasonal allergic rhinitis : relief nasal non-nasal symptoms patients 2 years age older . ( 1.1 ) perennial allergic rhinitis : relief nasal non-nasal symptoms patients 6 months age older . ( 1.2 ) chronic idiopathic urticaria : symptomatic relief pruritus , reduction number hives , size hives patients 6 months age older . ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "seasonal allergic rhinitis (DOID:4481)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_4481"
-            },
-            {
-                "text": "rhinitis (DOID:4483)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_4483"
-            },
-            {
-                "text": "chronic idiopathic urticaria (DOID:0080749)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0080749"
-            },
-            {
-                "text": "urticaria (DOID:1555)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1555"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "chronic idiopathic urticaria",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_2197"
-            }
-        ]
-    },
-    "contraindications": {
-        "text": "although oral solution orally disintegrating tablet formulation desloratadine may available marketplace , clarinex\u00ae oral solution clarinex\u00ae reditabs\u00ae tablets longer marketed . clarinex tablets , oral solution , reditabs tablets may taken without regard meals . place clarinex ( desloratadine ) reditabs tablets tongue allow disintegrate swallowing . tablet disintegration occurs rapidly . administer without water . take tablet immediately opening blister . age-appropriate dose clarinex oral solution administered commercially available measuring dropper syringe calibrated deliver 2 ml 2.5 ml ( \u00bd teaspoon ) .",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "clarinex tablets : embossed \u201c c5 \u201d , light blue , film-coated tablets packaged high-density polyethylene plastic bottles 100 ( ndc 78206-119-01 ) . embossed elongated letters \u201c \u201d \u201c p \u201d , light blue , film-coated tablets packaged high-density polyethylene plastic bottles 100 ( ndc 78206-188-01 ) .",
-    "adverseReactions": "clarinex tablets , reditabs , oral solution contraindicated patients hypersensitive medication ingredients loratadine [ ( 5.1 ) ( 6.2 ) ] .",
+    "organization": "Organon LLC",
+    "name": "Clarinex",
+    "effectiveTime": "20250517",
     "indications_original": "CLARINEX is a histamine-1 (H1) receptor antagonist indicated for: Seasonal Allergic Rhinitis: relief of nasal and non-nasal symptoms in patients 2 years of age and older. ( 1.1 ) Perennial Allergic Rhinitis: relief of nasal and non-nasal symptoms in patients 6 months of age and older. ( 1.2 ) Chronic Idiopathic Urticaria: symptomatic relief of pruritus, reduction in the number of hives, and size of hives in patients 6 months of age and older. ( 1.3 )",
     "contraindications_original": "Although the oral solution and the orally disintegrating tablet formulation of desloratadine may be available in the marketplace, CLARINEX\u00ae Oral Solution and CLARINEX\u00ae RediTabs\u00ae Tablets are no longer marketed.\n                  CLARINEX Tablets, Oral Solution, or RediTabs Tablets may be taken without regard to meals. Place CLARINEX (desloratadine) RediTabs Tablets on the tongue and allow to disintegrate before swallowing. Tablet disintegration occurs rapidly. Administer with or without water. Take tablet immediately after opening the blister.\n                  The age-appropriate dose of CLARINEX Oral Solution should be administered with a commercially available measuring dropper or syringe that is calibrated to deliver 2 mL and 2.5 mL (\u00bd teaspoon).",
     "warningsAndPrecautions_original": "CLARINEX Tablets:\n                  \n                  \n                     Embossed \u201cC5\u201d, light blue, film-coated tablets that are packaged in high-density polyethylene plastic bottles of 100 (NDC 78206-119-01).\n                     Embossed with elongated letters \u201cS\u201d and \u201cP\u201d, light blue, film-coated tablets that are packaged in high-density polyethylene plastic bottles of 100 (NDC 78206-188-01).",

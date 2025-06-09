@@ -1,10 +1,44 @@
 {
-    "root": "36381bbc-0106-09dc-e063-6394a90af431",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "RISPERIDONE",
-    "value": "20250528",
+    "id": "36381bbc-0106-09dc-e063-6394a90af431",
+    "indications": {
+        "text": "risperidone tablets atypical antipsychotic indicated : treatment schizophrenia ( 1.1 ) monotherapy adjunctive therapy lithium valproate , treatment acute manic mixed episodes associated bipolar disorder ( 1.2 ) treatment irritability associated autistic disorder ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "schizophrenia (DOID:5419)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
+            },
+            {
+                "text": "bipolar disorder (DOID:3312)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_3312"
+            },
+            {
+                "text": "autistic disorder (DOID:12849)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12849"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "table 1. recommended daily indication initial dose titration ( increments ) target dose effective dose range schizophrenia : adults ( 2.1 ) 2 mg 1 2 mg 4 8 mg 4 16 mg schizophrenia : adolescents ( 2.2 ) 0.5 mg 0.5 1 mg 3 mg 1 6 mg bipolar mania : adults ( 2.2 ) 2 3 mg 1 mg 1 6 mg 1 6 mg bipolar mania : children adolescents ( 2.2 ) 0.5 mg 0.5 1 mg 1 2.5 mg 1 6 mg irritability autistic disorder ( 2.3 ) 0.25 mg increase 0.5 mg day 4 : ( body weight less 20 kg ) 0.5 mg increase 1 mg day 4 : ( body weight greater equal 20 kg ) day 4 , intervals > 2 weeks : 0.25 mg ( body weight less 20 kg ) 0.5 mg ( body weight greater equal 20 kg ) 0.5 mg : ( body weight less 20 kg ) 1 mg : ( body weight greater equal 20 kg ) 0.5 3 mg severe renal hepatic impairment adults : lower starting dose 0.5 mg twice daily . may increase dosages 1.5 mg twice daily intervals one week longer .",
+        "doid_entities": [
+            {
+                "text": "schizophrenia (DOID:5419)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
+            },
+            {
+                "text": "autistic disorder (DOID:12849)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12849"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "severe renal hepatic",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_42738"
+            }
+        ]
+    },
+    "warningsAndPrecautions": "risperidone tablets , usp 1 mg white white , circular , biconvex , film-coated tablets , engraved 'ri3 ' one side plain supplied follows : ndc : 70518-0364-00 ndc : 70518-0364-01 packaging : 30 1 blister pack packaging : 30 1 blister pack risperidone tablets stored 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) ; excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) [ usp controlled room temperature ] . protect light moisture . keep reach children . repackaged distributed : remedy repack , inc. 625 kolter dr. suite # 4 indiana , pa 1-724-465-8762",
+    "adverseReactions": "risperidone tablets contraindicated patients known hypersensitivity either risperidone paliperidone , excipients risperidone tablets formulation . hypersensitivity , including anaphylactic angioedema , reported patients treated risperidone patients treated paliperidone . paliperidone metabolite risperidone .",
     "ingredients": [
         {
             "name": "SILICON DIOXIDE",
@@ -52,45 +86,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_8871"
         }
     ],
-    "indications": {
-        "text": "risperidone tablets atypical antipsychotic indicated : treatment schizophrenia ( 1.1 ) monotherapy adjunctive therapy lithium valproate , treatment acute manic mixed episodes associated bipolar disorder ( 1.2 ) treatment irritability associated autistic disorder ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "schizophrenia (DOID:5419)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
-            },
-            {
-                "text": "bipolar disorder (DOID:3312)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_3312"
-            },
-            {
-                "text": "autistic disorder (DOID:12849)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12849"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "table 1. recommended daily indication initial dose titration ( increments ) target dose effective dose range schizophrenia : adults ( 2.1 ) 2 mg 1 2 mg 4 8 mg 4 16 mg schizophrenia : adolescents ( 2.2 ) 0.5 mg 0.5 1 mg 3 mg 1 6 mg bipolar mania : adults ( 2.2 ) 2 3 mg 1 mg 1 6 mg 1 6 mg bipolar mania : children adolescents ( 2.2 ) 0.5 mg 0.5 1 mg 1 2.5 mg 1 6 mg irritability autistic disorder ( 2.3 ) 0.25 mg increase 0.5 mg day 4 : ( body weight less 20 kg ) 0.5 mg increase 1 mg day 4 : ( body weight greater equal 20 kg ) day 4 , intervals > 2 weeks : 0.25 mg ( body weight less 20 kg ) 0.5 mg ( body weight greater equal 20 kg ) 0.5 mg : ( body weight less 20 kg ) 1 mg : ( body weight greater equal 20 kg ) 0.5 3 mg severe renal hepatic impairment adults : lower starting dose 0.5 mg twice daily . may increase dosages 1.5 mg twice daily intervals one week longer .",
-        "doid_entities": [
-            {
-                "text": "schizophrenia (DOID:5419)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
-            },
-            {
-                "text": "autistic disorder (DOID:12849)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12849"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "severe renal hepatic",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_42738"
-            }
-        ]
-    },
-    "warningsAndPrecautions": "risperidone tablets , usp 1 mg white white , circular , biconvex , film-coated tablets , engraved 'ri3 ' one side plain supplied follows : ndc : 70518-0364-00 ndc : 70518-0364-01 packaging : 30 1 blister pack packaging : 30 1 blister pack risperidone tablets stored 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) ; excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) [ usp controlled room temperature ] . protect light moisture . keep reach children . repackaged distributed : remedy repack , inc. 625 kolter dr. suite # 4 indiana , pa 1-724-465-8762",
-    "adverseReactions": "risperidone tablets contraindicated patients known hypersensitivity either risperidone paliperidone , excipients risperidone tablets formulation . hypersensitivity , including anaphylactic angioedema , reported patients treated risperidone patients treated paliperidone . paliperidone metabolite risperidone .",
+    "organization": "REMEDYREPACK INC.",
+    "name": "RISPERIDONE",
+    "effectiveTime": "20250528",
     "indications_original": "Risperidone tablets\u00a0are an\u00a0atypical antipsychotic indicated for: Treatment of schizophrenia ( 1.1 ) As monotherapy or adjunctive therapy with lithium or valproate, for the treatment of acute manic or mixed episodes associated with Bipolar I Disorder ( 1.2 ) Treatment of irritability associated with autistic disorder ( 1.3 )",
     "contraindications_original": "Table 1. Recommended Daily Dosage by Indication\n                     \n                     \n                     \n                     \n                     \n                     \n                        \n                           \n                           Initial \n       Dose\n    \n                           Titration \n       (Increments)\n    \n                           \n                              \n                                Target Dose\n    \n                           Effective \n       Dose Range\n    \n                        \n                     \n                     \n                        \n                           Schizophrenia: adults (\n    \n     2.1) \n     \n                           \n                           2 mg \n     \n                           \n                           1 to 2 mg \n     \n                           \n                           4 to 8 mg \n     \n                           \n                           4 to 16 mg \n     \n                           \n                        \n                        \n                           Schizophrenia: adolescents (\n    \n     2.2) \n     \n                           \n                           0.5 mg \n     \n                           \n                           0.5 to 1 mg \n     \n                           \n                           3 mg \n     \n                           \n                           1 to 6 mg \n     \n                           \n                        \n                        \n                           Bipolar mania: adults (\n    \n     2.2) \n     \n                           \n                           2 to 3 mg \n     \n                           \n                           1 mg \n     \n                           \n                           1 to 6 mg \n     \n                           \n                           1 to 6 mg \n     \n                           \n                        \n                        \n                           Bipolar mania: children and adolescents (\n    \n     2.2) \n     \n                           \n                           0.5 mg \n     \n                           \n                           0.5 to 1 mg \n     \n                           \n                           1 to 2.5 mg \n     \n                           \n                           1 to 6 mg \n     \n                           \n                        \n                        \n                           Irritability in autistic disorder (\n    \n     2.3) \n     \n                           \n                           0.25 mg \n       Can increase to \n       0.5 mg by Day 4: \n       (body weight less \n       than 20 kg)\u00a0 \n       \u00a0 \n       0.5 mg \n       Can increase to \n       \u00a01 mg by Day 4: \n       \u00a0(body weight \n       greater than or \n       equal to 20 kg) \n     \n                           \n                           After Day 4, \n       \u00a0at intervals of > 2 weeks: \n       0.25 mg \n       (body weight less \n       than 20 kg) \n       \u00a0\u00a0 \n       0.5 mg \n       \u00a0(body weight \n       greater than or \n       equal to 20 kg) \n     \n                           \n                           0.5 mg: \n       (body weight less \n       than 20 kg) \n       \u00a0\u00a0 \n       1 mg: \n       (body weight \n       greater than or \n       equal to 20 kg) \n     \n                           \n                           0.5 to 3 mg \n     \n                           \n                        \n                     \n                  \n                  Severe Renal and Hepatic Impairment in Adults: use a lower starting dose of 0.5 mg twice daily. May increase to dosages above 1.5 mg twice daily at intervals of one week or longer.",
     "warningsAndPrecautions_original": "Risperidone Tablets, USP 1 mg\u00a0are white to off white, circular, biconvex, film-coated tablets, engraved with 'RI3' on one side and plain on other and are supplied as follows:\n                  \n                  NDC: 70518-0364-00\n                  NDC: 70518-0364-01\n                  PACKAGING: 30 in 1 BLISTER PACK\n                  PACKAGING: 30 in 1 BLISTER PACK\n                  \n                  \n                  Risperidone tablets should be stored at 20\u00b0C to 25\u00b0C (68\u00b0F to 77\u00b0F); excursions permitted between 15\u00b0C to 30\u00b0C (59\u00b0F to 86\u00b0F) [see USP controlled room temperature]. Protect from light and moisture.\n                  Keep out of reach of children.\n                  \n                  Repackaged and Distributed By:\n                  Remedy Repack, Inc.\n                  625 Kolter Dr. Suite #4 Indiana, PA 1-724-465-8762",

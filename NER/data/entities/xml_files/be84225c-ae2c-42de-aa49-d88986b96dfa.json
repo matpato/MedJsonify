@@ -1,10 +1,27 @@
 {
-    "root": "be84225c-ae2c-42de-aa49-d88986b96dfa",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Jadenu",
-    "value": "20250501",
+    "id": "be84225c-ae2c-42de-aa49-d88986b96dfa",
+    "indications": {
+        "text": "jadenu iron chelator indicated treatment chronic iron overload due blood transfusions patients 2 years age older . ( 1.1 ) jadenu indicated treatment chronic iron overload patients 10 years age older non-transfusion-dependent thalassemia ( ntdt ) syndromes , liver iron ( fe ) concentration ( lic ) least 5 mg fe per gram dry weight ( fe/g dw ) serum ferritin greater 300 mcg/l . ( 1.2 ) limitations : safety efficacy jadenu administered iron chelation therapy established . ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "thalassemia (DOID:10241)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10241"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "chronic iron overload",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_247790"
+            }
+        ]
+    },
+    "contraindications": {
+        "text": "transfusional iron overload : initial dose patients estimated glomerular filtration rate ( egfr ) greater 60 ml/min/1.73 2 14 mg per kg ( calculated nearest whole tablet nearest whole sachet content granules ) daily . ( 2.1 ) ntdt syndromes : initial dose patients egfr greater 60 ml/min/1.73 2 7 mg per kg ( calculated nearest whole tablet nearest whole sachet content granules ) daily . ( 2.2 ) full prescribing information information regarding monitoring , , dose-reductions organ impairment . ( 2.1 , 2.2 , 2.3 , 2.4 )",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "jadenu 90 mg tablets light blue color , film-coated , oval biconvex tablets beveled edges , debossed \u2018 nvr \u2019 one side \u2018 90 \u2019 slight upward slope two debossed curved lines side . available bottles 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0654-15 ) jadenu 180 mg tablets medium blue color , film-coated , oval biconvex tablet beveled edges , debossed \u2018 nvr \u2019 one side \u2018 180 \u2019 slight upward slope two debossed curved lines side . available bottles 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0655-15 ) jadenu 360 mg tablets dark blue color , film-coated , oval biconvex tablet beveled edges , debossed \u2018 nvr \u2019 one side \u2018 360 \u2019 slight upward slope two debossed curved lines side . available bottles 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0656-15 ) store jadenu tablets 20\u00b0c - 25\u00b0c ( 68\u00b0f - 77\u00b0f ) ; excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) [ usp controlled room temperature ] . protect moisture . jadenu sprinkle 90 mg granules white almost white granules sachet . available cartons 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0727-15 ) jadenu sprinkle 180 mg granules white almost white granules sachet . available cartons 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0713-15 ) jadenu sprinkle 360 mg granules white almost white granules sachet . available cartons 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0720-15 ) store jadenu sprinkle granules 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) ; excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) [ usp controlled room temperature ] . protect moisture .",
+    "adverseReactions": "jadenu contraindicated patients : estimated gfr less 40 ml/min/1.73 m2 [ ( 2.5 ) , ( 5.1 ) ] ; poor performance status [ ( 5.1 , 5.3 ) ] ; high-risk myelodysplastic syndromes ( patient population studied expected benefit chelation therapy ) ; advanced malignancies [ ( 5.1 , 5.3 ) ] ; platelet counts less 50 x 109/l [ ( 5.3 , 5.4 ) ] ; known hypersensitivity deferasirox component jadenu [ ( 5.7 ) , ( 6.2 ) ] .",
     "ingredients": [
         {
             "name": "DEFERASIROX",
@@ -50,28 +67,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16189"
         }
     ],
-    "indications": {
-        "text": "jadenu iron chelator indicated treatment chronic iron overload due blood transfusions patients 2 years age older . ( 1.1 ) jadenu indicated treatment chronic iron overload patients 10 years age older non-transfusion-dependent thalassemia ( ntdt ) syndromes , liver iron ( fe ) concentration ( lic ) least 5 mg fe per gram dry weight ( fe/g dw ) serum ferritin greater 300 mcg/l . ( 1.2 ) limitations : safety efficacy jadenu administered iron chelation therapy established . ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "thalassemia (DOID:10241)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10241"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "chronic iron overload",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_247790"
-            }
-        ]
-    },
-    "contraindications": {
-        "text": "transfusional iron overload : initial dose patients estimated glomerular filtration rate ( egfr ) greater 60 ml/min/1.73 2 14 mg per kg ( calculated nearest whole tablet nearest whole sachet content granules ) daily . ( 2.1 ) ntdt syndromes : initial dose patients egfr greater 60 ml/min/1.73 2 7 mg per kg ( calculated nearest whole tablet nearest whole sachet content granules ) daily . ( 2.2 ) full prescribing information information regarding monitoring , , dose-reductions organ impairment . ( 2.1 , 2.2 , 2.3 , 2.4 )",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "jadenu 90 mg tablets light blue color , film-coated , oval biconvex tablets beveled edges , debossed \u2018 nvr \u2019 one side \u2018 90 \u2019 slight upward slope two debossed curved lines side . available bottles 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0654-15 ) jadenu 180 mg tablets medium blue color , film-coated , oval biconvex tablet beveled edges , debossed \u2018 nvr \u2019 one side \u2018 180 \u2019 slight upward slope two debossed curved lines side . available bottles 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0655-15 ) jadenu 360 mg tablets dark blue color , film-coated , oval biconvex tablet beveled edges , debossed \u2018 nvr \u2019 one side \u2018 360 \u2019 slight upward slope two debossed curved lines side . available bottles 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0656-15 ) store jadenu tablets 20\u00b0c - 25\u00b0c ( 68\u00b0f - 77\u00b0f ) ; excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) [ usp controlled room temperature ] . protect moisture . jadenu sprinkle 90 mg granules white almost white granules sachet . available cartons 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0727-15 ) jadenu sprinkle 180 mg granules white almost white granules sachet . available cartons 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0713-15 ) jadenu sprinkle 360 mg granules white almost white granules sachet . available cartons 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026 ( ndc 0078-0720-15 ) store jadenu sprinkle granules 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) ; excursions permitted 15\u00b0c 30\u00b0c ( 59\u00b0f 86\u00b0f ) [ usp controlled room temperature ] . protect moisture .",
-    "adverseReactions": "jadenu contraindicated patients : estimated gfr less 40 ml/min/1.73 m2 [ ( 2.5 ) , ( 5.1 ) ] ; poor performance status [ ( 5.1 , 5.3 ) ] ; high-risk myelodysplastic syndromes ( patient population studied expected benefit chelation therapy ) ; advanced malignancies [ ( 5.1 , 5.3 ) ] ; platelet counts less 50 x 109/l [ ( 5.3 , 5.4 ) ] ; known hypersensitivity deferasirox component jadenu [ ( 5.7 ) , ( 6.2 ) ] .",
+    "organization": "Novartis Pharmaceuticals Corporation",
+    "name": "Jadenu",
+    "effectiveTime": "20250501",
     "indications_original": "JADENU is an iron chelator indicated for the treatment of chronic iron overload due to blood transfusions in patients 2 years of age and older. ( 1.1 ) JADENU is indicated for the treatment of chronic iron overload in patients 10 years of age and older with non-transfusion-dependent thalassemia (NTDT) syndromes, and with a liver iron (Fe) concentration (LIC) of at least 5 mg Fe per gram of dry weight (Fe/g dw) and a serum ferritin greater than 300 mcg/L. ( 1.2 ) Limitations of Use: The safety and efficacy of JADENU when administered with other iron chelation therapy have not been established. ( 1.3 )",
     "contraindications_original": "Transfusional Iron Overload: Initial dose for patients with estimated glomerular filtration rate (eGFR) greater than 60 mL/min/1.73 m 2 is 14 mg per kg (calculated to nearest whole tablet or nearest whole sachet content for granules) once daily. ( 2.1 ) NTDT Syndromes: Initial dose for patients with eGFR greater than 60 mL/min/1.73 m 2 is 7 mg per kg (calculated to nearest whole tablet or nearest whole sachet content for granules) once daily. ( 2.2 ) See full prescribing information for information regarding monitoring, administration, and dose-reductions for organ impairment. ( 2.1 , 2.2 , 2.3 , 2.4 )",
     "warningsAndPrecautions_original": "JADENU 90 mg tablets are light blue in color, film-coated, oval biconvex tablets with beveled edges, debossed with \u2018NVR\u2019 on one side and \u201890\u2019 on a slight upward slope in between two debossed curved lines on the other side. They are available in bottles of 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026(NDC 0078-0654-15)\n                  JADENU 180 mg tablets are medium blue in color, film-coated, oval biconvex tablet with beveled edges, debossed with \u2018NVR\u2019 on one side and \u2018180\u2019 on a slight upward slope in between two debossed curved lines on the other side. They are available in bottles of 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026(NDC 0078-0655-15)\n                  JADENU 360 mg tablets are dark blue in color, film-coated, oval biconvex tablet with beveled edges, debossed with \u2018NVR\u2019 on one side and \u2018360\u2019 on a slight upward slope in between two debossed curved lines on the other side. They are available in bottles of 30 tablets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026(NDC 0078-0656-15)\n                  Store JADENU tablets at 20\u00b0C - 25\u00b0C (68\u00b0F - 77\u00b0F); excursions are permitted to 15\u00b0C to 30\u00b0C (59\u00b0F to 86\u00b0F) [see USP Controlled Room Temperature]. Protect from moisture.\n                  JADENU Sprinkle 90 mg granules are white to almost white granules in sachet. They are available in cartons of 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026(NDC 0078-0727-15)\n                  JADENU Sprinkle 180 mg granules are white to almost white granules in sachet. They are available in cartons of 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026(NDC 0078-0713-15)\n                  JADENU Sprinkle 360 mg granules are white to almost white granules in sachet. They are available in cartons of 30 sachets\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026(NDC 0078-0720-15)\n                  Store JADENU Sprinkle granules at 20\u00b0C to 25\u00b0C (68\u00b0F to 77\u00b0F); excursions are permitted between 15\u00b0C to 30\u00b0C (59\u00b0F to 86\u00b0F) [see USP Controlled Room Temperature]. Protect from moisture.",

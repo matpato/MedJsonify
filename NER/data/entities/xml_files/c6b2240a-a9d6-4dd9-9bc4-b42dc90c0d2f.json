@@ -1,10 +1,43 @@
 {
-    "root": "c6b2240a-a9d6-4dd9-9bc4-b42dc90c0d2f",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "ELIQUIS",
-    "value": "20250417",
+    "id": "c6b2240a-a9d6-4dd9-9bc4-b42dc90c0d2f",
+    "indications": {
+        "text": "eliquis factor xa inhibitor indicated : \u2022 reduce risk stroke systemic embolism adult patients nonvalvular atrial fibrillation . ( 1.1 ) \u2022 prophylaxis deep vein thrombosis ( dvt ) , may lead pulmonary embolism ( pe ) , adult patients undergone hip knee replacement surgery . ( 1.2 ) \u2022 treatment dvt pe , reduction risk recurrent dvt pe adult patients following initial therapy . ( 1.3 , 1.4 , 1.5 ) \u2022 treatment venous thromboembolism ( vte ) reduction risk recurrent vte pediatric patients birth older least 5 days initial anticoagulant treatment . ( 1.6 )",
+        "doid_entities": [
+            {
+                "text": "stroke (DOID:6713)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
+            },
+            {
+                "text": "atrial fibrillation (DOID:0060224)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
+            },
+            {
+                "text": "thrombosis (DOID:0060903)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060903"
+            },
+            {
+                "text": "pulmonary embolism (DOID:9477)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9477"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "\u2022 reduction risk stroke systemic embolism nonvalvular atrial fibrillation : \u2022 recommended dose 5 mg orally twice daily . ( 2.1 ) \u2022 patients least 2 following characteristics : age greater equal 80 years , body weight less equal 60 kg , serum creatinine greater equal 1.5 mg/dl , recommended dose 2.5 mg orally twice daily . ( 2.1 ) \u2022 prophylaxis dvt following hip knee replacement surgery : \u2022 recommended dose 2.5 mg orally twice daily . ( 2.1 ) \u2022 treatment dvt pe : \u2022 recommended dose 10 mg taken orally twice daily 7 days , followed 5 mg taken orally twice daily . ( 2.1 ) \u2022 reduction risk recurrent dvt pe following initial therapy : \u2022 recommended dose 2.5 mg taken orally twice daily . ( 2.1 ) \u2022 treatment vte reduction risk recurrent vte pediatric patients birth older least 5 days initial anticoagulant treatment : \u2022 dosing recommendations full prescribing information ( 2.2 )",
+        "doid_entities": [
+            {
+                "text": "stroke (DOID:6713)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
+            },
+            {
+                "text": "atrial fibrillation (DOID:0060224)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "eliquis ( apixaban ) tablets oral , eliquis ( apixaban ) tablets oral suspension , eliquis sprinkle ( apixaban ) oral suspension available listed table . strength form/description markings package size ndc code 0.15 mg powderin yellow , opaque capsule printed \u201c 898 \u201d bottles 28 0003-0898-28 0.5 mg film-coated tablet oral suspension , pink , round n/a carton 28 packets28 count tablet carton ( 1 tablet per packet ) 84 count tablet carton ( 3 tablets per packet ) 112 count tablet carton ( 4 tablets per packet ) 0003-1028-28 0003-3084-28 0003-4112-28 2.5 mg film-coated tablet yellow , round , biconvex debossed \u201c 893 \u201d one side \u201c 2\u00bd \u201d side bottles 60 hospital unit-dose blister package 100 0003-0893-21 0003-0893-31 5 mg film-coated tablet pink , oval , biconvex debossed \u201c 894 \u201d one side \u201c 5 \u201d side bottles 60 bottles 74 hospital unit-dose blister package 100 30-day starter pack treatment dvt pe containing 74 tablets ( 1 blister pack 42 tablets 1 blister pack 32 tablets ) 0003-0894-21 0003-0894-70 0003-0894-31 0003-3764-74",
+    "adverseReactions": "eliquis contraindicated patients following conditions : \u2022active pathological bleeding [ ( 5.2 ) ( 6.1 ) ] \u2022severe hypersensitivity reaction eliquis ( e.g . , anaphylactic ) [ ( 6.1 ) ]",
     "ingredients": [
         {
             "name": "apixaban",
@@ -66,44 +99,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50819"
         }
     ],
-    "indications": {
-        "text": "eliquis factor xa inhibitor indicated : \u2022 reduce risk stroke systemic embolism adult patients nonvalvular atrial fibrillation . ( 1.1 ) \u2022 prophylaxis deep vein thrombosis ( dvt ) , may lead pulmonary embolism ( pe ) , adult patients undergone hip knee replacement surgery . ( 1.2 ) \u2022 treatment dvt pe , reduction risk recurrent dvt pe adult patients following initial therapy . ( 1.3 , 1.4 , 1.5 ) \u2022 treatment venous thromboembolism ( vte ) reduction risk recurrent vte pediatric patients birth older least 5 days initial anticoagulant treatment . ( 1.6 )",
-        "doid_entities": [
-            {
-                "text": "stroke (DOID:6713)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
-            },
-            {
-                "text": "atrial fibrillation (DOID:0060224)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
-            },
-            {
-                "text": "thrombosis (DOID:0060903)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060903"
-            },
-            {
-                "text": "pulmonary embolism (DOID:9477)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_9477"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "\u2022 reduction risk stroke systemic embolism nonvalvular atrial fibrillation : \u2022 recommended dose 5 mg orally twice daily . ( 2.1 ) \u2022 patients least 2 following characteristics : age greater equal 80 years , body weight less equal 60 kg , serum creatinine greater equal 1.5 mg/dl , recommended dose 2.5 mg orally twice daily . ( 2.1 ) \u2022 prophylaxis dvt following hip knee replacement surgery : \u2022 recommended dose 2.5 mg orally twice daily . ( 2.1 ) \u2022 treatment dvt pe : \u2022 recommended dose 10 mg taken orally twice daily 7 days , followed 5 mg taken orally twice daily . ( 2.1 ) \u2022 reduction risk recurrent dvt pe following initial therapy : \u2022 recommended dose 2.5 mg taken orally twice daily . ( 2.1 ) \u2022 treatment vte reduction risk recurrent vte pediatric patients birth older least 5 days initial anticoagulant treatment : \u2022 dosing recommendations full prescribing information ( 2.2 )",
-        "doid_entities": [
-            {
-                "text": "stroke (DOID:6713)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
-            },
-            {
-                "text": "atrial fibrillation (DOID:0060224)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "eliquis ( apixaban ) tablets oral , eliquis ( apixaban ) tablets oral suspension , eliquis sprinkle ( apixaban ) oral suspension available listed table . strength form/description markings package size ndc code 0.15 mg powderin yellow , opaque capsule printed \u201c 898 \u201d bottles 28 0003-0898-28 0.5 mg film-coated tablet oral suspension , pink , round n/a carton 28 packets28 count tablet carton ( 1 tablet per packet ) 84 count tablet carton ( 3 tablets per packet ) 112 count tablet carton ( 4 tablets per packet ) 0003-1028-28 0003-3084-28 0003-4112-28 2.5 mg film-coated tablet yellow , round , biconvex debossed \u201c 893 \u201d one side \u201c 2\u00bd \u201d side bottles 60 hospital unit-dose blister package 100 0003-0893-21 0003-0893-31 5 mg film-coated tablet pink , oval , biconvex debossed \u201c 894 \u201d one side \u201c 5 \u201d side bottles 60 bottles 74 hospital unit-dose blister package 100 30-day starter pack treatment dvt pe containing 74 tablets ( 1 blister pack 42 tablets 1 blister pack 32 tablets ) 0003-0894-21 0003-0894-70 0003-0894-31 0003-3764-74",
-    "adverseReactions": "eliquis contraindicated patients following conditions : \u2022active pathological bleeding [ ( 5.2 ) ( 6.1 ) ] \u2022severe hypersensitivity reaction eliquis ( e.g . , anaphylactic ) [ ( 6.1 ) ]",
+    "organization": "E.R. Squibb & Sons, L.L.C.",
+    "name": "ELIQUIS",
+    "effectiveTime": "20250417",
     "indications_original": "ELIQUIS is a factor Xa inhibitor indicated: \u2022 to reduce the risk of stroke and systemic embolism in adult patients with nonvalvular atrial fibrillation. (1.1) \u2022 for the prophylaxis of deep vein thrombosis (DVT), which may lead to pulmonary embolism (PE), in adult patients who have undergone hip or knee replacement surgery. (1.2) \u2022 for the treatment of DVT and PE, and for the reduction in the risk of recurrent DVT and PE in adult patients following initial therapy. (1.3 , 1.4 , 1.5) \u2022 Treatment of venous thromboembolism (VTE) and reduction in the risk of recurrent VTE in pediatric patients from birth and older after at least 5 days of initial anticoagulant treatment. (1.6)",
     "contraindications_original": "\u2022 Reduction of risk of stroke and systemic embolism in nonvalvular atrial fibrillation: \u2022 The recommended dose is 5 mg orally twice daily. (2.1) \u2022 In patients with at least 2 of the following characteristics: age greater than or equal to 80 years, body weight less than or equal to 60 kg, or serum creatinine greater than or equal to 1.5 mg/dL, the recommended dose is 2.5 mg orally twice daily. (2.1) \u2022 Prophylaxis of DVT following hip or knee replacement surgery: \u2022 The recommended dose is 2.5 mg orally twice daily. (2.1) \u2022 Treatment of DVT and PE: \u2022 The recommended dose is 10 mg taken orally twice daily for 7 days, followed by 5 mg taken orally twice daily. (2.1) \u2022 Reduction in the risk of recurrent DVT and PE following initial therapy: \u2022 The recommended dose is 2.5 mg taken orally twice daily. (2.1) \u2022 Treatment of VTE and reduction in the risk of recurrent VTE in pediatric patients from birth and older after at least 5 days of initial anticoagulant treatment: \u2022 See dosing recommendations in the Full Prescribing Information (2.2)",
     "warningsAndPrecautions_original": "ELIQUIS (apixaban) tablets for oral use, ELIQUIS (apixaban) tablets for oral suspension, and ELIQUIS SPRINKLE (apixaban) for oral suspension are available as listed in the table below.\n                              \n                                 \n                                 \n                                 \n                                 \n                                 \n                                 \n                                    \n                                       \n                                          \n                                             Strength\n                                          \n                                       \n                                       \n                                          \n                                             Dosage form/Description\n                                          \n                                       \n                                       \n                                          \n                                             Markings\n                                          \n                                       \n                                       \n                                          \n                                             Package Size\n                                          \n                                       \n                                       \n                                          \n                                             NDC Code\n                                          \n                                       \n                                    \n                                    \n                                       \n                                          0.15 mg\n                                       \n                                       \n                                          PowderIn a yellow, opaque capsule\n                                       \n                                       \n                                          Printed with \u201c898\u201d\n                                       \n                                       \n                                          Bottles of 28\n                                       \n                                       \n                                          0003-0898-28\n                                       \n                                    \n                                    \n                                       \n                                          0.5 mg\n                                       \n                                       \n                                          Film-coated Tablet for oral suspension, Pink, round\n                                       \n                                       \n                                          N/A\n                                       \n                                       \n                                          Carton of 28 packets28 count tablet carton(1 tablet per packet)\n                                          84 count tablet carton(3 tablets per packet)\n                                          112 count tablet carton(4 tablets per packet)\n                                       \n                                       \n                                          0003-1028-28\n                                          0003-3084-28\n                                          0003-4112-28\n                                       \n                                    \n                                    \n                                       \n                                          2.5 mg\n                                       \n                                       \n                                          Film-coated Tablet\n                                          Yellow, round,\n                                          biconvex\n                                       \n                                       \n                                          Debossed with \u201c893\u201d on\n                                          one side and \u201c2\u00bd\u201d on the\n                                          other side\n                                       \n                                       \n                                          Bottles of 60\n                                          Hospital Unit-Dose Blister Package of 100\n                                       \n                                       \n                                          0003-0893-21\n                                          0003-0893-31\n                                       \n                                    \n                                    \n                                       \n                                          5 mg\n                                       \n                                       \n                                          Film-coated Tablet\n                                          Pink, oval, biconvex\n                                       \n                                       \n                                          Debossed with \u201c894\u201d on one side and \u201c5\u201d on the other side\n                                       \n                                       \n                                          Bottles of 60\n                                          Bottles of 74\n                                          Hospital Unit-Dose Blister Package of 100\n                                          30-Day Starter Pack for Treatment of DVT and PE Containing 74 Tablets (1\u00a0blister pack of 42 tablets and 1 blister pack of 32 tablets)\n                                       \n                                       \n                                          0003-0894-21\n                                          0003-0894-70\n                                          0003-0894-31\n                                          0003-3764-74",

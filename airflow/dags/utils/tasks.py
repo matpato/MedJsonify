@@ -189,9 +189,9 @@ def send_to_neo4j_task():
     
     # OBJECTIVE: Define folders containing processed data to be loaded
     folders = [
-        os.path.join(config.output_folder, 'xml_results'),
-        os.path.join(config.output_folder, 'csv_results'),
-        os.path.join(config.output_folder, 'txt_results')
+        os.path.join(config.output_folder, 'xml_files'),
+        os.path.join(config.output_folder, 'csv_files'),
+        os.path.join(config.output_folder, 'txt_files')
     ]
     
     # OBJECTIVE: Process each folder and load JSON files to Neo4j

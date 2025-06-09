@@ -323,37 +323,26 @@ def process_xml_file(file_path, neo4j_handler):
         # Load the JSON data from file
         data = load_json(file_path)
         
-        # OBJECTIVE: Process each drug entry in the data
-        for drug_entry in data.get("drug", []):
-            # Extract and clean drug ID, prioritizing chebi_id over drugbank_id
-            drug_id = clean_id(drug_entry.get("chebi_id")) or clean_id(drug_entry.get("drugbank_id"))
+        # Check if this is an XML-derived file (has ingredients array)
+        if "ingredients" in data:
+            # Process XML-derived file
+            # Get the first ingredient as the main drug
+            if not data.get("ingredients"):
+                return
+                
+            main_ingredient = data["ingredients"][0]
+            drug_id = clean_id(main_ingredient.get("chebi_id"))
             if not drug_id:
-                continue  # Skip drugs without a valid ID
+                return
             
-            # OBJECTIVE: Extract and standardize approval date information
-            # Try multiple possible field names for approval date
-            approval_date = (
-                data.get("Approval_Date") or
-                data.get("Approval Date") or 
-                drug_entry.get("approval_date") or 
-                data.get("effectiveTime") or 
-                data.get("date")
-            )
-            
-            # Convert approval date to a standardized year format
-            approval_year = extract_year(approval_date)
-            
-            # Extract administration route information
-            admin_route = drug_entry.get("admin_route") or data.get("Route of Administration")
-            
-            # OBJECTIVE: Prepare drug data for the knowledge graph
+            # Prepare drug data
             drug = {
                 "id": drug_id,
-                "name": drug_entry.get("name"),
-                "organization": data.get("organization") or data.get("Applicant"),
+                "name": main_ingredient.get("name"),
+                "organization": data.get("organization"),
                 "effectiveTime": data.get("effectiveTime"),
-                "admin_route": admin_route,
-                "approval_year": approval_year
+                "admin_route": data.get("admin_route"),
+                "approval_year": extract_year(data.get("approval_date"))
             }
             
             # Initialize lists for disease data
@@ -361,37 +350,130 @@ def process_xml_file(file_path, neo4j_handler):
             indications = []
             contraindications = []
             
-            # OBJECTIVE: Extract and process indications (diseases the drug treats)
-            for ind in data.get("indications", []):
-                # Prioritize doid_id, fallback to orphanet_id
-                doid_id = clean_id(ind.get("doid_id"))
-                orphanet_id = clean_id(ind.get("orphanet_id"))
-                disease_id = doid_id or orphanet_id  # Use doid_id if available, otherwise orphanet_id
+            # Process indications
+            if "indications" in data and isinstance(data["indications"], dict):
+                # Process DOID entities
+                for entity in data["indications"].get("doid_entities", []):
+                    if isinstance(entity, dict):
+                        disease_id = clean_id(entity.get("doid_id"))
+                        if disease_id:
+                            disease_name = entity.get("text", "Unknown")
+                            # Remove the DOID part from the name if present
+                            if " (DOID:" in disease_name:
+                                disease_name = disease_name.split(" (DOID:")[0]
+                            diseases.append({"id": disease_id, "name": disease_name})
+                            indications.append({"id": disease_id})
                 
-                if disease_id:
-                    # Add to list of diseases
-                    diseases.append({"id": disease_id, "name": ind.get("text", "Unknown")})
-                    # Add to list of indications for this drug
-                    indications.append({"id": disease_id})
+                # Process Orphanet entities
+                for entity in data["indications"].get("orphanet_entities", []):
+                    if isinstance(entity, dict):
+                        disease_id = clean_id(entity.get("id"))
+                        if disease_id:
+                            disease_name = entity.get("text", "Unknown")
+                            diseases.append({"id": disease_id, "name": disease_name})
+                            indications.append({"id": disease_id})
             
-            # OBJECTIVE: Extract and process contraindications (diseases the drug should not be used for)
-            for con in data.get("contraindications", []):
-                # Prioritize doid_id, fallback to orphanet_id
-                doid_id = clean_id(con.get("doid_id"))
-                orphanet_id = clean_id(con.get("orphanet_id"))
-                disease_id = doid_id or orphanet_id  # Use doid_id if available, otherwise orphanet_id
+            # Process contraindications
+            if "contraindications" in data and isinstance(data["contraindications"], dict):
+                # Process DOID entities
+                for entity in data["contraindications"].get("doid_entities", []):
+                    if isinstance(entity, dict):
+                        disease_id = clean_id(entity.get("doid_id"))
+                        if disease_id:
+                            disease_name = entity.get("text", "Unknown")
+                            # Remove the DOID part from the name if present
+                            if " (DOID:" in disease_name:
+                                disease_name = disease_name.split(" (DOID:")[0]
+                            diseases.append({"id": disease_id, "name": disease_name})
+                            contraindications.append({"id": disease_id})
                 
-                if disease_id:
-                    # Add to list of diseases
-                    diseases.append({"id": disease_id, "name": con.get("text", "Unknown")})
-                    # Add to list of contraindications for this drug
-                    contraindications.append({"id": disease_id})
+                # Process Orphanet entities
+                for entity in data["contraindications"].get("orphanet_entities", []):
+                    if isinstance(entity, dict):
+                        disease_id = clean_id(entity.get("id"))
+                        if disease_id:
+                            disease_name = entity.get("text", "Unknown")
+                            diseases.append({"id": disease_id, "name": disease_name})
+                            contraindications.append({"id": disease_id})
             
             # Log summary of the drug being processed
-            print(f"Drug: {drug_id}, Admin Route: {admin_route}, Approval Year: {approval_year}")
+            print(f"Drug: {drug_id}, Admin Route: {drug.get('admin_route')}, Approval Year: {drug.get('approval_year')}")
+            print(f"Found {len(diseases)} diseases, {len(indications)} indications, {len(contraindications)} contraindications")
             
-            # OBJECTIVE: Insert all extracted data into the Neo4j knowledge graph
+            # Insert data into Neo4j
             neo4j_handler.insert_data(drug, diseases, indications, contraindications)
+            
+        else:
+            # Process regular JSON file (original logic)
+            for drug_entry in data.get("drug", []):
+                # Extract and clean drug ID, prioritizing chebi_id over drugbank_id
+                drug_id = clean_id(drug_entry.get("chebi_id")) or clean_id(drug_entry.get("drugbank_id"))
+                if not drug_id:
+                    continue  # Skip drugs without a valid ID
+                
+                # OBJECTIVE: Extract and standardize approval date information
+                # Try multiple possible field names for approval date
+                approval_date = (
+                    data.get("Approval_Date") or
+                    data.get("Approval Date") or 
+                    drug_entry.get("approval_date") or 
+                    data.get("effectiveTime") or 
+                    data.get("date")
+                )
+                
+                # Convert approval date to a standardized year format
+                approval_year = extract_year(approval_date)
+                
+                # Extract administration route information
+                admin_route = drug_entry.get("admin_route") or data.get("Route of Administration")
+                
+                # OBJECTIVE: Prepare drug data for the knowledge graph
+                drug = {
+                    "id": drug_id,
+                    "name": drug_entry.get("name"),
+                    "organization": data.get("organization") or data.get("Applicant"),
+                    "effectiveTime": data.get("effectiveTime"),
+                    "admin_route": admin_route,
+                    "approval_year": approval_year
+                }
+                
+                # Initialize lists for disease data
+                diseases = []
+                indications = []
+                contraindications = []
+                
+                # OBJECTIVE: Extract and process indications (diseases the drug treats)
+                for ind in data.get("indications", []):
+                    # Prioritize doid_id, fallback to orphanet_id
+                    doid_id = clean_id(ind.get("doid_id"))
+                    orphanet_id = clean_id(ind.get("orphanet_id"))
+                    disease_id = doid_id or orphanet_id  # Use doid_id if available, otherwise orphanet_id
+                    
+                    if disease_id:
+                        # Add to list of diseases
+                        diseases.append({"id": disease_id, "name": ind.get("text", "Unknown")})
+                        # Add to list of indications for this drug
+                        indications.append({"id": disease_id})
+                
+                # OBJECTIVE: Extract and process contraindications (diseases the drug should not be used for)
+                for con in data.get("contraindications", []):
+                    # Prioritize doid_id, fallback to orphanet_id
+                    doid_id = clean_id(con.get("doid_id"))
+                    orphanet_id = clean_id(con.get("orphanet_id"))
+                    disease_id = doid_id or orphanet_id  # Use doid_id if available, otherwise orphanet_id
+                    
+                    if disease_id:
+                        # Add to list of diseases
+                        diseases.append({"id": disease_id, "name": con.get("text", "Unknown")})
+                        # Add to list of contraindications for this drug
+                        contraindications.append({"id": disease_id})
+                
+                # Log summary of the drug being processed
+                print(f"Drug: {drug_id}, Admin Route: {admin_route}, Approval Year: {approval_year}")
+                print(f"Found {len(diseases)} diseases, {len(indications)} indications, {len(contraindications)} contraindications")
+                
+                # OBJECTIVE: Insert all extracted data into the Neo4j knowledge graph
+                neo4j_handler.insert_data(drug, diseases, indications, contraindications)
     except Exception as e:
         # Log any errors that occur during processing
         print(f"Error processing file '{file_path}': {e}")

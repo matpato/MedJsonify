@@ -1,10 +1,35 @@
 {
-    "root": "33f146ec-fefc-c9b8-e063-6294a90ac588",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "ANASTROZOLE",
-    "value": "20250429",
+    "id": "33f146ec-fefc-c9b8-e063-6294a90ac588",
+    "indications": {
+        "text": "anastrozole tablets aromatase inhibitor indicated : adjuvant treatment postmenopausal women hormone receptor-positive early breast cancer ( 1.1 ) first-line treatment postmenopausal women hormone receptor-positive hormone receptor unknown locally advanced metastatic breast cancer ( 1.2 ) treatment advanced breast cancer postmenopausal women disease progression following tamoxifen therapy . patients er-negative disease patients respond previous tamoxifen therapy rarely responded anastrozole tablets ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "breast cancer (DOID:1612)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1612"
+            },
+            {
+                "text": "cancer (DOID:162)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_162"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "er-negative disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_1652"
+            }
+        ]
+    },
+    "contraindications": {
+        "text": "one 1 mg tablet taken daily ( 2.1 )",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "tablets supplied bottles 90 tablets ( ndc 680701-3838-9 )",
+    "adverseReactions": "patients demonstrated hypersensitivity anastrozole tablets excipient ( 4 )",
     "ingredients": [
         {
             "name": "LACTOSE MONOHYDRATE",
@@ -46,36 +71,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_2704"
         }
     ],
-    "indications": {
-        "text": "anastrozole tablets aromatase inhibitor indicated : adjuvant treatment postmenopausal women hormone receptor-positive early breast cancer ( 1.1 ) first-line treatment postmenopausal women hormone receptor-positive hormone receptor unknown locally advanced metastatic breast cancer ( 1.2 ) treatment advanced breast cancer postmenopausal women disease progression following tamoxifen therapy . patients er-negative disease patients respond previous tamoxifen therapy rarely responded anastrozole tablets ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "breast cancer (DOID:1612)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1612"
-            },
-            {
-                "text": "cancer (DOID:162)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_162"
-            },
-            {
-                "text": "disease (DOID:4)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "er-negative disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_1652"
-            }
-        ]
-    },
-    "contraindications": {
-        "text": "one 1 mg tablet taken daily ( 2.1 )",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "tablets supplied bottles 90 tablets ( ndc 680701-3838-9 )",
-    "adverseReactions": "patients demonstrated hypersensitivity anastrozole tablets excipient ( 4 )",
+    "organization": "NuCare Pharmaceuticals,Inc.",
+    "name": "ANASTROZOLE",
+    "effectiveTime": "20250429",
     "indications_original": "Anastrozole tablets are an aromatase inhibitor indicated for: Adjuvant treatment of postmenopausal women with hormone receptor-positive early breast cancer ( 1.1 ) First-line treatment of postmenopausal women with hormone receptor-positive or hormone receptor unknown locally advanced or metastatic breast cancer ( 1.2 ) Treatment of advanced breast cancer in postmenopausal women with disease progression following tamoxifen therapy. Patients with ER-negative disease and patients who did not respond to previous tamoxifen therapy rarely responded to anastrozole tablets ( 1.3 )",
     "contraindications_original": "One 1 mg tablet taken once daily ( 2.1 )",
     "warningsAndPrecautions_original": "These tablets are supplied in bottles 90 tablets (NDC 680701-3838-9)",

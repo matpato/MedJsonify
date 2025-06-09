@@ -1,10 +1,31 @@
 {
-    "root": "dde917cd-3cdd-4c8b-b445-886778021750",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "MAGNESIUM SULFATE IN DEXTROSE",
-    "value": "20240830",
+    "id": "dde917cd-3cdd-4c8b-b445-886778021750",
+    "indications": {
+        "text": "magnesium sulfate 5 % dextrose injection indicated : \u2022prevention eclampsia patients preeclampsia \u2022treatment seizures prevention recurrent seizures patients eclampsia",
+        "doid_entities": [
+            {
+                "text": "eclampsia (DOID:13593)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_13593"
+            },
+            {
+                "text": "preeclampsia (DOID:10591)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10591"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "\u2022 administer via intravenous infusion pump ( 2.1 ) \u2022 recommended loading 4 6 grams 15 minutes followed recommended maintenance 1 2 grams every hour ; maximum recommended 30 40 grams 24 hours ( 2.2 ) \u2022 obtain serum magnesium concentrations assess status adjust dose ( 2.2 ) \u2022 beyond 5 7 days recommended ( 2.2 , 5.1 ) \u2022 patients severe renal impairment and/or urine output less 0.5 ml/kg/hour , administer 4 gram loading dose followed maintenance 1 gram every hour ; exceed maximum recommended 20 grams 48 hours ( 2.3 ) \u2022 administer magnesium sulfate 5 % dextrose injection incompatible drugs intravenous line , specifically salicylates alkali carbonates ( 2.4 )",
+        "doid_entities": [],
+        "orphanet_entities": [
+            {
+                "disease": "severe renal impairment",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_447788"
+            }
+        ]
+    },
+    "warningsAndPrecautions": "magnesium sulfate 5 % dextrose injection , usp clear solution supplied viaflo single-dose flexible plastic containers ( table 2 ) . table 2 : supplied information magnesium sulfate * concentration ndc number container size total magnesium sulfate * total magnesium ion magnesium ion concentration osmolarity * * 0.01 grams/ml ( 1 % ) 0338-1709-40 100 ml 1 gram 8.1 meq 8.1 meq/100 ml 333 mosmol/liter viaflo container made natural rubber latex , dehp , pvc . storage store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) . [ usp controlled room temperature . ] protect freezing .",
+    "adverseReactions": "magnesium sulfate 5 % dextrose injection contraindicated patients : \u2022with heart block myocardial damage \u2022in diabetic coma \u2022with myasthenia gravis [ ( 5.6 ) ]",
     "ingredients": [
         {
             "name": "MAGNESIUM SULFATE HEPTAHYDRATE",
@@ -32,32 +53,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],
-    "indications": {
-        "text": "magnesium sulfate 5 % dextrose injection indicated : \u2022prevention eclampsia patients preeclampsia \u2022treatment seizures prevention recurrent seizures patients eclampsia",
-        "doid_entities": [
-            {
-                "text": "eclampsia (DOID:13593)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_13593"
-            },
-            {
-                "text": "preeclampsia (DOID:10591)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10591"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "\u2022 administer via intravenous infusion pump ( 2.1 ) \u2022 recommended loading 4 6 grams 15 minutes followed recommended maintenance 1 2 grams every hour ; maximum recommended 30 40 grams 24 hours ( 2.2 ) \u2022 obtain serum magnesium concentrations assess status adjust dose ( 2.2 ) \u2022 beyond 5 7 days recommended ( 2.2 , 5.1 ) \u2022 patients severe renal impairment and/or urine output less 0.5 ml/kg/hour , administer 4 gram loading dose followed maintenance 1 gram every hour ; exceed maximum recommended 20 grams 48 hours ( 2.3 ) \u2022 administer magnesium sulfate 5 % dextrose injection incompatible drugs intravenous line , specifically salicylates alkali carbonates ( 2.4 )",
-        "doid_entities": [],
-        "orphanet_entities": [
-            {
-                "disease": "severe renal impairment",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_447788"
-            }
-        ]
-    },
-    "warningsAndPrecautions": "magnesium sulfate 5 % dextrose injection , usp clear solution supplied viaflo single-dose flexible plastic containers ( table 2 ) . table 2 : supplied information magnesium sulfate * concentration ndc number container size total magnesium sulfate * total magnesium ion magnesium ion concentration osmolarity * * 0.01 grams/ml ( 1 % ) 0338-1709-40 100 ml 1 gram 8.1 meq 8.1 meq/100 ml 333 mosmol/liter viaflo container made natural rubber latex , dehp , pvc . storage store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) . [ usp controlled room temperature . ] protect freezing .",
-    "adverseReactions": "magnesium sulfate 5 % dextrose injection contraindicated patients : \u2022with heart block myocardial damage \u2022in diabetic coma \u2022with myasthenia gravis [ ( 5.6 ) ]",
+    "organization": "Baxter Healthcare Corporation",
+    "name": "MAGNESIUM SULFATE IN DEXTROSE",
+    "effectiveTime": "20240830",
     "indications_original": "Magnesium Sulfate in 5% Dextrose Injection is indicated for: \n                  \n                     \n                        \u2022Prevention of eclampsia in patients with preeclampsia \n                     \n                        \u2022Treatment of seizures and prevention of recurrent seizures in patients with eclampsia",
     "contraindications_original": "\u2022 Administer via intravenous infusion pump (2.1) \u2022 Recommended loading dosage is 4 to 6 grams over 15 minutes followed by a recommended maintenance dosage of 1 to 2 grams every hour; maximum recommended dosage is 30 to 40 grams over 24 hours (2.2) \u2022 Obtain serum magnesium concentrations and assess clinical status to adjust the dose (2.2) \u2022 Administration beyond 5 to 7 days is not recommended (2.2 , 5.1) \u2022 In patients with severe renal impairment and/or urine output less than 0.5 mL/kg/hour, administer a 4 gram loading dose followed by a maintenance dosage of 1 gram every hour; do not exceed the maximum recommended dosage of 20 grams over 48 hours (2.3) \u2022 Do not administer Magnesium Sulfate in 5% Dextrose Injection with incompatible drugs through the same intravenous line, specifically with salicylates and alkali carbonates (2.4)",
     "warningsAndPrecautions_original": "Magnesium Sulfate in 5% Dextrose Injection, USP is a clear solution supplied in VIAFLO single-dose flexible plastic containers (see Table 2).\n                  \n                     Table 2 : How Supplied Information\n                     \n                     \n                     \n                     \n                     \n                     \n                     \n                     \n                        \n                           \n                              \n                                 Magnesium Sulfate* Concentration \n                              \n                           \n                           \n                              \n                                 NDC Number \n                              \n                           \n                           \n                              \n                                 Container \n                                 \n                                 Size \n                              \n                           \n                           \n                              \n                                 Total Magnesium \n                                 \n                                 Sulfate* \n                              \n                           \n                           \n                              \n                                 Total Magnesium Ion \n                              \n                           \n                           \n                              \n                                 Magnesium Ion Concentration \n                              \n                           \n                           \n                              \n                                 Osmolarity** \n                              \n                           \n                        \n                        \n                           \n                              0.01 grams/mL (1%) \n                           \n                           \n                              0338-1709-40 \n                           \n                           \n                              100 mL \n                           \n                           \n                              1 gram \n                           \n                           \n                              8.1 mEq \n                           \n                           \n                              8.1 mEq/100 mL \n                           \n                           \n                              333 mOsmol/liter \n                           \n                        \n                     \n                  \n                  VIAFLO container is not made with natural rubber latex, DEHP, or PVC.\n                  Storage \n                  Store at 20\u00b0C to 25\u00b0C (68\u00b0F to 77\u00b0F). [See USP Controlled Room Temperature.] Protect from freezing.",

@@ -1,10 +1,34 @@
 {
-    "root": "469917c3-716f-4957-8f39-e44993f9561e",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Enspryng",
-    "value": "20250508",
+    "id": "469917c3-716f-4957-8f39-e44993f9561e",
+    "indications": {
+        "text": "enspryng indicated treatment neuromyelitis optica spectrum disorder ( nmosd ) adult patients anti-aquaporin-4 ( aqp4 ) antibody positive .",
+        "doid_entities": [
+            {
+                "text": "neuromyelitis optica (DOID:8869)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_8869"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "hepatitis b virus , tuberculosis , liver transaminase screening required first dose . ( 2.1 ) prior every , determine active infection . ( 2.2 ) recommended loading enspryng first three administrations 120 mg subcutaneous injection weeks 0 , 2 , 4 , followed maintenance 120 mg every 4 weeks . ( 2.2 ) full prescribing information important preparation instructions . ( 2.3 )",
+        "doid_entities": [
+            {
+                "text": "hepatitis b (DOID:2043)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2043"
+            },
+            {
+                "text": "hepatitis (DOID:2237)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2237"
+            },
+            {
+                "text": "tuberculosis (DOID:399)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_399"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "adverseReactions": "enspryng contraindicated patients : known hypersensitivity satralizumab inactive ingredients [ ( 5.4 ) ] active hepatitis b infection [ ( 5.1 ) ] active untreated latent tuberculosis [ ( 5.1 ) ]",
     "ingredients": [
         {
             "name": "SATRALIZUMAB",
@@ -37,36 +61,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],
-    "indications": {
-        "text": "enspryng indicated treatment neuromyelitis optica spectrum disorder ( nmosd ) adult patients anti-aquaporin-4 ( aqp4 ) antibody positive .",
-        "doid_entities": [
-            {
-                "text": "neuromyelitis optica (DOID:8869)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_8869"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "hepatitis b virus , tuberculosis , liver transaminase screening required first dose . ( 2.1 ) prior every , determine active infection . ( 2.2 ) recommended loading enspryng first three administrations 120 mg subcutaneous injection weeks 0 , 2 , 4 , followed maintenance 120 mg every 4 weeks . ( 2.2 ) full prescribing information important preparation instructions . ( 2.3 )",
-        "doid_entities": [
-            {
-                "text": "hepatitis b (DOID:2043)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2043"
-            },
-            {
-                "text": "hepatitis (DOID:2237)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2237"
-            },
-            {
-                "text": "tuberculosis (DOID:399)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_399"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": null,
-    "adverseReactions": "enspryng contraindicated patients : known hypersensitivity satralizumab inactive ingredients [ ( 5.4 ) ] active hepatitis b infection [ ( 5.1 ) ] active untreated latent tuberculosis [ ( 5.1 ) ]",
+    "organization": "Genentech Inc.",
+    "name": "Enspryng",
+    "effectiveTime": "20250508",
     "indications_original": "ENSPRYNG is indicated for the treatment of neuromyelitis optica spectrum disorder (NMOSD) in adult patients who are anti-aquaporin-4 (AQP4) antibody positive.",
     "contraindications_original": "Hepatitis B virus, tuberculosis, and liver transaminase screening is required before the first dose. ( 2.1 ) Prior to every use, determine if there is an active infection. ( 2.2 ) The recommended loading dosage of ENSPRYNG for the first three administrations is 120 mg by subcutaneous injection at Weeks 0, 2, and 4, followed by a maintenance dosage of 120 mg every 4 weeks. ( 2.2 ) See Full Prescribing Information for important preparation and administration instructions. ( 2.3 )",
     "adverseReactions_original": "ENSPRYNG is contraindicated in patients with:\n                  \n                     A known hypersensitivity to satralizumab or any of the inactive ingredients [see Warnings and Precautions (5.4)]\n                     \n                     Active Hepatitis B infection [see Warnings and Precautions (5.1)]\n                     \n                     Active or untreated latent tuberculosis [see Warnings and Precautions (5.1)]",

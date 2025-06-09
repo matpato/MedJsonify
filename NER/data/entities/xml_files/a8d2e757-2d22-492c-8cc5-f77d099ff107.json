@@ -1,10 +1,92 @@
 {
-    "root": "a8d2e757-2d22-492c-8cc5-f77d099ff107",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "ALVAIZ",
-    "value": "20240701",
+    "id": "a8d2e757-2d22-492c-8cc5-f77d099ff107",
+    "indications": {
+        "text": "alvaiz thrombopoietin receptor agonist indicated : treatment thrombocytopenia adult pediatric patients 6 years older persistent chronic immune thrombocytopenia ( itp ) insufficient response corticosteroids , immunoglobulins , splenectomy . alvaiz used patients itp whose degree thrombocytopenia condition increase risk bleeding . ( 1.1 ) treatment thrombocytopenia adult patients chronic hepatitis c allow initiation maintenance interferon-based therapy . alvaiz used patients chronic hepatitis c whose degree thrombocytopenia prevents initiation interferon-based therapy limits ability maintain interferon-based therapy . ( 1.2 ) treatment adult patients severe aplastic anemia insufficient response immunosuppressive therapy . ( 1.3 ) limitations : alvaiz indicated treatment patients myelodysplastic syndrome ( mds ) . ( 1.4 ) safety efficacy established combination direct-acting antiviral agents used without interferon treatment chronic hepatitis c infection . ( 1.4 )",
+        "doid_entities": [
+            {
+                "text": "thrombocytopenia (DOID:1588)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1588"
+            },
+            {
+                "text": "immune thrombocytopenia (DOID:1587)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1587"
+            },
+            {
+                "text": "chronic hepatitis (DOID:2237)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2237"
+            },
+            {
+                "text": "chronic hepatitis c (DOID:1883)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1883"
+            },
+            {
+                "text": "aplastic anemia (DOID:12449)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12449"
+            },
+            {
+                "text": "anemia (DOID:2355)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2355"
+            },
+            {
+                "text": "myelodysplastic syndrome (DOID:0050908)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0050908"
+            },
+            {
+                "text": "syndrome (DOID:225)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_225"
+            },
+            {
+                "text": "mds (DOID:0060469)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060469"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "chronic hepatitis c",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_98255"
+            },
+            {
+                "disease": "severe aplastic anemia",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_182040"
+            },
+            {
+                "disease": "chronic immune thrombocytopenia",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_3002"
+            }
+        ]
+    },
+    "contraindications": {
+        "text": "alvaiz substitutable eltrombopag products milligram per milligram basis . ( 2.1 ) take alvaiz without meal meal low calcium ( \u2264 50 mg ) . take alvaiz least 2 hours 4 hours medications products containing polyvalent cations , antacids , calcium-rich foods , mineral supplements . ( 2.4 , 7.1 , 12.3 ) persistent chronic itp : initiate alvaiz 36 mg orally daily adult pediatric patients 6 years older . dose reductions needed patients hepatic impairment patients east-/southeast-asian ancestry . adjust maintain platelet count greater equal 50 x 10 9 /l . exceed 54 mg per day . ( 2.1 , 8.6 , 8.7 ) chronic hepatitis c-associated thrombocytopenia : initiate alvaiz 18 mg orally daily patients . adjust achieve target platelet count required initiate antiviral therapy . exceed daily dose 72 mg. ( 2.2 ) refractory severe aplastic anemia : initiate alvaiz 36 mg orally daily . reduce initial dose patients hepatic impairment patients east-/southeast-asian ancestry . adjust maintain platelet count greater 50 x 10 9 /l . exceed 108 mg per day . ( 2.3 , 8.6 , 8.7 )",
+        "doid_entities": [
+            {
+                "text": "chronic hepatitis (DOID:2237)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2237"
+            },
+            {
+                "text": "thrombocytopenia (DOID:1588)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1588"
+            },
+            {
+                "text": "aplastic anemia (DOID:12449)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12449"
+            },
+            {
+                "text": "anemia (DOID:2355)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2355"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "chronic hepatitis c",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_98255"
+            },
+            {
+                "disease": "severe aplastic anemia",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_182040"
+            }
+        ]
+    },
+    "adverseReactions": "none .",
     "ingredients": [
         {
             "name": "ELTROMBOPAG CHOLINE",
@@ -114,94 +196,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_13643"
         }
     ],
-    "indications": {
-        "text": "alvaiz thrombopoietin receptor agonist indicated : treatment thrombocytopenia adult pediatric patients 6 years older persistent chronic immune thrombocytopenia ( itp ) insufficient response corticosteroids , immunoglobulins , splenectomy . alvaiz used patients itp whose degree thrombocytopenia condition increase risk bleeding . ( 1.1 ) treatment thrombocytopenia adult patients chronic hepatitis c allow initiation maintenance interferon-based therapy . alvaiz used patients chronic hepatitis c whose degree thrombocytopenia prevents initiation interferon-based therapy limits ability maintain interferon-based therapy . ( 1.2 ) treatment adult patients severe aplastic anemia insufficient response immunosuppressive therapy . ( 1.3 ) limitations : alvaiz indicated treatment patients myelodysplastic syndrome ( mds ) . ( 1.4 ) safety efficacy established combination direct-acting antiviral agents used without interferon treatment chronic hepatitis c infection . ( 1.4 )",
-        "doid_entities": [
-            {
-                "text": "thrombocytopenia (DOID:1588)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1588"
-            },
-            {
-                "text": "immune thrombocytopenia (DOID:1587)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1587"
-            },
-            {
-                "text": "chronic hepatitis (DOID:2237)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2237"
-            },
-            {
-                "text": "chronic hepatitis c (DOID:1883)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1883"
-            },
-            {
-                "text": "aplastic anemia (DOID:12449)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12449"
-            },
-            {
-                "text": "anemia (DOID:2355)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2355"
-            },
-            {
-                "text": "myelodysplastic syndrome (DOID:0050908)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0050908"
-            },
-            {
-                "text": "syndrome (DOID:225)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_225"
-            },
-            {
-                "text": "mds (DOID:0060469)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060469"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "severe aplastic anemia",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_182040"
-            },
-            {
-                "disease": "chronic hepatitis c",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_98255"
-            },
-            {
-                "disease": "chronic immune thrombocytopenia",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_3002"
-            }
-        ]
-    },
-    "contraindications": {
-        "text": "alvaiz substitutable eltrombopag products milligram per milligram basis . ( 2.1 ) take alvaiz without meal meal low calcium ( \u2264 50 mg ) . take alvaiz least 2 hours 4 hours medications products containing polyvalent cations , antacids , calcium-rich foods , mineral supplements . ( 2.4 , 7.1 , 12.3 ) persistent chronic itp : initiate alvaiz 36 mg orally daily adult pediatric patients 6 years older . dose reductions needed patients hepatic impairment patients east-/southeast-asian ancestry . adjust maintain platelet count greater equal 50 x 10 9 /l . exceed 54 mg per day . ( 2.1 , 8.6 , 8.7 ) chronic hepatitis c-associated thrombocytopenia : initiate alvaiz 18 mg orally daily patients . adjust achieve target platelet count required initiate antiviral therapy . exceed daily dose 72 mg. ( 2.2 ) refractory severe aplastic anemia : initiate alvaiz 36 mg orally daily . reduce initial dose patients hepatic impairment patients east-/southeast-asian ancestry . adjust maintain platelet count greater 50 x 10 9 /l . exceed 108 mg per day . ( 2.3 , 8.6 , 8.7 )",
-        "doid_entities": [
-            {
-                "text": "chronic hepatitis (DOID:2237)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2237"
-            },
-            {
-                "text": "thrombocytopenia (DOID:1588)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1588"
-            },
-            {
-                "text": "aplastic anemia (DOID:12449)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12449"
-            },
-            {
-                "text": "anemia (DOID:2355)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2355"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "severe aplastic anemia",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_182040"
-            },
-            {
-                "disease": "chronic hepatitis c",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_98255"
-            }
-        ]
-    },
-    "warningsAndPrecautions": null,
-    "adverseReactions": "none .",
+    "organization": "Teva Pharmaceuticals, Inc.",
+    "name": "ALVAIZ",
+    "effectiveTime": "20240701",
     "indications_original": "ALVAIZ is a thrombopoietin receptor agonist indicated: for the treatment of thrombocytopenia in adult and pediatric patients 6 years and older with persistent or chronic immune thrombocytopenia (ITP) who have had an insufficient response to corticosteroids, immunoglobulins, or splenectomy. ALVAIZ should be used only in patients with ITP whose degree of thrombocytopenia and clinical condition increase the risk for bleeding. ( 1.1 ) for the treatment of thrombocytopenia in adult patients with chronic hepatitis C to allow the initiation and maintenance of interferon-based therapy. ALVAIZ should be used only in patients with chronic hepatitis C whose degree of thrombocytopenia prevents the initiation of interferon-based therapy or limits the ability to maintain interferon-based therapy. ( 1.2 ) for the treatment of adult patients with severe aplastic anemia who have had an insufficient response to immunosuppressive therapy. ( 1.3 ) Limitations of Use: ALVAIZ is not indicated for the treatment of patients with myelodysplastic syndrome (MDS). ( 1.4 ) Safety and efficacy have not been established in combination with direct-acting antiviral agents used without interferon for treatment of chronic hepatitis C infection. ( 1.4 )",
     "contraindications_original": "ALVAIZ is not substitutable with other eltrombopag products on a milligram per milligram basis. ( 2.1 ) Take ALVAIZ without a meal or with a meal low in calcium (\u2264 50 mg). Take ALVAIZ at least 2 hours before or 4 hours after any medications or products containing polyvalent cations, such as antacids, calcium-rich foods, and mineral supplements. ( 2.4 , 7.1 , 12.3 ) Persistent or Chronic ITP: Initiate ALVAIZ at 36 mg orally once daily for most adult and pediatric patients 6 years and older. Dose reductions are needed for patients with hepatic impairment and some patients of East-/Southeast-Asian ancestry. Adjust to maintain platelet count greater than or equal to 50 x 10 9 /L. Do not exceed 54 mg per day. ( 2.1 , 8.6 , 8.7 ) Chronic Hepatitis C-associated Thrombocytopenia: Initiate ALVAIZ at 18 mg orally once daily for all patients. Adjust to achieve target platelet count required to initiate antiviral therapy. Do not exceed a daily dose of 72 mg. ( 2.2 ) Refractory Severe Aplastic Anemia: Initiate ALVAIZ at 36 mg orally once daily. Reduce initial dose in patients with hepatic impairment or patients of East-/Southeast-Asian ancestry. Adjust to maintain platelet count greater than 50 x 10 9 /L. Do not exceed 108 mg per day. ( 2.3 , 8.6 , 8.7 )",
     "adverseReactions_original": "None.",

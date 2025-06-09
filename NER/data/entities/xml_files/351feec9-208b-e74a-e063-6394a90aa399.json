@@ -1,10 +1,26 @@
 {
-    "root": "351feec9-208b-e74a-e063-6394a90aa399",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Quetiapine Fumarate",
-    "value": "20250514",
+    "id": "351feec9-208b-e74a-e063-6394a90aa399",
+    "indications": {
+        "text": "quetiapine atypical antipsychotic indicated treatment : \u00b7 schizophrenia ( 1.1 ) \u00b7 bipolar disorder manic episodes ( 1.2 ) \u00b7 bipolar disorder , depressive episodes ( 1.2 )",
+        "doid_entities": [
+            {
+                "text": "schizophrenia (DOID:5419)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
+            },
+            {
+                "text": "bipolar disorder (DOID:3312)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_3312"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "\u00b7 quetiapine tablets , usp taken without food ( 2.1 ) indication initial dose recommended dose maximum dose schizophrenia-adults ( 2.2 ) 25 mg twice daily 150 750 mg/day 750 mg/day schizophrenia-adolescents ( 13 17 years ) ( 2.2 ) 25 mg twice daily 400 800 mg/day 800 mg/day bipolar mania- adults monotherapy adjunct lithium divalproex ( 2.2 ) 50 mg twice daily 400 800 mg/day 800 mg/day bipolar mania- children adolescents ( 10 17 years ) , monotherapy ( 2.2 ) 25 mg twice daily 400 600 mg/day 600 mg/day bipolar depression-adults ( 2.2 ) 50 mg daily bedtime 300 mg/day 300 mg/day \u00b7 geriatric : consider lower starting dose ( 50 mg/day ) , slower titration careful monitoring initial dosing period elderly ( 2.3 , 8.5 ) \u00b7 hepatic impairment : lower starting dose ( 25 mg/day ) slower titration may needed ( 2.4 , 8.7 , 12.3 )",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "quetiapine tablets , usp 400 mg yellow coloured , film coated , capsule shaped , biconvex tablets , debossed `` 336 `` one side plain side . ndc : 71335-2394-1 : 30 tablets bottle ndc : 71335-2394-2 : 28 tablets bottle ndc : 71335-2394-3 : 60 tablets bottle ndc : 71335-2394-4 : 180 tablets bottle ndc : 71335-2394-5 : 90 tablets bottle store 20\u00b0 25\u00b0c ( 68\u00b0 77\u00b0f ) ; excursions permitted 15\u00b0 30\u00b0c ( 59\u00b0 86\u00b0f ) [ usp controlled room temperature ] . repackaged/relabeled : bryant ranch prepack , inc. burbank , ca 91504",
+    "adverseReactions": "hypersensitivity quetiapine excipients quetiapine formulation . anaphylactic reported patients treated quetiapine .",
     "ingredients": [
         {
             "name": "DIBASIC CALCIUM PHOSPHATE DIHYDRATE",
@@ -62,27 +78,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_8708"
         }
     ],
-    "indications": {
-        "text": "quetiapine atypical antipsychotic indicated treatment : \u00b7 schizophrenia ( 1.1 ) \u00b7 bipolar disorder manic episodes ( 1.2 ) \u00b7 bipolar disorder , depressive episodes ( 1.2 )",
-        "doid_entities": [
-            {
-                "text": "schizophrenia (DOID:5419)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
-            },
-            {
-                "text": "bipolar disorder (DOID:3312)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_3312"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "\u00b7 quetiapine tablets , usp taken without food ( 2.1 ) indication initial dose recommended dose maximum dose schizophrenia-adults ( 2.2 ) 25 mg twice daily 150 750 mg/day 750 mg/day schizophrenia-adolescents ( 13 17 years ) ( 2.2 ) 25 mg twice daily 400 800 mg/day 800 mg/day bipolar mania- adults monotherapy adjunct lithium divalproex ( 2.2 ) 50 mg twice daily 400 800 mg/day 800 mg/day bipolar mania- children adolescents ( 10 17 years ) , monotherapy ( 2.2 ) 25 mg twice daily 400 600 mg/day 600 mg/day bipolar depression-adults ( 2.2 ) 50 mg daily bedtime 300 mg/day 300 mg/day \u00b7 geriatric : consider lower starting dose ( 50 mg/day ) , slower titration careful monitoring initial dosing period elderly ( 2.3 , 8.5 ) \u00b7 hepatic impairment : lower starting dose ( 25 mg/day ) slower titration may needed ( 2.4 , 8.7 , 12.3 )",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "quetiapine tablets , usp 400 mg yellow coloured , film coated , capsule shaped , biconvex tablets , debossed `` 336 `` one side plain side . ndc : 71335-2394-1 : 30 tablets bottle ndc : 71335-2394-2 : 28 tablets bottle ndc : 71335-2394-3 : 60 tablets bottle ndc : 71335-2394-4 : 180 tablets bottle ndc : 71335-2394-5 : 90 tablets bottle store 20\u00b0 25\u00b0c ( 68\u00b0 77\u00b0f ) ; excursions permitted 15\u00b0 30\u00b0c ( 59\u00b0 86\u00b0f ) [ usp controlled room temperature ] . repackaged/relabeled : bryant ranch prepack , inc. burbank , ca 91504",
-    "adverseReactions": "hypersensitivity quetiapine excipients quetiapine formulation . anaphylactic reported patients treated quetiapine .",
+    "organization": "Bryant Ranch Prepack",
+    "name": "Quetiapine Fumarate",
+    "effectiveTime": "20250514",
     "indications_original": "Quetiapine is an atypical antipsychotic indicated for the treatment of: \u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Schizophrenia ( 1.1 ) \u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Bipolar I disorder manic episodes ( 1.2 ) \u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Bipolar disorder, depressive episodes ( 1.2 )",
     "contraindications_original": "\u00b7\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 Quetiapine tablets, USP can be taken with or without food ( 2.1 ) Indication Initial Dose Recommended Dose Maximum Dose Schizophrenia-Adults (2.2) 25 mg twice daily 150 to 750 mg/day 750 mg/day Schizophrenia-Adolescents (13 to 17 years) (2.2) 25 mg twice daily 400 to 800 mg/day 800 mg/day Bipolar Mania- Adults Monotherapy or as an adjunct to lithium or divalproex (2.2) 50 mg twice daily 400 to 800 mg/day 800 mg/day Bipolar Mania- Children and Adolescents (10 to 17 years), Monotherapy (2.2) 25 mg twice daily 400 to 600 mg/day 600 mg/day Bipolar Depression-Adults (2.2) 50 mg once daily at bedtime 300 mg/day 300 mg/day \u00b7 Geriatric Use: Consider a lower starting dose (50 mg/day), slower titration and careful monitoring during the initial dosing period in the elderly ( 2.3 , 8.5 ) \u00b7 Hepatic Impairment: Lower starting dose (25 mg/day) and slower titration may be needed ( 2.4 , 8.7 , 12.3 )",
     "warningsAndPrecautions_original": "Quetiapine tablets, USP 400 mg\n                  Yellow coloured, film coated, capsule shaped, biconvex tablets, debossed with \"336\" on one side and plain on other side.\n                  \n                  \n                     NDC: 71335-2394-1: 30 TABLETs in a BOTTLE\n                     NDC: 71335-2394-2: 28 TABLETs in a BOTTLE\n                     NDC: 71335-2394-3: 60 TABLETs in a BOTTLE\n                     NDC: 71335-2394-4: 180 TABLETs in a BOTTLE\n                     NDC: 71335-2394-5: 90 TABLETs in a BOTTLE\n                  \n                  Store at 20\u00b0 to 25\u00b0C (68\u00b0 to 77\u00b0F); excursions permitted to 15\u00b0 to 30\u00b0C (59\u00b0 to 86\u00b0F) [see USP Controlled Room Temperature].\n                  Repackaged/Relabeled by: \n    Bryant Ranch Prepack, Inc. \n    Burbank, CA 91504",

@@ -1,10 +1,27 @@
 {
-    "root": "1305687e-4ede-41f0-8e12-b1d8d8188349",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Digoxin",
-    "value": "20250520",
+    "id": "1305687e-4ede-41f0-8e12-b1d8d8188349",
+    "indications": {
+        "text": "digoxin cardiac glycoside indicated : \u2022 treatment mild moderate heart failure adults . ( 1.1 ) \u2022 control resting ventricular rate adults chronic atrial fibrillation . ( 1.2 )",
+        "doid_entities": [
+            {
+                "text": "atrial fibrillation (DOID:0060224)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "chronic atrial fibrillation",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_334"
+            }
+        ]
+    },
+    "contraindications": {
+        "text": "digoxin dose based patient-specific factors ( age , lean body weight , renal function , etc . ) . full prescribing information . monitor toxicity therapeutic effect . ( 2 ) intravenous preferable intramuscular . avoid bolus . ( 2 )",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "digoxin injection , usp available : 500 mcg/2 ml ( 250 mcg/ml ) ampuls packaged : overbagged 5 x 2 ml ampuls bag , ndc 55154-5106-5 warning : unit dose package child resistant intended institutional . keep drugs reach children . store 20\u02da 25\u02dac ( 68\u02da 77\u02daf ) , excursions permitted 15\u02da 30\u02dac ( 59\u02da 86\u02daf ) [ usp controlled room temperature ] . protect light .",
+    "adverseReactions": "digoxin contraindicated patients : \u2022ventricular fibrillation [ ( 5.1 ) ] \u2022known hypersensitivity digoxin ( seen include unexplained rash , swelling mouth , lips throat difficulty breathing ) . hypersensitivity reaction digitalis preparations usually constitutes contraindication digoxin .",
     "ingredients": [
         {
             "name": "DIGOXIN",
@@ -47,28 +64,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_37586"
         }
     ],
-    "indications": {
-        "text": "digoxin cardiac glycoside indicated : \u2022 treatment mild moderate heart failure adults . ( 1.1 ) \u2022 control resting ventricular rate adults chronic atrial fibrillation . ( 1.2 )",
-        "doid_entities": [
-            {
-                "text": "atrial fibrillation (DOID:0060224)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "chronic atrial fibrillation",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_334"
-            }
-        ]
-    },
-    "contraindications": {
-        "text": "digoxin dose based patient-specific factors ( age , lean body weight , renal function , etc . ) . full prescribing information . monitor toxicity therapeutic effect . ( 2 ) intravenous preferable intramuscular . avoid bolus . ( 2 )",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "digoxin injection , usp available : 500 mcg/2 ml ( 250 mcg/ml ) ampuls packaged : overbagged 5 x 2 ml ampuls bag , ndc 55154-5106-5 warning : unit dose package child resistant intended institutional . keep drugs reach children . store 20\u02da 25\u02dac ( 68\u02da 77\u02daf ) , excursions permitted 15\u02da 30\u02dac ( 59\u02da 86\u02daf ) [ usp controlled room temperature ] . protect light .",
-    "adverseReactions": "digoxin contraindicated patients : \u2022ventricular fibrillation [ ( 5.1 ) ] \u2022known hypersensitivity digoxin ( seen include unexplained rash , swelling mouth , lips throat difficulty breathing ) . hypersensitivity reaction digitalis preparations usually constitutes contraindication digoxin .",
+    "organization": "Cardinal Health 107, LLC",
+    "name": "Digoxin",
+    "effectiveTime": "20250520",
     "indications_original": "Digoxin\u00a0is a cardiac glycoside indicated for: \u2022 Treatment of mild to moderate heart failure in adults. ( 1.1 ) \u2022 Control of resting ventricular rate in adults with chronic atrial fibrillation. ( 1.2 )",
     "contraindications_original": "Digoxin dose is based on patient-specific factors (age, lean body weight, renal function, etc.). See full prescribing information. Monitor for toxicity and therapeutic effect. ( 2 ) Intravenous administration is preferable to intramuscular. Avoid bolus administration. ( 2 )",
     "warningsAndPrecautions_original": "Digoxin Injection, USP is available as:\n                  500 mcg/2 mL (250 mcg/mL) ampuls packaged:\n                  Overbagged with 5 x 2 mL ampuls in each bag,\u00a0NDC 55154-5106-5\n                  WARNING: This Unit Dose package is not child resistant and is Intended for Institutional Use Only. Keep this and all drugs out of the reach of children.\n                  \n                     Store at 20\u02da to 25\u02daC (68\u02da to 77\u02daF), excursions permitted to 15\u02da to 30\u02daC (59\u02da to 86\u02daF) [see USP Controlled Room Temperature]. Protect from light.",

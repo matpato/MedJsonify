@@ -1,10 +1,26 @@
 {
-    "root": "11e27a6a-20dd-49aa-8032-16d79d3eb875",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Celecoxib",
-    "value": "20250501",
+    "id": "11e27a6a-20dd-49aa-8032-16d79d3eb875",
+    "indications": {
+        "text": "celecoxib indicated",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "\u2022 lowest effective shortest duration consistent individual patient treatment goals . ( error ! hyperlink reference valid . ) \u2022 oa : 200 mg daily 100 mg twice daily . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 rheumatoid arthritis : 100 mg 200 mg twice daily . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 jra : 50 mg twice daily patients 10 kg 25 kg . 100 mg twice daily patients 25 kg . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 : 200 mg daily single dose 100 mg twice daily . effect observed 6 weeks , trial 400 mg ( single divided doses ) may benefit . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 ap pd : 400 mg initially , followed 200 mg dose needed first day . subsequent days , 200 mg twice daily needed . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) hepatic impairment : reduce daily dose 50 % patients moderate hepatic impairment ( child-pugh class b ) . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . , error ! hyperlink reference valid . ) poor metabolizers cyp2c9 substrates : consider dose reduction 50 % ( alternative management jra ) patients known suspected cyp2c9 poor metabolizers . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . , error ! hyperlink reference valid . )",
+        "doid_entities": [
+            {
+                "text": "rheumatoid arthritis (DOID:7148)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_7148"
+            },
+            {
+                "text": "arthritis (DOID:848)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_848"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "celecoxib 200 mg capsules white , `` oe `` imprinted cap `` 200 `` body , supplied : ndc 82804-213-30 bottle 30 ndc 82804-213-60 bottle 60 ndc 82804-213-90 bottle 90",
+    "adverseReactions": "celecoxib contraindicated following patients : \u2022 known hypersensitivity ( e.g . , anaphylactic serious skin ) celecoxib , components product [ error ! hyperlink reference valid . , error ! hyperlink reference valid . ] . \u2022history asthma , urticaria , allergic-type taking aspirin nsaids . severe , sometimes fatal , anaphylactic nsaids , reported patients [ error ! hyperlink reference valid . , error ! hyperlink reference valid . ] . \u2022in setting cabg surgery [ error ! hyperlink reference valid . ] . \u2022in patients demonstrated allergic-type sulfonamides [ error ! hyperlink reference valid . ] .",
     "ingredients": [
         {
             "name": "CELECOXIB",
@@ -84,27 +100,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16134"
         }
     ],
-    "indications": {
-        "text": "celecoxib indicated",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "\u2022 lowest effective shortest duration consistent individual patient treatment goals . ( error ! hyperlink reference valid . ) \u2022 oa : 200 mg daily 100 mg twice daily . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 rheumatoid arthritis : 100 mg 200 mg twice daily . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 jra : 50 mg twice daily patients 10 kg 25 kg . 100 mg twice daily patients 25 kg . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 : 200 mg daily single dose 100 mg twice daily . effect observed 6 weeks , trial 400 mg ( single divided doses ) may benefit . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) \u2022 ap pd : 400 mg initially , followed 200 mg dose needed first day . subsequent days , 200 mg twice daily needed . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . ) hepatic impairment : reduce daily dose 50 % patients moderate hepatic impairment ( child-pugh class b ) . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . , error ! hyperlink reference valid . ) poor metabolizers cyp2c9 substrates : consider dose reduction 50 % ( alternative management jra ) patients known suspected cyp2c9 poor metabolizers . ( error ! hyperlink reference valid . , error ! hyperlink reference valid . , error ! hyperlink reference valid . )",
-        "doid_entities": [
-            {
-                "text": "rheumatoid arthritis (DOID:7148)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_7148"
-            },
-            {
-                "text": "arthritis (DOID:848)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_848"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "celecoxib 200 mg capsules white , `` oe `` imprinted cap `` 200 `` body , supplied : ndc 82804-213-30 bottle 30 ndc 82804-213-60 bottle 60 ndc 82804-213-90 bottle 90",
-    "adverseReactions": "celecoxib contraindicated following patients : \u2022 known hypersensitivity ( e.g . , anaphylactic serious skin ) celecoxib , components product [ error ! hyperlink reference valid . , error ! hyperlink reference valid . ] . \u2022history asthma , urticaria , allergic-type taking aspirin nsaids . severe , sometimes fatal , anaphylactic nsaids , reported patients [ error ! hyperlink reference valid . , error ! hyperlink reference valid . ] . \u2022in setting cabg surgery [ error ! hyperlink reference valid . ] . \u2022in patients demonstrated allergic-type sulfonamides [ error ! hyperlink reference valid . ] .",
+    "organization": "Proficient Rx LP",
+    "name": "Celecoxib",
+    "effectiveTime": "20250501",
     "indications_original": "Celecoxib is indicated",
     "contraindications_original": "\u2022 Use the lowest effective dosage for shortest duration consistent with individual patient treatment goals. ( Error! Hyperlink reference not valid. ) \u2022 OA: 200 mg once daily or 100 mg twice daily. ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. ) \u2022 RA: 100 mg to 200 mg twice daily. ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. ) \u2022 JRA: 50 mg twice daily in patients 10 kg to 25 kg. 100 mg twice daily in patients more than 25 kg. ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. ) \u2022 AS: 200 mg once daily single dose or 100 mg twice daily. If no effect is observed after 6 weeks, a trial of 400 mg (single or divided doses) may be of benefit. ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. ) \u2022 AP and PD: 400 mg initially, followed by 200 mg dose if needed on first day. On subsequent days, 200 mg twice daily as needed. ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. ) Hepatic Impairment: Reduce daily dose by 50% in patients with moderate hepatic impairment (Child-Pugh Class B). ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. ) Poor Metabolizers of CYP2C9 Substrates: Consider a dose reduction by 50% (or alternative management for JRA) in patients who are known or suspected to be CYP2C9 poor metabolizers. ( Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. , Error! Hyperlink reference not valid. )",
     "warningsAndPrecautions_original": "Celecoxib 200 mg capsules are white, with \"OE\" imprinted on the cap and \"200\" on the body, supplied as:\n                  \n                     \n                     \n                     \n                        \n                           \n                              NDC 82804-213-30\n                           \n                           \n                              bottle of 30\n                           \n                        \n                        \n                           \n                              NDC 82804-213-60\n                           \n                           \n                              bottle of 60\n                           \n                        \n                        \n                           \n                              NDC 82804-213-90\n                           \n                           \n                              bottle of 90",

@@ -1,10 +1,21 @@
 {
-    "root": "354698c4-9e36-97d3-e063-6294a90a26c1",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "tizanidine hydrochloride",
-    "value": "20250516",
+    "id": "354698c4-9e36-97d3-e063-6294a90a26c1",
+    "indications": {
+        "text": "tizanidine hydrochloride central alpha-2-adrenergic agonist indicated management spasticity . short duration therapeutic effect , treatment tizanidine hydrochloride capsules reserved daily activities times relief spasticity important [ ( 2.1 ) ] .",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "recommended starting dose : 2 mg ; dose repeated 6 8 hour intervals , maximum 3 doses 24 hours ( 2.1 ) increased 2 mg 4 mg per dose , 1 4 days increases ; total daily dose exceed 36 mg ( 2.1 ) tizanidine pharmacokinetics differs tablets capsules , taken without food . differences could result change tolerability control symptoms ( 2.1 , 12.3 ) discontinue tizanidine hydrochloride capsules , decrease dose slowly minimize risk withdrawal rebound hypertension , tachycardia , hypertonia ( 2.2 )",
+        "doid_entities": [
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "adverseReactions": "tizanidine hydrochloride capsules contraindicated patients taking potent inhibitors cyp1a2 , fluvoxamine ciprofloxacin [ ( 7.1 , 7.2 ) ] .",
     "ingredients": [
         {
             "name": "MICROCRYSTALLINE CELLULOSE 101",
@@ -98,23 +109,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_9609"
         }
     ],
-    "indications": {
-        "text": "tizanidine hydrochloride central alpha-2-adrenergic agonist indicated management spasticity . short duration therapeutic effect , treatment tizanidine hydrochloride capsules reserved daily activities times relief spasticity important [ ( 2.1 ) ] .",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "recommended starting dose : 2 mg ; dose repeated 6 8 hour intervals , maximum 3 doses 24 hours ( 2.1 ) increased 2 mg 4 mg per dose , 1 4 days increases ; total daily dose exceed 36 mg ( 2.1 ) tizanidine pharmacokinetics differs tablets capsules , taken without food . differences could result change tolerability control symptoms ( 2.1 , 12.3 ) discontinue tizanidine hydrochloride capsules , decrease dose slowly minimize risk withdrawal rebound hypertension , tachycardia , hypertonia ( 2.2 )",
-        "doid_entities": [
-            {
-                "text": "hypertension (DOID:10763)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": null,
-    "adverseReactions": "tizanidine hydrochloride capsules contraindicated patients taking potent inhibitors cyp1a2 , fluvoxamine ciprofloxacin [ ( 7.1 , 7.2 ) ] .",
+    "organization": "PD-Rx Pharmaceuticals, Inc.",
+    "name": "tizanidine hydrochloride",
+    "effectiveTime": "20250516",
     "indications_original": "Tizanidine hydrochloride is a central alpha-2-adrenergic agonist indicated for the management of spasticity. Because of the short duration of therapeutic effect, treatment with tizanidine hydrochloride capsules should be reserved for those daily activities and times when relief of spasticity is most important\n \n  [see Dosage and Administration (\n  \n   2.1)]\n \n  .",
     "contraindications_original": "Recommended starting dose: 2 mg; dose can be repeated at 6 to 8 hour intervals, up to a maximum of 3 doses in 24 hours ( 2.1 ) Dosage can be increased by 2 mg to 4 mg per dose, with 1 to 4 days between increases; total daily dose should not exceed 36 mg ( 2.1 ) Tizanidine pharmacokinetics differs between tablets and capsules, and when taken with or without food. These differences could result in a change in tolerability and control of symptoms ( 2.1 , 12.3 ) To discontinue tizanidine hydrochloride capsules, decrease dose slowly to minimize the risk of withdrawal and rebound hypertension, tachycardia, and hypertonia ( 2.2 )",
     "adverseReactions_original": "Tizanidine hydrochloride capsules is contraindicated in patients taking potent inhibitors of CYP1A2, such as fluvoxamine or ciprofloxacin\n \n  [see Drug Interactions (\n  \n   7.1,\n  \n   7.2)]\n \n  .",

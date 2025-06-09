@@ -1,10 +1,35 @@
 {
-    "root": "cba0fc83-11d9-4ebc-a531-19ed7a3b1f90",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "XGEVA",
-    "value": "20250428",
+    "id": "cba0fc83-11d9-4ebc-a531-19ed7a3b1f90",
+    "indications": {
+        "text": "xgeva rank ligand ( rankl ) inhibitor indicated : prevention skeletal-related events patients multiple myeloma patients bone metastases solid tumors . ( 1.1 ) treatment adults skeletally mature adolescents giant cell tumor bone unresectable surgical resection likely result severe morbidity . ( 1.2 , 14.3 ) treatment hypercalcemia malignancy refractory bisphosphonate therapy . ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "multiple myeloma (DOID:9538)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9538"
+            },
+            {
+                "text": "hypercalcemia (DOID:12678)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "xgeva intended subcutaneous route administered intravenously , intramuscularly , intradermally . ( 2.1 ) multiple myeloma bone metastasis solid tumors : administer 120 mg every 4 weeks subcutaneous injection upper arm , upper thigh , abdomen . ( 2.2 ) giant cell tumor bone : administer 120 mg every 4 weeks additional 120 mg doses days 8 15 first month therapy . administer subcutaneously upper arm , upper thigh , abdomen . ( 2.3 ) administer calcium vitamin necessary treat prevent hypocalcemia . ( 2.2 , 2.3 ) hypercalcemia malignancy : administer 120 mg every 4 weeks additional 120 mg doses days 8 15 first month therapy . administer subcutaneously upper arm , upper thigh , abdomen . ( 2.4 )",
+        "doid_entities": [
+            {
+                "text": "multiple myeloma (DOID:9538)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9538"
+            },
+            {
+                "text": "hypercalcemia (DOID:12678)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "xgeva ( denosumab ) injection clear , colorless pale yellow solution supplied single-dose vial . 120 mg/1.7 ml ( 70 mg/ml ) 1 vial per carton ndc 55513-730-01ndc 55513-730-21 store xgeva refrigerated 2\u00b0c 8\u00b0c ( 36\u00b0f 46\u00b0f ) original carton protect light . freeze . prior , xgeva may allowed reach room temperature 25\u00b0c ( 77\u00b0f ) original container . removed refrigerator , xgeva must exposed temperatures 25\u00b0c ( 77\u00b0f ) must used within 30 days . discard xgeva used within 30 days . xgeva expiry date printed label . protect xgeva direct light heat . avoid vigorous shaking xgeva .",
+    "adverseReactions": "hypocalcemia ( 4.1 ) known clinically significant hypersensitivity xgeva ( 4.2 )",
     "ingredients": [
         {
             "name": "DENOSUMAB",
@@ -37,36 +62,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         }
     ],
-    "indications": {
-        "text": "xgeva rank ligand ( rankl ) inhibitor indicated : prevention skeletal-related events patients multiple myeloma patients bone metastases solid tumors . ( 1.1 ) treatment adults skeletally mature adolescents giant cell tumor bone unresectable surgical resection likely result severe morbidity . ( 1.2 , 14.3 ) treatment hypercalcemia malignancy refractory bisphosphonate therapy . ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "multiple myeloma (DOID:9538)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_9538"
-            },
-            {
-                "text": "hypercalcemia (DOID:12678)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "xgeva intended subcutaneous route administered intravenously , intramuscularly , intradermally . ( 2.1 ) multiple myeloma bone metastasis solid tumors : administer 120 mg every 4 weeks subcutaneous injection upper arm , upper thigh , abdomen . ( 2.2 ) giant cell tumor bone : administer 120 mg every 4 weeks additional 120 mg doses days 8 15 first month therapy . administer subcutaneously upper arm , upper thigh , abdomen . ( 2.3 ) administer calcium vitamin necessary treat prevent hypocalcemia . ( 2.2 , 2.3 ) hypercalcemia malignancy : administer 120 mg every 4 weeks additional 120 mg doses days 8 15 first month therapy . administer subcutaneously upper arm , upper thigh , abdomen . ( 2.4 )",
-        "doid_entities": [
-            {
-                "text": "multiple myeloma (DOID:9538)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_9538"
-            },
-            {
-                "text": "hypercalcemia (DOID:12678)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "xgeva ( denosumab ) injection clear , colorless pale yellow solution supplied single-dose vial . 120 mg/1.7 ml ( 70 mg/ml ) 1 vial per carton ndc 55513-730-01ndc 55513-730-21 store xgeva refrigerated 2\u00b0c 8\u00b0c ( 36\u00b0f 46\u00b0f ) original carton protect light . freeze . prior , xgeva may allowed reach room temperature 25\u00b0c ( 77\u00b0f ) original container . removed refrigerator , xgeva must exposed temperatures 25\u00b0c ( 77\u00b0f ) must used within 30 days . discard xgeva used within 30 days . xgeva expiry date printed label . protect xgeva direct light heat . avoid vigorous shaking xgeva .",
-    "adverseReactions": "hypocalcemia ( 4.1 ) known clinically significant hypersensitivity xgeva ( 4.2 )",
+    "organization": "Amgen, Inc",
+    "name": "XGEVA",
+    "effectiveTime": "20250428",
     "indications_original": "Xgeva is a RANK ligand (RANKL) inhibitor indicated for: Prevention of skeletal-related events in patients with multiple myeloma and in patients with bone metastases from solid tumors. ( 1.1 ) Treatment of adults and skeletally mature adolescents with giant cell tumor of bone that is unresectable or where surgical resection is likely to result in severe morbidity. ( 1.2 , 14.3 ) Treatment of hypercalcemia of malignancy refractory to bisphosphonate therapy. ( 1.3 )",
     "contraindications_original": "Xgeva is intended for subcutaneous route only and should not be administered intravenously, intramuscularly, or intradermally. ( 2.1 ) Multiple Myeloma and Bone Metastasis from Solid Tumors: \u00a0Administer 120\u00a0mg every 4\u00a0weeks as a subcutaneous injection in the upper arm, upper thigh, or abdomen.\u00a0( 2.2 ) Giant Cell Tumor of Bone: Administer 120\u00a0mg every 4\u00a0weeks with additional 120\u00a0mg doses on Days\u00a08 and 15 of the first month of therapy.  Administer subcutaneously in the upper arm, upper thigh, or abdomen.\u00a0( 2.3 ) Administer calcium and vitamin D as necessary to treat or prevent hypocalcemia.\u00a0( 2.2 , 2.3 ) Hypercalcemia of Malignancy: \u00a0Administer 120\u00a0mg every 4\u00a0weeks with additional 120\u00a0mg doses on Days\u00a08 and 15 of the first month of therapy.\u00a0\u00a0Administer subcutaneously in the upper arm, upper thigh, or abdomen. ( 2.4 )",
     "warningsAndPrecautions_original": "Xgeva (denosumab) injection is a clear, colorless to pale yellow solution supplied in a single-dose vial.\n                  \n                     \n                     \n                     \n                     \n                        \n                           120\u00a0mg/1.7\u00a0mL (70 mg/mL)\n                           1 vial per carton\n                           NDC 55513-730-01NDC 55513-730-21\n                        \n                     \n                  \n                  Store Xgeva refrigerated at 2\u00b0C to 8\u00b0C (36\u00b0F to 46\u00b0F) in the original carton to protect from light. Do not freeze. Prior to administration, Xgeva may be allowed to reach room temperature up to 25\u00b0C (77\u00b0F) in the original container.  Once removed from the refrigerator, Xgeva must not be exposed to temperatures above 25\u00b0C (77\u00b0F) and must be used within 30 days. Discard Xgeva if not used within the 30 days. Do not use Xgeva after the expiry date printed on the label.\n                  Protect Xgeva from direct light and heat.\n                  Avoid vigorous shaking of Xgeva.",

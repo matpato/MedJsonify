@@ -1,10 +1,44 @@
 {
-    "root": "3400108f-4499-f802-e063-6294a90adc4f",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Dabigatran Etexilate",
-    "value": "20250430",
+    "id": "3400108f-4499-f802-e063-6294a90adc4f",
+    "indications": {
+        "text": "dabigatran etexilate capsules direct thrombin inhibitors indicated : reduce risk stroke systemic embolism adult patients non-valvular atrial fibrillation ( 1.1 ) treatment deep venous thrombosis ( dvt ) pulmonary embolism ( pe ) adult patients treated parenteral anticoagulant 5 10 days ( 1.2 ) reduce risk recurrence dvt pe adult patients previously treated ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "stroke (DOID:6713)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
+            },
+            {
+                "text": "atrial fibrillation (DOID:0060224)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
+            },
+            {
+                "text": "thrombosis (DOID:0060903)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060903"
+            },
+            {
+                "text": "pulmonary embolism (DOID:9477)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9477"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "non-valvular atrial fibrillation adult patients : patients crcl > 30 ml/min : 150 mg orally , twice daily ( 2.2 ) patients crcl 15 30 ml/min : 75 mg orally , twice daily ( 2.2 ) treatment dvt pe adult patients : patients crcl > 30 ml/min : 150 mg orally , twice daily 5 10 days parenteral anticoagulation ( 2.2 ) reduction risk recurrence dvt pe adult patients : patients crcl > 30 ml/min : 150 mg orally , twice daily previous treatment ( 2.2 ) dabigatran etexilate capsules substitutable milligram-to-milligram basis dabigatran etexilate forms review recommendations converting oral parenteral anticoagulants ( 2.6 , 2.7 ) temporarily discontinue dabigatran etexilate capsules invasive surgical procedures possible , restart promptly ( 2.8 )",
+        "doid_entities": [
+            {
+                "text": "atrial fibrillation (DOID:0060224)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "invasive surgical procedures",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_90080"
+            }
+        ]
+    },
+    "warningsAndPrecautions": "dabigatran etexilate 75 mg capsules cream opaque cap / cream opaque body size ' 2 ' hpmc capsules imprinted ' h ' cap 'd10 ' body black ink , filled mixture white yellowish white pellets . capsules supplied packages listed : unit dose packages 30 ( 3 x 10 ) ndc 60687-744-21 dabigatran etexilate 150 mg capsules cream opaque cap / cream opaque body size ' 0 ' hpmc capsules imprinted ' h ' cap 'd11 ' body black ink , filled mixture white yellowish white pellets . capsules supplied packages listed : unit dose packages 20 ( 5 x 4 ) ndc 60687-752-32 store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) [ usp controlled room temperature ] . capsules taken blister , product must used within 4 months . store original blister protect moisture . keep reach children . protection : blister torn broken .",
+    "adverseReactions": "dabigatran etexilate capsules contraindicated patients : active pathological bleeding [ ( 5.2 ) ( 6.1 ) ] history serious hypersensitivity reaction dabigatran , dabigatran etexilate , one excipients product ( e.g . , anaphylactic reaction anaphylactic shock ) [ ( 6.1 ) ] mechanical prosthetic heart valve [ ( 5.4 ) ]",
     "ingredients": [
         {
             "name": "HYDROXYPROPYL CELLULOSE (1600000 WAMW)",
@@ -81,45 +115,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_70752"
         }
     ],
-    "indications": {
-        "text": "dabigatran etexilate capsules direct thrombin inhibitors indicated : reduce risk stroke systemic embolism adult patients non-valvular atrial fibrillation ( 1.1 ) treatment deep venous thrombosis ( dvt ) pulmonary embolism ( pe ) adult patients treated parenteral anticoagulant 5 10 days ( 1.2 ) reduce risk recurrence dvt pe adult patients previously treated ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "stroke (DOID:6713)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
-            },
-            {
-                "text": "atrial fibrillation (DOID:0060224)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
-            },
-            {
-                "text": "thrombosis (DOID:0060903)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060903"
-            },
-            {
-                "text": "pulmonary embolism (DOID:9477)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_9477"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "non-valvular atrial fibrillation adult patients : patients crcl > 30 ml/min : 150 mg orally , twice daily ( 2.2 ) patients crcl 15 30 ml/min : 75 mg orally , twice daily ( 2.2 ) treatment dvt pe adult patients : patients crcl > 30 ml/min : 150 mg orally , twice daily 5 10 days parenteral anticoagulation ( 2.2 ) reduction risk recurrence dvt pe adult patients : patients crcl > 30 ml/min : 150 mg orally , twice daily previous treatment ( 2.2 ) dabigatran etexilate capsules substitutable milligram-to-milligram basis dabigatran etexilate forms review recommendations converting oral parenteral anticoagulants ( 2.6 , 2.7 ) temporarily discontinue dabigatran etexilate capsules invasive surgical procedures possible , restart promptly ( 2.8 )",
-        "doid_entities": [
-            {
-                "text": "atrial fibrillation (DOID:0060224)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060224"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "invasive surgical procedures",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_90080"
-            }
-        ]
-    },
-    "warningsAndPrecautions": "dabigatran etexilate 75 mg capsules cream opaque cap / cream opaque body size ' 2 ' hpmc capsules imprinted ' h ' cap 'd10 ' body black ink , filled mixture white yellowish white pellets . capsules supplied packages listed : unit dose packages 30 ( 3 x 10 ) ndc 60687-744-21 dabigatran etexilate 150 mg capsules cream opaque cap / cream opaque body size ' 0 ' hpmc capsules imprinted ' h ' cap 'd11 ' body black ink , filled mixture white yellowish white pellets . capsules supplied packages listed : unit dose packages 20 ( 5 x 4 ) ndc 60687-752-32 store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) [ usp controlled room temperature ] . capsules taken blister , product must used within 4 months . store original blister protect moisture . keep reach children . protection : blister torn broken .",
-    "adverseReactions": "dabigatran etexilate capsules contraindicated patients : active pathological bleeding [ ( 5.2 ) ( 6.1 ) ] history serious hypersensitivity reaction dabigatran , dabigatran etexilate , one excipients product ( e.g . , anaphylactic reaction anaphylactic shock ) [ ( 6.1 ) ] mechanical prosthetic heart valve [ ( 5.4 ) ]",
+    "organization": "American Health Packaging",
+    "name": "Dabigatran Etexilate",
+    "effectiveTime": "20250430",
     "indications_original": "Dabigatran etexilate capsules are a direct thrombin inhibitors indicated: To reduce the risk of stroke and systemic embolism in adult patients with non-valvular atrial fibrillation (1.1) For the treatment of deep venous thrombosis (DVT) and pulmonary embolism (PE) in adult patients who have been treated with a parenteral anticoagulant for 5 to 10 days (1.2) To reduce the risk of recurrence of DVT and PE in adult patients who have been previously treated (1.3)",
     "contraindications_original": "Non-valvular Atrial Fibrillation in Adult Patients: For patients with CrCl >30 mL/min: 150 mg orally, twice daily (2.2) For patients with CrCl 15 to 30 mL/min: 75 mg orally, twice daily (2.2) Treatment of DVT and PE in Adult Patients: For patients with CrCl >30 mL/min: 150 mg orally, twice daily after 5 to 10 days of parenteral anticoagulation (2.2) Reduction in the Risk of Recurrence of DVT and PE in Adult Patients: For patients with CrCl >30 mL/min: 150 mg orally, twice daily after previous treatment (2.2) Dabigatran etexilate capsules are NOT substitutable on a milligram-to-milligram basis with other dabigatran etexilate dosage forms Review recommendations for converting to or from other oral or parenteral anticoagulants (2.6 , 2.7) Temporarily discontinue dabigatran etexilate capsules before invasive or surgical procedures when possible, then restart promptly (2.8)",
     "warningsAndPrecautions_original": "Dabigatran etexilate 75 mg capsules are cream opaque cap / cream opaque body size '2' HPMC capsules imprinted with 'H' on cap and 'D10' on body with black ink, filled with mixture of off white to yellowish white pellets. The capsules are supplied in the packages listed:\n  \nUnit dose packages of 30 (3 x 10) NDC 60687-744-21\n \n                  Dabigatran etexilate 150 mg capsules are cream opaque cap / cream opaque body size '0' HPMC capsules imprinted with 'H' on cap and 'D11' on body with black ink, filled with mixture of off white to yellowish white pellets. The capsules are supplied in the packages listed:\n  \nUnit dose packages of 20 (5 x 4) NDC 60687-752-32\n \n                  Store at 20\u00b0C to 25\u00b0C (68\u00b0F to 77\u00b0F) [see USP Controlled Room Temperature]. If the capsules are taken out of the blister, the product must be used within 4 months. Store in the original blister to protect from moisture.\n                  Keep out of the reach of children.\n                  \n                     FOR YOUR PROTECTION: Do not use if blister is torn or broken.",

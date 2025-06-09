@@ -1,10 +1,21 @@
 {
-    "root": "799ef4b7-9e29-46e8-b0d1-78fd9e404144",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "OJEMDA",
-    "value": "20250501",
+    "id": "799ef4b7-9e29-46e8-b0d1-78fd9e404144",
+    "indications": {
+        "text": "ojemda indicated treatment patients 6 months age older relapsed refractory pediatric low-grade glioma ( lgg ) harboring braf fusion rearrangement , braf v600 mutation . indication approved accelerated approval based response rate duration response [ ( 14 ) ] . continued approval indication may contingent upon verification description benefit confirmatory trial ( ) .",
+        "doid_entities": [
+            {
+                "text": "pediatric low-grade glioma (DOID:0080830)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0080830"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "confirm presence braf fusion rearrangement , braf v600 mutation prior initiation treatment ojemda . ( 2.1 ) recommended ojemda based body surface area ( tables 1 2 ) . ( 2.3 ) administer ojemda orally , weekly , without food . ( 2.3 , 2.4 ) . tablets : swallow tablets whole water . chew , cut , crush . ( 2.4 ) oral suspension : full prescribing information preparation instructions . ( 2.4 )",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "adverseReactions": "none .",
     "ingredients": [
         {
             "name": "TOVORAFENIB",
@@ -36,23 +47,9 @@
             "drugbank_id": "https://go.drugbank.com/drugs/DB14158"
         }
     ],
-    "indications": {
-        "text": "ojemda indicated treatment patients 6 months age older relapsed refractory pediatric low-grade glioma ( lgg ) harboring braf fusion rearrangement , braf v600 mutation . indication approved accelerated approval based response rate duration response [ ( 14 ) ] . continued approval indication may contingent upon verification description benefit confirmatory trial ( ) .",
-        "doid_entities": [
-            {
-                "text": "pediatric low-grade glioma (DOID:0080830)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0080830"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "confirm presence braf fusion rearrangement , braf v600 mutation prior initiation treatment ojemda . ( 2.1 ) recommended ojemda based body surface area ( tables 1 2 ) . ( 2.3 ) administer ojemda orally , weekly , without food . ( 2.3 , 2.4 ) . tablets : swallow tablets whole water . chew , cut , crush . ( 2.4 ) oral suspension : full prescribing information preparation instructions . ( 2.4 )",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": null,
-    "adverseReactions": "none .",
+    "organization": "Day One Biopharmaceuticals, Inc.",
+    "name": "OJEMDA",
+    "effectiveTime": "20250501",
     "indications_original": "OJEMDA is indicated for the treatment of patients 6 months of age and older with relapsed or refractory pediatric low-grade glioma (LGG) harboring a BRAF fusion or rearrangement, or BRAF V600 mutation.\n                  This indication is approved under accelerated approval based on response rate and duration of response [see Clinical Studies (14)]. Continued approval for this indication may be contingent upon verification and description of clinical benefit in a confirmatory trial(s).",
     "contraindications_original": "Confirm the presence of BRAF fusion or rearrangement, or BRAF V600 mutation prior to initiation of treatment with OJEMDA. ( 2.1 ) Recommended dosage of OJEMDA is based on body surface area ( see Tables 1 and 2 ). ( 2.3 ) Administer OJEMDA orally, once weekly, with or without food. ( 2.3 , 2.4 ). Tablets : Swallow tablets whole with water. Do not chew, cut, or crush. ( 2.4 ) For Oral Suspension : See full prescribing information for preparation and administration instructions. ( 2.4 )",
     "adverseReactions_original": "None.",

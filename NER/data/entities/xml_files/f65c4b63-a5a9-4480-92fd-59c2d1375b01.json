@@ -1,10 +1,47 @@
 {
-    "root": "f65c4b63-a5a9-4480-92fd-59c2d1375b01",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Avapro",
-    "value": "20250509",
+    "id": "f65c4b63-a5a9-4480-92fd-59c2d1375b01",
+    "indications": {
+        "text": "avapro angiotensin ii receptor blocker ( arb ) indicated : treatment hypertension , lower blood pressure . lowering blood pressure reduces risk fatal nonfatal cardiovascular events , primarily strokes myocardial infarctions . ( 1.1 ) treatment diabetic nephropathy hypertensive patients type 2 diabetes , elevated serum creatinine , proteinuria . ( 1.2 )",
+        "doid_entities": [
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            },
+            {
+                "text": "nephropathy (DOID:557)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_557"
+            },
+            {
+                "text": "type 2 diabetes (DOID:9352)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9352"
+            },
+            {
+                "text": "diabetes (DOID:9351)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9351"
+            },
+            {
+                "text": "proteinuria (DOID:576)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_576"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "indication dose hypertension ( 2.2 ) 150 300 mg daily diabetic nephropathy ( 2.3 ) 300 mg daily",
+        "doid_entities": [
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            },
+            {
+                "text": "nephropathy (DOID:557)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_557"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "avapro ( irbesartan ) available white off-white , biconvex oval , film-coated tablets , debossed heart shape one side code ( table ) . unit-of-use bottles contain 30 90 film-coated tablets follows : 75 mg 150 mg 300 mg debossing 2871 2872 2873 bottle 30 \u2013 0024-5851-30 0024-5852-30 bottle 90 0024-5850-90 \u2013 \u2013",
+    "adverseReactions": "avapro contraindicated patients hypersensitive component product . coadminister aliskiren avapro patients diabetes .",
     "ingredients": [
         {
             "name": "IRBESARTAN",
@@ -56,48 +93,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_73702"
         }
     ],
-    "indications": {
-        "text": "avapro angiotensin ii receptor blocker ( arb ) indicated : treatment hypertension , lower blood pressure . lowering blood pressure reduces risk fatal nonfatal cardiovascular events , primarily strokes myocardial infarctions . ( 1.1 ) treatment diabetic nephropathy hypertensive patients type 2 diabetes , elevated serum creatinine , proteinuria . ( 1.2 )",
-        "doid_entities": [
-            {
-                "text": "hypertension (DOID:10763)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
-            },
-            {
-                "text": "nephropathy (DOID:557)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_557"
-            },
-            {
-                "text": "type 2 diabetes (DOID:9352)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_9352"
-            },
-            {
-                "text": "diabetes (DOID:9351)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_9351"
-            },
-            {
-                "text": "proteinuria (DOID:576)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_576"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "indication dose hypertension ( 2.2 ) 150 300 mg daily diabetic nephropathy ( 2.3 ) 300 mg daily",
-        "doid_entities": [
-            {
-                "text": "hypertension (DOID:10763)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
-            },
-            {
-                "text": "nephropathy (DOID:557)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_557"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "avapro ( irbesartan ) available white off-white , biconvex oval , film-coated tablets , debossed heart shape one side code ( table ) . unit-of-use bottles contain 30 90 film-coated tablets follows : 75 mg 150 mg 300 mg debossing 2871 2872 2873 bottle 30 \u2013 0024-5851-30 0024-5852-30 bottle 90 0024-5850-90 \u2013 \u2013",
-    "adverseReactions": "avapro contraindicated patients hypersensitive component product . coadminister aliskiren avapro patients diabetes .",
+    "organization": "Sanofi-Aventis U.S. LLC",
+    "name": "Avapro",
+    "effectiveTime": "20250509",
     "indications_original": "AVAPRO is an angiotensin II receptor blocker (ARB) indicated for: Treatment of hypertension, to lower blood pressure. Lowering blood pressure reduces the risk of fatal and nonfatal cardiovascular events, primarily strokes and myocardial infarctions. ( 1.1 ) Treatment of diabetic nephropathy in hypertensive patients with type 2 diabetes, an elevated serum creatinine, and proteinuria. ( 1.2 )",
     "contraindications_original": "Indication Dose Hypertension ( 2.2 ) 150 to 300 mg once daily Diabetic Nephropathy ( 2.3 ) 300 mg once daily",
     "warningsAndPrecautions_original": "AVAPRO (irbesartan) is available as white to off-white, biconvex oval, film-coated tablets, debossed with a heart shape on one side and a code on the other (see Table below). Unit-of-use bottles contain 30 or 90 film-coated tablets as follows: \n                  \n                     \n                     \n                     \n                     \n                     \n                        \n                           \n                           75 mg\n                           150 mg\n                           300 mg\n                        \n                     \n                     \n                        \n                           Debossing\n                           2871\n                           2872\n                           2873\n                        \n                        \n                           Bottle of 30\n                           \u2013\n                           0024-5851-30\n                           0024-5852-30\n                        \n                        \n                           Bottle of 90\n                           0024-5850-90\n                           \u2013\n                           \u2013",

@@ -1,10 +1,73 @@
 {
-    "root": "2e20c61e-13d1-5160-e063-6294a90a4d36",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Cinacalcet",
-    "value": "20250518",
+    "id": "2e20c61e-13d1-5160-e063-6294a90a4d36",
+    "indications": {
+        "text": "cinacalcet positive modulator calcium sensing receptor indicated : secondary hyperparathyroidism ( hpt ) adult patients chronic kidney disease ( ckd ) dialysis . ( 1.1 ) limitations : cinacalcet indicated patients ckd dialysis hypercalcemia adult patients parathyroid carcinoma ( pc ) . ( 1.2 ) severe hypercalcemia adult patients primary hpt unable parathyroidectomy . ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "secondary hyperparathyroidism (DOID:12466)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12466"
+            },
+            {
+                "text": "hyperparathyroidism (DOID:13543)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_13543"
+            },
+            {
+                "text": "chronic kidney disease (DOID:784)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_784"
+            },
+            {
+                "text": "kidney disease (DOID:557)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_557"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            },
+            {
+                "text": "hypercalcemia (DOID:12678)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
+            },
+            {
+                "text": "parathyroid carcinoma (DOID:1540)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1540"
+            },
+            {
+                "text": "carcinoma (DOID:305)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_305"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "chronic kidney disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_133"
+            },
+            {
+                "disease": "severe hypercalcemia adult",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_169802"
+            }
+        ]
+    },
+    "contraindications": {
+        "text": "cinacalcet tablets taken food shortly meal ( 2.1 ) tablets always taken whole divided ( 2.1 ) secondary hpt patients ckd dialysis ( 2.2 ) : starting dose 30 mg daily . titrate dose frequently every 2 4 weeks sequential doses 30 mg , 60 mg , 90 mg , 120 mg , 180 mg daily necessary achieve targeted intact parathyroid hormone ( ipth ) levels . ipth levels measured earlier 12 hours recent dose . hypercalcemia patients pc severe hypercalcemia patients primary hpt ( 2.3 ) : starting dose 30 mg twice daily . titrate dose every 2 4 weeks sequential doses 30 mg twice daily , 60 mg twice daily , 90 mg twice daily , 90 mg three four times daily necessary normalize serum calcium levels . maintenance dose established , monitor serum calcium approximately monthly patients secondary hpt every 2 months patients pc primary hpt ( 2.4 )",
+        "doid_entities": [
+            {
+                "text": "ckd (DOID:784)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_784"
+            },
+            {
+                "text": "hypercalcemia (DOID:12678)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "severe hypercalcemia patients",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_289103"
+            }
+        ]
+    },
+    "warningsAndPrecautions": "cinacalcet 30 mg tablets formulated light-green , film-coated , oval-shaped tablets marked `` sct `` one side `` 30 `` opposite side : unit dose packages 30 ( 3 x 10 ) ndc 60687-516-21 storage store 25 oc ( 77 ) ; excursions permitted 15\u00b0c 30 oc ( 59\u00b0f 86 ) . [ usp controlled room temperature ] . protection : blister torn broken .",
+    "adverseReactions": "cinacalcet tablets treatment initiation contraindicated serum calcium less lower limit normal range [ ( 5.1 ) ] .",
     "ingredients": [
         {
             "name": "STARCH, CORN",
@@ -75,74 +138,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_48391"
         }
     ],
-    "indications": {
-        "text": "cinacalcet positive modulator calcium sensing receptor indicated : secondary hyperparathyroidism ( hpt ) adult patients chronic kidney disease ( ckd ) dialysis . ( 1.1 ) limitations : cinacalcet indicated patients ckd dialysis hypercalcemia adult patients parathyroid carcinoma ( pc ) . ( 1.2 ) severe hypercalcemia adult patients primary hpt unable parathyroidectomy . ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "secondary hyperparathyroidism (DOID:12466)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12466"
-            },
-            {
-                "text": "hyperparathyroidism (DOID:13543)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_13543"
-            },
-            {
-                "text": "chronic kidney disease (DOID:784)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_784"
-            },
-            {
-                "text": "kidney disease (DOID:557)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_557"
-            },
-            {
-                "text": "disease (DOID:4)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
-            },
-            {
-                "text": "hypercalcemia (DOID:12678)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
-            },
-            {
-                "text": "parathyroid carcinoma (DOID:1540)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1540"
-            },
-            {
-                "text": "carcinoma (DOID:305)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_305"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "severe hypercalcemia adult",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_169802"
-            },
-            {
-                "disease": "chronic kidney disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_133"
-            }
-        ]
-    },
-    "contraindications": {
-        "text": "cinacalcet tablets taken food shortly meal ( 2.1 ) tablets always taken whole divided ( 2.1 ) secondary hpt patients ckd dialysis ( 2.2 ) : starting dose 30 mg daily . titrate dose frequently every 2 4 weeks sequential doses 30 mg , 60 mg , 90 mg , 120 mg , 180 mg daily necessary achieve targeted intact parathyroid hormone ( ipth ) levels . ipth levels measured earlier 12 hours recent dose . hypercalcemia patients pc severe hypercalcemia patients primary hpt ( 2.3 ) : starting dose 30 mg twice daily . titrate dose every 2 4 weeks sequential doses 30 mg twice daily , 60 mg twice daily , 90 mg twice daily , 90 mg three four times daily necessary normalize serum calcium levels . maintenance dose established , monitor serum calcium approximately monthly patients secondary hpt every 2 months patients pc primary hpt ( 2.4 )",
-        "doid_entities": [
-            {
-                "text": "ckd (DOID:784)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_784"
-            },
-            {
-                "text": "hypercalcemia (DOID:12678)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_12678"
-            }
-        ],
-        "orphanet_entities": [
-            {
-                "disease": "severe hypercalcemia patients",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_289103"
-            }
-        ]
-    },
-    "warningsAndPrecautions": "cinacalcet 30 mg tablets formulated light-green , film-coated , oval-shaped tablets marked `` sct `` one side `` 30 `` opposite side : unit dose packages 30 ( 3 x 10 ) ndc 60687-516-21 storage store 25 oc ( 77 ) ; excursions permitted 15\u00b0c 30 oc ( 59\u00b0f 86 ) . [ usp controlled room temperature ] . protection : blister torn broken .",
-    "adverseReactions": "cinacalcet tablets treatment initiation contraindicated serum calcium less lower limit normal range [ ( 5.1 ) ] .",
+    "organization": "American Health Packaging",
+    "name": "Cinacalcet",
+    "effectiveTime": "20250518",
     "indications_original": "Cinacalcet is a positive modulator of the calcium sensing receptor indicated for: Secondary Hyperparathyroidism (HPT) in adult patients with chronic kidney disease (CKD) on dialysis. ( 1.1 ) Limitations of Use: Cinacalcet is not indicated for use in patients with CKD who are not on dialysis Hypercalcemia in adult patients with Parathyroid Carcinoma (PC). ( 1.2 ) Severe hypercalcemia in adult patients with primary HPT who are unable to parathyroidectomy. ( 1.3 )",
     "contraindications_original": "Cinacalcet tablets should be taken with food or shortly after a meal ( 2.1 ) Tablets should always be taken whole and not divided ( 2.1 ) Secondary HPT in patients with CKD on dialysis ( 2.2 ): Starting dose is 30 mg once daily. Titrate dose no more frequently than every 2 to 4 weeks through sequential doses of 30 mg, 60 mg, 90 mg, 120 mg, and 180 mg once daily as necessary to achieve targeted intact parathyroid hormone (iPTH) levels. iPTH levels should be measured no earlier than 12 hours after most recent dose. Hypercalcemia in patients with PC or severe hypercalcemia in patients with primary HPT ( 2.3 ): Starting dose is 30 mg twice daily. Titrate dose every 2 to 4 weeks through sequential doses of 30 mg twice daily, 60 mg twice daily, 90 mg twice daily, and 90 mg three or four times daily as necessary to normalize serum calcium levels. Once the maintenance dose has been established, monitor serum calcium approximately monthly for patients with secondary HPT and every 2 months for patients with PC or primary HPT ( 2.4 )",
     "warningsAndPrecautions_original": "Cinacalcet 30 mg tablets are formulated as light-green, film-coated, oval-shaped tablets marked with \"SCT\" on one side and \"30\" on the opposite side:\n                  Unit dose packages of 30 (3 x 10) NDC 60687-516-21\n                  \n                     Storage\n                     \nStore at 25 \n  oC (77 \n  oF); excursions permitted between 15\u00b0C to 30 \n  oC (59\u00b0F to 86 \n  oF). [See USP Controlled Room Temperature].\n \n                  \n                     FOR YOUR PROTECTION: Do not use if blister is torn or broken.",

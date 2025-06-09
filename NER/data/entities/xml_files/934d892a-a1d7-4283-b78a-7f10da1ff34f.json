@@ -1,10 +1,26 @@
 {
-    "root": "934d892a-a1d7-4283-b78a-7f10da1ff34f",
-    "code": "34391-3",
-    "codeSystem": "2.16.840.1.113883.6.1",
-    "displayName": "HUMAN PRESCRIPTION DRUG LABEL",
-    "name": "Carvedilol",
-    "value": "20250519",
+    "id": "934d892a-a1d7-4283-b78a-7f10da1ff34f",
+    "indications": {
+        "text": "carvedilol tablets alpha-/beta-adrenergic blocking agent indicated treatment : \u2022 mild severe chronic heart failure ( 1.1 ) \u2022 left ventricular dysfunction following myocardial infarction clinically stable patients ( 1.2 ) \u2022 hypertension ( 1.3 )",
+        "doid_entities": [
+            {
+                "text": "myocardial infarction (DOID:5844)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5844"
+            },
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            }
+        ],
+        "orphanet_entities": []
+    },
+    "contraindications": {
+        "text": "carvedilol tablets taken food slow rate absorption reduce incidence orthostatic effects .",
+        "doid_entities": [],
+        "orphanet_entities": []
+    },
+    "warningsAndPrecautions": "carvedilol tablets , usp available following strengths : 3.125 mg \u2013 white , film-coated circular shaped tablets \u2018 g \u2019 engraved one side plain side overbagged 10 film-coated tablets per bag , ndc 55154-2641-0 6.25 mg \u2013 white , film-coated circular shaped tablets \u2018 g \u2019 engraved one side \u2018 41 \u2019 engraved side overbagged 10 film-coated tablets per bag , ndc 55154-2649-0 12.5 mg \u2013 white , film-coated capsule shaped tablets \u2018 g \u2019 engraved one side \u2018 164 \u2019 engraved side overbagged 10 film-coated tablets per bag , ndc 55154-2648-0 25 mg \u2013 white , film-coated circular shaped tablets \u2018 g41 \u2019 engraved one side \u2018 25 \u2019 engraved side overbagged 10 film-coated tablets per bag , ndc 55154-2640-0 store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) [ usp controlled room temperature ] . protect moisture . dispense tight container .",
+    "adverseReactions": "carvedilol contraindicated following conditions : \u2022bronchial asthma related bronchospastic conditions . deaths status asthmaticus reported following single doses carvedilol . \u2022second third-degree av block . \u2022sick sinus syndrome . \u2022severe bradycardia ( unless permanent pacemaker place ) . \u2022patients cardiogenic shock decompensated heart failure requiring intravenous inotropic therapy . patients first weaned intravenous therapy initiating carvedilol . \u2022patients severe hepatic impairment . \u2022patients history serious hypersensitivity reaction ( e.g . , stevens-johnson syndrome , anaphylactic reaction , angioedema ) component medication medications containing carvedilol .",
     "ingredients": [
         {
             "name": "CARVEDILOL",
@@ -55,27 +71,9 @@
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32234"
         }
     ],
-    "indications": {
-        "text": "carvedilol tablets alpha-/beta-adrenergic blocking agent indicated treatment : \u2022 mild severe chronic heart failure ( 1.1 ) \u2022 left ventricular dysfunction following myocardial infarction clinically stable patients ( 1.2 ) \u2022 hypertension ( 1.3 )",
-        "doid_entities": [
-            {
-                "text": "myocardial infarction (DOID:5844)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_5844"
-            },
-            {
-                "text": "hypertension (DOID:10763)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
-            }
-        ],
-        "orphanet_entities": []
-    },
-    "contraindications": {
-        "text": "carvedilol tablets taken food slow rate absorption reduce incidence orthostatic effects .",
-        "doid_entities": [],
-        "orphanet_entities": []
-    },
-    "warningsAndPrecautions": "carvedilol tablets , usp available following strengths : 3.125 mg \u2013 white , film-coated circular shaped tablets \u2018 g \u2019 engraved one side plain side overbagged 10 film-coated tablets per bag , ndc 55154-2641-0 6.25 mg \u2013 white , film-coated circular shaped tablets \u2018 g \u2019 engraved one side \u2018 41 \u2019 engraved side overbagged 10 film-coated tablets per bag , ndc 55154-2649-0 12.5 mg \u2013 white , film-coated capsule shaped tablets \u2018 g \u2019 engraved one side \u2018 164 \u2019 engraved side overbagged 10 film-coated tablets per bag , ndc 55154-2648-0 25 mg \u2013 white , film-coated circular shaped tablets \u2018 g41 \u2019 engraved one side \u2018 25 \u2019 engraved side overbagged 10 film-coated tablets per bag , ndc 55154-2640-0 store 20\u00b0c 25\u00b0c ( 68\u00b0f 77\u00b0f ) [ usp controlled room temperature ] . protect moisture . dispense tight container .",
-    "adverseReactions": "carvedilol contraindicated following conditions : \u2022bronchial asthma related bronchospastic conditions . deaths status asthmaticus reported following single doses carvedilol . \u2022second third-degree av block . \u2022sick sinus syndrome . \u2022severe bradycardia ( unless permanent pacemaker place ) . \u2022patients cardiogenic shock decompensated heart failure requiring intravenous inotropic therapy . patients first weaned intravenous therapy initiating carvedilol . \u2022patients severe hepatic impairment . \u2022patients history serious hypersensitivity reaction ( e.g . , stevens-johnson syndrome , anaphylactic reaction , angioedema ) component medication medications containing carvedilol .",
+    "organization": "Cardinal Health 107, LLC",
+    "name": "Carvedilol",
+    "effectiveTime": "20250519",
     "indications_original": "Carvedilol tablets are an alpha-/beta-adrenergic blocking agent indicated for the treatment of: \u2022 mild to severe chronic heart failure ( 1.1 ) \u2022 left ventricular dysfunction following myocardial infarction in clinically stable patients ( 1.2 ) \u2022 hypertension ( 1.3 )",
     "contraindications_original": "Carvedilol tablets should be taken with food to slow the rate of absorption and reduce the incidence of orthostatic effects.",
     "warningsAndPrecautions_original": "Carvedilol Tablets, USP are available in the following strengths: \n                  3.125 mg \u2013 White, film-coated circular shaped tablets with \u2018G\u2019 engraved on one side and plain on the other side\n                  Overbagged with 10 film-coated tablets per bag,\u00a0NDC 55154-2641-0\n                  6.25 mg \u2013 White, film-coated circular shaped tablets with \u2018G\u2019 engraved on one side and \u201841\u2019 engraved on the other side\n                  Overbagged with 10 film-coated tablets per bag,\u00a0NDC 55154-2649-0\n                  12.5 mg \u2013 White, film-coated capsule shaped tablets with \u2018G\u2019 engraved on one side and \u2018164\u2019 engraved on the other side\n                  Overbagged with 10 film-coated tablets per bag,\u00a0NDC 55154-2648-0\n                  25 mg \u2013 White, film-coated circular shaped tablets with \u2018G41\u2019 engraved on one side and \u201825\u2019 engraved on the other side\n                  Overbagged with 10 film-coated tablets per bag,\u00a0NDC 55154-2640-0\n                  Store at 20\u00b0C to 25\u00b0C (68\u00b0F to 77\u00b0F) [see USP Controlled Room Temperature]. Protect from moisture. Dispense in a tight container.",
