@@ -1,5 +1,18 @@
-# MedJsonify
 <div id="top"></div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div style="display: flex; align-items: center;">
+    <div style="flex: 1;">
+        <a href="https://isel.pt" target="_blank">
+            <img src="./img/01_ISEL-Logotipo-RGB_Horizontal.png" alt="ISEL logo" style="width: 400px; height: auto;">
+        </a>
+    </div>
+    <div style="flex: 3; text-align: left; padding-left: 20px;">
+        <h3>MedJsonify</h3>
+    </div>
+</div>
+
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -199,11 +212,16 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you use MedJsonify in your research, please cite it as follows:
 
 ```
-[Citation information will be added upon project publication]
+@conference{Pereira2025,
+    author = Carolina Pereira, Matilde Pato and Nuno Datia,
+    booktitle = 12th ACM Celebration of Women in Computing: womENcourage™ 2025,
+    title = Knowledge Graphs as Educational Tools in Biomedical Education,
+    year = 2025
+}
 ```
 
 ---
 
 <div align="center">
-  <p>Developed at <a href=" ">TO BE DEFINED LATER</a></p>
+  <p>Developed by Carolina Pereira as part of the Workflow System for Data Integration's Project.</p>
 </div>
