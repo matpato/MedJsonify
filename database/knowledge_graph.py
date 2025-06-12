@@ -100,15 +100,16 @@ class Neo4jHandler:
         with self.driver.session() as session:
             session.run(query, **disease)
 
-    def create_admin_route(self, route):
+    def create_admin_route(self, route, drug_id):
         """
         Create Administration Route nodes in the knowledge graph.
         
         The route string may contain multiple administration routes separated by commas.
-        Each route will be created as a separate node.
+        Each route will be created as a separate node and linked to the drug by its ID.
         
         Args:
             route (str): Administration route(s) as a string, comma-separated if multiple
+            drug_id (str): The ID of the drug (CHEBI or DrugBank)
         """
         # OBJECTIVE: Create AdminRoute nodes for each administration route
         if not route:
@@ -121,15 +122,19 @@ class Neo4jHandler:
             for r in routes:
                 query = """
                 MERGE (r:AdminRoute {name: $route})
+                WITH r
+                MATCH (d:Drug {id: $drug_id})
+                MERGE (d)-[:ADMINISTERED_VIA]->(r)
                 """
-                session.run(query, route=r)
+                session.run(query, route=r, drug_id=drug_id)
     
-    def create_approval_year(self, year):
+    def create_approval_year(self, year, drug_id):
         """
         Create an Approval Year node in the knowledge graph.
         
         Args:
             year (str): The year of drug approval
+            drug_id (str): The ID of the drug (CHEBI or DrugBank)
         """
         # OBJECTIVE: Create ApprovalYear node if a year is provided
         if not year:
@@ -137,9 +142,12 @@ class Neo4jHandler:
             
         query = """
         MERGE (y:ApprovalYear {year: $year})
+        WITH y
+        MATCH (d:Drug {id: $drug_id})
+        MERGE (d)-[:APPROVED_IN]->(y)
         """
         with self.driver.session() as session:
-            session.run(query, year=year)
+            session.run(query, year=year, drug_id=drug_id)
 
     def create_relationships(self, drug_id, indications, contraindications, route, approval_year):
         """
@@ -176,17 +184,11 @@ class Neo4jHandler:
             
             # Create ADMINISTERED_VIA relationship between Drug and AdminRoute
             if route:
-                session.run("""
-                MATCH (d:Drug {id: $drug_id}), (r:AdminRoute {name: $route})
-                MERGE (d)-[:ADMINISTERED_VIA]->(r)
-                """, {"drug_id": drug_id, "route": route})
+                self.create_admin_route(route, drug_id)
             
             # Create APPROVED_IN relationship between Drug and ApprovalYear
             if approval_year:
-                session.run("""
-                MATCH (d:Drug {id: $drug_id}), (y:ApprovalYear {year: $year})
-                MERGE (d)-[:APPROVED_IN]->(y)
-                """, {"drug_id": drug_id, "year": approval_year})
+                self.create_approval_year(approval_year, drug_id)
 
                 
     def insert_data(self, drug, diseases, indications, contraindications):
@@ -211,10 +213,10 @@ class Neo4jHandler:
             self.create_disease(disease)
             
         # Create AdminRoute node(s) if provided
-        self.create_admin_route(drug.get("admin_route"))
+        self.create_admin_route(drug.get("admin_route"), drug["id"])
         
         # Create ApprovalYear node if provided
-        self.create_approval_year(drug.get("approval_year"))
+        self.create_approval_year(drug.get("approval_year"), drug["id"])
         
         # Create all relationships between nodes
         self.create_relationships(drug["id"], indications, contraindications, 
@@ -331,7 +333,11 @@ def process_xml_file(file_path, neo4j_handler):
                 return
                 
             main_ingredient = data["ingredients"][0]
-            drug_id = clean_id(main_ingredient.get("chebi_id"))
+            chebi_id = clean_id(main_ingredient.get("chebi_id"))
+            drugbank_id = clean_id(main_ingredient.get("drugbank_id"))
+            
+            # Use CHEBI ID as primary identifier, fallback to DrugBank ID
+            drug_id = chebi_id or drugbank_id
             if not drug_id:
                 return
             
@@ -342,7 +348,9 @@ def process_xml_file(file_path, neo4j_handler):
                 "organization": data.get("organization"),
                 "effectiveTime": data.get("effectiveTime"),
                 "admin_route": data.get("admin_route"),
-                "approval_year": extract_year(data.get("approval_date"))
+                "approval_year": extract_year(data.get("approval_date")),
+                "chebi_id": chebi_id,
+                "drugbank_id": drugbank_id
             }
             
             # Initialize lists for disease data
@@ -397,7 +405,8 @@ def process_xml_file(file_path, neo4j_handler):
                             contraindications.append({"id": disease_id})
             
             # Log summary of the drug being processed
-            print(f"Drug: {drug_id}, Admin Route: {drug.get('admin_route')}, Approval Year: {drug.get('approval_year')}")
+            print(f"Drug: {drug_id} (CHEBI: {chebi_id}, DrugBank: {drugbank_id})")
+            print(f"Admin Route: {drug.get('admin_route')}, Approval Year: {drug.get('approval_year')}")
             print(f"Found {len(diseases)} diseases, {len(indications)} indications, {len(contraindications)} contraindications")
             
             # Insert data into Neo4j
@@ -406,8 +415,12 @@ def process_xml_file(file_path, neo4j_handler):
         else:
             # Process regular JSON file (original logic)
             for drug_entry in data.get("drug", []):
-                # Extract and clean drug ID, prioritizing chebi_id over drugbank_id
-                drug_id = clean_id(drug_entry.get("chebi_id")) or clean_id(drug_entry.get("drugbank_id"))
+                # Extract and clean drug IDs
+                chebi_id = clean_id(drug_entry.get("chebi_id"))
+                drugbank_id = clean_id(drug_entry.get("drugbank_id"))
+                
+                # Use CHEBI ID as primary identifier, fallback to DrugBank ID
+                drug_id = chebi_id or drugbank_id
                 if not drug_id:
                     continue  # Skip drugs without a valid ID
                 
@@ -434,7 +447,9 @@ def process_xml_file(file_path, neo4j_handler):
                     "organization": data.get("organization") or data.get("Applicant"),
                     "effectiveTime": data.get("effectiveTime"),
                     "admin_route": admin_route,
-                    "approval_year": approval_year
+                    "approval_year": approval_year,
+                    "chebi_id": chebi_id,
+                    "drugbank_id": drugbank_id
                 }
                 
                 # Initialize lists for disease data
@@ -469,7 +484,8 @@ def process_xml_file(file_path, neo4j_handler):
                         contraindications.append({"id": disease_id})
                 
                 # Log summary of the drug being processed
-                print(f"Drug: {drug_id}, Admin Route: {admin_route}, Approval Year: {approval_year}")
+                print(f"Drug: {drug_id} (CHEBI: {chebi_id}, DrugBank: {drugbank_id})")
+                print(f"Admin Route: {admin_route}, Approval Year: {approval_year}")
                 print(f"Found {len(diseases)} diseases, {len(indications)} indications, {len(contraindications)} contraindications")
                 
                 # OBJECTIVE: Insert all extracted data into the Neo4j knowledge graph

@@ -41,7 +41,7 @@ with DAG(
 
     # NOTE: Initial data acquisition tasks are currently commented out,
     # suggesting they might be handled manually or in another process
-    """
+    
     # OBJECTIVE: Download data from external sources
     task_download_from_url = PythonOperator(
         task_id='download_from_url',
@@ -59,8 +59,7 @@ with DAG(
         task_id='extract_files',
         python_callable=extract_xml_files_task,
     )
-    """
-    
+
     # OBJECTIVE: Convert extracted files to JSON format
     # This task transforms XML/CSV/TXT files to a standardized JSON format
     task_convert_files_to_json = PythonOperator(
@@ -99,10 +98,18 @@ with DAG(
         email=notification_emails,
     )
 
+    # OBJECTIVE: Send processed data to Neo4j database
+    task_send_to_neo4j = PythonOperator(
+        task_id='send_to_neo4j',
+        python_callable=send_to_neo4j_task,
+        email_on_failure=True,
+        email=notification_emails,
+    )
+
     # OBJECTIVE: Define the DAG task dependencies/workflow
     # The commented-out section represents the full pipeline including data acquisition
     # task_download_from_url >> task_unzip_directories >> task_extract_files >> 
     
     # Define the workflow: conversion → vocabulary → preprocessing → NER
     # Each task waits for the previous one to complete successfully
-    task_convert_files_to_json >> task_download_vocabulary >> task_preprocess_json >> task_ner_process
+    task_download_from_url >> task_unzip_directories >> task_extract_files >> task_convert_files_to_json >> task_download_vocabulary >> task_preprocess_json >> task_ner_process >> task_send_to_neo4j
