@@ -23,6 +23,7 @@ with DAG(
 
     notification_emails = [email.strip() for email in email_string.split(',') if email.strip()]
     
+    # OBJECTIVE: Define the task to send JSON files to Neo4j
     task_send_to_neo4j = PythonOperator(
         task_id='send_to_neo4j',
         python_callable=send_to_neo4j_task,

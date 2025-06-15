@@ -20,9 +20,9 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from utils.tasks import *
-from airflow.operators.bash import BashOperator # Importe BashOperator
-# from airflow.configuration import conf # Comentado: Não precisamos importar conf para ler env var
-from airflow.models.variable import Variable # Importe Variable
+from airflow.operators.bash import BashOperator 
+# from airflow.configuration import conf 
+from airflow.models.variable import Variable
 
 # OBJECTIVE: Define the file conversion DAG
 # Create a monthly scheduled DAG for converting files to JSON format

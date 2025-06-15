@@ -1,10 +1,6 @@
 from pathlib import Path
 from jsonifyer import convert_txt, convert_csv, convert_xml
 import os
-import json
-import xml.etree.ElementTree as ET
-import sys
-
 
 def convert_all_files():
         BASE_DIR = Path("/opt/airflow/dags/jsonify/src")
@@ -20,7 +16,6 @@ def convert_all_files():
             'txt_files': BASE_DIR / 'txt_processed.txt'
         }
         
-        # Initialize tracking files if they don't exist
         for file_path in repeated_files.values():
             if not file_path.exists():
                 file_path.touch()

@@ -141,13 +141,10 @@ def process_drug_data(drug_data, drugbank, vocabulary, disease_terms):
     # PHASE 1: Extract drug names
     trade_name = drug_data.get('Trade_Name', '').strip()
     proper_name = drug_data.get('Proper Name', '').strip()
-    # ADICIONAR SUPORTE PARA O CAMPO "name"
     generic_name = drug_data.get('name', '').strip()
 
-    # NOVO: Extrair o nome do ingrediente
     ingredient_name_field = drug_data.get('Ingredient', '').strip()
 
-    # Se não houver nenhum nome, não processa
     if not trade_name and not proper_name and not generic_name:
         return drug_data
 

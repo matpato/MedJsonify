@@ -33,8 +33,6 @@ with DAG(
     catchup=False,
 ) as dag:
     
-    # Obtenha o email da Variável do Airflow
-    # Use Variable.get() para ler do banco de dados do Airflow
     email_string = Variable.get("notification_email", default_var="admin@example.com")
 
     notification_emails = [email.strip() for email in email_string.split(',') if email.strip()]

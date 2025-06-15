@@ -27,11 +27,11 @@ def create_user_from_ini(ini_file):
     """
     # OBJECTIVE: Parse the configuration file
     config = configparser.ConfigParser()
-    config.read("/opt/airflow/dags/airflow.cfg") # Leia do airflow.cfg
+    config.read("/opt/airflow/dags/airflow.cfg") 
 
     # OBJECTIVE: Extract user details from the config
     # Get values from the USER section of the INI file
-    user_data = config["user"] # Note: seção agora é 'user' minúsculo
+    user_data = config["user"] 
     
     # Extract specific user attributes with defaults where appropriate
     username = user_data.get("username")
