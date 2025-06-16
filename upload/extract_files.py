@@ -3,7 +3,7 @@
 # @file: extract_files.py                                                     #  
 # @description: Extracts and copies specific files from source to destination #
 # @date: May 2025                                                             #
-# @version: 2.0                                                               #  
+# @version: 2.1                                                               #  
 #                                                                             #  
 # This script selectively extracts and copies specific files (XML, etc.)      #
 # from their downloaded source directories to the appropriate destination     #
@@ -14,8 +14,10 @@
 
 import os
 import shutil
+import glob
 from tqdm import tqdm
 from upload.upload_loader import UploadLoader
+import datetime
 
 # OBJECTIVE: Initialize configuration and set up environment
 # Load configuration for file paths and directories
@@ -23,18 +25,21 @@ config = UploadLoader()
 downloads_dir = config.get_downloads_dir()
 selected_directories = config.get_selected_directories()
 dest_directories = config.get_dest_directories()
+source_paths = config.get_source_paths()
+file_patterns = config.get_file_patterns()
 
 # -------------------------------------------------------------------------------------------
 # UTILITY FUNCTIONS
 # -------------------------------------------------------------------------------------------
 
-def copy_xml_files(src_directory, dest_directory):
+def copy_files(src_directory, dest_directory, file_pattern):
     """
-    Copy all XML files from source directory (including subdirectories) to the destination.
+    Copy files matching the pattern from source directory to destination.
     
     Args:
-        src_directory (str): Source directory to search for XML files
+        src_directory (str): Source directory to search for files
         dest_directory (str): Destination directory where files will be copied
+        file_pattern (str): Pattern to match files (e.g., '*.xml', 'products.txt')
     """
     # OBJECTIVE: Create destination directory if it doesn't exist
     if not os.path.exists(dest_directory):
@@ -43,17 +48,27 @@ def copy_xml_files(src_directory, dest_directory):
         except PermissionError:
             print(f"Insufficient permissions to create directory: {dest_directory}")
             return
-    
-    # OBJECTIVE: Find all XML files in the source directory and subdirectories
-    xml_files = []
-    for root, _, files in os.walk(src_directory):
-        for file in files:
-            if file.endswith('.xml'):
-                xml_files.append(os.path.join(root, file))
-    
-    # OBJECTIVE: Copy all XML files to the destination with progress tracking
-    for src_file in tqdm(xml_files, desc="Copying XML files", unit="file"):
-        shutil.copy(src_file, dest_directory)
+
+    if '*' in file_pattern:
+        matching_files = []
+        for root, _, files in os.walk(src_directory):
+            for file in files:
+                if glob.fnmatch.fnmatch(file, file_pattern):
+                    matching_files.append(os.path.join(root, file))
+    else:
+        matching_files = [os.path.join(src_directory, file_pattern)]
+
+    # OBJECTIVE: Copy all matching files to the destination with progress tracking
+    for src_file in tqdm(matching_files, desc=f"Copying {file_pattern} files", unit="file"):
+        if os.path.exists(src_file):
+            shutil.copy(src_file, dest_directory)
+
+def get_previous_month_csv_pattern():
+    now = datetime.datetime.now()
+    prev_month = now.replace(day=1) - datetime.timedelta(days=1)
+    # Exemplo: purplebook-search-may-data-download.csv
+    month_name = prev_month.strftime('%B').lower()  # 'may'
+    return f"purplebook-search-{month_name}-data-download.csv"
 
 # -------------------------------------------------------------------------------------------
 # MAIN EXECUTION
@@ -67,30 +82,35 @@ with open(os.path.join(downloads_dir, 'filename.txt'), 'r') as f:
 
 # OBJECTIVE: Process each file according to its source type
 for i in range(len(file_filenames)):
-    # CASE 1: Process DailyMed files (extract all XML files from prescription directory)
-    if selected_directories[i] == 'dailymed':
-        # Source directory is in downloads_dir/extracted_folder/prescription
-        src_directory = os.path.expanduser(f'{downloads_dir}/{os.path.splitext(file_filenames[i])[0]}/prescription')
-        # Copy all XML files from source to destination
-        copy_xml_files(src_directory, dest_directories[i])
-    
-    # CASE 2: Process PurpleBook files (copy the entire file directly)
-    elif selected_directories[i] == 'purplebook':
-        # Source file is in downloads_dir
-        src_file = os.path.join(downloads_dir, file_filenames[i])
-        # Copy file directly to destination
-        shutil.copy(src_file, dest_directories[i])
-    
-    # CASE 3: Process OrangeBook files (copy only the products.txt file)
-    elif selected_directories[i] == 'orangebook':
-        # Source file is products.txt in orangebook subdirectory
-        src_file = os.path.join(downloads_dir, 'orangebook', 'products.txt')
+    source_type = selected_directories[i]
+    base_dir = os.path.splitext(file_filenames[i])[0]
+
+    if source_type == "purplebook":
+        src_file = os.path.join(downloads_dir, get_previous_month_csv_pattern())
         dest_directory = dest_directories[i]
-        
-        # Create destination directory if it doesn't exist
         if not os.path.exists(dest_directory):
             os.makedirs(dest_directory)
-        
-        # Copy products.txt file to destination
-        shutil.copy(src_file, dest_directory)
-        print(f"Copied {src_file} to {dest_directory}")
+        if os.path.exists(src_file):
+            shutil.copy(src_file, dest_directory)
+            print(f"Copied {src_file} to {dest_directory}")
+        else:
+            print(f"File not found: {src_file}")
+
+    elif source_type == 'orangebook':
+        src_file = os.path.join(downloads_dir, source_paths[i], file_patterns[i])
+        dest_directory = dest_directories[i]
+        if not os.path.exists(dest_directory):
+            os.makedirs(dest_directory)
+        if os.path.exists(src_file):
+            shutil.copy(src_file, dest_directory)
+            print(f"Copied {src_file} to {dest_directory}")
+        else:
+            print(f"File not found: {src_file}")
+
+    else:
+        if source_paths[i] == '.':
+            src_directory = downloads_dir
+        else:
+            src_directory = os.path.join(downloads_dir, base_dir, source_paths[i])
+        file_pattern = file_patterns[i]
+        copy_files(src_directory, dest_directories[i], file_pattern)

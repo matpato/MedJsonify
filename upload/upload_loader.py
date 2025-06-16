@@ -76,3 +76,23 @@ class UploadLoader:
         """
         selected_directories = self.get_selected_directories()
         return [os.path.expanduser(self.config['dest_directory'][name]) for name in selected_directories]
+
+    def get_source_paths(self):
+        """
+        Get the source paths for each selected directory.
+        
+        Returns:
+            list: List of source paths corresponding to selected directories
+        """
+        selected_directories = self.get_selected_directories()
+        return [self.config['source_paths'][name] for name in selected_directories]
+
+    def get_file_patterns(self):
+        """
+        Get the file patterns for each selected directory.
+        
+        Returns:
+            list: List of file patterns corresponding to selected directories
+        """
+        selected_directories = self.get_selected_directories()
+        return [self.config['file_patterns'][name] for name in selected_directories]

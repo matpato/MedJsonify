@@ -89,11 +89,7 @@ medjsonify/
 │   └── download_vocabulary.py    # Download ontology vocabularies
 ├── jsonify/                      # File format conversion module
 │   ├── src/                      # Conversion source code
-│   │   ├── converter/           # Converter implementations
-│   │   │   ├── csv_converter.py  # CSV to JSON conversion
-│   │   │   ├── python_converter.py # Python-based XML to JSON conversion
-│   │   │   └── xslt_converter.py # XSLT-based XML to JSON conversion
-│   │   └── main.py              # Main conversion driver
+│   │   └── conversion.py         # Main conversion driver
 ├── Dockerfile                    # Docker container definition
 ├── docker-compose.yml           # Docker Compose configuration
 ├── docker.sh                    # Script to build and run containers
@@ -131,12 +127,12 @@ medjsonify/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/medjsonify.git
+git clone https://github.com/your-username/MedJsonify.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd medjsonify
+cd MedJsonify
 ```
 
 3. Grant execution permissions to the Docker script:
@@ -168,14 +164,12 @@ http://localhost:8080
 4. From the Airflow UI, activate and trigger the desired DAG:
    - `converter_dag`: Only converts files to JSON
    - `ner_dag`: Processes JSON files with NER
-   - `jsonify_dag`: Runs the complete pipeline
+   - `medjsonify_dag`: Runs the complete pipeline
 
 5. After processing, the Neo4j database will contain the knowledge graph. Access the Neo4j Browser:
 ```bash
 http://localhost:7474
 ```
-
-6. Example queries can be found in the `database/queries.md` file.
 
 ## Pipeline Workflow
 

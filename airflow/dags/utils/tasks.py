@@ -62,24 +62,49 @@ def unzip_task():
 
 def extract_xml_files_task():
     """
-    Extract and copy XML files from source to destination directories.
+    Extract and copy files from source to destination directories based on file patterns.
     
-    This task copies relevant XML files from their source directories
+    This task copies relevant files (XML, CSV, TXT) from their source directories
     to the appropriate destination directories for further processing.
     """
-    from upload.extract_files import copy_xml_files
+    from upload.extract_files import copy_files
+    from upload.upload_loader import UploadLoader
+    
+    # OBJECTIVE: Initialize configuration
+    config = UploadLoader()
+    downloads_dir = config.get_downloads_dir()
+    selected_directories = config.get_selected_directories()
+    dest_directories = config.get_dest_directories()
+    source_paths = config.get_source_paths()
+    file_patterns = config.get_file_patterns()
     
     # OBJECTIVE: Create destination directories if they don't exist
-    for dest in config.dest_directories:
+    for dest in dest_directories:
         os.makedirs(dest, exist_ok=True)
         logging.info(f"Ensured directory exists: {dest}")
     
-    # OBJECTIVE: Copy XML files from each source to its corresponding destination
-    for src, dest in zip(config.src_directories, config.dest_directories):
-        if not os.path.exists(src):
-            logging.warning(f"Source directory does not exist: {src}")
+    # OBJECTIVE: Read the list of files to process
+    with open(os.path.join(downloads_dir, 'filename.txt'), 'r') as f:
+        file_filenames = [line.strip() for line in f.readlines()]
+    
+    # OBJECTIVE: Process each file according to its source type
+    for i in range(len(file_filenames)):
+        source_type = selected_directories[i]
+        base_dir = os.path.splitext(file_filenames[i])[0]
+        
+        # Construct source directory path
+        if source_paths[i] == '.':
+            src_directory = os.path.join(downloads_dir, file_filenames[i])
+        else:
+            src_directory = os.path.join(downloads_dir, base_dir, source_paths[i])
+        
+        if not os.path.exists(src_directory):
+            logging.warning(f"Source directory does not exist: {src_directory}")
             continue
-        copy_xml_files(src, dest)
+            
+        # Copy files using the configured pattern
+        logging.info(f"Copying {file_patterns[i]} files from {src_directory} to {dest_directories[i]}")
+        copy_files(src_directory, dest_directories[i], file_patterns[i])
 
 # -------------------------------------------------------------------------------------------
 # CONVERSION TASKS
