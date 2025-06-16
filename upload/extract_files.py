@@ -66,8 +66,7 @@ def copy_files(src_directory, dest_directory, file_pattern):
 def get_previous_month_csv_pattern():
     now = datetime.datetime.now()
     prev_month = now.replace(day=1) - datetime.timedelta(days=1)
-    # Exemplo: purplebook-search-may-data-download.csv
-    month_name = prev_month.strftime('%B').lower()  # 'may'
+    month_name = prev_month.strftime('%B').lower() 
     return f"purplebook-search-{month_name}-data-download.csv"
 
 # -------------------------------------------------------------------------------------------
