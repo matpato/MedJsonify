@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3'
 services:
   postgres:
     image: postgres:15
@@ -54,5 +54,18 @@ services:
         airflow scheduler
       '
 
+  neo4j:
+    image: neo4j:5
+    container_name: medjsonify_neo4j
+    restart: always
+    environment:
+      - NEO4J_AUTH=neo4j/testpassword
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - neo4j_data:/data
+
 volumes:
   postgres_data:
+  neo4j_data:
