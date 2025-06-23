@@ -207,7 +207,7 @@ If you use MedJsonify in your research, please cite it as follows:
 
 ```
 @conference{Pereira2025,
-    author = Carolina Pereira, Matilde Pato and Nuno Datia,
+    author = Ana Carolina Pereira, Matilde Pato and Nuno Datia,
     booktitle = 12th ACM Celebration of Women in Computing: womENcourage™ 2025,
     title = Knowledge Graphs as Educational Tools in Biomedical Education,
     year = 2025
