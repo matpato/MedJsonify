@@ -122,7 +122,6 @@ medjsonify/
 
 - Docker and Docker Compose
 - Git
-- Airflow Config: the Airflow configuration file is located at /dags/airflow.cfg
 
 ### Setup
 
@@ -139,6 +138,17 @@ cd MedJsonify
 3. Grant execution permissions to the Docker script:
 ```bash
 chmod +x docker.sh
+```
+4. Airflow Configuration:
+the file is located at /dags/airflow.cfg. 
+```ini
+[USER]
+username = admin
+firstname = Admin
+lastname = User
+role = Admin
+email = admin@example.com
+password = admin
 ```
 
 ## Usage
