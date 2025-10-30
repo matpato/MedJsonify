@@ -9,7 +9,7 @@ This directory contains the Apache Airflow configuration files and DAGs files.
 
 ## Configuration
 
-The Airflow configuration file is located at /dags/airflow.ini. The configuration file contains the following sections:
+The Airflow configuration file is located at /dags/airflow.cfg. The configuration file contains the following sections:
 
 ```ini
 [USER]

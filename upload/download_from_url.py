@@ -16,9 +16,9 @@ from upload.upload_loader import UploadLoader
 
 # Load configuration from the UploadLoader
 config = UploadLoader()
-downloads_dir = config.get_downloads_dir()           # Directory where files will be downloaded
+downloads_dir = config.get_downloads_dir()                # Directory where files will be downloaded
 selected_directories = config.get_selected_directories()  # List of pharmaceutical database names to download
-urls = config.get_urls()                             # Corresponding URLs for each database
+urls = config.get_urls()                                  # Corresponding URLs for each database
 
 def get_previous_month_url(base_url):
     """

@@ -88,8 +88,8 @@ medjsonify/
 │   ├── Biomedical_preprocessing.py # Text preprocessing for biomedical data
 │   └── download_vocabulary.py    # Download ontology vocabularies
 ├── jsonify/                      # File format conversion module
-│   ├── src/                      # Conversion source code
-│   │   └── conversion.py         # Main conversion driver
+│   └── src/                      # Conversion source code
+│       └── conversion.py         # Main conversion driver
 ├── Dockerfile                    # Docker container definition
 ├── docker-compose.yml           # Docker Compose configuration
 ├── docker.sh                    # Script to build and run containers
@@ -122,6 +122,7 @@ medjsonify/
 
 - Docker and Docker Compose
 - Git
+- Airflow Config: the Airflow configuration file is located at /dags/airflow.cfg
 
 ### Setup
 
@@ -138,11 +139,6 @@ cd MedJsonify
 3. Grant execution permissions to the Docker script:
 ```bash
 chmod +x docker.sh
-```
-
-4. Ensure MER is installed and grant execution permissions to the entity extraction script:
-```bash
-chmod +x get_entities.sh
 ```
 
 ## Usage
@@ -166,7 +162,7 @@ http://localhost:8080
    - `ner_dag`: Processes JSON files with NER
    - `medjsonify_dag`: Runs the complete pipeline
 
-5. After processing, the Neo4j database will contain the knowledge graph. Access the Neo4j Browser:
+5. After processing, the Neo4j database will contain the knowledge graph. Access the Neo4j browser:
 ```bash
 http://localhost:7474
 ```
@@ -176,7 +172,7 @@ http://localhost:7474
 The complete data processing pipeline consists of the following steps:
 
 1. **Data Acquisition**:
-   - Download files from configured URLs
+   - Download files from configured URLs (Note: files from last month. If you want too change go to: download_from_url.py)
    - Extract ZIP archives
    - Extract specific files based on type
 
