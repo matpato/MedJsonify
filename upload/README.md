@@ -14,6 +14,8 @@ The directories to extract and upload files are managed through the `upload.ini`
 [general]
 downloads_dir=~/Downloads
 selected_url=purplebook, dailymed
+# Number of months of DailyMed data to download
+dailymed_months=1
 
 [urls]
 dailymed=https://dailymed.nlm.nih.gov/dailymed/spl-resources-all-drug-labels.cfm

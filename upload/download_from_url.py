@@ -69,45 +69,122 @@ def download_file_from_url(url, dest_path):
         raise
 
 
-def process_dailymed(url, downloads_dir):
+# def process_dailymed(url, downloads_dir):
+#     """
+#     Processes DailyMed database download.
+#     DailyMed requires scraping the page to find the ZIP file link before downloading.
+    
+#     Args:
+#         url (str): URL of the DailyMed download page
+#         downloads_dir (str): Directory to save the downloaded file
+#     """
+#     response = requests.get(url)
+#     response.raise_for_status()  
+
+#     # Parse the HTML page to find the ZIP file link
+#     soup = BeautifulSoup(response.text, 'html.parser')
+
+#     zip_link = None
+#     for a_tag in soup.find_all('a', href=True):
+#         if a_tag['href'].endswith('.zip'):
+#             zip_link = a_tag['href']
+#             break
+
+#     if zip_link is None:
+#         raise ValueError("No ZIP file link found on the page.")
+
+#     # Ensure the link is a complete URL
+#     if not zip_link.startswith('http'):
+#         zip_url = f'https://dailymed.nlm.nih.gov{zip_link}'
+#     else:
+#         zip_url = zip_link
+
+#     # Prepare file paths and record the filename
+#     zip_filename = os.path.basename(zip_link)
+#     zip_filepath = os.path.join(downloads_dir, zip_filename)
+
+#     with open(os.path.join(downloads_dir, 'filename.txt'), 'a') as f:
+#         f.write(zip_filename + "\n")
+def process_dailymed(url, downloads_dir, months_back=3):
     """
-    Processes DailyMed database download.
-    DailyMed requires scraping the page to find the ZIP file link before downloading.
+    Processes DailyMed database download for the last N months.
+    DailyMed requires scraping the page to find the ZIP file links before downloading.
     
     Args:
         url (str): URL of the DailyMed download page
-        downloads_dir (str): Directory to save the downloaded file
+        downloads_dir (str): Directory to save the downloaded files
+        months_back (int): Number of months to download (default: 3)
     """
+    print(f"Fetching DailyMed page to find download links...")
     response = requests.get(url)
-    response.raise_for_status()  
+    response.raise_for_status()
 
-    # Parse the HTML page to find the ZIP file link
+    # Parse the HTML page to find all ZIP file links
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    zip_link = None
+    zip_links = []
     for a_tag in soup.find_all('a', href=True):
-        if a_tag['href'].endswith('.zip'):
-            zip_link = a_tag['href']
-            break
+        href = a_tag['href']
+        #  Filter for monthly files only (exclude weekly updates)
+        #  Monthly files typically contain 'monthly' in the filename
+        # Example: dm_spl_monthly_update_dec2025.zip
+        if href.endswith('.zip') and 'monthly' in href.lower():
+            zip_links.append(href)
+            
+    if not zip_links:
+        raise ValueError("No ZIP file links found on the page.")
 
-    if zip_link is None:
-        raise ValueError("No ZIP file link found on the page.")
+    # Sort links to get the most recent ones (assuming chronological naming)
+    # DailyMed typically names files with dates, so reverse sort gets newest first
+    zip_links = sorted(set(zip_links), reverse=True)
+    
+    # Limit to the requested number of months
+    zip_links = zip_links[:months_back]
 
-    # Ensure the link is a complete URL
-    if not zip_link.startswith('http'):
-        zip_url = f'https://dailymed.nlm.nih.gov{zip_link}'
-    else:
-        zip_url = zip_link
+    print(f"Found {len(zip_links)} DailyMed file(s) to download (last {months_back} months)")
 
-    # Prepare file paths and record the filename
-    zip_filename = os.path.basename(zip_link)
-    zip_filepath = os.path.join(downloads_dir, zip_filename)
+    # Download each file
+    for idx, zip_link in enumerate(zip_links, 1):
+        # Ensure the link is a complete URL
+        if not zip_link.startswith('http'):
+            zip_url = f'https://dailymed.nlm.nih.gov{zip_link}'
+        else:
+            zip_url = zip_link
 
-    with open(os.path.join(downloads_dir, 'filename.txt'), 'a') as f:
-        f.write(zip_filename + "\n")
+        # Prepare file paths and record the filename
+        zip_filename = os.path.basename(zip_link)
+        zip_filepath = os.path.join(downloads_dir, zip_filename)
 
-    # Download the file
-    download_file_from_url(zip_url, zip_filepath)
+        # Check if file already exists
+        if os.path.exists(zip_filepath):
+            print(f'[{idx}/{len(zip_links)}] File already exists, skipping: {zip_filename}')
+            # Still record it in filename.txt if not already there
+            with open(os.path.join(downloads_dir, 'filename.txt'), 'r') as f:
+                existing_files = f.read()
+            if zip_filename not in existing_files:
+                with open(os.path.join(downloads_dir, 'filename.txt'), 'a') as f:
+                    f.write(zip_filename + "\n")
+            continue
+
+        print(f'[{idx}/{len(zip_links)}] Downloading: {zip_filename}')
+        print(f'  URL: {zip_url}')
+        
+        # Download the file
+        try:
+            download_file_from_url(zip_url, zip_filepath)
+            
+            # Record the filename
+            with open(os.path.join(downloads_dir, 'filename.txt'), 'a') as f:
+                f.write(zip_filename + "\n")
+                
+            print(f'  ✓ Successfully downloaded and recorded: {zip_filename}')
+        except Exception as e:
+            print(f'  ✗ Failed to download {zip_filename}: {e}')
+            # Continue with other files even if one fails
+            continue
+
+    # # Download the file
+    # download_file_from_url(zip_url, zip_filepath)
 
 def process_purplebook(url, downloads_dir):
     """
@@ -174,11 +251,19 @@ def process_orangebook(url, downloads_dir):
         print(f'Error processing Orange Book: {e}')
 
 
+# -------------------------------------------------------------------------------------------
+# MAIN EXECUTION
+# -------------------------------------------------------------------------------------------
+
 # Create downloads directory if it doesn't exist
 os.makedirs(downloads_dir, exist_ok=True)
 
 # Initialize/clear the filename tracking file
 open(os.path.join(downloads_dir, 'filename.txt'), 'w').close()
+
+# Get number of months for DailyMed (from config or default to 1)
+dailymed_months = config.get_dailymed_months() if hasattr(config, 'get_dailymed_months') else 1
+
 
 # Process each selected database
 for i in range(len(selected_directories)):
@@ -187,7 +272,8 @@ for i in range(len(selected_directories)):
     try:
         # Route to the appropriate processing function based on database name
         if 'dailymed' in name.lower():
-            process_dailymed(url, downloads_dir)
+            months = config.get_dailymed_months()
+            process_dailymed(url, downloads_dir, months_back=dailymed_months)
         elif 'purplebook' in name.lower():
             process_purplebook(url, downloads_dir)
         elif 'orangebook' in name.lower():

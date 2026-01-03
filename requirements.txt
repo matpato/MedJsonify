@@ -1,16 +1,30 @@
-bs4
+# Core dependencies
+beautifulsoup4>=4.9.3  # bs4 is not the correct package name
 tqdm==4.67.1
-lxml
-setuptools
+lxml>=4.9.0
+setuptools>=65.0.0
+
+# Database
 neo4j==5.28.0
-apache-airflow
-pandas
-openpyxl
-rdkit
-Levenshtein
-ssmpy
-nltk
+
+# Data processing
+pandas>=2.0.0
+openpyxl>=3.0.0
+
+# Chemistry (RDKit can be problematic)
+rdkit-pypi  # Use this instead of rdkit for pip installation
+
+# String matching
+python-Levenshtein>=0.12.2  # Levenshtein alone might not work
+fuzzywuzzy[speedup]>=0.18.0
+
+# NLP
+nltk>=3.8.0
 owlready2==0.47
-fuzzywuzzy
-merpy
+
+# Note: apache-airflow should NOT be in requirements.txt
+# It's already in the base image and will cause conflicts
+# apache-airflow
+
+# Custom package
 jsonifyer==0.1.10

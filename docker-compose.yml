@@ -1,4 +1,5 @@
-version: '3'
+version: '3.8'
+
 services:
   postgres:
     image: postgres:15
@@ -32,25 +33,70 @@ services:
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__FERNET_KEY: "4AqbpqSvD6FYqOJGftMw3seq45BSprdTlaHVhrvvew8="
       AIRFLOW__WEBSERVER__SECRET_KEY: "5dcfb94dd79578307141e3beec5e07ebb43ef007dffa45a4400c5187e217bb66"
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_FOLDER: "/opt/airflow/dags/airflow_dags"
       PYTHONPATH: "/opt/airflow/dags:/opt/airflow/dags/jsonify/src"
       AIRFLOW_CONFIG: "/opt/airflow/dags/airflow.cfg"
     ports:
       - "8080:8080"
     volumes:
-      - ./airflow/dags:/opt/airflow/dags
-      - ./database:/opt/airflow/dags/database
+      - ./airflow/dags:/opt/airflow/dags/airflow_dags
+      - ./airflow/dags/utils:/opt/airflow/dags/utils
       - ./NER:/opt/airflow/dags/NER
       - ./jsonify:/opt/airflow/dags/jsonify
+      - ./jsonify/data:/opt/airflow/dags/jsonify/data
       - ./upload:/opt/airflow/dags/upload
-      - ./airflow/neo4j.ini:/opt/airflow/dags/neo4j.ini
+      - ./database:/opt/airflow/dags/database
+      - ./airflow/dags/airflow.cfg:/opt/airflow/dags/airflow.cfg
+      - ./NER/bioner.ini:/opt/airflow/dags/NER/bioner.ini
+      - ./database/neo4j.ini:/opt/airflow/dags/database/neo4j.ini
+      - ./upload/upload.ini:/opt/airflow/dags/upload/upload.ini
+      - ./jsonify/jsonify.ini:/opt/airflow/dags/jsonify/jsonify.ini
       - ./requirements.txt:/opt/airflow/requirements.txt
-    user: "1000:0"  
+      - ./logs:/opt/airflow/logs
+      - ./NER/ontologies/data:/opt/airflow/dags/NER/ontologies/data
+      - ./NER/ontologies/scripts:/opt/airflow/dags/NER/ontologies/scripts
+    user: "1000:0"
     command: >
       bash -c '
-        airflow db init &&
-        airflow db upgrade &&
-        python /opt/airflow/dags/create_user.py &&
-        airflow webserver --port 8080 & 
+        echo "=== MedJsonify Airflow Setup ==="
+        
+        mkdir -p /opt/airflow/dags/upload/downloads
+        mkdir -p /opt/airflow/dags/jsonify/input/xml_files
+        mkdir -p /opt/airflow/dags/jsonify/input/csv_files
+        mkdir -p /opt/airflow/dags/jsonify/input/txt_files
+        mkdir -p /opt/airflow/dags/jsonify/output/xml_files
+        mkdir -p /opt/airflow/dags/jsonify/output/csv_files
+        mkdir -p /opt/airflow/dags/jsonify/output/txt_files
+        mkdir -p /opt/airflow/dags/NER/data/entities/xml_files
+        mkdir -p /opt/airflow/dags/NER/data/entities/csv_files
+        mkdir -p /opt/airflow/dags/NER/data/entities/txt_files
+        mkdir -p /opt/airflow/dags/NER/data/preprocessing/xml_files
+        mkdir -p /opt/airflow/dags/NER/data/preprocessing/csv_files
+        mkdir -p /opt/airflow/dags/NER/data/preprocessing/txt_files
+        mkdir -p /opt/airflow/dags/NER/ontologies/data
+        mkdir -p /opt/airflow/dags/NER/ontologies/scripts
+        mkdir -p /opt/airflow/logs
+        
+        echo "Directories created"
+        
+        if [ -d "/opt/airflow/dags/NER/ontologies/scripts" ]; then
+          chmod +x /opt/airflow/dags/NER/ontologies/scripts/*.sh 2>/dev/null || true
+          echo "Scripts made executable"
+        fi
+        
+        echo "Initializing Airflow database..."
+        airflow db init
+        airflow db upgrade
+        
+        if [ -f "/opt/airflow/dags/airflow_dags/create_user.py" ]; then
+          python /opt/airflow/dags/airflow_dags/create_user.py
+        fi
+        
+        echo "Setup complete"
+        echo "Starting Airflow services..."
+        
+        airflow webserver --port 8080 &
         airflow scheduler
       '
 
@@ -59,7 +105,7 @@ services:
     container_name: medjsonify_neo4j
     restart: always
     environment:
-      - NEO4J_AUTH=neo4j/testpassword
+      NEO4J_AUTH: neo4j/testpassword
     ports:
       - "7474:7474"
       - "7687:7687"

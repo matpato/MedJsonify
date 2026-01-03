@@ -16,6 +16,7 @@ with DAG(
     start_date=datetime.now(),
     # Don't run for periods that were missed if the scheduler was down
     catchup=False,
+    tags=['medjsonify', 'Neo4j', 'biomedical', 'graphs', 'ontologies'],
 ) as dag:
     
    

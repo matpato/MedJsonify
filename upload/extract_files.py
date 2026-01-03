@@ -15,6 +15,7 @@
 import os
 import shutil
 import glob
+import fnmatch
 from tqdm import tqdm
 from upload.upload_loader import UploadLoader
 import datetime
@@ -35,9 +36,10 @@ file_patterns = config.get_file_patterns()
 def copy_files(src_directory, dest_directory, file_pattern):
     """
     Copy files matching the pattern from source directory to destination.
+    Only searches the specified directory (non-recursive) to respect source_paths configuration.
     
     Args:
-        src_directory (str): Source directory to search for files
+        src_directory (str): Source directory to search for files (e.g., .../prescription)
         dest_directory (str): Destination directory where files will be copied
         file_pattern (str): Pattern to match files (e.g., '*.xml', 'products.txt')
     """
@@ -49,19 +51,38 @@ def copy_files(src_directory, dest_directory, file_pattern):
             print(f"Insufficient permissions to create directory: {dest_directory}")
             return
 
+    # Check if source directory exists
+    if not os.path.exists(src_directory):
+        print(f"Source directory does not exist: {src_directory}")
+        return
+
     if '*' in file_pattern:
-        matching_files = []
-        for root, _, files in os.walk(src_directory):
-            for file in files:
-                if glob.fnmatch.fnmatch(file, file_pattern):
-                    matching_files.append(os.path.join(root, file))
+        # Use glob to find matching files only in the specified directory (non-recursive)
+        pattern_path = os.path.join(src_directory, file_pattern)
+        matching_files = glob.glob(pattern_path)
+        
+        # If no files found, also check subdirectories ONE level deep
+        # This handles cases where files might be in immediate subdirectories
+        if not matching_files:
+            pattern_path_recursive = os.path.join(src_directory, '*', file_pattern)
+            matching_files = glob.glob(pattern_path_recursive)
     else:
+        # Specific file pattern (e.g., 'products.txt')
         matching_files = [os.path.join(src_directory, file_pattern)]
+
+    if not matching_files:
+        print(f"No files matching pattern '{file_pattern}' found in {src_directory}")
+        return
+
+    print(f"Found {len(matching_files)} file(s) matching '{file_pattern}' in {src_directory}")
 
     # OBJECTIVE: Copy all matching files to the destination with progress tracking
     for src_file in tqdm(matching_files, desc=f"Copying {file_pattern} files", unit="file"):
-        if os.path.exists(src_file):
-            shutil.copy(src_file, dest_directory)
+        if os.path.exists(src_file) and os.path.isfile(src_file):
+            try:
+                shutil.copy(src_file, dest_directory)
+            except Exception as e:
+                print(f"Error copying {src_file}: {e}")
 
 def get_previous_month_csv_pattern():
     now = datetime.datetime.now()
@@ -75,41 +96,72 @@ def get_previous_month_csv_pattern():
 
 # OBJECTIVE: Read the list of files to process from filename.txt
 with open(os.path.join(downloads_dir, 'filename.txt'), 'r') as f:
-    file_filenames = f.readlines()
-    for i in range(len(file_filenames)):
-        file_filenames[i] = file_filenames[i].strip('\n')
+    file_filenames = [line.strip() for line in f.readlines()]
+
+print(f"Processing {len(file_filenames)} file(s) from filename.txt")
 
 # OBJECTIVE: Process each file according to its source type
-for i in range(len(file_filenames)):
-    source_type = selected_directories[i]
-    base_dir = os.path.splitext(file_filenames[i])[0]
+for i, filename in enumerate(file_filenames):
+    # Determine source type based on filename pattern
+    if 'purplebook' in filename.lower():
+        source_type = 'purplebook'
+        idx = selected_directories.index('purplebook')
+    elif 'orangebook' in filename.lower():
+        source_type = 'orangebook'
+        idx = selected_directories.index('orangebook')
+    elif 'dm_spl' in filename.lower() or 'dailymed' in filename.lower():
+        source_type = 'dailymed'
+        idx = selected_directories.index('dailymed')
+    else:
+        print(f"Unknown file type: {filename}, skipping...")
+        continue
+
+    print(f"\n[{i+1}/{len(file_filenames)}] Processing {source_type}: {filename}")
+    
+    base_dir = os.path.splitext(filename)[0]
 
     if source_type == "purplebook":
         src_file = os.path.join(downloads_dir, get_previous_month_csv_pattern())
-        dest_directory = dest_directories[i]
+        dest_directory = dest_directories[idx]
         if not os.path.exists(dest_directory):
             os.makedirs(dest_directory)
         if os.path.exists(src_file):
             shutil.copy(src_file, dest_directory)
-            print(f"Copied {src_file} to {dest_directory}")
+            print(f"  ✓ Copied {src_file} to {dest_directory}")
         else:
-            print(f"File not found: {src_file}")
+            print(f"  ✗ File not found: {src_file}")
 
     elif source_type == 'orangebook':
-        src_file = os.path.join(downloads_dir, source_paths[i], file_patterns[i])
-        dest_directory = dest_directories[i]
+        # For orangebook, the extracted directory structure is: orangebook/orangebook/products.txt
+        src_directory = os.path.join(downloads_dir, base_dir, source_paths[idx])
+        src_file = os.path.join(src_directory, file_patterns[idx])
+        dest_directory = dest_directories[idx]
+        
         if not os.path.exists(dest_directory):
             os.makedirs(dest_directory)
         if os.path.exists(src_file):
             shutil.copy(src_file, dest_directory)
-            print(f"Copied {src_file} to {dest_directory}")
+            print(f"  ✓ Copied {src_file} to {dest_directory}")
         else:
-            print(f"File not found: {src_file}")
+            print(f"  ✗ File not found: {src_file}")
 
-    else:
-        if source_paths[i] == '.':
-            src_directory = downloads_dir
+    elif source_type == 'dailymed':
+        # For dailymed, we need to go to the prescription subdirectory
+        # Structure: dm_spl_monthly_update_dec2025/prescription/*.xml
+        if source_paths[idx] == '.':
+            src_directory = os.path.join(downloads_dir, base_dir)
         else:
-            src_directory = os.path.join(downloads_dir, base_dir, source_paths[i])
-        file_pattern = file_patterns[i]
-        copy_files(src_directory, dest_directories[i], file_pattern)
+            src_directory = os.path.join(downloads_dir, base_dir, source_paths[idx])
+        
+        print(f"  Source directory: {src_directory}")
+        print(f"  File pattern: {file_patterns[idx]}")
+        print(f"  Destination: {dest_directories[idx]}")
+        
+        if not os.path.exists(src_directory):
+            print(f"  ✗ Source directory does not exist: {src_directory}")
+            continue
+        
+        # Copy files using the configured pattern (*.xml from prescription folder only)
+        copy_files(src_directory, dest_directories[idx], file_patterns[idx])
+
+print("\n✓ File extraction complete")

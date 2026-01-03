@@ -57,6 +57,15 @@ class UploadLoader:
         """
         return [i.strip("'").strip(" ") for i in self.config['general']['selected_url'].split(",")]
     
+    def get_dailymed_months(self):
+        """
+        Get the number of months to download for DailyMed.
+        
+        Returns:
+            int: Number of months (default: 3)
+        """
+        return self.config.getint('general', 'dailymed_months', fallback=1)
+
     def get_urls(self):
         """
         Get the download URLs for the selected directories.

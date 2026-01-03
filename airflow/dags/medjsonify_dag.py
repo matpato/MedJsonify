@@ -1,22 +1,42 @@
 #################################################################################
 #                                                                               #  
-# @file: jsonify_dag.py                                                         #  
-# @description: Airflow DAG for the complete data processing pipeline           #
+# @file: medjsonify_dag.py                                                      #  
+# @description: Complete MedJsonify pipeline DAG                                #
 # @date: May 2025                                                               #
-# @version: 2.0                                                                 #  
+# @version: 2.1                                                                 #  
 #                                                                               #  
 # This module defines an Airflow DAG (Directed Acyclic Graph) that orchestrates #
 # the complete data processing pipeline from JSON conversion to NER processing. #
 # It includes tasks for conversion, vocabulary download, preprocessing, and     #
 # named entity recognition, with proper dependencies between tasks.             #
 #                                                                               #  
+# For running individual stages, use the dedicated DAGs:                        #
+# - 1_data_acquisition_dag.py (download/extract)                                #
+# - 2_converter_dag.py (JSON conversion)                                        #
+# - 3_ner_dag.py (NER processing only)                                          #
+# - 4_neo4j_dag.py (Neo4j loading only)                                         #
+#                                                                               #  
 #################################################################################
 
-from datetime import datetime
+from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from utils.tasks import *
 from airflow.models.variable import Variable
+from utils.tasks import *
+
+# -------------------------------------------------------------------------------------------
+# DAG CONFIGURATION
+# -------------------------------------------------------------------------------------------
+
+default_args = {
+    'owner': 'airflow',
+    'depends_on_past': False,
+    'start_date': datetime(2025, 1, 1),
+    'email_on_failure': True,
+    'email_on_retry': False,
+    'retries': 1,
+    'retry_delay': timedelta(minutes=5),
+}
 
 # OBJECTIVE: Define the complete data processing pipeline DAG
 # Create a monthly scheduled DAG for the end-to-end process
@@ -31,83 +51,126 @@ with DAG(
     start_date=datetime.now(),
     # Don't run for periods that were missed if the scheduler was down
     catchup=False,
+    tags=['medjsonify', 'complete-pipeline', 'biomedical', 'ner', 'ontologies'],
 ) as dag:
     
     email_string = Variable.get("notification_email", default_var="admin@example.com")
-
     notification_emails = [email.strip() for email in email_string.split(',') if email.strip()]
 
-    # NOTE: Initial data acquisition tasks are currently commented out,
-    # suggesting they might be handled manually or in another process
+
+    # # ═══════════════════════════════════════════════════════════════════════════
+    # # STAGE 1: DATA ACQUISITION
+    # # ═══════════════════════════════════════════════════════════════════════════
     
-    # OBJECTIVE: Download data from external sources
-    task_download_from_url = PythonOperator(
-        task_id='download_from_url',
-        python_callable=download_zip_task,
+    init_variables = PythonOperator(
+        task_id='initialize_variables',
+        python_callable=initialize_airflow_variables,
+        provide_context=True,
     )
 
-    # OBJECTIVE: Extract downloaded ZIP files
-    task_unzip_directories = PythonOperator(
-        task_id='unzip_directories',
-        python_callable=unzip_task,
-    )
+    # download_data = PythonOperator(
+    #     task_id='download_data',
+    #     python_callable=download_zip_task,
+    #     email=notification_emails,
+    # )
 
-    # OBJECTIVE: Extract specific files from the unzipped directories
-    task_extract_files = PythonOperator(
-        task_id='extract_files',
-        python_callable=extract_xml_files_task,
-    )
+    # unzip_data = PythonOperator(
+    #     task_id='unzip_data',
+    #     python_callable=unzip_task,
+    #     email=notification_emails,
+    # )
 
-    # OBJECTIVE: Convert extracted files to JSON format
-    # This task transforms XML/CSV/TXT files to a standardized JSON format
-    task_convert_files_to_json = PythonOperator(
-        # Task identifier used in the Airflow UI
-        task_id='convert_files_to_json',
-        # The function to execute (defined in utils.tasks)
+    # extract_files = PythonOperator(
+    #     task_id='extract_files',
+    #     python_callable=extract_xml_files_task,
+    #     email=notification_emails,
+    # )
+
+    
+    # ═══════════════════════════════════════════════════════════════════════════
+    # STAGE 2: FILE CONVERSION
+    # ═══════════════════════════════════════════════════════════════════════════
+    
+    convert_to_json = PythonOperator(
+        task_id='convert_to_json',
         python_callable=convert_files_to_json_task,
-        email_on_failure=True,
         email=notification_emails,
     )
+
     
-    # OBJECTIVE: Download vocabulary files needed for NER processing
-    # This task downloads and prepares the vocabularies and ontologies used for entity recognition
-    task_download_vocabulary = PythonOperator(
-        task_id='download_vocabulary',
+    # ═══════════════════════════════════════════════════════════════════════════
+    # STAGE 3: NER PREPARATION
+    # ═══════════════════════════════════════════════════════════════════════════
+    
+    setup_ontologies = PythonOperator(
+        task_id='setup_ontologies',
+        python_callable=setup_ontologies_task,
+        provide_context=True,
+        email=notification_emails,
+    )
+
+    download_vocabularies = PythonOperator(
+        task_id='download_vocabularies',
         python_callable=download_vocabulary_task,
-        email_on_failure=True,
+        provide_context=True,
         email=notification_emails,
     )
 
-    # OBJECTIVE: Preprocess JSON data for NER
-    # This task prepares the JSON data by cleaning, normalizing, and structuring text
-    task_preprocess_json = PythonOperator(
-        task_id='preprocess_json',
+    
+    # ═══════════════════════════════════════════════════════════════════════════
+    # STAGE 4: NER PROCESSING
+    # ═══════════════════════════════════════════════════════════════════════════
+    
+    preprocess_text = PythonOperator(
+        task_id='preprocess_text',
         python_callable=preprocess_json_task,
-        email_on_failure=True,
+        provide_context=True,
         email=notification_emails,
     )
-    
-    # OBJECTIVE: Run Named Entity Recognition process
-    # This task identifies and extracts biomedical entities from the preprocessed text
-    task_ner_process = PythonOperator(
-        task_id='ner_process',
+
+    extract_entities = PythonOperator(
+        task_id='extract_entities',
         python_callable=ner_process_task,
-        email_on_failure=True,
+        provide_context=True,
         email=notification_emails,
     )
 
-    # OBJECTIVE: Send processed data to Neo4j database
-    task_send_to_neo4j = PythonOperator(
-        task_id='send_to_neo4j',
-        python_callable=send_to_neo4j_task,
-        email_on_failure=True,
+    validate_results = PythonOperator(
+        task_id='validate_results',
+        python_callable=validate_results_task,
+        provide_context=True,
         email=notification_emails,
     )
 
-    # OBJECTIVE: Define the DAG task dependencies/workflow
-    # The commented-out section represents the full pipeline including data acquisition
-    # task_download_from_url >> task_unzip_directories >> task_extract_files >> 
     
-    # Define the workflow: conversion → vocabulary → preprocessing → NER
-    # Each task waits for the previous one to complete successfully
-    task_download_from_url >> task_unzip_directories >> task_extract_files >> task_convert_files_to_json >> task_download_vocabulary >> task_preprocess_json >> task_ner_process >> task_send_to_neo4j
+    # ═══════════════════════════════════════════════════════════════════════════
+    # STAGE 5: DATABASE LOADING
+    # ═══════════════════════════════════════════════════════════════════════════
+    
+    load_to_neo4j = PythonOperator(
+        task_id='load_to_neo4j',
+        python_callable=send_to_neo4j_task,
+        email=notification_emails,
+    )
+
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # PIPELINE DEPENDENCIES
+    # ═══════════════════════════════════════════════════════════════════════════
+    
+    # Stage 1: Data Acquisition
+    # init_variables >> download_data >> unzip_data >> extract_files
+    
+    # Stage 2: Conversion (depends on data extraction)
+    # extract_files >> 
+    convert_to_json
+    
+    # Stage 3: NER Preparation (parallel setup after initialization)
+    init_variables >> setup_ontologies >> download_vocabularies
+    
+    # Stage 4: NER Processing (depends on both conversion and NER setup)
+    [convert_to_json, setup_ontologies, download_vocabularies] >> preprocess_text
+    preprocess_text >> extract_entities >> validate_results
+    
+    # Stage 5: Neo4j Loading (depends on validated NER results)
+    validate_results >> load_to_neo4j

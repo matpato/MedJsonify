@@ -37,6 +37,11 @@ with DAG(
     start_date=datetime.now(),
     # Don't run for periods that were missed if the scheduler was down
     catchup=False,
+    tags=['jsonifyer', 'convert files', 'txt', 'csv', 'xml'],
+    default_args={
+        'email_on_failure': True,
+        'email': [Variable.get("notification_email", default_var="admin@example.com")],
+    }
 ) as dag:
     
     
