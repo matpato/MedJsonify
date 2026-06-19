@@ -155,6 +155,17 @@ with DAG(
 
 
     # ═══════════════════════════════════════════════════════════════════════════
+    # STAGE 6: GRAPH EXPORT
+    # ═══════════════════════════════════════════════════════════════════════════
+
+    export_graph = PythonOperator(
+        task_id='export_graph_to_csv',
+        python_callable=export_graph_task,
+        email=notification_emails,
+    )
+
+
+    # ═══════════════════════════════════════════════════════════════════════════
     # PIPELINE DEPENDENCIES
     # ═══════════════════════════════════════════════════════════════════════════
     
@@ -174,3 +185,6 @@ with DAG(
     
     # Stage 5: Neo4j Loading (depends on validated NER results)
     validate_results >> load_to_neo4j
+
+    # Stage 6: Graph Export (depends on Neo4j being populated)
+    load_to_neo4j >> export_graph
