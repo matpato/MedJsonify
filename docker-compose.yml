@@ -42,20 +42,20 @@ services:
     volumes:
       - ./airflow/dags:/opt/airflow/dags/airflow_dags
       - ./airflow/dags/utils:/opt/airflow/dags/utils
-      - ./NER:/opt/airflow/dags/NER
-      - ./jsonify:/opt/airflow/dags/jsonify
-      - ./jsonify/data:/opt/airflow/dags/jsonify/data
-      - ./upload:/opt/airflow/dags/upload
-      - ./database:/opt/airflow/dags/database
+      - ./03_NER:/opt/airflow/dags/NER
+      - ./02_jsonify:/opt/airflow/dags/jsonify
+      - ./02_jsonify/data:/opt/airflow/dags/jsonify/data
+      - ./01_upload:/opt/airflow/dags/upload
+      - ./04_database:/opt/airflow/dags/database
       - ./airflow/dags/airflow.cfg:/opt/airflow/dags/airflow.cfg
-      - ./NER/bioner.ini:/opt/airflow/dags/NER/bioner.ini
-      - ./database/neo4j.ini:/opt/airflow/dags/database/neo4j.ini
-      - ./upload/upload.ini:/opt/airflow/dags/upload/upload.ini
-      - ./jsonify/jsonify.ini:/opt/airflow/dags/jsonify/jsonify.ini
+      - ./03_NER/bioner.ini:/opt/airflow/dags/NER/bioner.ini
+      - ./04_database/neo4j.ini:/opt/airflow/dags/database/neo4j.ini
+      - ./01_upload/upload.ini:/opt/airflow/dags/upload/upload.ini
+      - ./02_jsonify/jsonify.ini:/opt/airflow/dags/jsonify/jsonify.ini
       - ./requirements.txt:/opt/airflow/requirements.txt
       - ./logs:/opt/airflow/logs
-      - ./NER/ontologies/data:/opt/airflow/dags/NER/ontologies/data
-      - ./NER/ontologies/scripts:/opt/airflow/dags/NER/ontologies/scripts
+      - ./03_NER/ontologies/data:/opt/airflow/dags/NER/ontologies/data
+      - ./03_NER/ontologies/scripts:/opt/airflow/dags/NER/ontologies/scripts
     user: "1000:0"
     command: >
       bash -c '

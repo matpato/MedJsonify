@@ -42,7 +42,7 @@ COPY --chown=airflow:root requirements.txt /opt/airflow/requirements.txt
 RUN pip install --no-cache-dir --user -r /opt/airflow/requirements.txt
 
 # Happens when you run: docker-compose build
-COPY ./NER /opt/airflow/dags/NER          
+COPY ./03_NER /opt/airflow/dags/NER          
 RUN find /opt/airflow/dags/NER -type f -name "*.sh" -exec chmod +x {} \; || true
 
 # Set Python path to include DAGs directory
