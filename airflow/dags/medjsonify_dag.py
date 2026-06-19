@@ -188,3 +188,17 @@ with DAG(
 
     # Stage 6: Graph Export (depends on Neo4j being populated)
     load_to_neo4j >> export_graph
+
+
+    # ═══════════════════════════════════════════════════════════════════════════
+    # STAGE 7: STRUCTURAL SIMILARITY
+    # ═══════════════════════════════════════════════════════════════════════════
+
+    compute_similarity = PythonOperator(
+        task_id='compute_structural_similarity',
+        python_callable=compute_similarity_task,
+        email=notification_emails,
+    )
+
+    # Stage 7: Similarity (depends on CSVs being exported)
+    export_graph >> compute_similarity

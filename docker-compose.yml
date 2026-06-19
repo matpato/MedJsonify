@@ -35,7 +35,7 @@ services:
       AIRFLOW__WEBSERVER__SECRET_KEY: "5dcfb94dd79578307141e3beec5e07ebb43ef007dffa45a4400c5187e217bb66"
       AIRFLOW__CORE__LOAD_EXAMPLES: "False"
       AIRFLOW__CORE__DAGS_FOLDER: "/opt/airflow/dags/airflow_dags"
-      PYTHONPATH: "/opt/airflow/dags:/opt/airflow/dags/jsonify/src"
+      PYTHONPATH: "/opt/airflow/dags:/opt/airflow/dags/jsonify/src:/opt/airflow/dags/similarities"
       AIRFLOW_CONFIG: "/opt/airflow/dags/airflow.cfg"
     ports:
       - "8080:8080"
@@ -47,6 +47,7 @@ services:
       - ./02_jsonify/data:/opt/airflow/dags/jsonify/data
       - ./01_upload:/opt/airflow/dags/upload
       - ./04_database:/opt/airflow/dags/database
+      - ./05_similarities:/opt/airflow/dags/similarities
       - ./airflow/dags/airflow.cfg:/opt/airflow/dags/airflow.cfg
       - ./03_NER/bioner.ini:/opt/airflow/dags/NER/bioner.ini
       - ./04_database/neo4j.ini:/opt/airflow/dags/database/neo4j.ini
