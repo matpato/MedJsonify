@@ -549,34 +549,3 @@ def export_graph_task(**kwargs):
 
     logging.info("Graph export complete")
 
-
-# -------------------------------------------------------------------------------------------
-# SIMILARITY TASKS
-# -------------------------------------------------------------------------------------------
-
-def compute_similarity_task(**kwargs):
-    """
-    Compute pairwise structural similarity between CHEBI drugs and write similar.csv.
-
-    Reads indicated.csv and contraindicated.csv from the database output directory,
-    fetches SMILES from ChEBI, computes Tanimoto + Morgan similarity via RDKit,
-    filters pairs where tanimoto < 0.7, and writes similar.csv to the same directory.
-    """
-    from similarities.structural_similarity import compute_similar_csv
-
-    logging.info("Starting structural similarity computation...")
-
-    config = DAGConfig()
-
-    output_dir = config.config_neo4j.get(
-        'neo4j', 'export_dir',
-        fallback='/opt/airflow/dags/database/output'
-    )
-
-    result = compute_similar_csv(
-        indicated_csv=os.path.join(output_dir, 'indicated.csv'),
-        contraindicated_csv=os.path.join(output_dir, 'contraindicated.csv'),
-        output_path=os.path.join(output_dir, 'similar.csv'),
-    )
-
-    logging.info(f"Similarity computation complete: {len(result)} pairs written to similar.csv")
