@@ -15,37 +15,23 @@ def load_config():
     return config
 
 def convert_all_files():
-        # Load configuration
-        config = load_config()
-
-        # Use paths from config 
-        input_folder = Path(config['folders']['base_input_folder'])
-        output_folder = Path(config['folders']['base_output_folder'])
-        data_folder = Path(config['folders']['data_folder'])
-
-        # Create necessary directories
+        BASE_DIR = Path("/opt/airflow/dags/jsonify/src")
+        input_folder = BASE_DIR / 'types'
+        output_folder = BASE_DIR / 'json'
+        
         for dir_type in ['xml_files', 'csv_files', 'txt_files']:
             os.makedirs(output_folder / dir_type, exist_ok=True)
         
-        # Ensure data folder exists
-        os.makedirs(data_folder, exist_ok=True)
-
-        # Get state tracking files from config
         repeated_files = {
-            'xml_files': Path(config['state_tracking']['xml_processed']),
-            'csv_files': Path(config['state_tracking']['csv_processed']),
-            'txt_files': Path(config['state_tracking']['txt_processed'])
+            'xml_files': BASE_DIR / 'xml_processed.txt',
+            'csv_files': BASE_DIR / 'csv_processed.txt',
+            'txt_files': BASE_DIR / 'txt_processed.txt'
         }
         
-        # Create state tracking files if they don't exist
         for file_path in repeated_files.values():
             if not file_path.exists():
-                file_path.parent.mkdir(parents=True, exist_ok=True)
                 file_path.touch()
-                print(f"INFO: Created state tracking file: {file_path}")
         
-        #######################################################################################################
-        # XML PROCESSING
         #######################################################################################################
 
         xml_input_dir = input_folder / 'xml_files'
@@ -97,21 +83,17 @@ def convert_all_files():
                 )
                 
                 if isinstance(result, dict) and 'message' in result:
-                    print(f"{result['message']}")
+                    print(f"✓ {result['message']}")
                 else:
-                    print("XML files processed")
+                    print("✓ XML files processed")
                     
             except Exception as e:
-                print(f"Error processing XML files: {str(e)}")
+                print(f"✗ Error processing XML files: {str(e)}")
                 raise
-        else:
-            print(f"INFO: XML input directory not found: {xml_input_dir}") 
 
         print("INFO: Finished XML file processing. Starting CSV file processing...")
 
-        #######################################################################################################
-        # CSV PROCESSING
-        #######################################################################################################
+        ########################################################################################################
 
         csv_input_dir = input_folder / 'csv_files'
         csv_output_dir = output_folder / 'csv_files'
@@ -122,6 +104,18 @@ def convert_all_files():
                 if not filename.lower().endswith('.csv'):
                     continue
                 filepath = csv_input_dir / filename
+
+                # --- encoding fix: rewrite as UTF-8 before the package sees it ---
+                with open(filepath, 'rb') as f:
+                    raw = f.read()
+                try:
+                    raw.decode('utf-8')
+                except UnicodeDecodeError:
+                    print(f"INFO: Re-encoding {filename} from latin-1 to UTF-8...")
+                    with open(filepath, 'w', encoding='utf-8') as f:
+                        f.write(raw.decode('latin-1'))
+                # ------------------------------------------------------------
+
                 print(f"INFO: Attempting to process CSV: {filename}...")
 
                 try:
@@ -136,21 +130,17 @@ def convert_all_files():
                     print(f"INFO: Finished processing CSV: {filename}. Result: {result}")
                     
                     if isinstance(result, dict) and 'message' in result:
-                        print(f"{result['message']}")
+                        print(f"✓ {result['message']}")
                     else:
-                        print(f"{filename} processed")
+                        print(f"✓ {filename} processed")
 
                 except Exception as e:
-                    print(f"Error processing {filename}: {str(e)}")
+                    print(f"✗ Error processing {filename}: {str(e)}")
                     raise
-        else:
-            print(f"INFO: CSV input directory not found: {csv_input_dir}")
 
         print("INFO: Finished CSV file processing. Starting TXT file processing...")
 
-        #######################################################################################################
-        # TXT PROCESSING
-        #######################################################################################################
+        ########################################################################################################
 
         txt_input_dir = input_folder / 'txt_files'
         txt_output_dir = output_folder / 'txt_files'
@@ -176,15 +166,13 @@ def convert_all_files():
                     print(f"INFO: Finished processing TXT: {filename}. Result: {result}")
                     
                     if isinstance(result, dict) and 'message' in result:
-                        print(f"{result['message']}")
+                        print(f"✓ {result['message']}")
                     else:
-                        print(f"{filename} processed")
+                        print(f"✓ {filename} processed")
 
                 except Exception as e:
-                    print(f"Error processing {filename}: {str(e)}")
+                    print(f"✗ Error processing {filename}: {str(e)}")
                     raise
-        else:
-            print(f"INFO: TXT input directory not found: {txt_input_dir}")
 
         print("All file conversions attempted.")
         return 0

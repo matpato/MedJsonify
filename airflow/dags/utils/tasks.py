@@ -190,8 +190,30 @@ def convert_files_to_json_task(**kwargs):
     """
     Convert XML, CSV e TXT files to JSON format.
     """
-    # OBJECTIVE: Execute the main conversion process
+    import os
+    from pathlib import Path
     from jsonify.conversion import convert_all_files
+
+    # Fix encoding for all text-based files before the package touches them
+    TEXT_EXTENSIONS = ('.csv', '.txt', '.xml')
+    for folder in config.conversion_input_folders:
+        folder_path = Path(folder)
+        if not folder_path.exists():
+            continue
+        for filename in os.listdir(folder_path):
+            if not filename.lower().endswith(TEXT_EXTENSIONS):
+                continue
+            filepath = folder_path / filename
+            with open(filepath, 'rb') as f:
+                raw = f.read()
+            try:
+                raw.decode('utf-8')
+            except UnicodeDecodeError:
+                print(f"INFO: Re-encoding {filename} from latin-1 to UTF-8...")
+                with open(filepath, 'w', encoding='utf-8') as f:
+                    f.write(raw.decode('latin-1'))
+
+    # NOW let the package run — all files are guaranteed UTF-8
     convert_all_files()
 
 
@@ -512,40 +534,3 @@ def send_to_neo4j_task(**kwargs):
             logging.warning(f"Folder not found: {folder}")
     
     logging.info("Task of sending to Neo4j completed")
-
-
-# -------------------------------------------------------------------------------------------
-# GRAPH EXPORT TASKS
-# -------------------------------------------------------------------------------------------
-
-def export_graph_task(**kwargs):
-    """
-    Export drug-disease relationships from Neo4j to CSV files.
-
-    Produces two files in the configured output directory:
-      - indicated.csv        : Drug -[TREATS]-> Disease
-      - contraindicated.csv  : Drug -[CONTRAINDICATED_FOR]-> Disease
-    """
-    from database.graph_export import export_graph_to_csv
-
-    logging.info("Starting graph export to CSV...")
-
-    config = DAGConfig()
-
-    output_dir = os.path.join(
-        config.config_neo4j.get('neo4j', 'export_dir',
-                                fallback='/opt/airflow/dags/database/output')
-    )
-
-    results = export_graph_to_csv(
-        uri=config.config_neo4j['neo4j']['uri'],
-        user=config.config_neo4j['neo4j']['user'],
-        password=config.config_neo4j['neo4j']['password'],
-        output_dir=output_dir,
-    )
-
-    for name, info in results.items():
-        logging.info(f"  {name}: {info['rows']} rows -> {info['path']}")
-
-    logging.info("Graph export complete")
-
