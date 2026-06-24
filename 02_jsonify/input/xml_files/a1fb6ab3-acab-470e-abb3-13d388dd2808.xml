@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a1fb6ab3-acab-470e-abb3-13d388dd2808"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Triadermex Kit</title>
+   <effectiveTime value="20260521"/>
+   <setId root="3bda5cd1-df3c-4b4c-9868-cbc41f66f5a6"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119257612" root="1.3.6.1.4.1.519.1"/>
+            <name>Florrax Pharmaceutical</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="117039304" root="1.3.6.1.4.1.519.1"/>
+                        <name>Skya Health, LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="84460-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="67877-251" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="adaa8daa-cb3a-4586-bcf6-cfdbb6302400"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260505"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="84460-100" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Triadermex</name>
+                        <formCode code="C47916" displayName="KIT" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Triamcinolone Acetonide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="84460-100-08" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43197" displayName="KIT" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250613"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="g" value="80"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code code="67877-251" codeSystem="2.16.840.1.113883.6.69"/>
+                              <name>Triamcinolone Acetonide</name>
+                              <formCode code="C28944" displayName="CREAM" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Triamcinolone Acetonide</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator unit="mg" value="1"/>
+                                    <denominator unit="g" value="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIAMCINOLONE ACETONIDE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="F446C597KA" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>TRIAMCINOLONE ACETONIDE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MINERAL OIL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PROPYLENE GLYCOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="8KW3E207O2" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SORBITOL SOLUTION</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="5ZA2S6B08X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CETYL PALMITATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="X045WJ989B" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SORBIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="1VPU26JZZ4" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POTASSIUM SORBATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="g" value="80"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="67877-251-80" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C42794" displayName="TUBE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA088042" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20250613"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" displayName="TOPICAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" displayName="unapproved drug other" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250613"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0fb5fca3-c9af-49e3-b3bd-6a79b7d6d302">
+               <id root="0fb5fca3-c9af-49e3-b3bd-6a79b7d6d302"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>The topical corticosteroids constitute a class of primarily synthetic steroids used as anti-inflammatory and antipruritic agents. Triamcinolone acetonide is a member of this class. Chemically triamcinolone acetonide is pregna-1, 4-diene-3, 20-dione, 9-fluoro-11, 21-dihydroxy-16, 17-[(1-methylethylidene) bis(oxy)]-(11β16α) Its structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/> </paragraph>
+                  <paragraph>Each gram of Triamcinolone Acetonide Cream USP, 0.1% contains 1 mg triamcinolone acetonide USP in a cream base consisting of purified water, emulsifying wax, mineral oil, propylene glycol, sorbitol solution, cetyl palmitate, sorbic acid, and potassium sorbate.</paragraph>
+               </text>
+               <effectiveTime value="20250709"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="triamdermex-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_37bc00c3-02af-4c59-aae4-c181ddeab990">
+               <id root="2e728a5d-9d74-4d0f-b4d7-158b76f9cae3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions.</paragraph>
+                  <paragraph>The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pharmacokinetics</content>
+                  </paragraph>
+                  <paragraph>The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle, the integrity of the epidermal barrier, and the use of occlusive dressings.</paragraph>
+                  <paragraph>Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin increase percutaneous absorption. Occlusive dressings substantially increase the percutaneous absorption of topical corticosteroids. Thus, occlusive dressings may be a valuable therapeutic adjunct for treatment of resistant dermatoses<content styleCode="italics">. </content>
+                  </paragraph>
+                  <paragraph>Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Corticosteroids are bound to plasma proteins in varying degrees. Corticosteroids are metabolized primarily in the liver and are then excreted by the kidneys. Some of the topical corticosteroids and their metabolites are also excreted into the bile.</paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20260429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_11096cd6-8a93-4474-a120-d86d1b8bf347">
+               <id root="11096cd6-8a93-4474-a120-d86d1b8bf347"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Topical corticosteroids are indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.</paragraph>
+               </text>
+               <effectiveTime value="20250709"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_aca359d4-75d4-44ee-8db7-d93770103940">
+               <id root="aca359d4-75d4-44ee-8db7-d93770103940"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Topical corticosteroids are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.</paragraph>
+               </text>
+               <effectiveTime value="20250709"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_65812723-68da-4716-be99-4d95ed763bf4">
+               <id root="65812723-68da-4716-be99-4d95ed763bf4"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae, and miliaria.</paragraph>
+               </text>
+               <effectiveTime value="20250709"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8e06f382-30a9-44d0-a5d3-99f15ccf38b8">
+               <id root="e789f568-eb67-4e44-b619-f66647526e36"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects </paragraph>
+               </text>
+               <effectiveTime value="20260429"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_dcdb74c4-ac6e-42ff-89f7-8c3dac17c55d">
+               <id root="b7e5d6fa-1bb9-46d4-8b78-df86986fde86"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>Topical corticosteroids are generally applied to the affected area as a thin film two to four times daily for the 0.025% strength and two or three times daily for the 0.1% and 0.5% strength depending on the severity of the condition.</paragraph>
+                  <paragraph>Occlusive dressings may be used for the management of psoriasis or recalcitrant conditions.</paragraph>
+                  <paragraph>If an infection develops, the use of occlusive dressings should be discontinued and appropriate antimicrobial therapy instituted.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e4af845-fb9e-4d96-8935-379157e82191">
+               <id root="508d8407-097f-4820-a89c-eda9c827bf13"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Triamcinolone Acetonide Cream USP, 0.1%, 80 g - (1 Tube)</paragraph>
+                  <paragraph>80 grams tube NDC84460-0100-08</paragraph>
+                  <paragraph>Store at 20°–25°C (68°–77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Avoid excessive heat. Protect from freezing.</paragraph>
+                  <paragraph>PRINTED IN USA</paragraph>
+                  <paragraph>Packaged by:<br/>
+Oncora Pharma LLC</paragraph>
+                  <paragraph>Dallas TX 75228</paragraph>
+                  <paragraph>Questions or Comments<br/>
+Call: (833) 242-4493<br/>
+                     <br/>
+                  </paragraph>
+                  <br/>
+               </text>
+               <effectiveTime value="20260521"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_72ee5dbf-4eea-4fc8-9c6c-825766f9d505">
+               <id root="e0522b0c-1a54-4170-a46c-3db8da4df201"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - Label</title>
+               <text>
+                  <paragraph>NDC:84460-100-08</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Triadermex</content>
+                     </content>
+                     <sup>TM</sup>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>Kit Includes:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Triamcinolone Acetonide Cream USP, 0.1%, 80 g - (1 Tube)</item>
+                     <item>Silicone Tape Roll - (1 Roll)</item>
+                     <item>Sterile Gauze Pads - (20 count)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Triamcinolone Acetonide Cream USP</content>
+                     <br/>
+Each gram contains 1 mg Triamcinolone Acetonide USP in a cream base<br/>
+consisting of purified water, emulsifying wax, mineral oil, propylene<br/>
+glycol, sorbitol solution, cetyl palmitate, sorbic acid and potassium <br/>
+sorbate.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usual Dosage:</content> 2 to 3 applications daily. See package insert for full<br/>
+prescribing information.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TO OPEN: </content>Use cap to puncture seal. <content styleCode="bold">IMPORTANT: </content>Do not use if seal<br/>
+has been punctured or is not visible.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">See enclosed insert for full prescribing information.</content>
+                  </paragraph>
+                  <paragraph>Store at 20<sup>o</sup> to 25<sup>o</sup> C (68<sup>o</sup> to 77<sup>o</sup> F)<br/>
+[see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Keep this and all medication out of reach of children.<br/>
+For external use only.<br/>
+Not for ophthalmic use.</content>
+                  </paragraph>
+                  <paragraph>Packaged by:</paragraph>
+                  <paragraph>Oncora Pharma LLC<br/>
+Dallas, TX 75228<br/>
+Questions or Comments<br/>
+Call: (833) 242-4493</paragraph>
+                  <renderMultiMedia referencedObject="MM2">
+                     <caption>pdp</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20260507"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>pdp</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="triamdermex-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

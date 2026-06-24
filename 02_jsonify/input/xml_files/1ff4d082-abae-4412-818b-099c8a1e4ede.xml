@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1ff4d082-abae-4412-818b-099c8a1e4ede"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Tigan<sup>®</sup>
+   </title>
+   <effectiveTime value="20260310"/>
+   <setId root="7da90678-b229-4ad6-9193-2b8a3e9ba695"/>
+   <versionNumber value="13"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119547712" root="1.3.6.1.4.1.519.1"/>
+            <name>Par Health USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="c8e2020a-a1dc-4b87-80b3-624b279c482e"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260413"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42023-119" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Tigan</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>trimethobenzamide hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="WDQ5P1SX7Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRIMETHOBENZAMIDE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="W2X096QY97" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRIMETHOBENZAMIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42023-119-25" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" displayName="TRAY" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20080801"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017530" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20080801"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_96078b55-368a-45f7-9db5-71fba4827646">
+               <id root="1f164228-d0b7-43c9-b2f0-e7018bc20e60"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>(trimethobenzamide hydrochloride)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Injection</content>
+                  </paragraph>
+                  <paragraph>For Intramuscular Use Only</paragraph>
+                  <paragraph>Not for Use in Pediatric Patients</paragraph>
+               </text>
+               <effectiveTime value="20250506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b34fea21-a68d-4b50-95d5-204d2ad7cc90">
+               <id root="415793eb-ab96-4435-a08f-400f19396265"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Chemically, trimethobenzamide hydrochloride (HCl) is N-[<content styleCode="italics">p</content>-[2-(dimethylamino)ethoxy]benzyl]-3,4,5-trimethoxybenzamide monohydrochloride. It has a molecular weight of 424.93 and the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>
+                     <content styleCode="bold">Single Dose Vials:</content> Each 2-mL single-dose vial contains 200 mg trimethobenzamide hydrochloride compounded with 0.878 mg sodium citrate  and 0.4 mg citric acid monohydrate as buffers and pH adjusted to approximately 5.0 with sodium hydroxide and citric acid solution.</paragraph>
+               </text>
+               <effectiveTime value="20250506"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tigan-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a008fd47-1e42-4771-beff-9a446416f2ad">
+               <id root="485182ee-c61d-4739-8b6c-3ba2dcd4edcd"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250506"/>
+               <component>
+                  <section ID="LINK_ecb5333a-7e14-452a-8673-d1bd8b158f67">
+                     <id root="f6e1af87-aa1d-40c9-bfef-0b0889384b60"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>The mechanism of action of <content styleCode="italics">Tigan</content>
+                           <sup>®</sup> as determined in animals is obscure, but may involve the chemoreceptor trigger zone (CTZ), an area in the medulla oblongata through which emetic impulses are conveyed to the vomiting center; direct impulses to the vomiting center apparently are not similarly inhibited. In dogs pretreated with trimethobenzamide HCl, the emetic response to apomorphine is inhibited, while little or no protection is afforded against emesis induced by intragastric copper sulfate.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b6ae195e-807e-48c7-ae4f-dd9851e63f6e">
+                     <id root="755a6f61-2c15-4a47-91df-f11c5c458b7c"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>The pharmacokinetics of trimethobenzamide have been studied in healthy adult subjects. Following administration of 200 mg (100 mg/mL) Tigan IM injection, the time to reach maximum plasma concentration (T<sub>max</sub>) was about half an hour, about 15 minutes longer for Tigan 300 mg oral capsule than an IM injection. A single dose of Tigan 300 mg oral capsule provided a plasma concentration profile of trimethobenzamide similar to Tigan 200 mg IM. The relative bioavailability of the capsule formulation compared to the solution is 100%. The mean elimination half-life of trimethobenzamide is 7 to 9 hours.  Between 30 – 50% of a single dose in humans is excreted unchanged in the urine within 48 – 72 hours.  The metabolic disposition of trimethobenzamide in humans is not known.  Specifically, it is not known if active metabolites are generated in humans.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b1efb25a-87a7-4dcf-b7d2-d7705c4877ac">
+                     <id root="b2b9bc4f-0aaa-492b-a1aa-8e5ca682162b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Populations</title>
+                     <effectiveTime value="20250506"/>
+                     <component>
+                        <section ID="LINK_b48f263b-f872-4426-b2f8-c085c3466d03">
+                           <id root="93a62c0c-2eaf-448d-b156-cc7b8d9773d5"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Age</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The clearance of trimethobenzamide is not known in patients with renal impairment.  However, it may be advisable to consider reduction in the dosing of trimethobenzamide in elderly patients with renal impairment considering that a substantial amount of excretion and elimination of trimethobenzamide occurs via the kidney and that elderly patients may have various degrees of renal impairment. (See <content styleCode="bold">
+                                    <linkHtml href="#LINK_755657fb-5fa8-4266-8df0-e3c7d83a50c9">PRECAUTIONS: General</linkHtml>
+                                 </content>
+                                 <content styleCode="bold"> and <linkHtml href="#LINK_b39257ef-7a6c-4b10-8717-499013e3b15d">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_0d77a02f-8839-45dd-b8b4-ae418d04dad3">
+                           <id root="1dc8a061-e666-4e48-b7d1-f4c35366a860"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Gender</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Systemic exposure to trimethobenzamide was similar between men (N=40) and women (N=28).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_8ad123f4-e701-4f59-bb66-3571e2ce62ca">
+                           <id root="954b25c0-1516-4729-a1c1-76a72468b075"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Race</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Pharmacokinetics appeared to be similar for Caucasians (N=53) and African Americans (N=12).</paragraph>
+                           </text>
+                           <effectiveTime value="20250506"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_eca86740-9364-4fe0-ba62-3c7d44c87ca9">
+                           <id root="bcbf467e-2682-4cdf-bc15-7baadaa7b2f0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Renal Impairment</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The clearance of trimethobenzamide is not known in patients with renal impairment.  However, it may be advisable to consider reduction in the dosing of trimethobenzamide in patients with renal impairment considering that a substantial amount of excretion and elimination of trimethobenzamide occurs via the kidney. (See <content styleCode="bold">
+                                    <linkHtml href="#LINK_755657fb-5fa8-4266-8df0-e3c7d83a50c9">PRECAUTIONS: General</linkHtml> and <linkHtml href="#LINK_b39257ef-7a6c-4b10-8717-499013e3b15d">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20250506"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c953793a-b1d5-4e98-8879-94ecd2bfdd0c">
+               <id root="9e211a16-02c9-438c-8560-b60bff3206a6"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Tigan</content>
+                     <sup>®</sup> is indicated for the treatment of postoperative nausea and vomiting and for nausea associated with gastroenteritis.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_321c6202-9d10-4860-bfe6-6c95a38d3017">
+               <id root="6e64b606-358d-44bf-998e-f706e453f890"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The injectable form of <content styleCode="italics">Tigan</content>
+                     <sup>®</sup> is contraindicated in pediatric patients and in patients with known hypersensitivity to trimethobenzamide.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fc54b079-1dc6-454a-a379-9cb17d1ca548">
+               <id root="66aa18eb-44e0-4c11-a971-f8fc7039d103"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Tigan</content>
+                     <sup>®</sup> may produce drowsiness. Patients should not operate motor vehicles or other dangerous machinery until their individual responses have been determined.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_71b928bd-4122-4886-b917-d34d4b7726d5">
+                     <id root="bd93be8d-2358-4796-989d-308c9cdec942"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Usage in Pregnancy:</title>
+                     <text>
+                        <paragraph>Trimethobenzamide hydrochloride was studied in reproduction experiments in rats and rabbits and no teratogenicity was suggested. The only effects observed were an increased percentage of embryonic resorptions or stillborn pups in rats administered 20 mg and 100 mg/kg and increased resorptions in rabbits receiving 100 mg/kg. In each study these adverse effects were attributed to one or two dams. The relevance to humans is not known. Since there is no adequate experience in pregnant or lactating women who have received this drug, safety in pregnancy or in nursing mothers has not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6836a36d-a76a-44b8-b08d-4e3b92a44f00">
+                     <id root="37494c82-ba18-452d-857d-c4019f444429"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage with Alcohol:</title>
+                     <text>
+                        <paragraph>Concomitant use of alcohol with <content styleCode="italics">Tigan</content>
+                           <sup>®</sup> may result in an adverse drug interaction.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_82bd93d2-6352-41b6-b61d-1a4277133525">
+               <id root="a3dd8fe2-6722-4cfd-bda2-1a000fec0443"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>During the course of acute febrile illness, encephalitides, gastroenteritis, dehydration and  electrolyte imbalance, especially in children and the elderly or debilitated, CNS reactions such as opisthotonos, convulsions, coma and extrapyramidal symptoms have been reported with and without use of <content styleCode="italics">Tigan</content>
+                     <sup>®</sup> (trimethobenzamide hydrochloride) or other antiemetic agents. In such disorders caution should be exercised in administering <content styleCode="italics">Tigan</content>
+                     <sup>®</sup>, particularly to patients who have recently received other CNS-acting agents (phenothiazines, barbiturates, belladonna derivatives). Primary emphasis should be directed toward the restoration of body fluids and electrolyte balance, the relief of fever and relief of the causative disease process. Overhydration should be avoided since it may result in cerebral edema.</paragraph>
+                  <paragraph>The antiemetic effects of <content styleCode="italics">Tigan</content>
+                     <sup>®</sup> may render diagnosis more difficult in such conditions as appendicitis and obscure signs of toxicity due to overdosage of other drugs.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_755657fb-5fa8-4266-8df0-e3c7d83a50c9">
+                     <id root="d2b32918-c143-453b-b25a-35d29cb63f3e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <effectiveTime value="20240809"/>
+                     <component>
+                        <section ID="LINK_bc45d60f-199e-4599-9c50-b673fd516c47">
+                           <id root="a597299c-6f46-4b72-890b-c232582197a0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Adjustment of Dose in Renal Failure</title>
+                           <text>
+                              <paragraph>A substantial route of elimination of unchanged trimethobenzamide is via the kidney.  Dosage adjustment should be considered in patients with reduced renal function including some elderly patients. (See <content styleCode="bold">
+                                    <linkHtml href="#LINK_a008fd47-1e42-4771-beff-9a446416f2ad">CLINICAL PHARMACOLOGY</linkHtml> and <linkHtml href="#LINK_b39257ef-7a6c-4b10-8717-499013e3b15d">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20240809"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_41bfcc49-3907-431f-89a8-a3b5580e1bbf">
+                     <id root="eb51b904-1ae0-4667-bbad-59a1b04a2fe5"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of trimethobenzamide hydrochloride did not include sufficient numbers of patients aged 65 and over to determine whether they respond differently from younger patients.  Although there are studies reported in the literature that include elderly patients &gt; 65 years old with younger patients, it is not known if there are differences in efficacy or safety parameters for elderly and non-elderly patients treated with trimethobenzamide.  In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function.  Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.  (See <content styleCode="bold">
+                              <linkHtml href="#LINK_a008fd47-1e42-4771-beff-9a446416f2ad">CLINICAL PHARMACOLOGY</linkHtml> and <linkHtml href="#LINK_b39257ef-7a6c-4b10-8717-499013e3b15d">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f60a3380-505f-4f27-b5a1-7439710fce5d">
+               <id root="1a1466c8-75bd-4125-8aff-240710206e35"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>There have been reports of hypersensitivity reactions and Parkinson-like symptoms. There have been instances of hypotension reported following parenteral administration to surgical patients. There have been reports of blood dyscrasias, blurring of vision, coma, convulsions, depression of mood, diarrhea, disorientation, dizziness, drowsiness, headache, jaundice, muscle cramps and opisthotonos. If these occur, the administration of the drug should be discontinued. Allergic-type skin reactions have been observed; therefore, the drug should be discontinued at the first sign of sensitization. While these symptoms will usually disappear spontaneously, symptomatic treatment may be indicated in some cases.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For medical advice about adverse reactions contact your medical professional.  To report SUSPECTED ADVERSE REACTIONS, contact Par Health at 1-800-828-9393 or FDA at 1-800-FDA-1088 (1-800-332-1088) or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b39257ef-7a6c-4b10-8717-499013e3b15d">
+               <id root="fc41c538-a440-417f-83de-aab3938ba7ea"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>(See <content styleCode="bold">
+                        <linkHtml href="#LINK_fc54b079-1dc6-454a-a379-9cb17d1ca548">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#LINK_82bd93d2-6352-41b6-b61d-1a4277133525">PRECAUTIONS</linkHtml>
+                     </content>.)</paragraph>
+                  <paragraph>Dosage should be adjusted according to the indication for therapy, severity of symptoms and the response of the patient.</paragraph>
+               </text>
+               <effectiveTime value="20240809"/>
+               <component>
+                  <section ID="LINK_821b15a4-66ef-4308-8fec-032122f3ba62">
+                     <id root="916f0828-abc7-44bd-8668-39dbd9e8fa8b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Geriatric Patients</title>
+                     <text>
+                        <paragraph>Dose adjustment such as reducing the total dose administered at each dosing or increasing the dosing interval should be considered in elderly patients with renal impairment (creatinine clearance ≤ 70 mL/min/1.73m<sup>2</sup>).  Final dose adjustment should be based upon integration of clinical efficacy and safety considerations.  (See <content styleCode="bold">
+                              <linkHtml href="#LINK_a008fd47-1e42-4771-beff-9a446416f2ad">CLINICAL PHARMACOLOGY</linkHtml> and <linkHtml href="#LINK_82bd93d2-6352-41b6-b61d-1a4277133525">PRECAUTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_decddea1-deeb-449f-b2d3-499619db5106">
+                     <id root="340c2298-3024-441c-8751-100f96e6a484"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients with Renal Impairment</title>
+                     <text>
+                        <paragraph>In subjects with renal impairment (creatinine clearance ≤ 70 mL/min/1.73m<sup>2</sup>), dose adjustment such as reducing the total dose administered at each dosing or increasing the dosing interval should be considered.  (See <content styleCode="bold">
+                              <linkHtml href="#LINK_a008fd47-1e42-4771-beff-9a446416f2ad">CLINICAL PHARMACOLOGY</linkHtml> and <linkHtml href="#LINK_b39257ef-7a6c-4b10-8717-499013e3b15d">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>INJECTABLE, 100 mg/mL (Not for use in pediatric patients)<br/>            <content styleCode="italics">Usual Adult Dosage</content>
+                           <br/>            2 mL (200 mg) t.i.d. or q.i.d. intramuscularly.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">NOTE:</content> The injectable form is intended for intramuscular administration only; it is not recommended for intravenous use.</paragraph>
+                        <paragraph>Intramuscular administration may cause pain, stinging, burning, redness and swelling at the site of injection. Such effects may be minimized by deep injection into the upper outer quadrant of the gluteal region, and by avoiding the escape of solution along the route.</paragraph>
+                     </text>
+                     <effectiveTime value="20240809"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_e67d9194-490a-4987-85ba-bffbd6c5a903">
+               <id root="d34cae05-134c-410a-b849-184f51b89c1e"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store between 20°C to 25°C (68°F to 77°F).</paragraph>
+                  <paragraph>(See USP Controlled Room Temperature.)</paragraph>
+               </text>
+               <effectiveTime value="20250506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_95775c63-f551-4f1b-8797-9a6863d30045">
+               <id root="d48617e1-d155-4fb8-bb54-d48e37228625"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Tigan<sup>®</sup> (trimethobenzamide hydrochloride) is available as follows:</paragraph>
+                  <paragraph>NDC 42023-119-25    200 mg/2mL (100 mg/mL) in 2 mL Single-Dose Vials. Discard Unused Portion. Pack of 25</paragraph>
+               </text>
+               <effectiveTime value="20250506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_09f4ee4f-7d98-410f-8438-b6e3b25765c3">
+               <id root="e59aadd2-d604-4cb3-8320-7b05fefc5e7e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:<br/>
+Par Health USA<br/>
+Rochester, MI 48307</paragraph>
+                  <paragraph>© 2026 Par Health, Inc. or one of its affiliates.</paragraph>
+                  <paragraph>Revised: 03/2026</paragraph>
+               </text>
+               <effectiveTime value="20260310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c3c2977a-2a22-470c-9eb2-987a4974c9ea">
+               <id root="e2fff5e3-e992-486e-89ee-034834b973a4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 200 mg/2 mL Carton</title>
+               <text>
+                  <paragraph>NDC 42023-<content styleCode="bold">119</content>-25</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tigan<sup>®</sup>
+                     </content>
+                     <br/>
+(trimethobenzamide hydrochloride) <content styleCode="bold">Injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">200 mg/2 mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(100 mg/mL)</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular Use Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2 mL </content>Single Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20260310"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>This is an image of Tigan (Trimethobenzamide hydrochloride) Injection 200 mg/2mL (100 mg/mL), 2mL x 25 Single-Dose Vials, Discard Unused Portion, Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="tigan-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

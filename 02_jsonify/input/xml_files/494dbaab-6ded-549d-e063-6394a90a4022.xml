@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="494dbaab-6ded-549d-e063-6394a90a4022"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">HALAVEN</content>
+      <content styleCode="bold">
+         <sup>®</sup>
+      </content>
+      <content styleCode="bold">(eribulin mesylate) injection 0.5 mg/mL</content>
+   </title>
+   <effectiveTime value="20260126"/>
+   <setId root="8fc8fe1d-59fe-4e43-a95c-e7aa13422cd6"/>
+   <versionNumber value="58"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="857007830"/>
+            <name>BSP Pharmaceuticals SpA</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="857007830"/>
+                  <name>BSP Pharmaceuticals SpA</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="857007830"/>
+                        <name>BSP Pharmaceuticals SpA</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43624-002" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4a2e093d-6ba4-32bf-e063-6394a90ac3b6"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260126"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43624-002" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Halaven</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>eribulin mesylate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="mL" value="2"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="AV9U0660CW" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ERIBULIN MESYLATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="LR24G6354G" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ERIBULIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="100" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="43624-002-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C53438" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRAY"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20170421"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA201532" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20170421"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>clear, colorless, sterile solution for intravenous administration</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="46b7876d-62f6-7a4f-e063-6394a90aa64a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Halaven®</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>(eribulin mesylate) Injection, for intravenous use 
+  <br/>  1 mg/2 mL (0.5 mg/mL)
+ </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20191210"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="46b7876d-62f7-7a4f-e063-6394a90aa64a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - SHIPPER LABEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Eisai Manufacturing Limited                </content>
+                  </paragraph>
+                  <paragraph>​Allegato DQA-035/XXXX​</paragraph>
+                  <paragraph>New Chemical Entity Demand Chain Unit European Knowledge Centre</paragraph>
+                  <paragraph>Mosquito Way-Hatfield, Herts, AL 109SN</paragraph>
+                  <paragraph>United Kingdom</paragraph>
+                  <paragraph>​​
+ 
+  <content styleCode="bold">HALAVEN®</content>
+                     <br/>  (eribulin mesylate) Injection, for intravenous use- 0.5mg/ml, 2 ml 
+  <br/>  Store at 15° - 25°C (59° - 77°F). DO NOT FREEZE
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">QTY: 00XXX EXP: MM-YYYY LOT: F1XXYZZZ</content>
+                     <br/>   (22) 900XXX MMYYYY F1XXYZZZ 7
+
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">NDC 43624-002-01</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">(</content>0X) 50X XXXXX 00X X X0 XXX
+
+ </paragraph>
+                  <paragraph>Manufactured by : BSP Pharmaceuticals SpA-Latina Scalo, Italy.
+ 
+  <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>​</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03000004"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20191210"/>
+               <component>
+                  <observationMedia ID="MM03000004">
+                     <text>Image (eribulin mesylate) Injection1 mg/2 mL(0.5 mg/mL)For Intravenous Use</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="EISAI  HALAVEN label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

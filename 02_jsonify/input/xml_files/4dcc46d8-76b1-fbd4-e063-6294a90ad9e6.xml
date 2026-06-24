@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4dcc46d8-76b1-fbd4-e063-6294a90ad9e6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20260324"/>
+   <setId root="4dcc46d8-76b0-fbd4-e063-6294a90ad9e6"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1686" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4dcceaac-fa2b-48ef-e063-6394a90a7a23"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260324"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1686" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VERAPAMIL HYDROCHLORIDE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>VERAPAMIL HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="70069-271" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="2.5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="V3888OEY5R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VERAPAMIL HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="CJ0O37KU29" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VERAPAMIL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1686-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180618"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211015" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180618"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccc6b7-b3f8-008a-e063-6394a90a3918">
+               <id root="4dccc6b7-b3f7-008a-e063-6394a90a3918"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Verapamil hydrochloride is a calcium antagonist or slow-channel inhibitor. Verapamil Hydrochloride Injection, USP is a sterile, nonpyrogenic solution containing verapamil hydrochloride 2.5 mg/mL and sodium chloride 8.5 mg/mL in water for injection. The solution contains no bacteriostat or antimicrobial agent and is intended for single-dose intravenous administration. May contain hydrochloric acid and/or sodium hydroxide for pH adjustment; pH is 4.0 to 6.5. </paragraph>
+                  <paragraph>The chemical name of Verapamil Hydrochloride, USP is benzeneacetonitrile, α-[3-[{2-(3,4-dimethoxyphenyl)ethyl} methylamino] propyl]-3,4-dimethoxy-α-(1-methylethyl) hydrochloride. Verapamil hydrochloride is a white or practically white crystalline powder. It is practically odorless and has a bitter taste. It is soluble in water; freely soluble in chloroform; sparingly soluble in alcohol; practically insoluble in ether. It has the following structural formula:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4dccc6b7-b3f6-008a-e063-6394a90a3918"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Molecular weight: 491.07</paragraph>
+                  <paragraph>Molecular formula: C27H38N2O4 • HCl</paragraph>
+                  <paragraph>Verapamil hydrochloride is not chemically related to other antiarrhythmic drugs.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260324"/>
+               <component>
+                  <observationMedia ID="img_4dccc6b7-b3f6-008a-e063-6394a90a3918">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1685 Structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dcccb34-2e55-1143-e063-6394a90ad87b">
+               <id root="4dcccb34-2e54-1143-e063-6394a90ad87b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Mechanism of Action: Verapamil inhibits the calcium ion (and possibly sodium ion) influx through slow channels into conductile and contractile myocardial cells and vascular smooth muscle cells. The antiarrhythmic effect of verapamil appears to be due to its effect on the slow channel in cells of the cardiac conduction system. The vasodilatory effect of verapamil appears to be due to its effect on blockade of calcium channels as well as α receptors.</paragraph>
+                  <paragraph>In the isolated rabbit heart, concentrations of verapamil that markedly affect SA nodal fibers or fibers in the upper and middle regions of the AV node have very little effect on fibers in the lower AV node (NH region) and no effect on atrial action potentials or His bundle fibers.</paragraph>
+                  <paragraph>Electrical activity in the SA and AV nodes depends, to a large degree, upon calcium influx through the slow channel. By inhibiting this influx, verapamil slows AV conduction and prolongs the effective refractory period within the AV node in a rate-related manner. This effect results in a reduction of the ventricular rate in patients with atrial flutter and/or atrial fibrillation and a rapid ventricular response.</paragraph>
+                  <paragraph>By interrupting reentry at the AV node, verapamil can restore normal sinus rhythm in patients with paroxysmal supraventricular tachycardias (PSVT), including PSVT associated with Wolff-Parkinson-White syndrome.</paragraph>
+                  <paragraph>Verapamil does not induce peripheral arterial spasm.</paragraph>
+                  <paragraph>Verapamil has a local anesthetic action that is 1.6 times that of procaine on an equimolar basis. It is not known whether this action is important at the doses used in man.</paragraph>
+                  <paragraph>Verapamil does not alter total serum calcium levels.</paragraph>
+                  <paragraph>Hemodynamics: Verapamil reduces afterload and myocardial contractility. The commonly used intravenous doses of 5 to 10 mg verapamil hydrochloride produce transient, usually asymptomatic, reduction in normal systemic arterial pressure, systemic vascular resistance and contractility; left ventricular filling pressure is slightly increased. In most patients, including those with organic cardiac disease, the negative inotropic action of verapamil is countered by reduction of afterload, and cardiac index is usually not reduced. However, in patients with moderately severe to severe cardiac dysfunction (pulmonary wedge pressure above 20 mm Hg, ejection fraction less than 30%), acute worsening of heart failure may be seen. Peak therapeutic effects occur within 3 to 5 minutes after a bolus injection.</paragraph>
+                  <paragraph>Pharmacokinetics: Intravenously administered verapamil hydrochloride has been shown to be rapidly metabolized. Following intravenous infusion in man, verapamil is eliminated bi-exponentially, with a rapid early distribution phase (half-life about 4 minutes) and a slower terminal elimination phase (half- life 2 to 5 hours). In healthy men, orally administered verapamil hydrochloride undergoes extensive metabolism in the liver, with 12 metabolites having been identified, most in only trace amounts. The major metabolites have been identified as various N- and O-dealkylated products of verapamil.</paragraph>
+                  <paragraph>Approximately 70% of an administered dose is excreted in the urine and 16% more in the feces within 5 days. About 3% to 4% is excreted as unchanged drug.</paragraph>
+                  <paragraph>Aging may affect the pharmacokinetics of verapamil given to hypertensive patients. Elimination half-life may be prolonged in the elderly.</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccceed-0ed1-ff97-e063-6394a90a1d40">
+               <id root="4dccceed-0ed0-ff97-e063-6394a90a1d40"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Verapamil Hydrochloride Injection, USP is indicated for the following:</paragraph>
+                  <paragraph>Rapid conversion to sinus rhythm of paroxysmal supraventricular tachycardias, including those associated with accessory bypass tracts (Wolff-Parkinson-White [W-P-W] and Lown-Ganong-Levine [L-G-L] syndromes). When clinically advisable, appropriate vagal maneuvers (e.g., Valsalva maneuver) should be attempted prior to verapamil hydrochloride administration.
+  <br/>
+Temporary control of rapid ventricular rate in atrial flutter or atrial fibrillation except when the atrial flutter and/or atrial fibrillation are associated with accessory bypass tracts (Wolff-Parkinson-White (W-P-W) and Lown-Ganong-Levine (L-G-L) syndromes).
+ </paragraph>
+                  <paragraph>In controlled studies in the United States, about 60% of patients with supraventricular tachycardia converted to normal sinus rhythm within 10 minutes after intravenous verapamil hydrochloride.</paragraph>
+                  <paragraph>Uncontrolled studies reported in the world literature describe a conversion rate of about 80%. About 70% of patients with atrial flutter and/or fibrillation with a faster ventricular rate respond with a decrease in ventricular rate of at least 20%. Conversion of atrial flutter or fibrillation to sinus rhythm is uncommon (about 10%) after verapamil hydrochloride and may reflect the spontaneous conversion rate, since the conversion rate after placebo was similar. Slowing of the ventricular rate in patients with atrial fibrillation/flutter lasts 30 to 60 minutes after a single injection.</paragraph>
+                  <paragraph>Because a small fraction (&lt;1%) of patients treated with verapamil hydrochloride respond with life-threatening adverse responses (rapid ventricular rate in atrial flutter/fibrillation, and an accessory bypass tract, marked hypotension, or extreme bradycardia/asystole - see CONTRAINDICATIONS and WARNINGS), the initial use of verapamil hydrochloride injection should, if possible, be in a treatment setting with monitoring and resuscitation facilities , including D.C.-cardioversion capability (see ADVERSE REACTIONS, Suggested Treatment of Acute Cardiovascular Adverse Reactions). As familiarity with the patient's response is gained, use in an office setting may be acceptable.</paragraph>
+                  <paragraph>Cardioversion has been used safely and effectively after verapamil hydrochloride injection.</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccd1f6-52fd-c490-e063-6294a90a3694">
+               <id root="4dccd1f6-52fc-c490-e063-6294a90a3694"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Verapamil hydrochloride injection is contraindicated in:</paragraph>
+                  <paragraph>Severe hypotension or cardiogenic shock.
+  <br/>
+Second- or third-degree AV block (except in patients with a functioning artificial ventricular pacemaker).
+  <br/>
+Sick sinus syndrome (except in patients with a functioning artificial ventricular pacemaker).
+  <br/>
+Severe congestive heart failure (unless secondary to a supraventricular tachycardia amenable to verapamil therapy).
+  <br/>
+Patients receiving intravenous beta-adrenergic blocking drugs (e.g., propranolol). Intravenous verapamil and intravenous beta-adrenergic blocking drugs should not be administered in close proximity to each other (within a few hours), since both may have a depressant effect on myocardial contractility and AV conduction.
+  <br/>
+Patients with atrial flutter or atrial fibrillation and an accessory bypass tract (e.g., Wolff- Parkinson-White, Lown-Ganong-Levine syndromes) are at risk to develop ventricular tachyarrhythmia including ventricular fibrillation if verapamil is administered. Therefore, the use of verapamil in these patients is contraindicated.
+  <br/>
+Ventricular tachycardia: Administration of intravenous verapamil to patients with wide-complex ventricular tachycardia (QRS ≥ 0.12 sec) can result in marked hemodynamic deterioration and ventricular fibrillation. Proper pretherapy diagnosis and differentiation from wide-complex supraventricular tachycardia is imperative in the emergency room setting.
+  <br/>
+Known hypersensitivity to verapamil hydrochloride.
+ </paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccd640-4a48-e946-e063-6294a90aefe0">
+               <id root="4dccd640-4a47-e946-e063-6294a90aefe0"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>VERAPAMIL HYDROCHLORIDE SHOULD BE GIVEN AS A SLOW INTRAVENOUS INJECTION OVER AT LEAST A TWO-MINUTE PERIOD OF TIME (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Hypotension: Verapamil hydrochloride injection often produces a decrease in blood pressure below baseline levels that is usually transient and asymptomatic but may result in dizziness. Systolic pressure less than 90 mm Hg and/or diastolic pressure less than 60 mm Hg was seen in 5% to 10% of patients in controlled U.S. trials in supraventricular tachycardia and in about 10% of the patients with atrial flutter/fibrillation. The incidence of symptomatic hypotension observed in studies conducted in the U.S. was approximately 1.5%. Three of the five symptomatic patients required intravenous pharmacologic treatment (norepinephrine bitartrate, metaraminol bitartrate, or 10% calcium gluconate). All recovered without sequelae.</paragraph>
+                  <paragraph>Extreme Bradycardia/Asystole: Verapamil hydrochloride affects the AV and SA nodes and rarely may produce second- or third-degree AV block, bradycardia, and, in extreme cases, asystole. This is more likely to occur in patients with a sick sinus syndrome (SA nodal disease), which is more common in older patients. Bradycardia associated with sick sinus syndrome was reported in 0.3% of the patients treated in controlled double-blind trials in the U.S. The total incidence of bradycardia (ventricular rate less than 60 beats/min) was 1.2% in these studies. Asystole in patients other than those with sick sinus syndrome is usually of short duration (few seconds or less), with spontaneous return to AV nodal or normal sinus rhythm. If this does not occur promptly, appropriate treatment should be initiated immediately. (See ADVERSE REACTIONS and Suggested Treatment of Acute Cardiovascular Adverse Reactions.)</paragraph>
+                  <paragraph>Heart Failure: When heart failure is not severe or rate related, it should be controlled with digitalis glycosides and diuretics, as appropriate, before verapamil is used. In patients with moderately severe to severe cardiac dysfunction (pulmonary wedge pressure above 20 mm Hg, ejection fraction less than 30%), acute worsening of heart failure may be seen.</paragraph>
+                  <paragraph>Concomitant Antiarrhythmic Therapy:</paragraph>
+                  <paragraph>Digitalis: Verapamil hydrochloride injection has been used concomitantly with digitalis preparations without the occurrence of serious adverse effects. However, since both drugs slow AV conduction, patients should be monitored for AV block or excessive bradycardia.</paragraph>
+                  <paragraph>Procainamide: Intravenous verapamil has been administered to a small number of patients receiving oral procainamide without the occurrence of serious adverse effects.</paragraph>
+                  <paragraph>Quinidine: Intravenous verapamil has been administered to a small number of patients receiving oral quinidine without the occurrence of serious adverse effects. However, three patients have been described in whom the combination resulted in an exaggerated hypotensive response presumably from the combined ability of both drugs to antagonize the effects of catecholamines on α- adrenergic receptors. Caution should therefore be used when employing this combination of drugs.</paragraph>
+                  <paragraph>Beta-Adrenergic Blocking Drugs: Verapamil hydrochloride injection has been administered to patients receiving oral beta-blockers without the development of serious adverse effects. However, since both drugs may depress myocardial contractility and AV conduction, the possibility of detrimental interactions should be considered. The concomitant administration of intravenous beta-blockers and intravenous verapamil has resulted in serious adverse reactions (see CONTRAINDICATIONS), especially in patients with severe cardiomyopathy, congestive heart failure, or recent myocardial infarction.</paragraph>
+                  <paragraph>Disopyramide: Until data on possible interactions between verapamil and all forms of disopyramide phosphate are obtained, disopyramide should not be administered within 48 hours before or 24 hours after verapamil administration.</paragraph>
+                  <paragraph>Flecainide: A study in healthy volunteers showed that the concomitant administration of flecainide and verapamil may have additive effects reducing myocardial contractility, prolonging AV conduction, and prolonging repolarization.</paragraph>
+                  <paragraph>Heart Block: Verapamil prolongs AV conduction time. While high-degree AV block has not been observed in controlled clinical trials in the United States, a low percentage (less than 0.5%) has been reported in the world literature. Development of second- or third-degree AV block or unifascicular, bifascicular, or trifascicular bundle branch block requires reduction in subsequent doses or discontinuation of verapamil and institution of appropriate therapy, if needed. (See ADVERSE REACTIONS, Suggested Treatment of Acute Cardiovascular Adverse Reactions.)</paragraph>
+                  <paragraph>Hepatic and Renal Failure: Significant hepatic and renal failure should not increase the effects of a single intravenous dose of verapamil hydrochloride but may prolong its duration. Repeated injections of verapamil hydrochloride injection in such patients may lead to accumulation and an excessive pharmacologic effect of the drug. There is no experience to guide use of multiple doses in such patients, and this generally should be avoided. If repeated injections are essential, blood pressure and PR interval should be closely monitored and smaller repeat doses should be utilized.</paragraph>
+                  <paragraph>Verapamil cannot be removed by hemodialysis.</paragraph>
+                  <paragraph>Premature Ventricular Contractions: During conversion to normal sinus rhythm, or marked reduction in ventricular rate, a few benign complexes of unusual appearance (sometimes resembling premature ventricular contractions) may be seen after treatment with verapamil hydrochloride. Similar complexes are seen during spontaneous conversion of supraventricular tachycardias, after D.C.-cardioversion and other pharmacologic therapy. These complexes appear to have no clinical significance.</paragraph>
+                  <paragraph>Duchenne's Muscular Dystrophy: Verapamil hydrochloride injection can precipitate respiratory muscle failure in these patients and should, therefore, be used with caution.</paragraph>
+                  <paragraph>Increased Intracranial Pressure: Verapamil hydrochloride injection has been seen to increase intracranial pressure in patients with supratentorial tumors at the time of anesthesia induction. Caution should be taken and appropriate monitoring performed.</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccd640-4a4a-e946-e063-6294a90aefe0">
+               <id root="4dccd640-4a49-e946-e063-6294a90aefe0"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>Drug Interactions:</paragraph>
+                  <paragraph>(See WARNINGS: Concomitant Antiarrhythmic Therapy.) Verapamil hydrochloride injection has been used concomitantly with other cardioactive drugs (especially digitalis) without evidence of serious negative drug interactions. In rare instances, including when patients with severe cardiomyopathy, congestive heart failure, or recent myocardial infarction were given intravenous beta-adrenergic blocking agents or disopyramide concomitantly with intravenous verapamil, serious adverse effects have occurred. Concomitant use of verapamil hydrochloride with β-adrenergic blockers may result in an exaggerated hypotensive response. Such an effect was observed in one study, following the concomitant administration of verapamil and prazosin. It may be necessary to decrease the dose of verapamil and/or dose of the neuromuscular blocking agent when the drugs are used concomitantly. As verapamil is highly bound to plasma proteins, it should be administered with caution to patients receiving other highly protein-bound drugs.</paragraph>
+                  <paragraph>Other</paragraph>
+                  <paragraph>Cimetidine: The interaction between cimetidine and chronically administered verapamil has not been studied. In acute studies of healthy volunteers, clearance of verapamil was either reduced or unchanged.</paragraph>
+                  <paragraph>Lithium: Increased sensitivity to the effects of lithium (neurotoxicity) has been reported during concomitant verapamil-lithium therapy with either no change or an increase in serum lithium levels. The addition of verapamil, however, has also resulted in the lowering of serum lithium levels in patients receiving chronic stable oral lithium. Patients receiving both drugs must be monitored carefully.</paragraph>
+                  <paragraph>Carbamazepine: Verapamil therapy may increase carbamazepine concentrations during combined therapy. This may produce carbamazepine side effects such as diplopia, headache, ataxia, or dizziness.</paragraph>
+                  <paragraph>Rifampin: Therapy with rifampin may markedly reduce oral verapamil bioavailability.</paragraph>
+                  <paragraph>Phenobarbital: Phenobarbital therapy may increase verapamil clearance.</paragraph>
+                  <paragraph>Cyclosporin: Verapamil therapy may increase serum levels of cyclosporin.</paragraph>
+                  <paragraph>Inhalation Anesthetics: Animal experiments have shown that inhalation anesthetics depress cardiovascular activity by decreasing the inward movement of calcium ions. When used concomitantly, inhalation anesthetics and calcium antagonists (such as verapamil) should be titrated carefully to avoid excessive cardiovascular depression.</paragraph>
+                  <paragraph>Neuromuscular Blocking Agents: Clinical data and animal studies suggest that verapamil may potentiate the activity of depolarizing and nondepolarizing neuromuscular blocking agents. It may be necessary to decrease the dose of verapamil and/or the dose of the neuromuscular blocking agent when the drugs are used concomitantly.</paragraph>
+                  <paragraph>Dantrolene: Two animal studies suggest concomitant intravenous use of verapamil and dantrolene sodium may result in cardiovascular collapse. There has been one report of hyperkalemia and myocardial depression following the coadministration of oral verapamil and intravenous dantrolene.</paragraph>
+                  <paragraph>Pregnancy:</paragraph>
+                  <paragraph>Teratogenic Effects: Pregnancy Category C. Reproduction studies have been performed in rabbits and rats at oral verapamil doses up to 1.5 (15 mg/kg/day) and 6 (60 mg/kg/day) times the human oral daily dose, respectively, and have revealed no evidence of teratogenicity. In the rat, this multiple of the human dose was embryocidal and retarded fetal growth and development, probably because of adverse maternal effects reflected in reduced weight gains of the dams. This oral dose has also been shown to cause hypotension in rats. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                  <paragraph>Labor and Delivery:</paragraph>
+                  <paragraph>There have been few controlled studies to determine whether the use of verapamil during labor or delivery has immediate or delayed adverse effects on the fetus, or whether it prolongs the duration of labor or increases the need for forceps delivery or other obstetric intervention. Such adverse experiences have not been reported in the literature, despite a long history of use of verapamil hydrochloride injection in Europe in the treatment of cardiac side effects of beta-adrenergic agonist agents used to treat premature labor.</paragraph>
+                  <paragraph>Nursing Mothers:</paragraph>
+                  <paragraph>Verapamil crosses the placental barrier and can be detected in umbilical vein blood at delivery. Also, verapamil is excreted in human milk. Because of the potential for adverse reactions in nursing infants from verapamil, nursing should be discontinued while verapamil is administered.</paragraph>
+                  <paragraph>Pediatric Use:</paragraph>
+                  <paragraph>Controlled studies with verapamil have not been conducted in pediatric patients, but uncontrolled experience with intravenous administration in more than 250 patients, about half under 12 months of age and about 25% newborn, indicates that results of treatment are similar to those in adults. In rare instances, however, severe hemodynamic side effects - some of them fatal - have occurred following the intravenous administration of verapamil to neonates and infants. Caution should therefore be used when administering verapamil to this group of pediatric patients. The most commonly used single doses in patients up to 12 months of age have ranged from 0.1 to 0.2 mg/kg of body weight, while in patients aged 1 to 15 years, the most commonly used single doses ranged from 0.1 to 0.3 mg/kg of body weight. Most of the patients received the lower dose of 0.1 mg/kg once, but in some cases, the dose was repeated once or twice every 10 to 30 minutes.</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccddae-3d6a-3901-e063-6394a90ad875">
+               <id root="4dccddae-3d69-3901-e063-6394a90ad875"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The following reactions were reported with verapamil hydrochloride injection used in controlled U.S. clinical trials involving 324 patients:</paragraph>
+                  <paragraph>Cardiovascular: Symptomatic hypotension (1.5%); bradycardia (1.2%); severe tachycardia (1.0%). The worldwide experience in open clinical trials in more than 7,900 patients was similar.</paragraph>
+                  <paragraph>Central Nervous System Effects: Dizziness (1.2%); headache (1.2%). Occasional cases of seizures during verapamil injection have been reported.</paragraph>
+                  <paragraph>Gastrointestinal: Nausea (0.9%); abdominal discomfort (0.6%).</paragraph>
+                  <paragraph>In rare cases of hypersensitive patients, broncho/laryngeal spasm accompanied by itch and urticaria has been reported.</paragraph>
+                  <paragraph>The following reactions have been reported at low frequency: emotional depression, rotary nystagmus, sleepiness, vertigo, muscle fatigue, diaphoresis, and respiratory failure.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4dccdda3-d500-3309-e063-6394a90a885a"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>*Actual treatment and dosage should depend on the severity of the clinical situation and the judgment and experience of the treating physician.</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+               <component>
+                  <observationMedia ID="img_4dccdda3-d500-3309-e063-6394a90a885a">
+                     <text>Table</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1685 Table 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dcce224-ca57-465d-e063-6394a90a8304">
+               <id root="4dcce224-ca56-465d-e063-6394a90a8304"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Treatment of overdosage should be supportive and individualized. Beta-adrenergic stimulation and/or parenteral administration of calcium solutions may increase calcium ion flux across the slow channel, and have been effectively used in treatment of deliberate overdosage with oral verapamil hydrochloride. Verapamil cannot be removed by hemodialysis.</paragraph>
+                  <paragraph>Clinically significant hypotensive reactions or high-degree AV block should be treated with vasopressor agents or cardiac pacing, respectively. Asystole should be handled by the usual measures including isoproterenol hydrochloride, other vasopressor agents, or cardiopulmonary resuscitation (see ADVERSE REACTIONS: Suggested Treatment of Acute Cardiovascular Adverse Reactions).</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dcce59e-af8f-3b9e-e063-6394a90adc49">
+               <id root="4dcce59e-af8e-3b9e-e063-6394a90adc49"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>FOR INTRAVENOUS USE ONLY. VERAPAMIL HYDROCHLORIDE INJECTION SHOULD BE GIVEN AS A SLOW INTRAVENOUS INJECTION OVER AT LEAST A TWO-MINUTE PERIOD OF TIME UNDER CONTINUOUS ELECTROCARDIOGRAPHIC (ECG) AND BLOOD PRESSURE MONITORING. The recommended intravenous doses of verapamil hydrochloride injection are as follows:</paragraph>
+                  <paragraph>Adult:</paragraph>
+                  <paragraph>Initial dose - 5 to 10 mg (0.075 to 0.15 mg/kg body weight) given as an intravenous bolus over at least 2 minutes.</paragraph>
+                  <paragraph>Repeat dose - 10 mg (0.15 mg/kg body weight) 30 minutes after the first dose if the initial response is not adequate. An optimal interval for subsequent I.V. doses has not been determined, and should be individualized for each patient.</paragraph>
+                  <paragraph>Older patients - The dose should be administered over at least 3 minutes to minimize the risk of untoward drug effects.</paragraph>
+                  <paragraph>Pediatric:</paragraph>
+                  <paragraph>Initial dose:</paragraph>
+                  <paragraph>0 to 1 year: 0.1 to 0.2 mg/kg body weight (usual single dose range: 0.75 to 2 mg) should be administered as an intravenous bolus over at least 2 minutes under continuous ECG monitoring.</paragraph>
+                  <paragraph>1 to 15 years: 0.1 to 0.3 mg/kg body weight (usual single dose range: 2 to 5 mg) should be administered as an intravenous bolus over at least 2 minutes. Do not exceed 5 mg.</paragraph>
+                  <paragraph>Repeat dose:</paragraph>
+                  <paragraph>0 to 1 year: 0.1 to 0.2 mg/kg body weight (usual single dose range: 0.75 to 2 mg) 30 minutes after the first dose if the initial response is not adequate (under continuous ECG monitoring). An optimal interval for subsequent I.V. doses has not been determined, and should be individualized for each patient.</paragraph>
+                  <paragraph>1 to 15 years: 0.1 to 0.3 mg/kg body weight (usual single dose range: 2 to 5 mg) 30 minutes after the first dose if the initial response is not adequate. Do not exceed 10 mg as a single dose. An optimal interval for subsequent I.V. doses has not been determined, and should be individualized for each patient.</paragraph>
+                  <paragraph>Note: Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Use only if solution is clear and vial seal is intact. Unused amount of solution should be discarded immediately following withdrawal of any portion of contents.</paragraph>
+                  <paragraph>For stability reasons this product is not recommended for dilution with Sodium Lactate Injection, USP in polyvinyl chloride bags. Verapamil is physically compatible and chemically stable for at least 24 hours at 25°C protected from light in most common large volume parenteral solutions. Admixing verapamil hydrochloride injection with albumin, amphoteric in B, hydralazine hydrochloride and trimethoprim with sulfamethoxazole should be avoided. Verapamil hydrochloride injection will precipitate in any solution with a pH above 6.0.</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccea64-a0f7-51fc-e063-6394a90a7539">
+               <id root="4dccea64-a0f6-51fc-e063-6394a90a7539"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Verapamil Hydrochloride Injection, USP 2.5 mg/mL is supplied in single-dose containers as follows:NDC 51662-1686-1</paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4dccf652-f690-0837-e063-6294a90ab6df">
+               <id root="4dccf652-f68f-0837-e063-6294a90ab6df"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4dccea64-a0f9-51fc-e063-6394a90a7539"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260324"/>
+               <component>
+                  <observationMedia ID="img_4dccea64-a0f9-51fc-e063-6394a90a7539">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1686-1 RFID.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

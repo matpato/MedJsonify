@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="a9ead4b9-ad44-4806-989a-02dd4f78dd3b"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">Caffeine Citrate Injection, USP</content>
+   </title>
+   <effectiveTime value="20260302"/>
+   <setId root="f9feb925-e1b8-41bc-b9c5-89198f07c0e9"/>
+   <versionNumber value="17"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="946499746" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="946499746" root="1.3.6.1.4.1.519.1"/>
+                  <name>Hikma Pharmaceuticals USA Inc.</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6adab4bf-7485-4adc-be7d-d63a576931d4"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260302"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0641-6164" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CAFCIT</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>caffeine citrate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="U26EO4675Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CAFFEINE CITRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3G6A5W338E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CAFFEINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="8.3"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="3"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0641-6164-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0641-6164-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43178" displayName="BOX" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20081104"/>
+                                          <high value="20260601"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020793" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20081104"/>
+                              <high value="20260601"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c90079d7-79be-49eb-9936-c358d7c2952c">
+               <id root="33fdda44-1680-4a0e-9c76-b8f0634cd76e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2d67e524-c7fc-49f6-9716-0d097c4659f9">
+               <id root="7ddaf3f1-6a71-4449-be05-bf946b4ac741"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>CAFCIT® Injection (caffeine citrate injection, USP) for intravenous administration is a clear, colorless, sterile, non-pyrogenic, preservative-free, aqueous solution adjusted to pH 4.7. Each mL contains 20 mg caffeine citrate (equivalent to 10 mg of caffeine base) prepared in solution by the addition of 10 mg caffeine anhydrous to 5 mg citric acid monohydrate, 8.3 mg sodium citrate dihydrate and Water for Injection, USP.</paragraph>
+                  <paragraph>Caffeine, a central nervous system stimulant, is an odorless white crystalline powder or granule, with a bitter taste. It is sparingly soluble in water and ethanol at room temperature. The chemical name of caffeine is 3,7-dihydro-1,3,7-trimethyl-1<content styleCode="italics">H</content>-purine-2,6-dione. In the presence of citric acid it forms caffeine citrate salt in solution. The structural formula and molecular weight of caffeine citrate follows.</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Caffeine citrate</paragraph>
+                  <paragraph>C<sub>14</sub>H<sub>18</sub>N<sub>4</sub>O<sub>9</sub>       MW 386.31</paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cafcit-caffeine-citrate-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4ce5fc27-b2a7-46b2-8c3d-62c3d9023b22">
+               <id root="7656302f-53bf-4d45-9bf7-b1484d18c2b1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20260302"/>
+               <component>
+                  <section ID="LINK_d0f3265a-ba32-42e6-bd80-741e60cba8ff">
+                     <id root="ccc9c783-0bea-4cef-80da-688d9705dddc"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>
+                        <content styleCode="bold">Mechanism of Action</content>
+                     </title>
+                     <text>
+                        <paragraph>Caffeine is structurally related to other methylxanthines, theophylline, and theobromine. It is a bronchial smooth muscle relaxant, a CNS stimulant, a cardiac muscle stimulant, and a diuretic.</paragraph>
+                        <paragraph>Although the mechanism of action of caffeine in apnea of prematurity is not known, several mechanisms have been hypothesized. These include: (1) stimulation of the respiratory center, (2) increased minute ventilation, (3) decreased threshold to hypercapnia, (4) increased response to hypercapnia, (5) increased skeletal muscle tone, (6) decreased diaphragmatic fatigue, (7) increased metabolic rate, and (8) increased oxygen consumption.</paragraph>
+                        <paragraph>Most of these effects have been attributed to antagonism of adenosine receptors, both A<sub>1</sub> and A<sub>2</sub> subtypes, by caffeine, which has been demonstrated in receptor binding assays and observed at concentrations approximating those achieved therapeutically.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_94b06321-5175-4238-9ad9-a33c342e791d">
+                     <id root="0b3d4502-0f1d-4df5-874d-89dbd0717f22"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>
+                        <content styleCode="bold">Pharmacokinetics</content>
+                     </title>
+                     <effectiveTime value="20260302"/>
+                     <component>
+                        <section ID="LINK_766fc45c-ec1e-44dc-9c8f-7e11d509f3f8">
+                           <id root="1804e1a5-7614-44db-a8de-599b7a6cb503"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Absorption </content>
+                           </title>
+                           <text>
+                              <paragraph>After oral administration of 10 mg caffeine base/kg to preterm neonates, the peak plasma level (C<sub>max</sub>) for caffeine ranged from 6 to 10 mg/L and the mean time to reach peak concentration (T<sub>max</sub>) ranged from 30 minutes to 2 hours. The T<sub>max</sub> was not affected by formula feeding. The absolute bioavailability, however, was not fully examined in preterm neonates.</paragraph>
+                           </text>
+                           <effectiveTime value="20260302"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_e1ba2f03-b4fe-41f5-aeb7-fd6ccde1091d">
+                           <id root="3f63dce9-38c4-4101-84f0-8e8d61706036"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Distribution </content>
+                           </title>
+                           <text>
+                              <paragraph>Caffeine is rapidly distributed into the brain. Caffeine levels in the cerebrospinal fluid of preterm neonates approximate their plasma levels. The mean volume of distribution of caffeine in infants (0.8 to 0.9 L/kg) is slightly higher than that in adults (0.6 L/kg). Plasma protein binding data are not available for neonates or infants. In adults, the mean plasma protein binding <content styleCode="italics">in vitro </content>is reported to be approximately 36%.</paragraph>
+                           </text>
+                           <effectiveTime value="20260302"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_157e050e-eb0f-4c6f-b2f8-91d851ce9f1a">
+                           <id root="804d5d4e-b63e-4a3a-8148-9358544d4095"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Metabolism </content>
+                           </title>
+                           <text>
+                              <paragraph>Hepatic cytochrome P450 1A2 (CYP1A2) is involved in caffeine biotransformation. Caffeine metabolism in preterm neonates is limited due to their immature hepatic enzyme systems.</paragraph>
+                              <paragraph>Interconversion between caffeine and theophylline has been reported in preterm neonates; caffeine levels are approximately 25% of theophylline levels after theophylline administration and approximately 3 to 8% of caffeine administered would be expected to convert to theophylline.</paragraph>
+                           </text>
+                           <effectiveTime value="20260302"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_c071944d-2e2f-4344-99bb-df64640b091f">
+                           <id root="6bcfabca-7368-4787-8eb5-4a9fba38b14b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Elimination</content>
+                           </title>
+                           <text>
+                              <paragraph>In young infants, the elimination of caffeine is much slower than that in adults due to immature hepatic and/or renal function. Mean half-life (T<sub>1/2</sub>) and fraction excreted unchanged in urine (A<sub>e</sub>) of caffeine in infants have been shown to be inversely related to gestational/postconceptual age. In neonates, the T<sub>1/2</sub> is approximately 3 to 4 days and the A<sub>e</sub> is approximately 86% (within 6 days). By 9 months of age, the metabolism of caffeine approximates that seen in adults (T<sub>1/2</sub> = 5 hours and A<sub>e</sub> = 1%).</paragraph>
+                           </text>
+                           <effectiveTime value="20260302"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_45c35f86-84a9-4ad9-a40d-25fd25af01f7">
+                           <id root="c5c49900-8c5e-4a93-bcdd-c4eb395a8ae1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Special Populations</content>
+                           </title>
+                           <text>
+                              <paragraph>Studies examining the pharmacokinetics of caffeine in neonates with hepatic or renal insufficiency have not been conducted. CAFCIT (caffeine citrate) should be administered with caution in preterm neonates with impaired renal or hepatic function. Serum concentrations of caffeine should be monitored and dose administration of CAFCIT should be adjusted to avoid toxicity in this population.</paragraph>
+                           </text>
+                           <effectiveTime value="20260302"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ab332457-1d44-4016-837d-cc89d22b591a">
+                     <id root="190a8280-830f-4a73-884b-15d7799805b1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Clinical Studies</content>
+                     </title>
+                     <text>
+                        <paragraph>One multicenter, randomized, double-blind trial compared CAFCIT (caffeine citrate) to placebo in eighty-five (85) preterm infants (gestational age 28 to &lt;33 weeks) with apnea of prematurity. Apnea of prematurity was defined as having at least 6 apnea episodes of greater than 20 seconds duration in a 24-hour period with no other identifiable cause of apnea. A 1 mL/kg (20 mg/kg caffeine citrate providing 10 mg/kg as caffeine base) loading dose of CAFCIT was administered intravenously, followed by a 0.25 mL/kg (5 mg/kg caffeine citrate providing 2.5 mg/kg of caffeine base) daily maintenance dose administered either intravenously or orally (generally through a feeding tube). The duration of treatment in this study was limited to 10 to 12 days. The protocol allowed infants to be "rescued" with open-label caffeine citrate treatment if their apnea remained uncontrolled during the double-blind phase of the trial.</paragraph>
+                        <paragraph>The percentage of patients without apnea on day 2 of treatment (24 to 48 hours after the loading dose) was significantly greater with CAFCIT than placebo. The following table summarizes the clinically relevant endpoints evaluated in this study:</paragraph>
+                        <table>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule"> </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule"> <content styleCode="bold">CAFCIT</content>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">Placebo</content> </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <content styleCode="bold">p-value</content> </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Number of patients evaluated<sup>1</sup>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>45</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>37</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">-</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>% of patients with zero apnea events on day 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>26.7</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>8.1</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0.03</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>Apnea rate on day 2 (per 24 h)</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>4.9</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>7.2 </paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0.134</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>% of patients with 50% reduction in apnea events from baseline on day 2</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>76</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>57</paragraph>
+                                 </td>
+                                 <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>0.07</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <sup>1</sup> Of 85 patients who received drug, 3 were not included in the efficacy analysis because they had &lt;6 apnea episodes/24 hours at baseline.</paragraph>
+                        <paragraph>In this 10 to 12 day trial, the mean number of days with zero apnea events was 3 in the CAFCIT group and 1.2 in the placebo group. The mean number of days with a 50% reduction from baseline in apnea events was 6.8 in the CAFCIT group and 4.6 in the placebo group.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_801546b3-a01d-435e-bdff-02e4925dc455">
+               <id root="8a1ea48d-9333-4188-8e18-6d6a400579d2"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>CAFCIT (caffeine citrate) is indicated for the treatment of apnea of prematurity. <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5c371b13-05bc-493a-987d-74fea2bdd5d5">
+               <id root="35facfcd-11b8-4207-b137-51a653271f21"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>CAFCIT (caffeine citrate) is contraindicated in patients who have demonstrated hypersensitivity to any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fa70c659-82c8-4d28-ab2f-545129318739">
+               <id root="10a74e73-14c9-40cd-a82a-44e605563988"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text/>
+               <effectiveTime value="20260302"/>
+               <component>
+                  <section ID="LINK_2c674b5e-3b56-4a35-bcef-4efd65e6932b">
+                     <id root="bda007bf-b864-4893-83b3-151f833263db"/>
+                     <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+                     <title>Necrotizing Enterocolitis</title>
+                     <text>
+                        <paragraph>During the double-blind, placebo-controlled clinical trial, 6 cases of necrotizing enterocolitis developed among the 85 infants studied (caffeine=46, placebo=39), with 3 cases resulting in death. Five of the six patients with necrotizing enterocolitis were randomized to or had been exposed to CAFCIT (caffeine citrate).</paragraph>
+                        <paragraph>Reports in the published literature have raised a question regarding the possible association between the use of methylxanthines and development of necrotizing enterocolitis, although a causal relationship between methylxanthine use and necrotizing enterocolitis has not been established. In a published randomized, placebo-controlled, clinical trial that studied the use of caffeine citrate in apnea of prematurity in approximately 2000 patients, necrotizing enterocolitis was not more common in caffeine treated patients compared to placebo. As with all preterm infants, patients being treated with CAFCIT should be carefully monitored for the development of necrotizing enterocolitis.<br/>
+                        </paragraph>
+                        <br/>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_91c980e2-7654-479d-9c31-4a595a6755b9">
+               <id root="c4d8f4c9-2c2f-4412-8f58-0768aed6c4b8"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20260302"/>
+               <component>
+                  <section ID="LINK_8870160d-5d08-4dd2-8a17-f2e195182044">
+                     <id root="9aeb38cd-1160-467e-9862-2462679e50be"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="bold">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Apnea of prematurity is a diagnosis of exclusion. Other causes of apnea (e.g., central nervous system disorders, primary lung disease, anemia, sepsis, metabolic disturbances, cardiovascular abnormalities, or obstructive apnea) should be ruled out or properly treated prior to initiation of CAFCIT (caffeine citrate).</paragraph>
+                        <paragraph>Caffeine is a central nervous system stimulant and in cases of caffeine overdose, seizures have been reported. CAFCIT should be used with caution in infants with seizure disorders.</paragraph>
+                        <paragraph>The duration of treatment of apnea of prematurity in the placebo-controlled trial was limited to 10 to 12 days. The efficacy of CAFCIT for longer periods of treatment has not been established. Safety and efficacy of CAFCIT for use in the prophylactic treatment of sudden infant death syndrome (SIDS) or prior to extubation in mechanically ventilated infants have also not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_010b69e3-6ded-496c-8520-ee8b0a0f61f5">
+                     <id root="925676ac-ebfb-4329-922c-c1e594d312b4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Cardiovascular</content>
+                     </title>
+                     <text>
+                        <paragraph>Although no cases of cardiac toxicity were reported in the placebo-controlled trial, caffeine has been shown to increase heart rate, left ventricular output, and stroke volume in published studies. Therefore, CAFCIT should be used with caution in infants with cardiovascular disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c64d9759-49d7-4bd9-9da8-272026f54888">
+                     <id root="56d169b6-4f57-46ff-aa1d-ce46d8f3be24"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>​Renal and Hepatic Systems</title>
+                     <text>
+                        <paragraph>CAFCIT should be administered with caution in infants with impaired renal or hepatic function. Serum concentrations of caffeine should be monitored and dose administration of CAFCIT should be adjusted to avoid toxicity in this population. (See <content styleCode="bold">
+                              <linkHtml href="#www.splportal.comLINK_e1be6c2d-4311-4c9a-9634-466b2614e636">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content>, <content styleCode="italics">
+                              <linkHtml href="#www.splportal.comLINK_006f4382-322a-4631-8801-d5d45624506b">Elimination</linkHtml>
+                           </content> and <content styleCode="italics">
+                              <linkHtml href="#www.splportal.comLINK_f7444040-0c26-4783-aed3-f04afbe3025d">Special Populations</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_38e3f3ff-78f5-40f1-94f6-6fd927000522">
+                     <id root="60e07aac-e016-46b3-bc04-4fca79ae4f84"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Prior to initiation of CAFCIT (caffeine citrate), baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta.</paragraph>
+                        <paragraph>In the placebo-controlled clinical trial, caffeine levels ranged from 8 to 40 mg/L. A therapeutic plasma concentration range of caffeine could not be determined from the placebo-controlled clinical trial. Serious toxicity has been reported in the literature when serum caffeine levels exceed 50 mg/L. Serum concentrations of caffeine may need to be monitored periodically throughout treatment to avoid toxicity.</paragraph>
+                        <paragraph>In clinical studies reported in the literature, cases of hypoglycemia and hyperglycemia have been observed. Therefore, serum glucose may need to be periodically monitored in infants receiving CAFCIT.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_42ef3e0c-c05a-47b9-8272-30dcb89136d8">
+                     <id root="f11c02a8-fc81-448f-a273-8a9646496fdc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph>Cytochrome P450 1A2 (CYP1A2) is known to be the major enzyme involved in the metabolism of caffeine. Therefore, caffeine has the potential to interact with drugs that are substrates for CYP1A2, inhibit CYP1A2, or induce CYP1A2.</paragraph>
+                        <paragraph>Few data exist on drug interactions with caffeine in preterm neonates. Based on adult data, lower doses of caffeine may be needed following coadministration of drugs which are reported to decrease caffeine elimination (e.g., cimetidine and ketoconazole) and higher caffeine doses may be needed following coadministration of drugs that increase caffeine elimination (e.g., phenobarbital and phenytoin).</paragraph>
+                        <paragraph>Caffeine administered concurrently with ketoprofen reduced the urine volume in four healthy volunteers. The clinical significance of this interaction in preterm neonates is not known.</paragraph>
+                        <paragraph>Interconversion between caffeine and theophylline has been reported in preterm neonates. The concurrent use of these drugs is not recommended.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c168ac38-5792-411a-8170-d2dc4194efc6">
+                     <id root="c9e541c3-d069-414a-aaf6-7375859740a1"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>In a 2-year study in Sprague-Dawley rats, caffeine (as caffeine base) administered in drinking water was not carcinogenic in male rats at doses up to 102 mg/kg or in female rats at doses up to 170 mg/kg (approximately 2 and 4 times, respectively, the maximum recommended intravenous loading dose for infants on a mg/m<sup>2</sup> basis). In an 18-month study in C57BL/6 mice, no evidence of tumorigenicity was seen at dietary doses up to 55 mg/kg (less than the maximum recommended intravenous loading dose for infants on a mg/m<sup>2</sup> basis).</paragraph>
+                        <paragraph>Caffeine (as caffeine base) increased the sister chromatid exchange (SCE) SCE/cell metaphase (exposure time dependent) in an <content styleCode="italics">in vivo</content> mouse metaphase analysis. Caffeine also potentiated the genotoxicity of known mutagens and enhanced the micronuclei formation (5-fold) in folate-deficient mice. However, caffeine did not increase chromosomal aberrations in <content styleCode="italics">in vitro</content> Chinese hamster ovary cell (CHO) and human lymphocyte assays and was not mutagenic in an <content styleCode="italics">in vitro</content> CHO/hypoxanthine guanine phosphoribosyltransferase (HGPRT) gene mutation assay, except at cytotoxic concentrations. In addition, caffeine was not clastogenic in an <content styleCode="italics">in vivo</content> mouse micronucleus assay.</paragraph>
+                        <paragraph>Caffeine (as caffeine base) administered to male rats at 50 mg/kg/day subcutaneously (approximately equal to the maximum recommended intravenous loading dose for infants on a mg/m<sup>2</sup> basis) for 4 days prior to mating with untreated females, caused decreased male reproductive performance in addition to causing embryotoxicity. In addition, long-term exposure to high oral doses of caffeine (3 g over 7 weeks) was toxic to rat testes as manifested by spermatogenic cell degeneration.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_44d86043-eb2a-4682-ab65-27895e3bbf62">
+                     <id root="3429cf80-3c30-42bb-a514-64a12b353597"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy Category C</content>
+                        </paragraph>
+                        <paragraph>Concern for the teratogenicity of caffeine is not relevant when administered to infants. In studies performed in adult animals, caffeine (as caffeine base) administered to pregnant mice as sustained release pellets at 50 mg/kg (less than the maximum recommended intravenous loading dose for infants on a mg/m<sup>2</sup> basis), during the period of organogenesis, caused a low incidence of cleft palate and exencephaly in the fetuses. There are no adequate and well-controlled studies in pregnant women.</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_375ef719-e4a1-4ba0-890d-49e1fb32e0d1">
+               <id root="44a6429c-ad8e-4ac7-a5d9-2fd0bd2a28ab"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Overall, the reported number of adverse events in the double-blind period of the controlled trial was similar for the CAFCIT (caffeine citrate) and placebo groups. The following table shows adverse events that occurred in the double-blind period of the controlled trial and that were more frequent in CAFCIT-treated patients than placebo.</paragraph>
+                  <table>
+                     <caption>ADVERSE EVENTS THAT OCCURRED MORE FREQUENTLY IN CAFCIT-TREATED PATIENTS THAN PLACEBO DURING DOUBLE-BLIND THERAPY</caption>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Adverse Event (AE) </paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>CAFCIT N=46 </paragraph>
+                              <paragraph>n (%)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Placebo N=39 </paragraph>
+                              <paragraph>n (%)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>BODY AS A WHOLE</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Accidental Injury</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Feeding Intolerance</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>4 (8.7)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>2 (5.1)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Sepsis</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>2 (4.3)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>CARDIOVASCULAR SYSTEM</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Hemorrhage</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>DIGESTIVE SYSTEM</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Necrotizing Enterocolitis</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>2 (4.3)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.6)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Gastritis</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Gastrointestinal Hemorrhage</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>HEMIC AND LYMPHATIC SYSTEM</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Disseminated Intravascular Coagulation</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>METABOLIC AND NUTRITIVE DISORDERS</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Acidosis</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Healing Abnormal</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>NERVOUS SYSTEM</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Cerebral Hemorrhage</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>RESPIRATORY SYSTEM</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Dyspnea</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Lung Edema</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>SKIN AND APPENDAGES</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Dry Skin</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Rash</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>4 (8.7)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>3 (7.7)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Skin Breakdown</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>SPECIAL SENSES</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Retinopathy of Prematurity</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>UROGENITAL SYSTEM</paragraph>
+                           </td>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>  Kidney Failure</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>1 (2.2)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>0 (0.0)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>In addition to the cases above, three cases of necrotizing enterocolitis were diagnosed in patients receiving CAFCIT (caffeine citrate) during the open-label phase of the study.</paragraph>
+                  <paragraph>Three of the infants who developed necrotizing enterocolitis during the trial died. All had been exposed to caffeine. Two were randomized to caffeine, and one placebo patient was “rescued” with open-label caffeine for uncontrolled apnea.</paragraph>
+                  <paragraph>Adverse events described in the published literature include: central nervous system stimulation (i.e., irritability, restlessness, jitteriness), cardiovascular effects (i.e., tachycardia, increased left ventricular output, and increased stroke volume), gastrointestinal effects (i.e., increased gastric aspirate, gastrointestinal intolerance), alterations in serum glucose (i.e., hypoglycemia and hyperglycemia), and renal effects (i.e., increased urine flow rate, increased creatinine clearance, and increased sodium and calcium excretion). Published long-term follow-up studies have not shown caffeine to adversely affect neurological development or growth parameters.</paragraph>
+                  <paragraph>A published randomized, placebo-controlled, clinical trial in premature infants with birthweights of 500-1250 grams studied the safety of caffeine citrate in apnea of prematurity (NCT00182312). This trial randomized approximately 2000 premature infants with a mean gestational age of 27 weeks at birth. The median duration of caffeine therapy was 37 days. Prior to discharge home, death, ultrasonographic signs of brain injury, and necrotizing enterocolitis were not more common in the caffeine citrate group compared to the placebo. At follow up at both 18 months and 5 years corrected age, death was not more common in the caffeine citrate treated group compared to placebo, nor did caffeine citrate use adversely affect neurodevelopmental outcomes. <br/>
+                     <br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_320afaa2-b3ce-455a-87f1-6df751a08600">
+               <id root="959b878b-5c05-49ef-ba20-87e69759a9b6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Following overdose, serum caffeine levels have ranged from approximately 24 mg/L (a postmarketing spontaneous case report in which an infant exhibited irritability, poor feeding, and insomnia) to 350 mg/L. Serious toxicity has been associated with serum levels greater than 50 mg/L (see <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_b189ce36-fd85-4d28-8d80-6dc2e57fc11f">PRECAUTIONS, Laboratory Tests </linkHtml>
+                     </content>and <content styleCode="bold">
+                        <linkHtml href="#www.splportal.comLINK_bc32aea8-cea8-490d-a4cf-9bac1df1183f">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>). Signs and symptoms reported in the literature after caffeine overdose in preterm infants include fever, tachypnea, jitteriness, insomnia, fine tremor of the extremities, hypertonia, opisthotonos, tonic-clonic movements, nonpurposeful jaw and lip movements, vomiting, hyperglycemia, elevated blood urea nitrogen, and elevated total leukocyte concentration. Seizures have also been reported in cases of overdose. One case of caffeine overdose complicated by development of intraventricular hemorrhage and long-term neurological sequelae has been reported. Another case of caffeine citrate overdose (from New Zealand; not CAFCIT) of an estimated 600 mg caffeine citrate (approximately 322 mg/kg) administered over 40 minutes was complicated by tachycardia, ST depression, respiratory distress, heart failure, gastric distention, acidosis, and a severe extravasation burn with tissue necrosis at the peripheral intravenous injection site. No deaths associated with caffeine overdose have been reported in preterm infants.</paragraph>
+                  <paragraph>Treatment of caffeine overdose is primarily symptomatic and supportive. Caffeine levels have been shown to decrease after exchange transfusions. Convulsions may be treated with intravenous administration of diazepam or a barbiturate such as pentobarbital sodium.</paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c12433c1-fc65-431f-9a63-700f3c0279cb">
+               <id root="42ef19cc-0187-46d2-9f48-9b09bace97b4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Prior to initiation of CAFCIT (caffeine citrate), baseline serum levels of caffeine should be measured in infants previously treated with theophylline, since preterm infants metabolize theophylline to caffeine. Likewise, baseline serum levels of caffeine should be measured in infants born to mothers who consumed caffeine prior to delivery, since caffeine readily crosses the placenta.</paragraph>
+                  <paragraph>The recommended loading dose and maintenance doses of CAFCIT follow.</paragraph>
+                  <table>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <br/>
+                           </td>
+                           <td>
+                              <paragraph>Dose of CAFCIT (caffeine citrate) Volume</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Dose of CAFCIT (caffeine citrate) mg/kg</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Route</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Frequency</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Loading Dose</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">1 mL/kg </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>20 mg/kg</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Intravenous* (over 30 minutes)</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>One time</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Maintenance Dose</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">0.25 mL/kg </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>5 mg/kg</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Intravenous* (over 10 minutes) or Orally</paragraph>
+                           </td>
+                           <td align="center" styleCode=" Botrule Toprule Lrule Rrule">
+                              <paragraph>Every 24 hours**</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>*Using a syringe infusion pump<br/>**Beginning 24 hours after the loading dose</paragraph>
+                  <paragraph>NOTE THAT THE DOSE OF CAFFEINE BASE IS ONE-HALF THE DOSE WHEN EXPRESSED AS CAFFEINE CITRATE (e.g., 20 mg of caffeine citrate is equivalent to 10 mg of caffeine base).</paragraph>
+                  <paragraph>Serum concentrations of caffeine may need to be monitored periodically throughout treatment to avoid toxicity. Serious toxicity has been associated with serum levels greater than 50 mg/L.</paragraph>
+                  <paragraph>CAFCIT should be inspected visually for particulate matter and discoloration prior to administration. Vials containing discolored solution or visible particulate matter should be discarded.</paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+               <component>
+                  <section ID="LINK_1f8d8da3-b5f2-4c38-9fa2-9594346d4e4b">
+                     <id root="598a79c2-b75a-45af-ab14-8e3afd861a1e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Drug Compatibility</content>
+                     </title>
+                     <text>
+                        <paragraph>To test for drug compatibility with common intravenous solutions or medications, 20 mL of CAFCIT Injection were combined with 20 mL of a solution or medication, with the exception of an Intralipid® admixture, which was combined as 80 mL/80 mL. The physical appearance of the combined solutions was evaluated for precipitation. The admixtures were mixed for 10 minutes and then assayed for caffeine. The admixtures were then continually mixed for 24 hours, with further sampling for caffeine assays at 2, 4, 8, and 24 hours.</paragraph>
+                        <paragraph>Based on this testing, CAFCIT Injection, 60 mg/3 mL is chemically stable for 24 hours at room temperature when combined with the following test products.</paragraph>
+                        <paragraph>• Dextrose Injection, USP 5%</paragraph>
+                        <paragraph>• 50% Dextrose Injection USP</paragraph>
+                        <paragraph>• Intralipid® 20% IV Fat Emulsion</paragraph>
+                        <paragraph>• Aminosyn® 8.5% Crystalline Amino Acid Solution</paragraph>
+                        <paragraph>• Dopamine HCI Injection, USP 40 mg/mL diluted to 0.6 mg/mL with Dextrose Injection, USP 5% </paragraph>
+                        <paragraph>• Calcium Gluconate Injection, USP 10% (0.465 mEq/Ca<sup>+2</sup>/mL)</paragraph>
+                        <paragraph>• Heparin Sodium Injection, USP 1000 units/mL diluted to 1 unit/mL with Dextrose Injection, USP 5%</paragraph>
+                        <paragraph>• Fentanyl Citrate Injection, USP 50 mcg/mL diluted to 10 mcg/mL with Dextrose Injection, USP 5%</paragraph>
+                     </text>
+                     <effectiveTime value="20260302"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ff644b64-dcce-4fd6-8244-e5d6b1d3ea1b">
+               <id root="69d0c026-f9fd-467d-8865-4aac4a86416c"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>CAFCIT® Injection (caffeine citrate injection, USP) is available as a clear, colorless, sterile, non-pyrogenic, preservative-free, aqueous solution in 3 mL colorless glass vials. The vials are sealed with a teflon-faced gray rubber stopper and an aluminum overseal with a white flip-off printed with “FOR INTRAVENOUS USE ONLY” in red.</paragraph>
+                  <paragraph>The vials contain 3 mL solution at a concentration of 20 mg/mL caffeine citrate (60 mg/vial) equivalent to 10 mg/mL caffeine base (30 mg/vial).</paragraph>
+                  <paragraph>CAFCIT® Injection (caffeine citrate injection, USP) is supplied as:</paragraph>
+                  <paragraph>   NDC 0641-6164-10, 3 mL Single Dose Vial packaged in a carton of 10</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Not made with natural rubber latex.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Preservative free. For single dose only. Discard unused portion.</content>
+                  </paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689, or the FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</paragraph>
+                  <paragraph>For Product Inquiry call 1-877-845-0689.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>Hikma Pharmaceuticals USA Inc.<br/>
+                  </paragraph>
+                  <paragraph>Eatontown, NJ 07724 USA</paragraph>
+                  <paragraph>Revised December 2019<br/>
+                  </paragraph>
+                  <paragraph>462-708-01</paragraph>
+               </text>
+               <effectiveTime value="20260302"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e7ef7e3-f8d7-416b-a7cf-72355eef608d">
+               <id root="db7c3db0-1d21-450a-af58-d87391def898"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANELS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">CAFCIT®<br/>
+                     </content>
+                     <content styleCode="bold">INJECTION<br/>
+                     </content>
+                     <content styleCode="bold">(caffeine citrate<br/>
+                     </content>
+                     <content styleCode="bold">injection, USP)<br/>
+                     </content>
+                     <content styleCode="bold">60 mg/3 mL<br/>
+                     </content>
+                     <content styleCode="bold">(20 mg/mL)<br/>
+                     </content>
+                     <content styleCode="bold">For Intravenous Use Only<br/>
+                     </content>3 mL Single Dose Vial</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>NDC 0641-6164-10<content styleCode="bold">
+                        <content styleCode="bold">   </content> Rx only<br/>
+                     </content>
+                     <content styleCode="bold">CAFCIT®<br/>
+                     </content>
+                     <content styleCode="bold">INJECTION<br/>
+                     </content>
+                     <content styleCode="bold">(caffeine citrate<br/>
+                     </content>
+                     <content styleCode="bold">injection, USP)<br/>
+                     </content>
+                     <content styleCode="bold">60 mg/3 mL<br/>
+                     </content>
+                     <content styleCode="bold">(20 mg/mL)<br/>
+                     </content>
+                     <content styleCode="bold">For Intravenous Use Only<br/>
+                     </content>10 x 3 mL Single Dose Vials</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20260302"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>unit label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cafcit-caffeine-citrate-injection-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>carton label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="cafcit-caffeine-citrate-injection-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6558760c-9e5d-caa4-7786-efca221e56f4"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20240801"/>
+   <setId root="b1303f15-c48b-a44d-b28a-72f370094e02"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="802315887" root="1.3.6.1.4.1.519.1"/>
+            <name>Dr. Reddy's Laboratories, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="650446243" root="1.3.6.1.4.1.519.1"/>
+                        <name>Dr. Reddy's Laboratories Limited-FTO9</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="analysis"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-750" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="manufacture"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="43598-750" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="206f0f2c-3fab-cd4c-9f30-d9c44857fdd4"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240801"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="43598-750"/>
+                        <name>Naloxone Hydrochloride</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Naloxone Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F850569PQR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Naloxone Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="36B82AMQ7N" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>Naloxone</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sodium Chloride</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydrochloric Acid</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N762921K75" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Nitrogen</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="2"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43202" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="43598-750-11"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200318"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="43598-750-58"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20200318"/>
+                                          <high value="20260430"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="43598-750-10"/>
+                                    <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20240910"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA213209" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200318"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="433c744e-ac9f-141b-fb56-4291ff8f2240"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20190319"/>
+                     <component>
+                        <observationMedia ID="MM429133867932">
+                           <text>Figure1</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="figure1.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM187826247207">
+                           <text>Figure2</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="figure2.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM787774326066">
+                           <text>Figure3</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="figure3.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM456802379822">
+                           <text>newpackcode10</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="newpackcode10.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Laa438f68-8abe-4105-8241-acb01bf67046">
+               <id root="1e8253cc-08fe-835c-4094-87fea2212ed6"/>
+               <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <text>
+                  <paragraph>Naloxone Hydrochloride Injection, USP</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold italics">Opioid Antagonist</content>
+                  </paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">---------------------------------------</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240801"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lce3952a0-f594-40da-b9d0-c8ac7e74184b">
+               <id root="14918fe0-f3d6-2688-295a-4eb66ac41d4e"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Naloxone hydrochloride, an opioid antagonist, is a synthetic congener of oxymorphone. In structure it differs from oxymorphone in that the methyl group on the nitrogen atom is replaced by an allyl group.</paragraph>
+                  <paragraph>NALOXONE HYDROCHLORIDE</paragraph>
+                  <paragraph>(-)-17-Allyl-4,5α-epoxy-3,14-dihydroxymorphinan-6-one hydrochloride</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L5e7ef461-2f38-47d0-94fb-504fd39d5aaa"/>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride dihydrate occurs as a white to almost white powder, and is freely soluble in water, soluble in ethanol (96%); practically insoluble in toluene. </paragraph>
+                  <paragraph>Naloxone hydrochloride injection, USP is available as a sterile solution for intravenous, intramuscular and subcutaneous administration in 1 mg/mL concentration. </paragraph>
+                  <paragraph>pH is adjusted to 3.5 ± 0.5 with hydrochloric acid. </paragraph>
+                  <paragraph>Each mL also contains 9 mg of sodium chloride. Naloxone hydrochloride injection, USP is preservative-free.</paragraph>
+               </text>
+               <effectiveTime value="20240321"/>
+               <component>
+                  <observationMedia ID="L5e7ef461-2f38-47d0-94fb-504fd39d5aaa">
+                     <text>Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L1bf40e68-ba3a-4f68-8837-5876ad5253d8">
+               <id root="94803d8f-5517-2f49-5a04-19e0a7859ca8"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Complete or Partial Reversal of Opioid Depression</content>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride prevents or reverses the effects of opioids including respiratory depression, sedation, and hypotension. Also, naloxone hydrochloride can reverse the psychotomimetic and dysphoric effects of agonist-antagonists such as pentazocine.</paragraph>
+                  <paragraph>Naloxone hydrochloride is an essentially pure opioid antagonist, i.e., it does not possess the “agonistic” or morphine-like properties characteristic of other opioid antagonists. When administered in usual doses and in the absence of opioids or agonistic effects of other opioid antagonists, it exhibits essentially no pharmacologic activity.</paragraph>
+                  <paragraph>Naloxone hydrochloride has not been shown to produce tolerance or cause physical or psychological dependence. In the presence of physical dependence on opioids, naloxone hydrochloride will produce withdrawal symptoms. However, in the presence of opioid dependence, opiate withdrawal symptoms may appear within minutes of naloxone hydrochloride administration and subside in about 2 hours. The severity and duration of the withdrawal syndrome are related to the dose of naloxone hydrochloride and to the degree and type of opioid dependence.While the mechanism of action of naloxone hydrochloride is not fully understood, <content styleCode="italics">in vitro</content> evidence suggests that naloxone hydrochloride antagonizes opioid effects by competing for the<content styleCode="bold"> mu</content>, <content styleCode="bold">kappa</content> and <content styleCode="bold">sigma</content> opiate receptor sites in the CNS, with the greatest affinity for the <content styleCode="bold">mu</content> receptor.</paragraph>
+                  <paragraph>When naloxone hydrochloride is administered intravenously (I.V.), the onset of action is generally apparent within two minutes. The onset of action is slightly less rapid when it is administered subcutaneously (S.C.) or intramuscularly (I.M.). The duration of action is dependent upon the dose and route of administration of naloxone hydrochloride. Intramuscular administration produces a more prolonged effect than intravenous administration. Since the duration of action of naloxone hydrochloride may be shorter than that of some opiates, the effects of the opiate may return as the effects of naloxone hydrochloride dissipates. The requirement for repeat doses of naloxone hydrochloride will also be dependent upon the amount, type and route of administration of the opioid being antagonized.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adjunctive Use in Septic Shock</content>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride has been shown in some cases of septic shock to produce a rise in blood pressure that may last up to several hours; however, this pressor response has not been demonstrated to improve patient survival. In some studies, treatment with naloxone hydrochloride in the setting of septic shock has been associated with adverse effects, including agitation, nausea and vomiting, pulmonary edema, hypotension, cardiac arrhythmias, and seizures. The decision to use naloxone hydrochloride in septic shock should be exercised with caution, particularly in patients who may have underlying pain or have previously received opioid therapy and may have developed opioid tolerance.</paragraph>
+                  <paragraph>Because of the limited number of patients who have been treated, optimal dosage and treatment regimens have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20190919"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L109d0b50-0785-4a55-bb24-58361ec7aa04">
+               <id root="2dd78726-8bf8-81ac-3bbf-45ae576eed07"/>
+               <code code="43682-4" displayName="PHARMACOKINETICS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PHARMACOKINETICS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distribution</content>
+                  </paragraph>
+                  <paragraph>Following parenteral administration, naloxone hydrochloride is rapidly distributed in the body and readily crosses the placenta. Plasma protein binding occurs but is relatively weak. Plasma albumin is the major binding constituent but significant binding of naloxone also occurs to plasma constituents other than albumin. It is not known whether naloxone is excreted into human milk.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolism and Elimination</content>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride is metabolized in the liver, primarily by glucuronide conjugation with naloxone-3-glucoronide as the major metabolite. In one study the serum half-life in adults ranged from 30 to 81 minutes (mean 64 ± 12 minutes). In a neonatal study the mean plasma half-life was observed to be 3.1 ± 0.5 hours. After an oral or intravenous dose, about 25-40% of the drug is excreted as metabolites in urine within 6 hours, about 50% in 24 hours, and 60-70% in 72 hours.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L93b3e470-c961-4505-b153-6cfe8a63c1af">
+               <id root="a57073b4-36b2-0876-d4b1-2b06541f3f50"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Naloxone hydrochloride injection is indicated for the complete or partial reversal of opioid depression, including respiratory depression, induced by natural and synthetic opioids, including propoxyphene, methadone and certain mixed agonist-antagonist analgesics: nalbuphine, pentazocine, butorphanol and cyclazocine. Naloxone hydrochloride is also indicated for diagnosis of suspected or known acute opioid overdosage.</paragraph>
+                  <paragraph>Naloxone hydrochloride injection may be useful as an adjunctive agent to increase blood pressure in the management of septic shock (see <content styleCode="underline">
+                        <linkHtml href="#L1bf40e68-ba3a-4f68-8837-5876ad5253d8">CLINICAL PHARMACOLOGY</linkHtml>
+                     </content>; <content styleCode="bold">Adjunctive Use in Septic Shock</content>).</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L632fdaff-2425-4cdb-9fed-2f0da13d5fa0">
+               <id root="4ca7a375-03fd-c8ed-828d-c6cac33ebdec"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Naloxone hydrochloride injection is contraindicated in patients known to be hypersensitive to naloxone hydrochloride or to any of the other ingredients in naloxone hydrochloride.</paragraph>
+               </text>
+               <effectiveTime value="20240321"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lead6ccfa-d65e-4d0a-a6de-dd472d0c3aa7">
+               <id root="493b42be-22e0-84b3-7346-a9d9b2c49b93"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Drug Dependence</content>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride should be administered cautiously to persons including newborns of mothers who are known or suspected to be physically dependent on opioids. In such cases an abrupt and complete reversal of opioid effects may precipitate an acute withdrawal syndrome.<br/>The signs and symptoms of opioid withdrawal in a patient physically dependent on opioids may include, but are not limited to, the following: body aches, diarrhea, tachycardia, fever, runny nose, sneezing, piloerection, sweating, yawning, nausea or vomiting, nervousness, restlessness or irritability, shivering or trembling, abdominal cramps, weakness, and increased blood pressure. In the neonate, opioid withdrawal may also include: convulsions, excessive crying, and hyperactive reflexes.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Repeat Administration</content>
+                  </paragraph>
+                  <paragraph>The patient who has satisfactorily responded to naloxone hydrochloride should be kept under continued surveillance and repeated doses of naloxone hydrochloride should be administered, as necessary, since the duration of action of some opioids may exceed that of naloxone hydrochloride.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory Depression due to Other Drugs</content>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride is not effective against respiratory depression due to non-opioid drugs and in the management of acute toxicity caused by levopropoxyphene. Reversal of respiratory depression by partial agonists or mixed agonist/antagonists, such as buprenorphine and pentazocine, may be incomplete or require higher doses of naloxone. If an incomplete response occurs, respirations should be mechanically assisted as clinically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L2fb08fd8-4f8e-4ed9-8f92-5556927e79b2">
+               <id root="21062a49-1653-4eb4-f6a5-f4f0d34abc6d"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20240801"/>
+               <component>
+                  <section ID="L3bfd37f4-6fc1-44d1-a245-e2c71d618f8a">
+                     <id root="b677cd58-d7bf-5de8-8d85-447da43ed817"/>
+                     <code code="34072-9" displayName="GENERAL PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>In addition to naloxone hydrochloride, other resuscitative measures such as maintenance of a free airway, artificial ventilation, cardiac massage, and vasopressor agents should be available and employed when necessary to counteract acute opioid poisoning.</paragraph>
+                        <paragraph>Abrupt postoperative reversal of opioid depression may result in nausea, vomiting, sweating, tremulousness, tachycardia, increased blood pressure, seizures, ventricular tachycardia and fibrillation, pulmonary edema, and cardiac arrest which may result in death. Excessive doses of naloxone hydrochloride in postoperative patients may result in significant reversal of analgesia and may cause agitation (see <content styleCode="underline">
+                              <linkHtml href="#L2fb08fd8-4f8e-4ed9-8f92-5556927e79b2">PRECAUTIONS</linkHtml>
+                           </content> and <content styleCode="underline">
+                              <linkHtml href="#L3771a8f1-c2b1-4874-8c0d-dcdefc051a04">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>; <content styleCode="bold">Usage in Adults-Postoperative Opioid Depression</content>). Several instances of hypotension, hypertension, ventricular tachycardia and fibrillation, pulmonary edema, and cardiac arrest have been reported in postoperative patients. Death, coma, and encephalopathy have been reported as sequelae of these events. These have occurred in patients most of whom had pre-existing cardiovascular disorders or received other drugs which may have similar adverse cardiovascular effects. Although a direct cause and effect relationship has not been established, naloxone hydrochloride should be used with caution in patients with pre-existing cardiac disease or patients who have received medications with potential adverse cardiovascular effects, such as hypotension, ventricular tachycardia or fibrillation, and pulmonary edema. It has been suggested that the pathogenesis of pulmonary edema associated with the use of naloxone hydrochloride is similar to neurogenic pulmonary edema, i.e., a centrally mediated massive catecholamine response leading to a dramatic shift of blood volume into the pulmonary vascular bed resulting in increased hydrostatic pressures.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Ldc3868bb-b921-42ea-8536-05d6951791c3">
+                     <id root="b934ab76-1dfd-66aa-1600-7823fad60aa0"/>
+                     <code code="34073-7" displayName="DRUG INTERACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Large doses of naloxone are required to antagonize buprenorphine since the latter has a long duration of action due to its slow rate of binding and subsequent slow dissociation from the opioid receptor. Buprenorphine antagonism is characterized by a gradual onset of the reversal effects and a decreased duration of action of the normally prolonged respiratory depression. The barbiturate methohexital appears to block the acute onset of withdrawal symptoms induced by naloxone in opiate addicts.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Ld28e14cc-6ffb-4c4b-aedc-fdbd37a761e9">
+                     <id root="fcea2682-10de-25e1-1d9a-47ae4a46ed7d"/>
+                     <code code="34083-6" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies in animals to assess the carcinogenic potential of naloxone hydrochloride have not been conducted. Naloxone hydrochloride was weakly positive in the Ames mutagenicity and in the in vitro human lymphocyte chromosome aberration test but was negative in the in vitro Chinese hamster V79 cell HGPRT mutagenicity assay and in the in vivo rat bone marrow chromosome aberration study.</paragraph>
+                        <paragraph>Reproduction studies conducted in mice and rats at doses 4-times and 8-times, respectively, the dose of a 50 kg human given 10 mg/day (when based on surface area or mg/m<sup>2</sup>), demonstrated no embryotoxic or teratogenic effects due to naloxone hydrochloride.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L606cd13e-57f2-4206-90e4-befff1164d75">
+                     <id root="4e05f81b-067c-4250-093c-5a0745cf7158"/>
+                     <code code="42228-7" displayName="PREGNANCY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Use in Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content> Teratogenic Effects</content>: </paragraph>
+                        <paragraph> Teratology studies conducted in mice and rats at doses 4-times and 8-times, respectively, the dose of a 50 kg human given 10 mg/day (when based on surface area or mg/m<sup>2</sup>), demonstrated no embryotoxic or teratogenic effects due to naloxone hydrochloride. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, naloxone hydrochloride should be used during pregnancy only if clearly needed.</paragraph>
+                        <paragraph>
+                           <content> Non-teratogenic Effects</content>: </paragraph>
+                        <paragraph>Risk-benefit must be considered before naloxone hydrochloride is administered to a pregnant woman who is known or suspected to be opioid-dependent since maternal dependence may often be accompanied by fetal dependence. Naloxone crosses the placenta, and may precipitate withdrawal in the fetus as well as in the mother. Patients with mild to moderate hypertension who receive naloxone during labor should be carefully monitored as severe hypertension may occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L93e249e0-0ecf-4099-add1-50daeb484d0a">
+                     <id root="6a191634-97ab-7298-3633-5bf4afe7c08a"/>
+                     <code code="34079-4" displayName="LABOR &amp; DELIVERY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Use in Labor and Delivery</title>
+                     <text>
+                        <paragraph>It is not known if naloxone hydrochloride injection, USP affects the duration of labor and/or delivery. However, published reports indicated that administration of naloxone during labor did not adversely affect maternal or neonatal status.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers</content>
+                        </paragraph>
+                        <paragraph>It is not known whether naloxone is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when naloxone is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L01868bd3-57ce-4ac1-b288-2adc1eb076ee">
+                     <id root="cab1e1dd-6cc0-1268-52ea-41aaeb61e26b"/>
+                     <code code="34081-0" displayName="PEDIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Naloxone hydrochloride injection, USP may be administered intravenously, intramuscularly or subcutaneously in children and neonates to reverse the effects of opiates. The American Academy of Pediatrics, however, does not endorse subcutaneous or intramuscular administration in opiate intoxication since absorption may be erratic or delayed. Although the opiate-intoxicated child responds dramatically to naloxone hydrochloride, he/she must be carefully monitored for at least 24 hours as a relapse may occur as naloxone is metabolized.</paragraph>
+                        <paragraph>When naloxone hydrochloride is given to the mother shortly before delivery, the duration of its effect lasts only for the first two hours of neonatal life. It is preferable to administer naloxone hydrochloride directly to the neonate if needed after delivery. Naloxone hydrochloride has no apparent benefit as an additional method of resuscitation in the newly born infant with intrauterine asphyxia which is not related to opioid use.</paragraph>
+                        <paragraph>
+                           <content>  Usage in Pediatric Patients and Neonates for Septic Shock:</content>
+                           <content styleCode="italics"/>
+                        </paragraph>
+                        <paragraph> The safety and effectiveness of naloxone hydrochloride in the treatment of hypotension in pediatric patients and neonates with septic shock have not been established. One study of two neonates in septic shock reported a positive pressor response; however, one patient subsequently died after intractable seizures.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L5a483db7-19fb-4995-a372-bbfde0ca7063">
+                     <id root="7c37f6e3-215a-b85b-88c9-fe06aa0207bb"/>
+                     <code code="34082-8" displayName="GERIATRIC USE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of naloxone hydrochloride did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Renal Insufficiency/Failure</content>
+                        </paragraph>
+                        <paragraph>The safety and effectiveness of naloxone hydrochloride in patients with renal insufficiency/failure have not been established in well-controlled clinical trials. Caution should be exercised when naloxone hydrochloride is administered to this patient population.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Liver Disease</content>
+                        </paragraph>
+                        <paragraph>The safety and effectiveness of naloxone hydrochloride in patients with liver disease have not been established in well-controlled clinical trials. Caution should be exercised when naloxone hydrochloride is administered to patients with liver disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20190319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L134eb6f1-a66d-45de-ae28-e14715ed2999">
+               <id root="6557b53a-0f0b-b296-618c-1856220cf964"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Postoperative</content>
+                  </paragraph>
+                  <paragraph>The following adverse events have been associated with the use of naloxone hydrochloride in postoperative patients: hypotension, hypertension, ventricular tachycardia and fibrillation, dyspnea, pulmonary edema, and cardiac arrest. Death, coma, and encephalopathy have been reported as sequelae of these events. Excessive doses of naloxone hydrochloride in postoperative patients may result in significant reversal of analgesia and may cause agitation (see <content styleCode="underline">
+                        <linkHtml href="#L2fb08fd8-4f8e-4ed9-8f92-5556927e79b2">PRECAUTIONS</linkHtml>
+                     </content> and <content styleCode="underline">
+                        <linkHtml href="#L3771a8f1-c2b1-4874-8c0d-dcdefc051a04">DOSAGE AND ADMINISTRATION</linkHtml>
+                     </content>; <content styleCode="bold">Usage in Adults-Postoperative Opioid Depression</content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Opioid Depression</content>
+                  </paragraph>
+                  <paragraph>Abrupt reversal of opioid depression may result in nausea, vomiting, sweating, tachycardia, increased blood pressure, tremulousness, seizures, ventricular tachycardia and fibrillation, pulmonary edema, and cardiac arrest which may result in death (see <content styleCode="underline">
+                        <linkHtml href="#L2fb08fd8-4f8e-4ed9-8f92-5556927e79b2">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Opioid Dependence</content>
+                  </paragraph>
+                  <paragraph>Abrupt reversal of opioid effects in persons who are physically dependent on opioids may precipitate an acute withdrawal syndrome which may include, but is not limited to, the following signs and symptoms: body aches, fever, sweating, runny nose, sneezing, piloerection, yawning, weakness, shivering or trembling, nervousness, restlessness or irritability, diarrhea, nausea or vomiting, abdominal cramps, increased blood pressure, tachycardia. In the neonate, opioid withdrawal may also include: convulsions; excessive crying; hyperactive reflexes (see <content styleCode="underline">
+                        <linkHtml href="#Lead6ccfa-d65e-4d0a-a6de-dd472d0c3aa7">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Adverse events associated with the postoperative use of naloxone hydrochloride are listed by organ system and in decreasing order of frequency as follows:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Cardiac Disorders:</content>
+                     </content> pulmonary edema, cardiac arrest or failure, tachycardia, ventricular fibrillation, and ventricular tachycardia. Death, coma, and encephalopathy have been reported as sequelae of these events.<br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Gastrointestinal Disorders:</content>
+                     </content>vomiting, nausea<br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Nervous System Disorders:</content>
+                     </content> convulsions, paraesthesia, grand mal convulsion<br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Psychiatric Disorders:</content>
+                     </content> agitation, hallucination, tremulousness<br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Respiratory, Thoracic and Mediastinal Disorders:</content>
+                     </content>dyspnea, respiratory depression, hypoxia<br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Skin and Subcutaneous Tissue Disorders:</content>
+                     </content>nonspecific injection site reactions, sweating<br/>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Vascular Disorders:</content>
+                     </content> hypertension, hypotension, hot flushes or flushing.</paragraph>
+                  <paragraph>See also <content styleCode="underline">
+                        <linkHtml href="#L2fb08fd8-4f8e-4ed9-8f92-5556927e79b2">PRECAUTIONS</linkHtml>
+                     </content> and <content styleCode="bold underline">
+                        <linkHtml href="#L3771a8f1-c2b1-4874-8c0d-dcdefc051a04">DOSAGE AND ADMINISTRATION</linkHtml>;</content>
+                     <content styleCode="bold">Usage in Adults; Postoperative Opioid Depression</content>.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lff9e3fc6-f329-44e7-ade8-4ad171500599">
+               <id root="1d0a6bef-47af-0b8a-0965-a1e729877193"/>
+               <code code="42227-9" displayName="DRUG ABUSE AND DEPENDENCE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Naloxone hydrochloride is an opioid antagonist. Physical dependence associated with the use of naloxone hydrochloride has not been reported. Tolerance to the opioid antagonist effect of naloxone hydrochloride is not known to occur.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3eb3384d-4c4c-43b3-9583-aee6ee815185">
+               <id root="b9ab1946-8e28-d810-d050-7cc58fb08cc3"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is limited clinical experience with naloxone hydrochloride overdosage in humans.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adult Patients</content>
+                  </paragraph>
+                  <paragraph>In one small study, volunteers who received 24 mg/70 kg did not demonstrate toxicity. In another study, 36 patients with acute stroke received a loading dose of 4 mg/kg (10 mg/m<sup>2</sup>/min) of naloxone hydrochloride followed immediately by 2 mg/kg/hr for 24 hours. Twenty-three patients experienced adverse events associated with naloxone use, and naloxone was discontinued in seven patients because of adverse effects. The most serious adverse events were: seizures (2 patients), severe hypertension (1), and hypotension and/or bradycardia (3).</paragraph>
+                  <paragraph>At doses of 2 mg/kg in normal subjects, cognitive impairment and behavioral symptoms, including irritability, anxiety, tension, suspiciousness, sadness, difficulty concentrating, and lack of appetite have been reported. In addition, somatic symptoms, including dizziness, heaviness, sweating, nausea, and stomachaches were also reported. Although complete information is not available, behavioral symptoms were reported to often persist for 2-3 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pediatric Patients</content>
+                  </paragraph>
+                  <paragraph>Up to 11 doses of 0.2 mg of naloxone (2.2 mg) have been administered to children following overdose of diphenoxylate hydrochloride with atropine sulfate. Pediatric reports include a 2-1/2 year-old child who inadvertently received a dose of 20 mg of naloxone for treatment of respiratory depression following overdose with diphenoxylate hydrochloride with atropine sulfate. The child responded well and recovered without adverse sequelae. There is also a report of a 4-1/2 year-old child who received 11 doses during a 12-hour period, with no adverse sequelae.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patient Management</content>
+                  </paragraph>
+                  <paragraph>Patients who experience a naloxone hydrochloride overdose should be treated symptomatically in a closely supervised environment.<br/>Physicians should contact a poison control center for the most up-to-date patient management information.</paragraph>
+               </text>
+               <effectiveTime value="20190319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3771a8f1-c2b1-4874-8c0d-dcdefc051a04">
+               <id root="d7ff4c6a-ad42-1cb8-c0b2-a8647a3ffd33"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Naloxone hydrochloride injection may be administered intravenously, intramuscularly, or subcutaneously. The most rapid onset of action is achieved by intravenous administration, which is recommended in emergency situations.</paragraph>
+                  <paragraph>Since the duration of action of some opioids may exceed that of naloxone, the patient should be kept under continued surveillance. Repeated doses of naloxone should be administered, as necessary.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intravenous Infusion</content>
+                  </paragraph>
+                  <paragraph>Naloxone hydrochloride injection may be diluted for intravenous infusion in normal saline or 5% dextrose solutions. The addition of 2 mg of naloxone in 500 mL of either solution provides a concentration of 0.004 mg/mL. Mixtures should be used within 24 hours. After 24 hours, the remaining unused mixture must be discarded. The rate of administration should be titrated in accordance with the patient’s response.<br/>Naloxone hydrochloride injection should not be mixed with preparations containing bisulfite, metabisulfite, long-chain or high molecular weight anions, or any solution having an alkaline pH. No drug or chemical agent should be added to naloxone hydrochloride injection unless its effect on the chemical and physical stability of the solution has first been established.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">General</content>
+                  </paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration whenever solution and container permit.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usage in Adults</content>
+                     <br/>
+                  </paragraph>
+                  <paragraph>
+                     <content> Opioid Overdose—Known or Suspected:</content>
+                  </paragraph>
+                  <paragraph>An initial dose of 0.4 mg to 2 mg of naloxone hydrochloride may be administered intravenously. If the desired degree of counteraction and improvement in respiratory functions are not obtained, it may be repeated at two-to-three-minute intervals. If no response is observed after 10 mg of naloxone hydrochloride have been administered, the diagnosis of opioid-induced or partial opioid-induced toxicity should be questioned. Intramuscular or subcutaneous administration may be necessary if the intravenous route is not available.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Postoperative Opioid Depression:</content>
+                  </paragraph>
+                  <paragraph>For the partial reversal of opioid depression following the use of opioids during surgery, smaller doses of naloxone hydrochloride are usually sufficient. The dose of naloxone hydrochloride should be titrated according to the patient’s response. For the initial reversal of respiratory depression, naloxone hydrochloride should be injected in increments of 0.1 to 0.2 mg intravenously at two-to three-minute intervals to the desired degree of reversal, i.e., adequate ventilation and alertness without significant pain or discomfort. Larger than necessary dosage of naloxone may result in significant reversal of analgesia and increase in blood pressure. Similarly, too rapid reversal may induce nausea, vomiting, sweating, or circulatory stress.<br/>Repeat doses of naloxone may be required within one- to two-hour intervals depending upon the amount, type (i.e., short or long acting) and time interval since last administration of an opioid. Supplemental intramuscular doses have been shown to produce a longer lasting effect.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Septic Shock:</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The optimal dosage of naloxone hydrochloride or duration of therapy for the treatment of hypotension in septic shock patients has not been established (see <linkHtml href="#L1bf40e68-ba3a-4f68-8837-5876ad5253d8">CLINICAL PHARMACOLOGY</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usage in Children</content>
+                     <br/>
+                     <content styleCode="italics"/>
+                  </paragraph>
+                  <paragraph>
+                     <content>  Opioid Overdose—Known or Suspected:</content>
+                     <content styleCode="italics"/>
+                  </paragraph>
+                  <paragraph>The usual initial dose in children is 0.01 mg/kg body weight given intravenous. If this dose does not result in the desired degree of clinical improvement, a subsequent dose of 0.1 mg/kg body weight may be administered. If an intravenous route of administration is not available, naloxone may be administered intramuscular or subcutaneous in divided doses. If necessary, naloxone hydrochloride injection can be diluted with sterile water for injection. </paragraph>
+                  <paragraph>
+                     <content> Postoperative Opioid Depression:</content>
+                  </paragraph>
+                  <paragraph>Follow the recommendations and cautions under Adult Postoperative Depression. For the initial reversal of respiratory depression naloxone hydrochloride should be injected in increments of 0.005 mg to 0.01 mg intravenously at two- to three-minute intervals to the desired degree of reversal.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Usage in Neonates</content>
+                     <br/>
+                     <content styleCode="italics"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics"/>
+                     <content>Opioid-induced Depression: </content>
+                  </paragraph>
+                  <paragraph>The usual initial dose is 0.01 mg/kg body weight administered intravenous, intramuscular, or subcutaneous. This dose may be repeated in accordance with adult administration guidelines for postoperative opioid depression. </paragraph>
+               </text>
+               <effectiveTime value="20190927"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Laa0b145e-c9f1-47ec-8f10-ba121c06a4c6">
+               <id root="29c6dc78-12a2-e2a8-b216-d86e9013e6e6"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Naloxone hydrochloride injection USP, for intravenous, intramuscular, and subcutaneous administration is available as:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 mg/mL</content>
+                  </paragraph>
+                  <paragraph>Each mono-carton contains one 2 mg/2 mL Single-Dose Luer-Lock Prefilled Syringe. NDC 43598-750-11 (contains no preservative) </paragraph>
+                  <paragraph>Ten mono-cartons each containing 2 mL Single-Dose Prefilled Syringe are packaged in an outer-carton. NDC 43598-750-10 (contains no preservative).</paragraph>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15°C to 30°C (59°F to 86°F). [See USP Controlled Room Temperature].<content styleCode="bold"> Needle not included.</content> Protect from light.</paragraph>
+                  <paragraph>Store in carton until contents have been used.</paragraph>
+                  <paragraph/>
+                  <paragraph>Distributor: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dr. Reddy's Laboratories, Inc.</content>
+                  </paragraph>
+                  <paragraph> Princeton, NJ 08540   </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Made in India</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_b7f952e3-2de6-751c-b514-b575e7499731">
+               <id root="1469b7f3-79c9-bab9-dc67-a81f06a1d571"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <title>INSTRUCTIONS FOR USE SECTION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Instructions for Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Syringe Assembly Directions: Use Aseptic Technique <br/>Do not assemble until ready to use</content>
+                  </paragraph>
+                  <paragraph>1. Remove syringe and plunger rod from mono carton. Insert plunger rod into open end of syringe until it contacts the stopper. </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM429133867932"/>
+                  </paragraph>
+                  <paragraph>2. Turn clockwise 2½ turns or until resistance is felt.</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM187826247207"/>
+                  </paragraph>
+                  <paragraph>3. Hold the syringe upright, remove tip cap &amp; expel the air before injection. DO NOT TOUCH THE STERILE SYRINGE TIP (Luer-Lock).</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM787774326066"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Distributor: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dr. Reddy's Laboratories, Inc.</content>
+                  </paragraph>
+                  <paragraph> Princeton, NJ 08540   </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Made in India</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Issued: 08/2024</paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7e4ecc04-4790-4366-943e-0698b959a67b">
+               <id root="256df0e2-96cd-1519-aeb5-8915150c9292"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRINCIPLE DISPLAY PANEL: Container Label </title>
+               <text>
+                  <paragraph>43598-750-11</paragraph>
+                  <paragraph>Naloxone Hydrochloride Injection, USP</paragraph>
+                  <paragraph>2 mg/2 mL (1 mg /mL)</paragraph>
+                  <paragraph>FOR I.M., I.V. OR</paragraph>
+                  <paragraph>S.C. USE / SINGLE DOSE</paragraph>
+                  <paragraph>SEE INSERT</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L78c5bccf-f443-4b44-ad3f-f7e5f976e81e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190927"/>
+               <component>
+                  <observationMedia ID="L78c5bccf-f443-4b44-ad3f-f7e5f976e81e">
+                     <text>container</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="container.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_885f4b64-81a3-666a-b56f-70e5f2de161d">
+               <id root="f733bda2-06c0-3ad0-3eba-b4a7cdb78d53"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRINCIPLE DISPLAY PANEL: Carton - 10 x One 2 mL Single-Dose Disposable Prefilled Syringe</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM456802379822"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210430"/>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

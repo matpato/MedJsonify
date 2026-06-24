@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5c93414e-0b79-4ecd-8760-7fa75c238edb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">BETAMETHASONE VALERATE CREAM USP, 0.1% </content>
+      <br/>
+      <content styleCode="bold">BETAMETHASONE VALERATE OINTMENT USP, 0.1% </content>
+      <br/>
+      <content styleCode="bold">BETAMETHASONE VALERATE LOTION USP, 0.1% </content>
+      <br/>
+      <content styleCode="bold">(Potency expressed as betamethasone)</content>
+   </title>
+   <effectiveTime value="20260319"/>
+   <setId root="50d4763d-5a84-4c45-be06-040c4a527470"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="791119022" root="1.3.6.1.4.1.519.1"/>
+            <name>Preferred Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="791119022" root="1.3.6.1.4.1.519.1"/>
+                  <name>Preferred Pharmaceuticals Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="791119022" root="1.3.6.1.4.1.519.1"/>
+                        <name>Preferred Pharmaceuticals Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="68788-8496" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6fc661c7-0db6-4de4-ad3c-5caf0699db00"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260319"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="68788-8496" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Betamethasone Valerate</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>betamethasone valerate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0168-0033" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="1"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9IFA5XM7R2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BETAMETHASONE VALERATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="9842X06Q6M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BETAMETHASONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="T5L8T28FGP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="15"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68788-8496-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230726"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="g" value="45"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="68788-8496-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230726"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018865" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230726"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="20823139-9808-46cb-85fc-7a59e1606ab1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+                  <paragraph>FOR DERMATOLOGIC USE ONLY.<br/>NOT FOR OPHTHALMIC USE.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="d764a642-7f7e-4f63-9716-21e772e35b99"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:</title>
+               <text>
+                  <paragraph>Betamethasone Valerate Cream, Ointment and Lotion contain betamethasone valerate USP, a synthetic adrenocorticosteroid for dermatologic use. Betamethasone, an analog of prednisolone, has a high degree of glucocorticoid activity and a slight degree of mineralocorticoid activity.</paragraph>
+                  <paragraph>Betamethasone valerate is a white to practically white odorless crystalline powder practically insoluble in water, freely soluble in acetone and chloroform, soluble in alcohol, and slightly soluble in benzene and ether. Chemically, it is 9-fluoro-11β,17,21-trihydroxy-16β-methylpregna-1, 4-diene-3,20-dione 17-valerate. The structural formula is: </paragraph>
+                  <renderMultiMedia ID="f1" referencedObject="DA4AD680-B0DB-46E0-9085-B33201C30DED"/>
+                  <paragraph>Each gram of the 0.1% Cream contains 1.2 mg betamethasone valerate (equivalent to 1 mg betamethasone) in a soft, white, hydrophilic cream of purified water, mineral oil, white petrolatum, polyoxyl 20 cetostearyl ether, cetostearyl alcohol, monobasic sodium phosphate and phosphoric acid or sodium hydroxide (to adjust pH, if required);   chlorocresol is present as a preservative.</paragraph>
+                  <paragraph>Each gram of the 0.1% Ointment contains 1.2 mg betamethasone valerate (equivalent to 1 mg betamethasone) in an ointment base of white petrolatum and mineral oil.</paragraph>
+                  <paragraph>Each gram of the 0.1% Lotion contains 1.2 mg betamethasone valerate (equivalent to 1 mg betamethasone) in a vehicle of isopropyl alcohol and water slightly thickened with carbomer 934P. Sodium hydroxide is used to adjust pH.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+               <component>
+                  <observationMedia ID="DA4AD680-B0DB-46E0-9085-B33201C30DED">
+                     <text>structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="betamethasonevalimage-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="fd524a63-563b-489e-84c3-e570eeb66627"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:</title>
+               <text>
+                  <paragraph>Topical corticosteroids share anti-inflammatory, antipruritic and vasoconstrictive actions.</paragraph>
+                  <paragraph>The mechanism of anti-inflammatory activity of the topical corticosteroids is unclear. Various laboratory methods, including vasoconstrictor assays, are used to compare and predict potencies and/or clinical efficacies of the topical corticosteroids. There is some evidence to suggest that a recognizable correlation exists between vasoconstrictor potency and therapeutic efficacy in man.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+               <component>
+                  <section ID="s4">
+                     <id root="78e86c41-038c-481a-8d91-9a4de9c75e08"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pharmacokinetics:</content> The extent of percutaneous absorption of topical corticosteroids is determined by many factors including the vehicle, the integrity of the epidermal barrier, and the use of occlusive dressings.</paragraph>
+                        <paragraph>Topical corticosteroids can be absorbed from normal intact skin. Inflammation and/or other disease processes in the skin increase percutaneous absorption. Occlusive dressings substantially increase the percutaneous absorption of topical corticosteroids. Thus, occlusive dressings may be a valuable therapeutic adjunct for treatment of resistant dermatoses.</paragraph>
+                        <paragraph>Once absorbed through the skin, topical corticosteroids are handled through pharmacokinetic pathways similar to systemically administered corticosteroids. Corticosteroids are bound to plasma proteins in varying degrees. Corticosteroids are metabolized primarily in the liver and are then excreted by the kidneys. Some of the topical corticosteroids and their metabolites are also excreted into the bile.</paragraph>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s5">
+               <id root="9f3bf99f-34bd-4123-90dc-f7c9363389b1"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:</title>
+               <text>
+                  <paragraph>Topical corticosteroids are indicated for the relief of the inflammatory and pruritic manifestations of corticosteroid-responsive dermatoses.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s6">
+               <id root="59237b8b-999a-4fbd-a74f-9207902c66db"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>Topical corticosteroids are contraindicated in those patients with a history of hypersensitivity to any of the components of the preparation.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s7">
+               <id root="1df5822c-2c1a-467f-b23e-3d7a76d6a235"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:</title>
+               <effectiveTime value="20260319"/>
+               <component>
+                  <section ID="s8">
+                     <id root="77026980-9b99-4b7e-bc3d-716de3164453"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">General:</content> Systemic absorption of topical corticosteroids has produced reversible hypothalamic-pituitary-adrenal (HPA) axis suppression, manifestations of Cushing's syndrome, hyperglycemia, and glucosuria in some patients.</paragraph>
+                        <paragraph>Conditions which augment systemic absorption include the application of the more potent steroids, use over large surface areas, prolonged use, and the addition of occlusive dressings.</paragraph>
+                        <paragraph>Therefore, patients receiving a large dose of a potent topical steroid applied to a large surface area should be evaluated periodically for evidence of HPA axis suppression by using the urinary free cortisol and ACTH stimulation tests. If HPA axis suppression is noted, an attempt should be made to withdraw the drug, to reduce the frequency of application, or substitute to a less potent steroid.</paragraph>
+                        <paragraph>Recovery of HPA axis function is generally prompt and complete upon discontinuation of the drug. Infrequently, signs and symptoms of steroid withdrawal may occur, requiring supplemental systemic corticosteroids.</paragraph>
+                        <paragraph>Pediatric patients may absorb proportionally larger amounts of topical corticosteroids and thus be more susceptible to systemic toxicity (See <content styleCode="bold">Error! Hyperlink reference not valid.</content>).</paragraph>
+                        <paragraph>If irritation develops, topical corticosteroids should be discontinued and appropriate therapy instituted.</paragraph>
+                        <paragraph>In the presence of dermatological infections, the use of an appropriate antifungal or antibacterial agent should be instituted. If a favorable response does not occur promptly, the corticosteroid should be discontinued until the infection has been adequately controlled.</paragraph>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s9">
+                     <id root="5cdf265d-026f-44c6-8d31-68350660b504"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Information for Patients:</content> Patients using topical corticosteroids should receive the following information and instructions:</paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <caption>1.</caption>This medication is to be used as directed by the physician. It is for external use only. Avoid contact with the eyes.</item>
+                           <item>
+                              <caption>2.</caption>Patients should be advised not to use this medication for any disorder other than that for which it was prescribed.</item>
+                           <item>
+                              <caption>3.</caption>The treated skin area should not be bandaged or otherwise covered or wrapped as to be occlusive unless directed by the physician.</item>
+                           <item>
+                              <caption>4.</caption>Patients should report any signs of local adverse reactions especially under occlusive dressing.</item>
+                           <item>
+                              <caption>5.</caption>Parents of pediatric patients should be advised not to use tight-fitting diapers or plastic pants on a child being treated in the diaper area, as these garments may constitute occlusive dressings.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s10">
+                     <id root="091bdb53-7519-4f62-beca-639c6bfcb204"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Laboratory tests:</content> The following tests may be helpful in evaluating the HPA axis suppression:</paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption> </caption>Urinary free cortisol test</item>
+                           <item>
+                              <caption> </caption> ACTH stimulation test</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="18347b58-00a0-428b-864b-ec92dc1d6fb9"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Carcinogenesis, Mutagenesis and Impairment of Fertility:</content> Long-term animal studies have not been performed to evaluate the carcinogenic potential or the effect on fertility of topical corticosteroids.</paragraph>
+                        <paragraph>Studies to determine mutagenicity with prednisolone and hydrocortisone have revealed negative results.</paragraph>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s12">
+                     <id root="3e678389-bbc2-4e56-a93c-88b7859c7856"/>
+                     <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pregnancy: </content>
+                           <content styleCode="underline">Teratogenic Effects</content> — <content styleCode="italics">Pregnancy Category C.</content> Corticosteroids are generally teratogenic in laboratory animals when administered systemically at relatively low dosage levels. The more potent corticosteroids have been shown to be teratogenic after dermal application in laboratory animals. There are no adequate and well-controlled studies in pregnant women on teratogenic effects from topically applied corticosteroids. Therefore, topical corticosteroids should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus. Drugs of this class should not be used extensively on pregnant patients, in large amounts, or for prolonged periods of time.</paragraph>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s13">
+                     <id root="5037ef1e-fabb-46c0-8201-32a2d289e2d6"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Nursing Mothers:</content> It is not known whether topical administration of corticosteroids could result in sufficient systemic absorption to produce detectable quantities in breast milk. Systemically administered corticosteroids are secreted into breast milk in quantities <content styleCode="italics">not</content> likely to have a deleterious effect on the infant. Nevertheless, caution should be exercised when topical corticosteroids are administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                     <component>
+                        <section ID="ID_4c6b36dd-e690-4f2c-ae68-33ea875510a9">
+                           <id root="d1576d66-a6a0-4397-8a70-0e3e520ad4c9"/>
+                           <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                           <effectiveTime value="20230726"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="e13">
+                     <id root="11c78676-ea3f-4edc-b9ed-4462e2ebb7a2"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Pediatric Use: Pediatric patients may demonstrate greater susceptibility to topical corticosteroid-induced HPA axis suppression and Cushing's syndrome than mature patients because of a larger skin surface area to body weight ratio.</content>
+                        </paragraph>
+                        <paragraph>Hypothalamic-pituitary-adrenal (HPA) axis suppression, Cushing's syndrome, and intracranial hypertension have been reported in children receiving topical corticosteroids. Manifestations of adrenal suppression in children include linear growth retardation, delayed weight gain, low plasma cortisol levels, and absence of response to ACTH stimulation. Manifestations of intracranial hypertension include bulging fontanelles, headaches, and bilateral papilledema.</paragraph>
+                        <paragraph>Administration of topical corticosteroids to pediatric patients should be limited to the least amount compatible with an effective therapeutic regimen. Chronic corticosteroid therapy may interfere with the growth and development of children.</paragraph>
+                     </text>
+                     <effectiveTime value="20260319"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s14">
+               <id root="bf42214e-501a-44ac-8ed5-c8ab0ac8506d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:</title>
+               <text>
+                  <paragraph>The following local adverse reactions are reported infrequently with topical corticosteroids, but may occur more frequently with the use of occlusive dressings. These reactions are listed in an approximate decreasing order of occurrence: burning, itching, irritation, dryness, folliculitis, hypertrichosis, acneiform eruptions, hypopigmentation, perioral dermatitis, allergic contact dermatitis, maceration of the skin, secondary infection, skin atrophy, striae and miliaria.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s15">
+               <id root="72cc96e3-7a29-43d8-837e-43ff474b324f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE:</title>
+               <text>
+                  <paragraph>Topically applied corticosteroids can be absorbed in sufficient amounts to produce systemic effects (See <content styleCode="bold">
+                        <linkHtml href="#s7">PRECAUTIONS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s16">
+               <id root="0b557f61-5434-4a0e-85aa-c1eb97f50520"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>Apply a thin film of Betamethasone Valerate Cream or Ointment to the affected skin areas one to three times a day. Dosage once or twice a day is often effective.</paragraph>
+                  <paragraph>Apply a few drops of Betamethasone Valerate Lotion to the affected area and massage lightly until it disappears. Apply twice daily, in the morning and at night. Dosage may be increased in stubborn cases. Following improvement, apply once daily. For the most effective and economical use, apply nozzle very close to affected area and gently squeeze bottle.</paragraph>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_345ecbda-d0c5-47e7-a8e2-07dfceacb5c8">
+               <id root="0fbee9e3-a3b4-4f31-a744-d8829b776ddf"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>How Supplied </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">BETAMETHASONE</content>
+                     <br/>
+                     <content styleCode="bold">VALERATE OINTMENT</content>
+                     <br/>
+                     <content styleCode="bold">USP, 0.1%</content>
+                     <br/>
+                     <content styleCode="bold">(Potency expressed as betamethasone)</content>
+                  </paragraph>
+                  <paragraph>Rx only </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NET WT 15 grams</content>
+                  </paragraph>
+                  <paragraph>Store at room temperature 15° - 30°C (59° - 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">E. FOUGERA &amp; CO.</content>
+                     <br/>A division of <br/>
+                     <content styleCode="bold">Fougera</content>
+                     <br/>PHARMACEUTICALS INC.<br/>Melville, NY 11747</paragraph>
+                  <paragraph>46289058A <br/>R06/2021<br/>#57<br/>
+                     <content styleCode="bold">Relabeled By: Preferred Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <caption> </caption>NDC 68788-8496-1	15 Gram Tube</item>
+                     <item>
+                        <caption> </caption>NDC 68788-8496-4	45 Gram Tube</item>
+                  </list>
+               </text>
+               <effectiveTime value="20260319"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s24">
+               <id root="21674622-8672-409c-b1ba-51cc717d1480"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL – PRINCIPAL DISPLAY PANEL – CONTAINER</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC</content> 68788-8496 </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Fougera</content>
+                     <sup>®</sup>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Relabeled By: Preferred Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BETAMETHASONE</content>
+                     <br/>
+                     <content styleCode="bold">VALERATE OINTMENT</content>
+                     <br/>
+                     <content styleCode="bold">USP, 0.1%</content>
+                     <br/>
+                     <content styleCode="bold">(Potency expressed as betamethasone)</content>
+                  </paragraph>
+                  <paragraph>Rx only </paragraph>
+                  <paragraph>Store at room temperature 15° - 30°C (59° - 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">E. FOUGERA &amp; CO.</content>
+                     <br/>A division of <br/>
+                     <content styleCode="bold">Fougera</content>
+                     <br/>PHARMACEUTICALS INC.<br/>Melville, NY 11747</paragraph>
+                  <paragraph>46289058A <br/>R06/2021<br/>#57<br/>
+                     <content styleCode="bold">Relabeled By: Preferred Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <renderMultiMedia ID="f06" referencedObject="ID_4e10ed80-d114-4e17-bb0e-734d92627446"/>
+               </text>
+               <effectiveTime value="20260319"/>
+               <component>
+                  <observationMedia ID="ID_4e10ed80-d114-4e17-bb0e-734d92627446">
+                     <text>Betamethasone Valerate Ointment USP 0.1%</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="50D4763D-5A84-4C45-BE06-040C4A527470-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

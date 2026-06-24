@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dd4a56ce-80e3-4794-94a8-cb2b14695b89"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Dantrium<sup>®</sup> Intravenous (dantrolene sodium for injection)</title>
+   <effectiveTime value="20260310"/>
+   <setId root="4df35098-8702-46be-ac67-30cfdf1aa570"/>
+   <versionNumber value="15"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119547712" root="1.3.6.1.4.1.519.1"/>
+            <name>Par Health USA, LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4e2babbe-8b79-4dab-8bf6-74f2b4f154b1"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20251223"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42023-123" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Dantrium</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>dantrolene sodium</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="20"/>
+                              <denominator unit="mL" value="60"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="287M0347EV" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DANTROLENE SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F64QU97QCR" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DANTROLENE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3OWL53L36A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MANNITOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="60"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="6"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42023-123-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20090420"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018264" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20090420"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_94f6b6ee-079f-4360-9fd8-9d44b9da14cd">
+               <id root="060c14d4-596c-4f5e-a560-0b13578d3199"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dantrium Intravenous</content> is a sterile, non-pyrogenic, lyophilized formulation of dantrolene sodium for injection. <content styleCode="bold">Dantrium Intravenous</content> is supplied in 70 mL vials containing 20 mg dantrolene sodium, 3000 mg mannitol, and sufficient sodium hydroxide to yield a pH of approximately 9.5 when reconstituted with 60 mL sterile water for injection USP (without a bacteriostatic agent).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dantrium</content> is classified as a direct-acting skeletal muscle relaxant. Chemically, <content styleCode="bold">Dantrium</content> is hydrated 1-[[[5-(4-nitrophenyl)-2-furanyl]methylene]amino]-2,4-imidazolidinedione sodium salt. The structural formula for the hydrated salt is:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>The hydrated salt contains approximately 15% water (3-1/2 moles) and has a molecular weight of 399. The anhydrous salt (dantrolene) has a molecular weight of 336.</paragraph>
+               </text>
+               <effectiveTime value="20240624"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dantrium-iv-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_bbc6e27a-20d7-4958-b550-c70825f68a5b">
+               <id root="a13c40df-ba2c-4c26-a9e9-c6379cb6c03d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY:</title>
+               <text>
+                  <paragraph>In isolated nerve-muscle preparation, <content styleCode="bold">Dantrium</content> has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, <content styleCode="bold">Dantrium</content> dissociates the excitation-contraction coupling, probably by interfering with the release of Ca++ from the sarcoplasmic reticulum. The administration of intravenous <content styleCode="bold">Dantrium</content> to human volunteers is associated with loss of grip strength and weakness in the legs, as well as subjective CNS complaints (see also <linkHtml href="#LINK_f09d4fa1-53c2-4c1e-8290-fab6850949f8">PRECAUTIONS, Information for Patients</linkHtml>). Information concerning the passage of <content styleCode="bold">Dantrium</content> across the blood-brain barrier is not available.</paragraph>
+                  <paragraph>In the anesthetic-induced malignant hyperthermia syndrome, evidence points to an intrinsic abnormality of skeletal muscle tissue. In affected humans, it has been postulated that "triggering agents" (e.g., general anesthetics and depolarizing neuromuscular blocking agents) produce a change within the cell which results in an elevated myoplasmic calcium. This elevated myoplasmic calcium activates acute cellular catabolic processes that cascade to the malignant hyperthermia crisis.</paragraph>
+                  <paragraph>It is hypothesized that addition of <content styleCode="bold">Dantrium</content> to the "triggered" malignant hyperthermic muscle cell reestablishes a normal level of ionized calcium in the myoplasm. Inhibition of calcium release from the sarcoplasmic reticulum by <content styleCode="bold">Dantrium</content> reestablishes the myoplasmic calcium equilibrium, increasing the percentage of bound calcium. In this way, physiologic, metabolic, and biochemical changes associated with the malignant hyperthermia crisis may be reversed or attenuated. Experimental results in malignant hyperthermia susceptible swine show that prophylactic administration of intravenous or oral dantrolene prevents or attenuates the development of vital sign and blood gas changes characteristic of malignant hyperthermia in a dose related manner. The efficacy of intravenous dantrolene in the treatment of human and porcine malignant hyperthermia crisis, when considered along with prophylactic experiments in malignant hyperthermia susceptible swine, lends support to prophylactic use of oral or intravenous dantrolene in malignant hyperthermia susceptible humans. When prophylactic intravenous dantrolene is administered as directed, whole blood concentrations remain at a near steady state level for 3 or more hours after the infusion is completed. Clinical experience has shown that early vital sign and/or blood gas changes characteristic of malignant hyperthermia may appear during or after anesthesia and surgery despite the prophylactic use of dantrolene and adherence to currently accepted patient management practices. These signs are compatible with attenuated malignant hyperthermia and respond to the administration of additional intravenous dantrolene (see <linkHtml href="#LINK_091c79d6-927a-449f-8213-856116740e47">DOSAGE AND ADMINISTRATION</linkHtml>). The administration of the recommended prophylactic dose of intravenous dantrolene to healthy volunteers was not associated with clinically significant cardiorespiratory changes.</paragraph>
+                  <paragraph>Specific metabolic pathways for the degradation and elimination of <content styleCode="bold">Dantrium</content> in humans have been established. Dantrolene is found in measurable amounts in blood and urine. Its major metabolites in body fluids are 5-hydroxy dantrolene and an acetylamino metabolite of dantrolene. Another metabolite with an unknown structure appears related to the latter. <content styleCode="bold">Dantrium</content> may also undergo hydrolysis and subsequent oxidation forming nitrophenylfuroic acid.</paragraph>
+                  <paragraph>The mean biologic half-life of <content styleCode="bold">Dantrium</content> after intravenous administration is variable, between 4 to 8 hours under most experimental conditions. Based on assays of whole blood and plasma, slightly greater amounts of dantrolene are associated with red blood cells than with the plasma fraction of blood. Significant amounts of dantrolene are bound to plasma proteins, mostly albumin, and this binding is readily reversible.</paragraph>
+                  <paragraph>Cardiopulmonary depression has not been observed in malignant hyperthermia susceptible swine following the administration of up to 7.5 mg/kg intravenous dantrolene. This is twice the amount needed to maximally diminish twitch response to single supramaximal peripheral nerve stimulation (95% inhibition). A transient, inconsistent, depressant effect on gastrointestinal smooth muscles has been observed at high doses.</paragraph>
+               </text>
+               <effectiveTime value="20240318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9a296ea2-4be8-4930-964f-c33558a1e21a">
+               <id root="cd98050f-c5d3-473b-95d9-335732344b26"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dantrium Intravenous</content> is indicated, along with appropriate supportive measures, for the management of the fulminant hypermetabolism of skeletal muscle characteristic of malignant hyperthermia crises in patients of all ages. <content styleCode="bold">Dantrium Intravenous</content> should be administered by continuous rapid intravenous push as soon as the malignant hyperthermia reaction is recognized (i.e., tachycardia, tachypnea, central venous desaturation, hypercarbia, metabolic acidosis, skeletal muscle rigidity, increased utilization of anesthesia circuit carbon dioxide absorber, cyanosis and mottling of the skin, and, in many cases, fever).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dantrium Intravenous</content> is also indicated preoperatively, and sometimes postoperatively, to prevent or attenuate the development of clinical and laboratory signs of malignant hyperthermia in individuals judged to be malignant hyperthermia susceptible.</paragraph>
+               </text>
+               <effectiveTime value="20230814"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7918ecc8-58b1-41e3-9448-2917b6f86dfe">
+               <id root="132766db-b7a5-44dd-ade2-07fa64e5ed47"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS:</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20230814"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b2660c8d-560d-4ff8-aee9-05ec2900b797">
+               <id root="c10b2c04-62f0-45ca-bf08-1e4a3f92f9c3"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS:</title>
+               <text>
+                  <paragraph>The use of <content styleCode="bold">Dantrium Intravenous</content>
+                     <content styleCode="italics"> in the management of malignant hyperthermia crisis is not a substitute for previously known supportive measures. These measures must be individualized, but it will usually be necessary to discontinue the suspect triggering agents, attend to increased oxygen requirements, manage the metabolic acidosis, institute cooling when necessary, monitor urinary output, and monitor for electrolyte imbalance.</content>
+                  </paragraph>
+                  <paragraph>Since the effect of disease state and other drugs on  <content styleCode="bold">Dantrium</content>-related skeletal muscle weakness, including possible respiratory depression, cannot be predicted, patients who receive <content styleCode="bold">Dantrium Intravenous</content> preoperatively should have vital signs monitored.</paragraph>
+                  <paragraph>If patients judged malignant hyperthermia susceptible are administered intravenous or oral <content styleCode="bold">Dantrium</content> preoperatively, anesthetic preparation must still follow a standard malignant hyperthermia susceptible regimen, including the avoidance of known triggering agents. Monitoring for early clinical and metabolic signs of malignant hyperthermia is indicated because attenuation of malignant hyperthermia, rather than prevention, is possible. These signs usually call for the administration of additional intravenous dantrolene.</paragraph>
+               </text>
+               <effectiveTime value="20240318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_36e8dbb2-1b34-4fe9-ac25-686a60cd2333">
+               <id root="99adedab-6bb1-4976-8717-8ac1dba1684c"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS:</title>
+               <text/>
+               <effectiveTime value="20240318"/>
+               <component>
+                  <section ID="LINK_c519a2f8-4543-4d68-9000-4a595041514c">
+                     <id root="8e59d24b-aeab-4852-962a-3ad2de53b0d0"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General:</title>
+                     <text>
+                        <paragraph>Care must be taken to prevent extravasation of <content styleCode="bold">Dantrium Intravenous</content> solution into the surrounding tissues due to the high pH of the intravenous formulation and potential for tissue necrosis.</paragraph>
+                        <paragraph>When mannitol is used for prevention or treatment of late renal complications of malignant hyperthermia, the 3 g of mannitol needed to dissolve each 20 mg vial of <content styleCode="bold">Dantrium Intravenous</content> should be taken into consideration.</paragraph>
+                     </text>
+                     <effectiveTime value="20240318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f09d4fa1-53c2-4c1e-8290-fab6850949f8">
+                     <id root="c91e3da6-3123-48eb-819c-bb1d466c90d4"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients:</title>
+                     <text>
+                        <paragraph>Based upon data in human volunteers, perioperatively, it is appropriate to tell patients who receive <content styleCode="bold">Dantrium Intravenous</content> that symptoms of muscle weakness should be expected postoperatively (i.e., decrease in grip strength and weakness of leg muscles, especially walking down stairs). In addition, symptoms such as "lightheadedness" may be noted. Since some of these symptoms may persist for up to 48 hours, patients must not operate an automobile or engage in other hazardous activity during this time. Caution is also indicated at meals on the day of administration because difficulty swallowing and choking has been reported. Caution should be exercised in the concomitant administration of tranquilizing agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20240318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_fc27cc83-2418-413c-a816-ab45b790e789">
+                     <id root="cd309dad-b866-4800-9f6b-513c1a26e710"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions:</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Dantrium</content> is metabolized by the liver, and it is theoretically possible that its metabolism may be enhanced by drugs known to induce hepatic microsomal enzymes. However, neither phenobarbital nor diazepam appears to affect <content styleCode="bold">Dantrium</content> metabolism. Binding to plasma protein is not significantly altered by diazepam, diphenylhydantoin, or phenylbutazone. Binding to plasma proteins is reduced by warfarin and clofibrate and increased by tolbutamide.</paragraph>
+                        <paragraph>Cardiovascular collapse in association with marked hyperkalemia has been reported in patients receiving dantrolene in combination with calcium channel blockers. It is recommended that the combination of intravenous dantrolene sodium and calcium channel blockers, such as verapamil, not be used together during the management of malignant hyperthermia crisis. </paragraph>
+                        <paragraph>Administration of dantrolene may potentiate vecuronium-induced neuromuscular block.</paragraph>
+                     </text>
+                     <effectiveTime value="20230814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a0a0afd3-b9cd-452f-ba49-96fa9fb3f85d">
+                     <id root="ea9d71b8-2a49-442d-9a16-c2b71028de83"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, and Impairment of Fertility:</title>
+                     <text>
+                        <paragraph>Sprague-Dawley female rats fed <content styleCode="bold">Dantrium</content> for 18 months at dosage levels of 15, 30, and 60 mg/kg/day showed an increased incidence of benign and malignant mammary tumors compared with concurrent controls. At the highest dose level (approximately the same as the maximum recommended daily dose on a mg/m<sup>2 </sup>basis), there was an increase in the incidence of benign hepatic lymphatic neoplasms. In a 30-month study in Sprague-Dawley rats fed dantrolene sodium, the highest dose level (approximately the same as the maximum recommended daily dose on a mg/m<sup>2 </sup>basis) produced a decrease in the time of onset of mammary neoplasms. Female rats at the highest dose level showed an increased incidence of hepatic lymphangiomas and hepatic angiosarcomas.</paragraph>
+                        <paragraph>The only drug-related effect seen in a 30-month study in Fischer-344 rats was a dose-related reduction in the time of onset of mammary and testicular tumors. A 24-month study in HaM/ICR mice revealed no evidence of carcinogenic activity.</paragraph>
+                        <paragraph>The significance of carcinogenicity data relative to use of <content styleCode="bold">Dantrium</content> in humans is unknown.</paragraph>
+                        <paragraph>Dantrolene sodium has produced positive results in the Ames S. Typhimurium bacterial mutagenesis assay in the presence and absence of a liver activating system.</paragraph>
+                        <paragraph>Dantrolene sodium administered to male and female rats at dose levels up to 45 mg/kg/day (approximately 1.4 times the maximum recommended daily dose on a mg/m<sup>2 </sup>basis) showed no adverse effects on fertility or general reproductive performance.</paragraph>
+                     </text>
+                     <effectiveTime value="20230814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_171620dd-cd42-445e-914f-2c35f2da822b">
+                     <id root="d8c31150-1ed4-4abb-b26b-9908e1862e67"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy:</title>
+                     <text/>
+                     <effectiveTime value="20230814"/>
+                     <component>
+                        <section ID="LINK_b8b0b56c-8511-4c00-be8a-db8bc8b88f0c">
+                           <id root="eb2913ed-56c8-48cb-9b1a-c3eb0f28e3fa"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Pregnancy Category C:</title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Dantrium</content> has been shown to be embryocidal in the rabbit and has been shown to decrease pup survival in the rat when given at doses seven times the human oral dose. There are no adequate and well-controlled studies in pregnant women. <content styleCode="bold">Dantrium Intravenous</content> should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                           </text>
+                           <effectiveTime value="20230814"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f39434f7-2d83-4914-ba5b-f881646a41d0">
+                     <id root="9a985a00-7558-4a40-abbc-b4e13e4301e2"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery:</title>
+                     <text>
+                        <paragraph>In one uncontrolled study, 100 mg per day of prophylactic oral <content styleCode="bold">Dantrium</content> was administered to term pregnant patients awaiting labor and delivery. Dantrolene readily crossed the placenta, with maternal and fetal whole blood levels approximately equal at delivery; neonatal levels then fell approximately 50% per day for 2 days before declining sharply. No neonatal respiratory and neuromuscular side effects were detected at low dose. More data, at higher doses, are needed before more definitive conclusions can be made.</paragraph>
+                     </text>
+                     <effectiveTime value="20230814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f570f3ce-088b-4257-bac4-551350fec321">
+                     <id root="61438940-60d2-4139-a62a-323220171088"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers:</title>
+                     <text>
+                        <paragraph>Dantrolene has been detected in human milk at low concentrations (less than 2 micrograms per mL) during repeat intravenous administration over 3 days. Because of the potential for serious adverse reactions in nursing infants from dantrolene, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20230814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_caafe9e7-9107-4737-98b3-a173122eb130">
+                     <id root="3002aa45-58ea-4af8-a82a-1d4c3cfd6bdb"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use:</title>
+                     <text>
+                        <paragraph>Clinical studies of <content styleCode="bold">Dantrium Intravenous</content> did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20230814"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1e28f4a4-1794-44fc-b52a-d00ddc157cb2">
+               <id root="75e7360c-6378-4ca9-8960-24ded7446496"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS:</title>
+               <text>
+                  <paragraph>There have been occasional reports of death following malignant hyperthermia crisis even when treated with intravenous dantrolene; incidence figures are not available (the pre-dantrolene mortality of malignant hyperthermia crisis was approximately 50%). Most of these deaths can be accounted for by late recognition, delayed treatment, inadequate dosage, lack of supportive therapy, intercurrent disease and/or the development of delayed complications such as renal failure or disseminated intravascular coagulopathy. In some cases there are insufficient data to completely rule out therapeutic failure of dantrolene.</paragraph>
+                  <paragraph>There are reports of fatality in malignant hyperthermia crisis, despite initial satisfactory response to intravenous dantrolene, which involve patients who could not be weaned from dantrolene after initial treatment.</paragraph>
+                  <paragraph>The administration of <content styleCode="bold">Dantrium Intravenous</content> to human volunteers is associated with loss of grip strength and weakness in the legs, as well as drowsiness and dizziness.</paragraph>
+                  <paragraph>The following adverse reactions are in approximate order of severity:  </paragraph>
+                  <paragraph>There are rare reports of pulmonary edema developing during the treatment of malignant hyperthermia crisis in which the diluent volume and mannitol needed to deliver intravenous dantrolene possibly contributed.</paragraph>
+                  <paragraph>There have been reported cases of hepatotoxicity following the use of intravenous dantrolene products. Elevated liver enzymes have occurred hours to days following use of intravenous dantrolene, though many of these cases were observed in patients with comorbidities (e.g., critical illness).</paragraph>
+                  <paragraph>There have been reports of thrombophlebitis following administration of intravenous dantrolene; actual incidence figures are not available. Tissue necrosis secondary to extravasation has been reported.</paragraph>
+                  <paragraph>There have been rare reports of urticaria and erythema possibly associated with the administration of <content styleCode="bold">Dantrium Intravenous</content>. There has been one case of anaphylaxis.</paragraph>
+                  <paragraph>Injection site reactions (pain, erythema, swelling), commonly due to extravasation, have been reported.</paragraph>
+                  <paragraph>The following events have been reported in patients receiving oral dantrolene:  aplastic anemia, leukopenia, lymphocytic lymphoma, and heart failure. (See package insert for <content styleCode="bold">Dantrium</content> (dantrolene sodium) <content styleCode="bold">Capsules</content> for a complete listing of adverse reactions.)</paragraph>
+                  <paragraph>The published literature has included some reports of <content styleCode="bold">Dantrium</content> use in patients with Neuroleptic Malignant Syndrome (NMS). <content styleCode="bold">Dantrium Intravenous</content> is not indicated for the treatment of NMS and patients may expire despite treatment with <content styleCode="bold">Dantrium Intravenous</content>. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For medical advice about adverse reactions contact your medical professional. To report SUSPECTED ADVERSE REACTIONS, contact Par Health at 1-800-828-9393 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ee6ca4a2-d6a3-4531-9841-114227173dcd">
+               <id root="bfd52440-a4e1-4c06-ba5e-43b8c318081a"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE:</title>
+               <text>
+                  <paragraph>Because <content styleCode="bold">Dantrium Intravenous</content> must be administered at a low concentration in a large volume of fluid, acute toxicity of <content styleCode="bold">Dantrium Intravenous</content> could not be assessed in animals. In 14-day (subacute) studies, the intravenous formulation of <content styleCode="bold">Dantrium</content> was relatively non-toxic to rats at doses of 10 mg/kg/day and 20 mg/kg/day. While 10 mg/kg/day in dogs for 14 days evoked little toxicity, 20 mg/kg/day for 14 days caused hepatic changes of questionable biologic significance.</paragraph>
+                  <paragraph>Symptoms which may occur in case of overdose include, but are not limited to, muscular weakness and alterations in the state of consciousness (e.g., lethargy, coma), vomiting, diarrhea, and crystalluria.</paragraph>
+                  <paragraph>For acute overdosage, general supportive measures should be employed.</paragraph>
+                  <paragraph>Intravenous fluids should be administered in fairly large quantities to avert the possibility of crystalluria. An adequate airway should be maintained and artificial resuscitation equipment should be at hand. Electrocardiographic monitoring should be instituted, and the patient carefully observed. The value of dialysis in <content styleCode="bold">Dantrium</content> overdose is not known.</paragraph>
+               </text>
+               <effectiveTime value="20240318"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_091c79d6-927a-449f-8213-856116740e47">
+               <id root="d326c391-1e4d-448a-bed1-bfede296eb5d"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION:</title>
+               <text>
+                  <paragraph>As soon as the malignant hyperthermia reaction is recognized, all anesthetic agents should be discontinued; the administration of 100% oxygen is recommended. <content styleCode="bold">Dantrium Intravenous</content> should be administered by continuous rapid intravenous push beginning at a minimum dose of 1 mg/kg, and continuing until symptoms subside or the maximum cumulative dose of 10 mg/kg has been reached. </paragraph>
+                  <paragraph>If the physiologic and metabolic abnormalities reappear, the regimen may be repeated. It is important to note that administration of <content styleCode="bold">Dantrium Intravenous</content> should be continuous until symptoms subside. The effective dose to reverse the crisis is directly dependent upon the individual's degree of susceptibility to malignant hyperthermia, the amount and time of exposure to the triggering agent, and the time elapsed between onset of the crisis and initiation of treatment.</paragraph>
+               </text>
+               <effectiveTime value="20260310"/>
+               <component>
+                  <section ID="LINK_513eda9a-69dc-478b-8125-a9fdd510fca1">
+                     <id root="762b02d2-91eb-4452-b0ee-711c2bbd00a4"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Dose:</title>
+                     <text>
+                        <paragraph>Experience to date indicates that the dose of <content styleCode="bold">Dantrium Intravenous</content> for pediatric patients is the same as for adults.</paragraph>
+                     </text>
+                     <effectiveTime value="20230814"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_2bf6586d-4419-4b31-872e-9877df15d783">
+                     <id root="440e700c-94f7-40e7-a710-4c67e30e0ade"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preoperatively:</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Dantrium Intravenous</content> and/or <content styleCode="bold">Dantrium Capsules</content> may be administered preoperatively to patients judged malignant hyperthermia susceptible as part of the overall patient management to prevent or attenuate the development of clinical and laboratory signs of malignant hyperthermia.</paragraph>
+                     </text>
+                     <effectiveTime value="20240318"/>
+                     <component>
+                        <section ID="LINK_46e45ad1-d221-4208-8fbd-9505b4803b2e">
+                           <id root="ee25154a-9436-476a-a605-7d6ef9f38616"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <br/>
+                           </title>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Dantrium Intravenous: </content>The recommended prophylactic dose of <content styleCode="bold">Dantrium Intravenous</content> is 2.5 mg/kg, starting approximately 1-1/4 hours before anticipated anesthesia and infused over approximately 1 hour. This dose should prevent or attenuate the development of clinical and laboratory signs of malignant hyperthermia provided that the usual precautions, such as avoidance of established malignant hyperthermia triggering agents, are followed.</paragraph>
+                              <paragraph>Additional <content styleCode="bold">Dantrium Intravenous</content> may be indicated during anesthesia and surgery because of the appearance of early clinical and/or blood gas signs of malignant hyperthermia or because of prolonged surgery (see also <linkHtml href="#LINK_bbc6e27a-20d7-4958-b550-c70825f68a5b">CLINICAL PHARMACOLOGY</linkHtml>, <linkHtml href="#LINK_b2660c8d-560d-4ff8-aee9-05ec2900b797">WARNINGS</linkHtml>, and <linkHtml href="#LINK_36e8dbb2-1b34-4fe9-ac25-686a60cd2333">PRECAUTIONS</linkHtml>). Additional doses must be individualized.</paragraph>
+                           </text>
+                           <effectiveTime value="20230814"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_bfcb01ea-fd0d-4412-8284-9d2a9382c478">
+                           <id root="3bd8fd8a-f7c7-4e5a-b840-39208411771b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Oral Administration of Dantrium Capsules:</content>
+                           </title>
+                           <text>
+                              <paragraph>Administer 4 to 8 mg/kg/day of oral <content styleCode="bold">Dantrium Capsules</content> in three or four divided doses for 1 or 2 days prior to surgery, with the last dose being given with a minimum of water approximately 3 to 4 hours before scheduled surgery. Adjustment can usually be made within the recommended dosage range to avoid incapacitation (weakness, drowsiness, etc.) or excessive gastrointestinal irritation (nausea and/or vomiting). See also the package insert for <content styleCode="bold">Dantrium Capsules</content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20240318"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_03c39a09-e9c1-43e4-967b-ddbebf3e9ff5">
+                     <id root="aeb85f92-0f9d-45e7-ad56-2ec26b40c3e4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="bold">Post Crisis Follow-Up:</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Dantrium Capsules</content>, 4 to 8 mg/kg/day, in four divided doses should be administered for 1 to 3 days following a malignant hyperthermia crisis to prevent recurrence of the manifestations of malignant hyperthermia.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Dantrium Intravenous</content> may be used postoperatively to prevent or attenuate the recurrence of signs of malignant hyperthermia when oral administration of <content styleCode="bold">Dantrium Capsules</content> is not practical. The dose of <content styleCode="bold">Dantrium Intravenous</content> in the postoperative period must be individualized, starting with 1 mg/kg or more as the clinical situation dictates.</paragraph>
+                     </text>
+                     <effectiveTime value="20240318"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1ba687ec-ed86-456b-a6a6-e8b82bf9ea2f">
+                     <id root="58f71494-50a5-4c95-b898-51e97eda0fed"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>PREPARATION:</title>
+                     <text>
+                        <paragraph>Each vial of <content styleCode="bold">Dantrium Intravenous</content> should be reconstituted by adding 60 mL of sterile water for injection USP (without a bacteriostatic agent), and the vial shaken until the solution is clear. 5% Dextrose Injection USP, 0.9% Sodium Chloride Injection USP, and other acidic solutions are not compatible with <content styleCode="bold">Dantrium Intravenous</content> and should not be used. The contents of the vial must be protected from direct light and used within 6 hours after reconstitution. Store reconstituted solutions between 15° to 30°C  (59° to 86°F).</paragraph>
+                        <paragraph>Reconstituted <content styleCode="bold">Dantrium Intravenous</content> should not be transferred to large glass bottles for prophylactic infusion due to precipitate formation observed with the use of some glass bottles as reservoirs.</paragraph>
+                        <paragraph>For prophylactic infusion, the required number of individual vials of <content styleCode="bold">Dantrium Intravenous</content> should be reconstituted as outlined above. The contents of individual vials are then transferred to a larger volume sterile intravenous plastic bag. Stability data on file at Par Health indicate commercially available sterile plastic bags are acceptable drug delivery devices. However, it is recommended that the prepared infusion be inspected carefully for cloudiness and/or precipitation prior to dispensing and administration. Such solutions should not be used. While stable for 6 hours, it is recommended that the infusion be prepared immediately prior to the anticipated dosage administration time.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20260310"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_06121289-6468-48bf-9dfe-9dded4f5f99e">
+               <id root="fee3b127-f44a-4026-b004-0a26e7a50d68"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED:</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Dantrium Intravenous</content> (<content styleCode="bold">NDC</content> 42023-123-06) is available in vials containing a sterile lyophilized mixture of 20 mg dantrolene sodium, 3000 mg mannitol, and sufficient sodium hydroxide to yield a pH of approximately 9.5 when reconstituted with 60 mL sterile water for injection USP (without a bacteriostatic agent).</paragraph>
+               </text>
+               <effectiveTime value="20230814"/>
+               <component>
+                  <section ID="LINK_2ff60904-f100-425d-89cd-663c382991fa">
+                     <id root="2ff60904-f100-425d-89cd-663c382991fa"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>Store unreconstituted product between 20° to 25°C (68° to 77°F).  (See USP Controlled Room Temperature).  Avoid prolonged exposure to light.</paragraph>
+                     </text>
+                     <effectiveTime value="20140507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b391cd56-5eb9-4d7c-9a6b-d09ad320e40d">
+               <id root="2ed506b6-843f-46e6-bf2d-0b46fdad04c9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Rx only.</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>Par Health USA</paragraph>
+                  <paragraph>Rochester, MI 48307</paragraph>
+                  <paragraph>© 2025 Par Health, Inc. or one of its affiliates.</paragraph>
+                  <paragraph>Revised: 12/2025</paragraph>
+               </text>
+               <effectiveTime value="20260310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_17ada8bf-88d8-4013-aa03-f92deab4f11e">
+               <id root="570a158a-1ecb-458d-b135-9e8fde94b273"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 20 mg Vial Carton</title>
+               <text>
+                  <paragraph>6 Vials Nonreturnable<br/>
+                     <content styleCode="bold">NDC</content> 42023-123-06</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dantrium<sup>®</sup> Intravenous </content>
+                     <br/>
+(dantrolene sodium for injection)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For treatment of malignant hyperthermia</content>
+                     <br/>
+FOR INTRAVENOUS USE ONLY</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20260310"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>This is a carton image of Dantrium Intravenous 20 mg vials.</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="dantrium-iv-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

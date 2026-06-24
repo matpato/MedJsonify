@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6dc448fd-d581-4cdb-a4a5-818a41f60c23"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">These highlights do not include all the information needed to use INFeD safely and effectively. See full prescribing information for INFeD.</content>
+      <br/>
+      <br/>
+      <content styleCode="bold">INFeD® (iron dextran injection), for intravenous or intramuscular use</content>
+      <br/>
+      <content styleCode="bold">Initial U.S. Approval: 1974</content>
+   </title>
+   <effectiveTime value="20260415"/>
+   <setId root="99bf34be-cb8a-46d1-9637-5544dc2da287"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="012430880"/>
+            <name>Henry Schein, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="e5d082a8-d61a-4a48-96f0-22e1f5e128c9"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20220111"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0404-9879" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>INFED</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>iron dextran</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0023-6082" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="95HR524N2M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>IRON DEXTRAN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="91O4LML611" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FERRIC CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0404-9879-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43167" displayName="BAG" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220111"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220111"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA017441" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="L83b34c5e-2e73-4679-bca9-b1f4b72d85e3">
+               <id root="6ce00b3f-33b4-4585-b0a3-8452ad920c82"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>BOXED WARNING </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING: RISK FOR ANAPHYLACTIC-TYPE REACTIONS</content>
+                  </paragraph>
+                  <paragraph>Anaphylactic-type reactions, including fatalities, have been reported following the parenteral administration of iron dextran injection.</paragraph>
+                  <paragraph/>
+                  <list listType="unordered">
+                     <item>Have resuscitation equipment and personnel trained in the detection and treatment of anaphylactic-type reactions readily available during INFeD administration.</item>
+                     <item>Administer a test INFeD dose prior to the first therapeutic dose. If no signs or symptoms of anaphylactic-type reactions follow the test dose, administer the full therapeutic INFeD dose.</item>
+                     <item>During all INFeD administrations, observe for signs or symptoms of anaphylactic-type reactions. Fatal reactions have been reported following the test dose of iron dextran injection. Fatal reactions have also occurred in situations where the test dose was tolerated.</item>
+                     <item>Use INFeD only in patients in whom clinical and laboratory investigations have established an iron deficient state not amenable to oral iron therapy.</item>
+                     <item>Patients with a history of drug allergy or multiple drug allergies may be at increased risk of anaphylactic-type reactions to INFeD.</item>
+                  </list>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">WARNING: RISK FOR ANAPHYLACTIC-TYPE REACTIONS</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">
+                              <content styleCode="bold">See full prescribing information for complete boxed warning.</content>
+                           </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>Anaphylactic-type reactions, including fatalities, have been reported following the parenteral administration of iron dextran injection. (5.1)</item>
+                           <item>Have resuscitation equipment and personnel trained in the detection and treatment of anaphylactic-type reactions readily available during INFeD administration.</item>
+                           <item>Administer a test INFeD dose prior to the first therapeutic dose. If no signs or symptoms of anaphylactic-type reactions follow the test dose, administer the full therapeutic INFeD dose.</item>
+                           <item>During all INFeD administrations, observe for signs or symptoms of anaphylactic-type reactions. Fatal reactions have been reported following the test dose of iron dextran injection. Fatal reactions have also occurred in situations where the test dose was tolerated.</item>
+                           <item>Use INFeD only in patients in whom clinical and laboratory investigations have established an iron deficient state not amenable to oral iron therapy.</item>
+                           <item>Patients with a history of drug allergy or multiple drug allergies may be at increased risk of anaphylactic-type reactions to INFeD. (5.3)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf28d0b4f-487c-4ece-862d-d9c884b5e10f">
+               <id root="a2ff81ff-c761-4815-8280-bb4e5bda8a4c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>INFeD is indicated for treatment of adult and pediatric patients of age 4 months and older with documented iron deficiency who have intolerance to oral iron or have had an unsatisfactory response to oral iron.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>INFeD, an iron replacement product, is indicated for treatment of adult and pediatric patients of age 4 months and older with documented iron deficiency who have intolerance to oral iron or an unsatisfactory response to oral iron. (1)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L9114f793-4036-4988-b587-2eabf1c3d0c9">
+               <id root="fd569273-1b31-4d18-92ff-b7225600d03e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">2.1 Important Pre-Treatment Information</content>
+                  </paragraph>
+                  <paragraph>Discontinue administration of any iron-containing products prior to administration of INFeD.</paragraph>
+                  <paragraph>Assess baseline hematologic (hemoglobin and hematocrit) and iron storage parameters (serum iron, total iron binding capacity, and percent saturation of transferrin) to monitor response to therapy.</paragraph>
+                  <paragraph>Administer a test dose of INFeD prior to administration of therapeutic dose <content styleCode="italics">[see Dosage and Administration (2.4)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2.2 Recommended Dosage for Iron Deficiency Anemia</content>
+                  </paragraph>
+                  <paragraph>Calculate the INFeD dose based upon Table 1 and formulas below. Continue INFeD until hemoglobin is within the normal range and iron stores are replete.</paragraph>
+                  <paragraph>Administer daily doses of no more than 2 mL of INFeD until the total required dose is administered. Monitor response to therapy by evaluating hematologic parameters (hemoglobin and hematocrit) and iron storage parameters (serum iron, total iron binding capacity, and percent saturation of transferrin). Iron storage parameters may improve prior to hematologic parameters. Serum ferritin may not be an accurate measure of body iron stores in patients on chronic dialysis.</paragraph>
+                  <paragraph>Table 1: Total INFeD Requirement for Hemoglobin Restoration and Iron Stores Replacement in Patients with Iron Deficiency Anemia*</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L6bbca5c1-d951-43fb-8843-57f7ba1c3217"/>
+                  </paragraph>
+                  <paragraph>Alternatively, the total dose may be calculated using the formulas below:</paragraph>
+                  <paragraph>Adults and Children over 15 kg (33 lbs)</paragraph>
+                  <paragraph>      Dose (mL) = 0.0442 (Desired Hb - Observed Hb) x LBW + (0.26 x LBW)</paragraph>
+                  <paragraph>      Based on:</paragraph>
+                  <paragraph>          • Desired Hb = the target hemoglobin in g/dL [Normal hemoglobin (males and females) for body weight over 15 kg (33 lbs) is 14.8 g/dL.]</paragraph>
+                  <paragraph>          • Observed Hb = the patient’s current hemoglobin in g/dL</paragraph>
+                  <list listType="unordered">
+                     <item>LBW = Lean body weight in kg [A patient’s lean body weight (or actual body weight if less than lean body weight) should be utilized when determining dosage.]</item>
+                  </list>
+                  <paragraph>            • For males: LBW = 50 kg + 2.3 kg for each inch of patient’s height over 5 feet<br/>            • For females: LBW = 45.5 kg + 2.3 kg for each inch of patient’s height over 5 feet<br/>            • To calculate a patient's weight in kg when lbs are known:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lcfd35fea-f2be-4758-9852-e246ad0f5ca3"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Children 5 to 15 kg (11 to 33 lbs)</paragraph>
+                  <paragraph>Otherwise, the total dose may be calculated using the formula below:</paragraph>
+                  <paragraph>       Dose (mL) = 0.0442 (Desired Hb - Observed Hb) x W + (0.26 x W)</paragraph>
+                  <paragraph>       Based on:</paragraph>
+                  <paragraph>            • Desired Hb = the target hemoglobin in g/dL [Normal hemoglobin for children with body weight of 15 kg (33 lbs) or less is 12 g/dL.]</paragraph>
+                  <paragraph>            • W = body weight in kg<br/>                 • To calculate a patient's weight in kg when lbs are known:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L0b3221b5-0e68-4be7-b1a2-2fd7da819385"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">2.3 Recommended Dosage of Iron Replacement for Blood Loss</content>
+                  </paragraph>
+                  <paragraph>Calculate the INFeD dose based upon the formula below which is based upon the approximate amount of blood loss and pretreatment hematocrit.</paragraph>
+                  <paragraph>The formula is based on the approximation that 1 mL of normocytic, normochromic red cells contains 1 mg of elemental iron.</paragraph>
+                  <paragraph>     INFeD Dose (in mL) = [Blood loss (in mL) x hematocrit] ÷ 50 mg/mL</paragraph>
+                  <paragraph/>
+                  <paragraph>              Example: Blood loss of 500 mL with 20% hematocrit</paragraph>
+                  <paragraph>              Replacement Iron = 500 x 0.20 = 100 mg</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="La98103f3-6163-424d-bc91-1e171497cba2"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">2.4 Administration</content>
+                  </paragraph>
+                  <paragraph>The total volume of INFeD required for the treatment of iron deficiency anemia is determined from Table 1 or the appropriate formula listed<content styleCode="italics"> [see Dosage and Administration (2.2)].</content>
+                  </paragraph>
+                  <paragraph>The total volume of INFeD required for the treatment of iron replacement for blood loss is determined from an appropriate formula listed<content styleCode="italics"> [see Dosage and Administration (2.3)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE:</content> Do not mix INFeD with other medications or add to parenteral nutrition solutions for intravenous infusion.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever the solution and container permit.</paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+                  <paragraph>Intravenous Injection</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Test Dose</content>
+                  </paragraph>
+                  <paragraph>Prior to the first intravenous INFeD therapeutic dose, administer an intravenous test dose of 0.5 mL<content styleCode="italics"> [see Boxed Warning and Warnings and Precautions (5.1)].</content> Administer the test dose at a gradual rate over at least 30 seconds. Delay administration of the initial therapeutic INFeD dose until 1 hour or more after the test dose. If a hypersensitivity reaction occurs with the test dose, manage medically and do not administer further doses of INFeD.</paragraph>
+                  <paragraph>INFeD is given undiluted at a <content styleCode="bold">slow gradual</content> rate not to exceed 50 mg (1 mL) per minute.</paragraph>
+                  <paragraph>The maximum daily dose of INFeD should not exceed 2 mL.</paragraph>
+                  <paragraph>Intramuscular Injection</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Test Dose</content>
+                  </paragraph>
+                  <paragraph>Prior to the first intramuscular INFeD therapeutic dose, administer an intramuscular test dose of 0.5 mL <content styleCode="italics">[see Boxed Warning and Warnings and Precautions (5.1)].</content> Administer the test dose at a gradual rate over at least 30 seconds into the buttock. Delay administration of the initial therapeutic INFeD dose until 1 hour or more after the test dose. If a hypersensitivity reaction occurs with the test dose, manage medically and do not administer further doses of INFeD.</paragraph>
+                  <paragraph>If no adverse reactions are observed, INFeD can be given according to the following schedule until the calculated total required dose has been reached. Each day’s dose should not exceed 0.5 mL (25 mg of iron) for infants with body weight under 5 kg (11 lbs); 1 mL (50 mg of iron) for children with body weight under 10 kg (22 lbs); and 2 mL (100 mg of iron) for other patients.</paragraph>
+                  <paragraph>The maximum daily dose of INFeD should not exceed 2 mL.</paragraph>
+                  <paragraph>INFeD should be injected only into the muscle mass of the upper outer quadrant of the buttock - never into the arm or other exposed areas - and should be injected deeply, with a 2-inch or 3-inch 19 or 20 gauge needle. If the patient is standing, he/she should be bearing his/her weight on the leg opposite the injection site, or if in bed, he/she should be in the lateral position with injection site uppermost. To avoid injection or leakage into the subcutaneous tissue, a Z-track technique (displacement of the skin laterally prior to injection) is recommended.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>See Full Prescribing Information for weight-based dosing and administration information. (2)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <observationMedia ID="L6bbca5c1-d951-43fb-8843-57f7ba1c3217">
+                     <text>Image1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lcfd35fea-f2be-4758-9852-e246ad0f5ca3">
+                     <text>Image2.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="L0b3221b5-0e68-4be7-b1a2-2fd7da819385">
+                     <text>Image3.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="La98103f3-6163-424d-bc91-1e171497cba2">
+                     <text>Image4.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Image4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb1c08dd6-e735-4b21-a707-5887e3b492e1">
+               <id root="3c7b3d74-d060-4f9b-a667-9a5dc5d9f2a4"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS </title>
+               <text>
+                  <paragraph>Injection: 100 mg/2 mL (50 mg/1 mL), dark brown, slightly viscous, sterile solution in single-dose vials</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Injection: 100 mg/2 mL (50 mg/mL) in single-dose vials (3)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L5af37a35-3df6-4df9-ada1-f337aa350eac">
+               <id root="95f5e231-07e3-4659-9228-8e78ce3bb9fa"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS </title>
+               <text>
+                  <paragraph>INFeD is contraindicated in patients who have demonstrated a previous hypersensitivity to iron dextran <content styleCode="italics">[see Warnings and Precautions (5.1)].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Known hypersensitivity to INFeD (4)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L72261f6b-462c-49fb-b109-74f96d9b84b1">
+               <id root="f713e2fe-0e12-484a-84a9-5a5b7e4cc3b8"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">5.1 Hypersensitivity Reactions</content>
+                  </paragraph>
+                  <paragraph>Serious hypersensitivity reactions, including anaphylactic-type reactions, some of which have been life-threatening and fatal, have been reported following the parenteral administration of iron dextran products, including INFeD. Such reactions have been generally characterized by sudden onset of respiratory difficulty and/or cardiovascular collapse. Fatal reactions have been reported following the test dose of iron dextran and have also occurred in situations where the test dose was tolerated.</paragraph>
+                  <paragraph>Administer only in a setting where resuscitation equipment and medications are available. Administer a test dose of INFeD prior to the first therapeutic dose<content styleCode="italics"> [see Dosage and Administration (2.4)].</content> Observe patients for at least one hour after the test dose before administering the remainder of the initial therapeutic dose. During all INFeD administrations, observe patients for signs or symptoms of anaphylactic-type reactions. Use INFeD only in patients in whom clinical and laboratory investigations have established an iron deficient state not amenable to oral iron therapy.</paragraph>
+                  <paragraph>The factors that affect the risk for anaphylactic-type reactions to iron dextran products are not fully known but limited clinical data suggest the risk may be increased among patients with a history of drug allergy or multiple drug allergies. Additionally, concomitant use of angiotensin-converting enzyme inhibitor drugs may increase the risk for reactions to an iron dextran product. The extent of risk for anaphylactic-type reactions following exposure to any specific iron dextran product is unknown and may vary among the products.</paragraph>
+                  <paragraph>If hypersensitivity reactions occur during administration, stop INFeD immediately and manage reaction medically.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.2 Delayed Reactions</content>
+                  </paragraph>
+                  <paragraph>Large intravenous doses, such as used with total dose infusions (TDI), have been associated with an increased incidence of adverse reactions. The adverse reactions are frequently delayed (1 to 2 days) reactions typified by one or more of the following symptoms: arthralgia, backache, chills, dizziness, moderate to high fever, headache, malaise, myalgia, nausea, and vomiting. The onset is usually 24 to 48 hours after administration and symptoms generally subside within 3 to 4 days. The etiology of these reactions is not known. Do not exceed a total daily dose of 2 mL undiluted INFeD.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.3 Increased Risk of Toxicity in Patients with Underlying Conditions</content>
+                  </paragraph>
+                  <paragraph>Monitor for iron toxicity when INFeD is used in patients with serious impairment of liver function. It should not be used during the acute phase of infectious kidney disease.</paragraph>
+                  <paragraph>Adverse reactions experienced following administration of INFeD may exacerbate cardiovascular complications in patients with pre-existing cardiovascular disease.</paragraph>
+                  <paragraph>Patients with rheumatoid arthritis may have an acute exacerbation of joint pain and swelling following the administration of INFeD.</paragraph>
+                  <paragraph>Patients with a history of significant allergies and/or asthma may have an increased risk of hypersensitivity reactions<content styleCode="italics"> [see Dosage and Administration (5.1)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5.4 Iron Overload</content>
+                  </paragraph>
+                  <paragraph>Excessive therapy with parenteral iron can lead to excess storage of iron with the possibility of iatrogenic hemosiderosis. All adult and pediatric patients receiving INFeD require periodic monitoring of hematologic and iron parameters (hemoglobin, hematocrit, serum ferritin and transferrin saturation). Do not administer INFeD to patients with evidence of iron overload.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered">
+                           <item>Delayed Reactions: May occur with large intravenous doses. (5.2)</item>
+                           <item>Increased Risk of Toxicity in Patients with Underlying Conditions: Monitor for toxicity in these patients. (5.3)</item>
+                           <item>Iron Overload: Excessive therapy can lead to iatrogenic hemosiderosis. Do not administer to patients with iron overload. Periodically monitor hematologic and iron parameters. (5.4)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L43a4cdb5-8032-4115-be29-19577f652a24">
+               <id root="f8b76a19-41fb-4109-909b-06ce762ca9f5"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS </title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered">
+                     <item>Hypersensitivity Reactions<content styleCode="italics"> [see Warnings and Precautions (5.1)]</content>
+                     </item>
+                     <item>Delayed Reactions<content styleCode="italics"> [see Warnings and Precautions (5.2)]</content>
+                     </item>
+                     <item>Increased Risk of Toxicity in Patients with Underlying Conditions<content styleCode="italics"> [see Warnings and Precautions (5.3)]</content>
+                     </item>
+                     <item>Iron Overload<content styleCode="italics"> [see Warnings and Precautions (5.4)]</content>
+                     </item>
+                     <item>Fetal bradycardia<content styleCode="italics"> [see Use in Specific Populations (8.1)]</content>
+                     </item>
+                  </list>
+                  <paragraph>The following adverse reactions associated with the use of INFeD were identified in clinical studies or postmarketing reports. Because some of these reactions were reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Blood and lymphatic system disorders:</content> Leukocytosis, lymphadenopathy.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiac disorders:</content> Cardiac arrest, tachycardia, bradycardia, arrhythmias.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal disorders:</content> Abdominal pain, nausea, vomiting, diarrhea.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">General disorders and administration site conditions:</content> chest pain, chest tightness, weakness, malaise, febrile episodes, chills, shivering, sterile abscess, atrophy/fibrosis (intramuscular injection site), brown skin and/or underlying tissue discoloration (staining), soreness or pain at or near intramuscular injection sites, swelling, inflammation.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal and connective tissue disorders:</content> Arthralgia, arthritis (may represent reactivation in patients with quiescent rheumatoid arthritis – <content styleCode="italics">[see Warnings and Precautions (5.3)],</content> myalgia, backache.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous system disorders:</content> Convulsions, seizures, syncope, headache, unresponsiveness, paresthesia, dizziness, numbness, unconsciousness, altered taste.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Psychiatric disorders:</content> Disorientation</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory, thoracic and mediastinal disorders:</content> Respiratory arrest, dyspnea, bronchospasm, wheezing.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Renal and urinary disorders:</content> Hematuria.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and subcutaneous disorders:</content> Urticaria, pruritus, purpura, rash, sweating.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular disorders:</content> Cardiac arrest, tachycardia, bradycardia, arrhythmias, acute myocardial ischemia with or without myocardial infarction or with in-stent thrombosis in the context of a hypersensitivity reaction, cyanosis, shock, hypertension, hypotension, flushing (flushing and hypotension may occur from too rapid injections by the intravenous route), local phlebitis at or near intravenous injection site.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions are nausea, vomiting, chest pain, backache, hypersensitivity, dyspnea, hypotension, pruritus, flushing, dizziness. (6)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact AbbVie Inc. at 1-800-678-1605 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="Le600ae8d-2427-4b0f-9e6c-1fff52ef8443">
+               <id root="510241f1-bfca-47ae-bf3b-138effd521b4"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">7.1 Drug/Laboratory Test Interactions</content>
+                  </paragraph>
+                  <paragraph>Drug interactions involving INFeD have not been studied.</paragraph>
+                  <paragraph>Concomitant use of angiotensin-converting enzyme inhibitor drugs may increase the risk for anaphylactic-type reactions to an iron dextran product.</paragraph>
+                  <paragraph>Large doses of iron dextran (5 mL or more) have been reported to give a brown color to serum from a blood sample drawn 4 hours after administration.</paragraph>
+                  <paragraph>INFeD may cause falsely elevated values of serum bilirubin and falsely decreased values of serum calcium.</paragraph>
+                  <paragraph>Serum iron determinations (especially by colorimetric assays) may not be meaningful for 3 weeks following the administration of INFeD.</paragraph>
+                  <paragraph>Examination of the bone marrow for iron stores may not be meaningful for prolonged periods following iron dextran therapy because residual iron dextran may remain in the reticuloendothelial cells.</paragraph>
+                  <paragraph>Bone scans involving 99m Tc-diphosphonate have been reported to show a dense, crescentic area of activity in the buttocks, following the contour of the iliac crest, 1 to 6 days after intramuscular injections of INFeD.</paragraph>
+                  <paragraph>Bone scans with 99m Tc-labeled bone seeking agents, in the presence of high serum ferritin levels or following INFeD infusions, have been reported to show reduction of bony uptake, marked renal activity, and excessive blood pool and soft tissue accumulation.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lebc6643f-499c-4e0f-844f-bba94764fb3a">
+               <id root="443df6c5-bbc6-4044-9c86-f0d30198e463"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">8.1 Pregnancy</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Risk Summary</content>
+                  </paragraph>
+                  <paragraph>Parenteral iron administration may be associated with hypersensitivity reactions<content styleCode="italics"> [see Warnings and Precautions (5.1)],</content> which may have serious consequences, such as fetal bradycardia<content styleCode="italics"> (see Clinical Considerations).</content> Advise pregnant persons of the potential risk to the fetus. Available data from postmarketing reports with iron dextran use in pregnancy are insufficient to assess the risk of major birth defects or miscarriage. There are risks to the pregnant person and fetus associated with untreated iron deficiency anemia in pregnancy<content styleCode="italics"> (see Clinical Considerations).</content> Iron dextran has been shown to be teratogenic and embryocidal in mice, rats, rabbits, dogs, and monkeys when given in doses of about 3 times the maximum human dose.</paragraph>
+                  <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defects, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Clinical Considerations</content>
+                     <br/>
+                     <content styleCode="italics">Disease-Associated Maternal and/or Embryo/Fetal Risk</content>
+                     <br/>Untreated iron deficiency anemia (IDA) in pregnancy is associated with adverse maternal outcomes such as post-partum anemia. Adverse pregnancy outcomes associated with IDA include increased risk for preterm delivery and low birth weight.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Fetal/Neonatal Adverse Reactions</content>
+                     <br/>Severe adverse reactions including circulatory failure (severe hypotension, shock including in the context of anaphylactic reaction) may occur in pregnant persons with intravenous iron administration (such as INFeD) which may have serious consequences on the fetus such as fetal bradycardia, especially during the second and third trimester.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Data</content>
+                     <br/>
+                     <content styleCode="italics">Animal Data</content>
+                     <br/>No consistent adverse fetal effects were observed in mice, rats, rabbits, dogs, and monkeys at doses of 50 mg iron/kg or less. Fetal and maternal toxicity has been reported in monkeys at a total intravenous dose of 90 mg iron/kg over a 14 day period. Similar effects were observed in mice and rats on administration of a single dose of 125 mg iron/kg. Fetal abnormalities in rats and dogs were observed at doses of 250 mg iron/kg and higher. The animals used in these tests were not iron deficient.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8.2 Lactation</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Risk Summary</content>
+                  </paragraph>
+                  <paragraph>Trace amounts of unmetabolized iron dextran are present in human milk. There are no data on the effects of iron dextran in breastfed infants or effects on milk production. The development and health benefits of breastfeeding should be considered along with the mother’s clinical need for INFeD in addition to any potential adverse effects on the breastfed child from the drug or from the underlying maternal condition.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8.4 Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>INFeD is not recommended for use in infants under 4 months of age <content styleCode="italics">[see Dosage and Administration (2.2)].</content>
+                  </paragraph>
+                  <paragraph>Reports in the literature from countries outside the United States (in particular, New Zealand) have suggested that the use of intramuscular iron dextran in neonates has been associated with an increased incidence of gram-negative sepsis, primarily due to<content styleCode="italics"> E. Coli.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Pregnancy: Risk of hypersensitivity reaction which may have serious consequences for the fetus. (8.1)</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">See 17 for PATIENT COUNSELING INFORMATION.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Revised: 08/2024</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="L78b03e1c-2d2b-4c04-a674-ef64230774d5">
+               <id root="67cc598f-0878-413d-8cdc-c69c7cafc9d4"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>Excessive dosages of INFeD may lead to accumulation of iron in storage sites potentially leading to hemosiderosis. Do not administer INFeD to patients with iron overload<content styleCode="italics"> [see Warnings and Precautions (5.4)].</content> INFeD is not removed by hemodialysis <content styleCode="italics">[see Clinical Pharmacology (12.3)].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb0c017c0-a0c5-465c-91f9-430007b87478">
+               <id root="01abc53d-b55a-4acc-a44b-4f97b316b95f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>INFeD (iron dextran injection USP) is an iron replacement product provided as a dark brown, slightly viscous sterile liquid complex of ferric hydroxide and dextran for intravenous or intramuscular use.</paragraph>
+                  <paragraph>Each mL contains the equivalent of 50 mg of elemental iron (as an iron dextran complex), approximately 0.9% sodium chloride, in water for injection. Sodium hydroxide and/or hydrochloric acid may have been used to adjust pH. The pH of the solution is between 4.5 to 7.0.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L57a2ac80-f104-4565-8a2e-85d3aecc67e8">
+               <id root="d999364c-5062-4664-9b11-58a445e1be42"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">12.1 Mechanism of Action</content>
+                  </paragraph>
+                  <paragraph>The circulating iron released from iron dextran, which is subject to physiological control, replenishes hemoglobin and depleted iron stores.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">12.2 Pharmacodynamics</content>
+                  </paragraph>
+                  <paragraph>Changes in serum ferritin levels represent the changes in calculated cellular non-heme iron levels. After administration of iron dextran, evidence of a therapeutic response can be seen as an increase in the reticulocyte count.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">12.3 Pharmacokinetics</content>
+                  </paragraph>
+                  <paragraph>Following intramuscular injection, INFeD is absorbed within 72 hours with any remaining iron absorbed over the ensuing 3 to 4 weeks. Various studies involving intravenously administered <sup>59</sup>Fe iron dextran to iron deficient subjects, some of whom had coexisting disease, have yielded half-life values ranging from 5 hours to more than 20 hours. The 5 hour value was determined for <sup>59</sup>Fe iron dextran from a study that used laboratory methods to separate the circulating <sup>59</sup>Fe iron dextran from the transferrin bound <sup>59</sup>Fe. The 20 hour value reflects a half-life determined by measuring total <sup>59</sup>Fe, both circulating and bound. It should be understood that these half-life values do not represent clearance of iron from the body. Serum ferritin peaks approximately 7 to 9 days after an intravenous dose of INFeD and returns to baseline after about 3 weeks.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Absorption</content>
+                     <br/>Following intramuscular administration, INFeD is absorbed from the injection site into the capillaries and the lymphatic system.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Distribution</content>
+                     <br/>The circulating iron is bound to the available protein moieties to form hemosiderin or ferritin, or to a lesser extent to transferrin.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Elimination</content>
+                     <br/>The half-life of free iron in the plasma circulation is approximately 5 hours. The half-life of total iron, including both circulating and bound, is approximately 20 hours. These half-life values do not represent clearance of iron from the body.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Metabolism</content>
+                     <br/>Following administration of INFeD, circulating iron dextran is split by the cells of the reticuloendothelial system into its components of iron and dextran.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Excretion</content>
+                     <br/>Negligible amounts of iron are lost via the urinary or alimentary pathways after administration of iron dextran. Dextran, a polyglucose, is either metabolized or excreted.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Specific Populations</content>
+                     <br/>
+                     <content styleCode="italics">Patients with Renal Impairment</content>
+                     <br/>In vitro studies have shown that removal of iron dextran by dialysis is negligible. Six different dialyzer membranes were investigated (polysulfone, cuprophane, cellulose acetate, cellulose triacetate, polymethylmethacrylate and polyacrylonitrile), including those considered high efficiency and high flux.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L463dce2a-e50c-4744-bd50-f274ed71b864">
+               <id root="4b0fa943-ce36-482e-807b-a301111f1ccb"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Carcinogenesis</content>
+                  </paragraph>
+                  <paragraph>The intramuscular injection of iron-carbohydrate complexes may be associated with an increased risk of carcinogenesis. In mice, rats, rabbits, and possibly hamsters, it has been demonstrated that these complexes may produce sarcoma following repeated administration of large or small doses of iron-carbohydrate complexes at a single injection site. There have been several reports in the literature describing tumors at the injection site in humans who had previously received intramuscular injections of iron-carbohydrate complexes.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L73da14e0-a023-411d-9099-e44334fcf11b">
+               <id root="15c9cff3-0bac-49ab-93af-a3d022f13f69"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">16.1 How Supplied</content>
+                  </paragraph>
+                  <paragraph>INFeD (iron dextran injection USP) containing 50 mg of elemental iron per mL, is available as a dark brown, slightly viscous, sterile solution in 2 mL single-dose amber vials in cartons of 10 (NDC 0023-6082-10).</paragraph>
+                  <table width="100%">
+                     <caption> Product repackaged by: Henry Schein, Inc., Bastian, VA 24314</caption>
+                     <tbody>
+                        <tr>
+                           <td>From Original Manufacturer/Distributor's NDC and Unit of Sale</td>
+                           <td>To Henry Schein Repackaged Product NDC and Unit of Sale</td>
+                           <td>Total Strength/Total Volume (Concentration) per unit</td>
+                        </tr>
+                        <tr>
+                           <td>NDC 0023-6082-10<br/>2 mL single dose amber vial in cartons of 10</td>
+                           <td>NDC 0404-9879-02<br/>1 2mL single dose vial in a bag<br/>(Vial bears NDC 0023-6082-10)</td>
+                           <td>50 mg of elemental iron per mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">16.2 Stability and Storage</content>
+                  </paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F); excursions permitted to 15°C to 30°C (59°F to 86°F). [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L4d069ad2-5df1-480e-b123-bcdc057a50ad">
+               <id root="ab00792d-c13c-4702-b976-1668f1def7a3"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <title>17 PATIENT COUNSELING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Hypersensitivity Reactions</content>
+                     <br/>Question patients regarding any prior history of reactions to parenteral iron products. Advise patients to immediately report any symptoms of hypersensitivity that develop during and following INFeD administration such as arthralgia, backache, chills, dizziness, moderate to high fever, headache, malaise, myalgia, nausea, and vomiting<content styleCode="italics"> [see Warnings and Precautions (5.1)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Delayed Reactions</content>
+                     <br/>Advise patients that delayed reactions can occur and that these must be reported to their healthcare provider immediately <content styleCode="italics">[see Warnings and Precautions (5.2)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Increased Risk of Toxicity in Patients with Underlying Conditions</content>
+                     <br/>Advise patients to inform their healthcare provider if any liver impairment is identified as this may cause iron toxicity. Advise patients to consult their healthcare provider should they start to show symptoms of acute kidney infection as INFeD should not be used<content styleCode="italics"> [see Warnings and Precautions (5.3)].</content>
+                  </paragraph>
+                  <paragraph>Advise patients with pre-existing cardiovascular disease and rheumatoid arthritis that INFeD administration may exacerbate symptoms and to contact their healthcare provider if any symptoms occur <content styleCode="italics">[see Warnings and Precautions (5.3)].</content>
+                  </paragraph>
+                  <paragraph>Advise patients with history of significant allergies and/or asthma to inform their healthcare provider as the risk of hypersensitivity reactions may be increased <content styleCode="italics">[see Warnings and Precautions (5.3)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Iron Overload</content>
+                     <br/>Advise the patient to consult a healthcare provider before taking any other iron containing products as this may cause serious side effects<content styleCode="italics"> [see Warnings and Precautions (5.4)].</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Pregnancy</content>
+                     <br/>Advise pregnant persons about the risk of hypersensitivity reactions which may have serious consequences for the fetus<content styleCode="italics"> [see Use in Specific Populations (8.1)].</content>
+                  </paragraph>
+                  <paragraph>For all medical inquiries contact:<br/>AbbVie<br/>Medical Communications<br/>1-800-678-1605</paragraph>
+                  <paragraph>Manufactured By:<br/>Patheon Italia S.p.A.<br/>Ferentino, Italy 03013</paragraph>
+                  <paragraph>Distributed By:<br/>AbbVie Inc.<br/>North Chicago, IL 60064</paragraph>
+                  <paragraph>© 2024 AbbVie. All rights reserved.<br/>INFED and its design are trademarks of Allergan Sales, LLC, an AbbVie company.</paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lff207f3d-9236-448c-9ba1-4043dcc276a8">
+               <id root="52c9c1c6-2238-4a37-a505-ea48a2cf5ca8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Sample Package Label </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Ld2d9552e-0ec0-4f99-967f-d98dd0683c41"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260422"/>
+               <component>
+                  <observationMedia ID="Ld2d9552e-0ec0-4f99-967f-d98dd0683c41">
+                     <text>Label1.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Label1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

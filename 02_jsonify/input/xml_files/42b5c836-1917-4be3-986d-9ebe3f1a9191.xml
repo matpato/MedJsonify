@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="42b5c836-1917-4be3-986d-9ebe3f1a9191"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">GLIPIZIDE TABLETS, USP 5 mg and 10 mg </content>
+      <br/>
+      <content styleCode="bold">Rx Only</content>
+      <br/>
+   </title>
+   <effectiveTime value="20260313"/>
+   <setId root="d3b5677c-2265-47c8-beeb-bf12106056ba"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="191427277" root="1.3.6.1.4.1.519.1"/>
+            <name>Major Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="cb320053-c338-4505-8f81-9428f23c5772"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20240826"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0904-6637" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Glipizide</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Glipizide</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="60505-0141" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X7WDT95N5C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLIPIZIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X7WDT95N5C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>GLIPIZIDE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="100"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0904-6637-61" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20020925"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075795" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20020925"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">APO;GLP;5</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="_1be5c7a2-8e39-04be-b8d6-45be3d71e332">
+               <id root="8dd5000f-277f-4bef-8c71-94f5c6e62e78"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Glipizide is an oral blood-glucose-lowering drug of the sulfonylurea class. </paragraph>
+                  <paragraph>The Chemical Abstracts name of glipizide is 1-cyclohexyl-3-[[p-[2-(5-methylpyrazine-carboxamido)ethyl]phenyl]sulfonyl]urea. The molecular formula is C<sub>21</sub>H<sub>27</sub>N<sub>5</sub>O<sub>4</sub>S; the molecular weight is 445.55; the structural formula is shown below:</paragraph>
+                  <renderMultiMedia ID="id450" referencedObject="MM371969978724"/>
+                  <paragraph>Glipizide is a whitish, odorless powder with a pKa of 5.9. It is insoluble in water and alcohols, but soluble in 0.1 <content styleCode="italics">N</content> NaOH; it is freely soluble in dimethylformamide. Glipizide tablets, USP for oral use are available in 5 and 10 mg strengths. </paragraph>
+                  <paragraph>Inert ingredients are: anhydrous lactose; colloidal silicon dioxide; magnesium stearate; sodium starch glycolate.</paragraph>
+                  <paragraph>Meets USP Dissolution Test 2.</paragraph>
+               </text>
+               <effectiveTime value="20250711"/>
+               <component>
+                  <observationMedia ID="MM371969978724">
+                     <text>glipizide-structure.jpg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="glipizide-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CLINICAL_PHARMACOLOGY">
+               <id root="3d0ae29b-203d-4b69-9383-c5219434a50b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20250711"/>
+               <component>
+                  <section ID="_3C2A09B9-860D-D067-99D2-69F8AFCD386C">
+                     <id root="c8640630-329b-4766-9ad4-3be6be485a81"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>The primary mode of action of glipizide in experimental animals appears to be the stimulation of insulin secretion from the beta cells of pancreatic islet tissue and is thus dependent on functioning beta cells in the pancreatic islets. In humans, glipizide appears to lower the blood glucose acutely by stimulating the release of insulin from the pancreas, an effect dependent upon functioning beta cells in the pancreatic islets. The mechanism by which glipizide lowers blood glucose during long-term administration has not been clearly established. In man, stimulation of insulin secretion by glipizide in response to a meal is undoubtedly of major importance. Fasting insulin levels are not elevated even on long-term glipizide administration, but the postprandial insulin response continues to be enhanced after at least 6 months of treatment. The insulinotropic response to a meal occurs within 30 minutes after an oral dose of glipizide in diabetic patients, but elevated insulin levels do not persist beyond the time of the meal challenge. Extrapancreatic effects may play a part in the mechanism of action of oral sulfonylurea hypoglycemic drugs.  </paragraph>
+                        <paragraph>Blood sugar control persists in some patients for up to 24 hours after a single dose of glipizide, even though plasma levels have declined to a small fraction of peak levels by that time (see <content styleCode="bold">
+                              <linkHtml href="#_94728C00-E5D9-1BD8-B810-5C4C61EDA997">Pharmacokinetics</linkHtml>
+                           </content> below). </paragraph>
+                        <paragraph>Some patients fail to respond initially, or gradually lose their responsiveness to sulfonylurea drugs, including glipizide. Alternatively, glipizide may be effective in some patients who have not responded or have ceased to respond to other sulfonylureas. </paragraph>
+                     </text>
+                     <effectiveTime value="20250711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_8BC698BE-18A6-B1AD-170B-727068F86BF1">
+                     <id root="ec8e24f8-81f8-445b-99de-5bf6ca5d37df"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other Effects</title>
+                     <text>
+                        <paragraph>It has been shown that glipizide therapy was effective in controlling blood sugar without deleterious changes in the plasma lipoprotein profiles of patients treated for NIDDM. </paragraph>
+                        <paragraph>In a placebo-controlled, crossover study in normal volunteers, glipizide had no antidiuretic activity and, in fact, led to a slight increase in free water clearance.</paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_94728C00-E5D9-1BD8-B810-5C4C61EDA997">
+                     <id root="837ae1e9-9230-42da-9be9-9ddb7103e459"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Gastrointestinal absorption of glipizide in man is uniform, rapid, and essentially complete. Peak  plasma concentrations occur 1 to 3 hours after a single oral dose. The half-life of elimination ranges from 2 to 4 hours in normal subjects, whether given intravenously or orally. The metabolic and excretory patterns are similar with the two routes of administration, indicating that first-pass metabolism is not significant. Glipizide does not accumulate in plasma on repeated oral administration. Total absorption and disposition of an oral dose was unaffected by food in normal volunteers, but absorption was delayed by about 40 minutes. Thus, glipizide was more effective when administered about 30 minutes before, rather than with, a test meal in diabetic patients. Protein binding was studied in serum from volunteers who received either oral or intravenous glipizide and found to be 98 to 99% one hour after either route of administration. The apparent volume of distribution of glipizide after intravenous administration was 11 liters, indicative of localization within the extracellular fluid compartment. In mice, no glipizide or metabolites were detectable autoradiographically in the brain or spinal cord of males or females, nor in the fetuses of pregnant females. In another study, however, very small amounts of radioactivity were detected in the fetuses of rats given labeled drug.</paragraph>
+                        <paragraph>The metabolism of glipizide is extensive and occurs mainly in the liver. The primary metabolites are inactive hydroxylation products and polar conjugates and are excreted mainly in the urine. Less than 10% unchanged glipizide is found in the urine. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_946F3D03-3ECC-C95D-D86F-D2628B609232">
+               <id root="0834d73c-7e35-4289-9748-d1c60e7b09e3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Glipizide tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.</paragraph>
+               </text>
+               <effectiveTime value="20170410"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="d908facf-b705-469c-8cfc-6e69ef60faf8"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Glipizide is contraindicated in patients with: </paragraph>
+                  <paragraph>1. Known hypersensitivity to the drug.  </paragraph>
+                  <paragraph>2.  Type 1 diabetes mellitus, diabetic ketoacidosis, with or without coma. This condition should be treated with insulin.</paragraph>
+               </text>
+               <effectiveTime value="20170410"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="e62e90ef-2c22-4dec-ac1d-e0eaa6abf779"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">SPECIAL WARNING ON INCREASED RISK OF CARDIOVASCULAR MORTALITY </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">The administration of oral hypoglycemic drugs has been reported to be associated with increased cardiovascular mortality as compared to treatment with diet alone or diet plus insulin. This warning is based on the study conducted by the University Group Diabetes Program (UGDP), a long-term prospective clinical trial designed to evaluate the effectiveness of glucose-lowering drugs in preventing or delaying vascular complications in patients with non-insulin-dependent diabetes. The study involved 823 patients who were randomly assigned to one of four treatment groups (Diabetes, 19, supp. 2: 747-830, 1970). UGDP reported that patients treated for 5 to 8 years with diet plus a fixed dose of tolbutamide (1.5 grams per day) had a rate of cardiovascular mortality approximately 2<sup>1</sup>/<sub>2</sub> times that of patients treated with diet alone. A significant increase in total mortality was not observed, but the use of tolbutamide was discontinued based on the increase in cardiovascular mortality, thus limiting the opportunity for the study to show an increase in overall mortality. Despite controversy regarding the interpretation of these results, the findings of the UGDP study provide an adequate basis for this warning. The patient should be informed of the potential risks and advantages of glipizide and of alternative modes of therapy.  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Although only one drug in the sulfonylurea class (tolbutamide) was included in this study, it is prudent from a safety standpoint to consider that this warning may also apply to other oral hypoglycemic drugs in this class, in view of their close similarities in mode of action and chemical structure. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20170410"/>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="4fb3fc60-57f3-49e6-ac64-1c19a7f7e0ba"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20170410"/>
+               <component>
+                  <section ID="_522DADB9-6AD4-2A30-F708-4716B279A905">
+                     <id root="e09c94b5-b207-4983-a965-0d1cc4aa1ff1"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <effectiveTime value="20170410"/>
+                     <component>
+                        <section ID="_571C3B14-B6AA-B29D-5E57-363A33B349B5">
+                           <id root="51565382-5cbe-4333-b5fb-f93624d23dc7"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Macrovascular Outcomes </content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>There have been no clinical studies establishing conclusive evidence of macrovascular risk reduction with glipizide or any other anti-diabetic drug. </paragraph>
+                           </text>
+                           <effectiveTime value="20170410"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_7DDD5E87-C151-684A-85E6-DD4CCB814E03">
+                           <id root="9f3ac8a9-0f85-46d4-87e5-95a0d59cb859"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Renal and Hepatic Disease</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The metabolism and excretion of glipizide may be slowed in patients with impaired renal and/or hepatic function. If hypoglycemia should occur in such patients, it may be prolonged and appropriate management should be instituted. </paragraph>
+                           </text>
+                           <effectiveTime value="20170410"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_7B7ABCE4-449A-5C6B-14FD-44E88BB17F01">
+                           <id root="8d88d63b-8cf6-4ab1-b8c5-e3ed9aaee6f0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hypoglycemia</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>All sulfonylurea drugs are capable of producing severe hypoglycemia. Proper patient selection, dosage, and instructions are important to avoid hypoglycemic episodes. Renal or hepatic insufficiency may cause elevated blood levels of glipizide and the latter may also diminish gluconeogenic capacity, both of which increase the risk of serious hypoglycemic reactions. Elderly, debilitated or malnourished patients, and those with adrenal or pituitary insufficiency, are particularly susceptible to the hypoglycemic action of glucose-lowering drugs. Hypoglycemia may be difficult to recognize in the elderly, and in people who are taking beta-adrenergic blocking drugs. Hypoglycemia is more likely to occur when caloric intake is deficient, after severe or prolonged exercise, when alcohol is ingested, or when more than one glucose-lowering drug is used. </paragraph>
+                           </text>
+                           <effectiveTime value="20170410"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_D4AB69F0-BAFD-F3F3-8826-C17EC8B128A0">
+                           <id root="75090391-4ac4-40c5-8f2c-75286419ff8a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Loss of Control of Blood Glucose</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>When a patient stabilized on any diabetic regimen is exposed to stress such as fever, trauma, infection, or surgery, a loss of control may occur. At such times, it may be necessary to discontinue glipizide and administer insulin. </paragraph>
+                              <paragraph>The effectiveness of any oral hypoglycemic drug, including glipizide, in lowering blood glucose to a desired level decreases in many patients over a period of time, which may be due to progression of the severity of the diabetes or to diminished responsiveness to the drug. This phenomenon is known as secondary failure, to distinguish it from primary failure in which the drug is ineffective in an individual patient when first given. </paragraph>
+                           </text>
+                           <effectiveTime value="20170410"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="_26AF145F-7197-B45F-26E1-652DE600CBEF">
+                           <id root="f3701b39-9f47-4d40-9b54-114540bf83d2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hemolytic Anemia</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Treatment of patients with glucose 6-phosphate dehydrogenase (G6PD) deficiency with sulfonylurea agents can lead to hemolytic anemia. Because glipizide belongs to the class of sulfonylurea agents, caution should be used in patients with G6PD deficiency and a non-sulfonylurea alternative should be considered. In post-marketing reports, hemolytic anemia has also been reported in patients who did not have known G6PD deficiency.</paragraph>
+                           </text>
+                           <effectiveTime value="20170410"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_D8F5ECBB-E2C2-8A5E-2834-7D390F915678">
+                     <id root="9c207166-5437-4c5b-b32b-25a5a094cbdf"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Blood and urine glucose should be monitored periodically. Measurement of glycosylated hemoglobin may be useful.</paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_80BA31AC-7959-C341-3D71-F96F5243CAC2">
+                     <id root="1dac06e3-b7e3-4fca-b6de-09e038a99fbe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients should be informed of the potential risks and advantages of glipizide and of alternative modes of therapy. They should also be informed about the importance of adhering to dietary instructions, of a regular exercise program, and of regular testing of urine and/or blood glucose. </paragraph>
+                        <paragraph>The risks of hypoglycemia, its symptoms and treatment, and conditions that predispose to its development should be explained to patients and responsible family members. Primary and secondary failure should also be explained. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_335E8ACE-E2AF-1EC2-2C1D-33009D72697F">
+                     <id root="b6e087b8-a696-474a-99a6-3b916bd2dbf4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Physician Counseling Information for Patients</title>
+                     <text>
+                        <paragraph>In initiating treatment for type 2 diabetes, diet should be emphasized as the primary form of treatment. Caloric restriction and weight loss are essential in the obese diabetic patient. Proper dietary management alone may be effective in controlling the blood glucose and symptoms of hyperglycemia. The importance of regular physical activity should also be stressed, and cardiovascular risk factors should be identified and corrective measures taken where possible. Use of glipizide or other antidiabetic medications must be viewed by both the physician and patient as a treatment in addition to diet and not as a substitution or as a convenient mechanism for avoiding dietary restraint. Furthermore, loss of blood glucose control on diet alone may be transient, thus requiring only short-term administration of glipizide or other antidiabetic medications. Maintenance or discontinuation of glipizide or other antidiabetic medications should be based on clinical judgment using regular clinical and laboratory evaluations. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_9DD36BC7-CEF7-4C87-3736-8AD44AD9642C">
+                     <id root="55fe9967-749e-4e49-b6ca-866774ddcdec"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>The hypoglycemic action of sulfonylureas may be potentiated by certain drugs including nonsteroidal anti-inflammatory agents, some azoles, and other drugs that are highly protein bound, salicylates, sulfonamides, chloramphenicol, probenecid, coumarins, monoamine oxidase inhibitors, quinolones and beta adrenergic blocking agents. When such drugs are administered to a patient receiving glipizide, the patient should be observed closely for hypoglycemia. When such drugs are withdrawn from a patient receiving glipizide, the patient should be observed closely for loss of control. <content styleCode="italics">In vitro</content> binding studies with human serum proteins indicate that glipizide binds differently than tolbutamide and does not interact with salicylate or dicumarol. However, caution must be exercised in extrapolating these findings to the clinical situation and in the use of glipizide with these drugs. </paragraph>
+                        <paragraph>Certain drugs tend to produce hyperglycemia and may lead to loss of control. These drugs include the thiazides and other diuretics, corticosteroids, phenothiazines, thyroid products, estrogens, oral contraceptives, phenytoin, nicotinic acid, sympathomimetics, calcium channel blocking drugs, and isoniazid. When such drugs are administered to a patient receiving glipizide, the patient should be closely observed for loss of control. When such drugs are withdrawn from a patient receiving glipizide, the patient should be observed closely for hypoglycemia. </paragraph>
+                        <paragraph>A potential interaction between oral miconazole and oral hypoglycemic agents leading to severe hypoglycemia has been reported. Whether this interaction also occurs with the intravenous, topical, or vaginal preparations of miconazole is not known. The effect of concomitant administration of fluconazole and glipizide has been demonstrated in a placebo-controlled crossover study in normal volunteers. All subjects received glipizide alone and following treatment with 100 mg of fluconazole as a single daily oral dose for 7 days. The mean percentage increase in the glipizide AUC after fluconazole administration was 56.9% (range: 35 to 81).</paragraph>
+                        <paragraph>In studies assessing the effect of colesevelam on the pharmacokinetics of glipizide ER in healthy volunteers, reductions in glipizide AUC<sub>0-∞</sub> and C<sub>max</sub> of 12% and 13%, respectively were observed when colesevelam was coadministered with glipizide ER. When glipizide ER was administered 4 hours prior to colesevelam, there was no significant change in glipizide AUC<sub>0-∞</sub> or C<sub>max</sub>, -4% and 0%, respectively. Therefore, glipizide should be administered at least 4 hours prior to colesevelam to ensure that colesevelam does not reduce the absorption of glipizide.</paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_5ABE84ED-A026-88FA-AB21-05C29520893A">
+                     <id root="a5fef809-97bf-480e-b65c-f402766d9656"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>A twenty month study in rats and an eighteen month study in mice at doses up to 75 times the maximum human dose revealed no evidence of drug-related carcinogenicity. Bacterial and <content styleCode="italics">in vivo</content> mutagenicity tests were uniformly negative. Studies in rats of both sexes at doses up to 75 times the human dose showed no effects on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_E78D343B-C2A8-2732-A83A-D9324EA1A322">
+                     <id root="a639cda2-75ea-4f5e-ab4f-92cd515ad106"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Pregnancy Category C</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Glipizide was found to be mildly fetotoxic in rat reproductive studies at all dose levels (5 to 50 mg/kg). This fetotoxicity has been similarly noted with other sulfonylureas, such as tolbutamide and tolazamide. The effect is perinatal and believed to be directly related to the pharmacologic (hypoglycemic) action of glipizide. In studies in rats and rabbits, no teratogenic effects were found. There are no adequate and well controlled studies in pregnant women. Glipizide should be used during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                        <paragraph> Because recent information suggests that abnormal blood glucose levels during pregnancy are associated with a higher incidence of congenital abnormalities, many experts recommend that insulin be used during pregnancy to maintain blood glucose levels as close to normal as possible. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_28D4AE89-D4FE-EEAC-03CD-57A6BB86E976">
+                     <id root="313b6992-fbdd-4834-a680-519edebf2a39"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nonteratogenic Effects</title>
+                     <text>
+                        <paragraph>Prolonged severe hypoglycemia (4 to 10 days) has been reported in neonates born to mothers who were receiving a sulfonylurea drug at the time of delivery. This has been reported more frequently with the use of agents with prolonged half-lives. If glipizide is used during pregnancy, it should be discontinued at least one month before the expected delivery date. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_A716BFC0-E5B9-D617-70AA-3F25910E6C68">
+                     <id root="9751baac-f4ae-4112-b236-f91d23df9ab5"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Although it is not known whether glipizide is excreted in human milk, some sulfonylurea drugs are known to be excreted in human milk. Because the potential for hypoglycemia in nursing infants may exist, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. If the drug is discontinued and if diet alone is inadequate for controlling blood glucose, insulin therapy should be considered. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_2FB99D05-8740-BAA5-C600-30AA6149DB42">
+                     <id root="deca11d9-be8b-4e01-9849-befcd9f704cd"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in children have not been established. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_87D8CD68-D5CF-967B-948D-021FD3110130">
+                     <id root="436bfbf9-65c7-49c2-ac14-394e374625de"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>A determination has not been made whether controlled clinical studies of glipizide included sufficient numbers of subjects aged 65 and over to define a difference in response from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_CC26D24A-EA8F-C6DA-74CA-32FD0B02A5F6">
+               <id root="1b051e44-41f8-4fe3-ac64-191bfb85d12a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In U.S. and foreign controlled studies, the frequency of serious adverse reactions reported was very low. Of 702 patients, 11.8% reported adverse reactions and in only 1.5% was glipizide discontinued. </paragraph>
+               </text>
+               <effectiveTime value="20250711"/>
+               <component>
+                  <section ID="_077A824C-2D57-96D8-967B-35ECABBAFB19">
+                     <id root="cda58b29-7f35-4291-aa4a-7c17eeb34dba"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hypoglycemia</title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">PRECAUTIONS</content> and <content styleCode="bold">OVERDOSAGE</content> sections. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_EA9F5C57-57D0-88D3-7D84-A62244B89ADC">
+                     <id root="84e4c55f-1bda-4e23-ae24-4b5ae0f7e992"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Gastrointestinal disturbances are the most common reactions. Gastrointestinal complaints were reported with the following approximate incidence: nausea and diarrhea, one in seventy; constipation and gastralgia, one in one hundred. They appear to be dose-related and may disappear on division or reduction of dosage. Cholestatic jaundice may occur rarely with sulfonylureas: glipizide should be discontinued if this occurs. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_DF83445E-620D-21BC-3882-7F54BCCD69E4">
+                     <id root="80537f39-ed2b-4f90-a22d-3654dafc4d68"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dermatologic</title>
+                     <text>
+                        <paragraph>Allergic skin reactions including erythema, morbilliform or maculopapular eruptions, urticaria, pruritus, and eczema have been reported in about one in seventy patients. These may be transient and may disappear despite continued use of glipizide; if skin reactions persist, the drug should be discontinued. Porphyria cutanea tarda and photosensitivity reactions have been reported with sulfonylureas. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_9FA08C8F-50EB-E8C0-F960-4000AB4A0A7C">
+                     <id root="747d215e-d175-468c-8131-7ac7ca8d9a46"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic</title>
+                     <text>
+                        <paragraph>Leukopenia, agranulocytosis, thrombocytopenia, hemolytic anemia (see <content styleCode="bold">
+                              <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                           </content>), aplastic anemia, and pancytopenia have been reported with sulfonylureas.</paragraph>
+                     </text>
+                     <effectiveTime value="20250711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_59A7AB0A-D4E4-A183-01A0-2A10181A398F">
+                     <id root="5a301156-07d0-4c56-adfc-f98d9d1cbcd6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Metabolic</title>
+                     <text>
+                        <paragraph>Hepatic porphyria and disulfiram-like reactions have been reported with sulfonylureas. In the mouse, glipizide pretreatment did not cause an accumulation of acetaldehyde after ethanol administration. Clinical experience to date has shown that glipizide has an extremely low incidence of disulfiram-like alcohol reactions. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_3F66B1CE-7D87-199E-B0C3-6BD409E8F918">
+                     <id root="e9125bf1-f800-4d41-b974-b092b4e9d818"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Endocrine Reactions</title>
+                     <text>
+                        <paragraph>Cases of hyponatremia and the syndrome of inappropriate antidiuretic hormone (SIADH) secretion have been reported with this and other sulfonylureas. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_83D6AC76-9C8E-C1BF-2693-18C946491430">
+                     <id root="dcdeea27-9521-4b19-a16d-9a58cd94bc8e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Miscellaneous</title>
+                     <text>
+                        <paragraph>Dizziness, drowsiness, and headache have each been reported in about one in fifty patients treated with glipizide. They are usually transient and seldom require discontinuance of therapy. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_30673676-1DCD-EC61-BBA9-EF7B0DB07621">
+                     <id root="3161af90-79c2-4593-bfa9-df6bbe0e384d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>The pattern of laboratory test abnormalities observed with glipizide was similar to that for other sulfonylureas. Occasional mild to moderate elevations of SGOT, LDH, alkaline phosphatase, BUN, and creatinine were noted. One case of jaundice was reported. The relationship of these abnormalities to glipizide is uncertain, and they have rarely been associated with clinical symptoms. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_f73c582c-b6c7-db68-5d69-6127bba73316">
+                     <id root="bc6d82f2-08ae-4cb0-b8c0-6d2e98751f51"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Post-Marketing Experience</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">The following adverse events have been reported in post-marketing surveillance: </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                     <component>
+                        <section ID="_f69a3851-765d-cb9a-8c83-2465a6f6f189">
+                           <id root="3fd1f24e-48ed-422d-a1ac-a601ae48d004"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">
+                                 <content styleCode="italics">Hepatobiliary</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Cholestatic and hepatocellular forms of liver injury accompanied by jaundice have been reported rarely in association with glipizide; glipizide should be discontinued if this occurs.</paragraph>
+                           </text>
+                           <effectiveTime value="20170410"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_9C98CE2E-B099-5553-2DE7-066284DC40A5">
+               <id root="a48334c9-b3d8-42b6-876a-1a461e8f322f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is no well documented experience with glipizide overdosage. The acute oral toxicity was extremely low in all species tested (LD<sub>50</sub> greater than 4 g/kg). </paragraph>
+                  <paragraph>Overdosage of sulfonylureas, including glipizide, can produce hypoglycemia. Mild hypoglycemic symptoms without loss of consciousness or neurologic findings should be treated aggressively with oral glucose and adjustments in drug dosage and/or meal patterns. Close monitoring should continue until the physician is assured that the patient is out of danger. Severe hypoglycemic reactions with coma, seizure, or other neurological impairment occur infrequently, but constitute medical emergencies requiring immediate hospitalization. If hypoglycemic coma is diagnosed or suspected, the patient should be given a rapid intravenous injection of concentrated (50%) glucose solution. This should be followed by a continuous infusion of a more dilute (10%) glucose solution at a rate that will maintain the blood glucose at a level above 100 mg/dL. Patients should be closely monitored for a minimum of 24 to 48 hours since hypoglycemia may recur after apparent clinical recovery. Clearance of glipizide from plasma would be prolonged in persons with liver disease. Because of the extensive protein binding of glipizide, dialysis is unlikely to be of benefit. </paragraph>
+               </text>
+               <effectiveTime value="20170410"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_A464E3DB-0904-12FD-EE23-A58F5165C13E">
+               <id root="7afd3cfc-09e9-40e3-a8af-5c0ec03eb7d0"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>There is no fixed dosage regimen for the management of diabetes mellitus with glipizide or any other hypoglycemic agent. In addition to the usual monitoring of urinary glucose, the patient's blood glucose must also be monitored periodically to determine the minimum effective dose for the patient; to detect primary failure, i.e., inadequate lowering of blood glucose at the maximum recommended dose of medication; and to detect secondary failure, i.e., loss of an adequate blood-glucose-lowering response after an initial period of effectiveness. Glycosylated hemoglobin levels may also be of value in monitoring the patient's response to therapy. </paragraph>
+                  <paragraph>Short-term administration of glipizide may be sufficient during periods of transient loss of control in patients usually controlled well on diet. </paragraph>
+                  <paragraph> In general, glipizide tablets should be given approximately 30 minutes before a meal to achieve the greatest reduction in postprandial hyperglycemia. </paragraph>
+               </text>
+               <effectiveTime value="20250711"/>
+               <component>
+                  <section ID="_5AC7A228-12FC-7A6B-90A5-584285E5D63B">
+                     <id root="fc299a92-e5e7-42d3-a67f-ef35f1cd7ff4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Initial Dose</title>
+                     <text>
+                        <paragraph>The recommended starting dose is 5 mg, given before breakfast. Geriatric patients or those with liver disease may be started on 2.5 mg. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_3F9F9141-FCF7-E90C-2B72-98BFBAB7C6C7">
+                     <id root="db56c305-c99e-40b7-9a68-c32e7c20682d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Titration</title>
+                     <text>
+                        <paragraph>Dosage adjustments should ordinarily be in increments of 2.5 to 5 mg, as determined by blood glucose response. At least several days should elapse between titration steps. If response to a single dose is not satisfactory, dividing that dose may prove effective. The maximum recommended once daily dose is 15 mg. Doses above 15 mg should ordinarily be divided and given before meals of adequate caloric content. The maximum recommended total daily dose is 40 mg. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_64D8E476-1D7A-2590-E05C-E4F6A65F5AAD">
+                     <id root="990870cf-7e42-4e06-9ba2-592c28758eca"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Maintenance</title>
+                     <text>
+                        <paragraph>Some patients may be effectively controlled on a once-a-day regimen, while others show better response with divided dosing. Total daily doses above 15 mg should ordinarily be divided. Total daily doses above 30 mg have been safely given on a b.i.d. basis to long-term patients. </paragraph>
+                        <paragraph>In elderly patients, debilitated or malnourished patients, and patients with impaired renal or hepatic function, the initial and maintenance dosing should be conservative to avoid hypoglycemic reactions (see <content styleCode="bold">
+                              <linkHtml href="#PRECAUTIONS">PRECAUTIONS</linkHtml>
+                           </content> section). </paragraph>
+                     </text>
+                     <effectiveTime value="20250711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_FCF97F9E-AF83-3B66-B085-C8DE3D1C608E">
+                     <id root="4ac98a44-e83d-4bcf-8dee-0b39163b6d81"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients Receiving Insulin</title>
+                     <text>
+                        <paragraph>As with other sulfonylurea-class hypoglycemics, many stable non-insulin-dependent diabetic patients receiving insulin may be safely placed on glipizide. When transferring patients from insulin to glipizide, the following general guidelines should be considered: </paragraph>
+                        <paragraph>For patients whose daily insulin requirement is 20 units or less, insulin may be discontinued and glipizide therapy may begin at usual dosages. Several days should elapse between glipizide titration steps. </paragraph>
+                        <paragraph>For patients whose daily insulin requirement is greater than 20 units, the insulin dose should be reduced by 50% and glipizide therapy may begin at usual dosages. Subsequent reductions in insulin dosage should depend on individual patient response. Several days should elapse between glipizide titration steps.  </paragraph>
+                        <paragraph>During the insulin withdrawal period, the patient should test urine samples for sugar and ketone bodies at least three times daily. Patients should be instructed to contact the prescriber immediately if these tests are abnormal. In some cases, especially when patient has been receiving greater than 40 units of insulin daily, it may be advisable to consider hospitalization during the transition period. </paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="_4C09C2D7-CE81-0A26-C04A-827A8286519D">
+                     <id root="192ac1fd-d9f5-4b77-950f-386f3f606e5a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients Receiving Other Oral Hypoglycemic Agents</title>
+                     <text>
+                        <paragraph>As with other sulfonylurea-class hypoglycemics, no transition period is necessary when transferring patients to glipizide. Patients should be observed carefully (1 to 2 weeks) for hypoglycemia when being transferred from longer half-life sulfonylureas (e.g., chlorpropamide) to glipizide due to potential overlapping of drug effect. </paragraph>
+                        <paragraph>When colesevelam is coadministered with glipizide ER, maximum plasma concentration and total exposure to glipizide is reduced. Therefore, glipizide should be administered at least 4 hours prior to colesevelam.</paragraph>
+                     </text>
+                     <effectiveTime value="20170410"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="_9ED1EF51-3CC0-D060-D437-534319A6AD6A">
+               <id root="a57ef2bf-35fc-4a07-8bee-cbf9afdd860e"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Glipizide Tablets, USP are supplied as white to off-white, round, scored tablets, imprinted as follows: 5 mg- “APO” on the side and “GLP” over bisect “5” on the other side; 10 mg- “APO” on one side and “GLP” over bisect “10” on the other side. </paragraph>
+                  <paragraph>5 mg </paragraph>
+                  <paragraph>Cartons of 100 tablets (10 tablets each blister pack x 10), NDC 0904-6637-61 </paragraph>
+                  <paragraph>WARNING: This Unit Dose package is not child resistant and is Intended for Institutional Use Only. Keep this and all drugs out of the reach of children.</paragraph>
+               </text>
+               <effectiveTime value="20260313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="_0E9AD081-C054-ADD9-F1EF-94F020F44C1A">
+               <id root="aacbd17d-ef56-4add-bf0e-b2cb5d12718e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>RECOMMENDED STORAGE</title>
+               <text>
+                  <paragraph>Store at 20˚C to 25˚C (68˚F to 77˚F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container [see USP].</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">APOTEX INC.</content>
+                     <br/>
+                     <content styleCode="bold">GLIPIZIDE TABLETS, USP</content>
+                     <br/>
+                     <content styleCode="bold">5 mg and 10 mg</content> </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by      Manufactured for</content>
+                     <br/>Apotex Inc.                Apotex Corp. <br/>Toronto, Ontario         Weston, Florida <br/>Canada M9L 1T9        USA 33326 </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by </content>
+                  </paragraph>
+                  <paragraph>Piramal Pharma Limited, </paragraph>
+                  <paragraph>Plot No: 67-70 Sector-2 Pithampur 454775</paragraph>
+                  <paragraph>Dist. Dhar, Madhya Pradesh, INDIA</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Packaged and Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">MAJOR® PHARMACEUTICALS</content>
+                  </paragraph>
+                  <paragraph>Indianapolis, IN 46268 USA</paragraph>
+                  <paragraph>Refer to package label for Distributor's NDC Number</paragraph>
+                  <paragraph>Mfg Lic. No.: 25/10/92</paragraph>
+                  <paragraph>Revised: May 2017</paragraph>
+                  <paragraph>Rev. 8</paragraph>
+               </text>
+               <effectiveTime value="20260313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8409c2da-4704-412d-b13f-4faf92080d92">
+               <id root="c5f69030-f4a4-4b13-954a-5f2290bb20c4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel </title>
+               <text>
+                  <paragraph>MAJOR®</paragraph>
+                  <paragraph>NDC 0904-6637-61</paragraph>
+                  <paragraph>Unit Dose</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GlipiZIDE</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Tablets, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5 mg</content>
+                  </paragraph>
+                  <paragraph>100 TABLETS (10 x 10)</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <renderMultiMedia ID="id1891453714" referencedObject="ID_7ffc01ed-deec-48b5-a0d7-2abe9c3d8423"/>
+               </text>
+               <effectiveTime value="20260313"/>
+               <component>
+                  <observationMedia ID="ID_7ffc01ed-deec-48b5-a0d7-2abe9c3d8423">
+                     <text>5mg carton label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="f1793ea0-b041-708c-ff9e-c711affdba6e-00.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

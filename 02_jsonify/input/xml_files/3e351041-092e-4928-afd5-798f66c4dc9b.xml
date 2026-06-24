@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="3e351041-092e-4928-afd5-798f66c4dc9b"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Diphenhydramine Hydrochloride Injection,
+        USP<br/>Rx only</title>
+   <effectiveTime value="20260326"/>
+   <setId root="eedb421c-0020-4e5f-8b09-26a1cbabb681"/>
+   <versionNumber value="6"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+            <name>A-S Medication Solutions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+                        <name>A-S Medication Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="RELABEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-0878" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="REPACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-0878" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="9590d1f1-3866-443d-9128-6ad74821520e"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20240409"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="50090-0878" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Diphenhydramine Hydrochloride</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>diphenhydramine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0641-0376" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="50" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="TC2D6JAD40" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIPHENHYDRAMINE HCL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="8GTS82S83M" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DIPHENHYDRAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="ug" value="100"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="PH41D05744" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZETHONIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50090-0878-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20141128"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA080817" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19721127"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" displayName="INTRAVENOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c6947ea5-1c86-40e0-933d-d99ccb38670e">
+               <id root="d4a89ae0-5ad8-466b-88a8-eafaeda5149f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Diphenhydramine Hydrochloride Injection is a sterile, nonpyrogenic solution for intravenous or deep intramuscular use as an antihistaminic agent. Each mL contains diphenhydramine hydrochloride 50 mg and benzethonium chloride 100 mcg in Water for Injection. pH 4.0-6.5; sodium hydroxide and/or hydrochloric acid added, if needed, for pH adjustment.</paragraph>
+                  <paragraph>The chemical name of diphenhydramine hydrochloride is 2-(Diphenylmethoxy)-N,N-dimethylethylamine hydrochloride. The structural formula is as follows:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>C<sub>17</sub>H<sub>21</sub>NO • HCl MW 291.82</paragraph>
+                  <paragraph>Diphenhydramine hydrochloride occurs as a white crystalline powder and is freely soluble in water and alcohol.</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural formula</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="diphenhydramine-hydrochloride-injection-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_db190e94-edae-4fb4-845d-8ca74b27560e">
+               <id root="20b407ca-cbc5-49ae-928c-a86d431966c1"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells.</paragraph>
+                  <paragraph>Diphenhydramine hydrochloride in the injectable form has a rapid onset of action. Diphenhydramine is widely distributed throughout the body, including the CNS. A portion of the drug is excreted unchanged in the urine, while the rest is metabolized via the liver. Detailed information on the pharmacokinetics of Diphenhydramine Hydrochloride Injection is not available.</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c7da3956-456b-4466-aee6-694cf34a363d">
+               <id root="766a8f02-85c7-43e0-bf0f-66d42e58a078"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Diphenhydramine
+                            Hydrochloride Injection is effective in adults and pediatric patients,
+                            other than premature infants and neonates, for the following conditions
+                            when the oral form is impractical:</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <section ID="LINK_8605aa18-15b5-4717-a81d-2bda01a27975">
+                     <id root="cac623cd-f36f-4e61-be60-34d499825f02"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Antihistaminic</title>
+                     <text>
+                        <paragraph>For amelioration of allergic reactions to blood or plasma, in anaphylaxis as an adjunct to epinephrine and other standard measures after the acute symptoms have been controlled and for other uncomplicated allergic conditions of the immediate type when oral therapy is impossible or contraindicated.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c8c2ce0f-1d33-4dff-a8fe-0e8b87904f60">
+                     <id root="1225a522-f378-4152-a104-3fc43af61176"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Motion Sickness</title>
+                     <text>
+                        <paragraph>For active
+                                    treatment of motion sickness.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_32ca3e75-b93d-419d-b230-e93c0a6fce5b">
+                     <id root="cf400ef0-5235-429e-b16c-4c5443c46371"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Antiparkinsonism</title>
+                     <text>
+                        <paragraph>For use in
+                                    parkinsonism, when oral therapy is impossible or
+                                    contraindicated, as follows: parkinsonism in the elderly who are
+                                    unable to tolerate more potent agents, mild cases of
+                                    parkinsonism in other age groups and in other cases of
+                                    parkinsonism in combination with centrally acting
+                                    anticholinergic agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cf117a92-4572-4704-b806-5d11ec6f6888">
+               <id root="633e2430-dca4-4e44-87bd-92cec37b7db6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <section ID="LINK_c96e87f5-bd33-43f3-af0a-9953d90228ee">
+                     <id root="4f1c446b-1640-44a2-8e5f-417624d119fe"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Neonates or       Premature Infants</title>
+                     <text>
+                        <paragraph>This drug
+                                    should <content styleCode="italics">
+                              <content styleCode="underline">not</content>
+                           </content> be
+                                    used in neonates or premature infants.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_36821f06-6342-45a5-bd53-44cb53489c7f">
+                     <id root="fbcfd604-fc54-4010-9d67-a9c9bb33675f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Nursing
+                                Mothers</title>
+                     <text>
+                        <paragraph>Because of
+                                    the higher risk of antihistamines for infants generally, and for
+                                    neonates and prematures in particular, antihistamine therapy is
+                                    contraindicated in nursing mothers.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0766ab98-6346-4e61-92ff-b51719ef515d">
+                     <id root="a8b5c67b-9ad7-4424-a6b9-46e088397b83"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use as a Local
+                                Anesthetic</title>
+                     <text>
+                        <paragraph>Because of
+                                    the risk of local necrosis, this drug should not be used as a
+                                    local anesthetic.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5da1b803-0c74-4c57-842e-b3c6301b30ed">
+                     <id root="c55c00fe-20de-4f6d-9dcb-a86aabc6eba2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Antihistamines are
+                                also Contraindicated in the Following Conditions</title>
+                     <text>
+                        <paragraph>Hypersensitivity to diphenhydramine hydrochloride and other
+                                    antihistamines of similar chemical structure.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_481a4464-6de8-4f95-bf82-572c86455726">
+               <id root="33fc138b-5491-433f-9ee2-0b39132dbc67"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Antihistamines
+                            should be used with considerable caution in patients with narrow-angle
+                            glaucoma, stenosing peptic ulcer, pyloroduodenal obstruction,
+                            symptomatic prostatic hypertrophy or bladder-neck obstruction.</paragraph>
+                  <paragraph>Local necrosis has
+                            been associated with the use of subcutaneous or intradermal use of
+                            intravenous diphenhydramine.</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <section ID="LINK_7a60beea-9066-423c-ac34-172f73cee514">
+                     <id root="d80d253e-9229-4337-be0a-85f44e8416dc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Pediatric
+                                Patients</title>
+                     <text>
+                        <paragraph>In
+                                    pediatric patients, especially, antihistamines in <content styleCode="italics">overdosage</content> may cause
+                                    hallucinations, convulsions or death.</paragraph>
+                        <paragraph>As in
+                                    adults, antihistamines may diminish mental alertness in
+                                    pediatric patients. In the young pediatric patient,
+                                    particularly, they may produce excitation.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f254f7dd-44b3-4325-8900-fd8507a92a8f">
+                     <id root="c0f061cf-32fd-4d71-b04a-cbae118e0ba0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in the Elderly
+                                (approximately 60 years or older)</title>
+                     <text>
+                        <paragraph>Antihistamines are more likely to cause dizziness, sedation and
+                                    hypotension in elderly patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_00cefc6c-a79c-44b9-9ff8-68d6de39f632">
+               <id root="5ced3071-839c-49f0-9bc1-4e5fccf44797"/>
+               <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <section ID="LINK_0b2c9c77-aafb-46cf-8dd1-7ce135e25e6a">
+                     <id root="4f3392f5-d306-4ce2-9723-30aa5922e577"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Diphenhydramine hydrochloride has an atropine-like action and,
+                                    therefore, should be used with caution in patients with a
+                                    history of bronchial asthma, increased intraocular pressure,
+                                    hyperthyroidism, cardiovascular disease or hypertension. Use
+                                    with caution in patients with lower respiratory disease,
+                                    including asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_996cfb95-1dcb-4006-be96-540143a43a3b">
+                     <id root="0cedf028-db64-4206-a56e-e4f68eaec423"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for
+                                Patients</title>
+                     <text>
+                        <paragraph>Patients
+                                    taking diphenhydramine hydrochloride should be advised that this
+                                    drug may cause drowsiness and has an additive effect with
+                                    alcohol.</paragraph>
+                        <paragraph>Patients
+                                    should be warned about engaging in activities requiring mental
+                                    alertness, such as driving a car or operating appliances,
+                                    machinery, etc.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_aeac3439-07f2-4d42-95da-6a6ae6a3251d">
+                     <id root="8e39f92a-4a44-4a0b-a1f5-d14c6601e518"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Diphenhydramine hydrochloride has additive effects with alcohol
+                                    and other CNS depressants (hypnotics, sedatives, tranquilizers,
+                                    etc.)</paragraph>
+                        <paragraph>MAO
+                                    inhibitors prolong and intensify the anticholinergic (drying)
+                                    effects of antihistamines.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_0924b369-7301-41db-b261-36434ea2cec3">
+                     <id root="56a975ff-bb53-4700-87d7-06e59b85c0a5"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis,
+                                Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Long-term
+                                    studies in animals to determine mutagenic and carcinogenic
+                                    potential have not been performed.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_431880ca-0809-4c9a-84bd-5b3622a0d165">
+                     <id root="ee35f473-bab9-45fa-bbf7-55ee98807a34"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20240409"/>
+                     <component>
+                        <section ID="LINK_317dcb02-a9b0-4dfe-9ee0-948aec7b449e">
+                           <id root="6851e43e-c319-4198-bc9f-b2431c685d30"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Teratogenic
+                                        Effects—Pregnancy Category B</title>
+                           <text>
+                              <paragraph>Reproduction studies have been performed in rats and
+                                            rabbits at doses up to 5 times the human dose and have
+                                            revealed no evidence of impaired fertility or harm to
+                                            the fetus due to diphenhydramine hydrochloride. There
+                                            are, however, no adequate and well-controlled studies in
+                                            pregnant women. Because animal reproduction studies are
+                                            not always predictive of human response, this drug
+                                            should be used during pregnancy only if clearly
+                                        needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20240409"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4859c100-39e5-4fde-b367-c419b27b7e7e">
+                     <id root="f1e93c79-a3b5-4f48-955c-8620c3bf488d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Diphenhydramine should not be used in neonates and premature infants (see <content styleCode="bold">
+                              <linkHtml href="#LINK_cf117a92-4572-4704-b806-5d11ec6f6888">CONTRAINDICATIONS</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>Diphenhydramine may diminish mental alertness, or in the young pediatric patient, cause excitation. Overdosage may cause hallucinations, convulsions or death (see <content styleCode="bold">
+                              <linkHtml href="#LINK_481a4464-6de8-4f95-bf82-572c86455726">WARNINGS</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#LINK_29f1dbb6-f606-4b17-b3d5-af60ee4be5d4">OVERDOSAGE</linkHtml>
+                           </content>).</paragraph>
+                        <paragraph>See also <content styleCode="bold">
+                              <linkHtml href="#LINK_072ff7e8-6470-461a-a2fd-2be3f100a1fa">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content> section.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_cd6bae14-a07a-4348-9937-7f60c8e62308">
+               <id root="d4df23d4-39e0-4025-8655-0a8491ee756c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The most frequent
+                            adverse reactions are italicized.</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <section ID="LINK_427f1101-be19-4aae-bd77-1689929b10de">
+                     <id root="1ed97895-a127-4259-acad-5b461afb9aac"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Urticaria;
+                                    drug rash; anaphylactic shock; photosensitivity; excessive
+                                    perspiration; chills; dryness of mouth, nose and
+                                throat.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_24e74d5b-7ce8-4707-b2b8-6cccc09312f1">
+                     <id root="f852889d-04a5-4cc8-a29b-28e89b5f63f9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular
+                                System</title>
+                     <text>
+                        <paragraph>Hypotension, headache, palpitations, tachycardia,
+                                    extrasystoles.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_42663c14-0ce9-4edf-b673-218d25739926">
+                     <id root="2e459a49-4471-4d40-bd82-cae212d093e4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic System</title>
+                     <text>
+                        <paragraph>Hemolytic
+                                    anemia, thrombocytopenia, agranulocytosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_90dffa3b-d021-4cc0-8a9d-e4b469ea4b27">
+                     <id root="146b6128-8cc7-4055-aada-16bb34776350"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nervous System</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Sedation</content>, <content styleCode="italics">sleepiness</content>, <content styleCode="italics">dizziness</content>, <content styleCode="italics">disturbed coordination</content>,
+                                    fatigue, confusion, restlessness, excitation, nervousness,
+                                    tremor, irritability, insomnia, euphoria, paresthesia, blurred
+                                    vision, diplopia, vertigo, tinnitus, acute labyrinthitis,
+                                    neuritis, convulsions.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cf9c5870-27fd-4873-be2d-9de498d2e4e1">
+                     <id root="01ccebb9-cfb4-4e9a-b9db-a37f6f064849"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal
+                                System</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Epigastric distress</content>, anorexia,
+                                    nausea, vomiting, diarrhea, constipation.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_b2f4c5f6-789f-4b2b-a2af-c10a4402f07e">
+                     <id root="0c5e61e2-a8cc-478f-b547-7fb69e6c3db3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Genitourinary
+                                System</title>
+                     <text>
+                        <paragraph>Urinary
+                                    frequency, difficult urination, urinary retention, early
+                                menses.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9e0f97af-d01d-438b-a4be-eba44a709d01">
+                     <id root="2377b5a0-3cd0-4986-a2f4-7dc67a3b2bf0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Respiratory System</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Thickening of bronchial
+                                    secretions</content>, tightness of chest and wheezing, nasal
+                                    stuffiness.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_29f1dbb6-f606-4b17-b3d5-af60ee4be5d4">
+               <id root="db57e4f2-2e21-48f7-bd8b-a3e71d283762"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Antihistamine
+                            overdosage reactions may vary from central nervous system depression to
+                            stimulation. Stimulation is particularly likely in pediatric patients.
+                            Atropine-like signs and symptoms, dry mouth; fixed, dilated pupils;
+                            flushing, and gastrointestinal symptoms may also occur.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Stimulants</content> should <content styleCode="bold">not</content> be used.</paragraph>
+                  <paragraph>Vasopressors may be
+                            used to treat hypotension.</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_072ff7e8-6470-461a-a2fd-2be3f100a1fa">
+               <id root="c7e0c345-832c-410a-9dda-9d9af0eb18dd"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>THIS PRODUCT IS FOR
+                            INTRAVENOUS OR INTRAMUSCULAR ADMINISTRATION ONLY.</paragraph>
+                  <paragraph>Diphenhydramine
+                            Hydrochloride Injection is indicated when the oral form is impractical.</paragraph>
+                  <paragraph>DOSAGE SHOULD BE
+                            INDIVIDUALIZED ACCORDING TO THE NEEDS AND THE RESPONSE OF THE
+                        PATIENT.</paragraph>
+               </text>
+               <effectiveTime value="20240409"/>
+               <component>
+                  <section ID="LINK_1df5c73d-b1ed-4132-b9c1-08c32f964d24">
+                     <id root="99d7a9b3-4a45-4b27-b2ee-c15a000cc221"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pediatric Patients,
+                                Other Than Premature Infants and Neonates</title>
+                     <text>
+                        <paragraph>5 mg/kg/24
+                                    hours or 150 mg/m<sup>2</sup>/24 hours. Maximum daily dosage is
+                                    300 mg. Divide into four doses, administered intravenously at a
+                                    rate generally not exceeding 25 mg/min, or deep
+                                intramuscularly.</paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_04130d9a-8dd8-4ee1-91b0-6e721a5ea070">
+                     <id root="6cad1354-6e45-498f-b825-862f0a18e1c2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Adults</title>
+                     <text>
+                        <paragraph>10 to 50 mg                        intravenously at a rate generally not exceeding 25 mg/min, or
+                                    deep intramuscularly; 100 mg if required; maximum daily dosage
+                                    is 400 mg.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Parenteral drug products should be
+                                        inspected visually for particulate matter and discoloration
+                                        prior to administration, whenever solution and container
+                                        permit.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240409"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_034c9ab6-022b-4348-963b-1831fdddae5d">
+               <id root="68ac11e1-d8cc-494d-bdc2-20c80fe55a99"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Product:    50090-0878</paragraph>
+                  <paragraph>NDC:    50090-0878-0   50 mL in a VIAL   /  1  in a  CARTON </paragraph>
+               </text>
+               <effectiveTime value="20260326"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="bbee5a59-2b1f-4fca-9562-8a6bd41cde08"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>DIPHENHYDRAMINE HYDROCHLORIDE INJECTION</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl500900878"/>
+               </text>
+               <effectiveTime value="20260326"/>
+               <component>
+                  <observationMedia ID="lbl500900878">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl500900878.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

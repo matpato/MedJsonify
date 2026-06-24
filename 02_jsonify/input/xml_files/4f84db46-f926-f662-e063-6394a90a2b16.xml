@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4f84db46-f926-f662-e063-6394a90a2b16"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20260415"/>
+   <setId root="4f84db46-f925-f662-e063-6394a90a2b16"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="053016941"/>
+            <name>Assure Infusions, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="053016941"/>
+                  <name>Assure Infusions, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="053016941"/>
+                        <name>Assure Infusions, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="83155-103" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4f877513-c371-1dda-e063-6394a90a7e99"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260415"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="83155-103" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Water</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Water</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mL" value="250"/>
+                              <denominator unit="mL" value="250"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="500" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83155-103-50" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260416"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="250" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83155-103-25" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260416"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1000" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="83155-103-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43186" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CONTAINER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260416"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C101533" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Unapproved drug for use in drug shortage"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260416"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4f8536c3-2f2e-d261-e063-6294a90a3012">
+               <id root="4f8536c3-2f2d-d261-e063-6294a90a3012"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4f853c6f-eeff-5828-e063-6394a90aed79"/>HEMOLYTIC and HYPOTONIC. Additives may be incompatible. Consultation with a pharmacist is recommended. When introducing additives, use aseptic technique, mix thoroughly and do not store. Not for Intravenous unless rendered nearly Isotonic. For usual dosage see insert. Sterile, nonpyrogenic. Use only if solution is clear and container is undamaged. Must not be used in a series connections.
+ </paragraph>
+               </text>
+               <effectiveTime value="20260416"/>
+               <component>
+                  <observationMedia ID="img_4f853c6f-eeff-5828-e063-6394a90aed79">
+                     <text>Combined Labels</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Combined Labels.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4f86fe97-83a2-d94c-e063-6294a90a7a15">
+               <id root="4f86fe97-83a1-d94c-e063-6294a90a7a15"/>
+               <code code="71744-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEALTH CARE PROVIDER LETTER SECTION"/>
+               <text>
+                  <paragraph>Purpose:</paragraph>
+                  <paragraph>This product is being distributed in response to a shortage of Sterile Water For Injection, USP product in the United States as per U.S. Food and Drug; FDA Drug Shortgae List.</paragraph>
+                  <paragraph/>
+                  <paragraph>Regulatory Status:</paragraph>
+                  <paragraph>This product has not been approved by the U.S. Food and Drug Administration but is being made available under enforcement discretion during a drug shortage.</paragraph>
+                  <paragraph/>
+                  <paragraph>Product Descritpion:</paragraph>
+                  <paragraph>This product only have Water for Injection, USP.</paragraph>
+                  <paragraph/>
+                  <paragraph>Dosing and Administration:</paragraph>
+                  <paragraph>The route of administration is intravenous. Product is not for direct intravenous use unless rendered nearly Isotonic. It can be used as a drug diluent. Following suitable admixture of prescribed additive, the final product dose is usually dependent upon the age, weight and clinical condition of the patient.</paragraph>
+                  <paragraph/>
+                  <paragraph>Safety Information:</paragraph>
+                  <paragraph>Additives may be incompatible. Please confirm compatibility.</paragraph>
+                  <paragraph/>
+                  <paragraph>Storage and Handling:</paragraph>
+                  <paragraph>Store at 20 to 25C (68F to 77F) [See USP Controlled Room Temperature]. </paragraph>
+                  <paragraph/>
+                  <paragraph>Reporting Adverse Events:</paragraph>
+                  <paragraph>Report adverse events to wwww.fda.gov/medwatch or 1-800-FDA-1088.</paragraph>
+                  <paragraph/>
+                  <paragraph>Contact Information:</paragraph>
+                  <paragraph>For any question or concern, please contact 1-863-292-2211. Email: Info@AssureIV.com.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260416"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4f85418b-6aa5-e09f-e063-6294a90a9f6c">
+               <id root="4f85418b-6aa4-e09f-e063-6294a90a9f6c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4f8540bb-5977-c1d3-e063-6294a90a2c72"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260416"/>
+               <component>
+                  <observationMedia ID="img_4f8540bb-5977-c1d3-e063-6294a90a2c72">
+                     <text>Combined Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Combined Labels.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

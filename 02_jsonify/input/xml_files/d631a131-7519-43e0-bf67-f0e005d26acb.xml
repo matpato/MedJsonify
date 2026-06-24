@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="d631a131-7519-43e0-bf67-f0e005d26acb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Pindolol Tablets USP, <br/> 5 mg and 10 mg</title>
+   <effectiveTime value="20260527"/>
+   <setId root="22b95e96-ead9-4149-badb-7d33077e82ec"/>
+   <versionNumber value="100"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2653"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2653"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="6cd8e463-781a-49df-8d5a-70677e15ced2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20251125"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72162-2653" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Pindolol</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Pindolol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="69367-422" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BJ4HF6IU1D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PINDOLOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BJ4HF6IU1D" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>PINDOLOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="AG9B65PV6B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72162-2653-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260527"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA205415" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20251118"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="9" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">P1;N</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="pindolol-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6097a499-a1a9-46ce-8f6a-5394395281fb"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Westminster Pharmaceuticals, LLC</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f3c4c35a-66e8-47b5-acb3-909bf270c0b0"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Pindolol, a synthetic beta-adrenergic receptor blocking agent with intrinsic sympathomimetic activity is 1-(Indol-4-yloxy)-3-(isopropylamino)-2-propanol.</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="49%" align="right" valign="middle"/>
+                     <col width="3%" align="center" valign="middle"/>
+                     <col width="48%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="3" align="center">
+                              <renderMultiMedia referencedObject="MM1"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <content styleCode="bold">C<sub>14</sub>H<sub>20</sub>N<sub>2</sub>O<sub>2</sub>
+                              </content>
+                           </td>
+                           <td/>
+                           <td>
+                              <content styleCode="bold">M.W. 248.32</content>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Pindolol, USP is a white to off-white, crystalline powder having a faint odor which is practically insoluble in water; slightly soluble in methanol; and very slightly soluble in chloroform.</paragraph>
+                  <paragraph>Each tablet for oral administration contains pindolol and the following inactive ingredients: corn starch, lactose monohydrate, pregelatinized corn starch, colloidal silicon dioxide, magnesium stearate, sodium starch glycolate and microcrystalline cellulose.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c2a8adf3-f5bc-4d3f-9e52-af8c57a3f023"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Pindolol is a nonselective beta-adrenergic antagonist (beta-blocker) which possesses intrinsic sympathomimetic activity (ISA) in therapeutic dosage ranges but does not possess quinidine-like membrane stabilizing activity.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0fd5de9d-37a8-479f-b4ab-68e7df77f234"/>
+               <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+               <title>PHARMACODYNAMICS</title>
+               <text>
+                  <paragraph>In standard pharmacologic tests in man and animals, pindolol attenuates increases in heart rate, systolic blood pressure, and cardiac output resulting from exercise and isoproterenol administration, thus confirming its beta-blocking properties. The ISA or partial agonist activity of pindolol is mediated directly at the adrenergic receptor sites and may be blocked by other beta-blockers. In catecholamine depleted animal experiments, ISA is manifested as an increase in the inotropic and chronotropic activity of the myocardium. In man, ISA is manifested by a smaller reduction in the resting heart rate (4 to 8 beats/min) than is seen with drugs lacking ISA. There is also a smaller reduction in resting cardiac output. The clinical significance of this observation has not been evaluated and there is no evidence, or reason to believe, that exercise cardiac output is less affected by pindolol.</paragraph>
+                  <paragraph>Pindolol has been shown in controlled, double-blind clinical studies to be an effective antihypertensive agent when used as monotherapy, or when added to therapy with thiazide-type diuretics. Divided dosages in the range of 10 mg to 60 mg daily have been shown to be effective. As monotherapy, pindolol is as effective as propranolol, -methyldopa, hydrochlorothiazide, and chlorthalidone in reducing systolic and diastolic blood pressure. The effect on blood pressure is not orthostatic, i.e., pindolol was equally effective in reducing the supine and standing blood pressure.</paragraph>
+                  <paragraph>In open, long-term studies up to 4 years, no evidence of diminution of the blood pressure lowering response was observed.</paragraph>
+                  <paragraph>An average 3-pound increase in body weight has been noted in patients treated with pindolol alone, a larger increase than was observed with propranolol or placebo. The weight gain appeared unrelated to blood pressure response and was not associated with an increased risk of heart failure, although edema was more common than in control patients. Pindolol does not have a consistent effect on plasma renin activity.</paragraph>
+                  <paragraph>The mechanism of the antihypertensive effects of beta-blocking agents has not been established, but several mechanisms have been postulated: 1) an effect on the central nervous system resulting in a reduced sympathetic outflow to the periphery, 2) competitive antagonism of catecholamines at peripheral (especially cardiac) adrenergic receptor sites, leading to decreased cardiac output, 3) an inhibition of renin release. These mechanisms appear less likely for pindolol than other beta-blockers in view of the modest effect on resting cardiac output and renin.</paragraph>
+                  <paragraph>Beta-blockade therapy is useful when it is necessary to suppress the effects of beta-adrenergic agonists in order to achieve therapeutic goals. However, in certain clinical situations, (e.g., cardiac failure, heart block, bronchospasm), the preservation of an adequate sympathetic tone may be necessary to maintain vital functions. Although a beta-antagonist with ISA such as pindolol does not eliminate sympathetic tone entirely, there is no controlled evidence that it is safer than other beta-blockers in such conditions as heart failure, heart block, or bronchospasm or is less likely to cause those conditions. In single-dose studies of the effects of beta-blockers on FEV<sub>1</sub>, pindolol was indistinguishable from other non-cardioselective agents in its reduction of FEV<sub>1</sub>, and its reduction in the effectiveness of an exogenous beta-agonist.</paragraph>
+                  <paragraph>Exacerbation of angina and, in some cases, myocardial infarction and ventricular dysrhythmias have been reported after abrupt discontinuation of therapy with beta-adrenergic blocking agents in patients with coronary artery disease. Abrupt withdrawal of these agents in patients without coronary artery disease has resulted in transient symptoms, including tremulousness, sweating, palpitation, headache, and malaise. Several mechanisms have been proposed to explain these phenomena, among them increased sensitivity to catecholamines because of increased numbers of beta receptors.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f5718ccb-a4d3-44e8-929b-b10f613c4b5f"/>
+               <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+               <title>PHARMACOKINETICS AND METABOLISM</title>
+               <text>
+                  <paragraph>Pindolol is rapidly and reproducibly absorbed (greater than 95%), achieving peak plasma concentrations within 1 hour of drug administration. Pindolol has no significant first-pass effect. The blood concentrations are proportional in a linear manner to the administered dose in the range of 5 mg to 20 mg. Upon repeated administration to the same subject, variation is minimal. After a single dose, intersubject variation for peak plasma concentrations was about 4-fold (e.g., 45 to 167 ng/mL for a 20 mg dose). Upon multiple dosing, intersubject variation decreased to 2- to 2.5-fold. Pindolol is only 40% bound to plasma proteins and is evenly distributed between plasma and red cells. The volume of distribution in healthy subjects is about 2 L/kg.</paragraph>
+                  <paragraph>Pindolol undergoes extensive metabolism in animals and man. In man, 35% to 40% is excreted unchanged in the urine and 60% to 65% is metabolized primarily to hydroxy-metabolites which are excreted as glucuronides and ethereal sulfates. The polar metabolites are excreted with a half-life of approximately 8 hours and thus multiple dosing therapy (q.8H) results in a less than 50% accumulation in plasma. About 6% to 9% of an administered intravenous dose is excreted by the bile into the feces.</paragraph>
+                  <paragraph>The disposition of pindolol after oral administration is monophasic with a half-life in healthy subjects or hypertensive patients with normal renal function of approximately 3 to 4 hours. Following t.i.d. administration (q.8H), no significant accumulation of pindolol is observed.</paragraph>
+                  <paragraph>In elderly hypertensive patients with normal renal function, the half-life of pindolol is more variable, averaging about 7 hours, but with values as high as 15 hours.</paragraph>
+                  <paragraph>In hypertensive patients with renal diseases, the half-life is within the range expected for healthy subjects. However, a significant decrease (50%) in volume of distribution (V<sub>D</sub>) is observed in uremic patients and V<sub>D</sub> appears to be directly correlated to creatinine clearance. Therefore, renal drug clearance is significantly reduced in uremic patients, resulting in a significant decrease in urinary excretion of unchanged drug. Uremic patients with a creatinine clearance of less than 20 mL/min generally excreted less than 15% of the administered dose unchanged in the urine.</paragraph>
+                  <paragraph>In patients with histologically diagnosed cirrhosis of the liver, the elimination of pindolol was more variable in rate and generally significantly slower than in healthy subjects. The total body clearance of pindolol in cirrhotic patients ranged from about 50 to 300 mL/min and was directly correlated to antipyrine clearance. The half-life ranges from 2.5 hours to greater than 30 hours. These findings strongly suggest that caution should be exercised in dosage adjustments of pindolol in such patients.</paragraph>
+                  <paragraph>The bioavailability of pindolol is not significantly affected by coadministration of food, hydralazine, hydrochlorothiazide or aspirin. Pindolol has no effect on warfarin activity or the clinical effectiveness of digoxin, although small transient decreases in plasma digoxin concentrations were noted.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b6cd67f8-1ebe-43fb-9290-66e2529281ea"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Pindolol tablets are indicated in the management of hypertension. It may be used alone or concomitantly with other antihypertensive agents, particularly with a thiazide-type diuretic.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="a9fa5b1f-752a-4da7-8508-f14e12ca483f"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Pindolol tablets are contraindicated in: 1) bronchial asthma; 2) overt cardiac failure; 3) cardiogenic shock; 4) second and third degree heart block; 5) severe bradycardia. (See <linkHtml href="#WARNINGS">WARNINGS</linkHtml>.)</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="e8e4fd2d-09d8-4b7f-84fa-f84c6279ba4d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20251125"/>
+               <component>
+                  <section>
+                     <id root="32898161-80f6-4dd6-89c5-60fb63b67c84"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiac Failure</title>
+                     <text>
+                        <paragraph>Sympathetic stimulation may be a vital component supporting circulatory function in patients with congestive heart failure, and its inhibition by beta-blockade may precipitate more severe failure. Although beta-blockers should be avoided in overt congestive heart failure, if necessary, pindolol can be used with caution in patients with a history of failure who are well-compensated, usually with digitalis and diuretics. Both digitalis glycosides and beta-blockers slow atrioventricular conduction and decrease heart rate. Concomitant use can increase risk of bradycardia. Beta-adrenergic blocking agents do not abolish the inotropic action of digitalis on heart muscle.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="db390523-713f-4ac4-b8a8-0576bf4d1ea6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>In Patients Without A History of Cardiac Failure</title>
+                     <text>
+                        <paragraph>In patients with latent cardiac insufficiency, continued depression of the myocardium with beta-blocking agents over a period of time can in some cases lead to cardiac failure. At the first sign or symptom of impending cardiac failure, patients should be fully digitalized and/or be given a diuretic, and the response observed closely. If cardiac failure continues, despite adequate digitalization and diuretic, pindolol therapy should be withdrawn (gradually, if possible).</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f08551a4-be47-458a-a60a-52190f96edd9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Exacerbation of Ischemic Heart Disease Following Abrupt Withdrawal</title>
+                     <text>
+                        <paragraph>Hypersensitivity to catecholamines has been observed in patients withdrawn from beta-blocker therapy; exacerbation of angina and, in some cases, myocardial infarction have occurred after <content styleCode="italics">abrupt</content> discontinuation of such therapy. When discontinuing chronically administered pindolol, particularly in patients with ischemic heart disease, the dosage should be gradually reduced over a period of 1 to 2 weeks and the patient should be carefully monitored. If angina markedly worsens or acute coronary insufficiency develops, pindolol administration should be reinstituted promptly, at least temporarily, and other measures appropriate for the management of unstable angina should be taken. Patients should be warned against  interruption or discontinuation of therapy without the physician's advice. Because coronary artery disease is common and may be unrecognized, it may be prudent not to discontinue pindolol therapy abruptly even in patients treated only for hypertension.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="ef178c94-f3ae-4cd7-9397-b51b44b9c340"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nonallergic Bronchospasm (e.g., chronic bronchitis, emphysema) - Patients with Bronchospastic Diseases Should in General Not Receive Beta-Blockers</title>
+                     <text>
+                        <paragraph>Pindolol should be administered with caution since it may block bronchodilation produced by endogenous or exogenous catecholamine stimulation of beta<sub>2</sub> receptors.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="569257d6-5ae9-432f-bad9-b654f3082f9f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Major Surgery</title>
+                     <text>
+                        <paragraph>Because beta-blockade impairs the ability of the heart to respond to reflex stimuli and may increase the risks of general anesthesia and surgical procedures, resulting in protracted hypotension or low cardiac output, it has generally been suggested that such therapy should be gradually withdrawn several days prior to surgery. Recognition of the increased sensitivity to catecholamines of patients recently withdrawn from beta-blocker therapy, however, has made this recommendation controversial. If possible, beta-blockers should be withdrawn well before surgery takes place. In the event of emergency surgery, the anesthesiologist should be informed that the patient is on beta-blocker therapy.</paragraph>
+                        <paragraph>The effects of pindolol can be reversed by administration of beta-receptor agonists such as isoproterenol, dopamine, dobutamine, or norepinephrine. Difficulty in restarting and maintaining the heart beat has also been reported with beta-adrenergic receptor blocking agents.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0d914c82-4de4-49ef-9601-8db9ef24f97f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Diabetes and Hypoglycemia</title>
+                     <text>
+                        <paragraph>Beta-adrenergic blockade may prevent the appearance of premonitory signs and symptoms (e.g., tachycardia and blood pressure changes) of acute hypoglycemia. This is especially important with labile diabetics. Beta-blockade also reduces the release of insulin in response to hyperglycemia; therefore, it may be necessary to adjust the dose of antidiabetic drugs.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="653821e0-2a45-4d90-9eed-21f7fa5c5fd5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Thyrotoxicosis</title>
+                     <text>
+                        <paragraph>Beta-adrenergic blockade may mask certain clinical signs (e.g., tachycardia) of hyperthyroidism. Patients suspected of developing thyrotoxicosis should be managed carefully to avoid abrupt withdrawal of beta-blockade which might precipitate a thyroid crisis.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="41b59b8d-1764-45f7-8827-d20073548902"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20251125"/>
+               <component>
+                  <section>
+                     <id root="97790b4b-27ea-4df9-9958-fbfc6d54d8b8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Impaired Renal or Hepatic Function</title>
+                     <text>
+                        <paragraph>Beta-blocking agents should be used with caution in patients with impaired hepatic or renal function. Poor renal function has only minor effects on pindolol clearance, but poor hepatic function may cause blood levels of pindolol to increase substantially.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a9a2880d-2eb9-414d-99cb-c0ff5a9bd141"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>Patients, especially those with evidence of coronary artery insufficiency, should be warned against interruption or discontinuation of pindolol therapy without the physician's advice. Although cardiac failure rarely occurs in properly selected patients, patients being treated with beta-adrenergic blocking agents should be advised to consult the physician at the first sign or symptom of impending failure.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="58f1482b-41d7-4570-8e8a-de6545e85ab9"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Catecholamine-depleting drugs (e.g., reserpine) may have an additive effect when given with beta-blocking agents. Patients receiving pindolol plus a catecholamine-depleting agent should, therefore, be closely observed for evidence of hypotension and/or marked bradycardia which may produce vertigo, syncope, or postural hypotension.</paragraph>
+                        <paragraph>Pindolol has been used with a variety of antihypertensive agents, including hydrochlorothiazide, hydralazine, and guanethidine without unexpected adverse interactions.</paragraph>
+                        <paragraph>Pindolol has been shown to increase serum thioridazine levels when both drugs are coadministered. Pindolol levels may also be increased with this combination.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2b2fadad-3aed-4b4d-afef-6375125e9b5b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Risk of Anaphylactic Reaction</title>
+                     <text>
+                        <paragraph>While taking beta blockers, patients with a history of severe anaphylactic reaction to a variety of allergens may be more reactive to repeated challenge, either accidental, diagnostic, or therapeutic. Such patients may be unresponsive to the usual doses of epinephrine used to treat allergic reactions.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="71de6acb-1eff-4caa-b71f-0f275e7b8ced"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>In chronic oral toxicologic studies (1 to 2 years) in mice, rats, and dogs, pindolol did not produce any significant toxic effects. In 2-year oral carcinogenicity studies in rats and mice in doses as high as 59 mg/kg/day and 124 mg/kg/day (50 and 100 times the maximum recommended human dose), respectively, pindolol did not produce any neoplastic, preneoplastic, or nonneoplastic pathologic lesions. In fertility and general reproductive performance studies in rats, pindolol caused no adverse effects at a dose of 10 mg/kg.</paragraph>
+                        <paragraph>In the male fertility and general reproductive performance test in rats, definite toxicity characterized by mortality and decreased weight gain was observed in the group given 100 mg/kg/day. At 30 mg/kg/day, decreased mating was associated with testicular atrophy and/or decreased spermatogenesis. This response is not clearly drug-related, however, as there was no dose-response relationship within this experiment and no similar effect on testes of rats administered pindolol as a dietary admixture for 104 weeks. There appeared to be an increase in prenatal mortality in males given 100 mg/kg but development of offspring was not impaired.</paragraph>
+                        <paragraph>In females administered pindolol prior to mating through day 21 of lactation, mating behavior was decreased at 100 mg/kg and 30 mg/kg. At these dosages there also was increased mortality of offspring. Prenatal mortality was increased at 10 mg/kg but there was not a clear dose-response relationship in this experiment. There was an increased resorption rate at 100 mg/kg observed in females necropsied on the 15th day of gestation.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="29269624-5127-434c-9278-bbbac6eacc05"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20251125"/>
+                     <component>
+                        <section>
+                           <id root="411b3696-9db0-48c8-8917-08db84149c7f"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20251125"/>
+                           <component>
+                              <section>
+                                 <id root="843f07d7-ba94-4350-be91-fce39831c21e"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Category B</title>
+                                 <text>
+                                    <paragraph>Studies in rats and rabbits exceeding 100 times the maximum recommended human doses, revealed no embryotoxicity or teratogenicity. Since there are no adequate and well controlled studies in pregnant women, and since animal reproduction studies are not always predictive of human response, pindolol, as with any drug, should be employed during pregnancy only if the potential benefit justifies the potential risk to the fetus.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20251125"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="bbaea24b-2d5e-40e0-b9db-f392ba9f4db7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Since pindolol is secreted in human milk, nursing should not be undertaken by mothers receiving the drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="1ab6d49e-5c63-41f6-af61-065966a628a1"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="06ad3c25-2534-4e74-bb2b-0b8a6feff515"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CLINICAL LABORATORY</title>
+               <text>
+                  <paragraph>Minor persistent elevations in serum transaminases (SGOT, SGPT) have been noted in 7% of patients during pindolol administration, but progressive elevations were not observed. These elevations were not associated with any other abnormalities that would suggest hepatic impairment, such as decreased serum albumin and total proteins. During more than a decade of worldwide marketing, there have been no reports in the medical literature of overt hepatic injury. Alkaline phosphatase, lactic acid dehydrogenase (LDH), and uric acid are also elevated on rare occasions. The significance of these findings is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6907a004-22f3-4575-9b70-36a609a6a6ef"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Most adverse reactions have been mild. The incidences listed in the following table are derived from 12-week comparative double-blind, parallel design trials in hypertensive patients given pindolol as monotherapy, given various active control drugs as monotherapy, or given placebo. Data for pindolol and the positive controls were pooled from several trials because no striking differences were seen in the individual studies, with one exception. When considering all adverse reactions reported, the frequency of edema was noticeably higher in positive control trials (16% pindolol vs. 9% positive control) than in placebo controlled trials (6% pindolol vs. 3% placebo). The table includes adverse reactions either volunteered or elicited, and at least possibly drug-related, which were reported in greater than 2% of pindolol patients and other selected important reactions.</paragraph>
+                  <table width="90%">
+                     <caption>ADVERSE REACTIONS WHICH WERE VOLUNTEERED OR ELICITED (and at least possibly drug-related)</caption>
+                     <col width="40%" align="left" valign="top"/>
+                     <col width="20%" align="center" valign="top"/>
+                     <col width="20%" align="center" valign="top"/>
+                     <col width="20%" align="center" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Body System/ Adverse Reactions</th>
+                           <th styleCode="Rrule">Pindolol <br/>(N=322)%</th>
+                           <th styleCode="Rrule">Active Controls<footnote>Active Controls: Patients received either propranolol, α-methyldopa or a diuretic (hydrochlorothiazide or chlorthalidone).</footnote>
+                              <br/>(N=188)%</th>
+                           <th styleCode="Rrule">Placebo<br/> (N=78)%</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Central Nervous System</td>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Bizarre or Many Dreams</td>
+                           <td styleCode="Rrule">5</td>
+                           <td styleCode="Rrule">0</td>
+                           <td styleCode="Rrule">6</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Dizziness</td>
+                           <td styleCode="Rrule">9</td>
+                           <td styleCode="Rrule">11</td>
+                           <td styleCode="Rrule">1</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Fatigue</td>
+                           <td styleCode="Rrule">8</td>
+                           <td styleCode="Rrule">4</td>
+                           <td styleCode="Rrule">4</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Hallucinations</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">0</td>
+                           <td styleCode="Rrule">0</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Insomnia</td>
+                           <td styleCode="Rrule">10</td>
+                           <td styleCode="Rrule">3</td>
+                           <td styleCode="Rrule">10</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Nervousness</td>
+                           <td styleCode="Rrule">7</td>
+                           <td styleCode="Rrule">3</td>
+                           <td styleCode="Rrule">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Weakness</td>
+                           <td styleCode="Rrule">4</td>
+                           <td styleCode="Rrule">2</td>
+                           <td styleCode="Rrule">1</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Autonomic Nervous System</td>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Paresthesia</td>
+                           <td styleCode="Rrule">3</td>
+                           <td styleCode="Rrule">1</td>
+                           <td styleCode="Rrule">6</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Cardiovascular</td>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Dyspnea</td>
+                           <td styleCode="Rrule">5</td>
+                           <td styleCode="Rrule">4</td>
+                           <td styleCode="Rrule">6</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Edema</td>
+                           <td styleCode="Rrule">6</td>
+                           <td styleCode="Rrule">3</td>
+                           <td styleCode="Rrule">1</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Heart Failure</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">0</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Palpitations</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">1</td>
+                           <td styleCode="Rrule">0</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Musculoskeletal</td>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Chest Pain</td>
+                           <td styleCode="Rrule">3</td>
+                           <td styleCode="Rrule">1</td>
+                           <td styleCode="Rrule">3</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Joint Pain</td>
+                           <td styleCode="Rrule">7</td>
+                           <td styleCode="Rrule">4</td>
+                           <td styleCode="Rrule">4</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Muscle Cramps</td>
+                           <td styleCode="Rrule">3</td>
+                           <td styleCode="Rrule">1</td>
+                           <td styleCode="Rrule">0</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Muscle Pain</td>
+                           <td styleCode="Rrule">10</td>
+                           <td styleCode="Rrule">9</td>
+                           <td styleCode="Rrule">8</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Gastrointestinal</td>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Abdominal Discomfort</td>
+                           <td styleCode="Rrule">4</td>
+                           <td styleCode="Rrule">4</td>
+                           <td styleCode="Rrule">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Nausea</td>
+                           <td styleCode="Rrule">5</td>
+                           <td styleCode="Rrule">2</td>
+                           <td styleCode="Rrule">1</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Skin</td>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                           <td styleCode="Rrule"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">  Pruritus</td>
+                           <td styleCode="Rrule">1</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">0</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">  Rash</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">&lt;1</td>
+                           <td styleCode="Rrule">1</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The following selected (potentially important) adverse reactions were seen in 2% or fewer patients and their relationship to pindolol is uncertain. CENTRAL NERVOUS SYSTEM: anxiety, lethargy; AUTONOMIC NERVOUS SYSTEM: visual disturbances, hyperhidrosis; CARDIOVASCULAR: bradycardia, claudication, cold extremities, heart block, hypotension, syncope, tachycardia, weight gain; GASTROINTESTINAL: diarrhea, vomiting; RESPIRATORY: wheezing; UROGENITAL: impotence, pollakiuria; MISCELLANEOUS: eye discomfort or burning eyes.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f0c1ebb0-5199-46b7-9c01-fcff8298675d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>POTENTIAL ADVERSE EFFECTS</title>
+               <text>
+                  <paragraph>In addition, other adverse effects not aforementioned have been reported with other beta-adrenergic  blocking agents and should be considered potential adverse effects of pindolol.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Westminster Pharmaceuticals, LLC at 1-844-221-7294 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+               <component>
+                  <section>
+                     <id root="567b1e8d-9853-4616-bc67-31e5419a3505"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Central Nervous System</title>
+                     <text>
+                        <paragraph>Reversible mental depression progressing to catatonia; an acute reversible syndrome characterized by disorientation for time and place, short-term memory loss, emotional lability, slightly clouded sensorium, and decreased performance on neuropsychometrics.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2db4cdab-5b67-434e-af6c-d460260ecf6e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Cardiovascular</title>
+                     <text>
+                        <paragraph>Intensification of AV block. (See <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="24294b3b-c62d-416d-a945-0e941ec18cc6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Allergic</title>
+                     <text>
+                        <paragraph>Erythematous rash; fever combined with aching and sore throat; laryngospasm; respiratory distress.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="391ac4d1-164b-4130-a9fc-d4e26887652d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic</title>
+                     <text>
+                        <paragraph>Agranulocytosis; thrombocytopenic and nonthrombocytopenic purpura.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="fe3d4065-0b65-4425-aa23-e8b6b0b536b6"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>Mesenteric arterial thrombosis; ischemic colitis.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f44ec928-af7d-401c-a734-27eb40153db0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Miscellaneous</title>
+                     <text>
+                        <paragraph>Reversible alopecia; Peyronie's disease.</paragraph>
+                        <paragraph>The oculomucocutaneous syndrome associated with the beta-blocker practolol has not been reported with pindolol during investigational use and extensive foreign experience amounting to over 4 million patient-years.</paragraph>
+                     </text>
+                     <effectiveTime value="20251125"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c21fafac-57d0-4255-a0dd-d8f6fdaf5d43"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>No specific information on emergency treatment of overdosage is available. Therefore, on the basis of the pharmacologic actions of pindolol, the following general measures should be employed as appropriate in addition to gastric lavage:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Excessive Bradycardia:</content> administer atropine; if there is no response to vagal blockade, administer isoproterenol cautiously.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiac Failure:</content> digitalize the patient and/or administer diuretic. It has been reported that glucagon may be useful in this situation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypotension:</content> administer vasopressors, e.g., epinephrine or norepinephrine, with serial monitoring of blood pressure. (There is evidence that epinephrine may be the drug of choice.)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Bronchospasm:</content> administer a beta<sub>2</sub> stimulating agent such as isoproterenol and/or a theophylline derivative.</paragraph>
+                  <paragraph>A case of an acute overdosage has been reported with an intake of 500 mg of pindolol by a hypertensive patient. Blood pressure increased and heart rate was 80 beats/min. Recovery was uneventful. In another case, 250 mg of pindolol was taken with 150 mg diazepam and 50 mg nitrazepam, producing coma and hypotension. The patient recovered in 24 hours.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f5408668-d73e-40f2-9196-a438586b9a96"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The dosage of pindolol tablets should be individualized. The recommended initial dose of pindolol tablets is 5 mg b.i.d. alone or in combination with other antihypertensive agents. An antihypertensive response usually occurs within the first week of treatment. Maximal response, however, may take as long as or occasionally longer than 2 weeks. If a satisfactory reduction in blood pressure does not occur within 3 to 4 weeks, the dose may be adjusted in increments of 10 mg/day at these intervals up to a maximum of 60 mg/day.</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f0d7613-6af2-442a-9a66-f899d1a81a7f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Pindolol Tablets, USP are available as 10 mg tablets.</paragraph>
+                  <paragraph>Pindolol Tablets USP, 10 mg are supplied as white to off-white, round, scored tablets, debossed with "P" above the score and "1" below the score on one side and debossed with "N" on the other unscored side, available in bottles of 100 (NDC 72162-2653-1)</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>Protect from light.</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP using a child-resistant closure.</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20260527"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1c4c656e-8256-4b09-83b8-be636bb3052b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured by:<br/>
+                     <content styleCode="bold">MPP Pharma, LLC.</content>
+                     <br/> Kansas City, MO 64120</paragraph>
+                  <paragraph>Manufactured for:<br/>
+                     <content styleCode="bold">Westminster Pharmaceuticals, LLC</content>
+                     <br/> Nashville, TN 37217</paragraph>
+                  <paragraph>Rev. July 2025</paragraph>
+               </text>
+               <effectiveTime value="20251125"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="e4f9c1be-1494-4b36-8a41-8d44677eed09"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph styleCode="bold">Pindolol 10 mg Tablets #100</paragraph>
+                  <renderMultiMedia ID="F30" referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20111230"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl721622653.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

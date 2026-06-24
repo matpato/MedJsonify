@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4c0dec79-1649-1cfd-e063-6394a90a88cc"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>CP2D/AS-3- 129-63</title>
+   <effectiveTime value="20260302"/>
+   <setId root="4c0dec79-1648-1cfd-e063-6394a90a88cc"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119067149"/>
+            <name>GVS TM INC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="119067149"/>
+                  <name>GVS TM INC</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="119067149"/>
+                        <name>GVS TM INC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87069-129" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4c951154-fd1e-5921-e063-6294a90a9760"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260302"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="87069-129" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Leukotrap RC System</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CP2D/AS-3 triple blood bag unit with in-line RC2D filter and sampling system</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="3.57"/>
+                              <denominator unit="mL" value="70"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="IY9XDZ35W2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DEXTROSE, UNSPECIFIED FORM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SL0G7R0OK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS DEXTROSE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="593YOG76RN" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="70" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43167" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BAG"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="18" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="87069-129-63" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BN820915" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260302"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4c4735c6-bf58-9cfe-e063-6294a90a8f6e">
+               <id root="4c4735c6-bf57-9cfe-e063-6294a90a8f6e"/>
+               <code code="60560-0" codeSystem="2.16.840.1.113883.6.1" displayName="INTENDED USE OF THE DEVICE"/>
+               <text>
+                  <paragraph>For collection of 500ml of whole blood and preapration of red blood cells and plasma or red blood cells, plasma and platelets with pre-storage leukocyte reduction of red blood cells.</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4c473b8a-6c41-fd60-e063-6294a90a7db6">
+               <id root="4c473b8a-6c40-fd60-e063-6294a90a7db6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Leukotrap RC System CP2D/AS-3 - Triple blood bag unit with In-Line RC2D filter and sampling system</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4c474d82-d454-9753-e063-6394a90aaf98">
+               <id root="4c474d82-d453-9753-e063-6394a90aaf98"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Sterile, Non-pyrogenic fluid pathway. Sterilized by Steam</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4c95713f-f7b8-c8e0-e063-6394a90aa1b1">
+               <id root="4c95713f-f7b7-c8e0-e063-6394a90aa1b1"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at room temperature. Unused bags in opened pouches may be kept 30 days by folding and securing open end of pouch to prevent possible loss of moisture.</paragraph>
+               </text>
+               <effectiveTime value="20260301"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4c472229-7c33-c6e7-e063-6294a90abacd">
+               <id root="4c472229-7c32-c6e7-e063-6294a90abacd"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4c47165f-3955-50ec-e063-6394a90ae6e3"/>
+                     <renderMultiMedia referencedObject="img_4c471b25-7cf9-d38a-e063-6294a90af730"/>
+                     <renderMultiMedia referencedObject="img_4c471c9b-8c40-b352-e063-6294a90a6c8d"/>
+                     <renderMultiMedia referencedObject="img_4c471b9d-3c65-c38d-e063-6294a90af795"/>
+                     <renderMultiMedia referencedObject="img_4c471e7d-8f79-c5e6-e063-6294a90a9603"/>
+                     <renderMultiMedia referencedObject="img_4c471e7d-8f7a-c5e6-e063-6294a90a9603"/>
+                     <renderMultiMedia referencedObject="img_4c471b9d-3c66-c38d-e063-6294a90af795"/>
+                     <renderMultiMedia referencedObject="img_4c471b25-7cfa-d38a-e063-6294a90af730"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <observationMedia ID="img_4c47165f-3955-50ec-e063-6394a90ae6e3">
+                     <text>Bag label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="red blood cells.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471b25-7cf9-d38a-e063-6294a90af730">
+                     <text>Bag label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Platelets- 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471c9b-8c40-b352-e063-6294a90a6c8d">
+                     <text>Bag label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Whole BLood.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471b9d-3c65-c38d-e063-6294a90af795">
+                     <text>Pouch label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="pouch label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471e7d-8f79-c5e6-e063-6294a90a9603">
+                     <text>Case Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="case label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471e7d-8f7a-c5e6-e063-6294a90a9603">
+                     <text>IFU</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IFU - 4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471b9d-3c66-c38d-e063-6294a90af795">
+                     <text>IFU</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IFU-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_4c471b25-7cfa-d38a-e063-6294a90af730">
+                     <text>IFU</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="IFU-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1b917255-4f41-4984-bb71-5cdff4938e3f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Rx only</title>
+   <effectiveTime value="20260403"/>
+   <setId root="db138daf-2d2d-4730-a621-a1bd209d5b9f"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="63629-5696"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="63629-5696"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="0c9345a4-7fa5-4348-8da8-27ebb24be001"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL Product Data Elements Section"/>
+               <effectiveTime value="20260403"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="63629-5696" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>HYDRALAZINE HYDROCHLORIDE</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>hydralazine hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="23155-002" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="FD171B778Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDRALAZINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="26NAK24LS8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDRALAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3NXW29V3WO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYPROMELLOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63629-5696-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20170629"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63629-5696-2" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20160624"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63629-5696-3" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20150715"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63629-5696-4" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20240402"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="63629-5696-5" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260403"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA086242" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20070406"/>
+                              <high value="20260831"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48328" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PINK"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CE" code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" value="8" unit="mm"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">HP;2</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="8d61225b-8dc5-4bb9-8f33-b4de90af0bc6-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Ld458a376-85fa-4879-ad3c-044e46591090">
+                     <text>image description</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="avetlogo.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="cc7216e8-79e9-49d4-8b75-eff591828e5f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID2">HydrALAZINE hydrochloride, USP, is an antihypertensive, for oral administration. Its chemical name is 1-hydrazinophthalazine monohydrochloride, and its structural formula is:</paragraph>
+                  <paragraph>
+                     <content>
+                        <renderMultiMedia referencedObject="MM1"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content>HydrALAZINE hydrochloride, USP is a white to off-white, odorless crystalline powder. It is soluble in water, slightly soluble in alcohol, and very slightly soluble in ether. It melts at about 275°C, with decomposition.</content>
+                  </paragraph>
+                  <paragraph>Each tablet for oral administration contains 10 mg, 25 mg, 50 mg, or 100 mg hydrALAZINE hydrochloride, USP. Tablets also contain FD&amp;C Red #40/Allura Red AC Aluminum Lake, hypromellose, lactose anhydrous, light mineral oil, microcrystalline cellulose, magnesium stearate, pregelatinized starch, sodium lauryl sulfate, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20231129"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID5">
+               <id root="57b02530-0f72-4b36-9b4d-b6e63b53983d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Although the precise mechanism of action of hydrALAZINE is not fully understood, the major effects are on the cardiovascular system. HydrALAZINE apparently lowers blood pressure by exerting a peripheral vasodilating effect through a direct relaxation of vascular smooth muscle. HydrALAZINE, by altering cellular calcium metabolism, interferes with the calcium movements within the vascular smooth muscle that are responsible for initiating or maintaining the contractile state.</paragraph>
+                  <paragraph>
+                     <content>The peripheral vasodilating effect of hydrALAZINE results in decreased arterial blood pressure (diastolic more than systolic); decreased peripheral vascular resistance; and an increased heart rate, stroke volume, and cardiac output. The preferential dilatation of arterioles, as compared to veins, minimizes postural hypotension and promotes the increase in cardiac output. HydrALAZINE usually increases renin activity in plasma, presumably as a result of increased secretion of renin by the renal juxtaglomerular cells in response to reflex sympathetic discharge. This increase in renin activity leads to the production of angiotensin II, which then causes stimulation of aldosterone and consequent sodium reabsorption. HydrALAZINE also maintains or increases renal and cerebral blood flow.</content>
+                  </paragraph>
+                  <paragraph>HydrALAZINE hydrochloride is rapidly absorbed after oral administration, and peak plasma levels are reached at 1 to 2 hours. Plasma levels of apparent hydrALAZINE decline with a half-life of 3 to 7 hours. Binding to human plasma protein is 87%. Plasma levels of hydrALAZINE vary widely among individuals. HydrALAZINE is subject to polymorphic acetylation; slow acetylators generally have higher plasma levels of hydrALAZINE and require lower doses to maintain control of blood pressure. HydrALAZINE undergoes extensive hepatic metabolism; it is excreted mainly in the form of metabolites in the urine.</paragraph>
+               </text>
+               <effectiveTime value="20230517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID7">
+               <id root="a511d4ad-8625-4607-9da9-afc799c0fcd8"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph ID="ID8">Essential hypertension, alone or as an adjunct.</paragraph>
+               </text>
+               <effectiveTime value="20230517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID9">
+               <id root="90f64a6c-9109-42b0-9b7c-b8f77192324e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph ID="ID10">Hypersensitivity to hydrALAZINE; coronary artery disease; mitral valvular rheumatic heart disease.</paragraph>
+               </text>
+               <effectiveTime value="20230517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID11">
+               <id root="cac309eb-39ab-4c97-a487-25400aac2a1e"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph ID="ID12">In a few patients hydrALAZINE may produce a clinical picture simulating systemic lupus erythematosus including glomerulonephritis. In such patients hydrALAZINE should be discontinued unless the benefit-to-risk determination requires continued antihypertensive therapy with this drug. Symptoms and signs usually regress when the drug is discontinued but residua have been detected many years later. Long-term treatment with steroids may be necessary. (See <content styleCode="bold">
+                        <linkHtml href="#ID14">PRECAUTIONS, Laboratory Tests</linkHtml>
+                     </content>.)</paragraph>
+               </text>
+               <effectiveTime value="20230517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID13">
+               <id root="cb6daf3b-ce3d-4e41-8a94-9cbbbcd9daaa"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph ID="ID14">
+                     <content styleCode="bold">
+                        <content styleCode="italics">General</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Myocardial stimulation produced by hydrALAZINE can cause anginal attacks and ECG changes of myocardial ischemia. The drug has been implicated in the production of myocardial infarction. It must, therefore, be used with caution in patients with suspected coronary artery disease.</paragraph>
+                  <paragraph>The "hyperdynamic" circulation caused by hydrALAZINE may accentuate specific cardiovascular inadequacies. For example, hydrALAZINE may increase pulmonary artery pressure in patients with mitral valvular disease. The drug may reduce the pressor responses to epinephrine. Postural hypotension may result from hydrALAZINE but is less common than with ganglionic blocking agents. It should be used with caution in patients with cerebral vascular accidents.</paragraph>
+                  <paragraph>In hypertensive patients with normal kidneys who are treated with hydrALAZINE, there is evidence of increased renal blood flow and a maintenance of glomerular filtration rate. In some instances where control values were below normal, improved renal function has been noted after administration of hydrALAZINE. However, as with any antihypertensive agent, hydrALAZINE should be used with caution in patients with advanced renal damage.</paragraph>
+                  <paragraph>Peripheral neuritis, evidenced by paresthesia, numbness, and tingling, has been observed. Published evidence suggests an antipyridoxine effect, and that pyridoxine should be added to the regimen if symptoms develop.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Information for Patients</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Patients should be informed of possible side effects and advised to take the medication regularly and continuously as directed.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Laboratory Tests</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Complete blood counts and antinuclear antibody titer determinations are indicated before and periodically during prolonged therapy with hydrALAZINE even though the patient is asymptomatic. These studies are also indicated if the patient develops arthralgia, fever, chest pain, continued malaise, or other unexplained signs or symptoms.</paragraph>
+                  <paragraph>A positive antinuclear antibody titer requires that the physician carefully weigh the implications of the test results against the benefits to be derived from antihypertensive therapy with hydrALAZINE.</paragraph>
+                  <paragraph>Blood dyscrasias, consisting of reduction in hemoglobin and red cell count, leukopenia, agranulocytosis, and purpura, have been reported. If such abnormalities develop, therapy should be discontinued.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Drug /Drug Interactions</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>MAO inhibitors should be used with caution in patients receiving hydrALAZINE.</paragraph>
+                  <paragraph>When other potent parenteral antihypertensive drugs, such as diazoxide, are used in combination with hydrALAZINE, patients should be continuously observed for several hours for any excessive fall in blood pressure. Profound hypotensive episodes may occur when diazoxide injection and hydrALAZINE are used concomitantly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug/Food Interactions</content>
+                  </paragraph>
+                  <paragraph>Administration of hydrALAZINE with food results in higher plasma levels.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In a lifetime study in Swiss albino mice, there was a statistically significant increase in the incidence of lung tumors (adenomas and adenocarcinomas) of both male and female mice given hydrALAZINE continuously in their drinking water at a dosage of about 250 mg/kg per day (about 80 times the maximum recommended human dose). In a 2-year carcinogenicity study of rats given hydrALAZINE by gavage at dose levels of 15, 30, and 60 mg/kg/day (approximately 5 to 20 times the recommended human daily dosage), microscopic examination of the liver revealed a small, but statistically significant, increase in benign neoplastic nodules in male and female rats from the high-dose group and in female rats from the intermediate-dose group. Benign interstitial cell tumors of the testes were also significantly increased in male rats from the high-dose group. The tumors observed are common in aged rats and a significantly increased incidence was not observed until 18 months of treatment. HydrALAZINE was shown to be mutagenic in bacterial systems (Gene Mutation and DNA Repair) and in one of two rats and one rabbit hepatocyte <content styleCode="italics">in vitro</content> DNA repair studies. Additional <content styleCode="italics">in vivo</content> and <content styleCode="italics">in vitro</content> studies using lymphoma cells, germinal cells, and fibroblasts from mice, bone marrow cells from Chinese hamsters and fibroblasts from human cell lines did not demonstrate any mutagenic potential for hydrALAZINE.</paragraph>
+                  <paragraph>The extent to which these findings indicate a risk to man is uncertain. While long-term clinical observation has not suggested that human cancer is associated with hydrALAZINE use, epidemiologic studies have so far been insufficient to arrive at any conclusions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pregnancy</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Teratogenic Effects</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pregnancy Category C</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Animal studies indicate that hydrALAZINE is teratogenic in mice at 20 to 30 times the maximum daily human dose of 200 to 300 mg and possibly in rabbits at 10 to15 times the maximum daily human dose, but that it is nonteratogenic in rats. Teratogenic effects observed were cleft palate and malformations of facial and cranial bones.</paragraph>
+                  <paragraph>There are no adequate and well-controlled studies in pregnant women. Although clinical experience does not include any positive evidence of adverse effects on the human fetus, hydrALAZINE should be used during pregnancy only if the expected benefit justifies the potential risk to the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Nursing Mothers</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>HydrALAZINE has been shown to be excreted in breast milk.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pediatric Use</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients have not been established in controlled clinical trials, although there is experience with the use of hydrALAZINE in pediatric patients. The usual recommended oral starting dosage is 0.75 mg/kg of body weight daily in four divided doses. Dosage may be increased gradually over the next 3 to 4 weeks to a maximum of 7.5 mg/kg or 200 mg daily.</paragraph>
+               </text>
+               <effectiveTime value="20231128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L6de01104-a5c9-4b6f-9c92-0fb2fc29a21a">
+               <id root="b4ba46f0-c402-46f2-9365-7087276a812d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>Adverse Reactions</title>
+               <text>
+                  <paragraph>Adverse reactions with hydrALAZINE are usually reversible when dosage is reduced. However, in some cases it may be necessary to discontinue the drug. The following adverse reactions have been observed, but there has not been enough systematic collection of data to support an estimate of their frequency.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Common:</content> headache, anorexia, nausea, vomiting, diarrhea, palpitations, tachycardia, angina pectoris.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Less Frequent:</content>
+                     </content>
+                     <content styleCode="bold">Digestive:</content> constipation, paralytic ileus.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cardiovascular:</content> hypotension, paradoxical pressor response, edema.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Respiratory</content>: dyspnea.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Neurologic:</content> peripheral neuritis, evidenced by paresthesia, numbness, and tingling; dizziness; tremors; muscle cramps; psychotic reactions characterized by depression, disorientation, or anxiety.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Genitourinary:</content> difficulty in urination.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic:</content> blood dyscrasias, consisting of reduction in hemoglobin and red cell count, leukopenia, agranulocytosis, purpura, lymphadenopathy; splenomegaly.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitive Reactions:</content>  rash, urticaria, pruritus, fever, chills, arthralgia, eosinophilia, and rarely, hepatitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Other:</content> nasal congestion, flushing, lacrimation, conjunctivitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Avet Pharmaceuticals Inc. at 1-866-901-DRUG (3784) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID15">
+               <id root="d2ea65be-1abd-4d65-a941-9ce33181a423"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph ID="ID16">
+                     <content styleCode="bold">
+                        <content styleCode="italics">Acute Toxicity: </content>
+                     </content>No deaths due to acute poisoning have been reported. Highest known dose survived: adults, 10 g orally.</paragraph>
+                  <paragraph>Oral LD<sub>50</sub> in rats: 173 and 187 mg/kg.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Signs and Symptoms: </content>
+                     </content>Signs and symptoms of overdosage include hypotension, tachycardia, headache, and generalized skin flushing.</paragraph>
+                  <paragraph>Complications can include myocardial ischemia and subsequent myocardial infarction, cardiac arrhythmia, and profound shock.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Treatment: </content>
+                     </content>There is no specific antidote.</paragraph>
+                  <paragraph>The gastric contents should be evacuated, taking adequate precautions against aspiration and for protection of the airway. An activated charcoal slurry may be instilled if conditions permit. These manipulations may have to be omitted or carried out after cardiovascular status has been stabilized, since they might precipitate cardiac arrhythmias or increase the depth of shock.</paragraph>
+                  <paragraph>Support of the cardiovascular system is of primary importance. Shock should be treated with plasma expanders. If possible, vasopressors should not be given, but if a vasopressor is required, care should be taken not to precipitate or aggravate cardiac arrhythmia.</paragraph>
+                  <paragraph>Tachycardia responds to beta blockers. Digitalization may be necessary, and renal function should be monitored and supported as required.</paragraph>
+                  <paragraph>No experience has been reported with extracorporeal or peritoneal dialysis.</paragraph>
+               </text>
+               <effectiveTime value="20230517"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La1fa8904-4316-4e56-8d56-53263c7222dd">
+               <id root="4e759fc2-8611-47ee-93a3-1d851402d7b6"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Initiate therapy in gradually increasing dosages; adjust according to individual response. Start with 10 mg four times daily for the first 2 to 4 days, increase to 25 mg four times daily for the balance of the first week. For the second and subsequent weeks, increase dosage to 50 mg four times daily. For maintenance, adjust dosage to the lowest effective levels.</paragraph>
+                  <paragraph>The incidence of toxic reactions, particularly the L.E. cell syndrome, is high in the group of patients receiving large doses of hydrALAZINE hydrochloride tablets.</paragraph>
+                  <paragraph>In a few resistant patients, up to 300 mg of hydrALAZINE hydrochloride tablets daily may be required for a significant antihypertensive effect. In such cases, a lower dosage of hydrALAZINE hydrochloride tablets combined with a thiazide and/or reserpine or a beta blocker may be considered. However, when combining therapy, individual titration is essential to ensure the lowest possible therapeutic dose of each drug.</paragraph>
+               </text>
+               <effectiveTime value="20231128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L073b6abb-782f-48a6-b2a3-14130a3d2dd9">
+               <id root="9672d7f4-22a4-4d4e-8721-6630704e6f7a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>HydrALAZINE Hydrochloride Tablets, USP</paragraph>
+                  <paragraph>25 mg - round, convex, pink film-coated tablet engraved with HP above 2 on one side and plain on the other side.</paragraph>
+                  <list listType="unordered">
+                     <item>NDC 63629-5696-1: 30 Tablets in a BOTTLE</item>
+                     <item>NDC 63629-5696-2: 60 Tablets in a BOTTLE</item>
+                     <item>NDC 63629-5696-3: 90 Tablets in a BOTTLE</item>
+                     <item>NDC 63629-5696-4: 10 Tablets in a BOTTLE</item>
+                     <item>NDC 63629-5696-5: 100 Tablets in a BOTTLE</item>
+                  </list>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lce73720a-a9e2-462e-b44d-9749c009c832">
+               <id root="0e1e0f17-9d24-4d43-978c-bbe14aa945f3"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].<br/>Dispense in a tight, light-resistant container as defined in the USP.<br/>KEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content>Distributed by:</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Avet Pharmaceuticals Inc.</content>
+                  </paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>1-866-901-DRUG (3784)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Ld458a376-85fa-4879-ad3c-044e46591090"/>
+                  </paragraph>
+                  <paragraph>51U000000172US06</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Revised: 04/2023</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="907d6a0f-51b1-4f24-b847-2b10d143f7d1"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Hydralazine Hydrochloride 25mg Tablets</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20260403"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl636295696.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

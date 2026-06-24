@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c3601b94-30e6-4651-a9da-f6a70e907314"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Bleomycin for Injection, USP
+</title>
+   <effectiveTime value="20260417"/>
+   <setId root="6824b1e1-e5fa-4371-ade9-1346e12ab0c7"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="830546433" root="1.3.6.1.4.1.519.1"/>
+            <name>NorthStar Rx LLC</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="d620c7f8-2224-4c31-a63b-a05039e2d728"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20181120"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="16714-886" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Bleomycin</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bleomycin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="15" unit="[USP'U]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7DP3NTV15T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BLEOMYCIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="40S1VHN69B" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BLEOMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="16714-886-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181201"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA205030" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38259" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAPLEURAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="16714-908" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Bleomycin</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bleomycin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="30" unit="[USP'U]"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="7DP3NTV15T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BLEOMYCIN SULFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="40S1VHN69B" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BLEOMYCIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="16714-908-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20181201"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20181201"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA205030" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38259" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAPLEURAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="60c42045-62a1-42f5-81ca-b13e713b20f1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20260417"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s2">
+               <id root="ad169095-56a4-4b71-870d-37ee14add25b"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">WARNING</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">It is recommended that Bleomycin for Injection, USP be administered under the supervision of a qualified physician experienced in the use of cancer chemotherapeutic agents. Appropriate management of therapy and complications is possible only when adequate diagnostic and treatment facilities are readily available.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pulmonary fibrosis is the most severe toxicity associated with bleomycin. The most frequent presentation is pneumonitis occasionally progressing to pulmonary fibrosis. Its occurrence is higher in elderly patients and in those receiving greater than 400 units total dose, but pulmonary toxicity has been observed in young patients and those treated with low doses.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">A severe idiosyncratic reaction consisting of hypotension, mental confusion, fever, chills, and wheezing has been reported in approximately 1% of lymphoma patients treated with bleomycin.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20211206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="7d13b4ef-f5cb-4de6-adad-2a2625958bb8"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Bleomycin for Injection, USP is a mixture of cytotoxic glycopeptide antibiotics isolated from a strain of <content styleCode="italics">Streptomyces verticillus</content>. It is freely soluble in water.</paragraph>
+                  <paragraph>Bleomycin for Injection, USP is provided as a sterile lyophilized powder for reconstitution containing 15 units per vial and 30 units per vial, which are intended for intramuscular, intravenous, subcutaneous or intrapleural administration.</paragraph>
+                  <paragraph>Its chemical name is N'-[3-(dimethylsulphonio)propyl]bleomycin-amide (bleomycin A<sub>2</sub>) and N'-[4-(guaniodobutyl)]bleomycin-amide (bleomycin B<sub>2</sub>).</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lce65feb1-2cba-4e6c-8a7f-7cf5f90b8e7b"/>
+                  </paragraph>
+                  <paragraph>(Main component: Bleomycin A<sub>2</sub>, in which <content styleCode="italics">R</content> is [CH<sub>3</sub>]<sub>2</sub>S<sup>+</sup>CH<sub>2</sub>CH<sub>2</sub>CH<sub>2</sub>-)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note:</content> A unit of bleomycin is equal to the formerly used milligram activity. The term milligram activity is a misnomer and was changed to units to be more precise.</paragraph>
+               </text>
+               <effectiveTime value="20260417"/>
+               <component>
+                  <observationMedia ID="Lce65feb1-2cba-4e6c-8a7f-7cf5f90b8e7b">
+                     <text>Chemical Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ble05-0000-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="9b007e1b-638a-4ff7-aab0-5ba3b91125a5"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s5">
+                     <id root="8ac5cc2c-100b-42a4-b967-671d7564f7a2"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action
+</title>
+                     <text>
+                        <paragraph>Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis.</paragraph>
+                        <paragraph>Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA. In <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content> experiments, bleomycin has been shown to cause cell cycle arrest in G2 and in mitosis.</paragraph>
+                        <paragraph>When administered into the pleural cavity in the treatment of malignant pleural effusion, bleomycin acts as a sclerosing agent.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s6">
+                     <id root="2eb87ba4-90a9-4365-bc80-45f90b5183b1"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics
+</title>
+                     <effectiveTime value="20260415"/>
+                     <component>
+                        <section ID="s7">
+                           <id root="c3ca8320-1ef2-444d-bb2b-c6d5207e8d33"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Absorption</content>
+                           </title>
+                           <text>
+                              <paragraph>Bleomycin is rapidly absorbed following either intramuscular, subcutaneous, intraperitoneal, or intrapleural administration reaching peak plasma concentrations in 30 to 60 minutes. Systemic bioavailability of bleomycin is 100% and 70% following intramuscular and subcutaneous administrations, respectively, and 45% following both intraperitoneal and intrapleural administrations, compared to intravenous and bolus administration.</paragraph>
+                              <paragraph>Following intramuscular doses of 1 to 10 units/m<sup>2</sup>, both peak plasma concentration and AUC increased in proportion with the increase of dose.</paragraph>
+                              <paragraph>Following intravenous bolus administration of 30 units of bleomycin to one patient with a primary germ cell tumor of the brain, a peak CSF level was 40% of the simultaneously-obtained plasma level and was attained in 2 hours after drug administration. The area under the bleomycin CSF concentration x time curve was 25% of the area of the bleomycin plasma concentration x time curve.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s8">
+                           <id root="de08f878-c6a1-430a-80cf-c882531a64d4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Distribution</content>
+                           </title>
+                           <text>
+                              <paragraph>Bleomycin is widely distributed throughout the body with a mean volume of distribution of 17.5 L/m<sup>2</sup> in patients following a 15 units/m<sup>2</sup> intravenous bolus dose. Protein binding of bleomycin has not been studied.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s9">
+                           <id root="2b855501-3d60-47a8-a579-a908b1945084"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Metabolism</content>
+                           </title>
+                           <text>
+                              <paragraph>Bleomycin is inactivated by a cytosolic cysteine proteinase enzyme, bleomycin hydrolase. The enzyme is widely distributed in normal tissues with the exception of the skin and lungs, both targets of bleomycin toxicity. Systemic elimination of the drug by enzymatic degradation is probably only important in patients with severely compromised renal function.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s10">
+                           <id root="078c1b91-3378-4c27-af76-020183d8a1cf"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Excretion</content>
+                           </title>
+                           <text>
+                              <paragraph>The primary route of elimination is via the kidneys. About 65% of the administered intravenous dose is excreted in urine within 24 hours. In patients with normal renal function, plasma concentrations of bleomycin decline biexponentially with a mean terminal half-life of 2 hours following intravenous bolus administration. Total body clearance and renal clearance averaged 51 mL/min/m<sup>2</sup> and 23 mL/min/m<sup>2</sup>, respectively.</paragraph>
+                              <paragraph>Following intrapleural administration to patients with normal renal function, a lower percentage of drug (40%) is recovered in the urine, as compared to that found in the urine after intravenous administration.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s11">
+                     <id root="75a4e44c-5f4e-4b01-ae76-7a518a448c65"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Special Populations
+</title>
+                     <effectiveTime value="20260415"/>
+                     <component>
+                        <section ID="s12">
+                           <id root="65fa0c88-be00-4900-96aa-eaf781807b15"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Age, Gender, and Race</content>
+                           </title>
+                           <text>
+                              <paragraph>The effects of age, gender, and race on the pharmacokinetics of bleomycin have not been evaluated.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s13">
+                           <id root="c2955728-5253-4857-be01-11c00fe3373d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pediatric</content>
+                           </title>
+                           <text>
+                              <paragraph>Children of less than 3 years of age have higher total body clearance than in adults, 71 mL/min/m<sup>2</sup> versus 51 mL/min/m<sup>2</sup>, respectively, following intravenous bolus administration. Children of more than 8 years of age have comparable clearance as in adults.</paragraph>
+                              <paragraph>In children with normal renal function, plasma concentrations of bleomycin decline biexponentially as in adults. The volume of distribution and terminal half-life of bleomycin in children appears comparable to that in adults.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s14">
+                           <id root="811a1044-593d-4b2a-8dd4-cbe58ba3aa4c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Renal Insufficiency</content>
+                           </title>
+                           <text>
+                              <paragraph>Renal insufficiency markedly alters bleomycin elimination. The terminal elimination half-life increases exponentially as the creatinine clearance decreases. Dosing reductions were proposed for patients with creatinine clearance values of &lt;50 mL/min (see <content styleCode="bold">
+                                    <linkHtml href="#s25">PRECAUTIONS</linkHtml>
+                                 </content> and <content styleCode="bold">
+                                    <linkHtml href="#s38">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="s15">
+                           <id root="56f4239c-1fd7-45b9-aca0-82811b4465dd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Hepatic Insufficiency</content>
+                           </title>
+                           <text>
+                              <paragraph>The effect of hepatic insufficiency on the pharmacokinetics of bleomycin has not been evaluated.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s16">
+                     <id root="76aaceb2-552c-4cf2-b092-9436f2da8893"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions
+</title>
+                     <effectiveTime value="20260415"/>
+                     <component>
+                        <section ID="s17">
+                           <id root="9e48513a-5f7d-428c-b248-ce657c3dd702"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Drugs that Can Affect Renal Clearance</content>
+                           </title>
+                           <text>
+                              <paragraph>Because bleomycin is eliminated predominantly through renal excretion, the administration of nephrotoxic drugs with bleomycin may affect its renal clearance. Specifically, in one report of 2 children receiving concomitant cisplatin with bleomycin, total body clearance of bleomycin decreased from 39 to 18 mL/min/m<sup>2</sup> as the cumulative dose of cisplatin exceeded 300 mg/m<sup>2</sup>. Terminal half-life of bleomycin also increased from 4.4 to 6 hours. Fatal bleomycin pulmonary toxicity has been reported in a patient with unrecognized cisplatin-induced oliguric renal failure.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s18">
+                     <id root="81ca37f9-9e85-4e88-9310-667db79b694c"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title>Clinical Studies
+</title>
+                     <effectiveTime value="20260415"/>
+                     <component>
+                        <section ID="s19">
+                           <id root="78e63bf3-9a1a-4d49-9280-5290dedc5481"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Malignant Pleural Effusion</content>
+                           </title>
+                           <text>
+                              <paragraph>The safety and efficacy of bleomycin 60 units and tetracycline (1 g) as treatment for malignant pleural effusion were evaluated in a multicenter, randomized trial. Patients were required to have cytologically positive pleural effusion, good performance status (0,1,2), lung re-expansion following tube thoracostomy with drainage rates of 100 mL/24 hours or less, no prior intrapleural therapy, no prior systemic bleomycin therapy, no chest irradiation and no recent change in systemic therapy. Overall survival did not differ between the bleomycin (n=44) and tetracycline treatment (n=41) groups. Of patients evaluated within 30 days of instillation, the recurrence rate was 36% (10/28) with bleomycin and 67% (18/27) with tetracycline (p=0.023). Toxicity was similar between groups.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="73080d57-135f-475d-bdb1-ceb8277b51f7"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Bleomycin for Injection, USP should be considered a palliative treatment. It has been shown to be useful in the management of the following neoplasms either as a single agent or in proven combinations with other approved chemotherapeutic agents:</paragraph>
+                  <paragraph>
+                     <content styleCode="Bold Italics">Squamous Cell Carcinoma:</content> Head and neck (including mouth, tongue, tonsil, nasopharynx, oropharynx, sinus, palate, lip, buccal mucosa, gingivae, epiglottis, skin, larynx), penis, cervix, and vulva. The response to Bleomycin for Injection, USP is poorer in patients with previously irradiated head and neck cancer.</paragraph>
+                  <paragraph>
+                     <content styleCode="Bold Italics">Lymphomas:</content> Hodgkin's disease, non-Hodgkin's lymphoma.</paragraph>
+                  <paragraph>
+                     <content styleCode="Bold Italics">Testicular Carcinoma:</content> Embryonal cell, choriocarcinoma, and teratocarcinoma.</paragraph>
+                  <paragraph>Bleomycin for Injection, USP has also been shown to be useful in the management of:</paragraph>
+                  <paragraph>
+                     <content styleCode="Bold Italics">Malignant Pleural Effusion:</content> Bleomycin for Injection, USP is effective as a sclerosing agent for the treatment of malignant pleural effusion and prevention of recurrent pleural effusions.</paragraph>
+               </text>
+               <effectiveTime value="20260415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="8c8da942-a47d-43ee-9c4c-46c80166ad12"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Bleomycin for injection is contraindicated in patients who have demonstrated a hypersensitive or an idiosyncratic reaction to it.</paragraph>
+               </text>
+               <effectiveTime value="20260415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s22">
+               <id root="2a2c0d53-2076-4667-996f-8f82727a498b"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>Patients receiving bleomycin must be observed carefully and frequently during and after therapy. It should be used with extreme caution in patients with significant impairment of renal function or compromised pulmonary function.
+</paragraph>
+                  <paragraph>Pulmonary toxicities occur in 10% of treated patients. In approximately 1%, the nonspecific pneumonitis induced by bleomycin progresses to pulmonary fibrosis and death. Although this is age and dose related, the toxicity is unpredictable. Frequent roentgenograms are recommended (see <content styleCode="bold">
+                        <linkHtml href="#s34">ADVERSE REACTIONS: Pulmonary</linkHtml>
+                     </content>).
+</paragraph>
+                  <paragraph>A severe idiosyncratic reaction (similar to anaphylaxis) consisting of hypotension, mental confusion, fever, chills, and wheezing has been reported in approximately 1% of lymphoma patients treated with bleomycin. Since these reactions usually occur after the first or second dose, careful monitoring is essential after these doses (see <content styleCode="bold">
+                        <linkHtml href="#s35">ADVERSE REACTIONS: Idiosyncratic Reactions</linkHtml>
+                     </content>).
+</paragraph>
+                  <paragraph>Renal or hepatic toxicity, beginning as a deterioration in renal or liver function tests, have been reported. These toxicities may occur at any time after initiation of therapy.
+</paragraph>
+               </text>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s23">
+                     <id root="7f4e0894-5489-4ac6-9ce0-ad0f90e2964e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Pregnancy
+</title>
+                     <effectiveTime value="20260415"/>
+                     <component>
+                        <section ID="s24">
+                           <id root="21665008-0840-44ea-90f5-d0e86cb19366"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pregnancy “Category D”</content>
+                           </title>
+                           <text>
+                              <paragraph>Bleomycin can cause fetal harm when administered to a pregnant woman. It has been shown to be teratogenic in rats. Administration of intraperitoneal doses of 1.5 mg/kg/day to rats (about 1.6 times the recommended human dose on a unit/m<sup>2</sup> basis) on days 6 to 15 of gestation caused skeletal malformations, shortened innominate artery and hydroureter. Bleomycin is abortifacient but not teratogenic in rabbits at intravenous doses of 1.2 mg/kg/day (about 2.4 times the recommended human dose on a unit/m<sup>2</sup> basis) given on gestation days 6 to 18.</paragraph>
+                              <paragraph>There have been no studies in pregnant women. If bleomycin is used during pregnancy, or if the patient becomes pregnant while receiving this drug, the patient should be apprised of the potential hazard to the fetus. Women of childbearing potential should be advised to avoid becoming pregnant during therapy with bleomycin.</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s25">
+               <id root="9dd78cec-7fa2-4352-a6e4-a709cb78b0b1"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s26">
+                     <id root="6c49f753-91dd-4d5e-813b-90089ea64a48"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General
+</title>
+                     <text>
+                        <paragraph>Patients with creatinine clearance values of less than 50 mL/min should be treated with caution and their renal function should be carefully monitored during the administration of bleomycin. Lower doses of bleomycin may be required in these patients than those with normal renal function (see <content styleCode="bold">
+                              <linkHtml href="#s4">CLINICAL PHARMACOLOGY</linkHtml>
+                           </content> and <content styleCode="bold">
+                              <linkHtml href="#s38">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s27">
+                     <id root="86d7abcb-0333-46c8-bd88-2500b2277006"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility
+</title>
+                     <text>
+                        <paragraph>The carcinogenic potential of bleomycin in humans is unknown. A study in F344-type male rats demonstrated an increased incidence of nodular hyperplasia after induced lung carcinogenesis by nitrosamines, followed by treatment with bleomycin. In another study where the drug was administered to rats by subcutaneous injection at 0.35 mg/kg weekly (3.82 units/m<sup>2</sup> weekly or about 30% at the recommended human dose), necropsy findings included dose-related injection site fibrosarcomas as well as various renal tumors. Bleomycin has been shown to be mutagenic both <content styleCode="italics">in vitro</content> and <content styleCode="italics">in vivo</content>. The effects of bleomycin on fertility have not been studied.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s28">
+                     <id root="86069004-3c9d-4961-bef4-199f89539c43"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy
+</title>
+                     <effectiveTime value="20260415"/>
+                     <component>
+                        <section ID="s29">
+                           <id root="37efcaba-50b8-4f3b-b514-008e7d512282"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">Pregnancy “Category D”</content>
+                           </title>
+                           <text>
+                              <paragraph>(See <content styleCode="bold">
+                                    <linkHtml href="#s22">WARNINGS.</linkHtml>
+                                 </content>)</paragraph>
+                           </text>
+                           <effectiveTime value="20260415"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s30">
+                     <id root="30ceb110-2c48-448d-b990-46f7c2388d85"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers
+</title>
+                     <text>
+                        <paragraph>It is not known whether the drug is excreted in human milk. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in nursing infants, it is recommended that nursing be discontinued by women receiving bleomycin therapy.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20181120"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s31">
+                     <id root="9d4656ae-d783-4568-8747-dcb1b9671b64"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use
+</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of bleomycin in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s32">
+                     <id root="0eca3727-4a93-489e-818e-e8e0e2c35c18"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use
+</title>
+                     <text>
+                        <paragraph>In clinical trials, pulmonary toxicity was more common in patients older than 70 years than in younger patients (see <content styleCode="bold">
+                              <linkHtml href="#s2">BOXED WARNING</linkHtml>, <linkHtml href="#s22">WARNINGS,</linkHtml> and <linkHtml href="#s33">ADVERSE REACTIONS: Pulmonary</linkHtml>
+                           </content>). Other reported clinical experience has not identified other differences in responses between elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                        <paragraph>Bleomycin is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s33">
+               <id root="b1e6b59a-c087-4eaf-9dc4-71af3d278494"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s34">
+                     <id root="8dc56019-08de-4ff8-b3fc-369e0264a15e"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pulmonary
+</title>
+                     <text>
+                        <paragraph>The most serious side effects are pulmonary adverse reactions, occurring in approximately 10% of treated patients. The most frequent presentation is pneumonitis occasionally progressing to pulmonary fibrosis. Approximately 1% of patients treated have died of pulmonary fibrosis. Pulmonary toxicity is both dose and age related, being more common in patients over 70 years of age and in those receiving over 400 units total dose. This toxicity, however, is unpredictable and has been seen in young patients receiving low doses. Some published reports have suggested that the risk of pulmonary toxicity may be increased when bleomycin is used in combination with G-CSF (filgrastim) or other cytokines. However, randomized clinical studies completed to date have not demonstrated an increased risk of pulmonary complications in patients treated with bleomycin and G-CSF.</paragraph>
+                        <paragraph>Because of lack of specificity of the clinical syndrome, the identification of patients with pulmonary toxicity due to bleomycin has been extremely difficult. The earliest symptom associated with bleomycin pulmonary toxicity is dyspnea. The earliest sign is fine rales.</paragraph>
+                        <paragraph>Radiographically, bleomycin-induced pneumonitis produces nonspecific patchy opacities, usually of the lower lung fields. The most common changes in pulmonary function tests are a decrease in total lung volume and a decrease in vital capacity. However, these changes are not predictive of the development of pulmonary fibrosis.</paragraph>
+                        <paragraph>The microscopic tissue changes due to bleomycin toxicity include bronchiolar squamous metaplasia, reactive macrophages, atypical alveolar epithelial cells, fibrinous edema, and interstitial fibrosis. The acute stage may involve capillary changes and subsequent fibrinous exudation into alveoli producing a change similar to hyaline membrane formation and progressing to a diffuse interstitial fibrosis resembling the Hamman-Rich syndrome. These microscopic findings are nonspecific; e.g., similar changes are seen in radiation pneumonitis and pneumocystic pneumonitis.</paragraph>
+                        <paragraph>To monitor the onset of pulmonary toxicity, roentgenograms of the chest should be taken every 1 to 2 weeks (see <content styleCode="bold">
+                              <linkHtml href="#s22">WARNINGS</linkHtml>
+                           </content>). If pulmonary changes are noted, treatment should be discontinued until it can be determined if they are drug related. Recent studies have suggested that sequential measurement of the pulmonary diffusion capacity for carbon monoxide (DL<sub>co</sub>) during treatment with bleomycin may be an indicator of subclinical pulmonary toxicity. It is recommended that the DL<sub>co</sub> be monitored monthly if it is to be employed to detect pulmonary toxicities, and thus the drug should be discontinued when the DL<sub>co</sub> falls below 30% to 35% of the pretreatment value.</paragraph>
+                        <paragraph>Because of bleomycin's sensitization of lung tissue, patients who have received bleomycin are at greater risk of developing pulmonary toxicity when oxygen is administered in surgery. While long exposure to very high oxygen concentrations is a known cause of lung damage, after bleomycin administration, lung damage can occur at lower concentrations that are usually considered safe. Suggested preventive measures are:</paragraph>
+                        <list listType="ordered" styleCode="Arabic">
+                           <item>Maintain FIO<sub>2</sub> at concentrations approximating that of room air (25%) during surgery and the postoperative period.</item>
+                           <item>Monitor carefully fluid replacement, focusing more on colloid administration rather than crystalloid.</item>
+                        </list>
+                        <paragraph>Sudden onset of an acute chest pain syndrome suggestive of pleuropericarditis has been reported during bleomycin infusions. Although each patient must be individually evaluated, further courses of bleomycin do not appear to be contraindicated.</paragraph>
+                        <paragraph>Pulmonary adverse events which may be related to the intrapleural administration of bleomycin have been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s35">
+                     <id root="44c123d1-8282-417d-af9f-fc9cb5846bce"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Idiosyncratic Reactions
+</title>
+                     <text>
+                        <paragraph>In approximately 1% of the lymphoma patients treated with bleomycin, an idiosyncratic reaction, similar to anaphylaxis clinically, has been reported. The reaction may be immediate or delayed for several hours, and usually occurs after the first or second dose (see <content styleCode="bold">
+                              <linkHtml href="#s22">WARNINGS</linkHtml>
+                           </content>). It consists of hypotension, mental confusion, fever, chills, and wheezing. Treatment is symptomatic including volume expansion, pressor agents, antihistamines, and corticosteroids.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s36">
+                     <id root="0e4ede44-6312-4126-a24a-67de54afdca3"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Integument and Mucous Membranes
+</title>
+                     <text>
+                        <paragraph>These adverse reactions have been reported in approximately 50% of treated patients. They consist of erythema, rash, striae, vesiculation, hyperpigmentation, and tenderness of the skin. Hyperkeratosis, nail changes, alopecia, pruritus, and stomatitis have also been reported. It was necessary to discontinue bleomycin therapy in 2% of treated patients because of these toxicities.</paragraph>
+                        <paragraph>Scleroderma-like skin changes have been reported.</paragraph>
+                        <paragraph>Skin toxicity is a relatively late manifestation usually developing in the second and third week of treatment after 150 to 200 units of bleomycin have been administered and appears to be related to the cumulative dose.</paragraph>
+                        <paragraph>Intrapleural administration of bleomycin has been associated with local pain. Hypotension possibly requiring symptomatic treatment has been reported. Death has been reported in association with bleomycin pleurodesis in seriously ill patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s37">
+                     <id root="a88bbf29-84c4-430f-894b-4798f11766f0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other
+</title>
+                     <text>
+                        <paragraph>Vascular toxicities coincident with the use of bleomycin in combination with other antineoplastic agents have been reported. The events are clinically heterogeneous and may include myocardial infarction, cerebrovascular accident, thrombotic microangiopathy (HUS), or cerebral arteritis. Various mechanisms have been proposed for these vascular complications. There are also reports of Raynaud's phenomenon occurring in patients treated with bleomycin in combination with vinblastine with or without cisplatin or, in a few cases, with bleomycin as a single agent. It is currently unknown if the cause of Raynaud's phenomenon in these cases is the disease, underlying vascular compromise, bleomycin, vinblastine, hypomagnesemia, or a combination of any of these factors.</paragraph>
+                        <paragraph>Fever, chills, and vomiting have been reported. Anorexia and weight loss have been reported and may persist long after termination of this medication. Pain at tumor site, phlebitis, and other local reactions have been reported.</paragraph>
+                        <paragraph>Malaise has been reported.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact NorthStar Healthcare at 1-800-206-7821 or FDA at 1-800-FDA-1088 or </content>
+                           <content styleCode="Bold Underline">www.fda.gov/medwatch</content>
+                           <content styleCode="bold">.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s38">
+               <id root="446ea179-d9d2-4a9b-9c7b-bea32ff838d4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Because of the possibility of an anaphylactoid reaction, lymphoma patients should be treated with 2 units or less for the first 2 doses. If no acute reaction occurs, then the regular dosage schedule may be followed.</content>
+                  </paragraph>
+                  <paragraph>The following dose schedule is recommended:
+</paragraph>
+               </text>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s39">
+                     <id root="426dbd5a-791d-4c83-8b7d-51e863df39ab"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="Bold Italics">Squamous cell carcinoma, non-Hodgkin's lymphoma, testicular carcinoma</content> – 0.25 to 0.5 units/kg (10 to 20 units/m<sup>2</sup>) given intravenously, intramuscularly, or subcutaneously weekly or twice weekly.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s40">
+                     <id root="abbc2f9e-1099-4bd0-b511-d3866a88143a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="Bold Italics">Hodgkin's Disease</content> – 0.25 to 0.5 units/kg (10 to 20 units/m<sup>2</sup>) given intravenously, intramuscularly, or subcutaneously weekly or twice weekly. After a 50% response, a maintenance dose of 1 unit daily or 5 units weekly intravenously or intramuscularly should be given.</paragraph>
+                        <paragraph>Pulmonary toxicity of bleomycin for injection appears to be dose-related with a striking increase when the total dose is over 400 units. Total doses over 400 units should be given with great caution.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Note: When bleomycin for injection is used in combination with other antineoplastic agents,</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">pulmonary toxicities may occur at lower doses.</content>
+                        </paragraph>
+                        <paragraph>Improvement of Hodgkin's disease and testicular tumors is prompt and noted within 2 weeks. If no improvement is seen by this time, improvement is unlikely. Squamous cell cancers respond more slowly, sometimes requiring as long as 3 weeks before any improvement is noted.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s41">
+                     <id root="58be4735-56f3-415b-b9d7-be3323f9f88d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="Bold Italics">Malignant Pleural Effusion</content> – 60 units administered as a single dose bolus intrapleural injection (see <content styleCode="bold">
+                              <linkHtml href="#s47">ADMINISTRATION: Intrapleural</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s42">
+                     <id root="1a923289-5bbc-4825-90ef-c13f20685bf4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Use in Patients with Renal Insufficiency</content>
+                     </title>
+                     <text>
+                        <paragraph>The following dosing reductions are proposed for patients with creatinine clearance (CrCL) values of less than 50 mL/min:</paragraph>
+                        <table width="100%">
+                           <colgroup>
+                              <col width="50.000%" align="left"/>
+                              <col width="50.000%" align="left"/>
+                           </colgroup>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="2" align="left" valign="top">
+                                    <paragraph styleCode="First Footnote">CrCL can be estimated from the individual patient's measured serum creatinine (Scr) values using the Cockcroft and Gault formula:</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2" align="left" valign="top">
+                                    <paragraph styleCode="First Footnote">Males CrCL = [weight × (140 – Age)]/(72 × Scr)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2" align="left" valign="top">
+                                    <paragraph styleCode="First Footnote">Females CrCL = 0.85 × [weight × (140 – Age)]/(72 × Scr)</paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td colspan="2" align="left" valign="top">
+                                    <paragraph styleCode="First Footnote">Where CrCL in mL/min/1.73m<sup>2</sup>, weight in kg, age in years, and Scr in mg/dL.</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule Toprule" align="center" valign="middle">
+                                    <content styleCode="bold">Patient CrCL</content>
+                                    <br/>
+                                    <content styleCode="bold">(mL/min)</content>
+                                 </td>
+                                 <td styleCode="Botrule Rrule Toprule" align="center" valign="middle">
+                                    <content styleCode="bold">Bleomycin</content>
+                                    <br/>
+                                    <content styleCode="bold">for Injection</content>
+                                    <br/>
+                                    <content styleCode="bold">Dose (%)</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">50 and above</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">100</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">40 to 50</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">70</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">30 to 40</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">60</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">20 to 30</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">55</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">10 to 20</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">45</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Botrule Lrule Rrule" align="center" valign="top">5 to 10</td>
+                                 <td styleCode="Botrule Rrule" align="center" valign="top">40</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s43">
+               <id root="b43c2f62-f783-40b0-a4e2-1a150022154f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>Bleomycin for injection may be given by the intramuscular, intravenous, subcutaneous, or intrapleural routes.
+</paragraph>
+               </text>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s44">
+                     <id root="2054bb41-e593-40e0-8b8f-5c9db39e29aa"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Administration Precautions
+</title>
+                     <text>
+                        <paragraph>Caution should be exercised when handling bleomycin for injection. Procedures for proper handling and disposal of anticancer drugs should be utilized. Several guidelines on this subject have been published.<sup>1-4</sup> To minimize the risk of dermal exposure, always wear impervious gloves when handling vials containing bleomycin for injection. If bleomycin for injection contacts the skin, immediately wash the skin thoroughly with soap and water. If contact with mucous membranes occurs, the membranes should be flushed immediately and thoroughly with water. More information is available in the references listed below.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s45">
+                     <id root="61f08383-477c-4d05-b665-9f02725b2c1a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intramuscular or Subcutaneous</title>
+                     <text>
+                        <paragraph>The bleomycin for injection 15 units vial should be reconstituted with 1 to 5 mL of Sterile Water for Injection, USP, Sodium Chloride for Injection, 0.9%, USP, or Sterile Bacteriostatic Water for Injection, USP. The bleomycin for injection 30 units vial should be reconstituted with 2 to 10 mL of the above diluents.</paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s46">
+                     <id root="9dd95582-ce71-4bc7-9135-5f0a958c9e49"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intravenous
+</title>
+                     <text>
+                        <paragraph>The contents of the 15 units or 30 units vial should be dissolved in 5 mL or 10 mL, respectively, of Sodium Chloride for Injection, 0.9%, USP, and administered slowly over a period of 10 minutes.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20181120"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s47">
+                     <id root="ea35af10-52aa-498a-9f82-a2c79ea95608"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intrapleural
+</title>
+                     <text>
+                        <paragraph>Sixty units of bleomycin for injection are dissolved in 50 to 100 mL Sodium Chloride for Injection, 0.9%, USP, and administered through a thoracostomy tube following drainage of excess pleural fluid and confirmation of complete lung expansion. The literature suggests that successful pleurodesis is, in part, dependent upon complete drainage of the pleural fluid and re-establishment of negative intrapleural pressure prior to instillation of a sclerosing agent. Therefore, the amount of drainage from the chest tube should be as minimal as possible prior to instillation of bleomycin for injection. Although there is no conclusive evidence to support this contention, it is generally accepted that chest tube drainage should be less than 100 mL in a 24- hour period prior to sclerosis. However, bleomycin for injection instillation may be appropriate when drainage is between 100 to 300 mL under clinical conditions that necessitate sclerosis therapy. The thoracostomy tube is clamped after bleomycin for injection instillation. The patient is moved from the supine to the left and right lateral positions several times during the next four hours. The clamp is then removed and suction re-established. The amount of time the chest tube remains in place following sclerosis is dictated by the clinical situation.
+</paragraph>
+                        <paragraph>The intrapleural injection of topical anesthetics or systemic narcotic analgesia is generally not required.
+</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.
+</paragraph>
+                     </text>
+                     <effectiveTime value="20181120"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s48">
+               <id root="fc182fe8-de1a-45a3-96a5-339a6009d9b6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Bleomycin for Injection, USP is supplied as follows:
+</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="33.333%" align="left"/>
+                     <col width="33.333%" align="left"/>
+                     <col width="33.333%" align="left"/>
+                     <tbody>
+                        <tr>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Bleomycin for Injection, USP</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="justify" valign="top">16714-<content styleCode="bold">886</content>-01
+</td>
+                           <td align="justify" valign="top">15 units per vial
+</td>
+                           <td align="justify" valign="top">1 vial per carton
+</td>
+                        </tr>
+                        <tr>
+                           <td align="justify" valign="top">16714-<content styleCode="bold">908</content>-01
+</td>
+                           <td align="justify" valign="top">30 units per vial
+</td>
+                           <td align="justify" valign="top">1 vial per carton
+</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260415"/>
+               <component>
+                  <section ID="s49">
+                     <id root="c9340fc9-6bc7-4497-8fb6-a5b38de7526a"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage Conditions
+</title>
+                     <text>
+                        <paragraph>Store refrigerated between 2° and 8°C (36° and 46°F). The sterile powder is stable under refrigeration and should not be used after the expiration date is reached.</paragraph>
+                        <paragraph>Bleomycin for Injection, USP should not be reconstituted or diluted with D<sub>5</sub>W or other dextrose containing diluents. When reconstituted in D<sub>5</sub>W and analyzed by HPLC, Bleomycin for Injection, USP demonstrates a loss of A<sub>2</sub> and B<sub>2</sub> potency that does not occur when Bleomycin for Injection, USP is reconstituted in Sodium Chloride for Injection, 0.9%, USP.</paragraph>
+                        <paragraph>Bleomycin for Injection, USP is stable for 24 hours at room temperature in Sodium Chloride.</paragraph>
+                        <paragraph>Discard unused portion.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic, Preservative-free.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260415"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s50">
+               <id root="38c355fd-e12e-477d-a7e0-e9554d19926d"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES
+</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>NIOSH Alert: Preventing occupational exposures to antineoplastic and other hazardous drugs in healthcare settings. 2004. U.S. Department of Health and Human Services, Public Health Service, Centers for Disease Control and Prevention, National Institute for Occupational Safety and Health, DHHS (NIOSH) Publication No. 2004-165.</item>
+                     <item>OSHA Technical Manual, TED 1-0.15A, Section VI: Chapter 2. Controlling occupational exposure to hazardous drugs. OSHA, 1999. http://www.osha.gov/dts/osta/otm/otm_vi/otm_vi_2.html</item>
+                     <item>American Society of Health-System Pharmacists. ASHP guidelines on handling hazardous drugs. <content styleCode="italics">Am J Health-Syst Pharm</content>. 2006;63:1172-1193.</item>
+                     <item>Polovich M, White JM, Kelleher LO, eds. 2005. Chemotherapy and biotherapy guidelines and recommendations for practice. 2nd ed. Pittsburgh, PA: Oncology Nursing Society.</item>
+                  </list>
+                  <paragraph>Manufactured for: Northstar Rx LLC<br/>Memphis, TN 38141</paragraph>
+                  <paragraph>Manufactured by: Kindos Pharmaceuticals Co., Ltd.<br/>Chengdu, Sichuan, 611731, P.R. China.</paragraph>
+                  <paragraph>Product of China</paragraph>
+                  <paragraph>Revised: March 2026</paragraph>
+                  <paragraph>LB-210-V2</paragraph>
+               </text>
+               <effectiveTime value="20260415"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s51">
+               <id root="98cb514d-a986-402b-b5df-7f01b9fb245e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Bleomycin for Injection, USP 15 units per vial Container Label
+</title>
+               <text>
+                  <paragraph>NDC 16714-<content styleCode="bold">886</content>-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Bleomycin for Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 units per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must Be Diluted. For Intravenous, Intramuscular,</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Subcutaneous or Intrapleural Use. Single-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: Cytotoxic Agent</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="L70f59ad0-0112-4750-8910-129920cb5c18"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260417"/>
+               <component>
+                  <observationMedia ID="L70f59ad0-0112-4750-8910-129920cb5c18">
+                     <text>Principal Display Panel – Bleomycin for Injection, USP 15 units per vial Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ble05-0000-02-ns-v3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s52">
+               <id root="1cdfbbd0-5e09-441e-ad0a-f63fa30b7d3a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Bleomycin for Injection, USP 15 units per vial Carton
+</title>
+               <text>
+                  <paragraph>NDC 16714-<content styleCode="bold">886</content>-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Bleomycin for Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15 units per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must Be Diluted</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous,</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intramuscular, Subcutaneous</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">or Intrapleural Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: Cytotoxic Agent</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 Single-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="Ldd6845eb-61b4-4604-979f-612f856b1a23"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260417"/>
+               <component>
+                  <observationMedia ID="Ldd6845eb-61b4-4604-979f-612f856b1a23">
+                     <text>Principal Display Panel – Bleomycin for Injection, USP 15 units per vial Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ble05-0000-04-ns-v4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s53">
+               <id root="aaf835ec-6d99-492e-be92-e1554d0e7089"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Bleomycin for Injection, USP 30 units per vial Container Label
+</title>
+               <text>
+                  <paragraph>NDC 16714-<content styleCode="bold">908</content>-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Bleomycin for Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">30 units per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must Be Diluted. For Intravenous, Intramuscular,</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Subcutaneous or Intrapleural Use. Single-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: Cytotoxic Agent</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="L3b1e46f1-803c-4672-be6e-1c32f1e27994"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260417"/>
+               <component>
+                  <observationMedia ID="L3b1e46f1-803c-4672-be6e-1c32f1e27994">
+                     <text>Principal Display Panel – Bleomycin for Injection, USP 30 units per vial Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ble05-0000-03-ns-v3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s54">
+               <id root="2f58b9d6-0017-4034-91cf-61ba7f75f8e3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – Bleomycin for Injection, USP 30 units per vial Carton
+</title>
+               <text>
+                  <paragraph>NDC 16714-<content styleCode="bold">908</content>-01</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Bleomycin for Injection, USP</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">30 units per vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Must Be Diluted</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intravenous,</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Intramuscular, Subcutaneous</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">or Intrapleural Use.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Caution: Cytotoxic Agent</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1 Single-Dose Vial</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="Lf227c0cf-328f-4af9-980e-682d9866b713"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260417"/>
+               <component>
+                  <observationMedia ID="Lf227c0cf-328f-4af9-980e-682d9866b713">
+                     <text>Principal Display Panel – Bleomycin for Injection, USP 30 units per vial Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ble05-0000-05-ns-v3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

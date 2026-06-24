@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b5c975a5-4d7a-4177-b1e2-524bad92a5fb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>NYSTATIN OINTMENT, USP<br/>For Topical Use Only. Not for Ophthalmic Use.</title>
+   <effectiveTime value="20260508"/>
+   <setId root="4949dea7-d2b9-4e0d-974a-39408fa174ba"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="650175722"/>
+            <name>Torrent Pharmaceuticals Limited</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="790033935"/>
+                  <name>Torrent Pharma, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="650537058"/>
+                        <name>Torrent Pharmaceuticals Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13668-534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13668-534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="13668-534" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4865ec0f-3c70-47b2-abe9-cdfc2d0693c3"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230911"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="13668-534" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nystatin</name>
+                        <formCode code="C42966" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OINTMENT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Nystatin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="N6K5787QVP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIGHT MINERAL OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="4T6H12BN9U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PETROLATUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="U" value="100000"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BDF1O1C72E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NYSTATIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BDF1O1C72E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NYSTATIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="13668-534-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190129"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="13668-534-02" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190129"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211838" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190129"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText>Pale yellow to yellow</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="ID1">
+               <id root="477eb232-1a5c-40ec-928f-d7bd2fddf9be"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph ID="ID2">Nystatin is a polyene antifungal antibiotic drug obtained from <content styleCode="italics">Streptomyces nursei. </content>
+                  </paragraph>
+                  <paragraph>Structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <table ID="ID4" width="376">
+                     <colgroup>
+                        <col width="188"/>
+                        <col width="20"/>
+                        <col width="168"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td align="left" valign="top">
+                              <content styleCode="bold"> Molecular formula</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold"> :</content>
+                           </td>
+                           <td align="left" valign="top">C<sub>47</sub>H<sub>75</sub>NO<sub>17</sub>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="left" valign="top">
+                              <content styleCode="bold"> Molecular weight</content>
+                           </td>
+                           <td align="left" valign="top">
+                              <content styleCode="bold"> :</content>
+                           </td>
+                           <td align="left" valign="top">926.09 g/mol</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph ID="ID35">Nystatin ointment is for dermatologic use. Nystatin ointment for topical use contains 100,000 USP nystatin units per gram in an ointment base of light mineral oil and white petrolatum.</paragraph>
+               </text>
+               <effectiveTime value="20260508"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="c187a387-4397-46f8-af67-3dad0d54e9c6-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID5">
+               <id root="f77d7b12-6813-5844-e053-6294a90a88bf"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20180622"/>
+               <component>
+                  <section ID="ID36">
+                     <id root="f77d7b12-6814-5844-e053-6294a90a88bf"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph ID="ID37">Nystatin is not absorbed from intact skin or mucous membrane.</paragraph>
+                     </text>
+                     <effectiveTime value="20180622"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID38">
+                     <id root="f77d7b12-6815-5844-e053-6294a90a88bf"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph ID="ID39">Nystatin is an antibiotic which is both fungistatic and fungicidal 
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">in vitro</content> against a wide variety of yeasts and yeast-like fungi, including 
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">Candida albicans, C. parapsilosis, C. tropicalis, C. guilliermondi, C. pseudotropicalis, C. krusei, Torulopsis glabrata, Tricophyton rubrum, T. mentagrophytes.</content>
+                        </paragraph>
+                        <paragraph>Nystatin acts by binding to sterols in the cell membrane of susceptible species resulting in a change in membrane permeability and the subsequent leakage of intracellular components. On repeated subculturing with increasing concentrations of nystatin, 
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">Candida albicans</content> does not develop resistance to nystatin. Generally, resistance to nystatin does not develop during therapy. However, other species of 
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">Candida</content> (
+         
+ 
+  
+         
+ 
+  <content styleCode="italics">C. tropicalis, C. guilliermondi, C. krusei, and C. stellatoides)</content> become quite resistant on treatment with nystatin and simultaneously become cross resistant to amphotericin as well. This resistance is lost when the antibiotic is removed. 
+        
+
+ 
+        
+
+ </paragraph>
+                        <paragraph>Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses. </paragraph>
+                     </text>
+                     <effectiveTime value="20180622"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID7">
+               <id root="6d0e928c-1cd7-4272-977d-f7990ad354a5"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph ID="ID8">Nystatin ointment is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by <content styleCode="italics">Candida albicans</content> and other susceptible Candida species.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nystatin ointment is not indicated for systemic, oral, intravaginal or ophthalmic use. </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID9">
+               <id root="f77d7b12-6817-5844-e053-6294a90a88bf"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph ID="ID10">Nystatin ointment is contraindicated in patients with a history of hypersensitivity to any of their components. </paragraph>
+               </text>
+               <effectiveTime value="20180622"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID11">
+               <id root="3c880130-500f-4760-b184-7a1d29437bf0"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph ID="ID12">
+                     <content styleCode="bold">General </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Nystatin ointment should not be used for the treatment of systemic, oral, intravaginal or ophthalmic infections. </content>
+                  </paragraph>
+                  <paragraph>If irritation or sensitization develops, treatment should be discontinued and appropriate measures taken as indicated. It is recommended that KOH smears, cultures, or other diagnostic methods be used to confirm the diagnosis of cutaneous or mucocutaneous candidiasis and to rule out infection caused by other pathogens.</paragraph>
+               </text>
+               <effectiveTime value="20241206"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID40">
+               <id root="5bf54f3d-5a99-4966-ba5b-ff637b0a829b"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>INFORMATION FOR PATIENTS</title>
+               <text>
+                  <paragraph ID="ID41">
+                     <content styleCode="bold">Patients using these medications should receive the following information and instructions: </content>
+                  </paragraph>
+                  <paragraph>1.  The patient should be instructed to use these medications as directed (including the replacement of missed doses). These medications are not for any disorder other than that for which they are prescribed.</paragraph>
+                  <paragraph>2.  Even if symptomatic relief occurs within the first few days of treatment, the patient should be advised not to interrupt or discontinue therapy until the prescribed course of treatment is completed.</paragraph>
+                  <paragraph>
+                     <content>3. If symptoms of irritation develop, the patient should be advised to notify the physician promptly.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+               <component>
+                  <section ID="ID42">
+                     <id root="9be1c451-1c66-4763-bb06-1383c9d1a6ca"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph ID="ID43">If there is a lack of therapeutic response, KOH smears, cultures, or other diagnostic methods should be repeated.</paragraph>
+                     </text>
+                     <effectiveTime value="20260504"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID44">
+                     <id root="f77d7b12-681b-5844-e053-6294a90a88bf"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph ID="ID45">No long-term animal studies have been performed to evaluate the carcinogenic potential of nystatin. No studies have been performed to determine the mutagenicity of nystatin or its effects on male or female fertility. </paragraph>
+                     </text>
+                     <effectiveTime value="20180622"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID46">
+                     <id root="f77d7b12-681c-5844-e053-6294a90a88bf"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy: Teratogenic Effects</title>
+                     <text>
+                        <paragraph ID="ID47">Category C. Animal reproduction studies have not been conducted with any nystatin topical preparation. It also is not known whether these preparations can cause fetal harm when used by a pregnant woman or can affect reproductive capacity. Nystatin topical preparations should be prescribed for a pregnant woman only if the potential benefit to the mother outweighs the potential risk to the fetus. </paragraph>
+                     </text>
+                     <effectiveTime value="20180622"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID48">
+                     <id root="f77d7b12-681d-5844-e053-6294a90a88bf"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph ID="ID49">It is not known whether nystatin is excreted in human milk. Caution should be exercised when nystatin is prescribed for a nursing woman. </paragraph>
+                     </text>
+                     <effectiveTime value="20180622"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID50">
+                     <id root="01a91f77-59f4-4755-9327-00c8a7fbabfd"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph ID="ID51">Safety and effectiveness have been established in the pediatric population from birth to 16 years.</paragraph>
+                        <paragraph>See <content styleCode="bold">DOSAGE AND ADMINISTRATION </content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260504"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID13">
+               <id root="a3193cc4-b6cb-4589-bb42-22ec5fca92e5"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph ID="ID14">The frequency of adverse events reported in patients using nystatin ointment preparations is less than 0.1%. The more common events that were reported include allergic reactions, burning, itching, rash, eczema, and pain on application.</paragraph>
+                  <paragraph>(See <content styleCode="bold">PRECAUTIONS: General.</content>)</paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID15">
+               <id root="1b256d06-848a-4568-9022-e6223aa2001f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph ID="ID52">
+                     <content styleCode="bold">Nystatin Ointment </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adults and Pediatric Patients (Neonates and Older): </content>
+                  </paragraph>
+                  <paragraph>Apply liberally to affected areas twice daily or as indicated until healing is complete.</paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID17">
+               <id root="a0e5945c-47e0-4d8b-acf0-8008919e9540"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph ID="ID18">Nystatin ointment USP, 100,000 units per gram is a pale yellow to yellow color ointment available as follows:</paragraph>
+                  <paragraph>NDC 13668-534-01 15 gram tube</paragraph>
+                  <paragraph>NDC 13668-534-02 30 gram tube</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">STORAGE</content>
+                  </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted between 15°C and 30°C (59°F and 86°F) [see USP Controlled Room Temperature].</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph ID="ID20">
+                     <content styleCode="bold">Manufactured by:</content>
+                  </paragraph>
+                  <paragraph>Torrent Pharmaceuticals LTD., Pithampur-454775, INDIA <content styleCode="bold">.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                  </paragraph>
+                  <paragraph>Torrent Pharma INC., Basking Ridge, NJ 07920</paragraph>
+                  <paragraph>8102492                                                                                                      Revised: March 2026</paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Image</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="LOGO1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID30">
+               <id root="8a50ad9d-d1bb-43a0-994b-cfb9789709e9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph ID="ID53">Nystatin Ointment, USP 15 grams (Tube label)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM3"/>
+                  </paragraph>
+                  <paragraph>
+                     <content>Nystatin Ointment, USP 15 grams (Carton label)</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM4"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260508"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Tube Label of 15 g</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Nystatinointment-15g-tube.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Carton Label of 15 g</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Nystatinointment-15g-carton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

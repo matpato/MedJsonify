@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="6fdbe6c8-2389-42d3-982c-05174f494709"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>METHIMAZOLE TABLETS, USP</title>
+   <effectiveTime value="20260207"/>
+   <setId root="06bb4bcc-5e47-48b6-a76c-648f846704e8"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079674526"/>
+            <name>AiPing Pharmaceutical, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079674526"/>
+                  <name>AiPing Pharmaceutical, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="080225262"/>
+                        <name>A&amp;Z Pharmaceutical, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11788-011" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="11788-012" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="368b252b-1a50-40e4-be34-7808ec311be2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <title/>
+               <text/>
+               <effectiveTime value="20260214"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="11788-011" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methimazole</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Methimazole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="5" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="554Z48XN5E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHIMAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="554Z48XN5E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHIMAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8I089SAH3T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="11788-011-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260401"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040547" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">VM</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="11788-012" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methimazole</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Methimazole</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="10" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="554Z48XN5E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHIMAZOLE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="554Z48XN5E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHIMAZOLE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8I089SAH3T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="11788-012-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" displayName="BOTTLE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260401"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA040547" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="7" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic>
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">XM</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbb54b7a3-be04-4c45-a699-a156014b60eb">
+               <id root="93e94fae-7e35-464c-8246-896dc9549abc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le091d04a-d6c1-4c3c-a44e-f4f9af252a05">
+               <id root="01cf6178-a3ab-4966-86a3-f3d33740937a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Methimazole, USP (1-methylimidazole-2-thiol) is a white, crystalline substance that is freely soluble in water. It differs chemically from the drugs of the thiouracil series primarily because it has a 5- instead of a 6-membered ring.</paragraph>
+                  <paragraph>Methimazole tablet, USP contains 5 or 10 mg methimazole, an orally administered antithyroid drug.</paragraph>
+                  <paragraph>Each tablet also contains lactose monohydrate, magnesium stearate, potato starch and talc.</paragraph>
+                  <paragraph>The molecular weight is 114.17, and the molecular formula is C<sub>4</sub>H<sub>6</sub>N<sub>2</sub>S. The structural formula is as follows:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lace8d3a7-43dd-4e07-98b3-525b3bc87f1d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <observationMedia ID="Lace8d3a7-43dd-4e07-98b3-525b3bc87f1d">
+                     <text>Methimazole-Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Methimazole-Structural Formula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L9a9e7184-35ed-4127-b34f-574f95513e14">
+               <id root="ff7fa56b-313e-476f-a0d2-5b10d39c140c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Methimazole inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection.</paragraph>
+                  <paragraph>Methimazole is readily absorbed in the gastrointestinal tract, metabolized in the liver, and excreted in the urine.</paragraph>
+               </text>
+               <effectiveTime value="20260210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L59d3e75d-3a41-4263-a5eb-8033c1ceafb2">
+               <id root="e232ea3c-87ad-4064-bba5-2c0e6b7ef4e4"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Methimazole tablets are indicated:</paragraph>
+                  <list listType="unordered">
+                     <item>In patients with Graves’ disease with hyperthyroidism or toxic multinodular goiter for whom surgery or radioactive iodine therapy is not an appropriate treatment option.</item>
+                     <item>To ameliorate symptoms of hyperthyroidism in preparation for thyroidectomy or radioactive iodine therapy.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20260210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L29a5c6cf-260f-4567-81f5-62489cadb07d">
+               <id root="27a8bd0d-c21f-4a50-b998-7f9ad6b9e4b9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Methimazole tablets are contraindicated in the presence of hypersensitivity to the drug or any of the other product components.</paragraph>
+               </text>
+               <effectiveTime value="20260210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lee28f2b7-97e1-4fdd-95e8-70cfc343830f">
+               <id root="9b109490-9ae3-48ee-9156-0116f6021a01"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260210"/>
+               <component>
+                  <section ID="Ld7c91d81-7a0b-4056-9671-ba6ea1e30c97">
+                     <id root="74eae364-171e-49c1-80c9-be5c74f8a722"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">First Trimester Use of Methimazole and Congenital Malformations</content>
+                     </title>
+                     <text>
+                        <paragraph>Methimazole crosses the placental membranes and can cause fetal harm, when administered in the first trimester of pregnancy. Rare instances of congenital defects, including aplasia cutis, craniofacial malformations (facial dysmorphism; choanal atresia), gastrointestinal malformations (esophageal atresia with or without tracheoesophageal fistula), omphalocele and abnormalities of the omphalomesenteric duct have occurred in infants born to mothers who received methimazole in the first trimester of pregnancy. If methimazole is used during pregnancy or if the patient becomes pregnant while taking this drug, the patient should be warned of the potential hazard to the fetus.</paragraph>
+                        <paragraph>Because of the risk for congenital malformations associated with use of methimazole in the first trimester of pregnancy, it may be appropriate to use other agents in pregnant women requiring treatment for hyperthyroidism. If methimazole is used, the lowest possible dose to control the maternal disease should be given.</paragraph>
+                     </text>
+                     <effectiveTime value="20260210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Lb9661305-751f-4e5a-816f-6e059daec855">
+                     <id root="ca0371ac-54e6-4356-9e3b-1462a04ffd0b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Agranulocytosis</content>
+                     </title>
+                     <text>
+                        <paragraph>Agranulocytosis is potentially a life-threatening adverse reaction of methimazole therapy. Patients should be instructed to immediately report to their physicians any symptoms suggestive of agranulocytosis, such as fever or sore throat. Leukopenia, thrombocytopenia, and aplastic anemia (pancytopenia) may also occur. The drug should be discontinued in the presence of agranulocytosis or aplastic anemia (pancytopenia), and the patient’s bone marrow indices should be monitored.</paragraph>
+                     </text>
+                     <effectiveTime value="20260210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L90190f21-e352-444e-92d3-557e55178bfd">
+                     <id root="0f938fad-1492-4de4-b4c3-3c7629763e55"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Liver Toxicity</content>
+                     </title>
+                     <text>
+                        <paragraph>Although there have been reports of hepatotoxicity (including acute liver failure) associated with methimazole, the risk of hepatotoxicity appears to be less with methimazole than with propylthiouracil, especially in the pediatric population. Symptoms suggestive of hepatic dysfunction (anorexia, pruritus, right upper quadrant pain, etc.) should prompt evaluation of liver function (bilirubin, alkaline phosphatase) and hepatocellular integrity (ALT, AST). Drug treatment should be discontinued promptly in the event of clinically significant evidence of liver abnormality including hepatic transaminase values exceeding 3 times the upper limit of normal.</paragraph>
+                     </text>
+                     <effectiveTime value="20260210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Le2707061-02a6-4afd-9cf9-46f5f479d81c">
+                     <id root="425d61dc-d798-4efa-b7a3-7a5f5953d87d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Hypothyroidism</content>
+                     </title>
+                     <text>
+                        <paragraph>Methimazole can cause hypothyroidism necessitating routine monitoring of TSH and free T4 levels with adjustments in dosing to maintain a euthyroid state. Because the drug readily crosses placental membranes, methimazole can cause fetal goiter and cretinism when administered to a pregnant woman. For this reason, it is important that a sufficient, but not excessive, dose be given during pregnancy <content styleCode="italics">[see <linkHtml href="#L2e4a019c-e791-469e-944f-bb3bf93b1f85">PRECAUTIONS, Pregnancy</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20260210"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L05287ae9-651a-4dd9-9b82-cf5b15567177">
+                     <id root="4a1d7cd7-757e-491c-9282-8ede6af6d2ff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Vasculitis</content>
+                     </title>
+                     <text>
+                        <paragraph>Cases of vasculitis resulting in severe complications have been reported in patients receiving methimazole therapy. These cases of vasculitis include: leukocytoclastic cutaneous vasculitis, acute kidney injury and glomerulonephritis, alveolar/pulmonary hemorrhage, CNS vasculitis, and neuropathy. Most cases were associated with anti-neutrophilic cytoplasmic antibodies (ANCA)-positive vasculitis. In some cases, vasculitis resolved/improved with drug discontinuation; however, more severe cases required treatment with additional measures including corticosteroids, immunosuppressant therapy, and plasmapheresis. If vasculitis is suspected, discontinue therapy and initiate appropriate intervention.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf1f5ecf0-a763-4a7b-ac43-efa755813863">
+               <id root="eeb5e53c-755f-47d9-89cb-912edb6f99db"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <section ID="L5dc92029-b7b2-4192-855c-b4b9b8c4f58b">
+                     <id root="d202658f-6643-4cd6-95ef-79cef8c2ef03"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">General</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients who receive methimazole should be under close surveillance and should be cautioned to report immediately any evidence of illness, particularly sore throat, skin eruptions, fever, headache, or general malaise. In such cases, white-blood-cell and differential counts should be obtained to determine whether agranulocytosis has developed. Particular care should be exercised with patients who are receiving additional drugs known to cause agranulocytosis.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="La790beae-f7b8-4a8c-b356-40d3fcd2f3b4">
+                     <id root="cda0d027-28dd-425e-b87f-0b2d5d83d02f"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Information for Patients</content>
+                     </title>
+                     <text>
+                        <paragraph>Patients should be advised that if they become pregnant or intend to become pregnant while taking an antithyroid drug, they should contact their physician immediately about their therapy.</paragraph>
+                        <paragraph>Inform patients that cases of vasculitis resulting in severe complications have occurred with methimazole tablets. Inform patients to promptly report symptoms that may be associated with vasculitis including new rash, hematuria or decreased urine output, dyspnea or hemoptysis <content styleCode="italics">[see <linkHtml href="#Lee28f2b7-97e1-4fdd-95e8-70cfc343830f">WARNINGS</linkHtml> and <linkHtml href="#Laa1e95a7-a01f-438d-b559-f09931c08645">ADVERSE REACTIONS</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L29182eba-0ce5-46aa-8183-e8727b49b2ac">
+                     <id root="933016de-94c8-4fc0-9e98-35ae5ae5c182"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Laboratory Tests</content>
+                     </title>
+                     <text>
+                        <paragraph>Because methimazole may cause hypoprothrombinemia and bleeding, prothrombin time should be monitored during therapy with the drug, especially before surgical procedures. Thyroid function tests should be monitored periodically during therapy. Once clinical evidence of hyperthyroidism has resolved, the finding of a rising serum TSH indicates that a lower maintenance dose of methimazole should be employed.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="La4b8d2cc-96ce-4cdf-8043-3456ea73b17d">
+                     <id root="a122fd42-1064-4ef1-ab06-a775fc57bd32"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Drug Interactions</content>
+                     </title>
+                     <text>
+                        <paragraph/>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                     <component>
+                        <section ID="L9d0a0509-7f40-4265-99ee-79c095689323">
+                           <id root="2f2d0743-4a7d-4a6d-b6ce-a7c8087c7640"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">Anticoagulants (oral):</content>
+                           </title>
+                           <text>
+                              <paragraph>Due to potential inhibition of vitamin K activity by methimazole, the activity of oral anticoagulants (e.g., warfarin) may be increased; additional monitoring of PT/INR should be considered, especially before surgical procedures.</paragraph>
+                           </text>
+                           <effectiveTime value="20260207"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="L9fc1c0f9-ea8e-4904-a3d4-2f6e33cd2303">
+                           <id root="c115c421-45d4-46d2-bc02-effaacc3ec6c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">ß-adrenergic blocking agents:</content>
+                           </title>
+                           <text>
+                              <paragraph>Hyperthyroidism may cause an increased clearance of beta blockers with a high extraction ratio. A dose reduction of beta-adrenergic blockers may be needed when a hyperthyroid patient becomes euthyroid.</paragraph>
+                           </text>
+                           <effectiveTime value="20260207"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Lbf89ed73-6852-46ca-a441-9be8df919f31">
+                           <id root="b5ba4f4e-c8a4-4be7-b81f-814476b22974"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">Digitalis glycosides:</content>
+                           </title>
+                           <text>
+                              <paragraph>Serum digitalis levels may be increased when hyperthyroid patients on a stable digitalis glycoside regimen become euthyroid; a reduced dosage of digitalis glycosides may be needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20260207"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Ldf5c78b7-f16b-4fd3-a4d0-6aaa3a02658d">
+                           <id root="a952c4bf-a481-4053-b526-32c459b1d5b4"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="underline">Theophylline:</content>
+                           </title>
+                           <text>
+                              <paragraph>Theophylline clearance may decrease when hyperthyroid patients on a stable theophylline regimen become euthyroid; a reduced dose of theophylline may be needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20260207"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L93412021-3dc0-4f05-adf2-6a9f26fa308f">
+                     <id root="1c5a2104-b084-4785-9b84-f75bb9041c6f"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>
+                        <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                     </title>
+                     <text>
+                        <paragraph>In a 2 year study, rats were given methimazole at doses of 0.5, 3, and 18 mg/kg/day. These doses were 0.3, 2, and 12 times the 15 mg/day maximum human maintenance dose (when calculated on the basis of surface area). Thyroid hyperplasia, adenoma, and carcinoma developed in rats at the two higher doses. The clinical significance of these findings is unclear.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L2e4a019c-e791-469e-944f-bb3bf93b1f85">
+                     <id root="6270e459-c771-4909-bf9f-b459c8244359"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pregnancy</content>
+                     </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">[See <linkHtml href="#Lee28f2b7-97e1-4fdd-95e8-70cfc343830f">WARNINGS</linkHtml>.]</content>
+                           <br/>If methimazole is used during the first trimester of pregnancy or if the patient becomes pregnant while taking this drug, the patient should be warned of the potential hazard to the fetus.</paragraph>
+                        <paragraph>In pregnant women with untreated or inadequately treated Graves’ disease, there is an increased risk of adverse events of maternal heart failure, spontaneous abortion, preterm birth, stillbirth and fetal or neonatal hyperthyroidism.</paragraph>
+                        <paragraph>Because methimazole crosses placental membranes and can induce goiter and cretinism in the developing fetus, hyperthyroidism should be closely monitored in pregnant women and treatment adjusted such that a sufficient, but not excessive, dose be given during pregnancy. In many pregnant women, the thyroid dysfunction diminishes as the pregnancy proceeds; consequently, a reduction of dosage may be possible. In some instances, anti-thyroid therapy can be discontinued several weeks or months before delivery.</paragraph>
+                        <paragraph>Due to the rare occurrence of congenital malformations associated with methimazole use, it may be appropriate to use an alternative anti-thyroid medication in pregnant women requiring treatment for hyperthyroidism, particularly in the first trimester of pregnancy during organogenesis.</paragraph>
+                        <paragraph>Given the potential maternal adverse effects of propylthiouracil (e.g., hepatotoxicity), it may be preferable to switch from propylthiouracil to methimazole for the second and third trimesters.</paragraph>
+                     </text>
+                     <effectiveTime value="20260219"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L584da013-4825-480d-bced-15079fbb15c8">
+                     <id root="3b61366a-4d93-4134-aecc-4623d950b9a0"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>
+                        <content styleCode="italics">Nursing Mothers</content>
+                     </title>
+                     <text>
+                        <paragraph>Methimazole is present in breast milk. However, several studies found no effect on clinical status in nursing infants of mothers taking methimazole. A long-term study of 139 thyrotoxic lactating mothers and their infants failed to demonstrate toxicity in infants who are nursed by mothers receiving treatment with methimazole. Monitor thyroid function at frequent (weekly or biweekly) intervals.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L70c90977-258d-4615-9017-62c37b038cbc">
+                     <id root="a7c27233-d855-4f24-94ac-3c9cedaa3ea8"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>
+                        <content styleCode="italics">Pediatric Use</content>
+                     </title>
+                     <text>
+                        <paragraph>Because of postmarketing reports of severe liver injury in pediatric patients treated with propylthiouracil, methimazole is the preferred choice when an antithyroid drug is required for a pediatric patient <content styleCode="italics">[see <linkHtml href="#L11f0902f-e6aa-4467-8ee3-6cb8dc0a05a0">DOSAGE AND ADMINISTRATION</linkHtml>]</content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Laa1e95a7-a01f-438d-b559-f09931c08645">
+               <id root="cad58921-25fb-4c06-b3fa-9bb671738d1a"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Major adverse reactions (which occur with much less frequency than the minor adverse reactions) include inhibition of myelopoiesis (agranulocytosis, granulocytopenia, thrombocytopenia, and aplastic anemia), drug fever, a lupus-like syndrome, insulin autoimmune syndrome (which can result in hypoglycemic coma), hepatitis (jaundice may persist for several weeks after discontinuation of the drug), periarteritis, and hypoprothrombinemia. Nephritis occurs very rarely. There have been postmarketing case reports of acute pancreatitis.</paragraph>
+                  <paragraph>There are reports of a vasculitis, often associated with the presence of anti-neutrophilic cytoplasmic antibodies (ANCA), resulting in severe complications <content styleCode="italics">[see <linkHtml href="#Lee28f2b7-97e1-4fdd-95e8-70cfc343830f">WARNINGS</linkHtml>]</content>.</paragraph>
+                  <paragraph>Minor adverse reactions include skin rash, urticaria, nausea, vomiting, epigastric distress, arthralgia, paresthesia, loss of taste, abnormal loss of hair, myalgia, headache, pruritus, drowsiness, neuritis, edema, vertigo, skin pigmentation, jaundice, sialadenopathy, and lymphadenopathy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact AiPing Pharmaceutical, Inc. at 1-844-374-0016 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260210"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3d86ad54-bbe4-4c6f-90c5-6738a41849e9">
+               <id root="2943bb93-f17b-4a7a-a554-c081eeecb839"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260207"/>
+               <component>
+                  <section ID="Ldecccffa-4c30-420e-af95-af0ad37d7349">
+                     <id root="eaae4011-c3ed-4894-a9ce-32c061e0dcc1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Signs and Symptoms</content>
+                     </title>
+                     <text>
+                        <paragraph>Symptoms may include nausea, vomiting, epigastric distress, headache, fever, joint pain, pruritus, and edema. Aplastic anemia (pancytopenia) or agranulocytosis may be manifested in hours to days. Less frequent events are hepatitis, nephrotic syndrome, exfoliative dermatitis, neuropathies, and CNS stimulation or depression. No information is available on the median lethal dose of the drug or the concentration of methimazole in biologic fluids associated with toxicity and/or death.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L4b0f49b9-02a5-4bfe-ad18-04d284907fe8">
+                     <id root="541faaf2-9599-4a17-bbdb-b25028512775"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>
+                        <content styleCode="italics">Treatment</content>
+                     </title>
+                     <text>
+                        <paragraph>To obtain up-to-date information about the treatment of overdose, a good resource is your certified Regional Poison Control Center. In managing overdosage, consider the possibility of multiple drug overdoses, interaction among drugs, and unusual drug kinetics in the patient.</paragraph>
+                        <paragraph>
+                           <content>In the event of an overdose, appropriate supportive treatment should be initiated as dictated by the patient’s medical status.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L11f0902f-e6aa-4467-8ee3-6cb8dc0a05a0">
+               <id root="7e1eaa2b-8229-4b50-b8d6-35ac3b58ac6c"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Methimazole tablets are administered orally. The total daily dosage is usually given in 3 divided doses at approximately 8-hour intervals.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Adult -</content>
+                     </content>The initial daily dosage is 15 mg for mild hyperthyroidism, 30 to 40 mg for moderately severe hyperthyroidism, and 60 mg for severe hyperthyroidism, divided into 3 doses at 8-hour intervals. The maintenance dosage is 5 to 15 mg daily.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">
+                        <content styleCode="bold">Pediatric -</content>
+                     </content>Initially, the daily dosage is 0.4 mg/kg of body weight divided into 3 doses and given at 8-hour intervals. The maintenance dosage is approximately ½ of the initial dose.</paragraph>
+               </text>
+               <effectiveTime value="20260207"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L895f4548-3ceb-42b4-9222-880c70a041d3">
+               <id root="de426753-efec-4db7-be7f-654ddf9aef6d"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Methimazole Tablets USP, 5 mg are supplied as white, round, flat-faced, beveled-edged tablets with “VM” on one side and scored on the other.</paragraph>
+                  <paragraph>They are available in:</paragraph>
+                  <paragraph>         Bottles of 100, NDC 11788-011-01</paragraph>
+                  <paragraph>Methimazole Tablets USP, 10 mg are supplied as white, round, flat-faced, beveled-edged tablets with “XM” on one side and scored on the other.</paragraph>
+                  <paragraph>They are available in:</paragraph>
+                  <paragraph>         Bottles of 100, NDC 11788-012-01</paragraph>
+               </text>
+               <effectiveTime value="20260207"/>
+               <component>
+                  <section ID="Le2e297d2-49da-4fee-8f0a-398eb00fe7db">
+                     <id root="85958c43-92e0-43a5-90bb-ede8143db4de"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                        <paragraph>Dispense in a tight, light-resistant container.</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="L31e708a2-5ced-48f2-96f0-7b91314db26c">
+                     <id root="f6219019-f698-4dc9-8a7d-54cbc4226303"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Manufactured for:</content>
+                           <br/>AiPing Pharmaceutical, Inc.<br/>Hauppauge, NY 11788</paragraph>
+                        <paragraph>
+                           <content/>
+                        </paragraph>
+                        <paragraph>
+                           <content>LB1636</content>
+                        </paragraph>
+                        <paragraph>Revised: 01/2026</paragraph>
+                     </text>
+                     <effectiveTime value="20260207"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbb544fa5-f48d-40d9-9cb7-3a482a114849">
+               <id root="c61d69c1-d2f7-4123-afdb-89685b6fa86d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>Methimazole tablets USP, 5 mg</paragraph>
+                  <paragraph>Bottles of 100 Tablets, NDC 11788-011-01</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L99a35c06-2f40-4489-9592-c1a7885aec77"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <observationMedia ID="L99a35c06-2f40-4489-9592-c1a7885aec77">
+                     <text>Methimazole-5 mg-100s</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Methimazole-5 mg-100s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L8bfb708f-18d3-4a4a-b77f-af92d84ed84a">
+               <id root="04bd7207-d60b-4832-aa5b-4b90dd822fdb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>Methimazole tablets USP, 10 mg</paragraph>
+                  <paragraph>Bottles of 100 Tablets, NDC 11788-012-01</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L5e2db06c-cfd5-4220-ba37-59289d166d9e"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260219"/>
+               <component>
+                  <observationMedia ID="L5e2db06c-cfd5-4220-ba37-59289d166d9e">
+                     <text>Methimazole-10 mg-100s</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Methimazole-10 mg-100s.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

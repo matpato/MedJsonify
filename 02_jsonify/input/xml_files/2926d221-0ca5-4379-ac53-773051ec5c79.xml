@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2926d221-0ca5-4379-ac53-773051ec5c79"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>hydrALAZINE Hydrochloride Injection, USP</title>
+   <effectiveTime value="20260227"/>
+   <setId root="f3c806a4-b971-421c-bcb9-9979c6d7aaec"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="080548348" root="1.3.6.1.4.1.519.1"/>
+            <name>Meitheal Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="529111185" root="1.3.6.1.4.1.519.1"/>
+                        <name>Kindos Pharmaceuticals Co., Ltd.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="71288-205" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="dcl-dpl">
+               <id root="40d38f6b-e98a-488b-8297-8edc784964d2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20250603"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="71288-205" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>HYDRALAZINE HYDROCHLORIDE</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>HYDRALAZINE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="20" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="FD171B778Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Hydralazine Hydrochloride</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="26NAK24LS8" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDRALAZINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="71288-205-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" displayName="VIAL, SINGLE-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="25" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="71288-205-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20250602"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA217501" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20250602"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s1">
+               <id root="906ba742-09d9-4dc2-8a9f-86cdb4c198c1"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">(For Intramuscular or Intravenous Use)</content>
+                  </paragraph>
+                  <paragraph>meitheal®</paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20260227"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s3">
+               <id root="2230fb2f-50f8-4712-b52c-d76a091d8538"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION
+</title>
+               <text>
+                  <paragraph>Hydralazine Hydrochloride Injection, USP is an antihypertensive available in a 1 mL vial for intravenous and<br/>intramuscular administration. Hydralazine Hydrochloride Injection, USP is a sterile, nonpyrogenic colorless solution.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Each mL contains</content>:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Active</content>: Hydralazine Hydrochloride, USP, 20 mg<br/>
+                     <content styleCode="bold">Preservatives</content>: Methylparaben, NF, 0.65 mg; Propylparaben, NF, 0.35 mg<br/>
+                     <content styleCode="bold">Inactives</content>: Propylene Glycol, USP, 103.6 mg; Sodium Hydroxide and/or Hydrochloric Acid to adjust pH (3.4 to 4.4)<br/>and Water for Injection.</paragraph>
+                  <paragraph>
+                     <br/>Hydralazine Hydrochloride, USP is 1-hydrazinophthalazine monohydrochloride, and its structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L75bebc47-8c14-4bdc-9b2c-f82b46030368"/>
+                  </paragraph>
+                  <paragraph>Molecular Formula C<sub>8</sub>H<sub>8</sub>N<sub>4</sub>•HCl</paragraph>
+                  <paragraph>
+                     <br/>Hydralazine Hydrochloride, USP is a white to off-white, odorless crystalline powder. It is soluble in water, slightly<br/>soluble in alcohol, and very slightly soluble in ether. It melts at about 275°C, with decomposition, and has a molecular<br/>weight of 196.64.</paragraph>
+               </text>
+               <effectiveTime value="20260227"/>
+               <component>
+                  <observationMedia ID="L75bebc47-8c14-4bdc-9b2c-f82b46030368">
+                     <text>Structural Formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="formula.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s4">
+               <id root="b8f1cadb-47c4-40de-9c60-29db7cc06e0a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY
+</title>
+               <effectiveTime value="20231201"/>
+               <component>
+                  <section ID="s10">
+                     <id root="72e70f25-7dd0-4ca4-b6f9-ae732c129ff9"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <effectiveTime value="20231201"/>
+                     <component>
+                        <section ID="s11">
+                           <id root="aa14a52b-b768-4045-aa7d-b634f694a389"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>Although the precise mechanism of action of hydralazine is not fully understood, the major effects are on the<br/>cardiovascular system. Hydralazine apparently lowers blood pressure by exerting a peripheral vasodilating effect<br/>through a direct relaxation of vascular smooth muscle. Hydralazine, by altering cellular calcium metabolism, interferes<br/>with the calcium movements within the vascular smooth muscle that are responsible for initiating or maintaining the<br/>contractile state.</paragraph>
+                              <paragraph>The peripheral vasodilating effect of hydralazine results in decreased arterial blood pressure (diastolic more than<br/>systolic), decreased peripheral vascular resistance, and an increased heart rate, stroke volume and cardiac output.<br/>The preferential dilatation of arterioles, as compared to veins, minimizes postural hypotension and promotes the<br/>increase in cardiac output. Hydralazine usually increases renin activity in plasma, presumably as a result of increased<br/>secretion of renin by the renal juxtaglomerular cells in response to reflex sympathetic discharge. This increase in<br/>renin activity leads to the production of angiotensin II, which then causes stimulation of aldosterone and consequent<br/>sodium reabsorption. Hydralazine also maintains or increases renal and cerebral blood flow.</paragraph>
+                              <paragraph>The average maximal decrease in blood pressure usually occurs 10 to 80 minutes after administration of hydralazine<br/>hydrochloride injection. No other pharmacokinetic data on hydralazine hydrochloride injection are available.</paragraph>
+                           </text>
+                           <effectiveTime value="20231201"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s19">
+               <id root="8ff648ba-c496-4e78-abb2-4f25a9187ded"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE
+</title>
+               <text>
+                  <paragraph>Severe essential hypertension when the drug cannot be given orally or when there is an urgent need to lower blood pressure.</paragraph>
+               </text>
+               <effectiveTime value="20231201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s20">
+               <id root="995a5c4d-9c30-4dac-9089-3dbcaeff4586"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS
+</title>
+               <text>
+                  <paragraph>Hypersensitivity to hydralazine; coronary artery disease; mitral valvular rheumatic heart disease.</paragraph>
+               </text>
+               <effectiveTime value="20231201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s21">
+               <id root="19d44dcd-dc2a-49e5-abfa-a536ee46146f"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS
+</title>
+               <text>
+                  <paragraph>In a few patients hydralazine may produce a clinical picture simulating systemic lupus erythematosus including glomerulonephritis. In such patients hydralazine should be discontinued unless the benefit-to-risk determination requires continued antihypertensive therapy with this drug. Symptoms and signs usually regress when the drug is discontinued but residua have been detected many years later. Long-term treatment with steroids may be necessary (see <content styleCode="bold">
+                        <linkHtml href="#L197e06e0-504d-4e03-af79-64b24b867f60">PRECAUTIONS, Laboratory Tests</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20231201"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s24">
+               <id root="735b2fe1-366d-4b3b-9c4f-de5db1d72db4"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS
+</title>
+               <effectiveTime value="20231201"/>
+               <component>
+                  <section ID="s25">
+                     <id root="33f4e9ab-df5e-4264-a172-35342f2f176e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content>General</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>
+                           <content>Myocardial stimulation produced by hydralazine can cause anginal attacks and ECG changes of myocardial ischemia. The drug has been implicated in the production of myocardial infarction. It must, therefore, be used with caution in patients with suspected coronary artery disease.</content>
+                        </paragraph>
+                        <paragraph>The “hyperdynamic” circulation caused by hydralazine may accentuate specific cardiovascular inadequacies. For example, hydralazine may increase pulmonary artery pressure in patients with mitral valvular disease. The drug may reduce the pressor responses to epinephrine. Postural hypotension may result from hydralazine but is less common than with ganglionic blocking agents. It should be used with caution in patients with cerebral vascular accidents.</paragraph>
+                        <paragraph>In hypertensive patients with normal kidneys who are treated with hydralazine, there is evidence of increased renal blood flow and a maintenance of glomerular filtration rate. In some instances where control values were below normal, improved renal function has been noted after administration of hydralazine. However, as with any antihypertensive agent, hydralazine should be used with caution in patients with advanced renal damage.</paragraph>
+                        <paragraph>Peripheral neuritis, evidenced by paresthesia, numbness, and tingling, has been observed. Published evidence suggests an antipyridoxine effect, and that pyridoxine should be added to the regimen if symptoms develop.</paragraph>
+                     </text>
+                     <effectiveTime value="20231201"/>
+                     <component>
+                        <section ID="L197e06e0-504d-4e03-af79-64b24b867f60">
+                           <id root="f8e18894-81b0-489c-8162-dda83f1bf942"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Laboratory Tests</content>
+                              </paragraph>
+                              <paragraph>Complete blood counts and antinuclear antibody titer determinations are indicated before and periodically during prolonged therapy with hydralazine even though the patient is asymptomatic. These studies are also indicated if the patient develops arthralgia, fever, chest pain, continued malaise, or other unexplained signs or symptoms.</paragraph>
+                              <paragraph>A positive antinuclear antibody titer requires that the physician carefully weigh the implications of the test results against the benefits to be derived from antihypertensive therapy with hydralazine hydrochloride.</paragraph>
+                              <paragraph>Blood dyscrasias, consisting of reduction in hemoglobin and red cell count, leukopenia, agranulocytosis, and purpura, have been reported. If such abnormalities develop, therapy should be discontinued.</paragraph>
+                           </text>
+                           <effectiveTime value="20231201"/>
+                           <component>
+                              <section ID="L4e5940c0-5f88-4eba-ba60-a275a6574eda">
+                                 <id root="d93ba79e-1109-44b5-a070-e411b6ebc7fb"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Drug Interactions</content>
+                                    </paragraph>
+                                    <paragraph>MAO inhibitors should be used with caution in patients receiving hydralazine.</paragraph>
+                                    <paragraph>
+                                       <content>When other potent parenteral antihypertensive drugs, such as diazoxide, are used in combination with hydralazine, patients should be continuously observed for several hours for any excessive fall in blood pressure. Profound hypotensive episodes may occur when diazoxide injection and hydralazine injection are used concomitantly.</content>
+                                    </paragraph>
+                                 </text>
+                                 <effectiveTime value="20231201"/>
+                                 <component>
+                                    <section ID="Lc9318372-4c8b-4c70-b8d6-aecb5d2bf0d7">
+                                       <id root="aaff4e35-d368-4cb2-9a4e-510663c70517"/>
+                                       <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                       <text>
+                                          <paragraph>
+                                             <content styleCode="bold">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                                          </paragraph>
+                                          <paragraph>In a lifetime study in Swiss albino mice, there was a statistically significant increase in the incidence of lung tumors (adenomas and adenocarcinomas) of both male and female mice given hydralazine continuously in their drinking water at a dosage of about 250 mg/kg per day (about 80 times the maximum recommended human dose). In a 2-year carcinogenicity study of rats given hydralazine by gavage at dose levels of 15, 30 and 60 mg/kg/day (approximately 5 to 20 times the recommended human daily dosage), microscopic examination of the liver revealed a small, but statistically significant, increase in benign neoplastic nodules in male and female rats from the high-dose group and in female rats from the intermediate-dose group. Benign interstitial cell tumors of the testes were also significantly increased in male rats from the high-dose group. The tumors observed are common in aged rats and a significantly increased incidence was not observed until 18 months of treatment. Hydralazine was shown to be mutagenic in bacterial systems (Gene Mutation and DNA Repair) and in one of two rats and one rabbit hepatocyte<content styleCode="italics"> in vitro</content> DNA repair studies. Additional<content styleCode="italics"> in vivo</content> and <content styleCode="italics">in vitro</content> studies using lymphoma cells, germinal cells, and fibroblasts from mice, bone marrow cells from chinese hamsters and fibroblasts from human cell lines did not demonstrate any mutagenic potential for hydralazine.</paragraph>
+                                          <paragraph>The extent to which these findings indicate a risk to man is uncertain. While long-term clinical observation has not suggested that human cancer is associated with hydralazine use, epidemiologic studies have so far been insufficient to arrive at any conclusions.</paragraph>
+                                       </text>
+                                       <effectiveTime value="20231201"/>
+                                       <component>
+                                          <section ID="L6dc94477-4b13-4508-bf85-bb1f6ecac574">
+                                             <id root="a01136a1-769e-4100-9b99-148a403d9cb0"/>
+                                             <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                             <text>
+                                                <paragraph>
+                                                   <content styleCode="bold">Pregnancy</content>
+                                                </paragraph>
+                                                <paragraph>
+                                                   <content styleCode="italics">Teratogenic effects</content>
+                                                </paragraph>
+                                                <paragraph>Animal studies indicate that hydralazine is teratogenic in mice at 20 to 30 times the maximum daily human dose of 200 to 300 mg and possibly in rabbits at 10 to 15 times the maximum daily human dose, but that it is nonteratogenic in rats. Teratogenic effects observed were cleft palate and malformations of facial and cranial bones.</paragraph>
+                                                <paragraph>There are no adequate and well-controlled studies in pregnant women. Although clinical experience does not include any positive evidence of adverse effects on the human fetus, hydralazine should be used during pregnancy only if the expected benefit justifies the potential risk to the fetus.</paragraph>
+                                             </text>
+                                             <effectiveTime value="20231201"/>
+                                             <component>
+                                                <section ID="L207a9a0b-c88d-4b43-8ca8-4e259d7f53c5">
+                                                   <id root="97616e0a-7455-4619-a2f8-82122082a32d"/>
+                                                   <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                                   <text>
+                                                      <paragraph>
+                                                         <content styleCode="bold">Nursing Mothers</content>
+                                                      </paragraph>
+                                                      <paragraph>Hydralazine has been shown to be excreted in breast milk.</paragraph>
+                                                   </text>
+                                                   <effectiveTime value="20231201"/>
+                                                   <component>
+                                                      <section ID="L62c31cc6-e0e1-41e8-84ba-5003a4a31102">
+                                                         <id root="e8a604af-c664-43af-87a2-329085ef1e5b"/>
+                                                         <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                                         <text>
+                                                            <paragraph>
+                                                               <content styleCode="bold">Pediatric Use</content>
+                                                            </paragraph>
+                                                            <paragraph>Safety and effectiveness in pediatric patients have not been established in controlled clinical trials, although there is experience with the use of hydralazine hydrochloride in children. The usual recommended parenteral dosage, administered intramuscularly or intravenously, is 1.7 to 3.5 mg/kg of body weight daily, divided into four to six doses.</paragraph>
+                                                         </text>
+                                                         <effectiveTime value="20231201"/>
+                                                      </section>
+                                                   </component>
+                                                </section>
+                                             </component>
+                                          </section>
+                                       </component>
+                                    </section>
+                                 </component>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s32">
+               <id root="673d74ac-1661-43d5-beb3-3b2f16599a16"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS
+</title>
+               <effectiveTime value="20231205"/>
+               <component>
+                  <section ID="s33">
+                     <id root="079e5490-d345-4e94-8ae8-ea82cc916e9b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Adverse reactions with hydralazine hydrochloride are usually reversible when dosage is reduced. However, in some cases it may be necessary to discontinue the drug.</paragraph>
+                        <paragraph>The following adverse reactions have been observed, but there has not been enough systematic collection of data to support an estimate of their frequency.</paragraph>
+                        <table width="100%" styleCode="Noautorules">
+                           <caption/>
+                           <tbody>
+                              <tr>
+                                 <td>
+                                    <content styleCode="bold">Common:</content>
+                                 </td>
+                                 <td>Headache, anorexia, nausea, vomiting, diarrhea, palpitations, tachycardia, angina pectoris.</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top">
+                                    <content styleCode="bold">Less Frequent:</content>
+                                 </td>
+                                 <td>
+                                    <content styleCode="italics">Digestive</content>: constipation, paralytic ileus.<br/>
+                                    <content styleCode="italics">Cardiovascular</content>
+                                    <content styleCode="italics">:</content> hypotension, paradoxical pressor response, edema.<br/>
+                                    <content styleCode="italics">Respiratory</content>: dyspnea<br/>
+                                    <content styleCode="italics">Neurologic</content>: peripheral neuritis, evidenced by paresthesia, numbness, and tingling; dizziness; tremors; muscle cramps; psychotic reactions characterized by depression, disorientation, or anxiety.<br/>
+                                    <content styleCode="italics">Genitourinary</content>: difficulty in urination.<br/>
+                                    <content styleCode="italics">Hematologic</content>
+                                    <content styleCode="italics">:</content> blood dyscrasias, consisting of reduction in hemoglobin and red cell count, leukopenia, agranulocytosis, purpura; lymphadenopathy; splenomegaly.<br/>
+                                    <content styleCode="italics">Hypersensitive Reactions</content>
+                                    <content styleCode="italics">:</content> rash, urticaria, pruritus, fever, chills, arthralgia, eosinophilia, and, rarely, hepatitis.<br/>
+                                    <content styleCode="italics">Other</content>
+                                    <content styleCode="italics">:</content> nasal congestion, flushing, lacrimation, conjunctivitis.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Meitheal Pharmaceuticals Inc. at 1-844-824-8426 or FDA at 1-800-FDA-1088 or <content styleCode="underline">www.fda.gov/medwatch</content>.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20231205"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s34">
+                     <id root="21010d11-729a-40e0-8091-a5a6fabce717"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>OVERDOSAGE</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Acute Toxicity:</content>
+                           <content>     No deaths due to acute poisoning have been reported.</content>
+                        </paragraph>
+                        <paragraph>                             Highest known dose survived: adults, 10 g orally.<br/>                             Oral LD<sub>50</sub> in rats: 173 and 187 mg/kg.</paragraph>
+                     </text>
+                     <effectiveTime value="20231201"/>
+                     <component>
+                        <section ID="L04de0922-5622-4a00-9663-4584e40138de">
+                           <id root="4105d1cf-6180-4f62-b4a2-81d11b35fd10"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="bold">Signs and Symptoms</content>
+                              </paragraph>
+                              <paragraph>Signs and symptoms of overdosage include hypotension, tachycardia, headache, and generalized skin flushing.</paragraph>
+                              <paragraph>Complications can include myocardial ischemia and subsequent myocardial infarction, cardiac arrhythmia, and profound shock.</paragraph>
+                           </text>
+                           <effectiveTime value="20231201"/>
+                           <component>
+                              <section ID="L950b1c2c-f5fd-4066-b330-6b5314dc7abe">
+                                 <id root="e4cc6941-52e3-41b9-bb24-56b02fd1f709"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="bold">Treatment</content>
+                                    </paragraph>
+                                    <paragraph>There is no specific antidote.</paragraph>
+                                    <paragraph>Support of the cardiovascular system is of primary importance. Shock should be treated with plasma expanders. If possible, vasopressors should not be given, but if a vasopressor is required, care should be taken not to precipitate or aggravate cardiac arrhythmia.</paragraph>
+                                    <paragraph>Tachycardia responds to beta blockers. Digitalization may be necessary, and renal function should be monitored and supported as required.</paragraph>
+                                    <paragraph>No experience has been reported with extracorporeal or peritoneal dialysis.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20231201"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s37">
+               <id root="45f56a42-5a6d-494d-a8d0-2848ff6f68c4"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION
+</title>
+               <text>
+                  <paragraph>When there is urgent need, therapy in the hospitalized patient may be initiated intramuscularly or as a rapid intravenous bolus injection directly into the vein. Hydralazine hydrochloride injection should be used only when the drug cannot be given orally. The usual dose is 20 to 40 mg, repeated as necessary.</paragraph>
+                  <paragraph>Certain patients (especially those with marked renal damage) may require a lower dose. Blood pressure should be checked frequently. It may begin to fall within a few minutes after injection, with the average maximal decrease occurring in 10 to 80 minutes. In cases where there has been increased intracranial pressure, lowering the blood pressure may increase cerebral ischemia. Most patients can be transferred to oral hydralazine hydrochloride within 24 to 48 hours.</paragraph>
+                  <paragraph>The product should be used immediately after the vial is opened. It should not be added to infusion solutions. Hydralazine hydrochloride injection may discolor upon contact with metal; discolored solutions should be discarded.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+                  <paragraph>Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20220929"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s47">
+               <id root="9b340d29-f5c1-4a47-a907-8fa08aed6b02"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED
+</title>
+               <text>
+                  <paragraph>Hydralazine Hydrochloride Injection, USP is a colorless solution and is supplied as follows:</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <colgroup>
+                        <col width="25.567%" align="left"/>
+                        <col width="41.100%" align="left"/>
+                        <col width="33.333%" align="left"/>
+                     </colgroup>
+                     <tbody>
+                        <tr>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">NDC</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Hydralazine Hydrochloride for Injection, USP (20 mg per mL)</content>
+                           </td>
+                           <td align="justify" valign="top">
+                              <content styleCode="bold">Package Factor</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="justify" valign="top">71288-<content styleCode="bold">205</content>-02</td>
+                           <td align="justify" valign="top">20 mg per mL Single-Dose Vial</td>
+                           <td align="justify" valign="top">25 vials per carton</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260227"/>
+               <component>
+                  <section ID="s48">
+                     <id root="7bd96204-c8e6-460e-abd4-9166bbc7c0bf"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage </title>
+                     <text>
+                        <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Sterile, Nonpyrogenic.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">The container closure is not made with natural rubber latex.</content>
+                        </paragraph>
+                        <paragraph>
+                           <content>meitheal®</content>
+                        </paragraph>
+                        <paragraph>Mfd. for Meitheal Pharmaceuticals<br/>Chicago, IL 60631 (USA)<br/>©2025 Meitheal Pharmaceuticals Inc.</paragraph>
+                        <paragraph>Mfd. by Kindos Pharmaceuticals Co., Ltd.<br/>Chengdu, China 611731</paragraph>
+                        <paragraph>Product of India</paragraph>
+                        <paragraph>October 2025</paragraph>
+                        <paragraph>LB-513-V1</paragraph>
+                     </text>
+                     <effectiveTime value="20260227"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s50">
+               <id root="c57e0c4b-32f7-4984-8448-8d7be6876462"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – hydrALAZINE Hydrochloride Injection, USP 20 mg per mL Vial</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">205</content>-01</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content>
+                        <content styleCode="bold">hydrALAZINE Hydrochloride </content>
+                        <content styleCode="bold">Injection, USP</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg per mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous Use</content>
+                  </paragraph>
+                  <paragraph>1 mL Single-Dose Vial</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L40dc1fa3-1467-44ec-81f4-5381e1d092e7"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260227"/>
+               <component>
+                  <observationMedia ID="L40dc1fa3-1467-44ec-81f4-5381e1d092e7">
+                     <text>Principal Display Panel – hydrALAZINE Hydrochloride Injection, USP 20 mg per mL Vial</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="20mg-vial-v3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Le1b5ed64-8cb0-410e-8cf8-87167f5d7428">
+               <id root="332d83a9-aa58-4ae7-9baa-30178b28e517"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel – hydrALAZINE Hydrochloride Injection, USP 20 mg per mL Carton</title>
+               <text>
+                  <paragraph>NDC 71288-<content styleCode="bold">205</content>-02</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">hydrALAZINE Hydrochloride </content>
+                     <content styleCode="bold">Injection, USP</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">20 mg per mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">For Intramuscular or Intravenous</content>
+                     <content styleCode="bold"> Use</content>
+                  </paragraph>
+                  <paragraph>25 x 1 mL Single-Dose Vials</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L28bd9613-c4e9-400c-95c7-9c0921ea593f"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260227"/>
+               <component>
+                  <observationMedia ID="L28bd9613-c4e9-400c-95c7-9c0921ea593f">
+                     <text>Principal Display Panel – hydrALAZINE Hydrochloride Injection, USP 20 mg per mL Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="20mg-carton-v3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,2187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="69188bf8-5b67-4552-a561-9ff4d44a740b"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>VIENVA TM</title>
+   <effectiveTime value="20260303"/>
+   <setId root="f6825c1a-ba78-47aa-9622-12e59517ab1a"/>
+   <versionNumber value="7"/>
+   <author>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+            <name>A-S Medication Solutions</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="830016429" root="1.3.6.1.4.1.519.1"/>
+                        <name>A-S Medication Solutions</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="RELABEL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="50090-5580" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="690290e8-7920-4bcd-b9f4-c80c4cc935c4"/>
+               <code code="48780-1" displayName="SPL PRODUCT DATA ELEMENTS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20241111"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code codeSystem="2.16.840.1.113883.6.69" code="50090-5580"/>
+                        <name>VIENVA TM</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Levonorgestrel and Ethinyl Estradiol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="70700-118" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="3" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="50090-5580-0" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20210702"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="21"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="70700-808"/>
+                              <name>Vienva </name>
+                              <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Levonorgestrel and Ethinyl Estradiol</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="0.1" unit="mg"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="5W7SIA7YZW" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEVONORGESTREL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="5W7SIA7YZW" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>LEVONORGESTREL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="0.02" unit="mg"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="423D2T571U" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ETHINYL ESTRADIOL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="423D2T571U" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ETHINYL ESTRADIOL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>STARCH, CORN</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="68401960MK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CROSPOVIDONE (120 .MU.M)</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LACTOSE MONOHYDRATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM STEARATE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>POVIDONE K30</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA201088" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180315"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48325" displayName="WHITE" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="6" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">SZ;L2</value>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator unit="1" value="7"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <code codeSystem="2.16.840.1.113883.6.69" code="70700-809"/>
+                              <name>Vienva </name>
+                              <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>Inert</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ANHYDROUS LACTOSE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CURRY RED</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>KI203</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA201088" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20180315"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48328" displayName="PINK" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE">
+                                    <originalText>peach</originalText>
+                                 </value>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value unit="mm" value="6" xsi:type="PQ"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C48348" displayName="ROUND" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value value="1" xsi:type="INT"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value xsi:type="ST">SZ;J1</value>
+                              </characteristic>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA201088" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code codeSystem="1.0.3166.1.2.3" code="USA"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20180315"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <section>
+                     <id root="efc89894-812b-4e0a-9b44-4bd94352c5f4"/>
+                     <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+                     <effectiveTime value="20180403"/>
+                     <component>
+                        <observationMedia ID="MM266992138006">
+                           <text>fig-2</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="fig-2.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                     <component>
+                        <observationMedia ID="MM608774017674">
+                           <text>vienva-blister-new.jpg</text>
+                           <value xsi:type="ED" mediaType="image/jpeg">
+                              <reference value="vienva-blister-new.jpg"/>
+                           </value>
+                        </observationMedia>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_ee702680-e580-484d-86a9-7168468875a2">
+               <id root="533b91a9-90ba-4170-92b3-067c9559d07a"/>
+               <code code="42229-5" displayName="SPL UNCLASSIFIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Patients should be counseled that oral contraceptives do not protect against transmission of HIV (AIDS) and other sexually transmitted diseases (STDs) such as chlamydia, genital herpes, genital warts (human papillomavirus), gonorrhea, hepatitis B, and syphilis</content>.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_89865971-96c8-4f23-b1f8-023b49db4e54">
+               <id root="0a9e69d7-a954-4321-ab62-207069f6f4d5"/>
+               <code code="34089-3" displayName="DESCRIPTION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Each active, white tablet (21) contains 0.1 mg of levonorgestrel, d(-)-13β-ethyl-17α-ethinyl-17β-hydroxygon-4-en-3-one, a totally synthetic progestogen, and 0.02 mg of ethinyl estradiol, 17α-ethinyl-1,3,5(10)-estratriene-3, 17β-diol. </paragraph>
+                  <paragraph>The inactive ingredients present in the active tablet are: corn starch, crospovidone, lactose monohydrate, magnesium stearate, povidone, and pregelatinized starch.  </paragraph>
+                  <paragraph>The inactive ingredients present in the inert tablet are: corn starch, crospovidone, FD&amp;C Red # 40 lake, D&amp;C Yellow #10 lake, lactose anhydrous, magnesium stearate, povidone.</paragraph>
+                  <renderMultiMedia ID="id-353421303" referencedObject="e70f80ba-7292-4724-a9ff-d2385ccec1bb"/>
+               </text>
+               <effectiveTime value="20241003"/>
+               <component>
+                  <observationMedia ID="e70f80ba-7292-4724-a9ff-d2385ccec1bb">
+                     <text>Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_8e1a44a7-4af1-46c5-9b1e-541ce306ed61">
+               <id root="39342399-6df9-4577-a508-53d9a99a7522"/>
+               <code code="34090-1" displayName="CLINICAL PHARMACOLOGY SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Mode of Action</content>
+                  </paragraph>
+                  <paragraph>Combination oral contraceptives prevent pregnancy primarily by suppressing ovulation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Pharmacokinetics </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Absorption </content>
+                  </paragraph>
+                  <paragraph>No specific investigation of the absolute bioavailability of levonorgestrel and ethinyl estradiol in humans has been conducted. However, literature indicates that levonorgestrel is rapidly and completely absorbed after oral administration (bioavailability about 100%) and is not subject to first-pass metabolism. Ethinyl estradiol is rapidly and almost completely absorbed from the gastrointestinal tract but, due to first-pass metabolism in gut mucosa and liver, the bioavailability of ethinyl estradiol is between 38% and 48%. </paragraph>
+                  <paragraph>After a single dose of levonorgestrel and ethinyl estradiol to 22 women under fasting conditions, maximum serum concentrations of levonorgestrel are 2.8 ± 0.9 ng/mL (mean ± SD) at 1.6 ± 0.9 hours. At steady state, attained from day 19 onwards, maximum levonorgestrel concentrations of 6.0 ± 2.7 ng/mL are reached at 1.5 ± 0.5 hours after the daily dose. The minimum serum levels of levonorgestrel at steady state are 1.9 ± 1.0 ng/mL. Observed levonorgestrel concentrations increased from day 1 (single dose) to days 6 and 21 (multiple doses) by 34% and 96%, respectively <content styleCode="bold">(Figure 1).</content> Unbound levonorgestrel concentrations increased from day 1 to days 6 and 21 by 25% and 83%, respectively. The kinetics of total levonorgestrel are non-linear due to an increase in binding of levonorgestrel to sex hormone binding globulin (SHBG), which is attributed to increased SHBG levels that are induced by the daily administration of ethinyl estradiol.</paragraph>
+                  <paragraph>Following a single dose, maximum serum concentrations of ethinyl estradiol of 62 ± 21 pg/mL are reached at 1.5 ± 0.5 hours. At steady state, attained from at least day 6 onwards, maximum concentrations of ethinyl estradiol were 77 ± 30 pg/mL and were reached at 1.3 ± 0.7 hours after the daily dose. The minimum serum levels of ethinyl estradiol at steady state are 10.5 ± 5.1 pg/mL. Ethinyl estradiol concentrations did not increase from days 1 to 6, but did increase by 19% from days 1 to 21 <content styleCode="bold">(Figure 1).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FIGURE 1: Mean (SE) levonorgestrel and ethinyl estradiol serum concentrations in 22 subjects receiving Levonorgestrel and ethinyl estradiol (100 mcg levonorgestrel and 20 mcg ethinyl estradiol)</content>
+                  </paragraph>
+                  <paragraph/>
+                  <renderMultiMedia ID="id997231547" referencedObject="b1a323af-27c4-449a-a840-021505cc968e"/>
+                  <paragraph>
+                     <content styleCode="bold">Table 1</content> provides a summary of levonorgestrel and ethinyl estradiol pharmacokinetic parameters.</paragraph>
+                  <table width="504pt">
+                     <col width="6%"/>
+                     <col width="0%"/>
+                     <col width="1%"/>
+                     <col width="16%"/>
+                     <col width="0%"/>
+                     <col width="12%"/>
+                     <col width="0%"/>
+                     <col width="15%"/>
+                     <col width="16%"/>
+                     <col width="0%"/>
+                     <col width="17%"/>
+                     <col width="16%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="12" styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">TABLE I: MEAN (SD) PHARMACOKINETIC PARAMETERS OF LEVONORGESTREL AND ETHINYL ESTRADIOL OVER A 21-DAY DOSING PERIOD<br/>Levonorgestrel</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule" valign="top"/>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">C<sub>max </sub>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">T<sub>max </sub>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">AUC </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">CL/F </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Vλz/F </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">SHBG </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Day </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">ng/mL </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">h </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">ng•h/mL </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mL/h/kg </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">L/kg </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">nmol/L </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule" valign="middle">
+                              <paragraph>1 </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>2.75 (0.88) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>1.6 (0.9) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>35.2 (12.8) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>53.7 (20.8) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>2.66 (1.09) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>57 (18) </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>6 </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>4.52 (1.79) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.5 (0.7) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>46.0 (18.8)</paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>40.8 (14.5)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>2.05 (0.86) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>81 (25) </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>21 </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>6.00 (2.65)</paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.5 (0.5) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>68.3 (32.5) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>28.4 (10.3) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.43 (0.62) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>93 (40) </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" colspan="11" styleCode="Rrule Lrule Botrule" valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Unbound Levonorgestrel</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top"/>
+                           <td colspan="4" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">pg/mL </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">h </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">pg•h/mL </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">L/h/kg </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">L/kg </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">fu% </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="middle">
+                              <paragraph>1 </paragraph>
+                           </td>
+                           <td colspan="4" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>51.2 (12.9) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>1.6 (0.9) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>654 (201) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>2.79 (0.97) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>135.9 (41.8) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>1.92 (0.30) </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>6 </paragraph>
+                           </td>
+                           <td colspan="4" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>77.9 (22.0)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.5 (0.7) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>794 (240) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>2.24 (0.59) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>112.4 (40.5) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.80 (0.24) </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>21 </paragraph>
+                           </td>
+                           <td colspan="4" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>103.6 (36.9) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.5 (0.5) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1177 (452) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.57 (0.49) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>78.6 (29.7) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.78 (0.19) </paragraph>
+                           </td>
+                        </tr>
+                        <tr align="center">
+                           <td colspan="11" styleCode="Rrule Lrule Botrule" valign="middle">
+                              <paragraph>
+                                 <content styleCode="bold">Ethinyl Estradiol</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule" valign="top"/>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">pg/mL </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="3" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">h </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">pg•h/mL </content>
+                              </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">mL/h/kg </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">L/kg </content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule" valign="middle">
+                              <paragraph>1 </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>62.0 (20.5)</paragraph>
+                           </td>
+                           <td colspan="3" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>1.5 (0.5) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>653 (227) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>567 (204) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="middle">
+                              <paragraph>14.3 (3.7) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>6 </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>76.7 (29.9) </paragraph>
+                           </td>
+                           <td colspan="3" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>1.3 (0.7) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>604 (231) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>610 (196) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>15.5 (4.0)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>21 </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>82.3 (33.2) </paragraph>
+                           </td>
+                           <td colspan="3" styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>1.4 (0.6) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>776 (308) </paragraph>
+                           </td>
+                           <td colspan="2" styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>486 (179) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>12.4 (4.1) </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">Distribution </content>
+                  </paragraph>
+                  <paragraph>Levonorgestrel in serum is primarily bound to SHBG. Ethinyl estradiol is about 97% bound to plasma albumin. Ethinyl estradiol does not bind to SHBG, but induces SHBG synthesis. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Metabolism </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Levonorgestrel</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The most important metabolic pathway occurs in the reduction of the Δ4-3-oxo group and hydroxylation at positions 2α, 1β, and 16β, followed by conjugation. Most of the metabolites that circulate in the blood are sulfates of 3α,5β-tetrahydro-levonorgestrel, while excretion occurs predominantly in the form of glucuronides. Some of the parent levonorgestrel also circulates as 17β-sulfate. Metabolic clearance rates may differ among individuals by several-fold, and this may account in part for the wide variation observed in levonorgestrel concentrations among users. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Ethinyl estradiol</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Cytochrome P450 enzymes (CYP3A4) in the liver are responsible for the 2-hydroxylation that is the major oxidative reaction. The 2-hydroxy metabolite is further transformed by methylation and glucuronidation prior to urinary and fecal excretion. Levels of Cytochrome P450 (CYP3A) vary widely among individuals and can explain the variation in rates of ethinyl estradiol 2-hydroxylation. Ethinyl estradiol is excreted in the urine and feces as glucuronide and sulfate conjugates, and undergoes enterohepatic circulation. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Excretion </content>
+                  </paragraph>
+                  <paragraph>The elimination half-life for levonorgestrel is approximately 36 ± 13 hours at steady state. Levonorgestrel and its metabolites are primarily excreted in the urine (40% to 68%) and about 16% to 48% are excreted in feces. The elimination half-life of ethinyl estradiol is 18 ± 4.7 hours at steady state. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Special Populations </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Race</content>
+                  </paragraph>
+                  <paragraph>Based on the pharmacokinetic study with levonorgestrel and ethinyl estradiol , there are no apparent differences in pharmacokinetic parameters among women of different races. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hepatic Insufficiency </content>
+                  </paragraph>
+                  <paragraph>No formal studies have evaluated the effect of hepatic disease on the disposition of levonorgestrel and ethinyl estradiol . However, steroid hormones may be poorly metabolized in patients with impaired liver function. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Renal Insufficiency </content>
+                  </paragraph>
+                  <paragraph>No formal studies have evaluated the effect of renal disease on the disposition of levonorgestrel and ethinyl estradiol. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Drug-Drug Interactions </content>
+                  </paragraph>
+                  <paragraph>See <content styleCode="bold">
+                        <linkHtml href="#ID_5a73c4e9-cd0f-4837-839e-022fb02962e8">PRECAUTIONS</linkHtml> - Drug Interactions</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+               <component>
+                  <observationMedia ID="b1a323af-27c4-449a-a840-021505cc968e">
+                     <text>Figure 1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="image-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d64237d2-4bc0-4158-a7a1-77c8eb288f46">
+               <id root="f2a037c5-ee44-4b4c-a896-7e07c41db783"/>
+               <code code="34067-9" displayName="INDICATIONS &amp; USAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Vienva (levonorgestrel and ethinyl estradiol tablets, USP) is indicated for use by females of reproductive potential to prevent pregnancy.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Limitations of use</content>: The efficacy of levonorgestrel and ethinyl estradiol in women with a body mass index (BMI) of &gt; 35 kg/m<sup>2</sup> has not been adequately evaluated.</paragraph>
+                  <paragraph>In a clinical trial with levonorgestrel and ethinyl estradiol tablets, 1,477 subjects had 7,720 cycles of use and a total of 5 pregnancies were reported. This represents an overall pregnancy rate of 0.84 per 100 woman-years. This rate includes patients who did not take the drug correctly. One or more pills were missed during 1,479 (18.8%) of the 7,870 cycles; thus all tablets were taken during 6,391 (81.2%) of the 7,870 cycles. Of the total 7,870 cycles, a total of 150 cycles were excluded from the calculation of the Pearl index due to the use of backup contraception and/or missing 3 or more consecutive pills.</paragraph>
+                  <paragraph>The mean BMI of the study population was 24 kg/m<sup>2</sup>. Females with a BMI greater than 30 kg/m<sup>2</sup> accounted for 12.1% (n=179) of the study population. Females with a BMI over 35 kg/m<sup>2</sup> accounted for 4.3% (n=63) of the study population.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">
+               <id root="d0caa053-e2f8-4d5b-a4ea-72070a2f6892"/>
+               <code code="34070-3" displayName="CONTRAINDICATIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Combination oral contraceptives should not be used in women with any of the following conditions:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <paragraph>Thrombophlebitis or thromboembolic disorders</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>A history of deep-vein thrombophlebitis or thromboembolic disorders</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Cerebrovascular or coronary artery disease (current or past history)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Valvular heart disease with thrombogenic complications</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Thrombogenic rhythm disorders</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Hereditary or acquired thrombophilias</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Prolonged immobilization (especially with major surgery)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Diabetes with vascular involvement</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Headaches with focal neurological symptoms or migrane with aura</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Women with migrane who are 35 years or older</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Uncontrolled hypertension</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Known or suspected carcinoma of the breast or personal history of breast cancer</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Known or suspected estrogen- or progesterone sensitive malignancy</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Undiagnosed abnormal vaginal bleeding</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Cholestatic jaundice of pregnancy or jaundice with prior pill use</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Hepatic adenomas or carcinomas, or active liver disease</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Women who are receiving Hepatitis C drug combinations containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir, due to the potential for alanine aminotransferase (ALT) elevations (see <content styleCode="bold">
+                              <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>
+                           </content>, <content styleCode="bold">RISK OF LIVER ENZYME ELEVATIONS WITH CONCOMITANT HEPATITIS C TREATMENT).</content>
+                        </paragraph>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_bc24f6af-098b-4682-9333-b86832e0c55f">
+               <id root="c708c2fc-0344-45fb-87d9-148a519d545c"/>
+               <code code="34071-1" displayName="WARNINGS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>WARNINGS</title>
+               <text>
+                  <table width="100%">
+                     <col width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">WARNING: CIGARETTE SMOKING AND SERIOUS CARDIOVASCULAR EVENTS</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Cigarette smoking increases the risk of serious cardiovascular events from combined oral contraceptives (COC) use. This risk increases with age, particularly in women over 35 years of age, and with the number of cigarettes smoked. For this reason, COCs, including levonorgestrel and ethinyl estradiol, are contraindicated in women who are over 35 years of age and smoke.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The use of oral contraceptives is associated with increased risks of several serious conditions including venous and arterial thrombotic and thromboembolic events (such as myocardial infarction, thromboembolism, and stroke), hepatic neoplasia, gallbladder disease, and hypertension, although the risk of serious morbidity or mortality is very small in healthy women without underlying risk factors. The risk of morbidity and mortality increases significantly in the presence of other underlying risk factors such as certain inherited or acquired thrombophilias, hypertension, hyperlipidemias, obesity, diabetes, and surgery or trauma with increased risk of thrombosis (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>Practitioners prescribing oral contraceptives should be familiar with the following information relating to these risks. </paragraph>
+                  <paragraph>The information contained in this package insert is principally based on studies carried out in patients who used oral contraceptives with higher doses of estrogens and progestogens than those in common use today. The effect of long-term use of the oral contraceptives with lower doses of both estrogens and progestogens remains to be determined. </paragraph>
+                  <paragraph>Throughout this labeling, epidemiological studies reported are of two types: retrospective or case control studies and prospective or cohort studies. Case control studies provide a measure of the relative risk of disease, namely, a ratio of the incidence of a disease among oral contraceptive users to that among nonusers. The relative risk does not provide information on the actual clinical occurrence of a disease. Cohort studies provide a measure of attributable risk, which is the difference in the incidence of disease between oral-contraceptive users and nonusers. The attributable risk does provide information about the actual occurrence of a disease in the population. For further information, the reader is referred to a text on epidemiological methods.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1. Thromboembolic Disorders and Other Vascular Problems </content>
+                  </paragraph>
+                  <paragraph>Cardiovascular and Cerebrovascular Events</paragraph>
+                  <paragraph>Use of CHCs increases the risk of cardiovascular events and cerebrovascular events, such as myocardial infarction and stroke. The risk of these events with CHC use is greater in females with concomitant risk factors: age 35 years and older, smoking, hypertension, dyslipidemia, diabetes, or obesity. The risk increases with increasing age and with increasing number of cigarettes smoked.</paragraph>
+                  <paragraph>Venous Thromboembolism</paragraph>
+                  <paragraph>Use of CHCs also increases the risk of VTE, such as deep vein thrombosis and pulmonary embolism. The rate of VTE in females using COCs has been estimated to be 3 to 9 cases per 10,000 woman-years. The VTE risk should be considered in the context of relevant subpopulations of females of reproductive potential who are not taking CHCs (see <content styleCode="bold">
+                        <linkHtml href="#ID_5b89d06c-666b-4cdc-90d8-d33c4a4445d3">ADVERSE REACTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>Risk factors for VTE with CHC use include smoking, obesity, family history of VTE, and prolonged immobilization, in addition to other factors that contraindicate use of CHCs (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>
+                     </content>). The presence of multiple risk factors for VTE with CHC use may further increase the risk. The risk of VTE is highest during the first year of CHC use and when restarting hormonal contraception after a break of four weeks or longer. The risk of VTE returns to baseline approximately 3 months after CHC use is discontinued.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Postpartum Venous Thromboembolism</content>
+                  </paragraph>
+                  <paragraph>The risk of VTE is increased during the first six weeks postpartum. The risk is highest up to four weeks postpartum but remains higher than baseline until at least six weeks postpartum. The presence of multiple risk factors for VTE may further increase the risk. Obstetric complications may extend the elevated risk up to 12 weeks postpartum.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. Malignant Neoplasms</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Breast Cancer</content>
+                  </paragraph>
+                  <paragraph>Levonorgestrel and ethinyl estradiol is contraindicated in females who currently have or have had breast cancer because breast cancer may be hormonally sensitive (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>
+                     </content>). Epidemiology studies have not found a consistent association between use of combined oral contraceptives (COCs) and breast cancer risk. Studies do not show an association between ever (current or past) use of COCs and risk of breast cancer. However, some studies report a small increase in the risk of breast cancer among current or recent users (&lt;6 months since last use) and current users with longer duration of COC use (see <content styleCode="bold">
+                        <linkHtml href="#ID_5b89d06c-666b-4cdc-90d8-d33c4a4445d3">ADVERSE REACTIONS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cervical Cancer</content>
+                  </paragraph>
+                  <paragraph>Some studies suggest that oral contraceptive use has been associated with an increase in the risk of cervical intraepithelial neoplasia or invasive cervical cancer in some populations of women. However, there continues to be controversy about the extent to which such findings may be due to differences in sexual behavior and other factors.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Hepatic Neoplasia</content>
+                  </paragraph>
+                  <paragraph>Benign hepatic adenomas are associated with oral-contraceptive use, although the incidence of these benign tumors is rare in the United States. Indirect calculations have estimated the attributable risk to be in the range of 3.3 cases/100,000 for users, a risk that increases after four or more years of use. Rupture of rare, benign, hepatic adenomas may cause death through intra-abdominal hemorrhage.</paragraph>
+                  <paragraph>Studies from Britain have shown an increased risk of developing hepatocellular carcinoma in long-term (&gt;8 years) oral-contraceptive users. However, these cancers are extremely rare in the U.S. and the attributable risk (the excess incidence) of liver cancers in oral-contraceptive users approaches less than one per million users. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Risk of Liver Enzyme Elevations with Concomitant Hepatitis C Treatment</content>
+                  </paragraph>
+                  <paragraph>During clinical trials with the Hepatitis C combination drug regimen that contains ombitasvir/paritaprevir/ritonavir, with or without dasabuvir, ALT elevations greater than 5 times the upper limit of normal (ULN), including some cases greater than 20 times the ULN, were significantly more frequent in women using ethinyl estradiol-containing medications such as COCs. Discontinue levonorgestrel and ethinyl estradiol prior to starting therapy with the combination drug regimen ombitasvir/paritaprevir/ritonavir, with or without dasabuvir (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>).</content> Levonorgestrel and ethinyl estradiol can be restarted approximately 2 weeks following completion of treatment with the combination drug regimen.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Ocular Lesions</content>
+                  </paragraph>
+                  <paragraph>There have been clinical case reports of retinal thrombosis associated with the use of oral contraceptives that may lead to partial or complete loss of vision. Oral contraceptives should be discontinued if there is unexplained partial or complete loss of vision; onset of proptosis or diplopia; papilledema; or retinal vascular lesions. Appropriate diagnostic and therapeutic measures should be undertaken immediately. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6. Oral-Contraceptive Use Before or During Early Pregnancy</content>
+                  </paragraph>
+                  <paragraph>Extensive epidemiological studies have revealed no increased risk of birth defects in infants born to women who have used oral contraceptives prior to pregnancy. Studies also do not suggest a teratogenic effect, particularly insofar as cardiac anomalies and limb-reduction defects are concerned, when taken inadvertently during early pregnancy (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>).</content>
+                  </paragraph>
+                  <paragraph>It is recommended that for any patient who has missed two consecutive periods, pregnancy should be ruled out. If the patient has not adhered to the prescribed schedule, the possibility of pregnancy should be considered at the time of the first missed period. Oral-contraceptive use should be discontinued if pregnancy is confirmed. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">7. Gallbladder Disease</content>
+                  </paragraph>
+                  <paragraph>Combination oral contraceptives may worsen existing gallbladder disease and may accelerate the development of this disease in previously asymptomatic women. Earlier studies have reported an increased lifetime relative risk of gallbladder surgery in users of oral contraceptives and estrogens. More recent studies, however, have shown that the relative risk of developing gallbladder disease among oral-contraceptive users may be minimal. The recent findings of minimal risk may be related to the use of oral-contraceptive formulations containing lower hormonal doses of estrogens and progestogens. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8. Carbohydrate and Lipid Metabolic Effects</content>
+                  </paragraph>
+                  <paragraph>Oral contraceptives have been shown to cause glucose intolerance in a significant percentage of users. Carefully monitor females with prediabetes and diabetes who are using levonorgestrel and ethinyl estradiol. Levonorgestrel and ethinyl estradiol may decrease glucose tolerance.</paragraph>
+                  <paragraph>A small proportion of women will have persistent hypertriglyceridemia while on COCs. As discussed earlier (see <content styleCode="bold">
+                        <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#ID_5a73c4e9-cd0f-4837-839e-022fb02962e8">PRECAUTIONS</linkHtml>
+                     </content>), changes in serum triglycerides and lipoprotein levels have been reported in oral-contraceptive users.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">9. Elevated Blood Pressure</content>
+                  </paragraph>
+                  <paragraph>Levonorgestrel and ethinyl estradiol is contraindicated in women with uncontrolled hypertension or hypertension with vascular disease (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>
+                     </content>). For all females, including those with well-controlled hypertension, monitor blood pressure at routine visits and stop levonorgestrel and ethinyl estradiol if blood pressure rises significantly.</paragraph>
+                  <paragraph>An increase in blood pressure has been reported in females using CHCs, and this increase is more likely in older women with extended duration of use. The effect of CHCs on blood pressure may vary according to the progestin in the CHC.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10. Headache</content>
+                  </paragraph>
+                  <paragraph>Levonorgestrel and ethinyl estradiol is contraindicated in females who have headaches with focal neurological symptoms or have migraine headaches with aura, and in women over age 35 years who have migraine head aches with or without aura.</paragraph>
+                  <paragraph>The onset or exacerbation of migraine or development of headache with a new pattern that is recurrent, persistent, or severe requires discontinuation of oral contraceptives and evaluation of the cause. Consider discontinuation of levonorgestrel and ethinyl estradiol if there is an increased frequency or severity of migraines during CHC use (which may be prodromal of a cerebrovascular event; see <content styleCode="bold">
+                        <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>
+                     </content> and <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>
+                     </content>.)</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">11. Bleeding Irregularities</content>
+                  </paragraph>
+                  <paragraph>Unscheduled bleeding and spotting are sometimes encountered in patients on oral contraceptives, especially during the first three months of use. The type and dose of progestogen may be important. If bleeding persists or recurs, nonhormonal causes should be considered and adequate diagnostic measures taken to rule out malignancy or pregnancy in the event of unscheduled bleeding, as in the case of any abnormal vaginal bleeding. If pathology has been excluded, time or a change to another formulation may solve the problem. In the event of amenorrhea, pregnancy should be ruled out.</paragraph>
+                  <paragraph>Some women may encounter post-pill amenorrhea or oligomenorrhea (possibly with anovulation), especially when such a condition was preexistent.</paragraph>
+                  <paragraph>In the clinical trial with levonorgestrel 0.1 mg and ethinyl estradiol 0.02 mg tablets, unscheduled bleeding was defined as bleeding or spotting that occurred:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <paragraph>During cycle 1 on pill-pack Days 4 to 21, inclusive of a 28-day cycle.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>In subsequent cycles, on Days 5 to 21 inclusive or on pill-pack Days 1 to 4 inclusive if preceded by 2 consecutive days without bleeding or spotting.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>Based on subject diaries, the proportion of subjects reporting unscheduled bleeding or spotting per 28-day cycle decreased over time: 30.5% at Cycle 1 versus 18.2% at Cycle 12.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">12. Hereditary Angioedema</content>
+                  </paragraph>
+                  <paragraph>In women with hereditary angioedema, exogenous estrogens may induce or exacerbate symptoms of angioedema.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">13. Chloasma</content>
+                  </paragraph>
+                  <paragraph>Chloasma may occur, especially in women with a history of chloasma gravidarum. Advise women with a history of chloasma to avoid exposure to the sun or ultraviolet radiation while taking levonorgestrel and ethinyl estradiol .</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">14. Effect on Binding Globulins</content>
+                  </paragraph>
+                  <paragraph>The estrogen component of COCs may raise the serum concentrations of thyroxine-binding globulin, sex hormone-binding globulin, and cortisol-binding globulin. Monitor thyroid-stimulating hormone (TSH) levels for females receiving levonorgestrel and ethinyl estradiol and thyroid hormone replacement therapy concomitantly. Follow the recommendation for the thyroid hormone in accordance with its Prescribing Information.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5a73c4e9-cd0f-4837-839e-022fb02962e8">
+               <id root="4588aa23-f676-4a96-aa7f-e685b1f2b74c"/>
+               <code code="42232-9" displayName="PRECAUTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">1. General</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Patients should be counseled that oral contraceptives do not protect against transmission of HIV (AIDS) and other sexually transmitted diseases (STDs) such as chlamydia, genital herpes, genital warts, gonorrhea, hepatitis B, and syphilis.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. Physical Examination and Follow-Up</content>
+                  </paragraph>
+                  <paragraph>A periodic personal and family medical history and complete physical examination are appropriate for all women, including women using oral contraceptives. The physical examination, however, may be deferred until after initiation of oral contraceptives if requested by the woman and judged appropriate by the clinician. The physical examination should include special reference to blood pressure, breasts, abdomen, pelvic organs, and relevant laboratory tests. In case of undiagnosed, persistent, or recurrent abnormal vaginal bleeding, appropriate diagnostic measures should be conducted to rule out malignancy. Women with a strong family history of breast cancer or who have breast nodules should be monitored with particular care.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Lipid Disorders</content>
+                  </paragraph>
+                  <paragraph>Women who are being treated for hyperlipidemias should be followed closely if they elect to use oral contraceptives. Some progestogens may elevate LDL levels and may render the control of hyperlipidemias more difficult. (See <content styleCode="bold">
+                        <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>)</content>
+                  </paragraph>
+                  <paragraph>A small proportion of women will have adverse lipid changes while taking oral contraceptives. Nonhormonal contraception should be considered in women with uncontrolled dyslipidemias. Persistent hypertriglyceridemia may occur in a small population of combination oral contraceptive users. Elevations of plasma triglycerides may lead to pancreatitis and other complications.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Liver Function</content>
+                  </paragraph>
+                  <paragraph>If jaundice develops in any woman receiving such drugs, the medication should be discontinued. Steroid hormones may be poorly metabolized in patients with impaired liver function.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Fluid Retention</content>
+                  </paragraph>
+                  <paragraph>Oral contraceptives may cause some degree of fluid retention. They should be prescribed with caution, and only with careful monitoring, in patients with conditions which might be aggravated by fluid retention.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6. Depression</content>
+                  </paragraph>
+                  <paragraph>Monitor females with a history of depression and discontinue levonorgestrel and ethinyl estradiol if depression recurs to a serious degree. Data on the association of CHCs with onset of depression or exacerbation of existing depression are limited.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">7. Contact Lenses</content>
+                  </paragraph>
+                  <paragraph>Contact-lens wearers who develop visual changes or changes in lens tolerance should be assessed by an ophthalmologist.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">8. Gastrointestinal</content>
+                  </paragraph>
+                  <paragraph>Diarrhea and/or vomiting may reduce hormone absorption resulting in decreased serum concentrations. If a patient vomits or has diarrhea after taking an active tablet, instruct the patient to not take an additional active tablet on that day and to continue the regimen the next day as prescribed. In case of vomiting or diarrhea that continues for 48 hours or greater, instruct the patient to contact the health care provider and use back-up or alternative contraception until active tablets have been taken for 7 consecutive days after vomiting and diarrhea have resolved.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">9. Drug Interactions</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Concomitant Use with HCV Combination Therapy – Liver Enzyme Elevation</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Do not co-administer levonorgestrel and ethinyl estradiol with HCV drug combinations containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir, due to potential for ALT elevations (see <content styleCode="bold">
+                        <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>
+                     </content>, <content styleCode="bold">RISK OF LIVER ENZYME ELEVATIONS WITH CONCOMITANT HEPATITIS C TREATMENT).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Changes in Contraceptive Effectiveness Associated with Coadministration of Other Products</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Contraceptive effectiveness may be reduced when hormonal contraceptives are coadministered with antibiotics, anticonvulsants, and other drugs that increase the metabolism of contraceptive steroids. This could result in unintended pregnancy or breakthrough bleeding. Examples include rifampin, rifabutin, barbiturates, primidone, phenylbutazone, phenytoin, dexamethasone, carbamazepine, felbamate, oxcarbazepine, topiramate, griseofulvin, and modafinil. In such cases a back-up nonhormonal method of birth control should be considered.</paragraph>
+                  <paragraph>Several of the anti-HIV protease inhibitors have been studied with co-administration of oral combination hormonal contraceptives; significant changes (increase and decrease) in the plasma levels of the estrogen and progestin have been noted in some cases. The safety and efficacy of oral contraceptive products may be affected with coadministration of anti-HIV protease inhibitors. Healthcare providers should refer to the label of the individual anti-HIV protease inhibitors for further drug-drug interaction information.</paragraph>
+                  <paragraph>Herbal products containing St. John's Wort (Hypericum perforatum) may induce hepatic enzymes (cytochrome P 450) and p-glycoprotein transporter and may reduce the effectiveness of contraceptive steroids. This may also result in breakthrough bleeding.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Increase in Plasma Levels Associated with Co-Administered Drugs</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Co-administration of atorvastatin and certain oral contraceptives containing ethinyl estradiol increases AUC values for ethinyl estradiol by approximately 20%. Ascorbic acid and acetaminophen increase the bioavailability of ethinyl estradiol since these drugs act as competitive inhibitors for sulfation of ethinyl estradiol in the gastrointestinal wall, a known pathway of elimination for ethinyl estradiol. CYP 3A4 inhibitors such as indinavir, itraconazole, ketoconazole, fluconazole, and troleandomycin may increase plasma hormone levels. Troleandomycin may also increase the risk of intrahepatic cholestasis during coadministration with combination oral contraceptives.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Changes in Plasma Levels of Co-Administered Drugs</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Combination hormonal contraceptives containing some synthetic estrogens (eg, ethinyl estradiol) may inhibit the metabolism of other compounds. Increased plasma concentrations of cyclosporin, prednisolone and other corticosteroids, and theophylline have been reported with concomitant administration of oral contraceptives. Decreased plasma concentrations of acetaminophen and increased clearance of temazepam, salicylic acid, morphine, and clofibric acid, due to induction of conjugation (particularly glucuronidation), have been noted when these drugs were administered with oral contraceptives.</paragraph>
+                  <paragraph>Concomitant use of levonorgestrel and ethinyl estradiol may decrease lamotrigine exposure, which may reduce efficacy of lamotrigine. Adjust lamotrigine dosage as recommended in its Prescribing Information based on levonorgestrel and ethinyl estradiol initiation or discontinuation.</paragraph>
+                  <paragraph>Concomitant use of levonorgestrel and ethinyl estradiol may increase thyroid-binding globulin concentration. Monitor thyroid-stimulating hormone (TSH) level and follow the recommendation for the thyroid hormone in accordance with its Prescribing Information.</paragraph>
+                  <paragraph>The prescribing information of concomitant medications should be consulted to identify potential interactions.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">10. Interactions With Laboratory Tests</content>
+                  </paragraph>
+                  <paragraph>Certain endocrine- and liver-function tests and blood components may be affected by oral contraceptives:</paragraph>
+                  <paragraph>a. Increased prothrombin and factors VII, VIII, IX, and X; decreased antithrombin 3; increased norepinephrine-induced platelet aggregability.</paragraph>
+                  <paragraph>b. Increased thyroid-binding globulin (TBG) leading to increased circulating total thyroid hormone, as measured by protein-bound iodine (PBI), T<sub>4</sub> by column or by radioimmunoassay.</paragraph>
+                  <paragraph>c. Other binding proteins may be elevated in serum i.e., corticosteroid binding globulin (CBG), sex hormone-binding globulins (SHBG) leading to increased levels of total circulating corticosteroids and sex steroids respectively.</paragraph>
+                  <paragraph>d. Triglycerides may be increased and levels of various other lipids and lipoproteins may be affected.</paragraph>
+                  <paragraph>e. Glucose tolerance may be decreased.</paragraph>
+                  <paragraph>f. Serum folate levels may be depressed by oral-contraceptive therapy. This may be of clinical significance if a woman becomes pregnant shortly after discontinuing oral contraceptives.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">11. Carcinogenesis</content>
+                  </paragraph>
+                  <paragraph>See <content styleCode="bold">
+                        <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>
+                     </content> section<content styleCode="bold">.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">12. Pregnancy</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Risk Summary</content>
+                  </paragraph>
+                  <paragraph>There is no use for contraception in pregnancy; therefore, levonorgestrel and ethinyl estradiol should be discontinued during pregnancy. Epidemiologic studies and meta-analyses have not found an increased risk of genital or nongenital birth defects (including cardiac anomalies and limb-reduction defects) following exposure to COCs before conception or during early pregnancy.</paragraph>
+                  <paragraph>In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4 percent and 15 to 20 percent, respectively.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Data</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Human Data</content>
+                  </paragraph>
+                  <paragraph>Epidemiologic studies and meta-analyses have not found an increased risk of genital or nongenital birth defects (including cardiac anomalies and limb-reduction defects) following exposure to COCs before conception or during early pregnancy.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">13. Lactation</content>
+                  </paragraph>
+                  <paragraph>Contraceptive hormones and metabolites are present in human milk. CHCs can reduce milk production in breast-feeding females. This reduction can occur at any time but is less likely to occur once breast-feeding is well-established. The developmental and health benefits of breast-feeding should be considered along with the mother’s clinical need for levonorgestrel and ethinyl estradiol and any potential adverse effects on the breast-fed child from levonorgestrel and ethinyl estradiol or from the underlying maternal condition.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">14. Pediatric Use</content>
+                  </paragraph>
+                  <paragraph>Safety and efficacy of levonorgestrel and ethinyl estradiol tablets have been established in women of reproductive age. Safety and efficacy are expected to be the same for postpubertal adolescents under the age of 16 and for users 16 years and older. Use of levonorgestrel and ethinyl estradiol before menarche is not indicated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">15. Geriatric use</content>
+                  </paragraph>
+                  <paragraph>Levonorgestrel and ethinyl estradiol has not been studied in women over 65 years of age and is not indicated in this population.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">16. Body Mass Index</content>
+                  </paragraph>
+                  <paragraph>The safety and effectiveness of levonorgestrel and ethinyl estradiol in females with a BMI &gt; 35 kg/m<sup>2</sup> have not been adequately evaluated.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">17. Information for the Patient</content>
+                  </paragraph>
+                  <paragraph>See <content styleCode="bold">
+                        <linkHtml href="#ID_23c7cc66-6a53-406c-a5f1-48d6eb6033bc">Patient Labeling</linkHtml>
+                     </content> Printed Below.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5b89d06c-666b-4cdc-90d8-d33c4a4445d3">
+               <id root="ea375f9d-af51-4271-a2f3-18f9d3dcaa36"/>
+               <code code="34084-4" displayName="ADVERSE REACTIONS SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>An increased risk of the following serious adverse reactions (see <content styleCode="bold">
+                        <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>
+                     </content> section for additional information) has been associated with the use of oral contraceptives:</paragraph>
+                  <paragraph>Thromboembolic and thrombotic disorders and other vascular problems (including thrombophlebitis and venous thrombosis with or without pulmonary embolism, mesenteric thrombosis, arterial thromboembolism, myocardial infarction, cerebral hemorrhage, cerebral thrombosis), carcinoma of the reproductive organs and breasts, hepatic neoplasia (including hepatic adenomas or benign liver tumors), ocular lesions (including retinal vascular thrombosis), gallbladder disease, carbohydrate and lipid effects, elevated blood pressure, and headache including migraine.</paragraph>
+                  <paragraph>Five studies that compared breast cancer risk between ever-users (current or past use) of COCs and never-users of COCs reported no association between ever use of COCs and breast cancer risk, with effect estimates ranging from 0.90 - 1.12 (Figure 2).</paragraph>
+                  <paragraph>Three studies compared breast cancer risk between current or recent COC users (&lt;6 months since last use) and never users of COCs (Figure 2). One of these studies reported no association between breast cancer risk and COC use. The other two studies found an increased relative risk of 1.19 - 1.33 with current or recent use. Both of these studies found an increased risk of breast cancer with current use of longer duration, with relative risks ranging from 1.03 with less than one year of COC use to approximately 1.4 with more than 8-10 years of COC use.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Figure 2: Risk of Breast Cancer with Combined Oral Contraceptives</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM266992138006"/>
+                  </paragraph>
+                  <paragraph>RR = relative risk; OR = odds ratio; HR = hazard ratio. “ever COC” are females with current or past COC use; “never COC use” are females that never used COCs</paragraph>
+                  <paragraph>The following adverse reactions associated with the use of oral CHCs were identified in clinical studies or postmarketing reports. Because some of these reactions were reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. Common adverse reactions associated with oral CHCs are headache, abdominal pain, nausea, metrorrhagia, vaginal moniliasis and pain, acne, and vaginitis.</paragraph>
+                  <paragraph>Additional adverse reactions that have been reported include the following:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Eye disorder: intolerance to contact lenses, steepening of corneal curvature</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal disorders: Abdominal bloating, vomiting</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">General disorders and administration site conditions: Edema, fluid retention</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hepatobiliary disorders: Cholestatic jaundice</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Pyschiatric disorders: Change in libido, mood changes</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Reproductive system and breast disorders: Amenorrhea, breast tenderness, breast pain, breast enlargement, increased cervical mucous, change in menstrual flow, unscheduled bleeding</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and subcutaneous tissue disorders: Acne, melasma</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Vascular disorders: Budd-Chiari syndrome, aggravation of varicose veins</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6bd8a8f6-63b3-47fb-8ea2-8eb1a0b3d346">
+               <id root="a027b2fa-9700-4939-a0e1-afff904aa321"/>
+               <code code="34088-5" displayName="OVERDOSAGE SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Symptoms of oral contraceptive overdosage in adults and children may include nausea, vomiting, and drowsiness/fatigue; withdrawal bleeding may occur in females. There is no specific antidote and further treatment of overdose, if necessary, is directed to the symptoms.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_cd5772c2-4082-4eec-8c84-3d981ccda207">
+               <id root="955b773c-1d06-4ec3-9f94-2f617382f825"/>
+               <code code="34068-7" displayName="DOSAGE &amp; ADMINISTRATION SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>To achieve maximum contraceptive effectiveness, Vienva (levonorgestrel and ethinyl estradiol tablets, USP) must be taken exactly as directed and at intervals not exceeding 24 hours. The dosage of Vienva (levonorgestrel and ethinyl estradiol tablet, USP) is one white tablet daily for 21 consecutive days, followed by one peach inert tablet daily for 7 consecutive days, according to the prescribed schedule. It is recommended that Vienva (levonorgestrel and ethinyl estradiol tablet, USP) be taken at the same time each day. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">During The First Cycle Of Use</content>
+                  </paragraph>
+                  <paragraph>The possibility of ovulation and conception prior to initiation of medication should be considered. The patient should be instructed to begin taking Vienva (levonorgestrel and ethinyl estradiol tablet, USP) on either the first Sunday after the onset of menstruation (Sunday Start) or on Day 1 of menstruation (Day 1 Start).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sunday start</content>
+                  </paragraph>
+                  <paragraph>The patient is instructed to begin taking Vienva (levonorgestrel and ethinyl estradiol tablet, USP) on the first Sunday after the onset of menstruation. If menstruation begins on a Sunday, the first tablet (white) is taken that day. One white tablet should be taken daily for 21 consecutive days, followed by one peach inert tablet daily for 7 consecutive days. Withdrawal bleeding should usually occur within 3 days following discontinuation of white tablets and may not have finished before the next pack is started. During the first cycle, contraceptive reliance should not be placed on Vienva (levonorgestrel and ethinyl estradiol tablet, USP) until a white tablet has been taken daily for 7 consecutive days, and a nonhormonal back-up method of birth control should be used during those 7 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Day 1 start</content>
+                  </paragraph>
+                  <paragraph>During the first cycle of medication, the patient is instructed to begin taking Vienva (levonorgestrel and ethinyl estradiol tablet, USP) during the first 24 hours of her period (day one of her menstrual cycle). One white tablet should be taken daily for 21 consecutive days, followed by one peach inert tablet daily for 7 consecutive days. Withdrawal bleeding should usually occur within 3 days following discontinuation of white tablets and may not have finished before the next pack is started. If medication is begun on day one of the menstrual cycle, no back-up contraception is necessary. If Vienva (levonorgestrel and ethinyl estradiol tablet, USP) tablets are started later than day one of the first menstrual cycle or postpartum, contraceptive reliance should not be placed on Vienva<sup/>(levonorgestrel and ethinyl estradiol tablet, USP) tablets until after the first 7 consecutive days of administration, and a nonhormonal back-up method of birth control should be used during those 7 days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">After the first cycle of use</content>
+                  </paragraph>
+                  <paragraph>The patient begins her next and all subsequent courses of tablets on the day after taking her last peach tablet. She should follow the same dosing schedule: 21 days on white tablets followed by 7 days on peach tablets. If in any cycle the patient starts tablets later than the proper day, she should protect herself against pregnancy by using a nonhormonal back-up method of birth control until she has taken a white tablet daily for 7 consecutive days.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Switching from another hormonal method of contraception</content>
+                  </paragraph>
+                  <paragraph>When the patient is switching from a 21-day regimen of tablets, she should wait 7 days after her last tablet before she starts Vienva (levonorgestrel and ethinyl estradiol tablet, USP). She will probably experience withdrawal bleeding during that week. She should be sure that no more than 7 days pass after her previous 21-day regimen. When the patient is switching from a 28-day regimen of tablets, she should start her first pack of Vienva (levonorgestrel and ethinyl estradiol tablet, USP) on the day after her last tablet. She should not wait any days between packs. The patient may switch any day from a progestin-only pill and should begin Vienva (levonorgestrel and ethinyl estradiol tablet, USP) the next day. If switching from an implant or injection, the patient should start Vienva (levonorgestrel and ethinyl estradiol tablet, USP) on the day of implant removal or, if using an injection, the day the next injection would be due. In switching from a progestin-only pill, injection, implant, or intrauterine system (IUS), the patient should be advised to use additional nonhormonal contraception (such as condoms) until active tablets have been taken for 7 consecutive days of the first pack.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If spotting or breakthrough bleeding occurs</content>
+                  </paragraph>
+                  <paragraph>If spotting or breakthrough bleeding occur, the patient is instructed to continue on the same regimen. This type of bleeding is usually transient and without significance; however, if the bleeding is persistent or prolonged, the patient is advised to consult her physician.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Risk of pregnancy if tablets are missed</content>
+                  </paragraph>
+                  <paragraph>While there is little likelihood of ovulation occurring if only one or two white tablets are missed, the possibility of ovulation increases with each successive day that scheduled white tablets are missed. Although the occurrence of pregnancy is unlikely if Vienva (levonorgestrel and ethinyl estradiol tablet, USP) is taken according to directions, if withdrawal bleeding does not occur, the possibility of pregnancy must be considered. If the patient has not adhered to the prescribed schedule (missed one or more tablets or started taking them on a day later than she should have), the probability of pregnancy should be considered at the time of the first missed period and appropriate diagnostic measures taken. If the patient has adhered to the prescribed regimen and misses two consecutive periods, pregnancy should be ruled out.</paragraph>
+                  <paragraph>The risk of pregnancy increases with each active (white) tablet missed. For additional patient instructions regarding missed tablets, see the <content styleCode="bold">WHAT TO DO IF YOU MISS PILLS</content> section in the <content styleCode="bold">DETAILED PATIENT LABELING </content>below.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use after pregnancy, abortion or miscarriage</content>
+                  </paragraph>
+                  <paragraph>Vienva (levonorgestrel and ethinyl estradiol tablet, USP) may be initiated no earlier than day 28 postpartum in the nonlactating mother or after a second trimester abortion due to the increased risk for thromboembolism (see <content styleCode="bold">
+                        <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml>, <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>, </content>and <content styleCode="bold">
+                        <linkHtml href="#ID_5a73c4e9-cd0f-4837-839e-022fb02962e8">PRECAUTIONS</linkHtml>
+                     </content> concerning thromboembolic disease). The patient should be advised to use additional nonhormonal contraception (such as condoms) until active tablets have been taken for 7 consecutive days.</paragraph>
+                  <paragraph>Vienva (levonorgestrel and ethinyl estradiol tablet, USP) may be initiated immediately after a first trimester abortion or miscarriage. Instruct the patient to use additional nonhormonal contraception (such as condoms) until active tablets have been taken for 7 consecutive days, unless starting Vienva on the day of surgical abortion.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_208c2879-cee8-481d-bbdf-96fe36282295">
+               <id root="de617392-db5d-4bc5-9425-9a20c59cf9b4"/>
+               <code code="34069-5" displayName="HOW SUPPLIED SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Vienva (levonorgestrel and ethinyl estradiol tablets USP, 0.1 mg/0.02 mg) is available as follows:</paragraph>
+                  <paragraph>Each blister card contains 21 active tablets and 7 inactive tablets. The 21 active tablets are white, round, debossed with SZ on one side and L2 on the other side. The 7 inert tablets are peach, round, debossed with SZ on one side and J1 on the other side.</paragraph>
+                  <paragraph>NDC 70700-118-84, Carton containing 1 blister card.</paragraph>
+                  <paragraph>NDC 70700-118-85, Carton containing 3 blister cards.<br/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Store at 20° to 25°C (68° to 77°F). [See USP controlled room temperature</content>].</paragraph>
+                  <paragraph>The brands listed are the registered trademarks of their respective owners and are not trademarks of Xiromed, LLC.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">VIENVA<sup>®</sup>
+                     </content> is a registered trademark of Xiromed Pharma España, S.L.</paragraph>
+                  <paragraph>Manufactured by Laboratorios Leon Farma S.A., Spain </paragraph>
+                  <paragraph>for Xiromed, LLC., Florham Park, NJ 07932 </paragraph>
+                  <paragraph>Product of Spain </paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_23c7cc66-6a53-406c-a5f1-48d6eb6033bc">
+               <id root="c0ec4c57-4224-4391-b9c9-812b12e76488"/>
+               <code code="42230-3" displayName="SPL PATIENT PACKAGE INSERT SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>BRIEF SUMMARY PATIENT PACKAGE INSERT</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">This product (like all oral contraceptives) is intended to prevent pregnancy. Oral contraceptives do not protect against transmission of HIV (AIDS) and other sexually transmitted diseases (STDs) such as chlamydia, genital herpes, genital warts, gonorrhea, hepatitis B, and syphilis.</content>
+                  </paragraph>
+                  <paragraph>Oral contraceptives, also known as “birth-control pills” or “the pill,” are taken to prevent pregnancy, and when taken correctly, have a failure rate of approximately 1.0% per year (1 pregnancy per 100 women per year of use) when used without missing any pills. The average failure rate of large numbers of pill users is approximately 5% per year (5 pregnancies per 100 women per year of use) when women who miss pills are included. For most women oral contraceptives are also free of serious or unpleasant side effects. However, forgetting to take pills considerably increases the chances of pregnancy.</paragraph>
+                  <paragraph>For the majority of women, oral contraceptives can be taken safely. But there are some women who are at high risk of developing certain serious diseases that can be life-threatening or may cause temporary or permanent disability or death. The risks associated with taking oral contraceptives increase significantly if you:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <paragraph>smoke</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>have high blood pressure, diabetes, high cholesterol, or a tendency to form blood clots.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>have or have had clotting disorders, heart attack, stroke, angina pectoris, cancer of the breast or sex organs, jaundice, malignant or benign liver tumors, or major surgery with prolonged immobilization.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>have headaches with neurological symptoms.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>You should not take the pill if you take any Hepatitis C drug combination containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir. This may increase levels of the liver enzyme “alanine aminotransferase” (ALT) in the blood.</paragraph>
+                  <paragraph>You should not take the pill if you suspect you are pregnant or have unexplained vaginal bleeding.</paragraph>
+                  <paragraph>Although cardiovascular disease risks may be increased with oral-contraceptive use after age 40 in healthy, nonsmoking women, there are also greater potential health risks associated with pregnancy in older women.</paragraph>
+                  <table width="498pt">
+                     <col width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">WARNING: CIGARETTE SMOKING AND SERIOUS CARDIOVASCULAR EVENTS</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Cigarette smoking increases the risk of serious cardiovascular events from combined oral contraceptives (COC) use. This risk increases with age, particularly in women over 35 years of age, and with the number of cigarettes smoked. For this reason, COCs, including levonorgestrel and ethinyl estradiol, are contraindicated in women who are over 35 years of age and smoke (see <linkHtml href="#ID_9770d6cf-0a54-40f5-85a5-1be8521df32d">CONTRAINDICATIONS</linkHtml> and <linkHtml href="#ID_bc24f6af-098b-4682-9333-b86832e0c55f">WARNINGS</linkHtml>).</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Most side effects of the pill are not serious. The most common such effects are nausea, vomiting, bleeding between menstrual periods, weight gain, breast tenderness, and difficulty wearing contact lenses. These side effects, especially nausea and vomiting, may subside within the first three months of use. </paragraph>
+                  <paragraph>The serious side effects of the pill occur very infrequently, especially if you are in good health and do not smoke. However, you should know that the following medical conditions have been associated with or made worse by the pill: </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <paragraph>Blood clots in the legs (thrombophlebitis) and lungs (pulmonary embolism), blockage or rupture of a blood vessel in the brain (stroke), blockage of blood vessels in the heart (heart attack and angina pectoris) or other organs of the body. As mentioned above, smoking increases the risk of heart attacks and strokes and subsequent serious medical consequences. Women with migraine also may be at increased risk of stroke with pill use.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Liver tumors, which may rupture and cause severe bleeding. A possible but not definite association has been found with the pill and liver cancer. However, liver cancers are extremely rare. The chance of developing liver cancer from using the pill is thus even rarer.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>High blood pressure, although blood pressure usually returns to normal when the pill is stopped.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>The symptoms associated with these serious side effects are discussed in the detailed leaflet given to you with your supply of pills. Notify your health-care provider if you notice any unusual physical disturbances while taking the pill. In addition, drugs such as rifampin, as well as some anticonvulsants and some antibiotics, herbal preparations containing St. John's Wort (Hypericum perforatum), and HIV/AIDS drugs may decrease oral-contraceptive effectiveness. </paragraph>
+                  <paragraph>There may be slight increases in the risk of breast cancer among current users of hormonal birth control pills with longer duration of use of 8 years or more. </paragraph>
+                  <paragraph>Some studies have found an increase in the incidence of cancer of the cervix in women who use oral contraceptives. However, this finding may be related to factors other than the use of oral contraceptives.</paragraph>
+                  <paragraph>Be sure to discuss any medical condition you may have with your health-care provider. Your health-care provider will take a medical and family history before prescribing oral contraceptives and will examine you. The physical examination may be delayed to another time if you request it and the health-care provider believes that it is appropriate to postpone it. You should be reexamined at least once a year while taking oral contraceptives. The detailed patient information leaflet gives you further information which you should read and discuss with your health-care provider. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">HOW TO TAKE VIENVA </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT POINTS TO REMEMBER</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">BEFORE</content> YOU START TAKING VIENVA:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>BE SURE TO READ THESE DIRECTIONS:</item>
+                     <item>
+                        <caption> </caption>Before you start taking Vienva.</item>
+                     <item>
+                        <caption> </caption>And</item>
+                     <item>
+                        <caption> </caption>Anytime you are not sure what to do.</item>
+                     <item>
+                        <caption>2.</caption>THE RIGHT WAY TO TAKE THE PILL IS TO TAKE ONE PILL EVERY DAY AT THE SAME TIME.</item>
+                     <item>
+                        <caption> </caption>If you miss pills you could get pregnant. This includes starting the pack late. The more pills you miss, the more likely you are to get pregnant. See “WHAT TO DO IF YOU MISS PILLS” below.</item>
+                     <item>
+                        <caption>3.</caption>MANY WOMEN HAVE SPOTTING OR LIGHT BLEEDING, OR MAY FEEL SICK TO THEIR STOMACH DURING THE FIRST 1–3 PACKS OF PILLS.</item>
+                     <item>
+                        <caption> </caption>If you feel sick to your stomach, do not stop taking Vienva. The problem will usually go away. If it doesn't go away, check with your health-care provider.</item>
+                     <item>
+                        <caption>4.</caption>MISSING PILLS CAN ALSO CAUSE SPOTTING OR LIGHT BLEEDING, even when you make up these missed pills.</item>
+                     <item>
+                        <caption> </caption>On the days you take 2 pills to make up for missed pills, you could also feel a little sick to your stomach.</item>
+                     <item>
+                        <caption>5.</caption>IF YOU HAVE VOMITING (within 4 hours after you take your pill), you should follow the instructions for WHAT TO DO IF YOU MISS PILLS. IF YOU HAVE DIARRHEA or IF YOU TAKE SOME MEDICINES, including some antibiotics, your pills may not work as well.</item>
+                     <item>
+                        <caption> </caption>Use a back-up nonhormonal method (such as condoms or spermicide) until you check with your health-care provider.</item>
+                     <item>
+                        <caption>6.</caption>IF YOU HAVE TROUBLE REMEMBERING TO TAKE THE PILL, talk to your health-care provider about how to make pill-taking easier or about using another method of birth control.</item>
+                     <item>
+                        <caption>7.</caption>IF YOU HAVE ANY QUESTIONS OR ARE UNSURE ABOUT THE INFORMATION IN THIS LEAFLET, call your health-care provider.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">BEFORE</content> YOU START TAKING VIENVA </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>DECIDE WHAT TIME OF DAY YOU WANT TO TAKE YOUR PILL. It is important to take it at about the same time every day.</item>
+                     <item>
+                        <caption>2.</caption>LOOK AT YOUR PILL PACK.</item>
+                  </list>
+                  <paragraph>The pill pack has 21 “active” white pills (with hormones) to take for 3 weeks, followed by 1 week of reminder peach pills (without hormones).</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>3.</caption>FIND:</item>
+                     <item>
+                        <caption> </caption>1. where on the pack to start taking pills, and</item>
+                     <item>
+                        <caption> </caption>2. in what order to take the pills (follow the arrow).</item>
+                  </list>
+                  <renderMultiMedia referencedObject="MM608774017674"/>
+                  <list listType="ordered">
+                     <item>
+                        <caption>4.</caption>BE SURE YOU HAVE READY AT ALL TIMES:</item>
+                     <item>
+                        <caption> </caption>ANOTHER KIND OF BIRTH CONTROL (such as condoms or spermicide) to use as a back-up in case you miss pills.</item>
+                     <item>
+                        <caption> </caption>AN EXTRA, FULL PILL PACK.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WHEN TO START THE <content styleCode="italics">FIRST</content> PACK OF PILLS</content>
+                  </paragraph>
+                  <paragraph>You have a choice of which day to start taking your first pack of pills. </paragraph>
+                  <paragraph>Decide with your health-care provider which is the best day for you. Pick a time of day which will be easy to remember.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DAY 1 START</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Pick the day label strip that starts with the first day of your period. Place this day label strip over the area that has the days of the week (starting with Sunday) pre-printed on the blister pack.</item>
+                  </list>
+                  <paragraph>Note. If the first day of your period is a Sunday, you can skip step # 1.</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>2.</caption>Take the first “active” white pill of the first pack during the <content styleCode="italics">first 24 hours of your period</content>.</item>
+                     <item>
+                        <caption>3.</caption>You will not need to use a back-up nonhormonal method of birth control, since you are starting the pill at the beginning of your period.</item>
+                  </list>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">SUNDAY START</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take the first “active” white pill of the first pack on the <content styleCode="italics">Sunday after your period starts</content>, even if you are still bleeding. If your period begins on Sunday, start the pack that same day.</item>
+                     <item>
+                        <caption>2.</caption>
+                        <content styleCode="italics">Use a nonhormonal method of birth control</content> (such as condoms or spermicide) as a backup method if you have sex anytime from the Sunday you start your first pack until the next Sunday (7 days).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WHAT TO DO DURING THE MONTH</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take one pill at the same time every day until the pack is empty. </item>
+                     <item>
+                        <caption> </caption>Do not skip pills even if you are spotting or bleeding between monthly periods or feel sick to your stomach (nausea).</item>
+                     <item>
+                        <caption> </caption>Do not skip pills even if you do not have sex very often.</item>
+                     <item>
+                        <caption>2.</caption>When you finish a pack:</item>
+                  </list>
+                  <paragraph>Start the next pack on the day after your last “reminder” pill. Do not wait any days between packs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IF YOU SWITCH FROM ANOTHER BRAND OF COMBINATION PILLS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">If your previous brand had 21 pills</content>: Wait 7 days to start taking Vienva. You will probably have your period during that week. Be sure that no more than 7 days pass between the 21-day pack and taking the first white Vienva<sup>TM</sup> pill (“active” with hormone).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">If your previous brand had 28 pills</content>: Start taking the first white Vienva pill (“active” with hormone) on the day after your last reminder pill. Do not wait any days between packs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WHAT TO DO IF YOU MISS PILLS</content>
+                  </paragraph>
+                  <paragraph>Vienva may not be as effective if you miss white “active” pills, and particularly if you miss the first few or the last few white “active” pills in a pack.</paragraph>
+                  <paragraph>If you <content styleCode="bold">MISS 1</content> white "active" pill:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take it as soon as you remember. Take the next pill at your regular time. This means you may take 2 pills in 1 day.</item>
+                     <item>
+                        <caption>2.</caption>You COULD BECOME PREGNANT if you have sex in the <content styleCode="italics">7 days</content> after you restart your pills. You MUST use a nonhormonal birth-control method (such as condoms or spermicide) as a back-up for those 7 days.</item>
+                  </list>
+                  <paragraph>If you <content styleCode="bold">MISS 2</content> white "active" pills in a row in <content styleCode="bold">WEEK 1 OR WEEK 2</content> of your pack:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take 2 pills on the day you remember and 2 pills the next day.</item>
+                     <item>
+                        <caption>2.</caption>Then take 1 pill a day until you finish the pack.</item>
+                     <item>
+                        <caption>3.</caption>You COULD BECOME PREGNANT if you have sex in the 7 days after you restart your pills. You MUST use a nonhormonal birth-control method (such as condoms or spermicide) as a back-up for those 7 days.</item>
+                  </list>
+                  <paragraph>If you <content styleCode="bold">MISS 2</content> white "active" pills in a row in <content styleCode="bold">THE 3rd WEEK:</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Day 1 Starter:</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>THROW OUT the rest of the pill pack and start a new pack that same day.</item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Sunday Starter:</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>Keep taking 1 pill every day until Sunday.</item>
+                     <item>
+                        <caption> </caption>On Sunday, THROW OUT the rest of the pack and start a new pack of pills that same day.</item>
+                     <item>
+                        <caption>2.</caption>You may not have your period this month but this is expected</item>
+                     <item>
+                        <caption> </caption>However, if you miss your period 2 months in a row, call your health-care provider because you might be pregnant.</item>
+                     <item>
+                        <caption>3.</caption>You COULD BECOME PREGNANT if you have sex in the <content styleCode="italics">7 days </content>after you restart your pills. You MUST use a nonhormonal birth-control method (such as condoms or spermicide) as a back-up for those 7 days.</item>
+                  </list>
+                  <paragraph>If you <content styleCode="bold">MISS 3 OR MORE</content> white "active" pills in a row (during the first 3 weeks):</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Day 1 Starter:</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>THROW OUT the rest of the pill pack and start a new pack that same day.</item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Sunday Starter:</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>Keep taking 1 pill every day until Sunday.</item>
+                     <item>
+                        <caption> </caption>On Sunday, THROW OUT the rest of the pack and start a new pack of pills that same day.</item>
+                     <item>
+                        <caption>2.</caption>You may not have your period this month but this is expected.</item>
+                     <item>
+                        <caption> </caption>However, if you miss your period 2 months in a row, call your health-care provider because you might be pregnant.</item>
+                     <item>
+                        <caption>3.</caption>You COULD BECOME PREGNANT if you have sex in the <content styleCode="italics">7 days</content> after you restart your pills.</item>
+                     <item>
+                        <caption> </caption>You MUST use a nonhormonal birth-control method (such as condoms or spermicide) as a back-up for those 7 days.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you forget any of the 7 peach "reminder" pills in Week 4:</content>
+                  </paragraph>
+                  <paragraph>THROW AWAY the pills you missed.</paragraph>
+                  <paragraph>Keep taking 1 pill each day until the pack is empty.</paragraph>
+                  <paragraph>You do not need a back-up nonhormonal birth-control method if you start your next pack on time.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FINALLY, IF YOU ARE STILL NOT SURE WHAT TO DO ABOUT THE PILLS YOU HAVE MISSED</content>
+                  </paragraph>
+                  <paragraph>Use a BACK-UP NONHORMONAL BIRTH-CONTROL METHOD anytime you have sex.</paragraph>
+                  <paragraph>KEEP TAKING ONE PILL EACH DAY until you can reach your health-care provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">BIRTH CONTROL AFTER STOPPING THE PILL</content>
+                  </paragraph>
+                  <paragraph>If you do not wish to become pregnant after stopping the pill, speak to your health-care provider about another method of birth control.</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_3939ee11-4618-4dcd-9582-d766d604e59a">
+               <id root="aa1dd4ca-a0e8-4957-98a2-24c71dc7e8c8"/>
+               <code code="42230-3" displayName="SPL PATIENT PACKAGE INSERT SECTION" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>DETAILED PATIENT LABELING</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">This product (like all oral contraceptives) is intended to prevent pregnancy. Oral contraceptives do not protect against transmission of HIV (AIDS) and other sexually transmitted diseases (STDs) such as chlamydia, genital herpes, genital warts, gonorrhea, hepatitis B, and syphilis.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">INTRODUCTION </content>
+                  </paragraph>
+                  <paragraph>Any woman who considers using oral contraceptives (the “birth-control pill” or “the pill”) should understand the benefits and risks of using this form of birth control. This leaflet will give you much of the information you will need to make this decision and will also help you determine if you are at risk of developing any of the serious side effects of the pill. It will tell you how to use the pill properly so that it will be as effective as possible. However, this leaflet is not a replacement for a careful discussion between you and your health-care provider. You should discuss the information provided in this leaflet with him or her, both when you first start taking the pill and during your revisits. You should also follow your health-care provider’s advice with regard to regular check-ups while you are on the pill. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">EFFECTIVENESS OF ORAL CONTRACEPTIVES </content>
+                  </paragraph>
+                  <paragraph>Oral contraceptives or “birth-control pills” or “the pill” are used to prevent pregnancy and are more effective than most other nonsurgical methods of birth control. When they are taken correctly, without missing any pills, the chance of becoming pregnant is approximately 1% per year (1 pregnancy per 100 women per year of use). Typical failure rates are approximately 5% per year (5 pregnancies per 100 women per year of use) when women who miss pills are included. The chance of becoming pregnant increases with each missed pill during each 28-day cycle of use.</paragraph>
+                  <paragraph>In comparison, average failure rates for other methods of birth control during the first year of use are as follows:</paragraph>
+                  <table width="424.65pt">
+                     <col width="58%"/>
+                     <col width="31%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>IUD: 0.1-2% </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>Female condom alone: 21% </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>Depo-Provera® (injectable progestogen): 0.3% </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>Cervical cap </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>Norplant® System (levonorgestrel implants): 0.05%</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>   Never given birth: 20%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>Diaphragm with spermicides: 20%</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>   Given birth: 40%</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule" valign="top">
+                              <paragraph>Spermicides alone: 26% </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule" valign="top">
+                              <paragraph>Periodic abstinence: 25% </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>Male condom alone: 14% </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>No methods: 85% </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">WHO SHOULD NOT TAKE ORAL CONTRACEPTIVES</content>
+                  </paragraph>
+                  <table width="498pt">
+                     <col width="100%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule" valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">WARNING: CIGARETTE SMOKING AND SERIOUS CARDIOVASCULAR EVENTS</content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Cigarette smoking increases the risk of serious cardiovascular events from combined oral contraceptives (COC) use. This risk increases with age, particularly in women over 35 years of age, and with the number of cigarettes smoked. For this reason, COCs, including levonorgestrel and ethinyl estradiol, are contraindicated in women who are over 35 years of age and smoke.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Some women should not use the pill. For example, you should not take the pill if you have any of the following conditions:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <paragraph>History of heart attack or stroke.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Blood clots in the legs (thrombophlebitis), lungs (pulmonary embolism), or eyes.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>A history of blood clots in the deep veins of your legs.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>A problem with your blood that makes it clot more than normal.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Chest pain (angina pectoris).</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Known or suspected breast cancer or cancer sensitive to female hormones.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Unexplained vaginal bleeding (until a diagnosis is reached by your health-care provider).</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Liver tumor (benign or cancerous) or active liver disease.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Yellowing of the whites of the eyes or of the skin (jaundice) during pregnancy or during previous use of the pill.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Known or suspected pregnancy.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>A need for surgery with prolonged bedrest.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Heart valve or heart rhythm disorders that may be associated with formation of blood clots.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Diabetes affecting your circulation.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Certain kinds of severe migraine headaches with aura, numbness, weakness or changes in vision, or any migraine headaches if you are over 35 years of age.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Uncontrolled high blood pressure.</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>Tell your health-care provider if you have had any of these conditions. Your health-care provider can recommend another method of birth control.</paragraph>
+                  <paragraph>You should not take the pill if you take any Hepatitis C drug combination containing ombitasvir/paritaprevir/ritonavir, with or without dasabuvir. This may increase levels of the liver enzyme “alanine aminotransferase” (ALT) in the blood.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">OTHER CONSIDERATIONS BEFORE TAKING ORAL CONTRACEPTIVES </content>
+                  </paragraph>
+                  <paragraph>Tell your health-care provider if you have ever had:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <paragraph>An abnormal mammogram.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Diabetes.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Elevated cholesterol or triglycerides.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>High blood pressure.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>A tendency to form blood clots.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Migraine or other headaches or epilepsy.</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Depression</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Gallbladder, liver, heart, or kidney disease</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>History of scanty or irregular menstrual periods</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>Women with any of these conditions should be checked often by their health-care provider if they choose to use oral contraceptives. Also, be sure to inform your health-care provider if you smoke or are on any medications. </paragraph>
+                  <paragraph>Although cardiovascular disease risks may be increased with oral contraceptive use in healthy, non-smoking women over 40 (even with the newer low-dose formulations), there are also greater potential health risks associated with pregnancy in older women.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">RISKS OF TAKING ORAL CONTRACEPTIVES </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1. Risks of developing blood clots</content>
+                  </paragraph>
+                  <paragraph>Blood clots and blockage of blood vessels are the most serious side effects of taking oral contraceptives and can cause death or serious disability. In particular, a clot in the legs can cause thrombophlebitis and a clot that travels to the lungs can cause a sudden blocking of the vessel carrying blood to the lungs. Rarely, clots occur in the blood vessels of the eye and may cause blindness, double vision, or impaired vision. </paragraph>
+                  <paragraph>Users of combination oral contraceptives have a higher risk of developing blood clots compared to non-users. This risk is highest during the first year of combination oral-contraceptive use.</paragraph>
+                  <paragraph>If you take oral contraceptives and need elective surgery, need to stay in bed for a prolonged illness or injury, or have recently delivered a baby, you may be at risk of developing blood clots. You should consult your health-care provider about stopping oral contraceptives three to four weeks before surgery and not taking oral contraceptives for two weeks after surgery or during bed rest. You should also not take oral contraceptives soon after delivery of a baby or after a mid-trimester pregnancy termination. It is advisable to wait for at least four weeks after delivery if you are not breast-feeding. If you are breast-feeding, you should wait until you have weaned your child before using the pill. (See also the section <content styleCode="italics">While breast-feeding</content> in <content styleCode="bold">GENERAL PRECAUTIONS.)</content>
+                  </paragraph>
+                  <paragraph>The risk of blood clots is greater in users of combination oral contraceptives compared to nonusers. The risk of abnormal blood clotting increases with age in both users and nonusers of combination oral contraceptives, but the increased risk from the oral contraceptive appears to be present at all ages.</paragraph>
+                  <paragraph>The excess risk of blood clots is highest during the first year a woman ever uses a combined oral contraceptive. This increased risk is lower than blood clots associated with pregnancy. The use of combination oral contraceptives also increases the risk of other clotting disorders, including heart attack and stroke. Blood clots in veins cause death in 1% to 2% of cases. The risk of clotting is further increased in women with other conditions. Examples include: smoking, high blood pressure, abnormal lipid levels, certain inherited or acquired clotting disorders, obesity, surgery or injury with prolonged inactivity or bedrest, recent delivery or second trimester abortion. Discuss with your healthcare provider whether combination oral contraceptives should be stopped before surgery with prolonged inactivity or bedrest.</paragraph>
+                  <paragraph>Cigarette smoking increases the risk of serious cardiovascular events from COC use. This risk increases with age and amount of smoking and is quite pronounced in women over 35. Women who use combination oral contraceptives should be strongly advised not to smoke. If you smoke you should not use combination oral contraceptives.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. Heart attacks and strokes</content>
+                  </paragraph>
+                  <paragraph>Oral contraceptives may increase the tendency to develop strokes or transient ischemic attacks (blockage or rupture of blood vessels in the brain) and angina pectoris and heart attacks (blockage of blood vessels in the heart). Any of these conditions can cause death or serious disability. </paragraph>
+                  <paragraph>Smoking greatly increases the possibility of suffering heart attacks and strokes. Furthermore, smoking and the use of oral contraceptives greatly increase the chances of developing and dying of heart disease. </paragraph>
+                  <paragraph>Women with migraine (especially migraine/headache with neurological symptoms) who take oral contraceptives also may be at higher risk of stroke and must not use combination oral contraceptives (see section <content styleCode="bold">WHO SHOULD NOT TAKE ORAL CONTRACEPTIVES).</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Gallbladder disease</content>
+                  </paragraph>
+                  <paragraph>Oral-contraceptive users probably have a greater risk than non-users of having gallbladder disease. Oral-contraceptives may worsen existing gallbladder disease or accelerate the development of gallbladder disease in women previously without symptoms.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Liver tumors</content>
+                  </paragraph>
+                  <paragraph>In rare cases, oral contraceptives can cause benign but dangerous liver tumors. These benign liver tumors can rupture and cause fatal internal bleeding. In addition, a possible but not definite association has been found with the pill and liver cancers in two studies in which a few women who developed these very rare cancers were found to have used oral contraceptives for long periods. However, liver cancers are extremely rare. The chance of developing liver cancer from using the pill is thus even rarer.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Risk of Cancer</content>
+                  </paragraph>
+                  <paragraph>It is not known if hormonal birth control pills causes breast cancer. Some studies, but not all, suggest that there could be a slight increase in the risk of breast cancer among current users with longer duration of use. </paragraph>
+                  <paragraph>If you have breast cancer now, or have had it in the past, do not use hormonal birth control because some breast cancers are sensitive to hormones. </paragraph>
+                  <paragraph>Some studies have found an increase in the incidence of cancer of the cervix in women who use oral contraceptives. However, this finding may be related to factors other than the use of oral contraceptives.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6. Lipid Metabolism and Pancreatitis</content>
+                  </paragraph>
+                  <paragraph>There have been reports of increases of blood cholesterol and triglycerides in users of combination oral contraceptives. Increases in triglycerides have led to inflammation of the pancreas (pancreatitis) in some cases.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WARNING SIGNALS </content>
+                  </paragraph>
+                  <paragraph>If any of these adverse effects occur while you are taking oral contraceptives, call your health-care provider immediately:</paragraph>
+                  <list listType="unordered">
+                     <item>
+                        <paragraph>Sharp chest pain, coughing of blood, or sudden shortness of breath (indicating a possible clot in the lung)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Pain in the calf (indicating a possible clot in the leg)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Crushing chest pain or heaviness in the chest (indicating a possible heart attack)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Sudden severe headache or vomiting, dizziness or fainting, disturbances of vision or speech, weakness, or numbness in an arm or leg (indicating a possible stroke)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Sudden partial or complete loss of vision (indicating a possible clot in the eye)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Severe pain or tenderness in the stomach area (indicating a possibly ruptured liver tumor)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Difficulty in sleeping, weakness, lack of energy, fatigue, or change in mood (possibly indicating severe depression)</paragraph>
+                     </item>
+                     <item>
+                        <paragraph>Jaundice or a yellowing of the skin or eyeballs, accompanied frequently by fever, fatigue, loss of appetite, dark-colored urine, or light-colored bowel movements (indicating possible liver problems)</paragraph>
+                     </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">SIDE EFFECTS OF ORAL CONTRACEPTIVES </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1. Unscheduled or breakthrough vaginal bleeding or spotting</content>
+                  </paragraph>
+                  <paragraph>Unscheduled vaginal bleeding or spotting may occur while you are taking the pills. Unscheduled bleeding may vary from slight staining between menstrual periods to breakthrough bleeding which is a flow much like a regular period. Unscheduled bleeding occurs most often during the first few months of oral-contraceptive use, but may also occur after you have been taking the pill for some time. Such bleeding may be temporary and usually does not indicate any serious problems. It is important to continue taking your pills on schedule. If the bleeding occurs in more than one cycle or lasts for more than a few days, talk to your health-care provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. Possible cancer that is sensitive to female hormones or possible cancer of the cervix</content>
+                  </paragraph>
+                  <paragraph>Women who have or have ever had breast cancer, or any cancer sensitive to female hormones – such as skin cancer (melanoma), lung cancer, and brain cancer, should not use levonorgestrel and ethinyl estradiol. However, birth control pills do not seem to cause cancer.</paragraph>
+                  <paragraph>Women who use birth control pills may have a slightly higher chance of getting cervical cancer. However, this may be due to other reasons, such as having more sexual partners.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Contact lenses</content>
+                  </paragraph>
+                  <paragraph>If you wear contact lenses and notice a change in vision or an inability to wear your lenses, contact your health-care provider. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Fluid retention</content>
+                  </paragraph>
+                  <paragraph>Oral contraceptives may cause edema (fluid retention) with swelling of the fingers or ankles and may raise your blood pressure. If you experience fluid retention, contact your health-care provider. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Melasma</content>
+                  </paragraph>
+                  <paragraph>A spotty darkening of the skin is possible, particularly of the face. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">6. Other side effects</content>
+                  </paragraph>
+                  <paragraph>Other side effects may include nausea, breast tenderness, change in appetite, headache, nervousness, depression, dizziness, loss of scalp hair, rash, vaginal infections, inflammation of the pancreas, and allergic reactions.</paragraph>
+                  <paragraph>If any of these side effects bother you, call your health-care provider.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">GENERAL PRECAUTIONS </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">1. Missed periods and use of oral contraceptives before or during early pregnancy. </content>
+                  </paragraph>
+                  <paragraph>There may be times when you may not menstruate regularly after you have completed taking a cycle of pills. If you have taken your pills regularly and miss one menstrual period, continue taking your pills for the next cycle but be sure to inform your health-care provider before doing so. If you have not taken the pills daily as instructed and missed a menstrual period, or if you missed two consecutive menstrual periods, you may be pregnant. Check with your health-care provider immediately to determine whether you are pregnant. Stop taking oral contraceptives if you are pregnant. </paragraph>
+                  <paragraph>There is no conclusive evidence that oral-contraceptive use is associated with an increase in birth defects, when taken inadvertently during early pregnancy. Previously, a few studies had reported that oral contraceptives might be associated with birth defects, but these studies have not been confirmed. Nevertheless, oral contraceptives should not be used during pregnancy. You should check with your health-care provider about risks to your unborn child of any medication taken during pregnancy. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. While breast-feeding </content>
+                  </paragraph>
+                  <paragraph>If you are breast-feeding, consult your health-care provider before starting oral contraceptives. Some of the drug will be passed on to the child in the milk. A few adverse effects on the child have been reported, including yellowing of the skin (jaundice) and breast enlargement. In addition, oral contraceptives may decrease the amount and quality of your milk. If possible, do not use oral contraceptives while breast-feeding. You should use another method of contraception since breast-feeding provides only partial protection from becoming pregnant and this partial protection decreases significantly as you breast-feed for longer periods of time. You should consider starting oral contraceptives only after you have weaned your child completely. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3. Laboratory tests </content>
+                  </paragraph>
+                  <paragraph>If you are scheduled for any laboratory tests, tell your doctor you are taking birth-control pills. Certain blood tests may be affected by birth-control pills. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">4. Drug interactions </content>
+                  </paragraph>
+                  <paragraph>Certain drugs may interact with birth-control pills to make them less effective in preventing pregnancy or cause an increase in breakthrough bleeding. Such drugs include rifampin, drugs used for epilepsy such as barbiturates (for example, phenobarbital) and phenytoin (Dilantin® is one brand of this drug), primidone (Mysoline®), topiramate (Topamax®), carbamazepine (Tegretol® is one brand of this drug), phenylbutazone (Butazolidin® is one brand), some drugs used for HIV or AIDS such as ritonavir (Norvir®), modafinil (Provigil®) and possibly certain antibiotics (such as ampicillin and other penicillins, and tetracyclines), and herbal products containing St. John's Wort (Hypericum perforatum). You may also need to use a nonhormonal method of contraception during any cycle in which you take drugs that can make oral contraceptives less effective.</paragraph>
+                  <paragraph>You may be at higher risk of a specific type of liver dysfunction if you take troleandomycin and oral contraceptives at the same time. </paragraph>
+                  <paragraph>You should inform your health-care provider about all medicines you are taking, including nonprescription products.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">5. Sexually transmitted diseases</content>
+                  </paragraph>
+                  <paragraph>This product (like all oral contraceptives) is intended to prevent pregnancy. It does not protect against transmission of HIV (AIDS) and other sexually transmitted diseases such as chlamydia, genital herpes, genital warts, gonorrhea, hepatitis B, and syphilis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">HOW TO TAKE VIENVA </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT POINTS TO REMEMBER</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">BEFORE</content> YOU START TAKING VIENVA:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>BE SURE TO READ THESE DIRECTIONS:</item>
+                     <item>
+                        <caption> </caption>Before you start taking Vienva. </item>
+                     <item>
+                        <caption> </caption>And </item>
+                     <item>
+                        <caption> </caption>Anytime you are not sure what to do. </item>
+                     <item>
+                        <caption>2.</caption>THE RIGHT WAY TO TAKE THE PILL IS TO TAKE ONE PILL EVERY DAY AT THE SAME TIME. </item>
+                     <item>
+                        <caption> </caption>If you miss pills you could get pregnant. This includes starting the pack late. The more pills you miss, the more likely you are to get pregnant. See “WHAT TO DO IF YOU MISS PILLS” below.</item>
+                     <item>
+                        <caption>3.</caption>MANY WOMEN HAVE SPOTTING OR LIGHT BLEEDING, OR MAY FEEL SICK TO THEIR STOMACH DURING THE FIRST 1–3 PACKS OF PILLS.</item>
+                     <item>
+                        <caption> </caption>If you feel sick to your stomach, do not stop taking Vienva. The problem will usually go away. If it doesn’t go away, check with your health-care provider.</item>
+                     <item>
+                        <caption>4.</caption>MISSING PILLS CAN ALSO CAUSE SPOTTING OR LIGHT BLEEDING, even when you make up these missed pills.</item>
+                     <item>
+                        <caption> </caption>On the days you take 2 pills to make up for missed pills, you could also feel a little sick to your stomach. </item>
+                     <item>
+                        <caption>5.</caption>IF YOU HAVE VOMITING (within 4 hours after you take your pill), you should follow the instructions for WHAT TO DO IF YOU MISS PILLS. IF YOU HAVE DIARRHEA or IF YOU TAKE SOME MEDICINES, including some antibiotics, your pills may not work as well.</item>
+                     <item>
+                        <caption> </caption>Use a back-up nonhormonal method (such as condoms or spermicide) until you check with your health-care provider.</item>
+                     <item>
+                        <caption>6.</caption>IF YOU HAVE TROUBLE REMEMBERING TO TAKE THE PILL, talk to your health-care provider about how to make pill-taking easier or about using another method of birth control.</item>
+                     <item>
+                        <caption>7.</caption>IF YOU HAVE ANY QUESTIONS OR ARE UNSURE ABOUT THE INFORMATION IN THIS LEAFLET, contact your health-care provider. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">BEFORE</content> YOU START TAKING VIENVA</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>DECIDE WHAT TIME OF DAY YOU WANT TO TAKE YOUR PILL. It is important to take it at about the same time every day. </item>
+                     <item>
+                        <caption>2.</caption>LOOK AT YOUR PILL PACK. </item>
+                     <item>
+                        <caption> </caption>The pill pack has 21 “active” white pills (with hormones) to take for 3 weeks, followed by 1 week of reminder peach pills (without hormones). </item>
+                     <item>
+                        <caption>3.</caption>FIND: </item>
+                     <item>
+                        <caption> </caption>1. where on the pack to start taking pills, and </item>
+                     <item>
+                        <caption> </caption>2.  in what order to take the pills (follow the arrows). </item>
+                  </list>
+                  <list listType="ordered">
+                     <item>
+                        <renderMultiMedia referencedObject="MM608774017674"/>4.BE SURE YOU HAVE READY AT ALL TIMES:</item>
+                     <item>
+                        <caption> </caption>ANOTHER KIND OF BIRTH CONTROL (such as condoms or spermicide) to use as a back-up in case you miss pills.</item>
+                     <item>
+                        <caption> </caption>AN EXTRA, FULL PILL PACK. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WHEN TO START THE <content styleCode="italics">FIRST</content> PACK OF PILLS</content>
+                  </paragraph>
+                  <paragraph>You have a choice of which day to start taking your first pack of pills.</paragraph>
+                  <paragraph>Decide with your health-care provider which is the best day for you. Pick a time of day which will be easy to remember. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DAY 1 START: </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Pick the day label strip that starts with the first day of your period. Place this day label strip over the area that has the days of the week (starting with Sunday) pre-printed on the blister pack.</item>
+                  </list>
+                  <paragraph>Note. If the first day of your period is a Sunday, you can skip step # 1.</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>2.</caption>Take the first “active” white pill of the first pack during the <content styleCode="italics">first 24 hours of your period</content>.</item>
+                     <item>
+                        <caption>3.</caption>You will not need to use a back-up nonhormonal method of birth control, since you are starting the pill at the beginning of your period. </item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">SUNDAY START: </content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <paragraph>
+                           <caption>1.</caption>Take the first “active” white pill of the first pack on the <content styleCode="italics">Sunday after your period starts</content>, even if you are still bleeding. If your period begins on Sunday, start the pack that same day.</paragraph>
+                     </item>
+                     <item>
+                        <caption>2.</caption>
+                        <content styleCode="italics">Use a nonhormonal method of birth control</content> (such as condoms or spermicide) as a back-up method if you have sex anytime from the Sunday you start your first pack until the next Sunday (7 days).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">WHAT TO DO DURING THE MONTH</content>
+                  </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take one pill at the same time every day until the pack is empty.</item>
+                     <item>
+                        <caption> </caption>Do not skip pills even if you are spotting or bleeding between monthly periods or feel sick to your stomach (nausea). </item>
+                     <item>
+                        <caption> </caption>Do not skip pills even if you do not have sex very often.</item>
+                     <item>
+                        <caption>2.</caption>When you finish a pack:</item>
+                  </list>
+                  <paragraph>Start the next pack on the day after your last “reminder” pill. Do not wait any days between packs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IF YOU SWITCH FROM ANOTHER BRAND OF COMBINATION PILLS</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">If your previous brand had 21 pills:</content> Wait 7 days to start taking Vienva. You will probably have your period during that week. Be sure that no more than 7 days pass between the 21-day pack and taking the first white Vienva pill (“active” with hormone).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">If your previous brand had 28 pills: </content>Start taking the first white Vienva pill (“active” with hormone) on the day after your last reminder pill. Do not wait any days between packs.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">WHAT TO DO IF YOU MISS PILLS</content>
+                  </paragraph>
+                  <paragraph>Vienva<sup>TM</sup> may not be as effective if you miss white “active” pills, and particularly if you miss the first few or the last few white “active” pills in a pack.</paragraph>
+                  <paragraph>If you <content styleCode="bold">MISS 1</content> white "active" pill:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take it as soon as you remember. Take the next pill at your regular time. This means you may take 2 pills in 1 day.</item>
+                  </list>
+                  <paragraph>If you <content styleCode="bold">MISS 2</content> white “active” pills in a row in <content styleCode="bold">WEEK 1 OR WEEK 2</content> of your pack: </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Take 2 pills on the day you remember and 2 pills the next day. </item>
+                     <item>
+                        <caption>2.</caption>Then take 1 pill a day until you finish the pack. </item>
+                     <item>
+                        <caption>3.</caption>You COULD BECOME PREGNANT if you have sex in the 7 days after you restart your pills. You MUST use a nonhormonal birth-control method (such as condoms or spermicide) as a back-up for those 7 days. </item>
+                  </list>
+                  <paragraph>If you <content styleCode="bold">MISS 2</content> white “active” pills in a row in <content styleCode="bold">THE 3rd WEEK</content>: </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Day 1 Starter: </content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>THROW OUT the rest of the pill pack and start a new pack that same day. </item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Sunday Starter: </content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>Keep taking 1 pill every day until Sunday. </item>
+                     <item>
+                        <caption> </caption>On Sunday, THROW OUT the rest of the pack and start a new pack of pills that same day. </item>
+                     <item>
+                        <caption>2.</caption>You may not have your period this month but this is expected. However, if you miss your period 2 months in a row, call your health-care provider because you might be pregnant. </item>
+                     <item>
+                        <caption>3.</caption>You COULD BECOME PREGNANT if you have sex in the 7 days after you restart your pills. You MUST use a nonhormonal birth-control method (such as condoms, or spermicide) as a back-up for those 7 days. </item>
+                  </list>
+                  <paragraph>If you <content styleCode="bold">MISS 3 OR MORE</content> white “active” pills in a row (during the first 3 weeks): </paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>
+                        <content styleCode="bold">
+                           <content styleCode="italics">If you are a Day 1 Starter: </content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>THROW OUT the rest of the pill pack and start a new pack that same day.</item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="bold">If you are a Sunday Starter:</content>
+                     </item>
+                     <item>
+                        <caption> </caption>Keep taking 1 pill every day until Sunday.</item>
+                     <item>
+                        <caption> </caption>On Sunday, THROW OUT the rest of the pack and start a new pack of pills that same day. </item>
+                     <item>
+                        <caption>2.</caption>You may not have your period this month but this is expected. </item>
+                     <item>
+                        <caption> </caption>However, if you miss your period 2 months in a row, call your health-care provider because you might be pregnant.</item>
+                     <item>
+                        <paragraph>
+                           <caption>3.</caption>You COULD BECOME PREGNANT if you have sex in the <content styleCode="italics">7 days</content> after you restart pills.</paragraph>
+                     </item>
+                     <item>
+                        <caption> </caption>You MUST use a nonhormonal birth-control method (such as condoms or spermicide) as a back-up for those 7 days.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">If you forget any of the 7 peach “reminder” pills in Week 4:</content>
+                  </paragraph>
+                  <paragraph>THROW AWAY the pills you missed.</paragraph>
+                  <paragraph>Keep taking 1 pill each day until the pack is empty.</paragraph>
+                  <paragraph>You do not need a back-up nonhormonal birth-control method if you start your next pack on time.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">FINALLY, IF YOU ARE STILL NOT SURE WHAT TO DO ABOUT THE PILLS YOU HAVE MISSED </content>
+                  </paragraph>
+                  <paragraph>Use a BACK-UP NONHORMONAL BIRTH-CONTROL METHOD anytime you have sex. </paragraph>
+                  <paragraph>KEEP TAKING ONE PILL EACH DAY until you can reach your health-care provider.</paragraph>
+                  <paragraph>PREGNANCY DUE TO PILL FAILURE</paragraph>
+                  <paragraph>The incidence of pill failure resulting in pregnancy is approximately 1 per year (1 pregnancy per 100 women per year of use) if taken every day as directed, but the more typical failure rate is approximately 5% per year (5 pregnancies per 100 women per year of use) including women who do not always take the pill exactly as directed without missing any pills. If you do become pregnant, the risk to the fetus is minimal, but you should stop taking your pills and discuss the pregnancy with your health-care provider.</paragraph>
+                  <paragraph>PREGNANCY AFTER STOPPING THE PILL</paragraph>
+                  <paragraph>There may be some delay in becoming pregnant after you stop using oral contraceptives, especially if you had irregular menstrual cycles before you used oral contraceptives. It may be advisable to postpone conception until you begin menstruating regularly once you have stopped taking the pill and desire pregnancy. </paragraph>
+                  <paragraph>There does not appear to be any increase in birth defects in newborn babies when pregnancy occurs soon after stopping the pill. </paragraph>
+                  <paragraph>BIRTH CONTROL AFTER STOPPING THE PILL</paragraph>
+                  <paragraph>If you do not wish to become pregnant after stopping the pill, you should use another method of birth control immediately after stopping Vienva. Speak to your health-care provider about another method of birth control.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">OVERDOSAGE</content>
+                  </paragraph>
+                  <paragraph>Overdosage may cause nausea, vomiting, breast tenderness, dizziness, abdominal pain and fatigue/drowsiness. Withdrawal bleeding may occur in females. In case of overdosage, contact your health-care provider or pharmacist.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">OTHER INFORMATION</content>
+                  </paragraph>
+                  <paragraph>Your health-care provider will take a medical and family history before prescribing oral contraceptives and will examine you. The physical examination may be delayed to another time if you request it and your health-care provider believes that it is appropriate to postpone it. You should be re-examined at least once a year. Be sure to inform your health-care provider if there is a family history of any of the conditions listed previously in this leaflet. Be sure to keep all appointments with your health-care provider, because this is a time to determine if there are early signs of side effects of oral-contraceptive use. </paragraph>
+                  <paragraph>Do not use the drug for any condition other than the one for which it was prescribed. This drug has been prescribed specifically for you; do not give it to others who may want birth-control pills. </paragraph>
+                  <paragraph>If you want more information about birth-control pills, ask your health-care provider or pharmacist. They have a more technical leaflet called the Professional Labeling which you may wish to read. </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to Xiromed, LLC. at 1-844-XIROMED (844-947-6633) or FDA at 1-800-FDA-1088. </content>
+                  </paragraph>
+                  <paragraph>The brands listed are the registered trademarks of their respective owners and are not trademarks of Xiromed, LLC.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">VIENVA<sup>®</sup>
+                     </content> is a registered trademark of Xiromed Pharma España, S.L.</paragraph>
+                  <paragraph>Manufactured by Laboratorios Leon Farma S.A., Spain</paragraph>
+                  <paragraph>for Xiromed, LLC. Florham Park, NJ 07932</paragraph>
+                  <paragraph>Product of Spain</paragraph>
+                  <paragraph>PI-118-05</paragraph>
+                  <paragraph>Rev. 11/2024</paragraph>
+               </text>
+               <effectiveTime value="20241111"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="68b32459-74fa-4848-9a53-465f73dfd4ab"/>
+               <code code="51945-4" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL" codeSystem="2.16.840.1.113883.6.1"/>
+               <title>VIENVA TM (LEVONORGESTREL AND ETHINYL ESTRADIOL) KIT</title>
+               <text>
+                  <renderMultiMedia referencedObject="lbl500905580"/>
+               </text>
+               <effectiveTime value="20260303"/>
+               <component>
+                  <observationMedia ID="lbl500905580">
+                     <text>Label Image</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl500905580.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="15f285d1-4dc3-4533-841a-215e9dfbaa68"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>NYSTATIN ORAL SUSPENSION, USP</title>
+   <effectiveTime value="20260305"/>
+   <setId root="b25cbae5-eaf5-4501-b013-02c778ca4a4e"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="113290444" root="1.3.6.1.4.1.519.1"/>
+            <name>Genus Lifesciences Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="117090286" root="1.3.6.1.4.1.519.1"/>
+                        <name>TriRx Huntsville Pharmaceutical Services</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64950-372" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64950-372" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64950-372" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="64950-372" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="2cf9ebe7-165d-4338-bbf7-abe2b42a0f40"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260305"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64950-372" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NYSTATIN</name>
+                        <formCode code="C42994" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUSPENSION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>NYSTATIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="100000" unit="[USP'U]"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BDF1O1C72E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>nystatin</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BDF1O1C72E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>nystatin</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>alcohol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="K679OBS311" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOXYMETHYLCELLULOSE SODIUM, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Glycerin</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="A2I8C7HI9T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Methylparaben</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="L6Q8K29L05" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ETHYL MALTOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="SB8ZUX40TY" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Saccharin Sodium</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="1Q73Q2JULR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CITRATE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>Sucrose</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="BUC5I9595W" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHERRY</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="FV98Z8GITP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MINT</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2968PHW8QP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CITRIC ACID MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="473" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64950-372-47" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260324"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA065148" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260324"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73375" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CHERRY" xsi:type="CE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73404" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MINT" xsi:type="CE">
+                              <originalText>CHERRY MINT</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3c0d30ac-b373-45b6-acb6-5ddb2a0e4e5e"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">100,000 units per mL</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b6e02e84-72ec-48de-93c3-e402bad37a7a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Nystatin is an antimycotic polyene antibiotic obtained from <content styleCode="italics">Streptomyces noursei</content>.</paragraph>
+                  <paragraph>Structural formula:</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="50%" align="center" valign="top"/>
+                     <col width="10%" align="center" valign="top"/>
+                     <col width="40%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td colspan="3" align="center">
+                              <renderMultiMedia referencedObject="MM1"/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>C<sub>47</sub>H<sub>75</sub>NO<sub>17</sub>
+                           </td>
+                           <td/>
+                           <td>    MW = 926.13</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Nystatin Oral Suspension is a cherry-mint flavored suspension for oral administration. It contains 100,000 USP Nystatin Units per mL. Inactive ingredients: alcohol ( 1% v/v), carboxymethylcellulose sodium, flavor, glycerin, methylparaben, propylparaben, purified water, saccharin sodium, sodium citrate, and sucrose (50% w/v). May also contain citric acid for pH adjustment.</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nystatin-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="af774028-a0d3-4a95-b202-f00e2707b2e7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <section ID="pharmacokinetics">
+                     <id root="2cbcc7f1-ef0c-43b5-8ebc-74c0c59933b4"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Gastrointestinal absorption of nystatin is insignificant. Most orally administered nystatin is passed unchanged in the stool. In patients with renal insufficiency receiving oral therapy with conventional dosage forms, significant plasma concentrations of nystatin may occasionally occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="94ba0362-1b33-41e7-8df7-99c46764ab4f"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph>Nystatin is both fungistatic and fungicidal <content styleCode="italics">in vitro</content> against a wide variety of yeasts and yeast-like fungi. <content styleCode="italics">Candida albicans</content> demonstrates no significant resistance to nystatin <content styleCode="italics">in vitro</content> on repeated subculture in increasing levels of nystatin; other <content styleCode="italics">Candida</content> species become quite resistant. Generally, resistance does not develop <content styleCode="italics">in vivo</content>. Nystatin acts by binding to sterols in the cell membrane of susceptible <content styleCode="italics">Candida</content> species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d66cbf84-6058-4d53-9f1f-cb71e292128c"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Nystatin Oral Suspension is indicated for the treatment of candidiasis in the oral cavity.</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d937a821-e756-401d-a328-b9cc428632f6"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>The preparation is contraindicated in patients with a history of hypersensitivity to any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a6a1f703-c214-4fe2-a0a8-2c89d8a1e3fc"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <section ID="general">
+                     <id root="4556e31d-1bb0-407e-bbfe-d808dac8500b"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>This medication is not to be used for the treatment of systemic mycoses.</paragraph>
+                        <paragraph>Discontinue treatment if sensitization or irritation is reported during use.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6967b538-8563-4a10-8e67-ce8b174f4bd3"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>No long-term animal studies have been performed to evaluate carcinogenic potential. There also have been no studies to determine mutagenicity or whether this medication affects fertility in males or females.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a89afdf4-7788-45a1-8c6f-56adccac58b9"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20260305"/>
+                     <component>
+                        <section>
+                           <id root="17fb3868-4c5b-4f4e-baa4-63ba8d45115e"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects Category C</title>
+                           <text>
+                              <paragraph>Animal reproduction studies have not been conducted with nystatin oral suspension. It is also not known whether nystatin oral suspension can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Nystatin oral suspension should be given to a pregnant woman only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20260305"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="06aee560-a74c-4af6-b8bf-ba4d350fc96e"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether nystatin is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when nystatin is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="8377bc8d-3557-485e-9f1c-78d68b102664"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f1d3a707-37b7-4d4f-bda4-f7c93e6101a7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Nystatin is well tolerated even with prolonged therapy. Oral irritation and sensitization have been reported (See <content styleCode="bold">
+                        <linkHtml href="#general">PRECAUTIONS: General</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal:</content> Diarrhea (including one case of bloody diarrhea), nausea, vomiting, gastrointestinal upset/disturbances.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Dermatologic</content>: Rash, including urticaria has been reported rarely.</paragraph>
+                  <paragraph>Stevens-Johnson syndrome has been reported very rarely.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Other:</content> Tachycardia, bronchospasm, facial swelling, and non-specific myalgia have also been reported.</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="18252fb0-f3a0-4b58-8e3b-8684edeb4b5f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Oral doses of nystatin in excess of five million units daily have caused nausea and gastrointestinal upset. There have been no reports of serious toxic effects or superinfections (See <content styleCode="bold">
+                        <linkHtml href="#pharmacokinetics">CLINICAL PHARMACOLOGY, Pharmacokinetics</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="d36e770a-3ad2-4b0b-8e4e-0d08bc3b0734"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>INFANTS: 2 mL (200,000 units) four times daily (in infants and young children, use dropper to place one-half of dose in each side of mouth and avoid feeding for 5 to 10 minutes).</paragraph>
+                  <paragraph>NOTE: Limited clinical studies in premature and low birth weight infants indicate that 1 mL four times daily is effective.</paragraph>
+                  <paragraph>CHILDREN AND ADULTS: 4 to 6 mL (400,000 to 600,000 units) four times daily (one-half of dose in each side of mouth). The preparation should be retained in the mouth as long as possible before swallowing.</paragraph>
+                  <paragraph>Continue treatment for at least 48 hours after perioral symptoms have disappeared and cultures demonstrate eradication of <content styleCode="italics">Candida albicans</content>.</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d4ce2930-c9a8-4069-8048-5cd938b1e9bc"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Nystatin Oral Suspension, USP, 100,000 USP Nystatin Units per mL, is available as a cherry-mint flavored, light creamy yellow, ready-to-use suspension in 473 mL bottles.</paragraph>
+                  <paragraph>It is supplied as follows:</paragraph>
+                  <table width="60%" styleCode="Noautorules">
+                     <col width="50%" align="center" valign="top"/>
+                     <col width="50%" align="left" valign="top"/>
+                     <tbody>
+                        <tr>
+                           <td>NDC 64950-372-47</td>
+                           <td>473 mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <section>
+                     <id root="f56efaef-98d6-491c-902d-110247f36f2e"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>Store at 20°C to 25°C (68°F to 77°F) with excursions permitted between 15°C to 30°C (59°F to 86°F) [See USP Controlled Room Temperature]; avoid freezing.</paragraph>
+                     </text>
+                     <effectiveTime value="20260305"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="764a6549-c782-4186-8563-249e91a68442"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by: <br/> Genus Lifesciences Inc. <br/> Allentown, PA 18102</paragraph>
+                  <paragraph>Rev. 12/25</paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="eea4b6ec-cc0e-4695-a241-9c66171a5492"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 473 mL Bottle Label</title>
+               <text>
+                  <paragraph>NDC 64950-372-47</paragraph>
+                  <paragraph>Nystatin Oral <br/> Suspension, USP</paragraph>
+                  <paragraph>100,000 units per mL</paragraph>
+                  <paragraph>SHAKE WELL BEFORE USING</paragraph>
+                  <paragraph>EACH mL CONTAINS: 100,000 USP <br/> Nystatin Units in a vehicle containing <br/> 50% sucrose. Not more than 1% alcohol <br/> by volume.</paragraph>
+                  <paragraph>USUAL DOSAGE FOR INFANTS: <br/> 2 mL (200,000 units) four times daily <br/> (1 mL in each side of mouth).</paragraph>
+                  <paragraph>USUAL DOSAGE FOR CHILDREN <br/> AND ADULTS: See package insert.</paragraph>
+                  <paragraph>DISPENSE in tight, light-resistant <br/> container as defined in the USP.</paragraph>
+                  <paragraph>STORE at 20°C to 25°C (68°F to <br/> 77°F) with excursions permitted <br/> between 15°C to 30°C (59°F to 86°F) <br/> [See USP Controlled Room Temperature]; <br/> avoid freezing.</paragraph>
+                  <paragraph>1 Pint (473 mL)</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Genus™ <br/> Lifesciences Inc.</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 473 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nystatin-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

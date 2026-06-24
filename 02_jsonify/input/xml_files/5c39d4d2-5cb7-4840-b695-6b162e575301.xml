@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5c39d4d2-5cb7-4840-b695-6b162e575301"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nalmefene Hydrochloride Injection</title>
+   <effectiveTime value="20260501"/>
+   <setId root="3abfbffc-9e52-4fc6-ae92-6e0a97f4afe7"/>
+   <versionNumber value="7"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="118303883" root="1.3.6.1.4.1.519.1"/>
+            <name>Knoa Pharma LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="023050730" root="1.3.6.1.4.1.519.1"/>
+                        <name>PCI San Diego, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="59011-960" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="47d89f00-709d-4bac-bfe4-781ce3b90b07"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260501"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="59011-960" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NALMEFENE HYDROCHLORIDE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>NALMEFENE HYDROCHLORIDE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="1" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="K7K69QC05X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NALMEFENE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="TOV02TDP9I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NALMEFENE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator value="9" unit="mg"/>
+                              <denominator value="1" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="2" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="10" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="59011-960-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20220208"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA212955" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220208"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a37399d8-90a3-401f-b1be-d039c25e5d10"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="37a4add7-7530-4cec-8815-25b34c74b912"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection, an opioid antagonist, is a 6-methylene analogue of naltrexone. The chemical structure is shown below:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM1"/>
+                  </paragraph>
+                  <paragraph>Molecular Formula: C<sub>21</sub>H<sub>25</sub>NO<sub>3</sub>∙HCl</paragraph>
+                  <paragraph>Molecular Weight: 375.9, CAS # 58895-64-0</paragraph>
+                  <paragraph>Chemical Name: 17-(Cyclopropylmethyl)-4,5<content styleCode="italics">a</content>-epoxy-6-methylenemorphinan-3,14-diol, hydrochloride salt.</paragraph>
+                  <paragraph>Nalmefene hydrochloride is a white to off-white crystalline powder which is freely soluble in water up to 130 mg/mL and slightly soluble in chloroform up to 0.13 mg/mL, with a pK<sub>a</sub> of 7.6.</paragraph>
+                  <paragraph>Nalmefene hydrochloride injection is available as a sterile solution for intravenous, intramuscular, and subcutaneous administration in concentration of 1 mg of nalmefene free base per mL. The 1 mg/mL concentration contains 1.108 mg of nalmefene hydrochloride per mL, 9.0 mg of sodium chloride per mL, and the pH is adjusted to 3.9 with hydrochloric acid.</paragraph>
+                  <paragraph>Concentration and dosage of nalmefene hydrochloride injection are expressed as the free base equivalent of nalmefene.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nalmefene-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c3a6e8c3-16e7-4fc7-ac3d-ab705da4ee5a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="abbdd1fc-7662-4f1f-94c9-62dd2da4d46e"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection prevents or reverses the effects of opioids, including respiratory depression, sedation, and hypotension. Pharmacodynamic studies have shown that nalmefene hydrochloride injection has a longer duration of action than naloxone at fully reversing doses. Nalmefene hydrochloride injection has no opioid agonist activity.</paragraph>
+                        <paragraph>Nalmefene hydrochloride injection is not known to produce respiratory depression, psychotomimetic effects, or pupillary constriction. No pharmacological activity was observed when nalmefene hydrochloride injection was administered in the absence of opioid agonists.</paragraph>
+                        <paragraph>Nalmefene hydrochloride injection has not been shown to produce tolerance, physical dependence, or abuse potential.</paragraph>
+                        <paragraph>Nalmefene hydrochloride injection can produce acute withdrawal symptoms in individuals who are opioid dependent.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Pharmacokinetics">
+                     <id root="f9d55305-b10b-4833-b3cf-7361e324e600"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Nalmefene exhibited dose proportional pharmacokinetics following intravenous administration of 0.5 mg to 2 mg. Pharmacokinetic parameters for nalmefene after a 1 mg intravenous administration in adult male volunteers are listed in Table 1.</paragraph>
+                        <table width="80%">
+                           <caption>Table 1: Mean (CV%) Nalmefene Pharmacokinetic Parameters In Adult Males Following a 1 mg Intravenous Dose</caption>
+                           <col width="33%" align="left" valign="top"/>
+                           <col width="34%" align="center" valign="top"/>
+                           <col width="33%" align="center" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Parameter</th>
+                                 <th styleCode="Rrule">Young, N=18</th>
+                                 <th styleCode="Rrule">Elderly, N=11</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Age</td>
+                                 <td styleCode="Rrule">19 to 32</td>
+                                 <td styleCode="Rrule">62 to 80</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">C<sub>p</sub> at 5 min. (ng/mL)</td>
+                                 <td styleCode="Rrule">3.7 (29)</td>
+                                 <td styleCode="Rrule">5.8 (38)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">V<sub>dss</sub> (L/kg)</td>
+                                 <td styleCode="Rrule">8.6 (19)</td>
+                                 <td styleCode="Rrule">8.6 (29)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">V<sub>c</sub> (L/kg)</td>
+                                 <td styleCode="Rrule">3.9 (29)</td>
+                                 <td styleCode="Rrule">2.8 (41)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">AUC<sub>0-inf</sub> (ng-hr/mL)</td>
+                                 <td styleCode="Rrule">16.6 (27)</td>
+                                 <td styleCode="Rrule">17.3 (14)</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Terminal T<sub>1/2</sub> (hr)</td>
+                                 <td styleCode="Rrule">10.8 (48)</td>
+                                 <td styleCode="Rrule">9.4 (49)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">Cl<sub>plasma</sub> (L/hr/kg)</td>
+                                 <td styleCode="Rrule">0.8 (23)</td>
+                                 <td styleCode="Rrule">0.8 (18)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                     <component>
+                        <section>
+                           <id root="3528c1f6-3fab-4800-bc15-cd31b284bbaf"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>ABSORPTION</title>
+                           <text>
+                              <paragraph>Nalmefene was completely bioavailable following intramuscular or subcutaneous administration in 12 male volunteers relative to intravenous nalmefene. The relative bioavailabilities of intramuscular and subcutaneous routes of administration were 101.5% ± 8.1% (Mean ± SD) and 99.7% ± 6.9%, respectively. Nalmefene will be administered primarily as an intravenous bolus, however, nalmefene can be given intra-muscularly (IM) or subcutaneously (SC) if venous access cannot be established. While the time to maximum plasma nalmefene concentration was 2.3 ± 1.1 hours following intramuscular and 1.5 ± 1.2 hours following subcutaneous administrations, therapeutic plasma concentrations are likely to be reached within 5 to 15 minutes after a 1 mg dose in an emergency. Because of the variability in the speed of absorption for IM &amp; SC dosing, and the inability to titrate to effect, great care should be taken if repeated doses must be given by these routes.</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="6f158d0b-6457-4f01-a6c4-470ad2964e54"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>DISTRIBUTION</title>
+                           <text>
+                              <paragraph>Following a 1 mg parenteral dose, nalmefene was rapidly distributed. In a study of brain receptor occupancy, a 1 mg dose of nalmefene blocked over 80% of brain opioid receptors within 5 minutes after administration. The apparent volumes of distribution centrally (V<sub>c</sub>) and at steady-state (V<sub>dss</sub>) are 3.9 ± 1.1 L/kg and 8.6 ± 1.7 L/kg, respectively. Ultrafiltration studies of nalmefene have demonstrated that 45% (CV 4.1%) is bound to plasma proteins over a concentration range of 0.1 to 2 mcg/mL. An <content styleCode="italics">in vitro</content> determination of the distribution of nalmefene in human blood demonstrated that nalmefene distributed 67% (CV 8.7%) into red blood cells and 39% (CV 6.4%) into plasma. The whole blood to plasma ratio was 1.3 (CV 6.6%) over the nominal concentration range in whole blood from 0.376 to 30 ng/mL.</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="caeb3de6-fa69-48c7-9fec-f0beb2cc438a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>METABOLISM</title>
+                           <text>
+                              <paragraph>Nalmefene is metabolized by the liver, primarily by glucuronide conjugation, and excreted in the urine. Nalmefene is also metabolized to trace amounts of an N-dealkylated metabolite. Nalmefene glucuronide is inactive and the N-dealkylated metabolite has minimal pharmacological activity. Less than 5% of nalmefene is excreted in the urine unchanged. Seventeen percent (17%) of the nalmefene dose is excreted in the feces. The plasma concentration-time profile in some subjects suggests that nalmefene undergoes enterohepatic recycling.</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="8f23b492-9713-4de1-b33e-36e4cb87d64e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>ELIMINATION</title>
+                           <text>
+                              <paragraph>After intravenous administration of 1 mg nalmefene hydrochloride injection to normal males (ages 19 to 32), plasma concentrations declined biexponentially with a redistribution and a terminal elimination half-life of 41 ± 34 minutes and 10.8 ± 5.2 hours, respectively. The systemic clearance of nalmefene is 0.8 ± 0.2 L/hr/kg and the renal clearance is 0.08 ± 0.04 L/hr/kg.</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="c7b29c11-b575-4f8f-9966-f76f722c4927"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Special Populations</title>
+                           <effectiveTime value="20260501"/>
+                           <component>
+                              <section>
+                                 <id root="259bee91-9e4c-4aff-97da-1bf2d90e1e5b"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>ELDERLY</title>
+                                 <text>
+                                    <paragraph>Dose proportionality was observed in nalmefene AUC<sub>0-inf</sub> following 0.5 to 2 mg intravenous administration to elderly male subjects. Following a 1 mg intravenous nalmefene dose, there were no significant differences between young (19 to 32 years) and elderly (62 to 80 years) adult male subjects with respect to plasma clearance, steady-state volume of distribution, or half-life. There was an apparent age-related decrease in the central volume of distribution (young: 3.9 ± 1.1 L/kg, elderly: 2.8 ± 1.1 L/kg) that resulted in a greater initial nalmefene concentration in the elderly group. While initial nalmefene plasma concentrations were transiently higher in the elderly, it would not be anticipated that this population would require dosing adjustment. No clinical adverse events were noted in the elderly following the 1 mg intravenous nalmefene dose.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260501"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="3ff00f6d-0bc8-42f4-be86-5a037e1b5e08"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>PATIENTS WITH HEPATIC IMPAIRMENT</title>
+                                 <text>
+                                    <paragraph>Subjects with hepatic disease, when compared to matched normal controls, had a 28.3% decrease in plasma clearance of nalmefene (0.56 ± 0.21 L/hr/kg versus 0.78 ± 0.24 L/hr/kg, respectively). Elimination half-life increased from 10.2 ± 2.2 hours to 11.9 ± 2.0 hours in the hepatically impaired. No dosage adjustment is recommended since nalmefene will be administered as an acute course of therapy.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260501"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="ea24863c-521e-412e-b606-5499773ce5c6"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>PATIENTS WITH RENAL IMPAIRMENT</title>
+                                 <text>
+                                    <paragraph>There was a statistically significant 27% decrease in plasma clearance of nalmefene in the end-stage renal disease (ESRD) population during interdialysis (0.57 ± 0.20 L/hr/kg) and a 25% decreased plasma clearance in the ESRD population during intradialysis (0.59 ± 0.18 L/hr/kg) compared to normal patients (0.79 ± 0.24 L/hr/kg). The elimination half-life was prolonged in ESRD patients from 10.2 ± 2.2 hours in normal patients to 26.1 ± 9.9 hours (see <content styleCode="bold">
+                                          <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                                       </content>).</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260501"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="3decabbf-c0fc-4760-a686-ba1fa5435de6"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>GENDER DIFFERENCES</title>
+                                 <text>
+                                    <paragraph>There has not been sufficient pharmacokinetic study to make a definitive statement as to whether the pharmacokinetics of nalmefene differs between the genders.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260501"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c4bb2502-a900-49a2-8f3f-cc19709741b4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>CLINICAL TRIALS</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection has been administered to reverse the effects of opioids after general anesthesia and in the treatment of overdose. It has also been used to reverse the systemic effects of intrathecal opioids.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="d1347eb0-56ce-438e-a7af-053320edeb3c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Reversal of Postoperative Opioid Depression</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection (N=326) was studied in 5 controlled trials in patients who had received morphine or fentanyl intraoperatively. The primary efficacy criterion was the reversal of respiratory depression. A positive reversal was defined as both an increase in respiratory rate by 5 breaths per minute and a minimum respiratory rate of 12 breaths per minute. Five minutes after administration, initial single nalmefene hydrochloride injection doses of 0.1, 0.25, 0.5, or 1 mcg/kg had effectively reversed respiratory depression in a dose-dependent manner. Twenty minutes after initial administration, respiratory depression had been effectively reversed in most patients receiving cumulative doses within the recommended range (0.1 to 1 mcg/kg). Total doses of nalmefene hydrochloride injection above 1 mcg/kg did not increase the therapeutic response. The postoperative administration of nalmefene hydrochloride at the recommended doses did not prevent the analgesic response to subsequently administered opioids.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="5281b13c-b345-450e-aecc-8a03e7d12694"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Reversal of the Effect of Intrathecally Administered Opioids</title>
+                     <text>
+                        <paragraph>Intravenous nalmefene hydrochloride at doses of 0.5 and 1 mcg/kg was administered to 47 patients given intrathecal morphine. One to 2 doses of 0.5 and 1 mcg/kg nalmefene hydrochloride reversed respiratory depression in most patients. The administration of nalmefene hydrochloride at the recommended doses did not prevent the analgesic response to subsequently administered opioids.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="08891af1-1eea-4587-8ed0-62545acc8404"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Management of Known or Suspected Opioid Overdose</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection (N=284) at doses of 0.5 mg to 2 mg was studied in 4 trials of patients who were presumed to have taken an opioid overdose. Nalmefene hydrochloride injection doses of 0.5 mg to 1 mg effectively reversed respiratory depression within 2 to 5 minutes in most patients subsequently confirmed to have opioid overdose. A total dose greater than 1.5 mg did not increase the therapeutic response.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="3b8e83d2-36a2-4071-9bad-a15e51accd16"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection is indicated for the complete or partial reversal of opioid drug effects, including respiratory depression, induced by either natural or synthetic opioids.</paragraph>
+                  <paragraph>Nalmefene hydrochloride injection is indicated in the management of known or suspected opioid overdose.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="07bc8e3e-937d-42e4-a7e7-42e3de4965b7"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection is contraindicated in patients with a known hypersensitivity to the product.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d31e38fe-47c1-4924-b08f-888446432f84"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="e995a599-5c5c-458d-a417-8f99bf0951b4"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use of Nalmefene Hydrochloride Injection in Emergencies</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection, like all drugs in this class, is not the primary treatment for ventilatory failure. In most emergency settings, treatment with nalmefene hydrochloride injection should follow, not precede, the establishment of a patent airway, ventilatory assistance, administration of oxygen, and establishment of circulatory access.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="32bd78cc-5839-4cf0-8f6b-d61a234aad15"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Risk of Recurrent Respiratory Depression</title>
+                     <text>
+                        <paragraph>Accidental overdose with long acting opioids [such as methadone and <content styleCode="italics">levo</content>-alpha-acetylmethadol (LAAM)] may result in prolonged respiratory depression. Respiratory depression in both the postoperative and overdose setting may be complex and involve the effects of anesthetic agents, neuromuscular blockers, and other drugs. While nalmefene hydrochloride injection has a longer duration of action than naloxone in fully reversing doses, the physician should be aware that a recurrence of respiratory depression is possible, even after an apparently adequate initial response to nalmefene hydrochloride injection treatment.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Patients treated with nalmefene hydrochloride injection should be observed until, in the opinion of the physician, there is no reasonable risk of recurrent respiratory depression.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Precautions">
+               <id root="614a3058-a45d-49f5-8915-9c7df45a65de"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="e5ef3189-eb26-4c96-876d-1417edbf877f"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <effectiveTime value="20260501"/>
+                     <component>
+                        <section>
+                           <id root="bee2e551-75e2-4f75-a00f-63fa86ddfcae"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>CARDIOVASCULAR RISKS WITH NARCOTIC ANTAGONISTS</title>
+                           <text>
+                              <paragraph>Pulmonary edema, cardiovascular instability, hypotension, hypertension, ventricular tachycardia, and ventricular fibrillation have been reported in connection with opioid reversal in both postoperative and emergency department settings. In many cases, these effects appear to be the result of abrupt reversal of opioid effects.</paragraph>
+                              <paragraph>Although nalmefene hydrochloride injection has been used safely in patients with pre-existing cardiac disease, all drugs of this class should be used with caution in patients at high cardiovascular risk or who have received potentially cardiotoxic drugs (see <content styleCode="bold">
+                                    <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="a0fd5d30-40e9-4f03-a2fc-94519b245f1a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>RISK OF PRECIPITATED WITHDRAWAL</title>
+                           <text>
+                              <paragraph>Nalmefene hydrochloride injection, like other opioid antagonists, is known to produce acute withdrawal symptoms and, therefore, should be used with extreme caution in patients with known physical dependence on opioids or following surgery involving high doses of opioids. Imprudent use or excessive doses of opioid antagonists in the postoperative setting has been associated with hypertension, tachycardia, and excessive mortality in patients at high risk for cardiovascular complications (see <content styleCode="bold">
+                                    <linkHtml href="#Precautions">PRECAUTIONS</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="0fa93ae4-3264-41a4-ba31-a76133295852"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>INCOMPLETE REVERSAL OF BUPRENORPHINE</title>
+                           <text>
+                              <paragraph>Preclinical studies have shown that nalmefene at doses up to 10 mg/kg (437 times the maximum recommended human dose) produced incomplete reversal of buprenorphine-induced analgesia in animal models. This appears to be a consequence of a high affinity and slow displacement of buprenorphine from the opioid receptors. Hence, nalmefene hydrochloride injection may not completely reverse buprenorphine-induced respiratory depression.</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="be85f17b-784a-4fee-849b-c1451fb383bf"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection has been administered after benzodiazepines, inhalational anesthetics, muscle relaxants, and muscle relaxant antagonists administered in conjunction with general anesthesia. It also has been administered in outpatient settings, both in trials in conscious sedation and in the emergency management of overdose following a wide variety of agents. No deleterious interactions have been observed.</paragraph>
+                        <paragraph>Preclinical studies have shown that both flumazenil and nalmefene can induce seizures in animals. The coadministration of both flumazenil and nalmefene produced fewer seizures than expected in a study in rodents, based on the expected effects of each drug alone. Based on these data, an adverse interaction from the coadministration of the two drugs is not expected, but physicians should remain aware of the potential risk of seizures from agents in these classes.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="2e3d5c13-304f-420b-b6e1-a74f1be75e06"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Nalmefene did not have mutagenic activity in the Ames test with five bacterial strains or the mouse lymphoma assay. Clastogenic activity was not observed in the mouse micronucleus test or in the cytogenic bone marrow assay in rats. However, nalmefene did exhibit a weak but significant clastogenic activity in the human lymphocyte metaphase assay in the absence but not in the presence of exogenous metabolic activation. Oral administration of nalmefene up to 1200 mg/m<sup>2</sup>/day did not affect fertility, reproductive performance, and offspring survival in rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="928e3ccd-438c-4e34-9835-48380a9918ea"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Use in Pregnancy</title>
+                     <text>
+                        <paragraph>Reproduction studies have been performed in rats (up to 1200 mg/m<sup>2</sup>/day) and rabbits (up to 2400 mg/m<sup>2</sup>/day) by oral administration of nalmefene and in rabbits by intravenous administration up to 96 mg/m<sup>2</sup>/day (114 times the human dose). There was no evidence of impaired fertility or harm to the fetus. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="d6df9d67-15a4-4117-9fc4-733c3059ef34"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Nalmefene and its metabolites were secreted into rat milk, reaching concentrations approximately three times those in plasma at one hour and decreasing to about half the corresponding plasma concentrations by 24 hours following bolus administration. As no clinical information is available, caution should be exercised when nalmefene hydrochloride injection is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c80ca1aa-ab1c-4401-81c8-4f73a1669b1d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Use in Pediatric Patients</title>
+                     <text>
+                        <paragraph>Safety and effectiveness of nalmefene hydrochloride injection in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6062cd35-16ad-4d74-adee-4d4c6e29fd12"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use in Neonates</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of nalmefene hydrochloride injection in neonates have not been established in clinical studies. In a preclinical study, nalmefene was administered by subcutaneous injection to rat pups at doses up to 205 mg/m<sup>2</sup>/day throughout maternal lactation without producing adverse effects. A preclinical study evaluating the irritancy of the dosage form following arterial and venous administration in animals showed no vascular irritancy.</paragraph>
+                        <paragraph>Nalmefene hydrochloride injection should only be used in the resuscitation of the newborn when, in the opinion of the treating physician, the expected benefits outweigh the risks.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a9897f82-e25d-48d8-a896-f9c664b152ee"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of nalmefene hydrochloride injection did not include sufficient number of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="5f1ad160-da54-42ad-9514-4519f9004069"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Adverse event information was obtained following administration of nalmefene hydrochloride injection to 152 normal volunteers and in controlled clinical trials to 1127 patients for the treatment of opioid overdose or for postoperative opioid reversal.</paragraph>
+                  <paragraph>Nalmefene was well tolerated and showed no serious toxicity during experimental administration to healthy individuals, even when given at 15 times the highest recommended dose. In a small number of subjects, at doses exceeding the recommended nalmefene hydrochloride injection dose, nalmefene produced symptoms suggestive of reversal of endogenous opioids, such as have been reported for other narcotic antagonist drugs. These symptoms (nausea, chills, myalgia, dysphoria, abdominal cramps, and joint pain) were usually transient and occurred at very low frequency.</paragraph>
+                  <paragraph>Such symptoms of precipitated opioid withdrawal at the recommended clinical doses were seen in both postoperative and overdose patients who were later found to have had histories of covert opioid use. Symptoms of precipitated withdrawal were similar to those seen with other opioid antagonists, were transient following the lower doses used in the postoperative setting, and more prolonged following the administration of the larger doses used in the treatment of overdose.</paragraph>
+                  <paragraph>Tachycardia and nausea following the use of nalmefene in the postoperative setting were reported at the same frequencies as for naloxone at equivalent doses. The risk of both these adverse events was low at doses giving partial opioid reversal and increased with increases in dose. Thus, total doses larger than 1 mcg/kg in the postoperative setting and 1.5 mg/70 kg in the treatment of overdose are not recommended.</paragraph>
+                  <table width="80%">
+                     <caption>Relative Frequencies of Common Adverse Reactions with an Incidence Greater than 1% (all patients, all clinical settings)</caption>
+                     <col width="25%" align="center" valign="top"/>
+                     <col width="25%" align="center" valign="top"/>
+                     <col width="25%" align="center" valign="top"/>
+                     <col width="25%" align="center" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th styleCode="Lrule Rrule">Adverse Event</th>
+                           <th styleCode="Rrule">Nalmefene<br/>N=1127</th>
+                           <th styleCode="Rrule">Naloxone<br/>N=369</th>
+                           <th styleCode="Rrule">Placebo<br/>N=77</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Nausea</td>
+                           <td styleCode="Rrule">18%</td>
+                           <td styleCode="Rrule">18%</td>
+                           <td styleCode="Rrule">6%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Vomiting</td>
+                           <td styleCode="Rrule">9%</td>
+                           <td styleCode="Rrule">7%</td>
+                           <td styleCode="Rrule">4%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Tachycardia</td>
+                           <td styleCode="Rrule">5%</td>
+                           <td styleCode="Rrule">8%</td>
+                           <td styleCode="Rrule">-</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Hypertension</td>
+                           <td styleCode="Rrule">5%</td>
+                           <td styleCode="Rrule">7%</td>
+                           <td styleCode="Rrule">-</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Postoperative pain</td>
+                           <td styleCode="Rrule">4%</td>
+                           <td styleCode="Rrule">4%</td>
+                           <td styleCode="Rrule">N/A</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Fever</td>
+                           <td styleCode="Rrule">3%</td>
+                           <td styleCode="Rrule">4%</td>
+                           <td styleCode="Rrule">-</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Dizziness</td>
+                           <td styleCode="Rrule">3%</td>
+                           <td styleCode="Rrule">4%</td>
+                           <td styleCode="Rrule">1%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Headache</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">4%</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Chills</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">-</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">Hypotension</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">-</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">Vasodilation</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">1%</td>
+                           <td styleCode="Rrule">-</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="d84d64cc-e094-419e-8ba9-fc5877e5bd33"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Incidence less than 1%</title>
+                     <text>
+                        <paragraph>CARDIOVASCULAR: Bradycardia, arrhythmia</paragraph>
+                        <paragraph>DIGESTIVE: Diarrhea, dry mouth</paragraph>
+                        <paragraph>NERVOUS SYSTEM: Somnolence, depression, agitation, nervousness, tremor, confusion, withdrawal syndrome, myoclonus</paragraph>
+                        <paragraph>RESPIRATORY: Pharyngitis</paragraph>
+                        <paragraph>SKIN: Pruritus</paragraph>
+                        <paragraph>UROGENITAL: Urinary retention</paragraph>
+                        <paragraph>The incidence of adverse events was highest in patients who received more than the recommended dose of nalmefene hydrochloride injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                     <component>
+                        <section>
+                           <id root="364c7ee0-20a6-4477-9286-21279c663438"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Laboratory findings</title>
+                           <text>
+                              <paragraph>Transient increases in CPK were reported as adverse events in 0.5% of the postoperative patients studied. These increases were believed to be related to surgery and not believed to be related to the administration of nalmefene hydrochloride injection. Increases in AST were reported as adverse events in 0.3% of the patients receiving either nalmefene or naloxone. The clinical significance of this finding is unknown. No cases of hepatitis or hepatic injury due to either nalmefene or naloxone were observed in the clinical trials.</paragraph>
+                           </text>
+                           <effectiveTime value="20260501"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="1cd9736c-c513-4fec-8515-257b79bf612c"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection is an opioid antagonist with no agonist activity. It has no demonstrated abuse potential, is not addictive, and is not a controlled substance.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="145d0bd2-ec00-4b2d-a906-5407fd6c4e6e"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Intravenous doses of up to 24 mg of nalmefene, administered to healthy volunteers in the absence of opioid agonists, produced no serious adverse reactions, severe signs or symptoms, or clinically significant laboratory abnormalities. As with all opioid antagonists, use in patients physically dependent on opioids can result in precipitated withdrawal reactions that may result in symptoms that require medical attention. Treatment of such cases should be symptomatic and supportive. Administration of large amounts of opioids to patients receiving opioid antagonists in an attempt to overcome a full blockade has resulted in adverse respiratory and circulatory reactions.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="13232ec7-64d6-430c-98d5-72b2e83604d8"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="215db526-9ec8-43b5-a0c5-70995742fe30"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Important Information - Dosage Form</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection is supplied in a 2 mL vial as a 1 mg/mL concentration suitable for the management of overdose. Proper steps should be taken to prevent use of the incorrect concentration.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="deb60956-be76-4277-ae42-230cd673ba99"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>General Principles</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection should be titrated to reverse the undesired effects of opioids. Once adequate reversal has been established, additional administration is not required and may actually be harmful due to unwanted reversal of analgesia or precipitated withdrawal.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a9be3f62-b830-46e7-91fb-8a0dab153d02"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Duration of Action</title>
+                     <text>
+                        <paragraph>The duration of action of nalmefene hydrochloride injection is as long as most opioid analgesics. The apparent duration of action of nalmefene hydrochloride injection will vary, however, depending on the half-life and plasma concentration of the narcotic being reversed, the presence or absence of other drugs affecting the brain or muscles of respiration, and the dose of nalmefene hydrochloride injection administered. Partially reversing doses of nalmefene hydrochloride injection (1 mcg/kg) lose their effect as the drug is redistributed through the body, and the effects of these low doses may not last more than 30 to 60 minutes in the presence of persistent opioid effects. Fully reversing doses (1 mg/70 kg) have been shown to last many hours in both experimental and clinical studies, but may complicate the management of patients who are in pain, at high cardiovascular risk, or who are physically dependent on opioids.</paragraph>
+                        <paragraph>The recommended doses represent a compromise between a desirable controlled reversal and the need for prompt response and adequate duration of action. Using higher dosages or shorter intervals between incremental doses is likely to increase the incidence and severity of symptoms related to acute withdrawal such as nausea, vomiting, elevated blood pressure, and anxiety.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a04a664a-e663-458c-af51-e8cd08a6f8ee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Patients Tolerant to or Physically Dependent on Opioids</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection may cause acute withdrawal symptoms in individuals who have some degree of tolerance to and dependence on opioids. These patients should be closely observed for symptoms of withdrawal following administration of the initial and subsequent injections of nalmefene hydrochloride injection. Subsequent doses should be administered with intervals of at least 2 to 5 minutes between doses to allow the full effect of each incremental dose of nalmefene hydrochloride injection to be reached.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="e5853579-eab0-4a1f-98b8-e8f048a4c84b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Management of Known or Suspected Opioid Overdose</title>
+                     <text>
+                        <paragraph>The recommended initial dose of nalmefene hydrochloride injection for non-opioid dependent patients is 0.5 mg/70 kg. If needed, this may be followed by a second dose of 1 mg/70 kg, 2 to 5 minutes later. If a total dose of 1.5 mg/70 kg has been administered without clinical response, additional nalmefene hydrochloride injection is unlikely to have an effect. Patients should not be given more nalmefene hydrochloride injection than is required to restore the respiratory rate to normal, thus minimizing the likelihood of cardiovascular stress and precipitated withdrawal syndrome.</paragraph>
+                        <paragraph>If there is a reasonable suspicion of opioid dependency, a challenge dose of nalmefene hydrochloride injection 0.1 mg/70 kg should be administered initially. If there is no evidence of withdrawal in 2 minutes, the recommended dosing should be followed.</paragraph>
+                        <paragraph>Nalmefene hydrochloride injection had no effect in cases where opioids were not responsible for sedation and hypoventilation. Therefore, patients should only be treated with nalmefene hydrochloride injection when the likelihood of an opioid overdose is high, based on a history of opioid overdose or the clinical presentation of respiratory depression with concurrent pupillary constriction.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="a963863d-40ed-4a52-a39a-8658cf294e0f"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Repeated Dosing</title>
+                     <text>
+                        <paragraph>Nalmefene hydrochloride injection is the longest acting of the currently available parenteral opioid antagonists. If recurrence of respiratory depression does occur, the dose should again be titrated to clinical effect using incremental doses to avoid over-reversal.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="7931c8af-561c-40fb-8973-7446936fc83b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hepatic and Renal Disease</title>
+                     <text>
+                        <paragraph>Hepatic disease and renal failure substantially reduce the clearance of nalmefene (see <content styleCode="bold">
+                              <linkHtml href="#Pharmacokinetics">Pharmacokinetics</linkHtml>
+                           </content>). For single episodes of opioid antagonism, adjustment of nalmefene hydrochloride injection dosage is not required. However, in patients with renal failure, the incremental doses should be delivered slowly (over 60 seconds) to minimize the hypertension and dizziness reported following the abrupt administration of nalmefene to such patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="be99533f-4b52-42b1-9b1b-211d50c7f92d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Loss of Intravenous Access</title>
+                     <text>
+                        <paragraph>Should intravenous access be lost or not readily obtainable, a pharmacokinetic study has shown that a single dose of nalmefene hydrochloride injection should be effective within 5 to 15 minutes after intramuscular or subcutaneous doses of 1 mg (see <content styleCode="bold">
+                              <linkHtml href="#Pharmacokinetics">Pharmacokinetics</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="65740181-8cc5-411b-b36d-1ca3fada129f"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SAFETY AND HANDLING</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection is distributed in sealed vials which represent no known risk to health care workers. As with all parenterals, care should be taken to prevent the generation and inhalation of aerosols during preparation and use. Dermal absorption of spilled nalmefene hydrochloride injection should be prevented by prompt removal of contaminated clothing and rinsing the skin thoroughly with cool water.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="73493f9d-8bf2-41ca-80f1-abd01e56f022"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Nalmefene hydrochloride injection is available in the following presentation:</paragraph>
+                  <paragraph>A single-dose vial containing 2 mg/2 mL (1 mg/mL) of nalmefene base.</paragraph>
+                  <table width="50%" styleCode="Noautorules">
+                     <col width="30%" align="left" valign="middle"/>
+                     <col width="70%" align="left" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td>Box of 10</td>
+                           <td>NDC 59011-960-10</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <section>
+                     <id root="659f1b96-0b1d-4296-99ce-8d57f769607a"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</content>
+                        </paragraph>
+                        <paragraph>Store in original carton.</paragraph>
+                        <paragraph>Protect from light.</paragraph>
+                        <paragraph>Discard unused portion.</paragraph>
+                        <paragraph>For additional information, contact Knoa Pharma LLC's Medical Information Department @ 1-888-726-7535.</paragraph>
+                     </text>
+                     <effectiveTime value="20260501"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="ce65c7ae-6e9e-4011-a07a-138a2374aa8a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:</content>
+                     <br/>Knoa Pharma LLC<br/>Stamford, CT 06901-3431</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/>PCI San Diego, Inc.<br/>San Diego, CA 92121</paragraph>
+                  <paragraph>Revised: 05/2026</paragraph>
+               </text>
+               <effectiveTime value="20260501"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="d9dd07f6-7f5c-4205-b3c4-d49070f0afde"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2 mL Vial Carton</title>
+               <text>
+                  <paragraph>NDC 59011-960-10<br/>10 x 2 mL Single-Dose Vials</paragraph>
+                  <paragraph>Nalmefene Hydrochloride Injection</paragraph>
+                  <paragraph>2 mg/2 mL (1 mg/mL)<br/>(nalmefene base)</paragraph>
+                  <paragraph>Rx Only</paragraph>
+                  <paragraph>Each mL contains: Nalmefene hydrochloride<br/>(equivalent to 1 mg nalmefene base), Sodium Chloride,<br/>USP, Hydrochloric Acid, NF, and Water for Injection, USP<br/>This unit package is not to be broken for resale.<br/>Discard unused portion.</paragraph>
+                  <paragraph>See package insert for dosage and directions for use. <br/>Storage: Store at 20° to 25°C (68° to 77°F)<br/>[see USP Controlled Room Temperature].<br/>Store in original carton. Protect from light.</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20260501"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 2 mL Vial Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nalmefene-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ab9c6f3a-f684-4cc3-b870-1a06a748a1a2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">   </content>
+   </title>
+   <effectiveTime value="20260504"/>
+   <setId root="40d48c5d-650e-461b-a67b-7e65772d1b92"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3bc4a055-03e4-45e0-a046-e0967c5063e7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260504"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-5084" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TAZICEF</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CEFTAZIDIME</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="2"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9M416Z9QNR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFTAZIDIME</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DZR1ENT301" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFTAZIDIME ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="236"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="45P3261C7T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-5084-13" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0409-5084-11" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20051216"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062662" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051216"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-5082" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>TAZICEF</name>
+                        <formCode code="C42974" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CEFTAZIDIME</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="9M416Z9QNR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEFTAZIDIME</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="DZR1ENT301" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEFTAZIDIME ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="118"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="45P3261C7T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-5082-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="25"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0409-5082-16" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20051102"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-5082-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="10"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0409-5082-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260505"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062662" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20051102"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="f08fd2de-991f-430b-b1ca-4a0a1ad35a67">
+               <id root="d3c97aa2-e799-4a25-a987-56b403064121"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">TAZICEF<sup>®</sup>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">brand of </content>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">ceftazidime for injection, USP</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">For Intravenous or Intramuscular Use</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx only</content>
+                     <br/>
+                     <renderMultiMedia ID="id-304626596" referencedObject="ID_5c7fd992-076d-4f70-9f93-018744fb97d5"/>
+                  </paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Tazicef (ceftazidime) and other antibacterial drugs, Tazicef (ceftazidime) should be used only to treat infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <observationMedia ID="ID_5c7fd992-076d-4f70-9f93-018744fb97d5">
+                     <text>Hospira logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="b480291d-4696-4613-9497-b4738813b897">
+               <id root="a3aa35fe-1197-49a9-aecc-d0a8d6d83554"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ceftazidime is a semisynthetic, broad-spectrum, beta-lactam antibacterial drug for parenteral administration. It is the pentahydrate of pyridinium, 1-[[7-[[(2-amino-4-thiazolyl)[(1-carboxy-1-methylethoxy)imino]acetyl]amino]-2-carboxy-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-en-3-yl]methyl]-, hydroxide, inner salt, [6R-[6α,7β(Z)]]. It has the following structure:</paragraph>
+                  <renderMultiMedia ID="id359" referencedObject="ID_43d2f09d-8918-43c4-907e-edd626796716"/>
+                  <paragraph>The molecular formula is C<sub>22</sub>H<sub>32</sub>N<sub>6</sub>O<sub>12</sub>S<sub>2</sub>, representing a molecular weight of 636.6.</paragraph>
+                  <paragraph>Tazicef (ceftazidime for injection, USP) is a sterile, dry-powdered mixture of ceftazidime pentahydrate and sodium carbonate. The sodium carbonate at a concentration of 118 mg/g of ceftazidime activity has been admixed to facilitate dissolution. The total sodium content of the mixture is approximately 54 mg (2.3 mEq)/g of ceftazidime activity.</paragraph>
+                  <paragraph>Tazicef in sterile crystalline form is supplied in vials equivalent to 1 g or 2 g of anhydrous ceftazidime.</paragraph>
+                  <paragraph>Solutions of Tazicef range in color from light yellow to amber, depending on the diluent and volume used. The pH of freshly constituted solutions usually ranges from 5 to 7.5.</paragraph>
+               </text>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <observationMedia ID="ID_43d2f09d-8918-43c4-907e-edd626796716">
+                     <text>Tazicef structural formula</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="d1010bb6-9894-4f3b-a086-e2db715912bf">
+               <id root="932475f2-a266-44e2-a267-c45c8d0698f7"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>After IV administration of 500-mg and 1-g doses of ceftazidime over 5 minutes to normal adult male volunteers, mean peak serum concentrations of 45 and 90 mcg/mL, respectively, were achieved. After IV infusion of 500-mg, 1-g, and 2-g doses of ceftazidime over 20 to 30 minutes to normal adult male volunteers, mean peak serum concentrations of 42, 69, and 170 mcg/mL, respectively, were achieved. The average serum concentrations following IV infusion of 500-mg, 1-g, and 2-g doses to these volunteers over an 8-hour interval are given in <content styleCode="italics">
+                        <linkHtml href="#reftable1">Table 1</linkHtml>
+                     </content>
+                  </paragraph>
+                  <table ID="reftable1" styleCode="Noautorules" width="75%">
+                     <caption>Table 1. Average Serum Concentrations of Ceftazidime</caption>
+                     <col width="16%"/>
+                     <col width="13%"/>
+                     <col width="11%"/>
+                     <col width="11%"/>
+                     <col width="11%"/>
+                     <col width="11%"/>
+                     <tbody>
+                        <tr>
+                           <td rowspan="2" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Ceftazidime IV Dose</content>
+                              </paragraph>
+                           </td>
+                           <td colspan="5" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Serum Concentrations (mcg/mL)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">0.5 hr</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">1 hr</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">2 hr</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">4 hr</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">8 hr</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>500 mg</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>42</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>25</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>12</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>1 g</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>60</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>39</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>23</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>11</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>3</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>2 g</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>129</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>75</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>42</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>13</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>5</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The absorption and elimination of ceftazidime were directly proportional to the size of the dose. The half-life following IV administration was approximately 1.9 hours. Less than 10% of ceftazidime was protein bound. The degree of protein binding was independent of concentration. There was no evidence of accumulation of ceftazidime in the serum in individuals with normal renal function following multiple IV doses of 1 and 2 g every 8 hours for 10 days.</paragraph>
+                  <paragraph>Following intramuscular (IM) administration of 500-mg and 1-g doses of ceftazidime to normal adult volunteers, the mean peak serum concentrations were 17 and 39 mcg/mL, respectively, at approximately 1 hour. Serum concentrations remained above 4 mcg/mL for 6 and 8 hours after the IM administration of 500-mg and 1-g doses, respectively. The half-life of ceftazidime in these volunteers was approximately 2 hours.</paragraph>
+                  <paragraph>The presence of hepatic dysfunction had no effect on the pharmacokinetics of ceftazidime in individuals administered 2 g intravenously every 8 hours for 5 days. Therefore, a dosage adjustment from the normal recommended dosage is not required for patients with hepatic dysfunction, provided renal function is not impaired.</paragraph>
+                  <paragraph>Approximately 80% to 90% of an IM or IV dose of ceftazidime is excreted unchanged by the kidneys over a 24-hour period. After the IV administration of single 500-mg or 1-g doses, approximately 50% of the dose appeared in the urine in the first 2 hours. An additional 20% was excreted between 2 and 4 hours after dosing, and approximately another 12% of the dose appeared in the urine between 4 and 8 hours later. The elimination of ceftazidime by the kidneys resulted in high therapeutic concentrations in the urine.</paragraph>
+                  <paragraph>The mean renal clearance of ceftazidime was approximately 100 mL/min. The calculated plasma clearance of approximately 115 mL/min indicated nearly complete elimination of ceftazidime by the renal route. Administration of probenecid before dosing had no effect on the elimination kinetics of ceftazidime. This suggested that ceftazidime is eliminated by glomerular filtration and is not actively secreted by renal tubular mechanisms.</paragraph>
+                  <paragraph>Since ceftazidime is eliminated almost solely by the kidneys, its serum half-life is significantly prolonged in patients with impaired renal function. Consequently, dosage adjustments in such patients as described in the <linkHtml href="#de244e19-d60e-489c-b530-5762c7265513">DOSAGE AND ADMINISTRATION</linkHtml> section are suggested.</paragraph>
+                  <paragraph>Therapeutic concentrations of ceftazidime are achieved in the following body tissues and fluids.</paragraph>
+                  <table ID="_RefID0EYPAC" styleCode="Noautorules" width="75%">
+                     <caption>Table 2. Ceftazidime Concentrations in Body Tissues and Fluids</caption>
+                     <col width="19%"/>
+                     <col width="18%"/>
+                     <col width="13%"/>
+                     <col width="12%"/>
+                     <col width="13%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Tissue or Fluid</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Dose/Route</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">No. of Patients</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Time of Sample Post Dose</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Average Tissue or Fluid Level (mcg/mL or mcg/g)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td rowspan="2" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Urine</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>500 mg IM</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>0 to 2 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2,100</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>0 to 2 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>12,000</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Bile</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>3</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>90 min</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>36.4</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Synovial fluid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>13</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>25.6</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Peritoneal fluid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>48.6</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Sputum</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>9</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Cerebrospinal fluid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g q8hr IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>5</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>120 min</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>9.8</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>(inflamed meninges)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g q8hr IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>6</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>180 min</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>9.4</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Aqueous humor</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>13</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 to 3 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>11</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Blister fluid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>7</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 to 3 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>19.7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Lymphatic fluid</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>7</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 to 3 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>23.4</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Bone</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>8</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>0.67 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>31.1</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Heart muscle</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>35</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>30 to 280 min</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>12.7</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Skin</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>22</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>30 to 180 min</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>6.6</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Skeletal muscle</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>35</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>30 to 280 min</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>9.4</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>Myometrium</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>2 g IV</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>31</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>1 to 2 hr</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>18.7</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20240506"/>
+               <component>
+                  <section ID="ID_1b4b7aaa-e582-42f4-9088-c8efa0f39d7d">
+                     <id root="8efba765-53c8-47c6-88e2-b134e43e73bd"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Mechanism of Action</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Ceftazidime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftazidime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Mechanism of Resistance</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Resistance to ceftazidime is primarily through hydrolysis by beta-lactamase, alteration of penicillin-binding proteins (PBPs), and decreased permeability.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Interaction with Other Antimicrobials</content>
+                        </paragraph>
+                        <paragraph>In an <content styleCode="italics">in vitro</content> study, antagonistic effects have been observed with the combination of chloramphenicol and ceftazidime.</paragraph>
+                        <paragraph>Ceftazidime has been shown to be active against most isolates of the following bacteria, both <content styleCode="italics">in vitro </content>and in clinical infections as described in the <linkHtml href="#bcec7905-e1a9-4941-b6e1-2099bedef44b">INDICATIONS AND USAGE</linkHtml> section:</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-negative bacteria</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Citrobacter</content> species</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Enterobacter</content> species</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Escherichia</content> <content styleCode="italics">coli</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Klebsiella</content> species</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Haemophilus influenzae</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Neisseria meningitidis</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Proteus mirabilis</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Proteus vulgaris</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Pseudomonas aeruginosa</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Serratia</content> species</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Gram-positive bacteria</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Staphylococcus aureus</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Streptococcus pneumoniae</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Streptococcus pyogenes</content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Streptococcus agalactiae</content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Anaerobic bacteria</content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Bacteroides </content>species (Note: many isolates of <content styleCode="italics">Bacteroides </content>species are resistant)</item>
+                        </list>
+                        <paragraph>The following <content styleCode="italics">in vitro </content>data are available, but their clinical significance is unknown. At least 90 percent of the following microorganisms exhibit an <content styleCode="italics">in vitro </content>minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for ceftazidime. However, the efficacy of ceftazidime in treating clinical infections due to these microorganisms has not been established in adequate and well-controlled clinical trials. </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Gram-negative bacteria </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Acinetobacter</content> species </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Citrobacter diversus </content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Citrobacter freundii </content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Providencia</content> species (including <content styleCode="italics">Providencia rettgeri</content>) </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Salmonella</content> species </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Shigella</content> species </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Haemophilus parainfluenzae </content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Morganella morganii </content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Neisseria gonorrhoeae </content>
+                           </item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Yersinia enterocolitica </content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Gram-positive bacteria </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Staphylococcus epidermidis </content>
+                           </item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="underline">Anaerobic bacteria </content>
+                        </paragraph>
+                        <list listType="unordered">
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Clostridium</content> species (Not including <content styleCode="italics">Clostridium difficile</content>)</item>
+                           <item>
+                              <caption>•</caption>
+                              <content styleCode="italics">Peptostreptococcus</content> species</item>
+                        </list>
+                        <paragraph>
+                           <content styleCode="bold">Susceptibility Testing</content>
+                        </paragraph>
+                        <paragraph>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: <linkHtml href="https://www.fda.gov/STIC">https://www.fda.gov/STIC</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20240506"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="bcec7905-e1a9-4941-b6e1-2099bedef44b">
+               <id root="8f240832-16d0-4332-8c0d-68fc4d4e7fd3"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Tazicef (ceftazidime for injection) is indicated for the treatment of patients with infections caused by susceptible strains of the designated organisms in the following diseases:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>
+                        <content styleCode="bold">Lower Respiratory Tract Infections, </content>including pneumonia, caused by <content styleCode="italics">Pseudomonas aeruginosa </content>and other <content styleCode="italics">Pseudomonas </content>spp.; <content styleCode="italics">Haemophilus influenzae</content>, including ampicillin-resistant strains; <content styleCode="italics">Klebsiella </content>spp.; <content styleCode="italics">Enterobacter </content>spp.; <content styleCode="italics">Proteus mirabilis</content>; <content styleCode="italics">Escherichia coli</content>; <content styleCode="italics">Serratia </content>spp.; <content styleCode="italics">Citrobacter </content>spp.; <content styleCode="italics">Streptococcus pneumoniae</content>; and <content styleCode="italics">Staphylococcus aureus </content>(methicillin-susceptible strains).</item>
+                     <item>
+                        <caption>2.</caption>
+                        <content styleCode="bold">Skin and Skin-Structure Infections </content>caused by <content styleCode="italics">Pseudomonas aeruginosa</content>; <content styleCode="italics">Klebsiella </content>spp.; <content styleCode="italics">Escherichia coli</content>; <content styleCode="italics">Proteus </content>spp., including <content styleCode="italics">Proteus mirabilis </content>and indole-positive <content styleCode="italics">Proteus</content>; <content styleCode="italics">Enterobacter </content>spp.; <content styleCode="italics">Serratia </content>spp.; <content styleCode="italics">Staphylococcus aureus </content>(methicillin-susceptible strains); and <content styleCode="italics">Streptococcus pyogenes </content>(group A beta-hemolytic streptococci).</item>
+                     <item>
+                        <caption>3.</caption>
+                        <content styleCode="bold">Urinary Tract Infections, </content>both complicated and uncomplicated, caused by <content styleCode="italics">Pseudomonas aeruginosa</content>; <content styleCode="italics">Enterobacter </content>spp.; <content styleCode="italics">Proteus </content>spp., including <content styleCode="italics">Proteus mirabilis </content>and indole-positive <content styleCode="italics">Proteus</content>; <content styleCode="italics">Klebsiella </content>spp.; and <content styleCode="italics">Escherichia coli</content>.</item>
+                     <item>
+                        <caption>4.</caption>
+                        <content styleCode="bold">Bacterial Septicemia </content>caused by <content styleCode="italics">Pseudomonas aeruginosa</content>, <content styleCode="italics">Klebsiella </content>spp., <content styleCode="italics">Haemophilus influenzae</content>, <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Serratia </content>spp., <content styleCode="italics">Streptococcus pneumoniae</content>, and S<content styleCode="italics">taphylococcus aureus </content>(methicillin-susceptible strains).</item>
+                     <item>
+                        <caption>5.</caption>
+                        <content styleCode="bold">Bone and Joint Infections </content>caused by <content styleCode="italics">Pseudomonas aeruginosa</content>, <content styleCode="italics">Klebsiella </content>spp., <content styleCode="italics">Enterobacter </content>spp., and <content styleCode="italics">Staphylococcus aureus </content>(methicillin-susceptible strains).</item>
+                     <item>
+                        <caption>6.</caption>
+                        <content styleCode="bold">Gynecologic Infections, </content>including endometritis, pelvic cellulitis, and other infections of the female genital tract caused by <content styleCode="italics">Escherichia coli</content>.</item>
+                     <item>
+                        <caption>7.</caption>
+                        <content styleCode="bold">Intra-abdominal Infections, </content>including peritonitis caused by <content styleCode="italics">Escherichia coli</content>, <content styleCode="italics">Klebsiella </content>spp., and <content styleCode="italics">Staphylococcus aureus </content>(methicillin-susceptible strains) and polymicrobial infections caused by aerobic and anaerobic organisms and <content styleCode="italics">Bacteroides </content>spp. (many strains of <content styleCode="italics">Bacteroides fragilis</content> are resistant).</item>
+                     <item>
+                        <caption>8.</caption>
+                        <content styleCode="bold">Central Nervous System Infections, </content>including meningitis, caused by <content styleCode="italics">Haemophilus influenzae </content>and <content styleCode="italics">Neisseria meningitidis</content>. Ceftazidime has also been used successfully in a limited number of cases of meningitis due to <content styleCode="italics">Pseudomonas aeruginosa </content>and <content styleCode="italics">Streptococcus pneumoniae</content>.</item>
+                  </list>
+                  <paragraph>Tazicef (ceftazidime for injection, USP) may be used alone in cases of confirmed or suspected sepsis. Ceftazidime has been used successfully in clinical trials as empiric therapy in cases where various concomitant therapies with other antibacterial drugs have been used.</paragraph>
+                  <paragraph>Tazicef may also be used concomitantly with other antibacterial drugs, such as aminoglycosides, vancomycin, and clindamycin; in severe and life-threatening infections; and in the immunocompromised patient. When such concomitant treatment is appropriate, prescribing information in the labeling for the other antibacterial drugs should be followed. The dose depends on the severity of the infection and the patient's condition.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of Tazicef (ceftazidime) and other antibacterial drugs, Tazicef (ceftazidime) should be used only to treat infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20230310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c58037af-613e-45da-a4e0-2660a6d0c805">
+               <id root="8fdd7b73-fac7-4402-8ba4-7991ef67a995"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Tazicef is contraindicated in patients who have shown hypersensitivity to ceftazidime or the cephalosporin group of antibacterial drugs.</paragraph>
+               </text>
+               <effectiveTime value="20240506"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f63125ea-a0dd-4320-a1df-d68d6df28eeb">
+               <id root="0813ca0d-f265-496c-9b4f-f3bd0727fce4"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>BEFORE THERAPY WITH TAZICEF IS INSTITUTED, CAREFUL INQUIRY SHOULD BE MADE TO DETERMINE WHETHER THE PATIENT HAS HAD PREVIOUS HYPERSENSITIVITY REACTIONS TO CEFTAZIDIME, CEPHALOSPORINS, PENICILLINS, OR OTHER DRUGS. IF THIS PRODUCT IS TO BE GIVEN TO PENICILLIN-SENSITIVE PATIENTS, CAUTION SHOULD BE EXERCISED BECAUSE CROSS- HYPERSENSITIVITY AMONG BETA-LACTAM ANTIBACTERIAL DRUGS HAS BEEN CLEARLY DOCUMENTED AND MAY OCCUR IN UP TO 10% OF PATIENTS WITH A HISTORY OF PENICILLIN ALLERGY. IF AN ALLERGIC REACTION TO TAZICEF OCCURS, DISCONTINUE THE DRUG. SERIOUS ACUTE HYPERSENSITIVITY REACTIONS MAY REQUIRE TREATMENT WITH EPINEPHRINE AND OTHER EMERGENCY MEASURES, INCLUDING OXYGEN, IV FLUIDS, IV ANTIHISTAMINES, CORTICOSTEROIDS, PRESSOR AMINES, AND AIRWAY MANAGEMENT, AS CLINICALLY INDICATED.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Clostridium difficile </content>associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including ceftazidime, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">C. difficile </content>produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile </content>cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibacterial drug use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibacterial drug use not directed against <content styleCode="italics">C. difficile </content>may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibacterial drug treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+                  <paragraph>Elevated levels of ceftazidime in patients with renal insufficiency can lead to seizures, nonconvulsive status epilepticus (NCSE), encephalopathy, coma, asterixis, neuromuscular excitability, and myoclonia (see <linkHtml href="#e4cbcc0d-04e7-4770-830d-8f364b67ee0b">PRECAUTIONS</linkHtml>).</paragraph>
+               </text>
+               <effectiveTime value="20230310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e4cbcc0d-04e7-4770-830d-8f364b67ee0b">
+               <id root="3d1e3bb2-0cd9-4059-8492-5b3964e2b55d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <section ID="ID_b46139ee-2bc3-4c1d-9307-136ef3f859e8">
+                     <id root="0c31e53e-a000-48ca-9707-43af8f1fe006"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General </title>
+                     <text>
+                        <paragraph>High and prolonged serum ceftazidime concentrations can occur from usual dosages in patients with transient or persistent reduction of urinary output because of renal insufficiency. The total daily dosage should be reduced when ceftazidime is administered to patients with renal insufficiency (see <linkHtml href="#de244e19-d60e-489c-b530-5762c7265513">DOSAGE AND ADMINISTRATION</linkHtml>). Elevated levels of ceftazidime in these patients can lead to seizures, nonconvulsive status epilepticus, encephalopathy, coma, asterixis, neuromuscular excitability, and myoclonia. Continued dosage should be determined by degree of renal impairment, severity of infection, and susceptibility of the causative organisms.</paragraph>
+                        <paragraph>As with other antibacterial drugs, prolonged use of Tazicef (ceftazidime for injection, USP) may result in overgrowth of nonsusceptible organisms. Repeated evaluation of the patient's condition is essential. If superinfection occurs during therapy, appropriate measures should be taken.</paragraph>
+                        <paragraph>Inducible type I beta-lactamase resistance has been noted with some organisms (e.g., <content styleCode="italics">Enterobacter </content>spp., <content styleCode="italics">Pseudomonas </content>spp., and <content styleCode="italics">Serratia </content>spp.). As with other extended-spectrum beta-lactam antibacterial drugs, resistance can develop during therapy, leading to clinical failure in some cases. When treating infections caused by these organisms, periodic susceptibility testing should be performed when clinically appropriate. If patients fail to respond to monotherapy, an aminoglycoside or similar agent should be considered.</paragraph>
+                        <paragraph>Cephalosporins may be associated with a fall in prothrombin activity. Those at risk include patients with renal and hepatic impairment, or poor nutritional state, as well as patients receiving a protracted course of antimicrobial therapy. Prothrombin time should be monitored in patients at risk and exogenous vitamin K administered as indicated.</paragraph>
+                        <paragraph>Tazicef should be prescribed with caution in individuals with a history of gastrointestinal disease, particularly colitis.</paragraph>
+                        <paragraph>Distal necrosis can occur after inadvertent intra-arterial administration of ceftazidime.</paragraph>
+                        <paragraph>Prescribing Tazicef (ceftazidime) in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_982868aa-4dfa-490d-b300-4ef67a4256e8">
+                     <id root="95fa6179-7c74-461e-8b24-0efaf0d5ee57"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients </title>
+                     <text>
+                        <paragraph>Patients should be counseled that antibacterial drugs, including Tazicef (ceftazidime), should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When Tazicef (ceftazidime) is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may: (1) decrease the effectiveness of the immediate treatment, and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by Tazicef (ceftazidime) or other antibacterial drugs in the future.</paragraph>
+                        <paragraph>Diarrhea is a common problem caused by antibacterial drugs which usually ends when the antibacterial drug is discontinued. Sometimes after starting treatment with antibacterial drugs, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as 2 or more months after having taken the last dose of the antibacterial drug. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3f3a1d41-c276-4d26-839c-b0c6eecbef4f">
+                     <id root="2cf2e686-4d2a-4417-9afa-d417c810ad2b"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions </title>
+                     <text>
+                        <paragraph>Nephrotoxicity has been reported following concomitant administration of cephalosporins with aminoglycoside antibacterial drugs or potent diuretics such as furosemide. Renal function should be carefully monitored, especially if higher dosages of the aminoglycosides are to be administered or if therapy is prolonged, because of the potential nephrotoxicity and ototoxicity of aminoglycoside antibacterial drugs. Nephrotoxicity and ototoxicity were not noted when ceftazidime was given alone in clinical trials.</paragraph>
+                        <paragraph>Chloramphenicol has been shown to be antagonistic to beta-lactam antibacterial drugs, including ceftazidime, based on <content styleCode="italics">in vitro </content>studies and time kill curves with enteric gram-negative bacilli. Due to the possibility of antagonism <content styleCode="italics">in vivo</content>, particularly when bactericidal activity is desired, this drug combination should be avoided.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_b1b37d05-2c2b-4c9e-8501-fb17af2b87eb">
+                     <id root="744f9149-7140-4477-9528-b7d49b997e6c"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions </title>
+                     <text>
+                        <paragraph>The administration of ceftazidime may result in a false-positive reaction for glucose in the urine when using CLINITEST<sup>®</sup> tablets, Benedict's solution, or Fehling's solution. It is recommended that glucose tests based on enzymatic glucose oxidase reactions (such as CLINISTIX<sup>®</sup>) be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_795a4bb5-7b62-4158-a136-d79b080d6e68">
+                     <id root="ea32ae03-bddc-4ec6-b5d9-a0b38be7abf6"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility </title>
+                     <text>
+                        <paragraph>Long-term studies in animals have not been performed to evaluate carcinogenic potential. However, a mouse micronucleus test and an Ames test were both negative for mutagenic effects.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_f26eb0fd-3ec4-42ca-84b2-d688211b0a75">
+                     <id root="00599cf9-2b72-470c-8dca-59eba4b15a01"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Teratogenic Effects</content>
+                           </content>
+                        </paragraph>
+                        <paragraph>Pregnancy Category B. Reproduction studies have been performed in mice and rats at doses up to 40 times the human dose and have revealed no evidence of impaired fertility or harm to the fetus due to Tazicef. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_d674b266-95fb-40da-95b4-9998eea631a7">
+                     <id root="f4f92a0a-e589-4f20-81d4-d5414269127b"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers </title>
+                     <text>
+                        <paragraph>Ceftazidime is excreted in human milk in low concentrations. Caution should be exercised when Tazicef is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_a14ed4ed-52dc-4abb-9423-bed2a887ed88">
+                     <id root="40bd504c-a3f9-49a9-9627-309fa981c0be"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use </title>
+                     <text>
+                        <paragraph>See <linkHtml href="#de244e19-d60e-489c-b530-5762c7265513">DOSAGE AND ADMINISTRATION</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_85ec6051-a397-4c29-a5de-2edb010ed547">
+                     <id root="36cd7183-bdc3-4bf4-8d36-51864320fc22"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use </title>
+                     <text>
+                        <paragraph>Of the 2,221 subjects who received ceftazidime in 11 clinical studies, 824 (37%) were 65 and older while 391 (18%) were 75 and older. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater susceptibility of some older individuals to drug effects cannot be ruled out. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see <linkHtml href="#de244e19-d60e-489c-b530-5762c7265513">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="f46d1c65-e216-4198-9745-b5ac431039cf">
+               <id root="852953b7-8134-45ea-bf4c-5799576d6eff"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Ceftazidime is generally well tolerated. The incidence of adverse reactions associated with the administration of ceftazidime was low in clinical trials. The most common were local reactions following IV injection and allergic and gastrointestinal reactions. Other adverse reactions were encountered infrequently. No disulfiram-like reactions were reported.</paragraph>
+                  <paragraph>The following adverse effects from clinical trials were considered to be either related to ceftazidime therapy or were of uncertain etiology:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Local Effects, </content>reported in fewer than 2% of patients, were phlebitis and inflammation at the site of injection (1 in 69 patients).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hypersensitivity Reactions, </content>reported in 2% of patients, were pruritus, rash, and fever. Immediate reactions, generally manifested by rash and/or pruritus, occurred in 1 in 285 patients. Toxic epidermal necrolysis, Stevens-Johnson syndrome, and erythema multiforme have also been reported with cephalosporin antibacterial drugs, including ceftazidime. Angioedema and anaphylaxis (bronchospasm and/or hypotension) have been reported very rarely.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Gastrointestinal Symptoms, </content>reported in fewer than 2% of patients, were diarrhea (1 in 78), nausea (1 in 156), vomiting (1 in 500), and abdominal pain (1 in 416). The onset of pseudomembranous colitis symptoms may occur during or after treatment (see <linkHtml href="#f63125ea-a0dd-4320-a1df-d68d6df28eeb">WARNINGS</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Central Nervous System Reactions </content>(fewer than 1%) included headache, dizziness, and paresthesia.</paragraph>
+                  <paragraph>Seizures have been reported with several cephalosporins, including ceftazidime. In addition, encephalopathy, coma, asterixis, neuromuscular excitability, and myoclonia have been reported in renally impaired patients treated with unadjusted dosing regimens of ceftazidime (see <linkHtml href="#ID_b46139ee-2bc3-4c1d-9307-136ef3f859e8">PRECAUTIONS: General</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Less Frequent Adverse Events </content>(fewer than 1%) were candidiasis (including oral thrush) and vaginitis.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Hematologic</content>
+                  </paragraph>
+                  <paragraph>Rare cases of hemolytic anemia have been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Laboratory Test Changes </content>noted during clinical trials with Tazicef (ceftazidime for injection, USP) were transient and included: eosinophilia (1 in 13), positive Coombs test without hemolysis (1 in 23), thrombocytosis (1 in 45), and slight elevations in one or more of the hepatic enzymes, aspartate aminotransferase (AST, SGOT) (1 in 16), alanine aminotransferase (ALT, SGPT) (1 in 15), LDH (1 in 18), GGT (1 in 19), and alkaline phosphatase (1 in 23). As with some other cephalosporins, transient elevations of blood urea, blood urea nitrogen, and/or serum creatinine were observed occasionally. Transient leukopenia, neutropenia, agranulocytosis, thrombocytopenia, and lymphocytosis were seen very rarely.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Postmarketing Experience with Tazicef (ceftazidime for injection, USP) Products</content>
+                  </paragraph>
+                  <paragraph>In addition to the adverse events reported during clinical trials, the following events have been observed during clinical practice in patients treated with Tazicef and were reported spontaneously. For some of these events, data are insufficient to allow an estimate of incidence or to establish causation.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">General</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Anaphylaxis; allergic reactions, which, in rare instances, were severe (e.g., cardiopulmonary arrest); urticaria; pain at injection site.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Hepatobiliary Tract</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Hyperbilirubinemia, jaundice.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Renal and Genitourinary</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Renal impairment.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Cephalosporin-Class Adverse Reactions</content>
+                  </paragraph>
+                  <paragraph>In addition to the adverse reactions listed above that have been observed in patients treated with ceftazidime, the following adverse reactions and altered laboratory tests have been reported for cephalosporin-class antibacterial drugs:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Adverse Reactions</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Colitis, toxic nephropathy, hepatic dysfunction including cholestasis, aplastic anemia, hemorrhage.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Altered Laboratory Tests</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Prolonged prothrombin time, false-positive test for urinary glucose, pancytopenia.</paragraph>
+                  <paragraph>To report <content styleCode="bold">SUSPECTED ADVERSE REACTIONS</content>, contact Hospira, Inc. at 1-800-438-1985, or FDA at 1-800-FDA-1088 or <linkHtml href="http://www.fda.gov/medwatch">www.fda.gov/medwatch</linkHtml>.</paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a364fd6e-d9f9-47dc-bc36-532eb704975f">
+               <id root="b17ee701-930b-402d-82a5-cee860918eed"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Ceftazidime overdosage has occurred in patients with renal failure. Reactions have included seizure activity, encephalopathy, asterixis, neuromuscular excitability, and coma. Patients who receive an acute overdosage should be carefully observed and given supportive treatment. In the presence of renal insufficiency, hemodialysis or peritoneal dialysis may aid in the removal of ceftazidime from the body.</paragraph>
+               </text>
+               <effectiveTime value="20230310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="de244e19-d60e-489c-b530-5762c7265513">
+               <id root="20177239-e1a8-4633-ab57-cfbaa01b7abc"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Dosage</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The usual adult dosage is 1 gram administered intravenously or intramuscularly every 8 to 12 hours. The dosage and route should be determined by the susceptibility of the causative organisms, the severity of infection, and the condition and renal function of the patient.</paragraph>
+                  <paragraph>The guidelines for dosage of Tazicef (ceftazidime for injection, USP) are listed in <content styleCode="italics">
+                        <linkHtml href="#reftable3">Table 3</linkHtml>
+                     </content>. The following dosage schedule is recommended.</paragraph>
+                  <table ID="reftable3" styleCode="Noautorules" width="75%">
+                     <caption>Table 3. Recommended Dosage Schedule</caption>
+                     <col width="35%"/>
+                     <col width="20%"/>
+                     <col width="19%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top"/>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Dose</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Frequency</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="3" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Adult</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Usual recommended dosage</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 gram intravenous or intramuscular</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 to 12 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Uncomplicated urinary tract infection</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>250 mg intravenous or intramuscular</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 12 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Bone and joint infections</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 grams intravenous</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 12 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Complicated urinary tract infections</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>500 mg intravenous or intramuscular</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 to 12 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Uncomplicated pneumonia; mild skin and skin-structure infections</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>500 mg to 1 gram intravenous or intramuscular</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Serious gynecological and intra-abdominal infections</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 grams intravenous</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Meningitis</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 grams intravenous</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Very severe life-threatening infections, especially in immunocompromised patients</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>2 grams intravenous</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Lung infections caused by <content styleCode="italics">Pseudomonas</content> spp. in patients with cystic fibrosis with normal renal function<footnote ID="_RefID0E3CAG">Although clinical improvement has been shown, bacteriologic cures cannot be expected in patients with chronic respiratory disease and cystic fibrosis.</footnote>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>30 to 50 mg/kg intravenous to a maximum of 6 grams per day</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 8 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Neonates</content> (0 – 4 weeks)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>30 mg/kg intravenous</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 12 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Infants and children<br/>
+                                 </content>(1 month – 12 years)</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>30 to 50 mg/kg intravenous to a maximum of 6 grams per day<footnote ID="_RefID0EVDAG">The higher dose should be reserved for immunocompromised pediatric patients or pediatric patients with cystic fibrosis or meningitis.</footnote>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>every 8 hours</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Impaired Hepatic Function</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>No adjustment in dosage is required for patients with hepatic dysfunction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Impaired Renal Function</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Ceftazidime is excreted by the kidneys, almost exclusively by glomerular filtration. Therefore, in patients with impaired renal function (glomerular filtration rate [GFR] &lt;50 mL/min), it is recommended that the dosage of ceftazidime be reduced to compensate for its slower excretion. In patients with suspected renal insufficiency, an initial loading dose of 1 gram of ceftazidime may be given. An estimate of GFR should be made to determine the appropriate maintenance dosage. The recommended dosage is presented in <content styleCode="italics">
+                        <linkHtml href="#reftable4">Table 4</linkHtml>
+                     </content>.</paragraph>
+                  <table ID="reftable4" styleCode="Noautorules" width="75%">
+                     <caption>Table 4. Recommended Maintenance Dosages of Tazicef (Ceftazidime for Injection, USP) in Renal Insufficiency</caption>
+                     <col width="24%"/>
+                     <col width="26%"/>
+                     <col width="24%"/>
+                     <tbody>
+                        <tr>
+                           <td align="center" colspan="3" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NOTE: if the dose recommended in <content styleCode="italics">
+                                       <linkHtml href="#reftable3">Table 3</linkHtml>
+                                    </content> above is lower than that recommended for patients with renal insufficiency as outlined in <content styleCode="italics">
+                                       <linkHtml href="#reftable4">Table 4</linkHtml>
+                                    </content>, the lower dose should be used.</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td align="center" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Creatinine Clearance</content>
+                                 <br/>
+                                 <content styleCode="bold">(mL/min)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Recommended Unit Dose of Tazicef</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Frequency of Dosing</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>50 to 31</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 gram</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 12 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>30 to 16</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>1 gram</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 24 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>15 to 6</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>500 mg</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>every 24 hours</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>less than 5</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>500 mg</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>every 48 hours</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>When only serum creatinine is available, the following formula (Cockcroft's equation)<sup>1</sup> may be used to estimate creatinine clearance. The serum creatinine should represent a steady state of renal function:</paragraph>
+                  <paragraph>Males: Creatinine clearance (mL/min) =                <content styleCode="underline">                  Weight (kg) x (140 - age)                   </content>
+                     <br/>                                                                                              72 x serum creatinine (mg/dL)</paragraph>
+                  <paragraph>Females: 0.85 x male value</paragraph>
+                  <paragraph>In patients with severe infections who would normally receive 6 grams of Tazicef daily were it not for renal insufficiency, the unit dose given in the table above may be increased by 50% or the dosing frequency may be increased appropriately. Further dosing should be determined by therapeutic monitoring, severity of the infection, and susceptibility of the causative organism.</paragraph>
+                  <paragraph>In pediatric patients as for adults, the creatinine clearance should be adjusted for body surface area or lean body mass, and the dosing frequency should be reduced in cases of renal insufficiency.</paragraph>
+                  <paragraph>In patients undergoing hemodialysis, a loading dose of 1 gram is recommended, followed by 1 gram after each hemodialysis period.</paragraph>
+                  <paragraph>Tazicef (ceftazidime for injection, USP) can also be used in patients undergoing intraperitoneal dialysis and continuous ambulatory peritoneal dialysis. In such patients, a loading dose of 1 gram of Tazicef may be given, followed by 500 mg every 24 hours. In addition to IV use, Tazicef can be incorporated in the dialysis fluid at a concentration of 250 mg for 2 L of dialysis fluid.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: </content>Generally, Tazicef should be continued for 2 days after the signs and symptoms of infection have disappeared, but in complicated infections longer therapy may be required.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Administration</content>
+                  </paragraph>
+                  <paragraph>Tazicef may be given intravenously or by deep IM injection into a large muscle mass such as the upper outer quadrant of the gluteus maximus or lateral part of the thigh. Intra-arterial administration should be avoided (see <linkHtml href="#e4cbcc0d-04e7-4770-830d-8f364b67ee0b">PRECAUTIONS</linkHtml>).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Intramuscular Administration</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>For IM administration, Tazicef should be constituted with one of the following diluents: Sterile Water for Injection, Bacteriostatic Water for Injection, or 0.5% or 1% Lidocaine Hydrochloride Injection. Refer to <content styleCode="italics">
+                        <linkHtml href="#reftable5">Table 5</linkHtml>
+                     </content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Intravenous Administration</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>The IV route is preferable for patients with bacterial septicemia, bacterial meningitis, peritonitis, or other severe or life-threatening infections, or for patients who may be poor risks because of lowered resistance resulting from such debilitating conditions as malnutrition, trauma, surgery, diabetes, heart failure, or malignancy, particularly if shock is present or pending.</paragraph>
+                  <paragraph>For direct intermittent IV administration<content styleCode="bold">
+                        <content styleCode="italics">,</content>
+                     </content> constitute Tazicef as directed in <content styleCode="italics">
+                        <linkHtml href="#reftable5">Table 5</linkHtml>
+                     </content> with Sterile Water for Injection. Slowly inject directly into the vein over a period of 3 to 5 minutes or give through the tubing of an administration set while the patient is also receiving one of the compatible IV fluids (see <linkHtml href="#f7ffc5bf-21de-43bb-8ece-70ad649523c0">COMPATIBILITY AND STABILITY</linkHtml>).</paragraph>
+                  <paragraph>For IV infusion<content styleCode="bold">
+                        <content styleCode="italics">,</content>
+                     </content> constitute the 1-gram or 2-gram vial and add an appropriate quantity of the resulting solution to an IV container with one of the compatible IV fluids listed under the <linkHtml href="#f7ffc5bf-21de-43bb-8ece-70ad649523c0">COMPATIBILITY AND STABILITY</linkHtml> section.</paragraph>
+                  <paragraph>Intermittent IV infusion with a Y-type administration set can be accomplished with compatible solutions. However, during infusion of a solution containing ceftazidime, it is desirable to discontinue the other solution.</paragraph>
+                  <paragraph>Freezing solutions of ceftazidime for injection is not recommended.</paragraph>
+                  <table ID="reftable5" styleCode="Noautorules" width="75%">
+                     <caption>Table 5. Preparation of Solutions of Tazicef</caption>
+                     <col width="15%"/>
+                     <col width="17%"/>
+                     <col width="20%"/>
+                     <col width="21%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Size</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Amount of Diluent to be Added</content>
+                                 <br/>
+                                 <content styleCode="bold">(mL)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Approximate Available Volume</content>
+                                 <br/>
+                                 <content styleCode="bold">(mL)</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="bold">Approximate Ceftazidime Concentration</content>
+                                 <br/>
+                                 <content styleCode="bold">(mg/mL)</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Intramuscular</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>1 gram vial</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>3</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>3.6</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>280</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="4" styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>Intravenous</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>1 gram vial</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>10</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>10.6</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Lrule Toprule Botrule " valign="top">
+                              <paragraph>95</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>2 gram vial</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>10</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>11.2</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>180</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>All vials of Tazicef as supplied are under reduced pressure. When Tazicef is dissolved, carbon dioxide is released and a positive pressure develops. For ease of use please follow the recommended techniques of constitution described on the detachable Instructions for Constitution section of this insert.</paragraph>
+                  <paragraph>Solutions of Tazicef, like those of most beta-lactam antibacterial drugs, should not be added to solutions of aminoglycoside antibacterial drugs because of potential interaction.</paragraph>
+                  <paragraph>However, if concurrent therapy with Tazicef and an aminoglycoside is indicated, each of these antibacterial drugs can be administered separately to the same patient.</paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f7ffc5bf-21de-43bb-8ece-70ad649523c0">
+               <id root="d6b36ea5-420c-4eaa-b18b-cc38658dd370"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>COMPATIBILITY AND STABILITY</title>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <section ID="ID_d5c2b912-3bb3-4162-b337-091cdad3cdb7">
+                     <id root="41755b55-b80b-4982-9bdb-4366405ad70b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intramuscular</title>
+                     <text>
+                        <paragraph>Tazicef (ceftazidime for injection, USP), when constituted as directed with Sterile Water for Injection, Bacteriostatic Water for Injection, or 0.5% or 1% Lidocaine Hydrochloride Injection, maintains satisfactory potency for 24 hours at room temperature or for 7 days under refrigeration. Solutions in Sterile Water for Injection that are frozen immediately after constitution in the original container are stable for 3 months when stored at -20°C. Once thawed, solutions should not be refrozen. Thawed solutions may be stored for up to 8 hours at room temperature or for 4 days in a refrigerator.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="ID_3e8aef4a-d085-49a9-a3ed-b5662546056a">
+                     <id root="b295d4b4-6684-48d0-abbd-d41373f8549d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Intravenous</title>
+                     <text>
+                        <paragraph>Tazicef (ceftazidime for injection, USP) when constituted as directed with Sterile Water for Injection, maintains satisfactory potency for 24 hours at room temperature or for 7 days under refrigeration. Solutions in Sterile Water for Injection in the original container or in 0.9% Sodium Chloride Injection in VIAFLEX<sup>®</sup> small-volume containers that are frozen immediately after constitution are stable for 3 months when stored at -20°C. Do not force thaw by immersion in water baths or by microwave irradiation. Once thawed, solutions should not be refrozen. Thawed solutions may be stored for up to 24 hours at room temperature or for 7 days in a refrigerator. More concentrated solutions in Sterile Water for Injection in the original container that are frozen immediately after constitution are stable for 3 months when stored at -20°C. Once thawed, solutions should not be refrozen. Thawed solutions may be stored for up to 8 hours at room temperature or for 4 days in a refrigerator.</paragraph>
+                        <paragraph>Tazicef is compatible with the more commonly used IV infusion fluids. Solutions at concentrations between 1 and 40 mg/mL in 0.9% Sodium Chloride Injection; 1/6 M Sodium Lactate Injection; 5% Dextrose Injection; 5% Dextrose and 0.225% Sodium Chloride Injection; 5% Dextrose and 0.45% Sodium Chloride Injection; 5% Dextrose and 0.9% Sodium Chloride Injection; 10% Dextrose Injection; Ringer's Injection, USP; Lactated Ringer's Injection, USP; 10% Invert Sugar in Water for Injection; and NORMOSOL<sup>®</sup>-M in 5% Dextrose Injection may be stored for up to 24 hours at room temperature or for 7 days if refrigerated.</paragraph>
+                        <paragraph>Tazicef is less stable in Sodium Bicarbonate Injection than in other IV fluids. It is not recommended as a diluent. Solutions of Tazicef in 5% Dextrose Injection and 0.9% Sodium Chloride Injection are stable for at least 6 hours at room temperature in plastic tubing, drip chambers, and volume control devices of common IV infusion sets.</paragraph>
+                        <paragraph>Ceftazidime at a concentration of 4 mg/mL has been found compatible for 24 hours at room temperature or for 7 days under refrigeration in 0.9% Sodium Chloride Injection or 5% Dextrose Injection when admixed with: cefuroxime sodium (ZINACEF<sup>®</sup>) 3 mg/mL, heparin 10 or 50 U/mL, or potassium chloride 10 or 40 mEq/L.</paragraph>
+                        <paragraph>Vancomycin solution exhibits a physical incompatibility when mixed with a number of drugs, including ceftazidime. The likelihood of precipitation with ceftazidime is dependent on the concentrations of vancomycin and ceftazidime present. It is therefore recommended, when both drugs are to be administered by intermittent IV infusion, that they be given separately, flushing the IV lines (with 1 of the compatible IV fluids) between the administration of these 2 agents.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Note: </content>Parenteral drug products should be inspected visually for particulate matter before administration whenever solution and container permit.</paragraph>
+                        <paragraph>As with other cephalosporins, Tazicef powder, as well as solutions, tend to darken depending on storage conditions; within the stated recommendations, however, product potency is not adversely affected.</paragraph>
+                     </text>
+                     <effectiveTime value="20230310"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="fca23c95-7128-4886-a071-be1a7f30b693">
+               <id root="da46eff5-9e9e-4ed7-a62e-dae888731b6f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Tazicef in the dry state should be stored at 20°C to 25°C (68°F to 77°F) [See USP Controlled Room Temperature] and protected from light. Tazicef (ceftazidime for injection, USP) is a dry, white to off-white powder supplied in vials as follows:</paragraph>
+                  <table styleCode="Noautorules" width="75%">
+                     <col width="35%"/>
+                     <col width="38%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Unit of Sale</content>
+                              </paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">Concentration</content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-5082-16</content>
+                              </paragraph>
+                              <paragraph>25 single-dose vials in a carton</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>1 g/vial</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Lrule Botrule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-5082-10</content>
+                              </paragraph>
+                              <paragraph>10 single-dose vials in a carton</paragraph>
+                           </td>
+                           <td styleCode="Rrule Lrule Toprule Botrule " valign="bottom">
+                              <paragraph>1 g/vial</paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC 0409-5084-11</content>
+                              </paragraph>
+                              <paragraph>10 single-dose vials in a carton</paragraph>
+                           </td>
+                           <td styleCode="Rrule Botrule Lrule Toprule " valign="bottom">
+                              <paragraph>2 g/vial</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260504"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bc5d756d-7c26-4d78-a471-ea514f92ecc9">
+               <id root="cb2718e5-a82f-432a-8398-a5f2f7ba2c49"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. Nephron. 1976;16:31–41.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20230310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_432293c7-7849-4b48-b0ea-73c4d4df27ce">
+               <id root="d35bff2e-1045-4d08-93fe-0bab0e043606"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>ZINACEF<sup>®</sup> is a registered trademark of Teligent, Inc.</paragraph>
+                  <paragraph>CLINITEST and CLINISTIX are registered trademarks of Ames Division, Miles Laboratories, Inc.</paragraph>
+                  <paragraph>Manufactured by Sandoz GmbH for<br/>Hospira, Inc., Lake Forest, IL 60045, USA</paragraph>
+                  <renderMultiMedia ID="id-489952589" referencedObject="DD6A9D5C-77B3-4CFF-9158-C99B0EA27B35"/>
+                  <paragraph>LAB-1131-9.0</paragraph>
+                  <paragraph>Revised: 1/2026</paragraph>
+               </text>
+               <effectiveTime value="20260504"/>
+               <component>
+                  <observationMedia ID="DD6A9D5C-77B3-4CFF-9158-C99B0EA27B35">
+                     <text>Hospira logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0f0f540e-fbcd-4d2f-9814-007ed5eebf58">
+               <id root="0202c407-c827-45ad-9993-7f40baec1a17"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>TEAR AWAY</paragraph>
+                  <paragraph>Tazicef<sup>®</sup> (ceftazidime for injection, USP)<br/>Instructions for Constitution</paragraph>
+                  <paragraph>Vials: 1 g and 2 g</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Insert the syringe needle through the vial closure and inject the recommended volume of diluent. The vacuum may assist entry of the diluent. Remove the syringe needle.</item>
+                     <item>
+                        <caption>2.</caption>Shake to dissolve; a clear solution will be obtained in 1 to 2 minutes.</item>
+                     <item>
+                        <caption>3.</caption>Invert the vial. Ensuring that the syringe plunger is fully depressed, insert the needle through the vial closure and withdraw the total volume of solution into the syringe (the pressure in the vial may aid withdrawal). Ensure that the needle remains within the solution and does not enter the headspace. The withdrawn solution may contain some bubbles of carbon dioxide.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">Note</content>: As with the administration of all parenteral products, accumulated gases should be expressed from the syringe immediately before injection of Tazicef.</paragraph>
+                  <paragraph>Manufactured by Sandoz GmbH for<br/>Hospira, Inc., Lake Forest, IL 60045, USA</paragraph>
+                  <paragraph>LAB-1198-3.0</paragraph>
+                  <paragraph>Revised: 06/2020</paragraph>
+               </text>
+               <effectiveTime value="20230310"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0d82aeec-4002-4a27-b013-3c521e340406">
+               <id root="d6defa19-315f-4076-9162-330d418586a8"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2 g Vial Label</title>
+               <text>
+                  <paragraph>NDC 0409-5084-13</paragraph>
+                  <paragraph>equivalent to<br/>2 g/vial ceftazidime</paragraph>
+                  <paragraph>TAZICEF<sup>®</sup>
+                     <br/>Ceftazidime For<br/>Injection, USP</paragraph>
+                  <paragraph>For intravenous use</paragraph>
+                  <paragraph>Single-dose vial</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <renderMultiMedia ID="id1334" referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 2 g Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_d0ed1c3b-686a-476c-b28c-26af4054510c">
+               <id root="37104655-2b14-4514-b5ff-875aee4b8482"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 2 g Vial Tray Label</title>
+               <text>
+                  <paragraph>NDC 0409-5084-11</paragraph>
+                  <paragraph>10 Single-dose vials</paragraph>
+                  <paragraph>TAZICEF<sup>®</sup>
+                     <br/>Ceftazidime For Injection, USP</paragraph>
+                  <paragraph>equivalent to 2 g/vial ceftazidime</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <renderMultiMedia ID="id1378" referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 2 g Vial Tray Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_e39d88b5-400d-4269-8d9d-1f3916d24d07">
+               <id root="0df893ca-5b89-4999-a309-c48fbfbcdc61"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 g Vial Label</title>
+               <text>
+                  <paragraph>NDC 0409-5082-11</paragraph>
+                  <paragraph>equivalent to<br/>1 g/vial ceftazidime</paragraph>
+                  <paragraph>TAZICEF<sup>®</sup>
+                     <br/>Ceftazidime For<br/>Injection, USP</paragraph>
+                  <paragraph>For intravenous or intramuscular use.</paragraph>
+                  <paragraph>Single-dose vial</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <renderMultiMedia ID="id1403" referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 1 g Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-06.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5ddaa655-b9dd-4995-bd01-f3f4013f72c7">
+               <id root="ad5e8402-948b-4fa9-8b7c-22f622efe773"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 g Vial Carton Label</title>
+               <text>
+                  <paragraph>NDC 0409-5082-16</paragraph>
+                  <paragraph>25 Single-dose vials</paragraph>
+                  <paragraph>TAZICEF<sup>®</sup>
+                     <br/>Ceftazidime For Injection, USP</paragraph>
+                  <paragraph>equivalent to 1 g/vial ceftazidime</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <renderMultiMedia ID="id1442" referencedObject="MM4"/>
+               </text>
+               <effectiveTime value="20230310"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>PRINCIPAL DISPLAY PANEL - 1 g Vial Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-07.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_5bceb7cf-84d1-431a-9cab-8326380047b6">
+               <id root="79c66e5d-082f-4fbf-8e44-b9e2f32d410c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 1 g (10) Vial Carton Label </title>
+               <text>
+                  <paragraph>10 Single-dose vials</paragraph>
+                  <paragraph>NDC 0409-5082-10</paragraph>
+                  <paragraph>TAZICEF<sup>®</sup>
+                     <br/>Ceftazidime For Injection, USP<br/>equivalent to 1 g/vial ceftazidime</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <renderMultiMedia ID="id-1310162178" referencedObject="A6A7F45C-3B5A-4978-A897-87E9291AE7E6"/>
+               </text>
+               <effectiveTime value="20260504"/>
+               <component>
+                  <observationMedia ID="A6A7F45C-3B5A-4978-A897-87E9291AE7E6">
+                     <text>PRINCIPAL DISPLAY PANEL - 1 g (10) Vial Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tazicef-08.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

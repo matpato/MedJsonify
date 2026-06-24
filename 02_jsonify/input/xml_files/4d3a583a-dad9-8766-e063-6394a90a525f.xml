@@ -1,0 +1,982 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4d3a583a-dad9-8766-e063-6394a90a525f"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Diclofenac Sodium</title>
+   <effectiveTime value="20260317"/>
+   <setId root="d5f215d4-9aa3-2ecf-e053-2995a90a2e89"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>DirectRx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>DirectRx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>DirectRx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-319" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4d3a4141-18e0-2619-e063-6294a90a1c57"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260317"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-319" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>DICLOFENAC SODIUM</name>
+                        <formCode code="C42986" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>DICLOFENAC SODIUM</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="51672-1358" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="16.05"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="QTG126297Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DICLOFENAC SODIUM</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="144O8QL0L1" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>DICLOFENAC</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="YOW8V9698H" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHYL SULFOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="150" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-319-05" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43171" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, DROPPER"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220119"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA203818" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220119"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f272c3-5886-ae63-e053-2a95a90a6314">
+               <id root="d5f272c3-5885-ae63-e053-2a95a90a6314"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution, USP is indicated for the treatment of signs and symptoms of osteoarthritis of the knee(s) (1).</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f26905-c26c-50a5-e053-2a95a90a3427">
+               <id root="d5f26905-c26b-50a5-e053-2a95a90a3427"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>2.1 General Dosing Instructions</paragraph>
+                  <paragraph>Use the lowest effective dosage for the shortest duration consistent with individual patient treatment goals [see WARNING AND PRECAUTIONS (5.2)] For the relief of the signs and symptoms of osteoarthritis of the knee(s), the recommended dose is 40 drops per knee, 4 times a day.</paragraph>
+                  <paragraph>Apply diclofenac sodium topical solution to clean, dry skin.</paragraph>
+                  <paragraph>To avoid spillage, dispense diclofenac sodium topical solution 10 drops at a time either directly onto the knee or first into the hand and then onto the knee. Spread diclofenac sodium topical solution evenly around front, back and sides of the knee. Repeat this procedure until 40 drops have been applied and the knee is completely covered with solution.</paragraph>
+                  <paragraph>To treat the other knee, if symptomatic, repeat the procedure.</paragraph>
+                  <paragraph>Application of diclofenac sodium topical solution in an amount exceeding or less than the recommended dose has not been studied and is therefore not recommended.</paragraph>
+                  <paragraph>2.2 Special Precautions</paragraph>
+                  <paragraph>Avoid showering/bathing for at least 30 minutes after the application of diclofenac sodium topical solution to the treated knee.
+  <br/>
+Wash and dry hands after use.
+  <br/>
+Do not apply diclofenac sodium topical Solution USP, to open wounds.
+  <br/>
+Avoid contact of diclofenac sodium topical solution with eyes and mucous membranes.
+  <br/>
+Do not apply external heat and/or occlusive dressings to treated knees.
+  <br/>
+Avoid wearing clothing over the diclofenac sodium topical solutiontreated knee(s) until the treated knee is dry.
+  <br/>
+Protect the treated knee(s) from natural or artificial sunlight.
+  <br/>
+Wait until the treated area is dry before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication to the same knee you have just treated with diclofenac sodium topical solution.
+ </paragraph>
+                  <paragraph>Until the treated knee(s) is completely dry, avoid skin-to-skin contact between other people and the treated knee(s).</paragraph>
+                  <paragraph>Do not use combination therapy with diclofenac sodium and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations.</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f272c3-5889-ae63-e053-2a95a90a6314">
+               <id root="d5f272c3-5888-ae63-e053-2a95a90a6314"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution USP, 1.5% w/w</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f272c3-588b-ae63-e053-2a95a90a6314">
+               <id root="d5f272c3-588a-ae63-e053-2a95a90a6314"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution, USP is contraindicated in the following patients:</paragraph>
+                  <paragraph>Known hypersensitivity (e.g., anaphylactic reactions and serious skin reactions) to diclofenac or any components of the drug product. [see WARNINGS AND PRECAUTIONS (5.7, 5.9)].
+  <br/>
+History of asthma, urticaria, or other allergic-type reactions after taking aspirin or other NSAIDs. Severe, sometimes fatal, anaphylactic reactions to NSAIDs have been reported in such patients [see WARNINGS AND PRECAUTIONS (5.7, 5.8)].
+  <br/>
+In the setting of coronary artery bypass graft (CABG) surgery [see WARNINGS AND PRECAUTIONS (5.1)].
+ </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f27a51-5226-7717-e053-2995a90a96e9">
+               <id root="d5f27a51-5225-7717-e053-2995a90a96e9"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>5.1 Cardiovascular Thrombotic Events</paragraph>
+                  <paragraph>Clinical trials of several COX-2 selective and nonselective NSAIDs of up to three years duration have shown an increased risk of serious cardiovascular (CV) thrombotic events, including myocardial infarction (MI) and stroke, which can be fatal. Based on available data, it is unclear that the risk for CV thrombotic events is similar for all NSAIDs. The relative increase in serious CV thrombotic events over baseline conferred by NSAID use appears to be similar in those with and without known CV disease or risk factors for CV disease. However, patients with known CV disease or risk factors had a higher absolute incidence of excess serious CV thrombotic events, due to their increased baseline rate. Some observational studies found that this increased risk of serious CV thrombotic events began as early as the first weeks of treatment. The increase in CV thrombotic risk has been observed most consistently at higher doses.</paragraph>
+                  <paragraph>To minimize the potential risk for an adverse CV event in NSAID-treated patients, use the lowest effective dose for the shortest duration possible. Physicians and patients should remain alert for the development of such events, throughout the entire treatment course, even in the absence of previous CV symptoms. Patients should be informed about the symptoms of serious CV events and the steps to take if they occur.</paragraph>
+                  <paragraph>There is no consistent evidence that concurrent use of aspirin mitigates the increased risk of serious CV thrombotic events associated with NSAID use. The concurrent use of aspirin and an NSAID, such as diclofenac, increases the risk of serious gastrointestinal (GI) events [see WARNINGS AND PRECAUTIONS (5.2)].</paragraph>
+                  <paragraph>Status Post Coronary Artery Bypass Graft (CABG) Surgery</paragraph>
+                  <paragraph>Two large, controlled, clinical trials of a COX-2 selective NSAID for the treatment of pain in the first 10 to 14 days following CABG surgery found an increased incidence of myocardial infarction and stroke [see CONTRAINDICATIONS (4)].</paragraph>
+                  <paragraph>Post-MI Patients</paragraph>
+                  <paragraph>Observational studies conducted in the Danish National Registry have demonstrated that patients treated with NSAIDs in the post-MI period were at increased risk of reinfarction, CV-related death, and all-cause mortality beginning in the first week of treatment. In this same cohort, the incidence of death in the first year post-MI was 20 per 100 person years in NSAIDtreated patients compared to 12 per 100 person years in non-NSAID exposed patients. Although the absolute rate of death declined somewhat after the first year post-MI, the increased relative risk of death in NSAID users persisted over at least the next four years of follow-up.</paragraph>
+                  <paragraph>Avoid the use of diclofenac sodium in patients with a recent MI unless the benefits are expected to outweigh the risk of recurrent CV thrombotic events. If diclofenac sodium is used in patients with a recent MI, monitor patients for signs of cardiac ischemia.</paragraph>
+                  <paragraph>5.2 Gastrointestinal Bleeding, Ulceration and Perforation</paragraph>
+                  <paragraph>NSAIDs, including diclofenac, cause serious gastrointestinal (GI) adverse events including inflammation, bleeding, ulceration, and perforation of the esophagus, stomach, small intestine, or large intestine, which can be fatal. These serious adverse events can occur at any time, with or without warning symptoms, in patients treated with NSAIDs. Only one in five patients who develop a serious upper GI adverse event on NSAID therapy is symptomatic. Upper GI ulcers, gross bleeding, or perforation caused by NSAIDs occurred in approximately 1% of patients treated for 3 to 6 months, and in about 2 % to 4% of patients treated for one year. However, even short-term NSAID therapy is not without risk.</paragraph>
+                  <paragraph>Risk Factors for GI Bleeding, Ulceration, and Perforation</paragraph>
+                  <paragraph>Patients with a prior history of peptic ulcer disease and/or GI bleeding who used NSAIDs had a greater than 10-fold increased risk for developing a GI bleed compared to patients without these risk factors. Other factors that increase the risk of GI bleeding in patients treated with NSAIDs include longer duration of NSAID therapy; concomitant use of oral corticosteroids, aspirin, anticoagulants, or selective serotonin reuptake inhibitors (SSRIs); smoking; use of alcohol; older age; and poor general health status. Most postmarketing reports of fatal GI events occurred in elderly or debilitated patients. Additionally, patients with advanced liver disease and/or coagulopathy are at increased risk for GI bleeding.</paragraph>
+                  <paragraph>Strategies to Minimize the GI Risks in NSAID-treated patients:</paragraph>
+                  <paragraph>Use the lowest effective dosage for the shortest possible duration.
+  <br/>
+Avoid administration of more than one NSAID at a time.
+  <br/>
+Avoid use in patients at higher risk unless benefits are expected to outweigh the increased risk of bleeding. For such patients, as well as those with active GI bleeding, consider alternate therapies other than NSAIDs.
+  <br/>
+Remain alert for signs and symptoms of GI ulceration and bleeding during NSAID therapy.
+  <br/>
+If a serious GI adverse event is suspected, promptly initiate evaluation and treatment, and discontinue diclofenac sodium until a serious GI adverse event is ruled out.
+  <br/>
+In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, monitor patients more closely for evidence of GI bleeding [see DRUG INTERACTIONS (7)].
+ </paragraph>
+                  <paragraph>5.3 Hepatotoxicity</paragraph>
+                  <paragraph>In clinical trials, of oral diclofenac-containing products, meaningful elevations (i.e., more than 3 times the ULN) of AST (SGOT) were observed in about 2% of approximately 5,700 patients at some time during diclofenac treatment (ALT was not measured in all studies).</paragraph>
+                  <paragraph>In a large, open-label, controlled trial of 3,700 patients treated with oral diclofenac for 2 to 6 months, patients were monitored first at 8 weeks and 1,200 patients were monitored again at 24 weeks. Meaningful elevations of ALT and/or AST occurred in about 4% of 3,700 patients and included marked elevations (greater than 8 times the ULN) in about 1% of the 3,700 patients. In that open-label study, a higher incidence of borderline (less than 3 times the ULN), moderate (3 to 8 times the ULN), and marked (greater than 8 times the ULN) elevations of ALT or AST was observed in patients receiving diclofenac when compared to other NSAIDs. Elevations in transaminases were seen more frequently in patients with osteoarthritis than in those with rheumatoid arthritis.</paragraph>
+                  <paragraph>Almost all meaningful elevations in transaminases were detected before patients became symptomatic. Abnormal tests occurred during the first 2 months of therapy with diclofenac in 42 of the 51 patients in all trials who developed marked transaminase elevations.</paragraph>
+                  <paragraph>In postmarketing reports, cases of drug-induced hepatotoxicity have been reported in the first month, and in some cases, the first 2 months of therapy, but can occur at any time during treatment with diclofenac. Postmarketing surveillance has reported cases of severe hepatic reactions, including liver necrosis, jaundice, fulminant hepatitis with and without jaundice, and liver failure. Some of these reported cases resulted in fatalities or liver transplantation.</paragraph>
+                  <paragraph>In a European retrospective population-based, case-controlled study, 10 cases of diclofenac associated drug-induced liver injury with current use compared with non-use of diclofenac were associated with a statistically significant 4-fold adjusted odds ratio of liver injury. In this particular study, based on an overall number of 10 cases of liver injury associated with diclofenac, the adjusted odds ratio increased further with female gender, doses of 150 mg or more, and duration of use for more then 90 days.</paragraph>
+                  <paragraph>Physicians should measure transaminases at baseline and periodically in patients receiving long-term therapy with diclofenac, because severe hepatotoxicity may develop without a prodrome of distinguishing symptoms. The optimum times for making the first and subsequent transaminase measurements are not known. Based on clinical trial data and postmarketing experiences, transaminases should be monitored within 4 to 8 weeks after initiating treatment with diclofenac. However, severe hepatic reactions can occur at any time during treatment with diclofenac.</paragraph>
+                  <paragraph>If abnormal liver tests persist or worsen, if clinical signs and/or symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, abdominal pain, diarrhea, dark urine, etc.), diclofenac sodium should be discontinued immediately.</paragraph>
+                  <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, diarrhea, pruritus, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If clinical signs and symptoms consistent with liver disease develop, or if systemic manifestations occur (e.g., eosinophilia, rash, etc.), discontinue diclofenac sodium immediately, and perform a clinical evaluation of the patient.</paragraph>
+                  <paragraph>To minimize the potential risk for an adverse liver-related event in patients treated with diclofenac sodium, use the lowest effective dose for the shortest duration possible. Exercise caution when prescribing diclofenac sodium with concomitant drugs that are known to be potentially hepatotoxic (e.g., acetaminophen, antibiotics, antiepileptics).</paragraph>
+                  <paragraph>5.4 Hypertension</paragraph>
+                  <paragraph>NSAIDs, including diclofenac, can lead to new onset of hypertension, or worsening of preexisting hypertension, either of which may contribute to the increased incidence of CV events. Patients taking angiotension converting enzyme (ACE) inhibitors, thiazide diuretics, or loop diuretics may have impaired response to these therapies when taking NSAIDs [see DRUG INTERACTIONS (7)].</paragraph>
+                  <paragraph>Monitor blood pressure (BP) closely during the initiation of NSAID treatment and throughout the course of therapy.</paragraph>
+                  <paragraph>5.5 Heart Failure and Edema</paragraph>
+                  <paragraph>The Coxib and traditional NSAID Trialists' Collaboration meta-analysis of randomized controlled trials demonstrated an approximately two-fold increase in hospitalizations for heart failure in COX-2 selective-treated patients and nonselective NSAID-treated patients compared to placebotreated patients. In a Danish National Registry study of patients with heart failure, NSAID use increased the risk of MI, hospitalization for heart failure, and death.</paragraph>
+                  <paragraph>Additionally, fluid retention and edema have been observed in some patients treated with NSAIDs. Use of diclofenac may blunt the CV effects of several therapeutic agents used to treat these medical conditions (e.g., diuretics, ACE inhibitors, or angiotensin receptor blockers [ARBs]) [see DRUG INTERACTIONS (7)].</paragraph>
+                  <paragraph>Avoid the use of diclofenac sodium in patients with severe heart failure unless the benefits are expected to outweigh the risk of worsening heart failure. If diclofenac sodium is used in patients with severe heart failure, monitor patients for signs of worsening heart failure.</paragraph>
+                  <paragraph>5.6 Renal Toxicity and Hyperkalemia</paragraph>
+                  <paragraph>Renal Toxicity</paragraph>
+                  <paragraph>Long-term administration of NSAIDs has resulted in renal papillary necrosis and other renal injury.</paragraph>
+                  <paragraph>Renal toxicity has also been seen in patients in whom renal prostaglandins have a compensatory role in the maintenance of renal perfusion. In these patients, administration of an NSAID may cause a dose-dependent reduction in prostaglandin formation and, secondarily, in renal blood flow, which may precipitate overt renal decompensation. Patients at greatest risk of this reaction are those with impaired renal function, dehydration, hypovolemia, heart failure, liver dysfunction, those taking diuretics and ACE inhibitors or ARBs, and the elderly. Discontinuation of NSAID therapy was usually followed by recovery to the pretreatment state.</paragraph>
+                  <paragraph>No information is available from controlled clinical studies regarding the use of diclofenac sodium in patients with advanced renal disease. The renal effects of diclofenac sodium may hasten the progression of renal dysfunction in patients with preexisting renal disease.</paragraph>
+                  <paragraph>Correct volume status in dehydrated or hypovolemic patients prior to initiating diclofenac sodium. Monitor renal function in patients with renal or hepatic impairment, heart failure, dehydration, or hypovolemia during use of diclofenac sodium [see DRUG INTERACTIONS (7)]. Avoid the use of diclofenac sodium in patients with advanced renal disease unless the benefits are expected to outweigh the risk of worsening renal function. If diclofenac sodium is used in patients with advanced renal disease, monitor patients for signs of worsening renal function.</paragraph>
+                  <paragraph>Hyperkalemia</paragraph>
+                  <paragraph>Increases in serum potassium concentration, including hyperkalemia, have been reported with use of NSAIDs, even in some patients without renal impairment. In patients with normal renal function, these effects have been attributed to a hyporeninemic-hypoaldosteronism state.</paragraph>
+                  <paragraph>5.7 Anaphylactic Reactions</paragraph>
+                  <paragraph>Diclofenac has been associated with anaphylactic reactions in patients with and without known hypersensitivity to diclofenac and in patients with aspirinsensitive asthma (see CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.8)]. Seek emergency help if an anaphylactic reaction occurs.</paragraph>
+                  <paragraph>5.8 Exacerbation of Asthma Related to Aspirin Sensitivity</paragraph>
+                  <paragraph>A subpopulation of patients with asthma may have aspirin-sensitive asthma which may include chronic rhinosinusitis complicated by nasal polyps; severe, potentially fatal bronchospasm; and/or intolerance to aspirin and other NSAIDs. Because cross-reactivity between aspirin and other NSAIDs has been reported in such aspirin-sensitive patients, diclofenac sodium is contraindicated in patients with this form of aspirin sensitivity [see CONTRAINDICATIONS (4)]. When diclofenac sodium is used in patients with preexisting asthma (without known aspirin sensitivity), monitor patients for changes in the signs and symptoms of asthma.</paragraph>
+                  <paragraph>5.9 Serious Skin Reactions</paragraph>
+                  <paragraph>NSAIDs, including diclofenac, can cause serious skin adverse reactions such as exfoliative dermatitis, Stevens-Johnson Syndrome (SJS), and toxic epidermal necrolysis (TEN), which can be fatal. These serious events may occur without warning. Inform patients about the signs and symptoms of serious skin reactions, and to discontinue the use of diclofenac sodium at the first appearance of skin rash or any other sign of hypersensitivity. Diclofenac sodium is contraindicated in patients with previous serious skin reactions to NSAIDs [see CONTRAINDICATIONS (4)].</paragraph>
+                  <paragraph>Do not apply diclofenac sodium to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and tolerability of the drug.</paragraph>
+                  <paragraph>5.10 Premature Closure of Fetal Ductus Arteriosus</paragraph>
+                  <paragraph>Diclofenac may cause premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including diclofenac sodium, in pregnant women starting at 30 weeks of gestation (third trimester) [see USE IN SPECIFIC POPULATIONS (8.1)].</paragraph>
+                  <paragraph>5.11 Hematologic Toxicity</paragraph>
+                  <paragraph>Anemia has occurred in NSAID-treated patients. This may be due to occult or gross blood loss, fluid retention, or an incompletely described effect on erythropoiesis. If a patient treated with diclofenac sodium has any signs or symptoms of anemia, monitor hemoglobin or hematocrit.</paragraph>
+                  <paragraph>NSAIDs, including diclofenac sodium, may increase the risk of bleeding events. Co-morbid conditions such as coagulation disorders, concomitant use of warfarin, other anticoagulants, antiplatelet agents (e.g., aspirin), serotonin reuptake inhibitors (SSRIs) and serotonin norepinephrine reuptake inhibitors (SNRIs) may increase this risk. Monitor these patients for signs of bleeding [see DRUG INTERACTIONS (7)].</paragraph>
+                  <paragraph>The effects of diclofenac sodium on platelet function were studied in 10 healthy subjects administered 80 drops four times a day for 7 days. There was no significant change in platelet aggregation following one week of treatment [see Clinical Pharmacology (12.4)].</paragraph>
+                  <paragraph>5.12 Masking of Inflammation and Fever</paragraph>
+                  <paragraph>The pharmacological activity of diclofenac sodium in reducing inflammation, and possibly fever, may diminish the utility of diagnostic signs in detecting infections.</paragraph>
+                  <paragraph>5.13 Laboratory Monitoring</paragraph>
+                  <paragraph>Because serious GI bleeding, hepatotoxicity, and renal injury can occur without warning symptoms or signs, consider monitoring patients on longterm NSAID treatment with a CBC and a chemistry profile periodically [see WARNINGS AND PRECAUTIONS (5.2, 5.3, 5.6)].</paragraph>
+                  <paragraph>5.14 Sun Exposure</paragraph>
+                  <paragraph>Instruct patients to avoid exposure to natural or artificial sunlight on treated knee(s) because studies in animals indicated topical diclofenac treatment resulted in an earlier onset of ultraviolet light-induced skin tumors. The potential effects of diclofenac sodium on skin response to ultraviolet damage in humans are not known.</paragraph>
+                  <paragraph>5.15 Eye Exposure</paragraph>
+                  <paragraph>Avoid contact of diclofenac sodium with eyes and mucosa. Advise patients that if eye contact occurs, immediately wash out the eye with water or saline and consult a physician if irritation persists for more than an hour.</paragraph>
+                  <paragraph>5.16 Oral Nonsteroidal Anti-Inflammatory Drugs</paragraph>
+                  <paragraph>Concomitant use of oral NSAIDs with diclofenac sodium resulted in a higher rate of rectal hemorrhage, more frequent abnormal creatinine, urea and hemoglobin. Therefore, do not use combination therapy with diclofenac sodium and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations.</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f2587e-031b-f97d-e053-2995a90a898b">
+               <id root="d5f2587e-031a-f97d-e053-2995a90a898b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in greater detail in other sections of the labeling:</paragraph>
+                  <paragraph>Cardiovascular Thrombotic Events [see WARNINGS AND PRECAUTIONS (5.1)]
+  <br/>
+GI Bleeding, Ulceration and Perforation [see WARNINGS AND PRECAUTIONS (5.2)]
+  <br/>
+Hepatotoxicity [see WARNINGS AND PRECAUTIONS (5.3)]
+  <br/>
+Hypertension [see WARNINGS AND PRECAUTIONS (5.4)]
+  <br/>
+Heart Failure and Edema [see WARNINGS AND PRECAUTIONS (5.5)]
+  <br/>
+Renal Toxicity and Hyperkalemia [see WARNINGS AND PRECAUTIONS (5.6)]
+  <br/>
+Anaphylactic Reactions [see WARNINGS AND PRECAUTIONS (5.7)]
+  <br/>
+Serious Skin Reactions [see WARNINGS AND PRECAUTIONS (5.9)]
+  <br/>
+Hematologic Toxicity [see WARNINGS AND PRECAUTIONS (5.11)]
+ </paragraph>
+                  <paragraph>6.1 Clinical Trials Experience</paragraph>
+                  <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                  <paragraph>The data described below reflect exposure to diclofenac sodium topical solution of 911 patients treated between 4 and 12 weeks (mean duration of 49 days) in seven Phase 3 controlled trials, as well as exposure of 793 patients treated in an open-label study, including 463 patients treated for at least 6 months, and 144 patients treated for at least 12 months. The population mean age was approximately 60 years, 89% of patients were Caucasians, 64% were females, and all patients had primary osteoarthritis.</paragraph>
+                  <paragraph>The most common adverse events with diclofenac sodium topical solution were application site skin reactions. These events were the most common reason for withdrawing from the studies.</paragraph>
+                  <paragraph>Application Site Reactions</paragraph>
+                  <paragraph>In controlled trials, the most common treatment-related adverse events in patients receiving diclofenac sodium topical solution were application site skin reactions. Application site reactions were characterized by one or more of the following: dryness, erythema, induration, vesicles, paresthesia, pruritus, vasodilation, acne, and urticaria. The most frequent of these reactions were dry skin (32%), contact dermatitis characterized by skin erythema and induration (9%), contact dermatitis with vesicles (2%) and pruritus (4%). In one controlled trial, a higher rate of contact dermatitis with vesicles (4%) was observed after treatment of 152 subjects with the combination of diclofenac sodium topical solution and oral diclofenac. In the open label uncontrolled long-term safety study, contact dermatitis occurred in 13% and contact dermatitis with vesicles in 10% of patients, generally within the first 6 months of exposure, leading to a withdrawal rate for an application site event of 14%.</paragraph>
+                  <paragraph>Adverse Events Common to the NSAID Class</paragraph>
+                  <paragraph>In controlled trials, subjects treated with diclofenac sodium topical solution experienced some adverse events associated with the NSAID class more frequently than subjects using placebo (constipation, diarrhea, dyspepsia, nausea, flatulence, abdominal pain, edema; see TABLE 1). The combination of diclofenac sodium topical solution and oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs. less than 1%), and more frequent abnormal creatinine (12% vs. 7%), urea (20% vs. 12%), and hemoglobin (13% vs. 9%), but no difference in elevation of liver transaminases.</paragraph>
+                  <paragraph>Table 1 lists all adverse reactions occurring in ≥1% of patients receiving diclofenac sodium topical solution, where the rate in the diclofenac sodium topical solution group exceeded placebo, from seven controlled studies conducted in patients with osteoarthritis. Since these trials were of different durations, these percentages do not capture cumulative rates of occurrence.</paragraph>
+                  <paragraph>Table 1: Adverse reactions occurring in ≥1% of patients treated with Diclofenac Sodium Topical Solution in placebo and oral diclofenaccontrolled trials.
+  <br/>
+Treatment Group: Diclofenac Sodium
+  <br/>
+Topical Solution
+  <br/>
+N=911 Topical
+  <br/>
+Placebo
+  <br/>
+N=332
+  <br/>
+Adverse Reaction* N (%) N (%)
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Preferred Term according to COSTART
+ </paragraph>
+                  <paragraph>Dry Skin (Application Site) 292 (32) 17 (5)
+  <br/>
+Contact Dermatitis (Application Site) 83 (9) 6 (2)
+  <br/>
+Dyspepsia 72 (8) 13 (4)
+  <br/>
+Abdominal Pain 54 (6) 10 (3)
+  <br/>
+Flatulence 35 (4) 1 (&lt;1)
+  <br/>
+Pruritus (Application Site) 34 (4) 7 (2)
+  <br/>
+Diarrhea 33 (4) 7 (2)
+  <br/>
+Nausea 33 (4) 3 (1)
+  <br/>
+Pharyngitis 40 (4) 13 (4)
+  <br/>
+Constipation 29 (3) 1 (&lt;1)
+  <br/>
+Edema 26 (3) 0
+  <br/>
+Rash (Non-Application Site) 25 (3) 5 (2)
+  <br/>
+Infection 25 (3) 8 (2)
+  <br/>
+Ecchymosis 19 (2) 1 (&lt;1)
+  <br/>
+Dry Skin (Non-Application Site) 19 (2) 1 (&lt;1)
+  <br/>
+Contact Dermatitis, vesicles (Application Site) 18 (2) 0
+  <br/>
+Paresthesia (Non-Application Site) 14 (2) 3 (&lt;1)
+  <br/>
+Accidental Injury 22 (2) 7 (2)
+  <br/>
+Pruritus (Non-Application Site) 15 (2) 2 (&lt;1)
+  <br/>
+Sinusitis 10 (1) 2 (&lt;1)
+  <br/>
+Halitosis 11 (1) 1 (&lt;1)
+  <br/>
+Application Site Reaction (not otherwise specified) 11 (1) 3 (&lt;1)
+ </paragraph>
+                  <paragraph>6.2 Postmarketing Experience</paragraph>
+                  <paragraph>In non-U.S. postmarketing surveillance, the following adverse reactions have been reported during post-approval use of diclofenac sodium topical solution. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Body as a Whole: abdominal pain, accidental injury, allergic reaction, asthenia, back pain, body odor, chest pain, edema, face edema, halitosis, headache, lack of drug effect, neck rigidity, pain</paragraph>
+                  <paragraph>Cardiovascular: palpitation, cardiovascular disorder</paragraph>
+                  <paragraph>Digestive: diarrhea, dry mouth, dyspepsia, gastroenteritis, decreased appetite, mouth ulceration, nausea, rectal hemorrhage, ulcerative stomatitis</paragraph>
+                  <paragraph>Metabolic and Nutritional: creatinine increased</paragraph>
+                  <paragraph>Musculoskeletal: leg cramps, myalgia</paragraph>
+                  <paragraph>Nervous: depression, dizziness, drowsiness, lethargy, paresthesia, paresthesia at application site</paragraph>
+                  <paragraph>Respiratory: asthma, dyspnea, laryngismus, laryngitis, pharyngitis</paragraph>
+                  <paragraph>Skin and Appendages: At the Application Site: contact dermatitis, contact dermatitis with vesicles, dry skin, pruritus, rash; Other Skin and Appendages Adverse Reactions: eczema, rash, pruritus, skin discoloration, urticaria</paragraph>
+                  <paragraph>Special Senses: abnormal vision, blurred vision, cataract, ear pain, eye disorder, eye pain, taste perversion</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f27a51-522a-7717-e053-2995a90a96e9">
+               <id root="d5f27a51-5229-7717-e053-2995a90a96e9"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>See TABLE 2 for clinically significant drug interactions with diclofenac.</paragraph>
+                  <paragraph>Table 2: Clinically Significant Drug Interactions with Diclofenac
+  <br/>
+Drugs That Interfere with Hemostasis
+  <br/>
+Clinical Impact:
+ </paragraph>
+                  <paragraph>Diclofenac and anticoagulants such as warfarin have a synergistic effect on bleeding. The concomitant use of diclofenac and anticoagulants have an increased risk of serious bleeding compared to the use of either drug alone.
+  <br/>
+Serotonin release by platelets plays an important role in hemostasis. Case-control and cohort epidemiological studies showed that concomitant use of drugs that interfere with serotonin reuptake and an NSAID may potentiate the risk of bleeding more than an NSAID alone.
+ </paragraph>
+                  <paragraph>Intervention: Monitor patients with concomitant use of diclofenac sodium with anticoagulants (e.g., warfarin), antiplatelet agents (e.g., aspirin), selective serotonin reuptake inhibitors (SSRIs), and serotonin norepinephrine reuptake inhibitors (SNRIs) for signs of bleeding [see WARNINGS AND PRECAUTIONS (5.11)]
+  <br/>
+Aspirin
+  <br/>
+Clinical Impact: Controlled clinical studies showed that the concomitant use of NSAIDs and analgesic doses of aspirin does not produce any greater therapeutic effect than the use of NSAIDs alone. In a clinical study, the concomitant use of an NSAID and aspirin was associated with a significantly increased incidence of GI adverse reactions as compared to use of NSAID alone [see WARNINGS AND PRECAUTIONS (5.2)]
+  <br/>
+Intervention: Concomitant use of diclofenac sodium and analgesic doses of aspirin is not generally recommended because of the increased risk of bleeding [see WARNINGS AND PRECAUTIONS (5.11)].
+  <br/>
+Diclofenac Sodium is not a substitute for low dose aspirin for cardiovascular protection.
+  <br/>
+ACE inhibitors, Angiotensin Receptor Blockers, and Beta-Blockers
+  <br/>
+Clinical Impact:
+ </paragraph>
+                  <paragraph>NSAIDs may diminish the antihypertensive effect of angiotensin converting enzyme (ACE) inhibitors, angiotensin receptor blockers (ARBs), or betablockers (including propranolol).
+  <br/>
+In patients who are elderly, volume-depleted (including those on diuretic therapy), or have renal impairment, co-administration of an NSAID with ACE inhibitors or ARBs may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible.
+ </paragraph>
+                  <paragraph>Intervention:</paragraph>
+                  <paragraph>During concomitant use of diclofenac sodium and ACE-inhibitors, ARBs, or beta-blockers, monitor blood pressure to ensure that the desired blood pressure is obtained.
+  <br/>
+During concomitant use of diclofenac sodium and ACE-inhibitors or ARBs in patients who are elderly, volume-depleted, or have impaired renal function, monitor for signs of worsening renal function [see WARNINGS AND PRECAUTIONS (5.6)]
+  <br/>
+When these drugs are administered concomitantly, patients should be adequately hydrated. Assess renal function at the beginning of the concomitant treatment and periodically thereafter.
+ </paragraph>
+                  <paragraph>Diuretics
+  <br/>
+Clinical Impact: Clinical studies, as well as post-marketing observations, showed that NSAIDs reduced the natriuretic effect of loop diuretics (e.g., furosemide) and thiazide diuretics in some patients. This effect has been attributed to the NSAID inhibition of renal prostaglandin synthesis.
+  <br/>
+Intervention: During concomitant use of diclofenac sodium with diuretics, observe patients for signs of worsening renal function, in addition to assuring diuretic efficacy including antihypertensive effects [see WARNINGS AND PRECAUTIONS (5.6)].
+  <br/>
+Digoxin
+  <br/>
+Clinical Impact: The concomitant use of diclofenac with digoxin has been reported to increase the serum concentration and prolong the half-life digoxin.
+  <br/>
+Intervention: During concomitant use of diclofenac sodium and digoxin, monitor serum digoxin levels.
+  <br/>
+Lithium
+  <br/>
+Clinical Impact: NSAIDs have produced elevations in plasma lithium levels and reductions in renal lithium clearance. The mean minimum lithium concentration increased 15%, and the renal clearance decreased by approximately 20%. This effect has been attributed to NSAID inhibition of renal prostaglandin synthesis.
+  <br/>
+Intervention: During concomitant use of diclofenac sodium and lithium, monitor patients for signs of lithium toxicity.
+  <br/>
+Methotrexate
+  <br/>
+Clinical Impact: Concomitant use of NSAIDs and methotrexate may increase the risk of methotrexate toxicity (e.g., neutropenia, thrombocytopenia, renal dysfunction).
+  <br/>
+Intervention: During concomitant use of diclofenac sodium and methotrexate, monitor patients for methotrexate toxicity.
+  <br/>
+Cyclosporine
+  <br/>
+Clinical Impact: Concomitant use of diclofenac sodium and cyclosporine may increase cyclosporine's nephrotoxicity.
+  <br/>
+Intervention: During concomitant use of diclofenac sodium and cyclosporine, monitor patients for signs or worsening renal function.
+  <br/>
+NSAIDs and Salicylates
+  <br/>
+Clinical Impact: Concomitant use of diclofenac with other NSAIDs or salicylates (e.g., diflunisal, salsalate) increases the risk of GI toxicity, with little or no increase in efficacy [see WARNINGS AND PRECAUTIONS (5.2)].
+  <br/>
+Concomitant use of oral NSAIDs with diclofenac sodium has been evaluated in one Phase 3 controlled trial and in combination with oral diclofenac, compared to oral diclofenac alone, resulted in a higher rate of rectal hemorrhage (3% vs. less than 1%), and more frequent abnormal creatinine (12% vs. 7%), urea (20% vs. 12%) and hemoglobin (13% vs. 9%).
+  <br/>
+Intervention: The concomitant use of diclofenac with other NSAIDs or salicyclates is not recommended.
+  <br/>
+Do not use combination therapy with diclofenac sodium and an oral NSAID unless the benefit outweighs the risk and conduct periodic laboratory evaluations.
+  <br/>
+Pemetrexed
+  <br/>
+Clinical Impact: Concomitant use of diclofenac sodium and pemetrexed may increase the risk of pemetrexed-associated myelosuppression, renal, and GI toxicity (see the pemetrexed prescribing information).
+  <br/>
+Intervention: During concomitant use of diclofenac sodium and pemetrexed, in patients with renal impairment whose creatinine clearance ranges from 45 to 79 mL/min, monitor for myelosuppression, renal and GI toxicity. NSAIDs with short elimination half-lives (e.g., diclofenac, indomethacin) should be avoided for a period of two days before, the day of, and two days following administration pemetrexed.
+  <br/>
+In the absence of data regarding potential interaction between pemetrexed and NSAIDs with longer half-lives (e.g., meloxicam, nabumetone), patients taking these NSAIDs should interrupt dosing for at least five days before, the day of, and two days following pemetrexed administration.
+ </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f272c3-5893-ae63-e053-2a95a90a6314">
+               <id root="d5f272c3-5892-ae63-e053-2a95a90a6314"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Pregnancy Category C prior to 30 weeks gestation; Category D starting 30 weeks gestation.</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>Use of NSAIDs, including diclofenac sodium, during the third trimester of pregnancy increases the risk of premature closure of the fetal ductus arteriosus. Avoid use of NSAIDs, including diclofenac sodium, in pregnant women starting at 30 weeks of gestation (third trimester).</paragraph>
+                  <paragraph>There are no adequate and well-controlled studies of diclofenac sodium in pregnant women. Data from observational studies regarding potential embryofetal risks of NSAID use in women in the first or second trimesters of pregnancy are inconclusive. In the general U.S. population, all clinically recognized pregnancies, regardless of drug exposure, have a background rate of 2 to 4% for major malformations, and 15 to 20% for pregnancy loss. Published reproductive and developmental studies of dimethyl sulfoxide (DMSO, the solvent used in Diclofenac Sodium) are equivocal as to potential teratogenicity. In animal reproduction studies, no evidence of teratogenicity was observed in mice, rats, or rabbits given diclofenac daily during the period of organogenesis at doses up to approximately 0.6, 0.6, and 1.3 times, respectively, the maximum recommended human dose (MRHD) of diclofenac sodium, despite the presence of maternal and fetal toxicity at these doses [see DATA]. Based on animal data, prostaglandins have been shown to have an important role in endometrial vascular permeability, blastocyst implantation, and decidualization. In animal studies, administration of prostaglandin synthesis inhibitors such as diclofenac, resulted in increased pre- and post-implantation loss.</paragraph>
+                  <paragraph>Clinical Considerations</paragraph>
+                  <paragraph>Labor or Delivery</paragraph>
+                  <paragraph>There are no studies on the effects of diclofenac sodium during labor or delivery. In animal studies, NSAIDs, including diclofenac, inhibit prostaglandin synthesis, cause delayed parturition, and increase the incidence of stillbirth.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Animal data</paragraph>
+                  <paragraph>Reproductive and developmental studies in animals demonstrated that diclofenac sodium administration during organogenesis did not produce teratogenicity despite the induction of maternal toxicity and fetal toxicity in mice at oral doses up to 20 mg/kg/day (approximately 0.6 times the maximum recommended human dose [MRHD] of diclofenac sodium, 154 mg/day, based on body surface area (BSA) comparison), and in rats and rabbits at oral doses up to 10 mg/kg/day (approximately 0.6 and 1.3 times, respectively, the MRHD based on BSA comparison). Published reproductive and developmental studies of dimethyl sulfoxide (DMSO, the solvent used in diclofenac sodium) are equivocal as to potential teratogenicity.</paragraph>
+                  <paragraph>In rats, maternally toxic doses of diclofenac were associated with dystocia, prolonged gestation, reduced fetal weights and growth, and reduced fetal survival.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>Based on available data, diclofenac may be present in human milk. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for CATAFLAM and any potential adverse effects on the breastfed infant from the CATAFLAM or from the underlying maternal condition.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>One woman treated orally with a diclofenac salt, 150 mg/day, had a milk diclofenac level of 100 mcg/L, equivalent to an infant dose of about 0.03 mg/kg/day. Diclofenac was not detectable in breast milk in 12 women using diclofenac (after either 100 mg/day orally for 7 days or a single 50 mg intramuscular dose administered in the immediate postpartum period).</paragraph>
+                  <paragraph>8.3 Females and Males of Reproductive Potential</paragraph>
+                  <paragraph>Infertility</paragraph>
+                  <paragraph>Females</paragraph>
+                  <paragraph>Based on the mechanism of action, the use of prostaglandin-mediated NSAIDs, including diclofenac sodium, may delay or prevent rupture of ovarian follicles, which has been associated with reversible infertility in some women. Published animal studies have shown that administration prostaglandin synthesis inhibitors has the potential to disrupt prostaglandin-mediated follicular rupture required for ovulation. Small studies in women treated with NSAIDs have also shown a reversible delay in ovulation. Consider withdrawal of NSAIDs, including diclofenac sodium, in women who have difficulties conceiving or who are undergoing investigation of infertility.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Elderly patients, compared to younger patients, are a greater risk for NSAID-associated serious cardiovascular, gastrointestinal, and/or renal adverse reactions. If the anticipated benefit for the elderly patient outweighs these potential risks, start dosing at the low end of the dosing range, and monitor patients for adverse effects [see WARNINGS AND PRECAUTIONS (5.1, 5.2, 5.3, 5.6, 5.13)].</paragraph>
+                  <paragraph>Of the 911 patients treated with diclofenac sodium in seven controlled, Phase 3 clinical trials, 444 subjects were 65 years of age and over. There was no age-related difference in the incidence of adverse events. Of the 793 patients treated with diclofenac sodium in one open-labeled safety trial, 334 subjects were 65 years of age and over including 107 subjects 75 and over. There was no difference in the incidence of adverse events with long-term exposure to diclofenac sodium for this elderly population.</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f26e91-c349-7e75-e053-2995a90a09ee">
+               <id root="d5f26e91-c348-7e75-e053-2995a90a09ee"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Symptoms following acute NSAID overdosages have been typically limited to lethargy, drowsiness, nausea, vomiting, and epigastric pain, which have been generally reversible with supportive care. Gastrointestinal bleeding has occurred. Hypertension, acute renal failure, respiratory depression, and coma have occurred, but were rare. [see WARNINGS AND PRECAUTIONS (5.1, 5.2. 5.4, 5.6)].</paragraph>
+                  <paragraph>Manage patients with symptomatic and supportive care following an NSAID overdosage. There are no specific antidotes. Emesis is not recommended due to a possibility of aspiration and subsequent respiratory irritation by DMSO contained in diclofenac sodium. Consider activated charcoal (60 to 100 grams in adults, 1 to 2 grams per kg of body weight in pediatric patients) and/or osmotic cathartic in symptomatic patients seen within four hours of ingestion or in patients with a large overdosage (5 to 10 times the recommended dosage). Forced diuresis, alkalinization of urine, hemodialysis, or hemoperfusion may not be useful due to high protein binding.</paragraph>
+                  <paragraph>For additional information about overdose treatment, contact a poison control center (1-800-222-1222).</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f27a51-522f-7717-e053-2995a90a96e9">
+               <id root="d5f27a51-522e-7717-e053-2995a90a96e9"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution USP, 1.5% is a nonsteroidal antiinflammatory drug, available as a clear, colorless to faintly pink-orange solution for topical application.</paragraph>
+                  <paragraph>Diclofenac sodium topical solution contains 1.5% w/w diclofenac sodium, a benzeneacetic acid derivative that is a nonsteroidal anti-inflammatory drug (NSAID), designated chemically as 2-[(2,6-dichlorophenyl)amino]-benzeneacetic acid, monosodium salt. The molecular weight is 318.14. Its molecular formula is C14H10Cl2NNaO2 and it has the following structural formula:</paragraph>
+                  <paragraph>[Chemical Structure]</paragraph>
+                  <paragraph>Each 1 mL of solution contains 16.05 mg of diclofenac sodium. In addition, diclofenac sodium topical solution contains the following inactive ingredients: dimethyl sulfoxide USP (DMSO, 45.5% w/w), ethanol, glycerin, propylene glycol and purified water.</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f26e91-c34c-7e75-e053-2995a90a09ee">
+               <id root="d5f26e91-c34b-7e75-e053-2995a90a09ee"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac sodium, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2).</paragraph>
+                  <paragraph>Diclofenac is a potent inhibitor of prostaglandin synthesis in vitro. Diclofenac concentrations reached during therapy have produced in vivo effects. Prostaglandins sensitize afferent nerves and potentiate the action of bradykinin in inducing pain in animal models. Prostaglandins are mediators of inflammation. Because diclofenac is an inhibitor of prostaglandin synthesis, its mode of action may be due to a decrease of prostaglandins in peripheral tissues.</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>After topical administration to healthy human volunteers of single and multiple maximum doses of diclofenac sodium topical solution, 40 drops (approximately 1.2 mL) to each knee (80 drops total dose), the following diclofenac pharmacokinetic parameters were obtained: (see TABLE 2).</paragraph>
+                  <paragraph>Table 2: Single-Dose (80 drops) and Multiple Dose (80 drops four times daily for 7 days) Diclofenac Sodium Topical Solution Pharmacokinetic Parameters
+  <br/>
+Diclofenac Sodium
+  <br/>
+Pharmacokinetic Parameters Normal Adults [N=18]
+  <br/>
+(Age: 18 to 55 years) Normal Adults [N=19]
+  <br/>
+(Age: 18 to 55 years)
+  <br/>
+Single Dose Multiple Dose
+  <br/>
+Four times daily for 7 days
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Apparent total body clearance
+ </paragraph>
+                  <paragraph>AUC0-t 177.5 ± 72.6 ng∙h/mL 695.4 ± 348.9 ng∙h/mL
+  <br/>
+AUC0-inf 196.3 ± 68.5 ng∙h/mL 745.2 ± 374.7 ng∙h/mL
+  <br/>
+Plasma Cmax 8.1 ± 5.9 ng/mL 19.4 ± 9.3 ng/mL
+  <br/>
+Plasma Tmax (h) 11.0 ± 6.4 4.0 ± 6.5
+  <br/>
+Plasma t1/2 (h) 36.7 ± 20.8 79.0 ± 38.1
+  <br/>
+Kel (h-1) 0.024 ± 0.010 0.011 ± 0.004
+  <br/>
+CL/F (L/h) 244.7 ± 84.7* --
+ </paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>Diclofenac systemic exposure from diclofenac sodium topical solution application (4 times daily for 1 week) was approximately 1/3 of the diclofenac systemic exposure from the diclofenac topical gel application (twice daily for 4 weeks).</paragraph>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>Diclofenac is more than 99% bound to human serum proteins, primarily to albumin.</paragraph>
+                  <paragraph>Diclofenac diffuses into and out of the synovial fluid. Diffusion into the joint occurs when plasma levels are higher than those in the synovial fluid, after which the process reverses and synovial fluid levels are higher than plasma levels. It is not known whether diffusion into the joint plays a role in the effectiveness of diclofenac.</paragraph>
+                  <paragraph>Elimination</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>Five diclofenac metabolites have been identified in human plasma and urine. The metabolites include 4'hydroxy-, 5-hydroxy-, 3'-hydroxy-, 4',5-dihydroxy- and 3'-hydroxy-4'-methoxy diclofenac. The major diclofenac metabolite, 4'-hydroxy-diclofenac, has very weak pharmacologic activity. The formation of 4'-hydroxy diclofenac is primarily mediated by CPY2C9. Both diclofenac and its oxidative metabolites undergo glucuronidation or sulfation followed by biliary excretion. Acylglucuronidation mediated by UGT2B7 and oxidation mediated by CPY2C8 may also play a role in diclofenac metabolism. CYP3A4 is responsible for the formation of minor metabolites, 5-hydroxy and 3'-hydroxy-diclofenac.</paragraph>
+                  <paragraph>Excretion</paragraph>
+                  <paragraph>Diclofenac is eliminated through metabolism and subsequent urinary and biliary excretion of the glucuronide and the sulfate conjugates of the metabolites.</paragraph>
+                  <paragraph>Little or no free unchanged diclofenac is excreted in the urine.</paragraph>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>Pediatric: The pharmacokinetics of diclofenac sodium topical solution has not been investigated in pediatric patients.</paragraph>
+                  <paragraph>Race: Pharmacokinetic differences due to race have not been studied.</paragraph>
+                  <paragraph>Drug Interaction Studies</paragraph>
+                  <paragraph>Aspirin: When NSAIDs were administered with aspirin, the protein binding of NSAIDs were reduced, although the clearance of free NSAID was not altered. The clinical significance of this interaction is not known. See TABLE 1 for clinically significant drug interactions of NSAIDs with aspirin [see DRUG INTERACTIONS (7)].</paragraph>
+                  <paragraph>CLOSE</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f2819d-36a4-e87e-e053-2a95a90ab824">
+               <id root="d5f2819d-36a3-e87e-e053-2a95a90ab824"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Diclofenac sodium topical solution USP, 1.5% w/w is supplied as a clear, colorless to slightly pink-orange solution containing 16.05 mg of diclofenac sodium per mL of solution, in a white bottle with a white dropper cap.</paragraph>
+                  <paragraph>NDC Number &amp; Size
+  <br/>
+Bottle 60 mL NDC 51672-1358-4
+  <br/>
+Bottle 150 mL NDC 51672-1358-2
+ </paragraph>
+                  <paragraph>Storage</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f2819d-36a6-e87e-e053-2a95a90ab824">
+               <id root="d5f2819d-36a5-e87e-e053-2a95a90ab824"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Medication Guide) and Instructions for Use that accompanies each prescription dispensed. Inform patients, families, or their caregivers of the following information before initiating therapy with diclofenac sodium and periodically during the course of ongoing therapy.</paragraph>
+                  <paragraph>Cardiovascular Thrombotic Events</paragraph>
+                  <paragraph>Advise patients to be alert for the symptoms of cardiovascular thrombotic events, including chest pain, shortness of breath, weakness, or slurring of speech, and to report any of these symptoms to their health care provider immediately [see WARNINGS AND PRECAUTIONS (5.1)].</paragraph>
+                  <paragraph>Gastrointestinal Bleeding, Ulceration, and Perforation</paragraph>
+                  <paragraph>Advise patients to report symptoms of ulcerations and bleeding, including epigastric pain, dyspepsia, melena, and hematemesis to their health care provider. In the setting of concomitant use of low-dose aspirin for cardiac prophylaxis, inform patients of the increased risk for and the signs and symptoms of GI bleeding [see WARNINGS AND PRECAUTIONS (5.2)].</paragraph>
+                  <paragraph>Hepatotoxicity</paragraph>
+                  <paragraph>Inform patients of the warning signs and symptoms of hepatotoxicity (e.g., nausea, fatigue, lethargy, pruritus, diarrhea, jaundice, right upper quadrant tenderness, and "flu-like" symptoms). If these occur, instruct patients to stop diclofenac sodium and seek immediate medical therapy [see WARNINGS AND PRECAUTIONS (5.3)].</paragraph>
+                  <paragraph>Heart Failure and Edema</paragraph>
+                  <paragraph>Advise patients to be alert for the symptoms of congestive heart failure including shortness of breath, unexplained weight gain, or edema and to contact their healthcare provider if such symptoms occur [see WARNINGS AND PRECAUTIONS (5.5)].</paragraph>
+                  <paragraph>Anaphylactic Reactions</paragraph>
+                  <paragraph>Inform patients of the signs of an anaphylactic reaction (e.g., difficulty breathing, swelling of the face or throat). Instruct patients to seek immediate emergency help if these occur [see CONTRAINDICATIONS (4) and WARNINGS AND PRECAUTIONS (5.7)].</paragraph>
+                  <paragraph>Serious Skin Reactions</paragraph>
+                  <paragraph>Advise patients to stop diclofenac sodium immediately if they develop any type of generalized rash and contact their physicians as soon as possible.</paragraph>
+                  <paragraph>Female Fertility</paragraph>
+                  <paragraph>Advise females of reproductive potential who desire pregnancy that NSAIDs, including diclofenac sodium, may be associated with a reversible delay in ovulation [see USE IN SPECIFIC POPULATIONS (8.3)]</paragraph>
+                  <paragraph>Fetal Toxicity</paragraph>
+                  <paragraph>Inform pregnant women to avoid use of diclofenac sodium and other NSAIDs starting at 30 weeks gestation because of the risk of the premature closing of the fetal ductus arteriosus [see WARNINGS AND PRECAUTIONS (5.10) and USE IN SPECIFIC POPULATIONS (8.1)].</paragraph>
+                  <paragraph>Avoid Concomitant Use of NSAIDs</paragraph>
+                  <paragraph>Inform patients that the concomitant use of diclofenac sodium with other NSAIDs or salicylates (e.g., diflunisal, salsalate) is not recommended due to the increased risk of gastrointestinal toxicity, and little or no increase in efficacy [see WARNINGS AND PRECAUTIONS (5.2) and DRUG INTERACTIONS (7)]. Alert patients that NSAIDs may be present in "over the counter" medications for treatment of colds, fever, or insomnia.</paragraph>
+                  <paragraph>Use of NSAIDs and Low-Dose Aspirin</paragraph>
+                  <paragraph>Inform patients not to use low-dose aspirin concomitantly with diclofenac sodium until they talk to their healthcare provider [SEE DRUG INTERACTIONS (7)].</paragraph>
+                  <paragraph>Eye Exposure</paragraph>
+                  <paragraph>Instruct patients to avoid contact of diclofenac sodium with the eyes and mucosa. Advise patients that if eye contact occurs, immediately wash out the eye with water or saline and consult a physician if irritation persists for more than an hour.</paragraph>
+                  <paragraph>Prevention of Secondary Exposure</paragraph>
+                  <paragraph>Instruct patients to avoid skin-to-skin contact between other people and the knee(s) to which diclofenac sodium was applied until the knee(s) is completely dry.</paragraph>
+                  <paragraph>Application Site Reactions</paragraph>
+                  <paragraph>Diclofenac sodium can cause a localized skin reaction at the application site. Advise patients to contact their physicians as soon as possible if they develop any type of localized application site rash.</paragraph>
+                  <paragraph>Special Application Instructions</paragraph>
+                  <paragraph>Instruct patients not to apply diclofenac sodium to open skin wounds, infections, inflammations, or exfoliative dermatitis, as it may affect absorption and reduce tolerability of the drug.
+  <br/>
+Instruct patients to wait until the area treated with diclofenac sodium is completely dry before applying sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medication.
+  <br/>
+Instruct patients to minimize or avoid exposure of treated knee(s) to natural or artificial sunlight.
+ </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f28942-a445-2372-e053-2995a90a60f9">
+               <id root="d5f28942-a444-2372-e053-2995a90a60f9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Trademarks are the property of their respective owners.</paragraph>
+                  <paragraph>Manufactured by: Taro Pharmaceuticals Inc.
+  <br/>
+Brampton, Ontario, Canada
+  <br/>
+L6T 1C1
+ </paragraph>
+                  <paragraph>Distributed by: Taro Pharmaceuticals U.S.A., Inc. Hawthorne, NY
+  <br/>
+10532
+ </paragraph>
+                  <paragraph>Revised: July 2019
+  <br/>
+PK-6853-2
+  <br/>
+56
+ </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f28942-a447-2372-e053-2995a90a60f9">
+               <id root="d5f28942-a446-2372-e053-2995a90a60f9"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <text>
+                  <paragraph>This Medication Guide has been approved by the U.S. Food and Drug Administration. Revised 7/2019
+  <br/>
+Medication Guide for Nonsteroidal Anti-inflammatory Drugs (NSAIDs)
+ </paragraph>
+                  <paragraph>What is the most important information I should know about medicines called Nonsteroidal Anti-inflammatory Drugs (NSAIDs)?</paragraph>
+                  <paragraph>NSAIDs can cause serious side effects, including:</paragraph>
+                  <paragraph>Increased risk of a heart attack or stroke that can lead to death. This risk may happen early in treatment and may increase:</paragraph>
+                  <paragraph>with increasing doses of NSAIDs</paragraph>
+                  <paragraph>with longer use of NSAIDs</paragraph>
+                  <paragraph>Do not take NSAIDs right before or after a heart surgery called a "coronary artery bypass graft (CABG)."
+  <br/>
+Avoid taking NSAIDs after a recent heart attack, unless your healthcare provider tells you to. You may have an increased risk of another heart attack if you take NSAIDs after a recent heart attack.
+ </paragraph>
+                  <paragraph>Increased risk of bleeding, ulcers, and tears (perforation) of the esophagus (tube leading from the mouth to the stomach), stomach and intestines:</paragraph>
+                  <paragraph>anytime during use</paragraph>
+                  <paragraph>without warning symptoms</paragraph>
+                  <paragraph>that may cause death</paragraph>
+                  <paragraph>The risk of getting an ulcer or bleeding increases with:</paragraph>
+                  <paragraph>past history of stomach ulcers, or stomach or intestinal bleeding with use of NSAIDs
+  <br/>
+taking medicines called "corticosteroids", "anticoagulants", "SSRIs", or "SNRIs"
+ </paragraph>
+                  <paragraph>increasing doses of NSAIDs
+  <br/>
+longer use of NSAIDs
+  <br/>
+smoking
+  <br/>
+drinking alcohol
+ </paragraph>
+                  <paragraph>older age
+  <br/>
+poor health
+  <br/>
+advanced liver disease
+  <br/>
+bleeding problems
+ </paragraph>
+                  <paragraph>NSAIDs should only be used:</paragraph>
+                  <paragraph>exactly as prescribed
+  <br/>
+at the lowest dose possible for your treatment
+  <br/>
+for the shortest time needed
+ </paragraph>
+                  <paragraph>What are NSAIDs?
+  <br/>
+NSAIDs are used to treat pain and redness, swelling, and heat (inflammation) from medical conditions such as different types of arthritis, menstrual cramps, and other types of short-term pain.
+  <br/>
+Who should not take NSAIDs?
+  <br/>
+Do not take NSAIDs:
+ </paragraph>
+                  <paragraph>if you have had an asthma attack, hives, or other allergic reaction with aspirin or any other NSAIDs.
+  <br/>
+right before or after heart bypass surgery.
+ </paragraph>
+                  <paragraph>Before taking NSAIDs, tell your healthcare provider about all of your medical conditions, including if you:</paragraph>
+                  <paragraph>have liver or kidney problems
+  <br/>
+have high blood pressure
+  <br/>
+have asthma
+  <br/>
+are pregnant or plan to become pregnant. Talk to your healthcare provider if you are considering taking NSAIDs during pregnancy. You should not take NSAIDs after 29 weeks of pregnancy.
+  <br/>
+are breastfeeding or plan to breast feed.
+ </paragraph>
+                  <paragraph>Tell your healthcare provider about all of the medicines you take, including prescription or over-the-counter medicines, vitamins or herbal supplements. NSAIDs and some other medicines can interact with each other and cause serious side effects. Do not start taking any new medicine without talking to your healthcare provider first.
+  <br/>
+What are the possible side effects of NSAIDs?
+  <br/>
+NSAIDs can cause serious side effects, including:
+  <br/>
+See "WHAT IS THE MOST IMPORTANT INFORMATION I SHOULD KNOW ABOUT MEDICINES CALLED NONSTEROIDAL ANTI-INFLAMMATORY DRUGS (NSAIDS)?"
+ </paragraph>
+                  <paragraph>new or worse high blood pressure
+  <br/>
+liver problems including liver failure
+  <br/>
+low red blood cells (anemia)
+  <br/>
+life-threatening allergic reactions
+ </paragraph>
+                  <paragraph>heart failure
+  <br/>
+kidney problems including kidney failure
+  <br/>
+life-threatening skin reactions
+ </paragraph>
+                  <paragraph>Other side effects of NSAIDs include: stomach pain, constipation, diarrhea, gas, heartburn, nausea, vomiting, and dizziness.</paragraph>
+                  <paragraph>Get emergency help right away if you get any of the following symptoms:</paragraph>
+                  <paragraph>shortness of breath or trouble breathing
+  <br/>
+chest pain
+  <br/>
+weakness in one part or side of your body
+ </paragraph>
+                  <paragraph>slurred speech
+  <br/>
+swelling of the face or throat
+ </paragraph>
+                  <paragraph>Stop taking your NSAID and call your healthcare provider right away if you get any of the following symptoms:</paragraph>
+                  <paragraph>nausea
+  <br/>
+more tired or weaker than usual
+  <br/>
+diarrhea
+  <br/>
+itching
+  <br/>
+your skin or eyes look yellow
+  <br/>
+indigestion or stomach pain
+ </paragraph>
+                  <paragraph>flu-like symptoms
+  <br/>
+vomit blood
+  <br/>
+there is blood in your bowel movement or it is black and sticky like tar
+  <br/>
+unusual weight gain
+  <br/>
+skin rash or blisters with fever
+  <br/>
+swelling of the arms, legs, hands and feet
+ </paragraph>
+                  <paragraph>If you take too much of your NSAID, call your healthcare provider or get medical help right away.
+  <br/>
+These are not all the possible side effects of NSAIDs. For more information, ask your healthcare provider or pharmacist about NSAIDs.
+  <br/>
+Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.
+  <br/>
+Other information about NSAIDs
+ </paragraph>
+                  <paragraph>Aspirin is an NSAID but it does not increase the chance of a heart attack. Aspirin can cause bleeding in the brain, stomach, and intestines. Aspirin can also cause ulcers in the stomach and intestines.
+  <br/>
+Some NSAIDs are sold in lower doses without a prescription (over-the-counter). Talk to your healthcare provider before using over-the-counter NSAIDs for more than 10 days.
+ </paragraph>
+                  <paragraph>General information about the safe and effective use of NSAIDs
+  <br/>
+Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use NSAIDs for a condition for which it was not prescribed. Do not give NSAIDs to other people, even if they have the same symptoms that you have. It may harm them.
+  <br/>
+If you would like more information about NSAIDs, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about NSAIDs that is written for health professionals.
+  <br/>
+Manufactured by: Taro Pharmaceuticals Inc., Brampton, Ontario, Canada L6T 1C1
+  <br/>
+Distributed by: Taro Pharmaceuticals U.S.A., Inc., Hawthorne, NY 10532
+  <br/>
+Revised: July 2019 PK-6853-2 56 For more information, call 1-866-923-4914.
+ </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f28942-a449-2372-e053-2995a90a60f9">
+               <id root="d5f28942-a448-2372-e053-2995a90a60f9"/>
+               <code code="59845-8" codeSystem="2.16.840.1.113883.6.1" displayName="INSTRUCTIONS FOR USE SECTION"/>
+               <text>
+                  <paragraph>Read the Medication Guide that comes with diclofenac sodium topical solution first. Be sure that you read, understand and follow these Instructions for Use before you use diclofenac sodium topical solution for the first time.</paragraph>
+                  <paragraph>Important: For use on the skin only (topical). Do not get diclofenac sodium topical solution in your eyes, nose or mouth. Before you use Diclofenac Sodium Topical Solution:</paragraph>
+                  <paragraph>Apply diclofenac sodium topical solution exactly as your healthcare provider tells you. Talk with your healthcare provider or pharmacist if you are not sure.
+  <br/>
+Only use diclofenac sodium topical solution to treat pain from osteoarthritis in your knee or knees.
+  <br/>
+Apply diclofenac sodium topical solution on clean, dry skin that does not have any cuts, infections or rashes.
+  <br/>
+Use diclofenac sodium topical solution 4 times each day on your knee or knees as prescribed.
+  <br/>
+Your total dose for each knee is 40 drops of diclofenac sodium topical solution, each time you use it.
+  <br/>
+If you get diclofenac sodium topical solution in your eyes, rinse your eyes right away with water or saline. Call your healthcare provider if your eyes are irritated for more than one hour.
+ </paragraph>
+                  <paragraph>Steps for using Diclofenac Sodium Topical Solution:</paragraph>
+                  <paragraph>Step 1.Wash your hands with soap and water before applying diclofenac sodium topical solution.</paragraph>
+                  <paragraph>Step 2. Put 10 drops of diclofenac sodium topical solution either on your hand or directly on your knee (see FIGURE A).</paragraph>
+                  <paragraph>Figure A</paragraph>
+                  <paragraph>or</paragraph>
+                  <paragraph>Figure B</paragraph>
+                  <paragraph>Figure C</paragraph>
+                  <paragraph>[Figure A] [Figure A] [Figure B] [Figure C]</paragraph>
+                  <paragraph>Step 3. Spread diclofenac sodium topical solution evenly on the front, back and sides of your knee (see FIGURES B and C). Repeat steps 2 and 3, three times so that your knee is completely covered with a total of 40 drops of diclofenac sodium topical solution.</paragraph>
+                  <paragraph>Step 4. If your healthcare provider has prescribed diclofenac sodium topical solution for both knees, repeat steps 2 and 3 for the other knee.</paragraph>
+                  <paragraph>After you use Diclofenac Sodium Topical Solution:</paragraph>
+                  <paragraph>Wash your hands with soap and water right away after applying diclofenac sodium topical solution.</paragraph>
+                  <paragraph>Do not:</paragraph>
+                  <paragraph>touch the treated knee or allow another person to touch the knee treated with diclofenac sodium topical solution until your knee is completely dry.
+  <br/>
+cover your knee with clothing until your knee is completely dry.
+  <br/>
+put sunscreen, insect repellant, lotion, moisturizer, cosmetics, or other topical medicines on your knee until it is completely dry.
+  <br/>
+take a shower or a bath for at least 30 minutes after you put diclofenac sodium topical solution on your knee.
+  <br/>
+use heating pads or cover the treated area with bandages where you have applied diclofenac sodium topical solution.
+  <br/>
+use sunlamps and tanning beds. Protect your treated knee from sunlight. Wear clothes that cover your skin if you have to be in sunlight.
+ </paragraph>
+                  <paragraph>How should I store Diclofenac Sodium Topical Solution?</paragraph>
+                  <paragraph>Store diclofenac sodium topical solution at room temperature between 68°F to 77°F (20°C to 25°C).</paragraph>
+                  <paragraph>Keep diclofenac sodium topical solution and all medicines out of the reach of children.</paragraph>
+                  <paragraph>Trademarks are the property of their respective owners.
+  <br/>
+This Instructions for Use has been approved by the U.S. Food and Drug Administration.
+  <br/>
+Manufactured by: Taro Pharmaceuticals Inc., Brampton, Ontario, Canada L6T 1C1
+  <br/>
+Distributed by: Taro Pharmaceuticals U.S.A., Inc. Hawthorne, NY 10532
+ </paragraph>
+                  <paragraph>Revised: July 2019
+  <br/>
+PK-6853-2
+  <br/>
+56
+ </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d5f2819d-36a8-e87e-e053-2a95a90ab824">
+               <id root="d5f2819d-36a7-e87e-e053-2a95a90ab824"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_d5f2a319-ca0e-c2ad-e053-2a95a90ab232"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220119"/>
+               <component>
+                  <observationMedia ID="img_d5f2a319-ca0e-c2ad-e053-2a95a90ab232">
+                     <text>yhght</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-0319-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

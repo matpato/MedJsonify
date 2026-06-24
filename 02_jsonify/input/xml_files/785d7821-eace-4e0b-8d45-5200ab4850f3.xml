@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="785d7821-eace-4e0b-8d45-5200ab4850f3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title/>
+   <effectiveTime value="20260423"/>
+   <setId root="d4b5863a-efb9-4551-a9ad-2b06e8666d87"/>
+   <versionNumber value="22"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="093132819" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1754" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="3811d192-5853-4b8c-93a9-19d5f6b8fea8"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20230717"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-1754" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Magnesium Sulfate</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>magnesium sulfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="SK47B8698T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM SULFATE HEPTAHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="T6V3LHY838" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MAGNESIUM CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O40UQP6WCF" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SULFURIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-1754-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43204" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYRINGE, PLASTIC"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="10"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="0409-1754-10" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43233" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKAGE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20061128"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102835" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 2: Prefilled Drug Delivery Device/System (syringe, patch, etc.)" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA075151" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20061128"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="d0067248-6e0e-48d3-97fb-04bef7805e90">
+               <id root="1ea01778-3c5d-40e8-ac48-6b70394f8aff"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Magnesium Sulfate</content>
+                     <br/>
+                     <content styleCode="bold">Injection, USP 50%</content>
+                     <br/>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Ansyr™ Plastic Syringe</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Rx only                                                                                                                                               <renderMultiMedia ID="id-58633366" referencedObject="C886A249-B3B1-4302-B98C-6931E1CF527D"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="C886A249-B3B1-4302-B98C-6931E1CF527D">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="magnesium-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="f32b9b3c-796a-4442-8e32-46d4075513ac">
+               <id root="6ddc3067-cb86-40c7-8752-d76a8989697f"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>
+                  <content styleCode="italics">DESCRIPTION</content>
+               </title>
+               <text>
+                  <paragraph>Magnesium Sulfate Injection, USP 50% is a sterile solution of magnesium sulfate heptahydrate in Water for Injection, USP administered by the intravenous or intramuscular routes as an electrolyte replenisher or anticonvulsant. Must be diluted before intravenous use. May contain sulfuric acid and/or sodium hydroxide for pH adjustment. The pH is 5.5 to 7.0. The 50% concentration has an osmolarity of 4.06 mOsmol/mL (calc.).</paragraph>
+                  <paragraph>The solution contains no bacteriostat, antimicrobial agent or added buffer (except for pH adjustment) and is intended only for use as a single-dose injection. When smaller doses are required the unused portion should be discarded with the entire unit.</paragraph>
+                  <paragraph>Magnesium Sulfate, USP heptahydrate is chemically designated MgSO<sub>4</sub> • 7H<sub>2</sub>O with molecular weight of 246.48 and occurs as colorless crystals or white powder freely soluble in water.</paragraph>
+                  <paragraph>The plastic syringe is molded from a specially formulated polypropylene. Water permeates from inside the container at an extremely slow rate which will have an insignificant effect on solution concentration over the expected shelf life. Solutions in contact with the plastic container may leach out certain chemical components from the plastic in very small amounts; however, biological testing was supportive of the safety of the syringe material.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ec89d859-c619-43b2-b09e-699f12d2771d">
+               <id root="c140b834-3e14-43ce-aa2f-906f15b5e03e"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>
+                  <content styleCode="italics">CLINICAL PHARMACOLOGY</content>
+               </title>
+               <text>
+                  <paragraph>Magnesium (Mg<sup>++</sup>) is an important cofactor for enzymatic reactions and plays an important role in neurochemical transmission and muscular excitability.</paragraph>
+                  <paragraph>As a nutritional adjunct in hyperalimentation, the precise mechanism of action for magnesium is uncertain. Early symptoms of hypomagnesemia (less than 1.5 mEq/liter) may develop as early as three to four days or within weeks. </paragraph>
+                  <paragraph>Predominant deficiency effects are neurological, e.g., muscle irritability, clonic twitching and tremors. Hypocalcemia and hypokalemia often follow low serum levels of magnesium. While there are large stores of magnesium present intracellularly and in the bones of adults, these stores often are not mobilized sufficiently to maintain plasma levels. Parenteral magnesium therapy repairs the plasma deficit and causes deficiency symptoms and signs to cease.</paragraph>
+                  <paragraph>Magnesium prevents or controls convulsions by blocking neuromuscular transmission and decreasing the amount of acetylcholine liberated at the end plate by the motor nerve impulse. Magnesium is said to have a depressant effect on the central nervous system (CNS), but it does not adversely affect the woman, fetus or neonate when used as directed in eclampsia or pre-eclampsia. Normal plasma magnesium levels range from 1.5 to 2.5 mEq/liter.</paragraph>
+                  <paragraph>As plasma magnesium rises above 4 mEq/liter, the deep tendon reflexes are first decreased and then disappear as the plasma level approaches 10 mEq/liter. At this level respiratory paralysis may occur. Heart block also may occur at this or lower plasma levels of magnesium. Serum magnesium concentrations in excess of 12 mEq/L may be fatal.</paragraph>
+                  <paragraph>Magnesium acts peripherally to produce vasodilation. With low doses only flushing and sweating occur, but larger doses cause lowering of blood pressure. The central and peripheral effects of magnesium poisoning are antagonized to some extent by intravenous administration of calcium.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pharmacokinetics</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>With intravenous administration the onset of anticonvulsant action is immediate and lasts about 30 minutes. Following intramuscular administration the onset of action occurs in about one hour and persists for three to four hours. Effective anticonvulsant serum levels range from 2.5 to 7.5 mEq/liter. Magnesium is excreted solely by the kidneys at a rate proportional to the plasma concentration and glomerular filtration.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a76fd078-4de8-4abd-b3d7-26077d90c3e5">
+               <id root="bdcabdd9-b896-42b2-9441-fc62756cda12"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">INDICATIONS AND USAGE</content>
+               </title>
+               <text>
+                  <paragraph>Magnesium Sulfate Injection, USP is suitable for replacement therapy in magnesium deficiency, especially in acute hypomagnesemia accompanied by signs of tetany similar to those observed in hypocalcemia. In such cases, the serum magnesium (Mg<sup>++</sup>) level is usually below the lower limit of normal (1.5 to 2.5 mEq/liter) and the serum calcium (Ca<sup>++</sup>) level is normal (4.3 to 5.3 mEq/liter) or elevated.</paragraph>
+                  <paragraph>In total parenteral nutrition (TPN), magnesium sulfate may be added to the nutrient admixture to correct or prevent hypomagnesemia which can arise during the course of therapy.</paragraph>
+                  <paragraph>Magnesium Sulfate Injection, USP is also indicated for the prevention and control of seizures (convulsions) in pre-eclampsia and eclampsia, respectively. </paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f890a08e-249b-4cb5-854f-adbbeb487373">
+               <id root="fd45939a-3339-42d3-a3cc-3384c8fb50e5"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">CONTRAINDICATIONS</content>
+               </title>
+               <text>
+                  <paragraph>Parenteral administration of the drug is contraindicated in patients with heart block or myocardial damage.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c98255d3-4f3e-4bc4-aa41-ce91e67a08e4">
+               <id root="3c0cd6a4-c553-48f1-8261-1c41e56509a2"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>
+                  <content styleCode="italics">WARNINGS</content>
+               </title>
+               <text>
+                  <paragraph>FETAL HARM: Continuous administration of magnesium sulfate beyond 5 to 7 days to pregnant women can lead to hypocalcemia and bone abnormalities in the developing fetus. These bone abnormalities include skeletal demineralization and osteopenia. In addition, cases of neonatal fracture have been reported. The shortest duration of treatment that can lead to fetal harm is not known. Magnesium sulfate should be used during pregnancy only if clearly needed. If magnesium sulfate is given for treatment of preterm labor, the woman should be informed that the efficacy and safety of such use have not been established and that use of magnesium sulfate beyond 5 to 7 days may cause fetal abnormalities.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">ALUMINUM TOXICITY:</content>
+                     </content> This product contains aluminum that may be toxic. Aluminum may reach toxic levels with prolonged parenteral administration if kidney function is impaired. Premature neonates are particularly at risk because their kidneys are immature, and they require large amounts of calcium and phosphate solutions, which contain aluminum.</paragraph>
+                  <paragraph>Research indicates that patients with impaired kidney function, including premature neonates, who receive parenteral levels of aluminum at greater than 4 to 5 mcg/kg/day accumulate aluminum at levels associated with central nervous system and bone toxicity. Tissue loading may occur at even lower rates of administration.</paragraph>
+                  <paragraph>Parenteral use in the presence of renal insufficiency may lead to magnesium intoxication. Intravenous use in the eclampsia should be reserved for immediate control of life-threatening convulsions.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="fe2c796b-6b4e-4cc8-aef9-940c0784e6f7">
+               <id root="51205f79-fa1e-4a31-8595-fe5c961e6bd7"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">PRECAUTIONS</content>
+               </title>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">General</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Administer with caution if flushing and sweating occurs. When barbiturates, narcotics or other hypnotics (or systemic anesthetics) are to be given in conjunction with magnesium, their dosage should be adjusted with caution because of additive CNS depressant effects of magnesium.</paragraph>
+                  <paragraph>Because magnesium is removed from the body solely by the kidneys, the drug should be used with caution in patients with renal impairment. Urine output should be maintained at a level of 100 mL or more during the four hours preceding each dose. Monitoring serum magnesium levels and the patient's clinical status is essential to avoid the consequences of overdosage in toxemia. Clinical indications of a safe dosage regimen include the presence of the patellar reflex (knee jerk) and absence of respiratory depression (approximately 16 breaths or more/minute). When repeated doses of the drug are given parenterally, knee jerk reflexes should be tested before each dose and if they are absent, no additional magnesium should be given until they return. Serum magnesium levels usually sufficient to control convulsions range from 3 to 6 mg/100 mL (2.5 to 5 mEq/liter). The strength of the deep tendon reflexes begins to diminish when magnesium levels exceed 4 mEq/liter. Reflexes may be absent at 10 mEq magnesium/liter, where respiratory paralysis is a potential hazard. An injectable calcium salt should be immediately available to counteract the potential hazards of magnesium intoxication in eclampsia.</paragraph>
+                  <paragraph>50% Magnesium Sulfate Injection, USP must be diluted to a concentration of 20% or less prior to intravenous infusion. Rate of administration should be slow and cautious, to avoid producing hypermagnesemia. The 50% solution also should be diluted to 20% or less for intramuscular injection in infants and children.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Laboratory Tests</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Magnesium sulfate injection should not be given unless hypomagnesemia has been confirmed and the serum concentration of magnesium is monitored. The normal serum level is 1.5 to 2.5 mEq/L.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Drug Interactions</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">CNS Depressants</content>
+                     </content> — When barbiturates, narcotics or other hypnotics (or systemic anesthetics), or other CNS depressants are to be given in conjunction with magnesium, their dosage should be adjusted with caution because of additive CNS depressant effects of magnesium. CNS depression and peripheral transmission defects produced by magnesium may be antagonized by calcium.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Neuromuscular Blocking Agents</content>
+                     </content> — Excessive neuromuscular block has occurred in patients receiving parenteral magnesium sulfate and a neuromuscular blocking agent; these drugs should be administered concomitantly with caution.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Cardiac Glycosides</content>
+                     </content> — Magnesium sulfate should be administered with extreme caution in digitalized patients, because serious changes in cardiac conduction which can result in heart block may occur if administration of calcium is required to treat magnesium toxicity.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Pregnancy</content>
+                        </content>
+                     </content> (See <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#c98255d3-4f3e-4bc4-aa41-ce91e67a08e4">WARNINGS</linkHtml>
+                           <content styleCode="emphasis"> </content>
+                        </content>
+                     </content>
+                     <content styleCode="emphasis">and </content>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#fe2c796b-6b4e-4cc8-aef9-940c0784e6f7">PRECAUTIONS</linkHtml>
+                        </content>
+                     </content>)</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Teratogenic Effects</content>
+                  </paragraph>
+                  <paragraph>Magnesium sulfate can cause fetal abnormalities when administered beyond 5 to 7 days to pregnant women. There are retrospective epidemiological studies and case reports documenting fetal abnormalities such as hypocalcemia, skeletal demineralization, osteopenia and other skeletal abnormalities with continuous maternal administration of magnesium sulfate for more than 5 to 7 days.<sup>1-10</sup> Magnesium sulfate injection should be used during pregnancy only if clearly needed. If this drug is used during pregnancy, the woman should be apprised of the potential harm to the fetus.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Nonteratogenic Effects</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>When administered by continuous intravenous infusion (especially for more than 24 hours preceding delivery) to control convulsions in a toxemic woman, the newborn may show signs of magnesium toxicity, including neuromuscular or respiratory depression (See <content styleCode="bold">
+                        <content styleCode="italics">
+                           <linkHtml href="#a4e06c8e-05ce-4762-abeb-de38498cd595">OVERDOSAGE</linkHtml>
+                        </content>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Labor and Delivery</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Continuous administration of magnesium sulfate is an unapproved treatment for preterm labor. The safety and efficacy of such use have not been established. The administration of magnesium sulfate outside of its approved indication in pregnant women should be by trained obstetrical personnel in a hospital setting with appropriate obstetrical care facilities.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Nursing Mothers</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Since magnesium is distributed into milk during parenteral magnesium sulfate administration, the drug should be used with caution in nursing women.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Geriatrics</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Geriatric patients often require reduced dosage because of impaired renal function. In patients with severe impairment, dosage should not exceed 20 grams in 48 hours. Serum magnesium should be monitored in such patients.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="e635ff7b-4f93-466e-99fd-e9e08fdb2535">
+               <id root="af481178-ead6-4d54-94d1-c011a0d8225d"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>
+                  <content styleCode="italics">ADVERSE REACTIONS</content>
+               </title>
+               <text>
+                  <paragraph>The adverse effects of parenterally administered magnesium usually are the result of magnesium intoxication. These include flushing, sweating, hypotension, depressed reflexes, flaccid paralysis, hypothermia, circulatory collapse, cardiac and central nervous system depression proceeding to respiratory paralysis. Hypocalcemia with signs of tetany secondary to magnesium sulfate therapy for eclampsia has been reported.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="a4e06c8e-05ce-4762-abeb-de38498cd595">
+               <id root="d4fbfdb2-32aa-4fbf-a51f-9f8513d3f9d6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>
+                  <content styleCode="italics">OVERDOSAGE</content>
+               </title>
+               <text>
+                  <paragraph>Magnesium intoxication is manifested by a sharp drop in blood pressure and respiratory paralysis. Disappearance of the patellar reflex is a useful clinical sign to detect the onset of magnesium intoxication. In the event of overdosage, artificial ventilation must be provided until a calcium salt can be injected intravenously to antagonize the effects of magnesium.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">For Treatment of Overdose</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Artificial respiration is often required. Intravenous calcium, 10 to 20 mL of a 5% solution (diluted if desirable with isotonic sodium chloride for injection) is used to counteract effects of hypermagnesemia. Subcutaneous physostigmine, 0.5 to 1 mg may be helpful.</paragraph>
+                  <paragraph>Hypermagnesemia in the newborn may require resuscitation and assisted ventilation via endotracheal intubation or intermittent positive pressure ventilation as well as intravenous calcium.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="f2c61309-f8fd-468e-b238-bd7e43ba1fa6">
+               <id root="c955b05a-bd43-4604-a00b-d9f36c0c3d7b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>
+                  <content styleCode="italics">DOSAGE AND ADMINISTRATION</content>
+               </title>
+               <text>
+                  <paragraph>Dosage of magnesium sulfate must be carefully adjusted according to individual requirements and response, and administration of the drug should be discontinued as soon as the desired effect is obtained.</paragraph>
+                  <paragraph>Both intravenous and intramuscular administration are appropriate. Intramuscular administration of the undiluted 50% solution results in therapeutic plasma levels in 60 minutes, whereas intravenous doses will provide a therapeutic level almost immediately. The rate of intravenous injection should generally not exceed 150 mg/minute (1.5 mL of a 10% concentration or its equivalent), except in severe eclampsia with seizures (see below). Continuous maternal administration of magnesium sulfate in pregnancy beyond 5 to 7 days can cause fetal abnormalities.</paragraph>
+                  <paragraph>Solutions for intravenous infusion must be diluted to a concentration of 20% or less prior to administration. The diluents commonly used are 5% Dextrose Injection, USP and 0.9% Sodium Chloride Injection, USP. Deep intramuscular injection of the undiluted (50%) solution is appropriate for adults, but the solution should be diluted to a 20% or less concentration prior to such injection in children.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">In Magnesium Deficiency</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In the treatment of mild magnesium deficiency, the usual adult dose is 1 gram, equivalent to 8.12 mEq of magnesium (2 mL of the 50% solution) injected intramuscularly every six hours for four doses (equivalent to a total of 32.5 mEq of magnesium per 24 hours). For severe hypomagnesemia, as much as 250 mg (approximately 2 mEq) per kg of body weight (0.5 mL of the 50% solution) may be given intramuscularly within a period of four hours if necessary. Alternatively, 5 grams, (approximately 40 mEq) can be added to one liter of 5% Dextrose Injection, USP or 0.9% Sodium Chloride Injection, USP for slow intravenous infusion over a three-hour period. In the treatment of deficiency states, caution must be observed to prevent exceeding the renal excretory capacity.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">In Hyperalimentation</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In TPN, maintenance requirements for magnesium are not precisely known. The maintenance dose used in adults ranges from 8 to 24 mEq (1 gram to 3 grams) daily; for infants, the range is 2 to 10 mEq (0.25 gram to 1.25 grams) daily.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">In Pre-eclampsia or Eclampsia</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In severe pre-eclampsia or eclampsia, the total initial dose is 10 grams to 14 grams of magnesium sulfate. Intravenously, a dose of 4 grams to 5 grams in 250 mL of 5% Dextrose Injection, USP or 0.9% Sodium Chloride Injection, USP may be infused. Simultaneously, intramuscular doses of up to 10 grams (5 grams or 10 mL of the undiluted 50% solution in each buttock) are given. Alternatively, the initial intravenous dose of 4 grams may be given by diluting the 50% solution to a 10 or 20% concentration; the diluted fluid (40 mL of a 10% solution or 20 mL of a 20% solution) may then be injected intravenously over a period of three to four minutes. Subsequently, 4 grams to 5 grams (8 to 10 mL of the 50% solution) are injected intramuscularly into alternate buttocks every four hours as needed, depending on the continuing presence of the patellar reflex and adequate respiratory function. Alternatively, after the initial intravenous dose, some clinicians administer 1 gram to 2 grams/hour by constant intravenous infusion. Therapy should continue until paroxysms cease. A serum magnesium level of 6 mg/100 mL is considered optimal for control of seizures. A total daily (24 hr) dose of 30 grams to 40 grams should not be exceeded. In the presence of severe renal insufficiency, the maximum dosage of magnesium sulfate is 20 grams/48 hours and frequent serum magnesium concentrations must be obtained. Continuous use of magnesium sulfate in pregnancy beyond 5 to 7 days can cause fetal abnormalities.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Other Uses</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>In counteracting the muscle-stimulating effects of barium poisoning, the usual dose of magnesium sulfate is 1 gram to 2 grams given intravenously.</paragraph>
+                  <paragraph>For controlling seizures associated with epilepsy, glomerulonephritis or hypothyroidism, the usual adult dose is 1 gram administered intramuscularly or intravenously.</paragraph>
+                  <paragraph>In paroxysmal atrial tachycardia, magnesium should be used only if simpler measures have failed and there is no evidence of myocardial damage. The usual dose is 3 grams to 4 grams (30 to 40 mL of a 10% solution) administered intravenously over 30 seconds <content styleCode="emphasis">
+                        <content styleCode="italics">with extreme caution</content>
+                     </content>.</paragraph>
+                  <paragraph>For reduction of cerebral edema, 2.5 grams (25 mL of a 10% solution) is given intravenously.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Incompatibilities</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>Magnesium sulfate in solution may result in a precipitate formation when mixed with solutions containing:</paragraph>
+                  <paragraph>            Alcohol (in high                                Heavy Metals<br/>                 concentrations)                             Hydrocortisone sodium<br/>            Alkali carbonates and                              succinate<br/>                 bicarbonates                                 Phosphates<br/>            Alkali hydroxides                              Polymixin B sulfate<br/>            Arsenates                                           Procaine hydrochloride<br/>            Barium                                               Salicylates<br/>            Calcium                                             Strontium<br/>            Clindamycin phosphate                     Tartrates</paragraph>
+                  <paragraph>The potential incompatibility will often be influenced by the changes in the concentration of reactants and the pH of the solutions.</paragraph>
+                  <paragraph>It has been reported that magnesium may reduce the antibiotic activity of streptomycin, tetracycline and tobramycin when given together.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ba6390d2-9c39-4dea-b991-a3830e18ba91">
+               <id root="1601cf97-20b8-4a65-87ab-3fc1c0fd04e7"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>
+                  <content styleCode="italics">HOW SUPPLIED</content>
+               </title>
+               <text>
+                  <paragraph>Magnesium Sulfate Injection, USP is supplied in single-dose containers as follows:</paragraph>
+                  <table width="100%">
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <col width="20%"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">NDC No.</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">Container</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">Total</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">Amount</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">Concentration</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="bottom">
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">mEq</content>
+                                 </content>
+                              </paragraph>
+                              <paragraph>
+                                 <content styleCode="emphasis">
+                                    <content styleCode="bold">Mg<sup>++</sup>/mL</content>
+                                 </content>
+                              </paragraph>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">0409-1754-10</content>
+                              </paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>Ansyr™</paragraph>
+                              <paragraph>Plastic Syringe</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>5 g/10 mL</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>50%</paragraph>
+                           </td>
+                           <td align="center" styleCode="Botrule Toprule " valign="top">
+                              <paragraph>4 mEq/mL</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Do not administer unless solution is clear and container is undamaged. Discard unused portion.</paragraph>
+                  <paragraph>Store at 20°C to 25°C (68°F to 77°F); excursions permitted between 15°C and 30°C (59°F and 86°F). [See USP Controlled Room Temperature.]</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+            </section>
+         </component>
+         <component>
+            <section ID="bfe5187e-9de1-47a7-87b0-d8a95f943944">
+               <id root="6b05b470-1103-49f4-ad49-15b9686759b9"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>
+                  <content styleCode="italics">REFERENCES</content>
+               </title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption>1.</caption>Yokoyama K, Takahashi N, Yada Y. Prolonged maternal magnesium administration and bone metabolism in neonates. <content styleCode="emphasis">
+                           <content styleCode="italics">Early Hum Dev</content>
+                        </content>. 2010;86(3):187-91. Epub 2010 Mar 12.</item>
+                     <item>
+                        <caption>2.</caption>Wedig KE, Kogan J, Schorry EK et al. Skeletal demineralization and fractures caused by fetal magnesium toxicity. <content styleCode="emphasis">
+                           <content styleCode="italics">J. Perinatol</content>
+                        </content>. 2006; 26(6):371-4.</item>
+                     <item>
+                        <caption>3.</caption>Nassar AH, Sakhel K, Maarouf H, et al. Adverse maternal and neonatal outcome of prolonged course of magnesium sulfate tocolysis. <content styleCode="emphasis">
+                           <content styleCode="italics">Acta Obstet Gynecol Scan</content>
+                        </content>. 2006;85(9):1099-103.</item>
+                     <item>
+                        <caption>4.</caption>Malaeb SN, Rassi A, Haddad MC. Bone mineralization in newborns whose mothers received magnesium sulphate for tocolysis of premature labor. <content styleCode="emphasis">
+                           <content styleCode="italics">Pediatr Radiol</content>
+                        </content>. 2004;34(5):384-6. Epub 2004 Feb 18.</item>
+                     <item>
+                        <caption>5.</caption>Matsuda Y, Maeda Y, Ito M, et al. Effect of magnesium sulfate treatment on neonatal bone abnormalities. <content styleCode="emphasis">
+                           <content styleCode="italics">Gynecol Obstet Invest</content>
+                        </content>. 1997;44(2):82-8.</item>
+                     <item>
+                        <caption>6.</caption>Schanler RJ, Smith LG, Burns PA. Effects of long-term maternal intravenous magnesium sulfate therapy on neonatal calcium metabolism and bone mineral content. <content styleCode="emphasis">
+                           <content styleCode="italics">Gynecol Obstet Invest</content>
+                        </content>. 1997;43(4):236-41.</item>
+                     <item>
+                        <caption>7.</caption>Santi MD, Henry GW, Douglas GL. Magnesium sulfate treatment of preterm labor as a cause of abnormal neonatal bone mineralization. <content styleCode="emphasis">
+                           <content styleCode="italics">J Pediatr Orthrop</content>
+                        </content>. 1994;14(2):249-53.</item>
+                     <item>
+                        <caption>8.</caption>Holcomb WL, Shackelford GD, Petrie RH. Magnesium tocolysis and neonatal bone abnormalities; a controlled study. <content styleCode="emphasis">
+                           <content styleCode="italics">Obstet Gynecol</content>
+                        </content>. 1991; 78(4):611-4.</item>
+                     <item>
+                        <caption>9.</caption>Cumming WA, Thomas VJ. Hypermagnesemia: a cause of abnormal metaphyses in the neonate. <content styleCode="emphasis">
+                           <content styleCode="italics">Am J</content>
+                        </content> <content styleCode="emphasis">
+                           <content styleCode="italics">Roentgenol</content>
+                        </content>. 1989; 152(5):1071-2.</item>
+                     <item>
+                        <caption>10.</caption>Lamm CL, Norton KL, Murphy RJ. Congenital rickets associated with magnesium sulfate infusion for tocolysis. <content styleCode="emphasis">
+                           <content styleCode="italics">J Pediatr</content>
+                        </content>. 1988; 113(6):1078-82.</item>
+                     <item>
+                        <caption>11.</caption>McGuinness GA, Weinstein MM, Cruikshank DP, et al. Effects of magnesium sulfate treatment on perinatal calcium metabolism. II. Neonatal responses. <content styleCode="emphasis">
+                           <content styleCode="italics">Obstet Gynecol</content>
+                        </content>. 1980; 56(5): 595-600.</item>
+                     <item>
+                        <caption>12.</caption>Riaz M, Porat R, Brodsky NL, et al. The effects of maternal magnesium sulfate treatment on newborns: a prospective controlled study. <content styleCode="emphasis">
+                           <content styleCode="italics">J. Perinatol</content>
+                        </content>. 1998;18(6 pt 1):449-54.</item>
+                  </list>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA                                                                                       <renderMultiMedia ID="id-1058624623" referencedObject="ID_313c0535-0918-4278-a97e-c460e594dc15"/>
+                  </paragraph>
+                  <paragraph>LAB-1024-4.0</paragraph>
+                  <paragraph>Revised: 05/2020</paragraph>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="ID_313c0535-0918-4278-a97e-c460e594dc15">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="magnesium-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_0fa4b4b5-2b42-4cfa-af7c-3b462bb1dd14">
+               <id root="4063e117-e502-4d55-873f-b5d41cbff84b"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Label</title>
+               <text>
+                  <paragraph>Magnesium Sulfate 50% 5 g/10 mL (500 mg/mL)</paragraph>
+                  <paragraph>10 mL Single-dose syringe<br/>Rx only<br/>NDC 0409-1754-15</paragraph>
+                  <paragraph>Magnesium Sulfate Injection, USP 50%<br/>5 g/10 mL (500 mg/mL) (4 mEq Mg<sup>++</sup>/mL)</paragraph>
+                  <paragraph>MUST BE DILUTED BEFORE INTRAVENOUS USE.</paragraph>
+                  <paragraph>For Intravenous or Intramuscular Use. Sterile. 4.06 mOsmol/mL (calc.).<br/>Contains no more than 75 mcg/L of aluminum.</paragraph>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>RL–7758</paragraph>
+                  <paragraph>LOT ##–###–AA<br/>EXP DMMMYYYY</paragraph>
+                  <renderMultiMedia ID="id720" referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="magnesium-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_6a19e274-031e-4eb0-9c69-dbf27fae6461">
+               <id root="ca11a239-b839-46fb-9205-9f493d908102"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Carton</title>
+               <text>
+                  <paragraph>10 mL</paragraph>
+                  <paragraph>NDC 0409-1754-15<br/>Rx only</paragraph>
+                  <paragraph>Single-dose syringe</paragraph>
+                  <paragraph>Magnesium<br/>Sulfate<br/>Injection, USP<br/>50%</paragraph>
+                  <paragraph>5 g/10 mL (500 mg/mL)<br/>(4 mEq Mg<sup>++</sup>/mL)</paragraph>
+                  <paragraph>For intravenous or<br/>intramuscular use</paragraph>
+                  <paragraph>Ansyr™<br/>Single-dose syringe</paragraph>
+                  <paragraph>CAUTION:<br/>Must be diluted<br/>before<br/>intravenous use.</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <paragraph>LOT #####AA<br/>EXP DMMMYYYY</paragraph>
+                  <paragraph>◀ PRESS AND PULL TO OPEN ▶</paragraph>
+                  <renderMultiMedia ID="id757" referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20230717"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 10 mL Syringe Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="magnesium-04.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

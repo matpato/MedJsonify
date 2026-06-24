@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4ddcdfff-1469-bff0-e063-6294a90a5480"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20260325"/>
+   <setId root="4ddcdfff-1468-bff0-e063-6294a90a5480"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co. LLC. DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co. LLC. DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1668" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4ddd6c06-d04c-3706-e063-6394a90a90c2"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260325"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1668" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>METHYLERGONOVINE MALEATE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>METHYLERGONOVINE MALEATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0517-0740" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="IR84JPZ1RK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLERGONOVINE MALEATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="W53L6FE61V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLERGONOVINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="0.1"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="91XW058U2C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MALEIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="7"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1668-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20100621"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090193" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20100621"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAMUSCULAR"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd337c-5f9c-c50c-e063-6394a90aacdf">
+               <id root="4ddd337c-5f9b-c50c-e063-6394a90aacdf"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Methylergonovine maleate is a semi-synthetic ergot alkaloid used for the prevention and control of postpartum hemorrhage.</paragraph>
+                  <paragraph>Methylergonovine maleate injection is a clear, colorless, sterile solution available in 1 mL single dose vials, containing methylergonovine maleate 0.2 mg for intramuscular or intravenous injection.</paragraph>
+                  <paragraph>Active Ingredient: methylergonovine maleate, USP 0.2 mg.</paragraph>
+                  <paragraph>Inactive Ingredients:maleic acid 0.10 mg; sodium chloride 7.0 mg; water for injection qs to 1 mL.</paragraph>
+                  <paragraph>Chemically, methylergonovine maleate is designated as ergoline-8-carboxamide, 9,10-didehydro-N-[1-(hydroxymethyl)propyl]-6-methyl-,[8β(S)]-, (Z)-2-butenedioate (1:1) (salt).</paragraph>
+                  <paragraph>Its structural formula is:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4ddd3006-af5d-d3a1-e063-6394a90a37e6"/>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260325"/>
+               <component>
+                  <observationMedia ID="img_4ddd3006-af5d-d3a1-e063-6394a90a37e6">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1668-1 Structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd368c-86d7-d94d-e063-6394a90a9b6a">
+               <id root="4ddd368c-86d6-d94d-e063-6394a90a9b6a"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Mechanism of Action</paragraph>
+                  <paragraph>Methylergonovine maleate acts directly on the smooth muscle of the uterus and increases the tone, rate, and amplitude of rhythmic contractions. Thus, it induces a rapid and sustained tetanic uterotonic effect which shortens the third stage of labor and reduces blood loss.</paragraph>
+                  <paragraph>Pharmacodynamics</paragraph>
+                  <paragraph>The onset of action after  IV administration is immediate; after IM administration, 2 to 5 minutes, and after oral administration, 5 to 10 minutes.</paragraph>
+                  <paragraph>Pharmacokinetics</paragraph>
+                  <paragraph>Pharmacokinetic studies following an IV injection have shown that methylergonovine is rapidly distributed from plasma to peripheral tissues within 2 to 3 minutes or less. The bioavailability after oral administration was reported to be about 60% with no accumulation after repeated doses. During delivery, with intramuscular injection, bioavailability increased to 78%. Ergot alkaloids are mostly eliminated by hepatic metabolism and excretion, and the decrease in bioavailability following oral administration is probably a result of first-pass metabolism in the liver.</paragraph>
+                  <paragraph>Bioavailability studies conducted in fasting healthy female volunteers have shown that oral absorption of a 0.2 mg methylergonovine tablet was fairly rapid with a mean peak plasma concentration of 3243 ± 1308 pg/mL observed at 1.12 ± 0.82 hours. A delayed gastrointestinal absorption (Tmax about 3 hours) of methylergonovine tablet might be observed in postpartum women during continuous treatment with this oxytoxic agent.</paragraph>
+                  <paragraph>For a 0.2 mg intramuscular (IM) injection, a mean peak plasma concentration of 5918 ± 1952 pg/mL was observed at 0.41 ± 0.21 hours. The extent of absorption of the tablet, based upon methylergonovine plasma concentrations, was found to be equivalent to that of the IM intramuscular solution given orally, and the extent of oral absorption of the IM intramuscular solution was proportional to the dose following administration of 0.1, 0.2, and 0.4 mg. When given intramuscularly, the extent of absorption of methylergonovine maleate solution was about 25% greater than the tablet. The volume of distribution (Vdss/F) of intramuscularly administered methylergonovine was calculated to be 56.1 ± 17.0 liters, and the plasma clearance (CLp/F) was calculated to be 14.4 ± 4.5 liters per hour.</paragraph>
+                  <paragraph>The decline of plasma level of intramuscularly administered methylergonovine was biphasic with a mean elimination half-life of 3.39 hours (range 1.5 to 12.7 hours).</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd3bba-2f87-1385-e063-6294a90abe5b">
+               <id root="4ddd3bba-2f86-1385-e063-6294a90abe5b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Following delivery of the placenta, for routine management of uterine atony, hemorrhage and subinvolution of the uterus. For control of uterine hemorrhage in the second stage of labor following delivery of the anterior shoulder.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd3a60-e603-8b45-e063-6294a90af8cd">
+               <id root="4ddd3a60-e602-8b45-e063-6294a90af8cd"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Hypertension; toxemia; pregnancy; and hypersensitivity.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd424d-c165-89ef-e063-6294a90a0af5">
+               <id root="4ddd424d-c164-89ef-e063-6294a90a0af5"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>This drug should not be administered I.V. routinely because of the possibility of inducing sudden hypertensive and cerebrovascular accidents. If I.V. administration is considered essential as a lifesaving measure, methylergonovine maleate should be given slowly over a period of no less than 60 seconds with careful monitoring of blood pressure. Intra-arterial or periarterial injection should be strictly avoided.</paragraph>
+                  <paragraph>Caution should be exercised in the presence of impaired hepatic or renal function.</paragraph>
+                  <paragraph>Coronary artery disease</paragraph>
+                  <paragraph>Patients with coronary artery disease or risk factors for coronary artery disease (e.g., smoking, obesity, diabetes, high cholesterol) may be more susceptible to developing myocardial ischemia and infarction associated with methylergonovine-induced vasospasm.</paragraph>
+                  <paragraph>Risk of Adverse Reactions or Reduced Therapeutic Effect Due to Drug Interactions</paragraph>
+                  <paragraph>The concomitant use of methylergonovine maleate and certain drugs may result in potentially significant drug interactions, some of which may lead to adverse reactions or reduced therapeutic effect of methylergonovine maleate or the concomitant drug.  (see CONTRAINDICATION and DRUG INTERACTION).</paragraph>
+                  <paragraph>Medication errors</paragraph>
+                  <paragraph>Inadvertent administration of methylergonovine maleate to newborn infants has been reported. In these cases of inadvertent neonatal exposure, symptoms such as respiratory depression, convulsions, cyanosis and oliguria have been reported. Usual treatment is symptomatic. However, in severe cases, respiratory and cardiovascular support is required.</paragraph>
+                  <paragraph>Methylergonovine maleate has been administered instead of vitamin K and Hepatitis B vaccine, medications which are routinely administered to the newborn. Due to the potential for accidental neonatal exposure, methylergonovine maleate injection should be stored separately from medications intended for neonatal administration.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd3a60-e607-8b45-e063-6294a90af8cd">
+               <id root="4ddd3a60-e606-8b45-e063-6294a90af8cd"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Caution should be exercised in the presence of sepsis,obliterative vascular disease. Also use with caution during the second stage of labor. The necessity for manual removal of a retained placenta should occur only rarely with proper technique and adequate allowance of time for its spontaneous separation.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>CYP3A4 Inhibitors (e.g., Macrolide Antibiotics and Protease Inhibitors)</paragraph>
+                  <paragraph>There have been rare reports of serious adverse events in connection with the coadministration of certain ergot alkaloid drugs (e.g., dihydroergotamine and ergotamine) and potent CYP3A4 inhibitors, resulting in vasospasm leading to cerebral ischemia and/or ischemia of the extremities. Although there have been no reports of such interactions with methylergonovine alone, strong and moderate CYP3A4 inhibitors should not be coadministered with methylergonovine. Examples of some of the strong CYP3A4 inhibitors include saquinavir, grapefruit juice, nefazodone, macrolide antibiotics (e.g., troleandomycin, clarithromycin), HIV protease or reverse transcriptase inhibitors (e.g., ritonavir, indinavir, nelfinavir) or azole antifungals (e.g., ketoconazole, itraconazole, voriconazole). Moderate inhibitors include fluconazole, fluvoxamine and clotrimazole. Weak CYP3A4 inhibitors should be administered with caution. Weak inhibitors include chlorzoxazone, cilostazol, and ranitidine.  These lists are not exhaustive, and the prescriber should consider the effects on CYP3A4 of other agents being considered for concomitant use with methylergonovine.</paragraph>
+                  <paragraph>CYP3A4 inducers</paragraph>
+                  <paragraph>Drugs (e.g., nevirapine, rifampin) that are strong inducers of CYP3A4 are likely to decrease the pharmacological action of methylergonovine maleate.</paragraph>
+                  <paragraph>Beta-blockers</paragraph>
+                  <paragraph>Caution should be exercised when methylergonovine maleate is used concurrently with beta-blockers. Concomitant administration with beta-blockers may enhance the vasoconstrictive action of ergot alkaloids.</paragraph>
+                  <paragraph>Anesthetics</paragraph>
+                  <paragraph>Anesthetics like halothane and methoxyflurane may reduce the oxytocic potency of methylergonovine maleate.</paragraph>
+                  <paragraph>Glyceryl trinitrate and other antianginal drugs</paragraph>
+                  <paragraph>Methylergonovine maleate produces vasoconstriction and can be expected to reduce the effect of glyceryl trinitrate and other antianginal drugs.</paragraph>
+                  <paragraph>No pharmacokinetic interactions involving other cytochrome P450 isoenzymes are known.</paragraph>
+                  <paragraph>Caution should be exercised when methylergonovine maleate is used concurrently with other vasoconstrictors, ergot alkaloids, or prostaglandins.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>No long-term studies have been performed in animals to evaluate carcinogenic potential. The effect of the drug on mutagenesis or fertility has not been determined.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Use of methylergonovine maleate is contraindicated during pregnancy because of its uterotonic effects. (SeeINDICATIONS AND USAGE)</paragraph>
+                  <paragraph>Animal reproductive studies have not been conducted with methylergonovine maleate. It is not known whether methylergonovine maleate can cause fetal harm or can affect reproductive capacity.</paragraph>
+                  <paragraph>Labor and Delivery</paragraph>
+                  <paragraph>The uterotonic effect of methylergonovine maleate is utilized after delivery to assist involution and decrease hemorrhage, shortening the third stage of labor. Caution should be exercised during the second stage of labor. The necessity for manual removal of a retained placenta should occur only rarely with proper technique and adequate allowance of time for its spontaneous separation. </paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>Mothers should not breast-feed during treatment with methylergonovine maleate and for at least 12 hours after administration of the last dose. Milk secreted during this period should be discarded. Methylergonovine maleate may produce adverse effects in the breast-feeding infant. Methylergonovine maleate may also reduce the yield of breast milk. </paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of methylergonovine maleate did not include a sufficient number of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in response between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+                  <paragraph>Hepatic Impairment</paragraph>
+                  <paragraph>No studies have been performed in subjects with hepatic impairment. Methylergometrine is mostly eliminated by hepatic metabolism and excretion. Use with caution in patients with hepatic impairment.</paragraph>
+                  <paragraph>Renal Impairment</paragraph>
+                  <paragraph>No studies have been performed in subjects with renal impairment. Renal excretion contributes to the elimination of methylergometrine and its metabolites. Use with caution in patients with renal impairment.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd4871-0232-8611-e063-6294a90aff83">
+               <id root="4ddd4871-0231-8611-e063-6294a90aff83"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Clinical trials experience</paragraph>
+                  <paragraph>Common Adverse Reactions</paragraph>
+                  <paragraph>The most common adverse reaction is hypertension associated in several cases with seizure and/or headache. Hypotension has also been reported. Abdominal pain (caused by uterine contractions), nausea and vomiting have occurred occasionally.</paragraph>
+                  <paragraph>Rare Adverse Reactions</paragraph>
+                  <paragraph>Rarely observed reactions have included: acute myocardial infarction, transient chest pains, vasoconstriction, vasospasm, coronary arterial spasm, bradycardia, tachycardia, dyspnea, hematuria, thrombophlebitis, water intoxication, hallucinations, leg cramps, dizziness, tinnitus, nasal congestion, diarrhea, diaphoresis, palpitation, rash, and foul taste.</paragraph>
+                  <paragraph>There have been rare isolated reports of anaphylaxis, without a proven causal relationship to the drug product.</paragraph>
+                  <paragraph>Post marketing Experience</paragraph>
+                  <paragraph>The following adverse drug reactions have been derived from post-marketing experience with methylergonovine maleate via spontaneous case reports. Because these reactions are reported voluntarily from a population of uncertain size, it is not possible to reliably estimate their frequency which is therefore categorized as not known.</paragraph>
+                  <paragraph>Nervous system disorders</paragraph>
+                  <paragraph>Cerebrovascular accident, paraesthesia</paragraph>
+                  <paragraph>Cardiac disorders</paragraph>
+                  <paragraph>Ventricular fibrillation, ventricular tachycardia, angina pectoris, atrioventricular block</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact American Regent at 1-800-734-9236 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd4ae0-3c20-ba4e-e063-6294a90a65d7">
+               <id root="4ddd4ae0-3c1f-ba4e-e063-6294a90a65d7"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <text>
+                  <paragraph>Methylergonovine maleate has not been associated with drug abuse or dependence of either a physical or psychological nature.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd4d54-65bd-8f32-e063-6294a90ac3fa">
+               <id root="4ddd4d54-65bc-8f32-e063-6294a90ac3fa"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Symptoms of acute overdose may include: nausea, vomiting, oliguria, abdominal pain, numbness, tingling of the extremities, rise in blood pressure, in severe cases followed by hypotension, respiratory depression, hypothermia, convulsions, and coma.</paragraph>
+                  <paragraph>Because reports of overdosage with methylergonovine maleate are infrequent, the lethal dose in humans has not been established. The oral LD50 (in mg/kg) for the mouse is 187, the rat 93, and the rabbit 4.5. Several cases of accidental methylergonovine maleate injection in newborn infants have been reported, and in such cases 0.2 mg represents an overdose of great magnitude. However, recovery occurred in all but one case following a period of respiratory depression, hypothermia, hypertonicity with jerking movements, and convulsions.</paragraph>
+                  <paragraph>Also, several children 1 to 3 years of age have accidentally ingested up to 10 tablets (2 mg) with no apparent ill effects. A postpartum patient took 4 tablets at one time in error and reported paresthesias and clamminess as her only symptoms.</paragraph>
+                  <paragraph>Treatment of acute overdosage is symptomatic and includes the usual procedures of:</paragraph>
+                  <paragraph>removal of offending drug by inducing emesis, gastric lavage, catharsis, and supportive diuresis.
+  <br/>
+maintenance of adequate pulmonary ventilation, especially if convulsions or coma develop.
+  <br/>
+correction of hypotension with pressor drugs as needed.
+  <br/>
+control of convulsions with standard anticonvulsant agents.
+  <br/>
+control of peripheral vasospasm with warmth to the extremities if needed.
+ </paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd5087-14ee-8f92-e063-6294a90a95a7">
+               <id root="4ddd5087-14ed-8f92-e063-6294a90a95a7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration.</paragraph>
+                  <paragraph>Intramuscularly</paragraph>
+                  <paragraph>1 mL, 0.2 mg, after delivery of the anterior shoulder, after delivery of the placenta, or during the puerperium. May be repeated as required, at intervals of 2 to 4 hours.</paragraph>
+                  <paragraph>Intravenously</paragraph>
+                  <paragraph>1 mL, 0.2 mg, administered slowly over a period of no less than 60 seconds (SeeWARNINGS.)</paragraph>
+                  <paragraph>Orally</paragraph>
+                  <paragraph>The recommended dosage of methylergonovine maleate is One tablet, 0.2 mg, orally 3 or 4 times daily in the puerperium for a maximum of 1 week.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd54c7-e389-9ee3-e063-6294a90a37c7">
+               <id root="4ddd54c7-e388-9ee3-e063-6294a90a37c7"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>NDC 51662-1668-1  0.2 mg/mL  1 mL Single Dose Vials  </paragraph>
+                  <paragraph>Store and Dispense</paragraph>
+                  <paragraph>Store in refrigerator, 2º to 8ºC (36º to 46ºF). Protect from light. Use carton to protect contents until used. Administer only if solution is clear and colorless.</paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4ddd58dc-8e17-69bd-e063-6394a90a311d">
+               <id root="4ddd58dc-8e16-69bd-e063-6394a90a311d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4ddd492a-e883-e03a-e063-6294a90acd16"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260325"/>
+               <component>
+                  <observationMedia ID="img_4ddd492a-e883-e03a-e063-6294a90acd16">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1668- 1 RFIDlabel.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

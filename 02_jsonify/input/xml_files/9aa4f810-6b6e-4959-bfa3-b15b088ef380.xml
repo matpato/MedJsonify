@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="9aa4f810-6b6e-4959-bfa3-b15b088ef380"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Testosterone Cypionate Injection, USP</title>
+   <effectiveTime value="20250601"/>
+   <setId root="5ca67491-4b30-4a47-af0a-be250215d1f0"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+            <name>Hikma Pharmaceuticals USA Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="001230762" root="1.3.6.1.4.1.519.1"/>
+                  <name>Hikma Pharmaceuticals USA Inc.</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a9b7c4aa-a395-4acd-a67f-2fc4210eefde"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20250601"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0143-9005" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Testosterone Cypionate</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Testosterone Cypionate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="200"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="M0XW1UBI14" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TESTOSTERONE CYPIONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="3XMK78S47O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TESTOSTERONE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mL" value="0.2"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="N863NB338G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL BENZOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="560"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="H3E878020N" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>COTTONSEED OIL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9.45"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BENZYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="10"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0143-9005-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20211122"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA091244" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20211122"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48676" displayName="CIII" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </policy>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C28161" displayName="INTRAMUSCULAR" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_007107a0-b8fa-41d9-9556-cc1aa942526e">
+               <id root="468699b7-a7d5-4165-81d5-43939353f57d"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx</content> Only                       <content styleCode="bold">   CIII</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3875c224-228a-4bff-9cf6-389cee344715">
+               <id root="10ee4d00-2163-4ec0-b1fd-eff7e50b0f10"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Testosterone Cypionate Injection, USP for intramuscular injection, contains Testosterone Cypionate, USP which is the oil-soluble 17 (beta)- cyclopentylpropionate ester of the androgenic hormone testosterone.</paragraph>
+                  <paragraph>Testosterone Cypionate, USP is a white or creamy white crystalline powder, odorless or nearly so and stable in air. It is insoluble in water, freely soluble in alcohol, chloroform, dioxane, ether, and soluble in vegetable oils.</paragraph>
+                  <paragraph>The chemical name for Testosterone Cypionate, USP is androst-4-en-3-one,17-(3-cyclopentyl-1-oxopropoxy)-, (17β)-. Its molecular formula is C<sub>27</sub>H<sub>40</sub>O<sub>3</sub>, and the molecular weight 412.61.</paragraph>
+                  <paragraph>The structural formula is represented below:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Testosterone Cypionate Injection, USP is available in one strength, 200 mg/mL Testosterone Cypionate, USP.</paragraph>
+                  <paragraph>Each mL of the 200 mg/mL solution contains:<br/>    Testosterone Cypionate, USP                                    200 mg<br/>    Benzyl Benzoate, USP                                                0.2 mL<br/>    Cottonseed Oil, USP                                                  560 mg<br/>    Benzyl Alcohol, USP (as preservative)                      9.45 mg</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="testosterone-cypionate-injection-usp---novaplus-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8ea479b8-2f42-453d-89e9-7fb64ace34dc">
+               <id root="2fefca27-6ea7-4ed7-9034-f580cbf43d94"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Endogenous androgens are responsible for normal growth and development of the male sex organs and for maintenance of secondary sex characteristics. These effects include growth and maturation of the prostate, seminal vesicles, penis, and scrotum; development of male hair distribution, such as beard, pubic, chest, and axillary hair; laryngeal enlargement, vocal cord thickening, and alterations in body musculature and fat distribution. Drugs in this class also cause retention of nitrogen, sodium, potassium, and phosphorus, and decreased urinary excretion of calcium. Androgens have been reported to increase protein anabolism and decrease protein catabolism. Nitrogen balance is improved only when there is sufficient intake of calories and protein.</paragraph>
+                  <paragraph>Androgens are responsible for the growth spurt of adolescence and for eventual termination of linear growth, brought about by fusion of the epiphyseal growth centers. In children, exogenous androgens accelerate linear growth rates, but may cause disproportionate advancement in bone maturation. Use over long periods may result in fusion of the epiphyseal growth centers and termination of the growth process. Androgens have been reported to stimulate production of red blood cells by enhancing production of erythropoietic stimulation factor.</paragraph>
+                  <paragraph>During exogenous administration of androgens, endogenous testosterone release is inhibited through feedback inhibition of pituitary luteinizing hormone (LH). At large doses of exogenous androgens, spermatogenesis may also be suppressed through feedback inhibition of pituitary follicle stimulating hormone (FSH).</paragraph>
+                  <paragraph>There is a lack of substantial evidence that androgens are effective in fractures, surgery, convalescence, and functional uterine bleeding.</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+               <component>
+                  <section ID="LINK_d1c6153e-3037-426a-8e60-fe23f1688238">
+                     <id root="62b94b54-8ff7-4554-be6b-54835013fc46"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Testosterone esters are less polar than free testosterone. Testosterone esters in oil injected intramuscularly are absorbed slowly from the lipid phase; thus, testosterone cypionate can be given at intervals of two to four weeks.</paragraph>
+                        <paragraph>Testosterone in plasma is 98 percent bound to a specific testosterone-estradiol binding globulin, and about 2 percent is free. Generally, the amount of this sex-hormone binding globulin in the plasma will determine the distribution of testosterone between free and bound forms, and the free testosterone concentration will determine its half-life.</paragraph>
+                        <paragraph>About 90 percent of a dose of testosterone is excreted in the urine as glucuronic and sulfuric acid conjugates of testosterone and its metabolites; about 6 percent of a dose is excreted in the feces, mostly in the unconjugated form. Inactivation of testosterone occurs primarily in the liver. Testosterone is metabolized to various 17-keto steroids through two different pathways.</paragraph>
+                        <paragraph>The half-life of testosterone cypionate when injected intramuscularly is approximately eight days.</paragraph>
+                        <paragraph>In many tissues the activity of testosterone appears to depend on reduction to dihydrotestosterone, which binds to cytosol receptor proteins. The steroid-receptor complex is transported to the nucleus where it initiates transcription events and cellular changes related to androgen action.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_f2a56e03-16fd-4f22-ac87-2015dda6cb94">
+               <id root="28611d94-dde2-41ea-8065-0b8c99bcc400"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Testosterone Cypionate Injection, USP is indicated for replacement therapy in the male in conditions associated with symptoms of deficiency or absence of endogenous testosterone.</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>
+                        <content styleCode="italics">Primary hypogonadism (congenital or acquired):</content> testicular failure due to cryptorchidism, bilateral torsion, orchitis, vanishing testis syndrome; or orchidectomy.</item>
+                     <item>
+                        <content styleCode="italics">Hypogonadotropic hypogonadism (congenital or acquired):</content> gonadotropin or luteinizing hormone-releasing hormone (LHRH) deficiency, or pituitary-hypothalamic injury from tumors, trauma, or radiation.</item>
+                  </list>
+                  <paragraph>Safety and efficacy of testosterone cypionate in men with “age-related hypogonadism” (also referred to as “late-onset hypogonadism”) have not been established. </paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ed95ec1c-a3d3-40be-a063-b4a8393b47a6">
+               <id root="db14c236-eb1d-4e85-8c15-653445baef91"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Known hypersensitivity to the drug 
+</item>
+                     <item>Males with carcinoma of the breast 
+</item>
+                     <item>Males with known or suspected carcinoma of the prostate gland 
+</item>
+                     <item>Women who are pregnant (see <content styleCode="bold">
+                           <linkHtml href="#LINK_34d5ccdb-6c34-4ccd-b7e3-074baa8fb765">PRECAUTIONS, Pregnancy</linkHtml>
+                        </content>) </item>
+                     <item>Patients with serious cardiac, hepatic or renal disease (see <content styleCode="bold">
+                           <linkHtml href="#LINK_5f77eb39-fd7d-491a-bf40-a7e59f0b2b69">WARNINGS</linkHtml>
+                        </content>)<br/>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_5f77eb39-fd7d-491a-bf40-a7e59f0b2b69">
+               <id root="ba679518-3491-4507-ab1a-69c351ec6dc6"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Hypercalcemia may occur in immobilized patients. If this occurs, the drug should be discontinued.</paragraph>
+                  <paragraph>Prolonged use of high doses of androgens (principally the 17-α alkyl-androgens) has been associated with development of hepatic adenomas, hepatocellular carcinoma, and peliosis hepatis - all potentially life-threatening complications.</paragraph>
+                  <paragraph>Geriatric patients treated with androgens may be at an increased risk of developing prostatic hypertrophy and prostatic carcinoma although conclusive evidence to support this concept is lacking.</paragraph>
+                  <paragraph>There have been postmarketing reports of venous thromboembolic events, including deep vein thrombosis (DVT) and pulmonary embolism (PE), in patients using testosterone products, such as testosterone cypionate.  Evaluate patients who report symptoms of pain, edema, warmth and erythema in the lower extremity for DVT and those who present with acute shortness of breath for PE.  If a venous thromboembolic event is suspected, discontinue treatment with testosterone cypionate and initiate appropriate workup and management.</paragraph>
+                  <paragraph>Long term clinical safety trials have not been conducted to assess the cardiovascular outcomes of testosterone replacement therapy in men. To date, epidemiologic studies and randomized controlled trials have been inconclusive for determining the risk of major adverse cardiovascular events (MACE), such as non-fatal myocardial infarction, non-fatal stroke, and cardiovascular death, with the use of testosterone compared to non-use. Some studies, but not all, have reported an increased risk of MACE in association with use of testosterone replacement therapy in men. Patients should be informed of this possible risk when deciding whether to use or to continue to use testosterone cypionate.</paragraph>
+                  <paragraph>Testosterone can increase blood pressure which can increase cardiovascular (CV) risk over time. Monitor blood pressure periodically in men using testosterone products, especially in men with hypertension. Testosterone products are not recommended for use in patients with uncontrolled hypertension.</paragraph>
+                  <paragraph>Testosterone has been subject to abuse, typically at doses higher than recommended for the approved indication and in combination with other anabolic androgenic steroids. Anabolic androgenic steroid abuse can lead to serious cardiovascular and psychiatric adverse reactions (see <content styleCode="bold">
+                        <linkHtml href="#LINK_8829a2e0-55ce-4e8a-b6e0-4af9dfe4cd8e">DRUG ABUSE AND DEPENDENCE</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>If testosterone abuse is suspected, check serum testosterone concentrations to ensure they are within therapeutic range. However, testosterone levels may be in the normal or subnormal range in men abusing synthetic testosterone derivatives. Counsel patients concerning the serious adverse reactions associated with abuse of testosterone and anabolic androgenic steroids. Conversely, consider the possibility of testosterone and anabolic androgenic steroid abuse in suspected patients who present with serious cardiovascular or psychiatric adverse events.</paragraph>
+                  <paragraph>Edema, with or without congestive heart failure, may be a serious complication in patients with pre-existing cardiac, renal or hepatic disease.</paragraph>
+                  <paragraph>Gynecomastia may develop and occasionally persists in patients being treated for hypogonadism.</paragraph>
+                  <paragraph>The preservative benzyl alcohol has been associated with serious adverse events, including the “gasping syndrome”, and death in pediatric patients. Although normal therapeutic doses of this product ordinarily deliver amounts of benzyl alcohol that are substantially lower than those reported in association with the “gasping syndrome”, the minimum amount of benzyl alcohol at which toxicity may occur is not known. The risk of benzyl alcohol toxicity depends on the quantity administered and the liver and kidneys' capacity to detoxify the chemical. Premature and low-birth weight infants may be more likely to develop toxicity. </paragraph>
+                  <paragraph>Androgen therapy should be used cautiously in healthy males with delayed puberty. The effect on bone maturation should be monitored by assessing bone age of the wrist and hand every 6 months. In children, androgen treatment may accelerate bone maturation without producing compensatory gain in linear growth. This adverse effect may result in compromised adult stature. The younger the child the greater the risk of compromising final mature height.</paragraph>
+                  <paragraph>This drug has not been shown to be safe and effective for the enhancement of athletic performance. Because of the potential risk of serious adverse health effects, this drug should not be used for such purpose.</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ce071795-b485-4d76-b86e-444c6633e79c">
+               <id root="5f472892-1491-4976-9f9e-b1e632c85b83"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text/>
+               <effectiveTime value="20250601"/>
+               <component>
+                  <section ID="LINK_4240fcc8-ab86-45b2-a001-54f0311ab403">
+                     <id root="6b957634-1745-4dd5-a15c-285cdbaa6f65"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Patients with benign prostatic hypertrophy may develop acute urethral obstruction. Priapism or excessive sexual stimulation may develop. Oligospermia may occur after prolonged administration or excessive dosage. If any of these effects appear, the androgen should be stopped and if restarted, a lower dosage should be utilized.</paragraph>
+                        <paragraph>Testosterone cypionate should not be used interchangeably with testosterone propionate because of differences in duration of action.</paragraph>
+                        <paragraph>Testosterone cypionate <content styleCode="italics">is not</content> for intravenous use.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_faebdd16-ed95-4904-a204-118cefef48d0">
+                     <id root="5eed477f-071b-47b2-9e86-3c83a45d683a"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for patients</title>
+                     <text>
+                        <paragraph>Patients should be instructed to report any of the following: nausea, vomiting, changes in skin color, ankle swelling, too frequent or persistent erections of the penis.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cea7740b-c593-4c25-b7fc-debbf2c65c9a">
+                     <id root="78854e98-061b-4096-be4b-696e1f019363"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory tests</title>
+                     <text>
+                        <paragraph>Hemoglobin and hematocrit levels (to detect polycythemia) should be checked periodically in patients receiving long-term androgen administration.</paragraph>
+                        <paragraph>Serum cholesterol may increase during androgen therapy.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1f5ff61b-e0ce-4152-a504-be2fbaa2a350">
+                     <id root="e4cc36e5-64b3-48cd-ab08-5bd575a20900"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug interactions</title>
+                     <text>
+                        <paragraph>Androgens may increase sensitivity to oral anticoagulants. Dosage of the anticoagulant may require reduction in order to maintain satisfactory therapeutic hypoprothrombinemia.</paragraph>
+                        <paragraph>Concurrent administration of oxyphenbutazone and androgens may result in elevated serum levels of oxyphenbutazone.</paragraph>
+                        <paragraph>In diabetic patients, the metabolic effects of androgens may decrease blood glucose and, therefore, insulin requirements.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_26fe9a81-be43-470f-882a-70d6ad6b851f">
+                     <id root="8807ea01-e167-4728-8a4a-b9371ce11c9f"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory test Interferences</title>
+                     <text>
+                        <paragraph>Androgens may decrease levels of thyroxine-binding globulin, resulting in decreased total T<sub>4</sub> serum levels and increased resin uptake of T<sub>3</sub> and T<sub>4</sub>. Free thyroid hormone levels remain unchanged, however, and there is no clinical evidence of thyroid dysfunction.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_43770adf-9d3d-4905-a0c7-d0b7e1de7a42">
+                     <id root="92246739-ab59-453b-a1cf-ea83adc6883d"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis</title>
+                     <text/>
+                     <effectiveTime value="20250601"/>
+                     <component>
+                        <section ID="LINK_25d48321-65fd-4742-8090-ea2c8a693cd7">
+                           <id root="fe6142c4-791f-4b91-bc11-07fbb3169600"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Animal data</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>Testosterone has been tested by subcutaneous injection and implantation in mice and rats. The implant induced cervical-uterine tumors in mice, which metastasized in some cases. There is suggestive evidence that injection of testosterone into some strains of female mice increases their susceptibility to hepatoma. Testosterone is also known to increase the number of tumors and decrease the degree of differentiation of chemically induced carcinomas of the liver in rats.</paragraph>
+                           </text>
+                           <effectiveTime value="20250601"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_4bc42a4b-df49-4269-adc3-3f2ed2cfdb24">
+                           <id root="20cfafa0-7d3c-4584-8b40-860cebcdc796"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Human data</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>There are rare reports of hepatocellular carcinoma in patients receiving long-term therapy with androgens in high doses. Withdrawal of the drugs did not lead to regression of the tumors in all cases.</paragraph>
+                              <paragraph>Geriatric patients treated with androgens may be at an increased risk of developing prostatic hypertrophy and prostatic carcinoma although conclusive evidence to support this concept is lacking.</paragraph>
+                           </text>
+                           <effectiveTime value="20250601"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_34d5ccdb-6c34-4ccd-b7e3-074baa8fb765">
+                     <id root="d2ecb480-e882-41e1-be11-929a364522bc"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text/>
+                     <effectiveTime value="20250601"/>
+                     <component>
+                        <section ID="LINK_138ab2ab-084d-4a9f-b03d-c5206ea17f1c">
+                           <id root="c2ada6f6-ca21-45f8-9fd2-d4aadf794e35"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>
+                              <content styleCode="italics">
+                                 <content styleCode="bold">Teratogenic Effects</content>
+                              </content>
+                           </title>
+                           <text>
+                              <paragraph>The use of testosterone in women who are pregnant is contraindicated. Testosterone is teratogenic and may cause fetal harm. Testosterone is known to cause virilization of the female fetus when administrated to pregnant women.</paragraph>
+                              <paragraph>Benzyl alcohol can cross the placenta. See <content styleCode="bold">
+                                    <linkHtml href="#LINK_5f77eb39-fd7d-491a-bf40-a7e59f0b2b69">WARNINGS</linkHtml>
+                                 </content>.</paragraph>
+                           </text>
+                           <effectiveTime value="20250601"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_031c2cd5-b5fb-40d1-bf22-0d469ba8eb0c">
+                     <id root="0a5832ed-c5dd-4218-aaa0-f2d567f9560e"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing mothers</title>
+                     <text>
+                        <paragraph>Testosterone cypionate injection is not recommended for use in nursing mothers.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_41963554-d9de-40d0-869a-b1fe4add86f7">
+                     <id root="6e0f4640-b991-4e85-bef8-62233fef2b73"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients below the age of 12 years have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_6e55069f-d8a4-4677-b9ea-faf850854756">
+               <id root="d3c8225c-9f43-4f12-b1b1-41ba6cafe04c"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following adverse reactions in the male have occurred with some androgens:</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine and urogenital:</content> Gynecomastia and excessive frequency and duration of penile erections. Oligospermia may occur at high dosages.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Skin and appendages:</content> Hirsutism, male pattern of baldness, seborrhea, and acne.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Cardiovascular Disorders</content>
+                     <content styleCode="italics">:</content> Myocardial infarction, stroke</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Fluid and electrolyte disturbances:</content> Retention of sodium, chloride, water, potassium, calcium, and inorganic phosphates.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal:</content> Nausea, cholestatic jaundice, alterations in liver function tests, rarely hepatocellular neoplasms and peliosis hepatis (see <content styleCode="bold">
+                        <linkHtml href="#LINK_5f77eb39-fd7d-491a-bf40-a7e59f0b2b69">WARNINGS</linkHtml>
+                     </content>).</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Hematologic:</content> Suppression of clotting factors II, V, VII, and X, bleeding in patients on concomitant anticoagulant therapy, and polycythemia.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Nervous system:</content> Increased or decreased libido, headache, anxiety, depression, and generalized paresthesia.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Allergic:</content> Hypersensitivity, including skin manifestations and anaphylactoid reactions.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Vascular Disorders:</content> Venous thromboembolism.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Special senses: </content>Rare cases of central serous chorioretinopathy (CSCR). </paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Miscellaneous:</content> Inflammation and pain at the site of intramuscular injection.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Hikma Pharmaceuticals USA Inc. at 1-877-845-0689 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8829a2e0-55ce-4e8a-b6e0-4af9dfe4cd8e">
+               <id root="a24bf143-d04a-4b43-8460-7e8a04065a66"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <text/>
+               <effectiveTime value="20250601"/>
+               <component>
+                  <section ID="LINK_3e5f6faa-6b45-475b-a0f1-46f93e69f5fe">
+                     <id root="4f56160b-2ef5-42d5-a083-1245ad8c1535"/>
+                     <code code="34085-1" codeSystem="2.16.840.1.113883.6.1" displayName="CONTROLLED SUBSTANCE SECTION"/>
+                     <title>Controlled Substance</title>
+                     <text>
+                        <paragraph>Testosterone Cypionate Injection contains testosterone, a Schedule III controlled substance in the Controlled Substances Act. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Abuse<br/>
+                           </content>Drug abuse is intentional non-therapeutic use of a drug, even once, for its rewarding psychological and physiological effects. Abuse and misuse of testosterone are seen in male and female adults and adolescents. Testosterone, often in combination with other anabolic androgenic steroids (AAS), and not obtained by prescription through a pharmacy, may be abused by athletes and bodybuilders. There have been reports of misuse by men taking higher doses of legally obtained testosterone than prescribed and continuing testosterone despite adverse events or against medical advice.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Abuse-Related Adverse Reactions</content>
+                              <br/>
+                           </content>Serious adverse reactions have been reported in individuals who abuse anabolic androgenic steroids and include cardiac arrest, myocardial infarction, hypertrophic cardiomyopathy, congestive heart failure, cerebrovascular accident, hepatotoxicity, and serious psychiatric manifestations, including major depression, mania, paranoia, psychosis, delusions, hallucinations, hostility and aggression. </paragraph>
+                        <paragraph>The following adverse reactions have also been reported in men: transient ischemic attacks, convulsions, hypomania, irritability, dyslipidemias, testicular atrophy, subfertility, and infertility. </paragraph>
+                        <paragraph>The following additional adverse reactions have been reported in women: hirsutism, virilization, deepening of voice, clitoral enlargement, breast atrophy, male-pattern baldness, and menstrual irregularities. </paragraph>
+                        <paragraph>The following adverse reactions have been reported in male and female adolescents: premature closure of bony epiphyses with termination of growth, and precocious puberty. </paragraph>
+                        <paragraph>Because these reactions are reported voluntarily from a population of uncertain size and may include abuse of other agents, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure. </paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Dependence<br/>
+                              <content styleCode="italics">Behaviors Associated with Addiction <br/>
+                              </content>
+                           </content>Continued abuse of testosterone and other anabolic steroids, leading to addiction is characterized by the following behaviors: </paragraph>
+                        <list listType="unordered" styleCode="Disk">
+                           <item>Taking greater dosages than prescribed </item>
+                           <item>Continued drug use despite medical and social problems due to drug use </item>
+                           <item>Spending significant time to obtain the drug when supplies of the drug are interrupted </item>
+                           <item>Giving a higher priority to drug use than other obligations </item>
+                           <item>Having difficulty in discontinuing the drug despite desires and attempts to do so </item>
+                           <item>Experiencing withdrawal symptoms upon abrupt discontinuation of use </item>
+                        </list>
+                        <paragraph>Physical dependence is characterized by withdrawal symptoms after abrupt drug discontinuation or a significant dose reduction of a drug. Individuals taking supratherapeutic doses of testosterone may experience withdrawal symptoms lasting for weeks or months which include depressed mood, major depression, fatigue, craving, restlessness, irritability, anorexia, insomnia, decreased libido and hypogonadotropic hypogonadism. </paragraph>
+                        <paragraph>Drug dependence in individuals using approved doses of testosterone for approved indications has not been documented. </paragraph>
+                     </text>
+                     <effectiveTime value="20250601"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c10c44cd-b709-4ef3-ad10-f81321bf9a2e">
+               <id root="b2a68b54-fd02-4aa2-91a6-6da3cef735bc"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>There have been no reports of acute overdosage with the androgens.</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_87371961-5dd4-493b-b8ce-db2ff6601931">
+               <id root="122f9a8b-c125-4043-af08-7e0f4e70035e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Prior to initiating testosterone cypionate, confirm the diagnosis of hypogonadism by ensuring that serum testosterone concentrations have been measured in the morning on at least two separate days and that these serum testosterone concentrations are below the normal range.</paragraph>
+                  <paragraph>Testosterone cypionate injection is for intramuscular use only.</paragraph>
+                  <paragraph>It should not be given intravenously. Intramuscular injections should be given deep in the gluteal muscle.</paragraph>
+                  <paragraph>The suggested dosage for testosterone cypionate injection varies depending on the age, sex, and diagnosis of the individual patient. Dosage is adjusted according to the patient's response and the appearance of adverse reactions.</paragraph>
+                  <paragraph>Various dosage regimens have been used to induce pubertal changes in hypogonadal males; some experts have advocated lower dosages initially, gradually increasing the dose as puberty progresses, with or without a decrease to maintenance levels. Other experts emphasize that higher dosages are needed to induce pubertal changes and lower dosages can be used for maintenance after puberty. The chronological and skeletal ages must be taken into consideration, both in determining the initial dose and in adjusting the dose.</paragraph>
+                  <paragraph>For replacement in the hypogonadal male, 50 to 400 mg should be administered every two to four weeks.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. Warming and shaking the vial should redissolve any crystals that may have formed during storage at temperatures lower than recommended.</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_07dde25f-0d83-422b-979e-6c74c5a2f51d">
+               <id root="e2b22cfe-3691-4405-a1e9-eb3a5d8894f6"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Testosterone Cypionate Injection, USP, 200 mg/mL is a clear, pale yellow oleaginous viscous, sterile solution intended for intramuscular administration available as:</paragraph>
+                  <paragraph>10 mL Multiple Dose Vials, Cartons of 1 vial NDC 0143-9005-01</paragraph>
+                  <paragraph>Store at 20º to 25ºC (68º to 77ºF) [see USP Controlled Room Temperature].<br/>
+Protect from light.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by: </content>HIKMA FARMACÊUTICA (PORTUGAL), S.A.<br/>
+Estrada do Rio da Mό, 8, 8A e 8B - Fervença, - 2705-906 Terrugem SNT, PORTUGAL</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Distributed by:<br/>
+                     </content>Hikma Pharmaceuticals USA Inc<br/>
+Berkeley Heights, NJ 07922<br/>
+                     <br/>
+Novaplus is a registered trademark of Vizient, Inc.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">novaplus+<br/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> </content>Revised: June 2025</paragraph>
+                  <paragraph>PIN574-NOV/3</paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_fab03d2b-5750-4ee6-ad2e-bc255476f825">
+               <id root="7596d25a-0b84-41a6-8e2d-f462ecb544c7"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>NDC 0143-<content styleCode="bold">9005</content>-01    Rx ONLY<br/>
+                     <content styleCode="bold">Testosterone Cypionate Injection, USP      CIII<br/>
+2,000 mg per 10 mL (200 mg/mL)<br/>
+For Intramuscular Use Only</content>
+                     <br/>
+                     <content styleCode="bold">10 mL Multiple Dose Vial<br/>
+Contains Benzyl Alcohol as a Preservative</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM2"/>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NDC 0143-<content styleCode="bold">9005</content>-01    Rx ONLY<br/>
+                        <content styleCode="bold">Testosterone Cypionate Injection, USP      CIII<br/>
+2,000 mg per 10 mL (200 mg/mL)<br/>
+For Intramuscular Use Only</content>
+                        <br/>
+                        <content styleCode="bold">One 10 mL Multiple Dose Vial<br/>
+Contains Benzyl Alcohol as a Preservative</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="bold">
+                           <renderMultiMedia referencedObject="MM3"/>
+                        </content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20250601"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>unit</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="testosterone-cypionate-injection-usp---novaplus-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="testosterone-cypionate-injection-usp---novaplus-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

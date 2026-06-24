@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b937d1d0-9ed8-4aa3-9e4a-cce02870e7e9"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Opium Tincture, USP (Deodorized) CII</title>
+   <effectiveTime value="20260507"/>
+   <setId root="8a77894b-2137-4f46-8dff-5c7b773d4d16"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="113290444" root="1.3.6.1.4.1.519.1"/>
+            <name>Genus Lifesciences Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="384acc4d-47f6-4851-a7cf-9df0a5d45c4a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260507"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="64950-258" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Opium</name>
+                        <formCode code="C43000" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TINCTURE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>morphine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="1" unit="g"/>
+                              <denominator value="100" unit="mL"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="76I7G6D29C" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>morphine</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="76I7G6D29C" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>morphine</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3K9958V90M" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>alcohol</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>water</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="118" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="64950-258-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260515"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="UNAPPROVED DRUG OTHER"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260515"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <policy classCode="DEADrugSchedule">
+                           <code code="C48675" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CII"/>
+                        </policy>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48332" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BROWN" xsi:type="CE">
+                              <originalText>reddish-brown</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0a84d726-7bc3-46ba-ab4e-e68fda7372fc"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="68b36912-e09f-4f0b-9360-20274946a6b8"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Opium Tincture, USP (Deodorized), is for oral administration. It is freed from unpleasant odor or nauseating substances by "denarcotization" with a petroleum distillate. Opium tincture is a clear, reddish-brown hydroalcoholic solution.</paragraph>
+                  <paragraph>Each 100 mL contains 1 g of anhydrous morphine (represents the equivalent of 10 g of Powdered Opium, USP), alcohol, 19%, and water.</paragraph>
+                  <paragraph>Opium has a very characteristic odor and a very bitter taste. The opiates are the most effective and prompt-acting nonspecific antidiarrheal agents.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="fbad0cbc-1198-4b2b-9239-08da28ff80ac"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>The opiates act by enhancing tone in the long segments of longitudinal muscle and by inhibiting propulsive contraction of both circular and longitudinal muscles.</paragraph>
+                  <paragraph>Clinical evidence indicates that the analgesic activity of opium preparations is due to their morphine content. Relatively small doses that do not produce significant analgesia are effective in controlling diarrhea. The papaverine content of the mixed alkaloids is too small to have demonstrable spasmolytic activity.</paragraph>
+                  <paragraph>Following oral administration, morphine is well absorbed from the gastrointestinal tract. It is rapidly metabolized following oral administration, however, and plasma levels of unconjugated morphine are lower than those achieved after parenteral administration. Like other narcotic analgesics, opium preparations are metabolized in the liver. Morphine undergoes conjugation with glucuronic acid at the 3-hydroxyl group. Secondary conjugation may also occur at the 6-hydroxyl group to form the 3,6-diglucuronide. Morphine is excreted in the urine mainly as morphine-3-glucuronide and smaller amounts of morphine-3,6-diglucuronide and unchanged drug. Approximately 75% of a dose of morphine is excreted in the urine within 48 hours.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="18b22e11-7645-4bfa-a930-682f9cdc8153"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Opium tincture is useful for the treatment of diarrhea. </paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Contraindications">
+               <id root="29ce9b78-0300-447d-90d5-73ec7323657b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>This preparation is not recommended for use in children. It should not be used in diarrhea caused by poisoning until the toxic material is eliminated from the gastrointestinal tract.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Warnings">
+               <id root="3140fb30-cebe-4a5e-9945-bf80a2ac7c69"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Addiction can result from opium usage. Opium preparations should be given in the smallest effective dose and as infrequently as possible to minimize the development of tolerance and physical dependence.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2aed2293-3a2b-40d1-bdf5-2b5201745f65"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20260507"/>
+               <component>
+                  <section>
+                     <id root="70387400-3060-402e-8df5-4863cd150e0e"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Opium should be used with caution in the elderly, in debilitated individuals, and in patients with increased intracranial pressure, cerebral arteriosclerosis, hepatic cirrhosis or liver insufficiency, gastrointestinal hemorrhage, myxedema, emphysema, and bronchial asthma.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="0a969dba-c61b-4c97-941c-420e49e37e3e"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>When preparations containing opium are administered in combination with other drugs, the cautions applicable to each ingredient should be borne in mind. Reduced dosage is indicated in poor-risk patients, in the very young or very old patient, and in those who are receiving other central-nervous system depressants.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="118b0800-c24a-4887-9c66-3b569c01ef3b"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Usage in Pregnancy</title>
+                     <effectiveTime value="20260507"/>
+                     <component>
+                        <section>
+                           <id root="d443f7c0-cffa-443e-af09-ef3194f7ab90"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pregnancy Category C </title>
+                           <text>
+                              <paragraph>Animal reproduction studies have not been conducted with Opium Tincture, USP (Deodorized). It is also not known whether Opium Tincture, USP (Deodorized), can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Opium Tincture, USP (Deodorized), should be given to a pregnant woman only if clearly needed.</paragraph>
+                           </text>
+                           <effectiveTime value="20260507"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="54479469-d3d8-4f2e-8f18-167f5a465545"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Caution should be exercised when Opium Tincture, USP (Deodorized), is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="80717c49-55c0-4858-b115-85f0ce38ba9a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Usage in Children</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in children have not been established. <content styleCode="italics">See </content>
+                           <linkHtml href="#Contraindications">Contraindications</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="dae506c2-7680-4399-93e6-1747ca8660e8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Constipation, nausea, and vomiting may occur in some patients. Pruritus and urticaria have been observed.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="23915a52-23d8-4c79-ad7e-d9149211ab73"/>
+               <code code="42227-9" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG ABUSE AND DEPENDENCE SECTION"/>
+               <title>DRUG ABUSE AND DEPENDENCE</title>
+               <effectiveTime value="20260507"/>
+               <component>
+                  <section>
+                     <id root="a53baa40-f61e-40b0-adbd-054512f4427d"/>
+                     <code code="34085-1" codeSystem="2.16.840.1.113883.6.1" displayName="CONTROLLED SUBSTANCE SECTION"/>
+                     <title>Controlled Substance</title>
+                     <text>
+                        <paragraph>Opium Tincture, USP (Deodorized), is a Schedule II drug. <content styleCode="italics">See </content>
+                           <linkHtml href="#Warnings">Warnings</linkHtml>.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="6b9189af-6c7d-4189-86bc-66aec7d839e5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <effectiveTime value="20260507"/>
+               <component>
+                  <section>
+                     <id root="e365288b-52e6-47d4-a294-f53474369cc7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Signs and Symptoms</title>
+                     <text>
+                        <paragraph>Symptoms of toxicity are those of morphine and alcohol, such as nausea, vomiting, miosis, cool and clammy skin, respiratory and CNS depression, bradycardia, hypotension, and skeletal muscle flaccidity. Noncardiogenic pulmonary edema may develop after opioid overdose and monitoring of heart filling pressure may be helpful. Ethanol has been demonstrated to cause hypoglycemia in children or adults with limited glycogen stores. In severe overdosage, apnea, circulatory collapse, cardiac arrest, and death may occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f57ab69b-6579-45ba-9ad5-79f94290b6ca"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Treatment</title>
+                     <text>
+                        <paragraph>To obtain up-to-date information about the treatment of overdose, a good resource is your certified Regional Poison Control Center. Telephone numbers of certified poison control centers are listed in the <content styleCode="italics">Physicians' Desk Reference (PDR)</content>. In managing overdosage, consider the possibility of multiple drug overdoses, interaction among drugs, and unusual drug kinetics in your patient.</paragraph>
+                        <paragraph>Initial management of opioid overdose should emphasize establishment of a secure airway and support of ventilation and perfusion. Meticulously monitor and maintain, within acceptable limits, the patient's vital signs, blood gases, serum electrolytes, blood glucose, etc. Naloxone antagonizes most effects of opioids. Protect the airway as naloxone may induce vomiting. Since naloxone has a shorter duration of action than opioids, repeated doses may be needed. In patients who abuse opioids chronically, a withdrawal syndrome may be manifest on administration of naloxone. This may include yawning, tearing, restlessness, sweating, dilated pupils, piloerection, vomiting, diarrhea, and abdominal cramps. This syndrome usually abates quickly as the effect of naloxone dissipates.</paragraph>
+                        <paragraph>Absorption of drugs from the gastrointestinal tract may be decreased by giving activated charcoal, which, in many cases, is more effective than emesis or lavage; consider charcoal instead of or in addition to gastric emptying. Repeated doses of charcoal over time may hasten elimination of some drugs that have been absorbed. Since opium tincture can delay gastric emptying, evacuation of the stomach may be beneficial. Safeguard the patient's airway when employing gastric emptying or charcoal.</paragraph>
+                        <paragraph>Monitor for and treat hypoglycemia.</paragraph>
+                        <paragraph>The use of forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion has not been established to be beneficial.</paragraph>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="9a6e7bbb-dedb-4c6c-a542-135b89cd54be"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="italics">Usual Adult Dose</content> – 0.6 mL orally 4 times a day.</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b0add012-e310-4ecc-95a9-433adad8259f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <effectiveTime value="20260507"/>
+               <component>
+                  <section>
+                     <id root="9e165180-2402-4594-8937-88ebe7cede47"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>Tincture:</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>4 fl oz (NDC 64950-258-11)</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20260507"/>
+                     <component>
+                        <section>
+                           <id root="6116d03d-fad7-481a-abe4-b5d3ae361ba1"/>
+                           <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                           <text>
+                              <paragraph>Store at controlled room temperature, 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature).</paragraph>
+                           </text>
+                           <effectiveTime value="20260507"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="c9dcfed9-acea-4e02-8d05-78650ef9a015"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Distributed by: <br/>
+                     <content styleCode="bold">Genus Lifesciences Inc.</content>
+                     <br/> Allentown, PA 18102</paragraph>
+                  <paragraph>Rev. 05/25</paragraph>
+               </text>
+               <effectiveTime value="20260507"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="452eac7c-6ca5-48f1-8d35-a5d9c52af2ef"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 118 mL Bottle Label</title>
+               <text>
+                  <paragraph>NDC 64950-258-11</paragraph>
+                  <paragraph>OPIUM <br/> TINCTURE, USP <br/> (DEODORIZED)</paragraph>
+                  <paragraph>CII <br/> POISON</paragraph>
+                  <paragraph>10 mg/mL</paragraph>
+                  <paragraph>of anhydrous morphine</paragraph>
+                  <paragraph>Rx only <br/> 118 mL (4 fl oz)</paragraph>
+                  <paragraph>Genus <br/> Lifesciences Inc.</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+               </text>
+               <effectiveTime value="20260507"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>PRINCIPAL DISPLAY PANEL - 118 mL Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="opium-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

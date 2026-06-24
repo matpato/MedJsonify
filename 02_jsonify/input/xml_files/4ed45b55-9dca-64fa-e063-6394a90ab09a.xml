@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4ed45b55-9dca-64fa-e063-6394a90ab09a"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20260406"/>
+   <setId root="4dc74ada-f633-3f1a-e063-6394a90a191e"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="119379663"/>
+            <name>Yunigen, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="119379663"/>
+                        <name>Yunigen, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-100" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" displayName="analysis" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" displayName="pack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="87500-101" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4ed4924c-92b1-3df8-e063-6294a90a5fee"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260406"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="87500-100" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SCEDAMIN</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydroxyurea</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X6Q56QN5QC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYUREA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X6Q56QN5QC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROXYUREA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7CV7WJK4UI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STEARYL FUMARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="905HNO1SIH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHYLAMINOETHYL METHACRYLATE - BUTYL METHACRYLATE - METHYL METHACRYLATE COPOLYMER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="87500-100-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="87500-100-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260522"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="87500-100-21" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="87500-100-40" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260522"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="6" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value nullFlavor="OTH" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">SCM</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>White to Off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="87500-101" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SCEDAMIN</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Hydroxyurea</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="905HNO1SIH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>DIMETHYLAMINOETHYL METHACRYLATE - BUTYL METHACRYLATE - METHYL METHACRYLATE COPOLYMER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL ALCOHOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7CV7WJK4UI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STEARYL FUMARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="X6Q56QN5QC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYUREA</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="X6Q56QN5QC" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HYDROXYUREA</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="87500-101-11" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="87500-101-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260522"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="87500-101-20" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="60" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="87500-101-41" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260522"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText>White to off-white oval shaped tablet with half-scoring on both sides</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>White to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">SC;SC</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="16" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4deff034-7565-3e46-e063-6394a90ad9f3">
+               <id root="4df41901-f138-24eb-e063-6394a90a528e"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>100 mg Tablet Bottle Label</title>
+               <text>
+                  <paragraph>NDC: 87500-100-11</paragraph>
+                  <paragraph>100 mg Tablet Bottle Label</paragraph>
+                  <paragraph>SCEDAMIN
+  <sup>TM </sup>(Hydroxyurea)
+ </paragraph>
+                  <paragraph>100 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Store at 20-25
+  <sup>o</sup>C (68-77
+  <sup>o</sup>F); excursions
+ </paragraph>
+                  <paragraph>permitted between 15
+  <sup>o</sup>C and 30
+  <sup>o</sup>C (59
+  <sup>o</sup>F and 86
+  <sup>o</sup>F)
+ </paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Manufactured in the United States for Export Only</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>(See image name: 100mg_bottle)
+  <renderMultiMedia referencedObject="img_4df3d00d-c9b1-dd68-e063-6394a90a2dc0"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240122"/>
+               <component>
+                  <observationMedia ID="img_4df3d00d-c9b1-dd68-e063-6394a90a2dc0">
+                     <text>100 mg Bottle</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="100mg_bottle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df0145a-c5e7-64cd-e063-6394a90a11b1">
+               <id root="4df3dfa1-834e-564a-e063-6294a90a6e58"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>100 mg Tablet Carton Label (1 Bottle)</title>
+               <text>
+                  <paragraph>NDC: 87500-100-30</paragraph>
+                  <paragraph>SCEDAMINTM (Hydroxyurea)</paragraph>
+                  <paragraph>100 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Store at 20-25oC (68-77oF); excursions</paragraph>
+                  <paragraph>permitted between 15oC and 30oC (59oF and 86oF)</paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Manufactured in the United States for Export Only</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>Yunigen, Inc.</paragraph>
+                  <paragraph>(See image name: 100mg_carton_1bottle)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df3dfe9-f5f0-684a-e063-6294a90a6908"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240122"/>
+               <component>
+                  <observationMedia ID="img_4df3dfe9-f5f0-684a-e063-6294a90a6908">
+                     <text>100 mg Carton 1 Bottle</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="100mg_carton_1bottle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df0309b-ed8b-7c94-e063-6394a90a253a">
+               <id root="4df3f144-cdc5-f18f-e063-6394a90a7bdf"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>100 mg Tablet Blister Label (Back)</title>
+               <text>
+                  <paragraph>NDC: 87500-100-21</paragraph>
+                  <paragraph>SCEDAMINTM (Hydroxyurea)</paragraph>
+                  <paragraph>100 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>For Export Only</paragraph>
+                  <paragraph>Manufactured iby Yunigen, Inc.</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>B/N:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>(See image name: 100mg_blister_back)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df3ef69-bef7-f674-e063-6394a90a7516"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240129"/>
+               <component>
+                  <observationMedia ID="img_4df3ef69-bef7-f674-e063-6394a90a7516">
+                     <text>100 mg Blister Back</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="100mg_blister_back.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df04573-b8e5-90fc-e063-6294a90a5a01">
+               <id root="4df3f212-5126-0216-e063-6394a90ad26c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>100 mg Tablet Carton Label (4 Blisters)</title>
+               <text>
+                  <paragraph>NDC:87500-100-40</paragraph>
+                  <paragraph>SCEDAMIN
+  <sup>TM</sup> (Hydroxyurea)
+ </paragraph>
+                  <paragraph>100 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Store at 20-25
+  <sup>o</sup>C (68-77
+  <sup>o</sup>F); excursions
+ </paragraph>
+                  <paragraph>permitted between 15
+  <sup>o</sup>C and 30
+  <sup>o</sup>C (59
+  <sup>o</sup>F and 86
+  <sup>o</sup>F)
+ </paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Export Only</paragraph>
+                  <paragraph>Yunigen, Inc.</paragraph>
+                  <paragraph>LOT:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>(See image name: 100mg_carton_4blisters)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df3e8a3-423b-f626-e063-6394a90a716c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240122"/>
+               <component>
+                  <observationMedia ID="img_4df3e8a3-423b-f626-e063-6394a90a716c">
+                     <text>100 mg Carton 4 Blisters</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="100mg_carton_4blisters.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df05575-2f8c-b72b-e063-6394a90ad6ff">
+               <id root="4df3fbe2-46c3-f010-e063-6394a90ae236"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>500 mg Tablet Bottle Label</title>
+               <text>
+                  <paragraph>NDC: 87500-101-11</paragraph>
+                  <paragraph>SCEDAMIN
+  <sup>TM</sup> (Hydroxyurea)
+ </paragraph>
+                  <paragraph>500 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Store at 20-25
+  <sup>o</sup>C (68-77
+  <sup>o</sup>F); excursions
+ </paragraph>
+                  <paragraph>permitted between 15
+  <sup>o</sup>C and 30
+  <sup>o</sup>C (59
+  <sup>o</sup>F and 86
+  <sup>o</sup>F)
+ </paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Manufactured in the United States for Export Only</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>LOT:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>(See image name: 500mg_bottle attched)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df05361-384a-c89c-e063-6294a90a1288"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240122"/>
+               <component>
+                  <observationMedia ID="img_4df05361-384a-c89c-e063-6294a90a1288">
+                     <text>500 mg Bottle</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="500mg_bottle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df05f60-31e5-c44a-e063-6394a90a1315">
+               <id root="4df406bd-3b3c-c10f-e063-6294a90a0e42"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>500 mg Tablet Carton Label (1 Bottle)</title>
+               <text>
+                  <paragraph>NDC: 87500-101-30</paragraph>
+                  <paragraph>SCEDAMIN
+  <sup>TM</sup> (Hydroxyurea)
+ </paragraph>
+                  <paragraph>500 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Store at 20-25
+  <sup>o</sup>C (68-77
+  <sup>o</sup>F); excursions
+ </paragraph>
+                  <paragraph>permitted between 15
+  <sup>o</sup>C and 30
+  <sup>o</sup>C (59
+  <sup>o</sup>F and 86
+  <sup>o</sup>F)
+ </paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Lot:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>Manufactured in the United States for Export Only</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>(See image name: 500mg_carton_1bottle)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df405fc-a8b2-116c-e063-6394a90aa68c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240101"/>
+               <component>
+                  <observationMedia ID="img_4df405fc-a8b2-116c-e063-6394a90aa68c">
+                     <text>500 mg Carton 1 Bottle</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="500mg_carton_1bottle.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df077cc-b22f-ce0a-e063-6394a90ab28a">
+               <id root="4df40fef-20bf-b36d-e063-6294a90abe52"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>500 mg Tablet Blister Label (Back)</title>
+               <text>
+                  <paragraph>NDC: 87500-101-20</paragraph>
+                  <paragraph>SCEDAMIN
+  <sup>TM</sup> (Hydroxyurea)
+ </paragraph>
+                  <paragraph>500 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>For Export Only</paragraph>
+                  <paragraph>Manufactured by Yunigen, Inc.</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>B/N:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>(See image name: 500mg_blister_back)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df40092-cb85-843d-e063-6294a90a83c7"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240122"/>
+               <component>
+                  <observationMedia ID="img_4df40092-cb85-843d-e063-6294a90a83c7">
+                     <text>500 mg Blister Back</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="500mg_blister_back.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4df06eed-56ee-f10a-e063-6294a90ab835">
+               <id root="4df41774-b637-bcd6-e063-6294a90a4b7f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>500 mg Tablet Carton Label (6 Blisters)</title>
+               <text>
+                  <paragraph>NDC: 87500-101-41</paragraph>
+                  <paragraph>SCEDAMIN
+  <sup>TM</sup> (Hydroxyurea)
+ </paragraph>
+                  <paragraph>500 mg per Tablet</paragraph>
+                  <paragraph>For Oral Administration</paragraph>
+                  <paragraph>RX Only</paragraph>
+                  <paragraph>60 Tablets</paragraph>
+                  <paragraph>Store at 20-25
+  <sup>o</sup>C (68-77
+  <sup>o</sup>F); excursions
+ </paragraph>
+                  <paragraph>permitted between 15
+  <sup>o</sup>C and 30
+  <sup>o</sup>C (59
+  <sup>o</sup>F and 86
+  <sup>o</sup>F)
+ </paragraph>
+                  <paragraph>Protect from moisture.</paragraph>
+                  <paragraph>Manufactured in the United States for Export Only</paragraph>
+                  <paragraph>Distributed by Yunigen Kenya Limited</paragraph>
+                  <paragraph>LOT:</paragraph>
+                  <paragraph>EXP:</paragraph>
+                  <paragraph>(See image name: 500mg_carton_6blisters)</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4df40599-12b2-1701-e063-6394a90ae7a6"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240101"/>
+               <component>
+                  <observationMedia ID="img_4df40599-12b2-1701-e063-6394a90ae7a6">
+                     <text>500 mg Carton 6 Blisters</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="500mg_carton_6blisters.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

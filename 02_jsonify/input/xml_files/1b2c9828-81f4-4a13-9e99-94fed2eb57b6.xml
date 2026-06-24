@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="1b2c9828-81f4-4a13-9e99-94fed2eb57b6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nitrofurantoin Capsules USP (Monohydrate/Macrocrystals)<br/>
+      <br/> Rx only</title>
+   <effectiveTime value="20260420"/>
+   <setId root="8450fee6-7b9d-4c74-848e-c4f42c1963f9"/>
+   <versionNumber value="100"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+            <name>Bryant Ranch Prepack</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                  <name>Bryant Ranch Prepack</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="171714327" root="1.3.6.1.4.1.519.1"/>
+                        <name>Bryant Ranch Prepack</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="REPACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2615"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RELABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code codeSystem="2.16.840.1.113883.6.69" code="72162-2615"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8b293d14-d894-4fc3-89b5-f30242eac91e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20241218"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72162-2615" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NITROFURANTOIN</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Nitrofurantoin (Monohydrate/Macrocrystals)</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="65862-929" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="25" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="927AH8112L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROFURANTOIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="927AH8112L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROFURANTOIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator value="75" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="E1QI2CQQ1I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROFURANTOIN MONOHYDRATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="927AH8112L" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROFURANTOIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="F68VH75CJC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOMER HOMOPOLYMER TYPE A (ALLYL PENTAERYTHRITOL CROSSLINKED)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="HHT01ZNK31" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOMER HOMOPOLYMER TYPE B (ALLYL PENTAERYTHRITOL CROSSLINKED)</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="C151H8M554" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCROSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="RDH86HJV5Z" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K90</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZB9127XOA" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C RED NO. 40</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="100" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72162-2615-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260420"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209225" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230330"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48323" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLACK">
+                              <originalText>Opaque Black</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="YELLOW">
+                              <originalText>Opaque Yellow</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="CV" code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="PQ" unit="mm" value="21"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="INT" value="1"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">Z;66</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Nitrofurantoin Macrocrystals USP Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nitrofurantoin-str1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Nitrofurantoin Monohydrate USP Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nitrofurantoin-str2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_0">
+               <id root="a36c4084-84f7-410b-b9a0-7f9e1e9b2cec"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of nitrofurantoin (monohydrate/macrocrystals) and other antibacterial drugs, nitrofurantoin (monohydrate/macrocrystals) should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="0eb7b408-4ec4-445b-9ad5-73044886b78d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Nitrofurantoin is an antibacterial agent specific for urinary tract infections. Nitrofurantoin capsules USP (monohydrate/macrocrystals) is a hard gelatin capsule. Each capsule contains 100 mg of nitrofurantoin in the form of 25 mg of nitrofurantoin macrocrystals USP and 75 mg of nitrofurantoin monohydrate USP.<br/>
+                     <br/> The chemical name of nitrofurantoin macrocrystals is 1-[[[5-nitro-2-furanyl]methylene]amino]-2,4-imidazolidinedione. The chemical structure is the following:<br/>
+                     <br/>
+                     <renderMultiMedia referencedObject="MM1"/>
+                     <br/>
+                     <br/> The chemical name of nitrofurantoin monohydrate is 1-[[[5-nitro-2-furanyl]methylene]amino]-2,4-imidazolidinedione monohydrate. The chemical structure is the following:<br/>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM2"/>
+                        <br/>
+                        <br/> Inactive Ingredients: </content>Each capsule contains carbomer homopolymer (Type A), carbomer homopolymer (Type B), compressible sugar, corn starch, lactose monohydrate, magnesium stearate, povidone, talc. In addition, the empty hard gelatin capsule shells contain D&amp;C Yellow 10, FD&amp;C Blue 1, FD&amp;C Red 40, gelatin, sodium lauryl sulfate, and titanium dioxide. The capsules are imprinted with edible ink containing black iron oxide, potassium hydroxide, propylene glycol, shellac, strong ammonia solution, titanium dioxide.<br/>
+                     <br/> FDA approved dissolution test specifications differ from USP.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="e66bcd77-21db-4260-b850-3ff8ba4a6576"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Each nitrofurantoin capsules<content styleCode="bold"/>(monohydrate/macrocrystals) contains two forms of nitrofurantoin. Twenty-five percent is macrocrystalline nitrofurantoin, which has slower dissolution and absorption than nitrofurantoin monohydrate. The remaining 75% is nitrofurantoin monohydrate contained in a powder blend which, upon exposure to gastric and intestinal fluids, forms a gel matrix that releases nitrofurantoin over time. Based on urinary pharmacokinetic data, the extent and rate of urinary excretion of nitrofurantoin from the 100 mg nitrofurantoin capsules (monohydrate/macrocrystals) are similar to those of 50 mg or 100 mg Macrodantin<sup>®</sup> (nitrofurantoin macrocrystals) capsule. Approximately 20% to 25% of a single dose of nitrofurantoin is recovered from the urine unchanged over 24 hours.<br/>
+                     <br/> Plasma nitrofurantoin concentrations after a single oral dose of the 100 mg nitrofurantoin capsules<content styleCode="bold"/>(monohydrate/macrocrystals) are low, with peak levels usually less than 1 mcg/mL. Nitrofurantoin is highly soluble in urine, to which it may impart a brown color. When nitrofurantoin (monohydrate/macrocrystals) is administered with food, the bioavailability of nitrofurantoin is increased by approximately 40%.<br/>
+                     <content styleCode="bold">
+                        <br/> MICROBIOLOGY<br/>
+                     </content>
+                     <br/> Nitrofurantoin is a nitrofuran antimicrobial agent with activity against certain Gram-positive and Gram-negative bacteria.<br/>
+                     <content styleCode="bold">
+                        <br/> Mechanism of Action<br/>
+                     </content>
+                     <br/> The mechanism of the antimicrobial action of nitrofurantoin is unusual among antibacterials. Nitrofurantoin is reduced by bacterial flavoproteins to reactive intermediates which inactivate or alter bacterial ribosomal proteins and other macromolecules. As a result of such inactivations, the vital biochemical processes of protein synthesis, aerobic energy metabolism, DNA synthesis, RNA synthesis, and cell wall synthesis are inhibited. Nitrofurantoin is bactericidal in urine at therapeutic doses. The broad-based nature of this mode of action may explain the lack of acquired bacterial resistance to nitrofurantoin, as the necessary multiple and simultaneous mutations of the target macromolecules would likely be lethal to the bacteria.<br/>
+                     <content styleCode="bold">
+                        <br/>
+                        <content styleCode="italics">Interactions with Other Antibiotics</content>
+                        <br/>
+                     </content>
+                     <br/> Antagonism has been demonstrated <content styleCode="italics">in-vitro </content>between nitrofurantoin and quinolone antimicrobials. The clinical significance of this finding is unknown.<br/>
+                     <content styleCode="bold">
+                        <br/>
+                        <content styleCode="italics">Development of Resistance</content>
+                        <br/>
+                     </content>
+                     <br/> Development of resistance to nitrofurantoin has not been a significant problem since its introduction in 1953. Cross-resistance with antibiotics and sulfonamides has not been observed, and transferable resistance is, at most, a very rare phenomenon.<br/>
+                     <br/> Nitrofurantoin has been shown to be active against most strains of the following bacteria both <content styleCode="italics">in-vitro </content>and in clinical infections (see <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#Section_3">INDICATIONS AND USAGE</linkHtml>
+                        </content>
+                     </content>):<br/>
+                     <br/>
+                     <content styleCode="italics">Aerobic and facultative Gram-positive microorganisms:</content>
+                     <br/>
+                     <content styleCode="italics">Staphylococcus saprophyticus<br/>
+                     </content>
+                     <br/>
+                     <content styleCode="italics">Aerobic and facultative Gram-negative microorganisms:</content>
+                     <br/>
+                     <content styleCode="italics">Escherichia coli<br/>
+                     </content>
+                     <br/> At least 90 percent of the following microorganisms exhibit an <content styleCode="italics">in-vitro </content>minimum inhibitory concentration (MIC) less than or equal to the susceptible breakpoint for nitrofurantoin. However, the efficacy of nitrofurantoin in treating clinical infections due to these microorganisms has not been established in adequate and well-controlled trials.<br/>
+                     <br/>
+                     <content styleCode="italics">Aerobic and facultative Gram-positive microorganisms</content>
+                     <br/>
+                     <br/> Coagulase-negative staphylococci (including <content styleCode="italics">Staphylococcus epidermidis</content>)<br/>
+                     <content styleCode="italics">Enterococcus</content>
+                     <content styleCode="italics"> faecalis<br/>
+                     </content>
+                     <content styleCode="italics">Staphylococcus aureus<br/>
+                     </content>
+                     <content styleCode="italics">Streptococcus agalactiae<br/>
+                     </content>Group D streptococci<br/>Viridans group streptococci<br/>
+                     <br/>
+                     <content styleCode="italics">Aerobic and facultative Gram-negative microorganisms</content>
+                     <br/>
+                     <br/>
+                     <content styleCode="italics">Citrobacter amalonaticus<br/>
+                     </content>
+                     <content styleCode="italics">Citrobacter diversus<br/>
+                     </content>
+                     <content styleCode="italics">Citrobacter freundii<br/>
+                     </content>
+                     <content styleCode="italics">Klebsiella oxytoca<br/>
+                     </content>
+                     <content styleCode="italics">Klebsiella ozaenae<br/>
+                     </content>
+                     <br/> Nitrofurantoin is not active against most strains of <content styleCode="italics">Proteus </content>species or <content styleCode="italics">Serratia </content>species. It has no activity against <content styleCode="italics">Pseudomonas</content> species.<br/>
+                     <br/>
+                     <content styleCode="bold">Susceptibility Testing</content>
+                     <br/>
+                     <br/>For specific information regarding susceptibility test interpretive criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: https://www.fda.gov/STIC.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="80542a2c-1a5e-4562-9aba-51e5eee56d3d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Nitrofurantoin capsules (monohydrate/macrocrystals) are indicated only for the treatment of acute uncomplicated urinary tract infections (acute cystitis) caused by susceptible strains of <content styleCode="italics">Escherichia coli </content>or <content styleCode="italics">Staphylococcus saprophyticus</content>.  </paragraph>
+                  <br/>
+                  <paragraph>Nitrofurantoin is not indicated for the treatment of pyelonephritis or perinephric abscesses.</paragraph>
+                  <br/>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of nitrofurantoin capsules (monohydrate/macrocrystals) and other antibacterial drugs, nitrofurantoin capsules (monohydrate/macrocrystals) should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.  </paragraph>
+                  <br/>
+                  <paragraph>Nitrofurantoins lack the broader tissue distribution of other therapeutic agents approved for urinary tract infections. Consequently, many patients who are treated with nitrofurantoin capsules (monohydrate/macrocrystals) are predisposed to persistence or reappearance of bacteriuria. (See <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#Section_13">CLINICAL STUDIES</linkHtml>
+                        </content>
+                     </content>). Urine specimens for culture and susceptibility testing should be obtained before and after completion of therapy. If persistence or reappearance of bacteriuria occurs after treatment with nitrofurantoin capsules (monohydrate/macrocrystals), other therapeutic agents with broader tissue distribution should be selected. In considering the use of nitrofurantoin capsules (monohydrate/macrocrystals), lower eradication rates should be balanced against the increased potential for systemic toxicity and for the development of antimicrobial resistance when agents with broader tissue distribution are utilized.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="48e85234-ba9a-49bb-8302-1252196076cc"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Anuria, oliguria, or significant impairment of renal function (creatinine clearance under 60 mL per minute or clinically significant elevated serum creatinine) are contraindications. Treatment of this type of patient carries an increased risk of toxicity because of impaired excretion of the drug.<br/>
+                     <br/> Because of the possibility of hemolytic anemia due to immature erythrocyte enzyme systems (glutathione instability), the drug is contraindicated in pregnant patients at term (38 to 42 weeks gestation), during labor and delivery, or when the onset of labor is imminent. For the same reason, the drug is contraindicated in neonates under one month of age.<br/>
+                     <br/> Nitrofurantoin capsules (monohydrate/macrocrystals) are contraindicated in patients with a previous history of cholestatic jaundice/hepatic dysfunction associated with nitrofurantoin.<br/>
+                     <br/> Nitrofurantoin capsules (monohydrate/macrocrystals) are also contraindicated in those patients with known hypersensitivity to nitrofurantoin.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="f8f8ac48-0042-43a7-a632-aa5aa59a4b67"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Pulmonary Reactions<br/>
+                     </content>
+                     <content styleCode="bold">
+                        <br/> ACUTE, SUBACUTE, OR CHRONIC PULMONARY REACTIONS HAVE BEEN OBSERVED IN PATIENTS TREATED WITH NITROFURANTOIN. IF THESE REACTIONS OCCUR, NITROFURANTOIN (</content>
+                     <content styleCode="bold">MONOHYDRATE/MACROCRYSTALS) </content>
+                     <content styleCode="bold">SHOULD BE DISCONTINUED AND APPROPRIATE MEASURES TAKEN. REPORTS HAVE CITED PULMONARY REACTIONS AS A CONTRIBUTING CAUSE OF DEATH.<br/>
+                     </content>
+                     <content styleCode="bold">
+                        <br/> CHRONIC PULMONARY REACTIONS (DIFFUSE INTERSTITIAL PNEUMONITIS OR PULMONARY FIBROSIS, OR BOTH) CAN DEVELOP INSIDIOUSLY. THESE REACTIONS OCCUR RARELY AND GENERALLY IN PATIENTS RECEIVING THERAPY FOR SIX MONTHS OR LONGER. CLOSE MONITORING OF THE PULMONARY CONDITION OF PATIENTS RECEIVING LONG-TERM THERAPY IS WARRANTED AND REQUIRES THAT THE BENEFITS OF THERAPY BE WEIGHED AGAINST POTENTIAL RISKS. (</content>SEE <content styleCode="bold">
+                        <linkHtml href="#Section_7.1">RESPIRATORY REACTIONS</linkHtml>.)</content>
+                     <content styleCode="bold">
+                        <br/>
+                        <br/> Hepatotoxicity<br/>
+                     </content>
+                     <br/> Hepatic reactions, including hepatitis, cholestatic jaundice, chronic active hepatitis, and hepatic necrosis, occur rarely. Fatalities have been reported. The onset of chronic active hepatitis may be insidious, and patients should be monitored periodically for changes in biochemical tests that would indicate liver injury. If hepatitis occurs, the drug should be withdrawn immediately and appropriate measures should be taken.<br/>
+                     <content styleCode="bold">
+                        <br/> Neuropathy<br/>
+                     </content>
+                     <br/> Peripheral neuropathy, which may become severe or irreversible, has occurred. Fatalities have been reported. Conditions such as renal impairment (creatinine clearance under 60 mL per minute or clinically significant elevated serum creatinine), anemia, diabetes mellitus, electrolyte imbalance, vitamin B deficiency, and debilitating disease may enhance the occurrence of peripheral neuropathy. Patients receiving long-term therapy should be monitored periodically for changes in renal function.<br/>
+                     <br/> Optic neuritis has been reported rarely in postmarketing experience with nitrofurantoin formulations.<br/>
+                     <content styleCode="bold">
+                        <br/> Hemolytic anemia<br/>
+                     </content>
+                     <br/> Cases of hemolytic anemia of the primaquine-sensitivity type have been induced by nitrofurantoin. Hemolysis appears to be linked to a glucose-6-phosphate dehydrogenase deficiency in the red blood cells of the affected patients. This deficiency is found in 10 percent of Blacks and a small percentage of ethnic groups of Mediterranean and Near-Eastern origin. Hemolysis is an indication for discontinuing nitrofurantoin (monohydrate/macrocrystals); hemolysis ceases when the drug is withdrawn.<br/>
+                     <content styleCode="bold">
+                        <content styleCode="italics">
+                           <br/> Clostridium difficile</content>
+                     </content>
+                     <content styleCode="bold">-associated diarrhea<br/>
+                     </content>
+                     <content styleCode="italics">
+                        <br/> Clostridium difficile </content>associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including nitrofurantoin, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of <content styleCode="italics">C. difficile</content>.<br/>
+                     <content styleCode="italics">
+                        <br/> C. difficile </content>produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of <content styleCode="italics">C. difficile </content>cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.<br/>
+                     <br/> If CDAD is suspected or confirmed, ongoing antibiotic use not directed against <content styleCode="italics">C. difficile </content>may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of <content styleCode="italics">C. difficile</content>, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="5428809e-3d90-4dda-af4b-477ee2e10878"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Information for Patients<br/>
+                     </content>
+                     <br/> Patients should be advised to take nitrofurantoin (monohydrate/macrocrystals) with food (ideally breakfast and dinner) to further enhance tolerance and improve drug absorption. Patients should be instructed to complete the full course of therapy; however, they should be advised to contact their physician if any unusual symptoms occur during therapy.<br/>
+                     <br/> Patients should be advised not to use antacid preparations containing magnesium trisilicate while taking nitrofurantoin (monohydrate/macrocrystals).<br/>
+                     <br/> Patients should be counseled that antibacterial drugs including nitrofurantoin (monohydrate/macrocrystals) should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When nitrofurantoin (monohydrate/macrocrystals) is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by nitrofurantoin (monohydrate/macrocrystals) or other antibacterial drugs in the future.<br/>
+                     <br/> Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+               <component>
+                  <section ID="Section_6.1">
+                     <id root="3c362e5f-175c-4a68-9887-58d1a7c8da1c"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Prescribing nitrofurantoin (monohydrate/macrocrystals) in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="374c0b26-98b0-4f1a-b96d-bf25c137c85b"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Antacids containing magnesium trisilicate, when administered concomitantly with nitrofurantoin, reduce both the rate and extent of absorption. The mechanism for this interaction probably is adsorption of nitrofurantoin onto the surface of magnesium trisilicate.<br/>
+                           <br/> Uricosuric drugs, such as probenecid and sulfinpyrazone, can inhibit renal tubular secretion of nitrofurantoin. The resulting increase in nitrofurantoin serum levels may increase toxicity, and the decreased urinary levels could lessen its efficacy as a urinary tract antibacterial.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.5">
+                     <id root="8a1ff14e-f8a7-457c-8ba6-2dc9e464731d"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>As a result of the presence of nitrofurantoin, a false-positive reaction for glucose in the urine may occur. This has been observed with Benedict's and Fehling's solutions but not with the glucose enzymatic test.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="4d68ae7d-6610-4d8c-abf0-545856190e4c"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Nitrofurantoin was not carcinogenic when fed to female Holtzman rats for 44.5 weeks or to female Sprague-Dawley rats for 75 weeks. Two chronic rodent bioassays utilizing male and female Sprague-Dawley rats and two chronic bioassays in Swiss mice and in BDF<sub>1</sub> mice revealed no evidence of carcinogenicity.<br/>
+                           <br/> Nitrofurantoin presented evidence of carcinogenic activity in female B6C3F<sub>1</sub> mice as shown by increased incidences of tubular adenomas, benign mixed tumors, and granulosa cell tumors of the ovary. In male F344/N rats, there were increased incidences of uncommon kidney tubular cell neoplasms, osteosarcomas of the bone, and neoplasms of the subcutaneous tissue. In one study involving subcutaneous administration of 75 mg/kg nitrofurantoin to pregnant female mice, lung papillary adenomas of unknown significance were observed in the F1 generation.<br/>
+                           <br/> Nitrofurantoin has been shown to induce point mutations in certain strains of <content styleCode="italics">Salmonella typhimurium </content>and forward mutations in L5178Y mouse lymphoma cells. Nitrofurantoin induced increased numbers of sister chromatid exchanges and chromosomal aberrations in Chinese hamster ovary cells but not in human cells in culture. Results of the sex-linked recessive lethal assay in Drosophila were negative after administration of nitrofurantoin by feeding or by injection. Nitrofurantoin did not induce heritable mutation in the rodent models examined.<br/>
+                           <br/> The significance of the carcinogenicity and mutagenicity findings relative to the therapeutic use of nitrofurantoin in humans is unknown.<br/>
+                           <br/> The administration of high doses of nitrofurantoin to rats causes temporary spermatogenic arrest; this is reversible on discontinuing the drug. Doses of 10 mg/kg/day or greater in healthy human males may, in certain unpredictable instances, produce a slight to moderate spermatogenic arrest with a decrease in sperm count.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="6e54b0a2-9994-4f2c-80a4-a8b6077853b8"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">
+                              <content styleCode="italics">Teratogenic Effects<br/>
+                              </content>
+                           </content>
+                           <content styleCode="italics"/>Several reproduction studies have been performed in rabbits and rats at doses up to six times the human dose and have revealed no evidence of impaired fertility or harm to the fetus due to nitrofurantoin. In a single published study conducted in mice at 68 times the human dose (based on mg/kg administered to the dam), growth retardation and a low incidence of minor and common malformations were observed. However, at 25 times the human dose, fetal malformations were not observed; the relevance of these findings to humans is uncertain. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.<br/>
+                           <content styleCode="bold">
+                              <content styleCode="italics">
+                                 <br/> Non-teratogenic Effects<br/>
+                              </content>
+                           </content>
+                           <br/> Nitrofurantoin has been shown in one published transplacental carcinogenicity study to induce lung papillary adenomas in the F1 generation mice at doses 19 times the human dose on a mg/kg basis. The relationship of this finding to potential human carcinogenesis is presently unknown. Because of the uncertainty regarding the human implications of these animal data, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.8">
+                     <id root="9a4eb010-af7c-44a6-9d21-c30822753027"/>
+                     <code code="34079-4" codeSystem="2.16.840.1.113883.6.1" displayName="LABOR &amp; DELIVERY SECTION"/>
+                     <title>Labor and Delivery</title>
+                     <text>
+                        <paragraph>See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>
+                              </content>
+                           </content>.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="3b906b30-7719-4ee1-a8af-03c4d254b10a"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>Nitrofurantoin has been detected in human breast milk in trace amounts. Because of the potential for serious adverse reactions from nitrofurantoin in nursing infants under one month of age, a decision should be made whether to discontinue nursing or to discontinue the drug, taking into account the importance of the drug to the mother. (See <content styleCode="bold">
+                              <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>.</content>)</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.10">
+                     <id root="129a8aec-3856-4b8f-a270-eab90dc10328"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Nitrofurantoin (monohydrate/macrocrystals) are contraindicated in infants below the age of one month. (See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>
+                              </content>.</content>) Safety and effectiveness in pediatric patients below the age of twelve years have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.11">
+                     <id root="b29c765f-f417-43be-a935-ab74feb5e6c2"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of nitrofurantoin (monohydrate/macrocrystals) did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. Spontaneous reports suggest a higher proportion of pulmonary reactions, including fatalities, in elderly patients; these differences appear to be related to the higher proportion of elderly patients receiving long-term nitrofurantoin therapy. As in younger patients, chronic pulmonary reactions generally are observed in patients receiving therapy for six months or longer (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                              </content>
+                           </content>). Spontaneous reports also suggest an increased proportion of severe hepatic reactions, including fatalities, in elderly patients (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                              </content>
+                           </content>).<br/>
+                           <br/> In general, the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy in elderly patients should be considered when prescribing nitrofurantoin (monohydrate/macrocrystals). This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Anuria, oliguria, or significant impairment of renal function (creatinine clearance under 60 mL per minute or clinically significant elevated serum creatinine) are contraindications (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_4">CONTRAINDICATIONS</linkHtml>
+                              </content>
+                           </content>). Because elderly patients are more likely to have decreased renal function, it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="23501c96-490e-49cb-9bdf-cc548c209d1b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>In clinical trials of nitrofurantoin (monohydrate/macrocrystals), the most frequent clinical adverse events that were reported as possibly or probably drug-related were nausea (8%), headache (6%), and flatulence (1.5%). Additional clinical adverse events reported as possibly or probably drug-related occurred in less than 1% of patients studied and are listed below within each body system in order of decreasing frequency:<br/>
+                     <content styleCode="bold">
+                        <br/> Gastrointestinal</content>: Diarrhea, dyspepsia, abdominal pain, constipation, emesis<br/>
+                     <content styleCode="bold">
+                        <br/> Neurologic</content>: Dizziness, drowsiness, amblyopia<br/>
+                     <br/>
+                     <content styleCode="bold">Respiratory</content>:<content styleCode="bold"/>Acute pulmonary hypersensitivity reaction (see <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                        </content>
+                     </content>)<br/>
+                     <br/>
+                     <content styleCode="bold">Allergic</content>:<content styleCode="bold"/>Pruritus, urticaria<br/>
+                     <content styleCode="bold">
+                        <br/> Dermatologic</content>: Alopecia<br/>
+                     <br/>
+                     <content styleCode="bold">Miscellaneous</content>: Fever, chills, malaise<br/>
+                     <br/> The following additional clinical adverse events have been reported with the use of nitrofurantoin<br/>
+                     <content styleCode="bold">
+                        <br/> Gastrointestinal<br/>
+                     </content>
+                     <br/> Sialadenitis, pancreatitis. There have been sporadic reports of pseudomembranous colitis with the use of nitrofurantoin. The onset of pseudomembranous colitis symptoms may occur during or after antimicrobial treatment. (See <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                        </content>
+                     </content>.)<br/>
+                     <content styleCode="bold">
+                        <br/> Neurologic<br/>
+                     </content>
+                     <br/> Peripheral neuropathy, which may become severe or irreversible, has occurred. Fatalities have been reported. Conditions such as renal impairment (creatinine clearance under 60 mL per minute or clinically significant elevated serum creatinine), anemia, diabetes mellitus, electrolyte imbalance, vitamin B deficiency, and debilitating diseases may increase the possibility of peripheral neuropathy. (See <content styleCode="bold">
+                        <content styleCode="bold">
+                           <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                        </content>
+                     </content>.)<br/>
+                     <br/> Asthenia, vertigo, and nystagmus also have been reported with the use of nitrofurantoin.<br/>
+                     <br/> Benign intracranial hypertension (pseudotumor cerebri), confusion, depression, optic neuritis, and psychotic reactions have been reported rarely. Bulging fontanels, as a sign of benign intracranial hypertension in infants, have been reported rarely.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+               <component>
+                  <section ID="Section_7.1">
+                     <id root="9ceb8234-7070-4b20-b629-d9477c8514b0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Respiratory</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">CHRONIC, SUBACUTE, OR ACUTE PULMONARY HYPERSENSITIVITY REACTIONS MAY OCCUR WITH THE USE OF NITROFURANTOIN.<br/>
+                           </content>
+                           <content styleCode="bold">
+                              <br/> CHRONIC PULMONARY REACTIONS GENERALLY OCCUR IN PATIENTS WHO HAVE RECEIVED CONTINUOUS TREATMENT FOR SIX MONTHS OR LONGER. MALAISE, DYSPNEA ON EXERTION, COUGH, AND ALTERED PULMONARY FUNCTION ARE COMMON MANIFESTATIONS WHICH CAN OCCUR INSIDIOUSLY. RADIOLOGIC AND HISTOLOGIC FINDINGS OF DIFFUSE INTERSTITIAL PNEUMONITIS OR FIBROSIS, OR BOTH, ARE ALSO COMMON MANIFESTATIONS OF THE CHRONIC PULMONARY REACTION. FEVER IS RARELY PROMINENT.<br/>
+                           </content>
+                           <content styleCode="bold">
+                              <br/> THE SEVERITY OF CHRONIC PULMONARY REACTIONS AND THEIR DEGREE OF RESOLUTION APPEAR TO BE RELATED TO THE DURATION OF THERAPY AFTER THE FIRST CLINICAL SIGNS APPEAR. PULMONARY FUNCTION MAY BE IMPAIRED PERMANENTLY, EVEN AFTER CESSATION OF THERAPY. THE RISK IS GREATER WHEN CHRONIC PULMONARY REACTIONS ARE NOT RECOGNIZED EARLY.<br/>
+                           </content>
+                           <br/> In subacute pulmonary reactions, fever and eosinophilia occur less often than in the acute form. Upon cessation of therapy, recovery may require several months. If the symptoms are not recognized as being drug-related and nitrofurantoin therapy is not stopped, the symptoms may become more severe.<br/>
+                           <br/> Acute pulmonary reactions are commonly manifested by fever, chills, cough, chest pain, dyspnea, pulmonary infiltration with consolidation or pleural effusion on x-ray, and eosinophilia. Acute reactions usually occur within the first week of treatment and are reversible with cessation of therapy. Resolution often is dramatic. (See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                              </content>
+                           </content>.)<br/>
+                           <br/> Changes in EKG (e.g., non-specific ST/T wave changes, bundle branch block) have been reported in association with pulmonary reactions.<br/>
+                           <br/> Cyanosis has been reported rarely.<br/>
+                           <content styleCode="bold">
+                              <br/> Hepatic<br/>
+                           </content>
+                           <br/> Hepatic reactions, including hepatitis, cholestatic jaundice, chronic active hepatitis, and hepatic necrosis, occur rarely. (See <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                              </content>
+                           </content>.)<br/>
+                           <content styleCode="bold">
+                              <br/> Allergic<br/>
+                           </content>
+                           <br/> Lupus-like syndrome associated with pulmonary reaction to nitrofurantoin has been reported. Also, angioedema; maculopapular, erythematous, or eczematous eruptions; anaphylaxis; arthralgia; myalgia; drug fever; chills; and vasculitis (sometimes associated with pulmonary reactions) have been reported. Hypersensitivity reactions represent the most frequent spontaneously-reported adverse events in worldwide postmarketing experience with nitrofurantoin formulations.<br/>
+                           <content styleCode="bold">
+                              <br/> Dermatologic<br/>
+                           </content>
+                           <br/> Exfoliative dermatitis and erythema multiforme (including Stevens-Johnson syndrome) have been reported rarely.<br/>
+                           <content styleCode="bold">
+                              <br/> Hematologic<br/>
+                           </content>
+                           <br/> Cyanosis secondary to methemoglobinemia has been reported rarely.<br/>
+                           <content styleCode="bold">
+                              <br/> Miscellaneous<br/>
+                           </content>
+                           <br/> As with other antimicrobial agents, superinfections caused by resistant organisms, e.g., <content styleCode="italics">Pseudomonas</content> species or <content styleCode="italics">Candida</content> species, can occur.<br/>
+                           <br/> In clinical trials of nitrofurantoin (monohydrate/macrocrystals), the most frequent laboratory adverse events (1% to 5%), without regard to drug relationship, were as follows: eosinophilia, increased AST (SGOT), increased ALT (SGPT), decreased hemoglobin, increased serum phosphorus. The following laboratory adverse events also have been reported with the use of nitrofurantoin: glucose-6-phosphate dehydrogenase deficiency anemia (see <content styleCode="bold">
+                              <content styleCode="bold">
+                                 <linkHtml href="#Section_5">WARNINGS</linkHtml>
+                              </content>
+                           </content>), agranulocytosis, leukopenia, granulocytopenia, hemolytic anemia, thrombocytopenia, megaloblastic anemia. In most cases, these hematologic abnormalities resolved following cessation of therapy. Aplastic anemia has been reported rarely.<br/>
+                           <content styleCode="bold">
+                              <br/> To request medical information or to report SUSPECTED ADVERSE REACTIONS, contact </content>
+                           <content styleCode="bold">Aurobindo Pharma USA, Inc. at 1-866-850-2876 </content>
+                           <content styleCode="bold">or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20241218"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="c92894a6-1bdb-452c-87b7-c5006b0056f4"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Occasional incidents of acute overdosage of nitrofurantoin have not resulted in any specific symptoms other than vomiting. Induction of emesis is recommended. There is no specific antidote, but a high fluid intake should be maintained to promote urinary excretion of the drug. Nitrofurantoin is dialyzable.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="cc494c2b-5ea7-4319-b3bb-b3866dc7f321"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Nitrofurantoin capsules (monohydrate/macrocrystals) should be taken with food.<br/>
+                     <br/>
+                     <content styleCode="bold">Adults and Pediatric Patients Over 12 Years:</content>
+                     <br/>
+                     <br/> One 100 mg capsule every 12 hours for seven days.</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="f5bd169d-4364-4edd-9938-ebd03fb7b45a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Nitrofurantoin Capsules USP (monohydrate/macrocrystals), 100 mg are opaque black and opaque yellow size '0' hard gelatin capsule imprinted with 'Z' on cap and '66' on body with grey ink. Each capsule is filled with light yellow to yellow powder and one yellow colored, round, biconvex tablet.</paragraph>
+                  <paragraph>NDC: 72162-2615-1: 100 Capsules in a BOTTLE</paragraph>
+                  <paragraph>Store at 20º to 25°C (68º to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Repackaged/Relabeled by:<br/>Bryant Ranch Prepack<br/>Burbank, CA 91504</paragraph>
+               </text>
+               <effectiveTime value="20260421"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_13">
+               <id root="97e9bd98-43a3-4bb2-b518-8af6b99a689e"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>Controlled clinical trials comparing nitrofurantoin (monohydrate/macrocrystals) 100 mg p.o. q12h and Macrodantin 50 mg p.o. q6h in the treatment of acute uncomplicated urinary tract infections demonstrated approximately 75% microbiologic eradication of susceptible pathogens in each treatment group.<br/>
+                     <br/> The brands listed are trademarks of their respective owners and are not trademarks of Aurobindo Pharma Limited. The makers of these brands are not affiliated with and do not endorse Aurobindo Pharma Limited or its products.<br/>
+                     <br/> Distributed by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma USA, Inc.<br/>
+                     </content>279 Princeton-Hightstown Road<br/>East Windsor, NJ 08520<br/>
+                     <br/> Manufactured by:<br/>
+                     <content styleCode="bold">Aurobindo Pharma Limited<br/>
+                     </content>Hyderabad-500 032, India<br/>
+                     <br/>Issued: October 2021</paragraph>
+               </text>
+               <effectiveTime value="20241218"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="a5d159ee-94e7-4f2e-9ac9-5532ef1f0322"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph styleCode="bold">Nitrofurantoin 100 mg Capsules #100</paragraph>
+                  <renderMultiMedia ID="F30" referencedObject="mm63629"/>
+               </text>
+               <effectiveTime value="20111230"/>
+               <component>
+                  <observationMedia ID="mm63629">
+                     <text>Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="lbl721622615.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

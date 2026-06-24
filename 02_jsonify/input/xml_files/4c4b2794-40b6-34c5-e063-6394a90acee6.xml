@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4c4b2794-40b6-34c5-e063-6394a90acee6"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Allopurinol</title>
+   <effectiveTime value="20260305"/>
+   <setId root="f6c83ee9-c07b-9fc8-e053-6394a90a2160"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct_Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>Direct_Rx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct_Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-437" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4c4b1281-362a-1211-e063-6394a90a0753"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260305"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-437" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Allopurinol</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Allopurinol</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="29300-349" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="100"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="63CZ7GJN5I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALLOPURINOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="63CZ7GJN5I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALLOPURINOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="M28OL1HH48" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CROSCARMELLOSE SODIUM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="U725QWY32X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POVIDONE K30</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-437-90" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230313"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-437-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230313"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA211820" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230313"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">349;U</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="8" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>(White to Off White)</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c880b1-e956-d10d-e053-6394a90a1f55">
+               <id root="f6c880b1-e955-d10d-e053-6394a90a1f55"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Allopurinol, USP has the following structural formula:</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>Allopurinol, USP is known chemically as 1,5-dihydro-4H-pyrazolo [3,4-d]pyrimidin-4-one. It is a xanthine oxidase inhibitor which is administered orally. Each white to off-white scored tablet contains 100 mg or 300 mg of allopurinol, USP and the inactive ingredients croscarmellose sodium, lactose monohydrate, magnesium stearate, pregelatinized starch and povidone. Its solubility in water at 37°C is 80.0 mg/dL and is greater in an alkaline solution.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88238-7ce8-196f-e053-6294a90af956">
+               <id root="f6c88238-7ce7-196f-e053-6294a90af956"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Allopurinol acts on purine catabolism, without disrupting the biosynthesis of purines. It reduces the production of uric acid by inhibiting the biochemical reactions immediately preceding its formation.</paragraph>
+                  <paragraph>Allopurinol is a structural analogue of the natural purine base, hypoxanthine. It is an inhibitor of xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in man. Allopurinol is metabolized to the corresponding xanthine analogue, oxipurinol (alloxanthine), which also is an inhibitor of xanthine oxidase.</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>It has been shown that reutilization of both hypoxanthine and xanthine for nucleotide and nucleic acid synthesis is markedly enhanced when their oxidations are inhibited by allopurinol and oxipurinol. This reutilization does not disrupt normal nucleic acid anabolism, however, because feedback inhibition is an integral part of purine biosynthesis. As a result of xanthine oxidase inhibition, the serum concentration of hypoxanthine plus xanthine in patients receiving allopurinol for treatment of hyperuricemia is usually in the range of 0.3 to 0.4 mg/dL compared to a normal level of approximately 0.15 mg/dL. A maximum of 0.9 mg/dL of these oxypurines has been reported when the serum urate was lowered to less than 2 mg/dL by high doses of allopurinol. These values are far below the saturation levels at which point their precipitation would be expected to occur (above 7 mg/dL).</paragraph>
+                  <paragraph>The renal clearance of hypoxanthine and xanthine is at least 10 times greater than that of uric acid. The increased xanthine and hypoxanthine in the urine have not been accompanied by problems of nephrolithiasis. Xanthine crystalluria has been reported in only three patients. Two of the patients had Lesch-Nyhan syndrome, which is characterized by excessive uric acid production combined with a deficiency of the enzyme, hypoxanthineguanine phosphoribosyltransferase (HGPRTase). This enzyme is required for the conversion of hypoxanthine, xanthine, and guanine to their respective nucleotides. The third patient had lymphosarcoma and produced an extremely large amount of uric acid because of rapid cell lysis during chemotherapy.</paragraph>
+                  <paragraph>Allopurinol is approximately 90% absorbed from the gastrointestinal tract. Peak plasma levels generally occur at 1.5 hours and 4.5 hours for allopurinol and oxipurinol respectively, and after a single oral dose of 300 mg allopurinol, maximum plasma levels of about 3 mcg/mL of allopurinol and 6.5 mcg/mL of oxipurinol are produced.</paragraph>
+                  <paragraph>Approximately 20% of the ingested allopurinol is excreted in the feces. Because of its rapid oxidation to oxipurinol and a renal clearance rate approximately that of glomerular filtration rate, allopurinol has a plasma half-life of about 1 to 2 hours. Oxipurinol, however, has a longer plasma half-life (approximately 15 hours) and therefore effective xanthine oxidase inhibition is maintained over a 24-hour period with single daily doses of allopurinol. Whereas allopurinol is cleared essentially by glomerular filtration, oxipurinol is reabsorbed in the kidney tubules in a manner similar to the reabsorption of uric acid.</paragraph>
+                  <paragraph>The clearance of oxipurinol is increased by uricosuric drugs, and as a consequence, the addition of a uricosuric agent reduces to some degree the inhibition of xanthine oxidase by oxipurinol and increases to some degree the urinary excretion of uric acid. In practice, the net effect of such combined therapy may be useful in some patients in achieving minimum serum uric acid levels provided the total urinary uric acid load does not exceed the competence of the patient's renal function.</paragraph>
+                  <paragraph>Hyperuricemia may be primary, as in gout, or secondary to diseases such as acute and chronic leukemia, polycythemia vera, multiple myeloma, and psoriasis. It may occur with the use of diuretic agents, during renal dialysis, in the presence of renal damage, during starvation or reducing diets, and in the treatment of neoplastic disease where rapid resolution of tissue masses may occur. Asymptomatic hyperuricemia is not an indication for treatment with allopurinol (see INDICATIONS AND USAGE).</paragraph>
+                  <paragraph>Gout is a metabolic disorder which is characterized by hyperuricemia and resultant deposition of monosodium urate in the tissues, particularly the joints and kidneys. The etiology of this hyperuricemia is the overproduction of uric acid in relation to the patient's ability to excrete it. If progressive deposition of urates is to be arrested or reversed, it is necessary to reduce the serum uric acid level below the saturation point to suppress urate precipitation.</paragraph>
+                  <paragraph>Administration of allopurinol generally results in a fall in both serum and urinary uric acid within 2 to 3 days. The degree of this decrease can be manipulated almost at will since it is dose-dependent. A week or more of treatment with allopurinol may be required before its full effects are manifested; likewise, uric acid may return to pretreatment levels slowly (usually after a period of 7 to 10 days following cessation of therapy). This reflects primarily the accumulation and slow clearance of oxipurinol. In some patients a dramatic fall in urinary uric acid excretion may not occur, particularly in those with severe tophaceous gout. It has been postulated that this may be due to the mobilization of urate from tissue deposits as the serum uric acid level begins to fall.</paragraph>
+                  <paragraph>The action of allopurinol differs from that of uricosuric agents, which lower the serum uric acid level by increasing urinary excretion of uric acid. Allopurinol reduces both the serum and urinary uric acid levels by inhibiting the formation of uric acid. The use of allopurinol to block the formation of urates avoids the hazard of increased renal excretion of uric acid posed by uricosuric drugs.</paragraph>
+                  <paragraph>Allopurinol can substantially reduce serum and urinary uric acid levels in previously refractory patients even in the presence of renal damage serious enough to render uricosuric drugs virtually ineffective. Salicylates may be given conjointly for their antirheumatic effect without compromising the action of allopurinol. This is in contrast to the nullifying effect of salicylates on uricosuric drugs.</paragraph>
+                  <paragraph>Allopurinol also inhibits the enzymatic oxidation of mercaptopurine, the sulfur-containing analogue of hypoxanthine, to 6-thiouric acid. This oxidation, which is catalyzed by xanthine oxidase, inactivates mercaptopurine. Hence, the inhibition of such oxidation by allopurinol tablets may result in as much as a 75% reduction in the therapeutic dose requirement of mercaptopurine when the two compounds are given together.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88238-7cea-196f-e053-6294a90af956">
+               <id root="f6c88238-7ce9-196f-e053-6294a90af956"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>THIS IS NOT AN INNOCUOUS DRUG. IT IS NOT RECOMMENDED FOR THE TREATMENT OF ASYMPTOMATIC HYPERURICEMIA.</paragraph>
+                  <paragraph>Allopurinol tablets, USP reduces serum and urinary uric acid concentrations. Its use should be individualized for each patient and requires an understanding of its mode of action and pharmacokinetics (see CLINICAL PHARMACOLOGY, CONTRAINDICATIONS, WARNINGS, and PRECAUTIONS).</paragraph>
+                  <paragraph>Allopurinol tablets, USP are indicated in:</paragraph>
+                  <paragraph>the management of patients with signs and symptoms of primary or secondary gout (acute attacks, tophi, joint destruction, uric acid lithiasis, and/or nephropathy).
+  <br/>
+the management of patients with leukemia, lymphoma and malignancies who are receiving cancer therapy which causes elevations of serum and urinary uric acid levels. Treatment with allopurinol tablets, USP should be discontinued when the potential for overproduction of uric acid is no longer present.
+  <br/>
+the management of patients with recurrent calcium oxalate calculi whose daily uric acid excretion exceeds 800 mg/day in male patients and 750 mg/day in female patients. Therapy in such patients should be carefully assessed initially and reassessed periodically to determine in each case that treatment is beneficial and that the benefits outweigh the risks.
+ </paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88238-7cec-196f-e053-6294a90af956">
+               <id root="f6c88238-7ceb-196f-e053-6294a90af956"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Patients who have developed a severe reaction to allopurinol tablets, USP should not be restarted on the drug.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88609-f44d-e9f9-e053-6394a90a60ac">
+               <id root="f6c88609-f44c-e9f9-e053-6394a90a60ac"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <text>
+                  <paragraph>ALLOPURINOL TABLETS, USP SHOULD BE DISCONTINUED AT THE FIRST APPEARANCE OF SKIN RASH OR OTHER SIGNS WHICH MAY INDICATE AN ALLERGIC REACTION. In some instances a skin rash may be followed by more severe hypersensitivity reactions such as exfoliative, urticarial, and purpuric lesions, as well as Stevens-Johnson syndrome (erythema multiforme exudativum), Drug Rash with Eosinophilia and Systemic Symptoms (DRESS) and/or generalized vasculitis, irreversible hepatotoxicity, and, on rare occasions, death (see ADVERSE REACTIONS).</paragraph>
+                  <paragraph>In patients receiving PURINETHOL® (mercaptopurine) or IMURAN® (azathioprine), the concomitant administration of 300 to 600 mg of allopurinol per day will require a reduction in dose to approximately one-third to one-fourth of the usual dose of mercaptopurine or azathioprine. Subsequent adjustment of doses of mercaptopurine or azathioprine should be made on the basis of therapeutic response and the appearance of toxic effects (see CLINICAL PHARMACOLOGY).</paragraph>
+                  <paragraph>A few cases of reversible clinical hepatotoxicity have been noted in patients taking allopurinol, and in some patients, asymptomatic rises in serum alkaline phosphatase or serum transaminase have been observed. If anorexia, weight loss, or pruritus develop in patients on allopurinol, evaluation of liver function should be part of their diagnostic workup. In patients with pre-existing liver disease, periodic liver function tests are recommended during the early stages of therapy.</paragraph>
+                  <paragraph>Due to the occasional occurrence of drowsiness, patients should be alerted to the need for due precaution when engaging in activities where alertness is mandatory.</paragraph>
+                  <paragraph>The occurrence of hypersensitivity reactions to allopurinol may be increased in patients with decreased renal function receiving thiazides and allopurinol concurrently. For this reason, in this clinical setting, such combinations should be administered with caution and patients should be observed closely.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c8733a-6480-e9fb-e053-6394a90a2e61">
+               <id root="f6c8733a-647f-e9fb-e053-6394a90a2e61"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General:</paragraph>
+                  <paragraph>An increase in acute attacks of gout has been reported during the early stages of administration of allopurinol, even when normal or subnormal serum uric acid levels have been attained. Accordingly, maintenance doses of colchicine generally should be given prophylactically when allopurinol is begun. In addition, it is recommended that the patient start with a low dose of allopurinol (100 mg daily) and increase at weekly intervals by 100 mg until a serum uric acid level of 6 mg/dL or less is attained but without exceeding the maximum recommended dose (800 mg per day). The use of colchicine or anti-inflammatory agents may be required to suppress gouty attacks in some cases. The attacks usually become shorter and less severe after several months of therapy. The mobilization of urates from tissue deposits which cause fluctuations in the serum uric acid levels may be a possible explanation for these episodes. Even with adequate therapy with allopurinol, it may require several months to deplete the uric acid pool sufficiently to achieve control of the acute attacks.</paragraph>
+                  <paragraph>A fluid intake sufficient to yield a daily urinary output of at least 2 liters and the maintenance of a neutral or, preferably, slightly alkaline urine are desirable to (1) avoid the theoretical possibility of formation of xanthine calculi under the influence of therapy with allopurinol and (2) help prevent renal precipitation of urates in patients receiving concomitant uricosuric agents.</paragraph>
+                  <paragraph>Some patients with pre-existing renal disease or poor urate clearance have shown a rise in BUN during administration of allopurinol. Although the mechanism responsible for this has not been established, patients with impaired renal function should be carefully observed during the early stages of administration of allopurinol and the dosage decreased or the drug withdrawn if increased abnormalities in renal function appear and persist.</paragraph>
+                  <paragraph>Renal failure in association with administration of allopurinol has been observed among patients with hyperuricemia secondary to neoplastic diseases. Concurrent conditions such as multiple myeloma and congestive myocardial disease were present among those patients whose renal dysfunction increased after allopurinol was begun. Renal failure is also frequently associated with gouty nephropathy and rarely with hypersensitivity reactions associated with allopurinol. Albuminuria has been observed among patients who developed clinical gout following chronic glomerulonephritis and chronic pyelonephritis.</paragraph>
+                  <paragraph>Patients with decreased renal function require lower doses of allopurinol than those with normal renal function. Lower than recommended doses should be used to initiate therapy in any patients with decreased renal function and they should be observed closely during the early stages of administration of allopurinol. In patients with severely impaired renal function or decreased urate clearance, the half-life of oxipurinol in the plasma is greatly prolonged. Therefore, a dose of 100 mg per day or 300 mg twice a week, or perhaps less, may be sufficient to maintain adequate xanthine oxidase inhibition to reduce serum urate levels.</paragraph>
+                  <paragraph>Bone marrow depression has been reported in patients receiving allopurinol, most of whom received concomitant drugs with the potential for causing this reaction. This has occurred as early as 6 weeks to as long as 6 years after the initiation of therapy of allopurinol. Rarely, a patient may develop varying degrees of bone marrow depression, affecting one or more cell lines, while receiving allopurinol alone.</paragraph>
+                  <paragraph>Information for Patients:</paragraph>
+                  <paragraph>Patients should be informed of the following:</paragraph>
+                  <paragraph> (1) They should be cautioned to discontinue allopurinol tablets, USP and to consult their physician immediately at the first sign of a skin rash, painful urination, blood in the urine, irritation of the eyes, or swelling of the lips or mouth. (2) They should be reminded to continue drug therapy prescribed for gouty attacks since optimal benefit of allopurinol tablets, USP may be delayed for 2 to 6 weeks. (3) They should be encouraged to increase fluid intake during therapy to prevent renal stones. (4) If a single dose of allopurinol tablet, USP is occasionally forgotten, there is no need to double the dose at the next scheduled time. (5) There may be certain risks associated with the concomitant use of allopurinol tablets, USP and dicumarol, sulfinpyrazone, mercaptopurine, azathioprine, ampicillin, amoxicillin, and thiazide diuretics, and they should follow the instructions of their physician. (6) Due to the occasional occurrence of drowsiness, patients should take precautions when engaging in activities where alertness is mandatory. (7) Patients may wish to take allopurinol tablets, USP after meals to minimize gastric irritation.</paragraph>
+                  <paragraph>Laboratory Tests:</paragraph>
+                  <paragraph>The correct dosage and schedule for maintaining the serum uric acid within the normal range is best determined by using the serum uric acid as an index.</paragraph>
+                  <paragraph>In patients with pre-existing liver disease, periodic liver function tests are recommended during the early stages of therapy (see WARNINGS).</paragraph>
+                  <paragraph>Allopurinol and its primary active metabolite, oxipurinol, are eliminated by the kidneys; therefore, changes in renal function have a profound effect on dosage. In patients with decreased renal function or who have concurrent illnesses which can affect renal function such as hypertension and diabetes mellitus, periodic laboratory parameters of renal function, particularly BUN and serum creatinine or creatinine clearance, should be performed and the patient's dosage of allopurinol reassessed.</paragraph>
+                  <paragraph>The prothrombin time should be reassessed periodically in the patients receiving dicumarol who are given allopurinol.</paragraph>
+                  <paragraph>Drug Interactions:</paragraph>
+                  <paragraph>In patients receiving mercaptopurine or IMURAN (azathioprine), the concomitant administration of 300 to 600 mg of allopurinol per day will require a reduction in dose to approximately one third to one fourth of the usual dose of mercaptopurine or azathioprine. Subsequent adjustment of doses of mercaptopurine or azathioprine should be made on the basis of therapeutic response and the appearance of toxic effects (see CLINICAL PHARMACOLOGY).</paragraph>
+                  <paragraph>It has been reported that allopurinol prolongs the half-life of the anticoagulant, dicumarol. The clinical basis of this drug interaction has not been established but should be noted when allopurinol is given to patients already on dicumarol therapy.</paragraph>
+                  <paragraph>Since the excretion of oxipurinol is similar to that of urate, uricosuric agents, which increase the excretion of urate, are also likely to increase the excretion of oxipurinol and thus lower the degree of inhibition of xanthine oxidase. The concomitant administration of uricosuric agents and allopurinol has been associated with a decrease in the excretion of oxypurines (hypoxanthine and xanthine) and an increase in urinary uric acid excretion compared with that observed with allopurinol alone. Although clinical evidence to date has not demonstrated renal precipitation of oxypurines in patients either on allopurinol alone or in combination with uricosuric agents, the possibility should be kept in mind.</paragraph>
+                  <paragraph>The reports that the concomitant use of allopurinol and thiazide diuretics may contribute to the enhancement of allopurinol toxicity in some patients have been reviewed in an attempt to establish a cause-and-effect relationship and a mechanism of causation. Review of these case reports indicates that the patients were mainly receiving thiazide diuretics for hypertension and that tests to rule out decreased renal function secondary to hypertensive nephropathy were not often performed. In those patients in whom renal insufficiency was documented, however, the recommendation to lower the dose of allopurinol was not followed. Although a causal mechanism and a cause-and-effect relationship have not been established, current evidence suggests that renal function should be monitored in patients on thiazide diuretics and allopurinol even in the absence of renal failure, and dosage levels should be even more conservatively adjusted in those patients on such combined therapy if diminished renal function is detected.</paragraph>
+                  <paragraph>An increase in the frequency of skin rash has been reported among patients receiving ampicillin or amoxicillin concurrently with allopurinol compared to patients who are not receiving both drugs. The cause of the reported association has not been established.</paragraph>
+                  <paragraph>Enhanced bone marrow suppression by cyclophosphamide and other cytotoxic agents has been reported among patients with neoplastic disease, except leukemia, in the presence of allopurinol. However, in a well-controlled study of patients with lymphoma on combination therapy, allopurinol did not increase the marrow toxicity of patients treated with cyclophosphamide, doxorubicin, bleomycin, procarbazine, and/or mechlorethamine.</paragraph>
+                  <paragraph>Tolbutamide's conversion to inactive metabolites has been shown to be catalyzed by xanthine oxidase from rat liver. The clinical significance, if any, of these observations is unknown.</paragraph>
+                  <paragraph>Chlorpropamide's plasma half-life may be prolonged by allopurinol, since allopurinol and chlorpropamide may compete for excretion in the renal tubule. The risk of hypoglycemia secondary to this mechanism may be increased if allopurinol and chlorpropamide are given concomitantly in the presence of renal insufficiency.</paragraph>
+                  <paragraph>Rare reports indicate that cyclosporine levels may be increased during concomitant treatment with allopurinol. Monitoring of cyclosporine levels and possible adjustment of cyclosporine dosage should be considered when these drugs are co-administered.</paragraph>
+                  <paragraph>Drug/Laboratory Test Interactions:</paragraph>
+                  <paragraph>Allopurinol is not known to alter the accuracy of laboratory tests.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic Effects: Reproductive studies have been performed in rats and rabbits at doses up to twenty times the usual human dose (5 mg/kg per day), and it was concluded that there was no impaired fertility or harm to the fetus due to allopurinol. There is a published report of a study in pregnant mice given 50 or 100 mg/kg allopurinol intraperitoneally on gestation days 10 or 13. There were increased numbers of dead fetuses in dams given 100 mg/kg allopurinol but not in those given 50 mg/kg. There were increased numbers of external malformations in fetuses at both doses of allopurinol on gestation day 10 and increased numbers of skeletal malformations in fetuses at both doses on gestation day 13. It cannot be determined whether this represented a fetal effect or an effect secondary to maternal toxicity. There are, however, no adequate or well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                  <paragraph>Experience with allopurinol during human pregnancy has been limited partly because women of reproductive age rarely require treatment with allopurinol. However, in 2011, a literature publication case report describes the outcome of a full term pregnancy in a 35 year-old woman who had recurrent kidney stones since age 18 who took allopurinol throughout the pregnancy. The child had multiple complex birth defects and died at 8 days of life. A second report in 2013 (Hoeltzenbein M et al (2013); PLoS ONE 8(6): e66637), provided data on 31 prospectively ascertained pregnancies involving mothers exposed to allopurinol for varying durations during the first trimester. The overall rate of major fetal malformations and spontaneous abortions was reported to be within the normal expected range; however, one child had severe malformations similar to those described in the cited earlier case report.</paragraph>
+                  <paragraph>Nursing Mothers: Allopurinol and oxipurinol have been found in the milk of a mother who was receiving allopurinol. Since the effect of allopurinol on the nursing infant is unknown, caution should be exercised when allopurinol is administered to a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use: Allopurinol is rarely indicated for use in children with the exception of those with hyperuricemia secondary to malignancy or to certain rare inborn errors of purine metabolism (see INDICATIONS AND USAGE and DOSAGE AND ADMINISTRATION).</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88238-7cee-196f-e053-6294a90af956">
+               <id root="f6c88238-7ced-196f-e053-6294a90af956"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>Data upon which the following estimates of incidence of adverse reactions are made are derived from experiences reported in the literature, unpublished clinical trials and voluntary reports since marketing of allopurinol began. Past experience suggested that the most frequent event following the initiation of allopurinol treatment was an increase in acute attacks of gout (average 6% in early studies). An analysis of current usage suggests that the incidence of acute gouty attacks has diminished to less than 1%. The explanation for this decrease has not been determined but may be due in part to initiating therapy more gradually (see PRECAUTIONS and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>The most frequent adverse reaction to allopurinol is skin rash. Skin reactions can be severe and sometimes fatal. Therefore, treatment with allopurinol tablets should be discontinued immediately if a rash develops (see WARNINGS). Some patients with the most severe reaction also had fever, chills, arthralgias, cholestatic jaundice, eosinophilia and mild leukocytosis or leukopenia. Among 55 patients with gout treated with allopurinol for 3 to 34 months (average greater than 1 year) and followed prospectively, Rundles observed that 3% of patients developed a type of drug reaction which was predominantly a pruritic maculopapular skin eruption, sometimes scaly or exfoliative. However, with current usage, skin reactions have been observed less frequently than 1%. The explanation for this decrease is not obvious. The incidence of skin rash may be increased in the presence of renal insufficiency. The frequency of skin rash among patients receiving ampicillin or amoxicillin concurrently with allopurinol tablets has been reported to be increased (see PRECAUTIONS).</paragraph>
+                  <paragraph>Drug rash with eosinophilia and systemic symptoms (DRESS) syndrome or drug hypersensitivity syndrome (DHS) has been reported in association with allopurinol use. The syndrome includes many of the severe reactions described above, and is potentially life-threatening and fatal. The syndrome is often characterized by fever, severe and profuse skin rash, elevated leukocyte counts and in particular, elevated eosinophil counts, lymphadenopathy, and multi-organ pathologies. Systemic symptoms often included, but were not limited to, the hepatic and renal systems. Symptoms involving the cardiac, gastrointestinal, lymphatic, pulmonary, and ophthalmic systems were also reported as occurring as part of the syndrome. It has been reported that symptoms may develop in approximately 1 week from initiating allopurinol therapy, but longer latency periods have also been reported.</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact Unichem Pharmaceuticals (USA), Inc., at 1-866-562-4616 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>Most Common Reactions* Probably Causally Related:</paragraph>
+                  <paragraph>Gastrointestinal: Diarrhea, nausea, alkaline phosphatase increase, SGOT/SGPT increase.</paragraph>
+                  <paragraph>Metabolic and Nutritional: Acute attacks of gout.</paragraph>
+                  <paragraph>Skin and Appendages: Rash, maculopapular rash.</paragraph>
+                  <paragraph>*Early clinical studies and incidence rates from early clinical experience with allopurinol suggested that these adverse reactions were found to occur at a rate of greater than 1%. The most frequent event observed was acute attacks of gout following the initiation of therapy. Analyses of current usage suggest that the incidence of these adverse reactions is now less than 1%. The explanation for this decrease has not been determined, but it may be due to following recommended usage (see ADVERSE REACTIONS introduction, INDICATIONS AND USAGE, PRECAUTIONS, and DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Incidence Less Than 1% Probably Causally Related:</paragraph>
+                  <paragraph>Body As a Whole: Ecchymosis, fever, headache.</paragraph>
+                  <paragraph>Cardiovascular: Necrotizing angiitis, vasculitis.</paragraph>
+                  <paragraph>Gastrointestinal: Hepatic necrosis, granulomatous hepatitis, hepatomegaly, hyperbilirubinemia, cholestatic jaundice, vomiting, intermittent abdominal pain, gastritis, dyspepsia.</paragraph>
+                  <paragraph>Hemic and Lymphatic: Thrombocytopenia, eosinophilia, leukocytosis, leukopenia.</paragraph>
+                  <paragraph>Musculoskeletal: Myopathy, arthralgias.</paragraph>
+                  <paragraph>Nervous: Peripheral neuropathy, neuritis, paresthesia, somnolence.</paragraph>
+                  <paragraph>Respiratory: Epistaxis.</paragraph>
+                  <paragraph>Skin and Appendages: Erythema multiforme exudativum (Stevens-Johnson syndrome), toxic epidermal necrolysis (Lyell's syndrome), hypersensitivity vasculitis, purpura, vesicular bullous dermatitis, exfoliative dermatitis, eczematoid dermatitis, pruritus, urticaria, alopecia, onycholysis, lichen planus.</paragraph>
+                  <paragraph>Special Senses: Taste loss/perversion.</paragraph>
+                  <paragraph>Urogenital: Renal failure, uremia (see PRECAUTIONS).</paragraph>
+                  <paragraph>Incidence Less Than 1% Causal Relationship Unknown:</paragraph>
+                  <paragraph>Body As a Whole: Malaise.</paragraph>
+                  <paragraph>Cardiovascular: Pericarditis, peripheral vascular disease, thrombophlebitis, bradycardia, vasodilation.</paragraph>
+                  <paragraph>Endocrine: Infertility (male), hypercalcemia, gynecomastia (male).</paragraph>
+                  <paragraph>Gastrointestinal: Hemorrhagic pancreatitis, gastrointestinal bleeding, stomatitis, salivary gland swelling, hyperlipidemia, tongue edema, anorexia.</paragraph>
+                  <paragraph>Hemic and Lymphatic: Aplastic anemia, agranulocytosis, eosinophilic fibrohistiocytic lesion of bone marrow, pancytopenia, prothrombin decrease, anemia, hemolytic anemia, reticulocytosis, lymphadenopathy, lymphocytosis.</paragraph>
+                  <paragraph>Musculoskeletal: Myalgia.</paragraph>
+                  <paragraph>Nervous: Optic neuritis, confusion, dizziness, vertigo, foot drop, decrease in libido, depression, amnesia, tinnitus, asthenia, insomnia.</paragraph>
+                  <paragraph>Respiratory: Bronchospasm, asthma, pharyngitis, rhinitis.</paragraph>
+                  <paragraph>Skin and Appendages: Furunculosis, facial edema, sweating, skin edema.</paragraph>
+                  <paragraph>Special Senses: Cataracts, macular retinitis, iritis, conjunctivitis, amblyopia.</paragraph>
+                  <paragraph>Urogenital: Nephritis, impotence, primary hematuria, albuminuria.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88238-7cf0-196f-e053-6294a90af956">
+               <id root="f6c88238-7cef-196f-e053-6294a90af956"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Massive overdosing or acute poisoning by allopurinol tablets, USP has not been reported.</paragraph>
+                  <paragraph>In mice, the 50% lethal dose (LD50) is 160 mg/kg given intraperitoneally (IP) with deaths delayed up to 5 days and 700 mg/kg orally (PO) (approximately 140 times the usual human dose) with deaths delayed up to 3 days. In rats, the acute LD50 is 750 mg/kg IP and 6000 mg/kg PO (approximately 1200 times the human dose).</paragraph>
+                  <paragraph>In the management of overdosage there is no specific antidote for allopurinol. There has been no clinical experience in the management of a patient who has taken massive amounts of allopurinol.</paragraph>
+                  <paragraph>Both allopurinol and oxipurinol are dialyzable; however, the usefulness of hemodialysis or peritoneal dialysis in the management of an overdose of allopurinol is unknown.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c88d87-66b9-2962-e053-6294a90acfbe">
+               <id root="f6c88d87-66b8-2962-e053-6294a90acfbe"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>The dosage of allopurinol tablets to accomplish full control of gout and to lower serum uric acid to normal or near-normal levels varies with the severity of the disease. The average is 200 to 300 mg/day for patients with mild gout and 400 to 600 mg/day for those with moderately severe tophaceous gout. The appropriate dosage may be administered in divided doses or as a single equivalent dose with the 300 mg-tablet. Dosage requirements in excess of 300 mg should be administered in divided doses. The minimal effective dosage is 100 to 200 mg daily and the maximal recommended dosage is 800 mg daily. To reduce the possibility of flare-up of acute gouty attacks, it is recommended that the patient start with a low dose of allopurinol tablets (100 mg daily) and increase at weekly intervals by 100 mg until a serum uric acid level of 6 mg/dL or less is attained but without exceeding the maximal recommended dosage.</paragraph>
+                  <paragraph>Normal serum urate levels are usually achieved in 1 to 3 weeks. The upper limit of normal is about 7 mg/dL for men and postmenopausal women and 6 mg/dL for premenopausal women. Too much reliance should not be placed on a single serum uric acid determination since, for technical reasons, estimation of uric acid may be difficult. By selecting the appropriate dosage and, in certain patients, using uricosuric agents concurrently, it is possible to reduce serum uric acid to normal or, if desired, to as low as 2 to 3 mg/dL and keep it there indefinitely.</paragraph>
+                  <paragraph>While adjusting the dosage of allopurinol tablets in patients who are being treated with colchicine and/or anti-inflammatory agents, it is wise to continue the latter therapy until serum uric acid has been normalized and there has been freedom from acute gouty attacks for several months.</paragraph>
+                  <paragraph>In transferring a patient from a uricosuric agent to allopurinol tablets, the dose of the uricosuric agent should be gradually reduced over a period of several weeks and the dose of allopurinol tablets gradually increased to the required dose needed to maintain a normal serum uric acid level.</paragraph>
+                  <paragraph>It should also be noted that allopurinol tablets are generally better tolerated if taken following meals. A fluid intake sufficient to yield a daily urinary output of at least 2 liters and the maintenance of a neutral or preferably, slightly alkaline urine are desirable.</paragraph>
+                  <paragraph>Since allopurinol and its metabolites are primarily eliminated only by the kidney, accumulation of the drug can occur in renal failure, and the dose of allopurinol tablets should consequently be reduced. With a creatinine clearance of 10 to 20 mL/min, a daily dosage of 200 mg of allopurinol tablets are suitable. When the creatinine clearance is less than 10 mL/min, the daily dosage should not exceed 100 mg. With extreme renal impairment (creatinine clearance less than 3 mL/min) the interval between doses may also need to be lengthened.</paragraph>
+                  <paragraph>The correct size and frequency of dosage for maintaining the serum uric acid just within the normal range is best determined by using the serum uric acid level as an index.</paragraph>
+                  <paragraph>For the prevention of uric acid nephropathy during the vigorous therapy of neoplastic disease, treatment with 600 to 800 mg daily for 2 or 3 days is advisable together with a high fluid intake. Otherwise similar considerations to the above recommendations for treating patients with gout govern the regulation of dosage for maintenance purposes in secondary hyperuricemia.</paragraph>
+                  <paragraph>The dose of allopurinol tablets, USP recommended for management of recurrent calcium oxalate stones in hyperuricosuric patients is 200 to 300 mg/day in divided doses or as the single equivalent. This dose may be adjusted up or down depending upon the resultant control of the hyperuricosuria based upon subsequent 24 hour urinary urate determinations. Clinical experience suggests that patients with recurrent calcium oxalate stones may also benefit from dietary changes such as the reduction of animal protein, sodium, refined sugars, oxalate rich foods, and excessive calcium intake, as well as an increase in oral fluids and dietary fiber.</paragraph>
+                  <paragraph>Children, 6 to 10 years of age, with secondary hyperuricemia associated with malignancies may be given 300 mg allopurinol tablets daily while those under 6 years are generally given 150 mg daily. The response is evaluated after approximately 48 hours of therapy and a dosage adjustment is made if necessary.</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c880b1-e958-d10d-e053-6394a90a1f55">
+               <id root="f7f52a3a-de07-9458-e053-6394a90ae543"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Allopurinol tablets, USP are available as follows:</paragraph>
+                  <paragraph>The 100 mg tablets are white to off-white, round, flat, beveled, uncoated tablets debossed with "349" above breakline, "U" below breakline on one side and plain on the other side. They are available as:</paragraph>
+                  <paragraph>Bottles of 90: NDC 72189-437-90</paragraph>
+                  <paragraph>The 300 mg tablets are white to off-white, round, flat, beveled, uncoated tablets debossed with "350" above breakline, "U" below breakline on one side and plain on the other side. They are available as:</paragraph>
+                  <paragraph>Bottles of 100: NDC 29300-350-01</paragraph>
+                  <paragraph>Bottles of 500: NDC 29300-350-05</paragraph>
+                  <paragraph>Bottles of 1,000: NDC 29300-350-10</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c89dba-7191-1a02-e053-6394a90a552d">
+               <id root="f6c89dba-7190-1a02-e053-6394a90a552d"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at 20°C to 25°C (USP Controlled Room Temperature) (68°F to 77°F) in a dry place. Dispense in a tight container as defined in the USP.</paragraph>
+                  <paragraph>Manufactured by:</paragraph>
+                  <paragraph>UNICHEM LABORATORIES LTD.</paragraph>
+                  <paragraph>Ind. Area, Meerut Road, Ghaziabad – 201 003, India</paragraph>
+                  <paragraph>and</paragraph>
+                  <paragraph>UNICHEM LABORATORIES LTD.</paragraph>
+                  <paragraph>Pilerne Ind. Estate, Pilerne, Bardez, Goa 403 511, India</paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>[Image]</paragraph>
+                  <paragraph>East Brunswick, NJ 08816</paragraph>
+                  <paragraph>IMURAN is a registered trademark of Sebela International Bermuda Limited, Hamilton, Bermuda</paragraph>
+                  <paragraph>PURINETHOL is a registered trademark of Stason Pharmaceutical, Inc., Irvine, CA</paragraph>
+                  <paragraph>05-R-10/2022</paragraph>
+                  <paragraph>13014211</paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f6c89dba-7193-1a02-e053-6394a90a552d">
+               <id root="f6c89dba-7192-1a02-e053-6394a90a552d"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_f6c88d87-66ba-2962-e053-6294a90acfbe"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230313"/>
+               <component>
+                  <observationMedia ID="img_f6c88d87-66ba-2962-e053-6294a90acfbe">
+                     <text>72189-437-90</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-437-90.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4c4b32be-1fe2-3ce0-e063-6394a90a7ed3">
+               <id root="4c4b32be-1fe1-3ce0-e063-6394a90a7ed3"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4c4b26de-cc64-2c82-e063-6394a90abdaf"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260305"/>
+               <component>
+                  <observationMedia ID="img_4c4b26de-cc64-2c82-e063-6394a90abdaf">
+                     <text>72189-437-30</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-437-30.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

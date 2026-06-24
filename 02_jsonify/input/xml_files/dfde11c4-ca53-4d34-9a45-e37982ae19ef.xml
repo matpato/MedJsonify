@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="dfde11c4-ca53-4d34-9a45-e37982ae19ef"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title mediaType="text/x-hl7-title+xml">
+      <content styleCode="bold">These highlights do not include all the information needed to use NEREUS safely and effectively.  See full prescribing information for NEREUS.
+			<br/>NEREUS™ (tradipitant) capsules, for oral use 
+				<br/>Initial U.S. Approval: 2025</content>
+   </title>
+   <effectiveTime value="20260112"/>
+   <setId root="1a021ebd-16ac-4354-b4b2-1c3950c091e5"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="133501556" root="1.3.6.1.4.1.519.1"/>
+            <name>Vanda Pharmaceuticals Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8efa74c1-c05b-4cf8-88f5-e93f1df65697"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20251231"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="43068-585" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NEREUS</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TRADIPITANT</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="85" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="NY0COC51FI" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TRADIPITANT</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="NY0COC51FI" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TRADIPITANT</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="36" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="43068-585-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20260331"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV" displayName="Type 0: Not a Combination Product"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA220152" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260331"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48323" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLACK" xsi:type="CE">
+                              <originalText>BLACK</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>WHITE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText>CAPSULE</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">VANDA;85mg</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0100">
+               <id root="dce79b40-ea78-4a3a-91ee-432f7ef57dee"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>NEREUS is indicated for the prevention of vomiting induced by motion in adults.</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>NEREUS is a substance P/neurokinin 1 (NK1) receptor antagonist indicated for the prevention of vomiting induced by motion in adults. (<linkHtml href="#s_0100">1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0200">
+               <id root="67c49738-c85b-4972-afd9-8d089dd41f9a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>The recommended dosage of NEREUS is 85 mg or 170 mg as a single oral dose approximately 60 minutes before an event expected to cause vomiting induced by motion. The safety of NEREUS for the prevention	 	
+									of vomiting induced by motion in adults for more than 90 doses has not been established in clinical trials. (<linkHtml href="#s_0201">2.1</linkHtml>)</item>
+                           <item>The maximum dosage in a 24-hour period is a single dose of 85 mg or 170 mg. (<linkHtml href="#s_0201">2.1</linkHtml>)</item>
+                           <item>Administer on an empty stomach, at least 1 hour prior to or 2 hours after a full meal. (<linkHtml href="#s_0201">2.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0201">
+                     <id root="85034fe5-532a-48d1-bd69-fb530796566b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">2.1	Recommended Dosage and Administration</title>
+                     <text>
+                        <list listType="unordered" styleCode="Disc">
+                           <item>The recommended dosage of NEREUS is 85 mg or 170 mg as a single oral dose. Use the lowest effective dose. The safety of NEREUS for the prevention of vomiting induced by motion in adults for more than 90 doses has not been established in clinical trials <content styleCode="italics"> [see <linkHtml href="#s_0601">Adverse Reactions (6.1)</linkHtml>]</content>.</item>
+                           <item>Administer NEREUS orally approximately 60 minutes before an event expected to cause vomiting induced by motion.</item>
+                           <item>The maximum dosage in a 24-hour period is a single dose of 85 mg or 170 mg.</item>
+                           <item>Administer NEREUS on an empty stomach, at least 1 hour prior to or 2 hours after a full meal <content styleCode="italics"> [see <linkHtml href="#s_1203">Clinical Pharmacology (12.3)</linkHtml>]</content>.</item>
+                        </list>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0300">
+               <id root="b30dc0b0-c4b0-4db4-aff6-a07addeca495"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>Capsules: 85 mg, supplied as a white opaque body capsule with “VANDA 85mg” printed on the black opaque cap.</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Capsules: 85 mg (<linkHtml href="#s_0300">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0400">
+               <id root="0e0c7394-f39a-4834-9a45-c698baeb9dc4"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>None.</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>None. (<linkHtml href="#s_0400">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0500">
+               <id root="84e91f22-6762-4fa0-84ed-1a2477299039"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Effects on the Ability to Drive or Operate Machinery:</content> May impair mental and/or physical abilities required for driving a motor vehicle or operating heavy machinery. Concomitant use of other drugs that cause central nervous system depression and strong CYP3A4 inhibitors may increase this effect. If concomitant use is unavoidable, warn patients against driving and other activities requiring complete mental alertness. (<linkHtml href="#s_0501">5.1</linkHtml>, <linkHtml href="#s_0701">7.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0501">
+                     <id root="64089219-0621-44e9-af11-b8a0d5a58382"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">5.1 Effects on the Ability to Drive or Operate Machinery</title>
+                     <text>
+                        <paragraph>In placebo-controlled clinical trials, somnolence (6%, 12%) and fatigue (6%, 8%) were adverse reactions reported in subjects who took a single dose of 85 mg or 170 mg NEREUS, respectively <content styleCode="italics"> [see <linkHtml href="#s_0601">Adverse Reactions (6.1)</linkHtml>]</content>. NEREUS may impair the mental and/or physical abilities required for driving a motor vehicle or operating heavy machinery. Concomitant use of other drugs that cause central nervous system depression and strong CYP3A4 inhibitors may increase this effect <content styleCode="italics"> [see <linkHtml href="#s_0701">Drug Interactions (7.1)</linkHtml>]</content>. If concomitant use is unavoidable, warn patients against driving and other activities requiring complete mental alertness.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0600">
+               <id root="52f18936-f78b-463f-b4f5-756ad625e773"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">6 ADVERSE REACTIONS</title>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Most common adverse reactions (incidence ≥5%) are: somnolence, headache, and fatigue. (<linkHtml href="#s_0601">6.1</linkHtml>)</paragraph>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Vanda Pharmaceuticals Inc. at 1-844-438-5469 or FDA at 1-800-FDA-1088 or <content styleCode="italics">www.fda.gov/medwatch</content>.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0601">
+                     <id root="7e853e15-393c-4bc3-bb2c-6a246f2cb373"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.</paragraph>
+                        <paragraph>The safety of a single 85 mg or 170 mg dose of NEREUS was evaluated in adult subjects with a history of motion sickness in two randomized, double-blind, placebo-controlled trials, Study 1 and Study 2 <content styleCode="italics"> [see <linkHtml href="#s_1400">Clinical Studies (14)</linkHtml>]</content>. Additional safety data for the 170 mg dose of NEREUS were obtained from a randomized, double-blind, placebo-controlled trial, Study 3 (NCT03772340).</paragraph>
+                        <paragraph>Adverse reactions reported in at least 5% of subjects treated with a single NEREUS 85 mg or 170 mg dose and at a higher frequency than subjects who received placebo, are shown in <linkHtml href="#table1">Table 1</linkHtml>.</paragraph>
+                        <table ID="table1" width="700" styleCode="Noautorules">
+                           <caption>Table 1: Adverse Reactions<sup>a</sup> in Adult Subjects with a History of Motion Sickness in Single-Dose, Placebo-Controlled Studies Among Subjects Receiving NEREUS</caption>
+                           <col width="20%" align="left" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <col width="20%" align="center" valign="top"/>
+                           <tfoot>
+                              <tr>
+                                 <td colspan="5" align="left" valign="top">
+                                    <paragraph>
+                                       <sup>a</sup>Reported in at least 5% of subjects and at a higher frequency than placebo.</paragraph>
+                                    <paragraph>
+                                       <sup>b</sup>NEREUS was administered as a single 85 mg dose approximately 60 minutes prior to a boat trip and without food.</paragraph>
+                                    <paragraph>
+                                       <sup>c</sup>NEREUS was administered as a single 170 mg dose approximately 60 minutes prior to a boat trip and without food.</paragraph>
+                                 </td>
+                              </tr>
+                           </tfoot>
+                           <tbody>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule"/>
+                                 <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Studies 1 and 2</content>
+                                 </td>
+                                 <td colspan="2" styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Studies 1, 2, and 3</content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Lrule Rrule">
+                                    <content styleCode="bold">Adverse<br/>Reaction</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">NEREUS 85 mg<sup>b</sup>
+                                       <br/> N=227<br/>n (%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Placebo <br/>N=228 <br/>n (%)</content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">NEREUS 170 mg<sup>c</sup>
+                                       <br/> N=289<br/> n (%) </content>
+                                 </td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">
+                                    <content styleCode="bold">Placebo <br/>N=291 <br/> n (%) </content>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Somnolence</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">14 (6)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">9 (4)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">36 (12)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">17 (6)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Headache</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">16 (7)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">12 (5)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">28 (10)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">17 (6)</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">Fatigue</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">14 (6)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">6 (3)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">24 (8)</td>
+                                 <td styleCode="Toprule Botrule Lrule Rrule">6 (2)</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In a 12-month randomized, open-label study, 382 subjects with a history of motion sickness were instructed to administer NEREUS 85 mg (N=199) or 170 mg (N=183) as a single dose 60 minutes before a travel event of at least 60 minutes in duration expected to induce symptoms of motion sickness. Subjects were allowed to take up to 90 doses during the study. The median exposure was 18 doses and the majority of subjects (69%) did not take more than 30 doses. Most subjects (95%) did not take more than 8 doses in any 30-day period. Adverse reactions were consistent with those observed in Study 1, Study 2, and Study 3.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0700">
+               <id root="738a88a4-69da-4cd3-b0bf-680050fbdc90"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">7 DRUG INTERACTIONS</title>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Strong CYP3A4 Inhibitors: </content>May increase tradipitant exposure and the risk of adverse reactions. (<linkHtml href="#s_0701">7.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0701">
+                     <id root="f35b8775-4380-4290-a43f-609de741ec67"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">7.1 Effects of Other Drugs on NEREUS </title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Strong CYP3A4 Inhibitors</content>
+                        </paragraph>
+                        <paragraph>Tradipitant is a CYP3A4 substrate. Strong CYP3A4 inhibitors may increase tradipitant exposure, which may increase the risk of adverse reactions to NEREUS.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_0800">
+               <id root="ce86961c-691b-40d1-81bc-ce6a26ff19df"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20251231"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Lactation:</content> Monitor breastfed infants for somnolence. (<linkHtml href="#s_0802">8.2</linkHtml>)</paragraph>
+                        <br/>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="s_0801">
+                     <id root="bb0a1742-1d89-406f-8251-3ca816df3476"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.1 Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Available data from clinical trials with NEREUS use in pregnant women are insufficient to inform a drug-associated risk of major birth defects, miscarriage, or other adverse maternal or fetal outcomes.</paragraph>
+                        <paragraph>In animal reproduction studies, no adverse developmental effects were observed with oral administration of tradipitant to pregnant rats during organogenesis through lactation or to pregnant rabbits during organogenesis at doses up to approximately 3.3 and 1.4 times the exposure to tradipitant at the maximum recommended human dose (MRHD), respectively.</paragraph>
+                        <paragraph>The background risk of major birth defects and miscarriage for the indicated population(s) is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2 to 4% and 15 to 20%, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>In a combined fertility and embryo-fetal development study in pregnant rats, tradipitant was administered at oral doses of 10, 100, or 1000 mg/kg (approximately 1.4, 1.9, and 2.2 times the exposure to tradipitant at the MRHD) during the periods of mating and organogenesis, through gestation day 17. No adverse effects on maternal performance or embryo-fetal development were observed at any tested dose.</paragraph>
+                        <paragraph>In an embryo-fetal development study in pregnant rabbits, tradipitant was administered at oral doses 30, 175, or 1000 mg/kg/day (approximately 0.2, 0.4, and 1.4 times the exposure to tradipitant at the MRHD) during the period of organogenesis, from gestation day 7 to 19. No adverse effects on maternal performance or embryo-fetal development were observed at any tested dose.</paragraph>
+                        <paragraph>In a pre- and post-natal development study in pregnant rats, tradipitant was administered at oral doses of 100, 300, or 1000 mg/kg/day (approximately 2.3, 2.4, and 3.3 times the exposure to tradipitant at the MRHD) from gestation day 6 through lactation day 20. No maternal toxicity or developmental effects on the offspring were observed at any tested dose.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0802">
+                     <id root="99d1ea26-c8e6-4a0c-9816-cd2f13332d7c"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.2 Lactation</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Lactation studies have not been conducted to assess the presence of tradipitant or its metabolites in human milk, the effects on the breastfed infant, or the effects on milk production. Tradipitant is present in rat milk <content styleCode="italics">(see <linkHtml href="#data">Data</linkHtml>)</content>. When a drug is present in animal milk, it is likely that the drug will be present in human milk. Monitor breastfed infants for somnolence. The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for NEREUS and any potential adverse effects on the breastfed child from NEREUS or the underlying maternal condition.</paragraph>
+                        <paragraph ID="data">
+                           <content styleCode="underline">Data</content>
+                        </paragraph>
+                        <paragraph>Tradipitant was excreted in milk of lactating rats that received tradipitant at 100, 300, or 1000 mg/kg (2.3, 2.4, and 3.3 times the exposure to tradipitant at the MRHD) during pregnancy from gestation day 6 through lactation day 20. Serum concentrations of tradipitant and its major metabolites in pups were approximately 1% to 3% of maternal serum concentrations on lactation day 4 and up to 1% of those in the dams on lactation day 11.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0804">
+                     <id root="7b432713-5756-4c14-a108-a72e73f911a9"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of NEREUS have not been established in pediatric patients</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0805">
+                     <id root="b9d9b33b-3576-4a5c-b616-466825845aba"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the total number of NEREUS-treated subjects in controlled clinical studies for vomiting induced by motion, 69 (13%) were 65 years of age and older, while 4 (0.8%) were 75 years of age and older <content styleCode="italics"> [see <linkHtml href="#s_0601">Adverse Reactions (6.1)</linkHtml>
+									and <linkHtml href="#s_1400">Clinical Studies (14)</linkHtml>]</content>. No overall differences in safety or effectiveness were observed between subjects 65 years of age and older and younger adult subjects, and other reported clinical experience has not identified differences in responses between geriatric and younger adult subjects, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0806">
+                     <id root="6d445564-f8fc-431e-9cb1-479adea6114d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.6 Renal Impairment</title>
+                     <text>
+                        <paragraph>The recommended dosage of NEREUS in patients with mild and moderate renal impairment (estimated glomerular filtration rate (eGFR) of at least 30 mL/minute/1.73m<sup>2</sup>) is the same as in patients with normal renal function. Tradipitant has not been studied in subjects with severe renal impairment (eGFR ≤ 29 mL/min/1.73m<sup>2</sup>) <content styleCode="italics">[see <linkHtml href="#s_1203">Clinical Pharmacology (12.3)</linkHtml>]</content>. Avoid use of NEREUS in patients with severe renal impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_0807">
+                     <id root="7dcffe81-5653-44f5-b2fb-dd46b8681e44"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>Tradipitant has not been studied in patients with any degree of hepatic impairment (Child-Pugh Class A to C). Avoid NEREUS in patients with mild, moderate, or severe hepatic impairment.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1100">
+               <id root="0918faf7-b1e9-4ab7-bb1e-5bfbed0bc8a2"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">11 DESCRIPTION</title>
+               <text>
+                  <paragraph>NEREUS (tradipitant) is a substance P/neurokinin-1 (NK-1) receptor antagonist designated by the chemical name, as {2-[1-(3,5-Bistrifluoromethylbenzyl)-5-pyridin-4-yl-1H-[1,2,3]triazol-4- yl]-pyridin-3-yl}-(2-chlorophenyl)-methanone, with molecular formula C<sub>28</sub>H<sub>16</sub>C<sub>l</sub>F<sub>6</sub>N<sub>5</sub>O, and molecular weight 587.9. The chemical structure for tradipitant is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM01"/>
+                  </paragraph>
+                  <paragraph>Tradipitant is a white to off-white crystalline powder. It is practically insoluble in water, soluble in methanol, and slightly soluble in isopropyl alcohol and simulated gastric fluid.</paragraph>
+                  <paragraph>NEREUS is supplied as white opaque body capsules with “VANDA 85mg” printed in white on the black opaque cap for oral administration, each containing 85 mg tradipitant. Inactive ingredients are croscarmellose sodium, lactose monohydrate, magnesium stearate, microcrystalline cellulose, povidone, and sodium lauryl sulfate. The capsule contains FD&amp;C blue No 1, FD&amp;C red No 40, and FD&amp;C yellow No 6, gelatin, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+               <component>
+                  <observationMedia ID="MM01">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tradipitant-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1200">
+               <id root="16988d8d-1a22-4272-ba79-ebe8ba15f54d"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20251231"/>
+               <component>
+                  <section ID="s_1201">
+                     <id root="7e4a9db5-9534-4c70-aaae-6e17be23dee4"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.1 Mechanism of Action</title>
+                     <text>
+                        <paragraph>Tradipitant is a selective, high-affinity antagonist of human substance P/neurokinin 1 (NK1) receptors. Tradipitant does not have affinity for NK2 and NK3 receptors, serotonin (5-HT3), dopamine (D2), cholinergic, or histamine (H1) receptors.</paragraph>
+                        <paragraph>Tradipitant has been shown in animal models to inhibit drug induced emesis. Human Positron Emission Tomography (PET) studies with tradipitant have shown that tradipitant crosses the blood brain barrier and occupies brain NK-1 receptors.</paragraph>
+                        <paragraph>The exact mechanism by which tradipitant exerts its therapeutic effect is not fully established.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1202">
+                     <id root="7dd54fd2-ff6f-4870-ba7c-26733859028b"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Tradipitant inhibits the NK1 receptor with a K<sub>i</sub> of 0.062 ± 0.01 nM and inhibits substance P (SP) induced intracellular calcium mobilization with a K<sub>b</sub> of 0.095 ± 0.025 nM. The major metabolites of tradipitant (M2, M3, M4, and M8) showed a similar degree of binding at the NK-1 receptor.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">NK1 Receptor Occupancy</content>
+                        </paragraph>
+                        <paragraph>A clinical study using PET imaging demonstrated a dose- and concentration-dependent increase in frontal cortex NK-1 receptor occupancy of tradipitant. The maximum receptor occupancy was 93% after multiple administrations of 100 mg NEREUS.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Cardiac Electrophysiology</content>
+                        </paragraph>
+                        <paragraph>At the mean maximum concentration provided by the maximum recommended single dose (170 mg) administered without food, clinically significant QTc prolongation was not observed.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="s_1203">
+                     <id root="d3439d01-189f-4583-9f73-677876559c6d"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Absorption</content>
+                        </paragraph>
+                        <paragraph>Absolute oral bioavailability has not been studied in humans. Following a single dose of 85 mg tradipitant in healthy subjects under fasting conditions, tradipitant geometric mean C<sub>max</sub> was 84.7 ng/mL, AUC <sub>0-inf </sub> was 1839 ng*h/mL, and the median T<sub>max</sub> was 2.0 hours. Following a single dose of 170 mg tradipitant in healthy subjects under fasting conditions, tradipitant geometric mean C<sub>max</sub> was 112 ng/mL, AUC<sub>0-inf</sub> was 3,526 ng*h/mL, and the median T<sub>max</sub> was 1.50 hours.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Effect of food</content>
+                        </paragraph>
+                        <paragraph>Tradipitant C<sub>max</sub> and AUC<sub>0-inf</sub> increased approximately 4.7-fold and 2.4-fold, respectively, and T<sub>max</sub> was delayed by 2 hours, when 85 mg tradipitant was administered with a high-fat meal (800 to 1,000 calories, 50% fat) compared to fasted conditions in healthy subjects. After administration of 170 mg tradipitant with a high-fat meal, C<sub>max</sub> and AUC<sub>0-inf</sub> increased approximately 6.9-fold and 2.9-fold, respectively, and T<sub>max</sub> was delayed by 2.5 hours <content styleCode="italics"> [see <linkHtml href="#s_0201">Dosage and Administration (2.1)</linkHtml>]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Distribution</content>
+                        </paragraph>
+                        <paragraph>The apparent volume of distribution (Vd/F) of tradipitant is 1956 L in healthy subjects. Tradipitant plasma protein binding ranged from 96% to &gt;99% in vitro.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Elimination</content>
+                        </paragraph>
+                        <paragraph>The observed mean elimination half-life for tradipitant is approximately 34 hours and apparent oral clearance of tradipitant is 41.7 L/hour in healthy subjects.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Metabolism</content>
+                        </paragraph>
+                        <paragraph>Tradipitant is extensively metabolized; however, the metabolic pathways have not been fully characterized. In vitro findings suggest that non-CYP450-mediated processes and CYP enzymes (CYP3A4, CYP2C19, and to a lesser extent by CYP2C8) are involved in the metabolism of tradipitant. Tradipitant is also glucuronidated by UGT1A4 and UGT2B7.</paragraph>
+                        <paragraph>Four major metabolites (M2, M3, M4, and M8) were identified in plasma. Following a single dose of 85 mg tradipitant in healthy subjects under fasting conditions, the AUCs of M2, M3, M4, and M8 represent 40%, 33%, 43%, and 42% of the parent AUC, respectively.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Excretion</content>
+                        </paragraph>
+                        <paragraph>Following a single oral dose of radiolabeled tradipitant 25 mg, approximately 88% of the dose was recovered, with 80% of the dose in feces and 7% in urine. Unchanged tradipitant was minimal in feces and was not detected in urine.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Specific Populations </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Renal Impairment</content>
+                        </paragraph>
+                        <paragraph>Based on population pharmacokinetic analysis, no clinically significant difference was observed in pharmacokinetics of tradipitant between subjects with normal renal function and subjects with mild to moderate renal impairment (estimated glomerular filtration rate (eGFR) of at least 30 mL/minute/1.73m<sup>2</sup>). The impact of severe renal impairment (eGFR ≤29 mL/min/1.73m<sup>2</sup>) on the pharmacokinetics of tradipitant is unknown <content styleCode="italics"> [see <linkHtml href="#s_0806">Use in Specific Populations (8.6)</linkHtml>]</content>.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Patients with Hepatic Impairment</content>
+                        </paragraph>
+                        <paragraph>Tradipitant has not been studied in subjects with any degree of hepatic impairment (Child-Pugh Class A to C). The impact of mild, moderate, or severe hepatic impairment on the pharmacokinetics of tradipitant is unknown.<content styleCode="italics"> [see <linkHtml href="#s_0807">Use in Specific Populations (8.7)</linkHtml>]</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Drug Interaction Studies </content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Clinical Studies</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics underline">Midazolam (CYP3A4 Substrate)</content>
+                        </paragraph>
+                        <paragraph>Co-administration of tradipitant did not result in clinically significant change in pharmacokinetics of midazolam or 1-OH-midazolam.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics underline">Ethanol</content>
+                        </paragraph>
+                        <paragraph>Co-administration of tradipitant with ethanol (20% w/v alcohol in orange juice (240 mL for men and 200 mL women) increased tradipitant C<sub>max</sub> by 9% and AUC<sub>0-24s</sub> by 14%. This increase in exposure is not considered to be clinically relevant.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">In Vitro Studies</content>
+                        </paragraph>
+                        <paragraph>Based on in vitro studies, tradipitant does not inhibit CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19, CYP2D6, nor induces CYP1A2, CYP2B6, CYP2C8, CYP2C9, CYP2C19.</paragraph>
+                        <paragraph>Based on in vitro studies, tradipitant may inhibit and induce CYP3A4. However, an in vivo study showed no clinically significant differences in midazolam pharmacokinetics when co-administered with tradipitant.</paragraph>
+                        <paragraph>Tradipitant is a P-gp substrate and is not a substrate of BCRP, OATP1B1, OATP1B3, MATE1 or MATE2-K. In vitro, tradipitant did not inhibit P-gp, BCRP, OATP1B1, OATP1B3, OCT2, OAT1, OAT3, MATE1, and MATE2K at clinically relevant concentrations.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1300">
+               <id root="c46547df-1b6a-4f78-bd0f-7526fbbd01a1"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20251231"/>
+               <component>
+                  <section ID="s_1301">
+                     <id root="3b84f80d-7930-4f4f-b6d6-76d025cc3f93"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title mediaType="text/x-hl7-title+xml">13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Carcinogenesis</content>
+                        </paragraph>
+                        <paragraph>In transgenic rasH2 mice orally administered tradipitant (15, 50, or 1500 mg/kg/day) for 26 weeks, there was no increase in tumors.</paragraph>
+                        <paragraph>In rats orally administered tradipitant (10, 30, or 150 mg/kg/day) for at least 104 weeks, a dose- related increase in the incidence of thyroid follicular cell tumors (adenomas or adenomas combined with carcinomas), correlating with the findings of thyroid masses and cysts, was observed at all tested doses in both males (less than the exposure at the MRHD) and females (1.4 times the exposure to tradipitant at the MRHD). These findings in the thyroid are likely rodent specific, secondary to the induction of hepatic metabolic enzymes and not relevant to humans.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Mutagenesis</content>
+                        </paragraph>
+                        <paragraph>Tradipitant was not genotoxic in a battery of in vitro (Ames, chromosomal aberration in human peripheral blood lymphocytes) and in vivo (mouse micronucleus) assays.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">Impairment of Fertility </content>
+                        </paragraph>
+                        <paragraph>In a combined fertility and embryofetal development study, no effects were observed on fertility or reproductive performance in male or female rats administered oral doses of tradipitant at 10, 100, or 1000 mg/kg/day (up to 2.2 times the exposure to tradipitant at the MRHD) prior to and through mating, conception, and implantation.</paragraph>
+                     </text>
+                     <effectiveTime value="20251231"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1400">
+               <id root="cbc7e766-ca83-4a54-9044-46696105424a"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">14 CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>The efficacy of NEREUS for the prevention of vomiting induced by motion was evaluated in two randomized, double-blind, placebo-controlled studies: Study 1 (NCT04327661) and Study 2 (NCT05903924). In both studies, subjects were randomized 1:1:1 to receive a single dose of NEREUS 85 mg, 170 mg, or placebo approximately 60 minutes prior to a boat trip scheduled to last approximately 2 to 5 hours. Subjects with conditions causing chronic nausea were not eligible for enrollment. Subjects were instructed to take study medication without food. Use of anti-nausea or anti-emetic medications was not allowed during the studies. The efficacy of NEREUS for the treatment of established nausea and vomiting was not evaluated in the studies.</paragraph>
+                  <paragraph>There were 365 subjects in Study 1 and 316 in Study 2 with a mean age of 48 years (range from 18 to 75 years), 62% were female, 12% identified as Hispanic or Latino, 81% identified as White, 9% as Asian, 5% as Black or African American, and 4% identified as another racial group.</paragraph>
+                  <paragraph>The duration of the boat trip in these studies ranged from 2 to 4.4 hours. The peak wave height ranged from 0.3 to 2.5 meters.</paragraph>
+                  <paragraph>The primary endpoint in both studies was the percentage of subjects with vomiting during the boat trip. Vomiting was assessed every 30 minutes using a 1-item questionnaire completed by subjects indicating whether they had vomited in the last 30 minutes.</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Prevention of Vomiting Endpoint Results</content>
+                  </paragraph>
+                  <paragraph>The percentage of subjects with vomiting during a boat trip in Studies 1 and 2, is shown in <linkHtml href="#table2">Table 2</linkHtml>.</paragraph>
+                  <table ID="table2" width="750" styleCode="Noautorules">
+                     <caption>Table 2: Percentage of Subjects with Vomiting During a Boat Trip</caption>
+                     <col width="25%" align="left"/>
+                     <col width="25%" align="center"/>
+                     <col width="25%" align="center"/>
+                     <col width="25%" align="center"/>
+                     <tfoot>
+                        <tr>
+                           <td colspan="4" align="left" valign="top">
+                              <paragraph>CI = confidence interval</paragraph>
+                              <paragraph>
+                                 <sup>a</sup>NEREUS was administered as a single 85 mg or 170 mg dose approximately 60 minutes prior to a boat trip and without food.</paragraph>
+                              <paragraph>
+                                 <sup>b</sup>The difference (%) for NEREUS minus placebo is based on the unadjusted risk difference. The 95% CI is
+											calculated using the Wald method.</paragraph>
+                           </td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule"/>
+                           <td styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">NEREUS 85 mg<sup>a</sup>
+                              </content>
+                           </td>
+                           <td styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">NEREUS 170 mg<sup>a</sup>
+                              </content>
+                           </td>
+                           <td valign="middle" styleCode="Toprule Lrule Rrule">
+                              <content styleCode="bold">Placebo</content> </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule"/>
+                           <td styleCode="Botrule Lrule Rrule"/>
+                           <td styleCode="Botrule Lrule Rrule"/>
+                           <td valign="middle" styleCode="Botrule Lrule Rrule"/>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Toprule Botrule Lrule">
+                              <content styleCode="bold">Study 1</content>
+                           </td>
+                           <td styleCode="Toprule Botrule">N=123</td>
+                           <td styleCode="Toprule Botrule">N=120</td>
+                           <td styleCode="Toprule Botrule Rrule">N=122</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">Incidence of <br/>Vomiting (%)</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">20% </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">18% </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">44%</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule">Treatment</td>
+                           <td styleCode="Toprule Lrule Rrule">-25%</td>
+                           <td styleCode="Toprule Lrule Rrule">-26%</td>
+                           <td styleCode="Toprule Lrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Difference (95%<br/> CI)<sup>b</sup>
+                           </td>
+                           <td styleCode="Botrule Lrule Rrule">(-36%, -14%)</td>
+                           <td styleCode="Botrule Lrule Rrule">(-37%, -15%)</td>
+                           <td styleCode="Botrule Lrule Rrule"/>
+                        </tr>
+                        <tr valign="top">
+                           <td styleCode="Toprule Botrule Lrule">
+                              <content styleCode="bold">Study 2</content>
+                           </td>
+                           <td styleCode="Toprule Botrule">N=104</td>
+                           <td styleCode="Toprule Botrule">N=106</td>
+                           <td styleCode="Toprule Botrule Rrule">N=106</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Botrule Lrule Rrule">Incidence of <br/>Vomiting (%)</td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">18% </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">10% </td>
+                           <td styleCode="Toprule Botrule Lrule Rrule">38% </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Toprule Lrule Rrule">Treatment</td>
+                           <td styleCode="Toprule Lrule Rrule">-19%</td>
+                           <td styleCode="Toprule Lrule Rrule">-27%</td>
+                           <td styleCode="Toprule Lrule Rrule"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Botrule Lrule Rrule">Difference (95% <br/>CI)<sup>b</sup> </td>
+                           <td styleCode="Botrule Lrule Rrule">(-31%, -8%)</td>
+                           <td styleCode="Botrule Lrule Rrule">(-38%, -16%)</td>
+                           <td styleCode="Botrule Lrule Rrule"/>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>
+                     <content styleCode="italics">Prevention of Nausea Endpoint Results</content>
+                  </paragraph>
+                  <paragraph>In Study 1 and Study 2 during a boat trip, a secondary endpoint of worst nausea score, assessed over the preceding 30 minutes on a 5-point scale where 0 indicates no nausea and 4 indicates very severe nausea, was 2.4 for NEREUS 85 mg and 2.3 for NEREUS 170 mg compared to 2.4 for placebo in Study 1 and 2.5 for NEREUS 85 mg and 2.2 for NEREUS 170 mg compared to 2.4 for placebo in Study 2. These differences did not reach statistical significance in either study.</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S_1600">
+               <id root="6215ff27-696f-46ac-b6b8-df32d302be76"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>NEREUS (tradipitant) capsules 85 mg are supplied as white opaque body with “VANDA 85mg” printed in white on the black opaque cap and packaged as 36-count in an HDPE bottle with child-resistant cap and a 2-g desiccant pouch.</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>NDC 43068-585-02    Bottles of 36</item>
+                  </list>
+                  <paragraph>Store NEREUS capsules at controlled room temperature, 25°C (77°F); excursions permitted to 15°C to 30°C (59° - 86°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Protect NEREUS capsules from exposure to light and moisture.</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_1700">
+               <id root="97b34cdf-3cc1-4d91-ae2b-567a97adbb37"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title mediaType="text/x-hl7-title+xml">17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="underline">Effects on the Ability to Drive or Operate Machinery</content>
+                  </paragraph>
+                  <paragraph>Advise patients NEREUS may cause somnolence and/or fatigue and impair the mental and/or physical abilities required for driving a motor vehicle or operating heavy machinery and to avoid concomitant use of other drugs with NEREUS as it may increase this effect <content styleCode="italics">[see <linkHtml href="#s_0701">Drug Interactions (7.1)</linkHtml>]</content>. If concomitant use is unavoidable, warn patients against driving and other activities requiring complete mental alertness <content styleCode="italics">[see <linkHtml href="#s_0501">Warnings and Precautions (5.1)</linkHtml>]</content>.</paragraph>
+                  <paragraph>
+                     <content styleCode="underline">Administration Information</content>
+                  </paragraph>
+                  <paragraph>Advise the patient:</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Take NEREUS approximately 60 minutes before an event expected to cause vomiting induced by motion.</item>
+                     <item>The maximum dosage in a 24-hour period is a single dose of 85 or 170 mg.</item>
+                     <item>Administer NEREUS on an empty stomach, at least 1 hour prior to or 2 hours after a full meal <content styleCode="italics">[see <linkHtml href="#s_1203">Clinical Pharmacology (12.3)</linkHtml>]</content>.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="underline">Lactation</content>
+                  </paragraph>
+                  <paragraph>Advise breastfeeding women using NEREUS to monitor infants for somnolence and to seek medical care if they notice this sign <content styleCode="italics">[see <linkHtml href="#s_0802">Use in Specific Populations (8.2)</linkHtml>]</content>.</paragraph>
+                  <br/>
+                  <paragraph>Distributed By:<br/>
+							Vanda Pharmaceuticals Inc. <br/>Washington, D.C. 20037 USA</paragraph>
+               </text>
+               <effectiveTime value="20251231"/>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp01">
+               <id root="9eba60d3-4953-46be-bede-496a4e15decc"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 43068-585-02 - 85mg Tradipitant Capsules - Carton Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM02"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20251231"/>
+               <component>
+                  <observationMedia ID="MM02">
+                     <text>85mg Tradipitant Capsules - Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tradipitant-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="s_pdp02">
+               <id root="389edd7b-9d01-412d-8940-432f52b61f1a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title mediaType="text/x-hl7-title+xml">PRINCIPAL DISPLAY PANEL - NDC: 43068-585-02 - 85mg Tradipitant Capsules - Container Label</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="MM03"/>
+                  </paragraph>
+                  <br/>
+                  <br/>
+               </text>
+               <effectiveTime value="20251231"/>
+               <component>
+                  <observationMedia ID="MM03">
+                     <text>85mg Tradipitant Capsules - Container Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tradipitant-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="66cf008c-1361-4fd1-8e5c-3e95981f8a76"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>edex<sup>®</sup>
+      <br/> (alprostadil for injection)</title>
+   <effectiveTime value="20240327"/>
+   <setId root="e8b8ec8d-1318-43e4-a182-446e9f9579de"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="119185057" root="1.3.6.1.4.1.519.1"/>
+            <name>Endo USA, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization/>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="8b0e61a4-d731-4661-8f72-d1c0a616ebe2"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260519"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52244-010" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Edex</name>
+                        <formCode code="C42957" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>alprostadil</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5TD010360" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALPROSTADIL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F5TD010360" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALPROSTADIL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z1LH97KTRM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALFADEX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="J2B2A4N98G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52244-010-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43183" displayName="CARTRIDGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="2"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="52244-010-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120415"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52244-010-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43183" displayName="CARTRIDGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="6"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="52244-010-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120415"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020649" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120415"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38230" displayName="INTRACAVERNOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52244-020" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Edex</name>
+                        <formCode code="C42957" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>alprostadil</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="20"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5TD010360" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALPROSTADIL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F5TD010360" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALPROSTADIL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z1LH97KTRM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALFADEX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="J2B2A4N98G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52244-020-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43183" displayName="CARTRIDGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="2"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="52244-020-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120115"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52244-020-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43183" displayName="CARTRIDGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="6"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="52244-020-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120115"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020649" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120115"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38230" displayName="INTRACAVERNOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="52244-040" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Edex</name>
+                        <formCode code="C42957" displayName="INJECTION, POWDER, LYOPHILIZED, FOR SOLUTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>alprostadil</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="ug" value="40"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="F5TD010360" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALPROSTADIL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="F5TD010360" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ALPROSTADIL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Z1LH97KTRM" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ALFADEX</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="J2B2A4N98G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52244-040-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43183" displayName="CARTRIDGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="2"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="52244-040-02" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120315"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="52244-040-01" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43183" displayName="CARTRIDGE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator unit="1" value="6"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="52244-040-06" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20120315"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA020649" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" displayName="NDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20120315"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38230" displayName="INTRACAVERNOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e0d356b-c121-4cfe-8b31-8f622200c962">
+               <id root="213d2a78-44ce-44ad-9cda-26a2a19c9aa6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">For Intracavernous Use Only </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sterile Powder and Diluent<br/>(sterile 0.9% sodium chloride) in Cartridges</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220711"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a0a449d9-efa2-44ac-ade8-a5f4b58c6c60">
+               <id root="e02ca213-9ad8-4ef0-9095-d7135c47ecd3"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>edex<sup>®</sup> (alprostadil for injection) is a sterile, pyrogen-free powder containing alprostadil in an alfadex (α-cyclodextrin) inclusion complex. Alprostadil is an endogenous substance known as prostaglandin E<sub>1</sub> (PGE<sub>1</sub>). edex<sup>®</sup> is supplied in single-dose, dual-chamber cartridges. </paragraph>
+                  <paragraph>edex<sup>®</sup> is lyophilized in single-dose, dual-chamber cartridges intended for use with the reusable edex<sup>®</sup> injection device. One chamber of the cartridge contains alprostadil, alfadex and lactose as a sterile, pyrogen-free powder. The other chamber contains 1.075 mL of sterile 0.9% sodium chloride. The edex<sup>®</sup> cartridges are supplied in three strengths: 10-mcg cartridge (10.75 mcg alprostadil, 347.55 mcg α-cyclodextrin, 51.06 mg lactose); 20-mcg cartridge (21.5 mcg alprostadil, 695.2 mcg α-cyclodextrin, 51.06 mg lactose); 40-mcg cartridge (43 mcg alprostadil, 1,390.3 mcg α-cyclodextrin, 51.06 mg lactose). The edex<sup>®</sup> injection device is used to reconstitute the sterile powder in one chamber with the sterile 0.9% sodium chloride in the other chamber. After reconstitution, the edex<sup>®</sup> injection device is used to administer the intracavernous injection of alprostadil.</paragraph>
+                  <paragraph>The chemical name for alprostadil is (1R,2R,3R)-3-Hydroxy-2-[(E)-(3S)-3-hydroxy-1-octenyl]-5-oxocyclopentane heptanoic acid. The empirical formula is C<sub>20</sub>H<sub>34</sub>O<sub>5</sub> and the molecular weight is 354.49. The chemical structure is: </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>The α-cyclodextrin inclusion complex improves the water solubility of alprostadil. The empirical formula of α-cyclodextrin is C<sub>36</sub>H<sub>60</sub>O<sub>30</sub> and the molecular weight is 972.85.</paragraph>
+                  <paragraph>The chemical structure is:</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>Alprostadil alfadex is a white, odorless, hygroscopic powder. It is freely soluble in water and practically insoluble in ethanol, ethyl acetate and ether. After reconstitution, the active ingredient, alprostadil, immediately dissociates from the α-cyclodextrin inclusion complex. The reconstituted solution is clear and colorless and has a pH between 4.0 and 8.0. When the single-dose, dual-chamber cartridge containing either 10.75, 21.5, or 43 mcg of alprostadil is placed into the edex<sup>®</sup> injection device and reconstituted, the deliverable amount of alprostadil in each milliliter is 10, 20 or 40 mcg, respectively.</paragraph>
+               </text>
+               <effectiveTime value="20220711"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>alprostadil chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>α-cyclodextrin chemical structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3e9d7248-5257-4401-b48b-a6465bfaf256">
+               <id root="26a9afe1-4dc7-4afa-b838-4db8b0f789fb"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Alprostadil (PGE<sub>1</sub>) is one of the prostaglandins, a family of naturally occurring acidic lipids with various pharmacological effects. Endogenous PGE<sub>1</sub> is derived from dihomo-gamma-linolenic acid, a fatty acid found within the phospholipids of cellular membranes. As an endogenous substance, PGE<sub>1</sub> exerts its biological effects either directly or indirectly by regulating and modifying the synthesis and effects of other hormones and mediators.</paragraph>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <section ID="LINK_e9d42578-4a76-4b87-95b1-e5d1b0f5462b">
+                     <id root="309d0362-58da-4595-90bc-cd87444c109d"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Mode of Action</content>
+                        </paragraph>
+                        <paragraph>Alprostadil is a smooth muscle relaxant. Precontracted isolated preparations of the human corpus cavernosum, corpus spongiosum and cavernous artery are relaxed by alprostadil. Alprostadil has been shown to bind to specific receptors in human penile tissue. Two types of receptors that differ in their PGE<sub>1</sub> binding affinity have been identified. The binding of alprostadil to its receptors is accompanied by an increase in intracellular cAMP levels. Human cavernous smooth muscle cells respond to alprostadil by releasing intracellular calcium into the surrounding medium. Smooth muscle relaxation is associated with a reduction of the cytoplasmic free calcium concentration. Alprostadil also attenuates presynaptic noradrenaline release in the corpus cavernosum which is essential for the maintenance of a flaccid and non-erect penis.</paragraph>
+                        <paragraph>Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernous arteries. This leads to expansion of lacunar spaces and entrapment of blood by compressing the venules against the tunica albuginea, a process referred to as the corporal veno-occlusive mechanism.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_5cb807cc-067d-47a5-adba-315b1af2fb53">
+                     <id root="3140bc4e-66ac-46b7-abb4-6a0f88fcb1ba"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pharmacokinetics</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                     <component>
+                        <section ID="LINK_92e82fe4-45a9-410b-b8ad-20e0c137d828">
+                           <id root="4ed2af4f-196c-4590-8c11-2ec7a1f78e2e"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Alpha-Cyclodextrin</content>
+                           </title>
+                           <text>
+                              <paragraph>After reconstitution, PGE<sub>1</sub> immediately dissociates from the α-cyclodextrin inclusion complex; the in vivo disposition of both components occurs independently after administration. After intravenous infusion of radiolabeled α-cyclodextrin to healthy volunteers, the radiolabeled components were rapidly eliminated within 24-hours, urine accounting for 81% to 83% of radioactivity and feces for 0.1%. There was no evidence of significant accumulation of radiolabeled α-cyclodextrin in the body even after 7 days of repeated intravenous injection. After intracavernous administration in monkeys, radiolabeled α-cyclodextrin was rapidly distributed from the injection site with less than 0.1% of the dose remaining in the penis 1 hour after administration. There was no evidence of tissue retention of radiolabeled α-cyclodextrin in monkeys.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_95a24948-ab5d-4298-a8b5-f70877176117">
+                           <id root="ba6f5dde-dc7a-40ff-be23-f0b6d8ed5feb"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>
+                              <content styleCode="bold">Alprostadil</content>
+                           </title>
+                           <effectiveTime value="20220711"/>
+                           <component>
+                              <section ID="LINK_70a1cfb8-044f-4b2f-acc0-14dbc2c99c90">
+                                 <id root="edab70e9-b3dc-46dc-976a-0845d9bed96d"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Absorption</content>
+                                    </paragraph>
+                                    <paragraph>After intracavernous injection of 20 mcg of edex<sup>®</sup> in 24 patients with erectile dysfunction, mean systemic plasma concentrations of PGE<sub>1</sub> increased from baseline of 0.8 ± 0.6 pg/mL to a peak (C<sub>max</sub>) of 16.8 ± 18.9 pg/mL (corrected for baseline) within 2 to 5 minutes and dropped to endogenous plasma levels within 2 hours (Table 1). The absolute bioavailability of alprostadil estimated from systemic exposure was about 98% as compared to the same dose given by a short-term intravenous infusion. </paragraph>
+                                 </text>
+                                 <effectiveTime value="20220711"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="LINK_f5338bf1-11d6-416c-8d9b-f7f7c16a8206">
+                                 <id root="47980ec1-be24-4e3a-b966-df0b57bb25c9"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Distribution</content>
+                                    </paragraph>
+                                    <paragraph>The volume of distribution for PGE<sub>1</sub> was not estimated. Approximately 93% of PGE<sub>1</sub> found in plasma is protein-bound.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220711"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="LINK_51568602-1e8f-4371-b263-88739491771c">
+                                 <id root="817e474c-1a1e-46e7-a4fe-36e6a1045fbb"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Metabolism</content>
+                                    </paragraph>
+                                    <paragraph>PGE<sub>1</sub> is metabolized in the corpus cavernosum after intracavernous administration. PGE<sub>1</sub> entering the systemic circulation is rapidly and extensively metabolized in the lungs with a first-pass pulmonary elimination of 60 to 90% of PGE<sub>1</sub>. Enzymatic oxidation of the C15-hydroxy group followed by reduction of the C13, 14-double bond produces the primary metabolites, 15-keto-PGE<sub>1</sub>, 15-keto-PGE<sub>0</sub>, and PGE<sub>0</sub>. 15-keto-PGE<sub>1</sub> has only been detected in vitro in homogenized lung preparations, whereas 15-keto-PGE<sub>0</sub> and PGE<sub>0</sub> have been measured in plasma. Unlike the 15-keto metabolites which are less pharmacologically active than the parent compound, PGE<sub>0</sub> is similar in potency to PGE<sub>1</sub> in vitro using isolated animal organs.</paragraph>
+                                    <paragraph>After intracavernous injection of 20 mcg of edex<sup>®</sup> to 24 patients with erectile dysfunction, mean systemic plasma 15-keto-PGE<sub>0</sub> levels increased within 7 minutes from endogenous levels of 12.9 ± 11.8 pg/mL to a C<sub>max</sub> of 421 ± 337 pg/mL (corrected for baseline) followed by a decrease to baseline levels in several hours. Mean systemic plasma PGE<sub>0</sub> levels increased within 20 minutes from endogenous levels of 0.6 ± 0.5 pg/mL to a C<sub>max</sub> of 3.9 ± 2.3 pg/mL (corrected for baseline) followed by a decrease to baseline levels in several hours.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220711"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section ID="LINK_e2e51dac-8b93-4609-a292-cc6bebb7235f">
+                                 <id root="77c4aaa3-fde7-4cd1-871d-1f5f64f84570"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Excretion</content>
+                                    </paragraph>
+                                    <paragraph>After further degradation of PGE<sub>1</sub> by beta and omega oxidation, the main metabolites are excreted primarily in urine (88%) and feces (12%) over 72 hours, and total excretion is essentially complete (92%) within 24 hours after administration. No unchanged PGE<sub>1</sub> has been found in the urine and there is no evidence of tissue retention of PGE<sub>1</sub> and its metabolites. After intracavernous injection of 20 mcg of edex<sup>®</sup> in patients with erectile dysfunction, the terminal half-lives (t<sub>½</sub>) of 15-keto-PGE<sub>0</sub> and PGE<sub>0</sub> were calculated to be 40.9 ± 16.5 minutes and 63.2 ± 31.1 minutes, respectively. The terminal half-life of PGE<sub>1</sub> in healthy volunteers was calculated to be around 9 to 11 minutes which is consistent with that reported in the literature (8 minutes).</paragraph>
+                                    <paragraph>Mean total body clearance of PGE<sub>1</sub> in patients with erectile dysfunction was calculated to be around 115 L/min after an intravenous infusion of 20 mcg alprostadil. The above value exceeded cardiac output indicating extensive and rapid elimination of PGE<sub>1</sub> in the lungs and/or blood.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20220711"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_379d5283-2457-4f7e-bf05-84f45906f583">
+                     <id root="1eb03786-7d6b-4d1d-8fa1-c3c508e78b04"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Special Populations</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240327"/>
+                     <component>
+                        <section ID="LINK_5610088d-c9c6-411a-a416-bc5b81a7a6ae">
+                           <id root="02fe7660-1da7-4ea7-8887-6b59789f6469"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Geriatric:</content>  The potential effect of age on the pharmacokinetics of alprostadil has not been formally evaluated.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_171dd1be-2297-49f2-868b-dbd790a1209b">
+                           <id root="b5160afb-d8c2-4401-af1b-c9cc7ad2c47c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Race:</content>  The potential influence of race on the pharmacokinetics of alprostadil has not been formally evaluated.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_69788a73-aa01-4664-a1af-16d0077728f2">
+                           <id root="faf9d000-0ca9-4fc1-9f5d-74895f4f3182"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Hepatic Insufficiency</content>
+                              </paragraph>
+                              <paragraph>In a study in symptomatic subjects with impaired hepatic function and age/weight/sex-matched healthy volunteers, 120 mcg of alprostadil was administered by intravenous infusion over 2 hours. The mean C<sub>max</sub> value of PGE<sub>1</sub> in hepatically impaired patients was 96% higher than in healthy volunteers. Mean C<sub>max</sub> values of both 15-keto-PGE<sub>0</sub> and PGE<sub>0</sub> increased 65% as compared to those in healthy volunteers. The terminal half-lives of PGE<sub>1</sub>, PGE<sub>0</sub>, and 15-keto-PGE<sub>0</sub> and plasma albumin levels were similar in patients compared to healthy volunteers. Due to the fact that PGE<sub>1</sub> is primarily metabolized in the lung, the observed differences between hepatically impaired subjects and healthy volunteers were not anticipated; the mechanism responsible for the observed discrepancies is not known.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_cb1b1b35-3597-4b37-91c6-4add4dddf22f">
+                           <id root="7cfa52c2-31f6-429a-81d6-f0275a934a38"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Renal Impairment</content>
+                              </paragraph>
+                              <paragraph>In a study in symptomatic subjects with end-stage renal disease undergoing hemodialysis and age/weight/sex-matched healthy volunteers, 120 mcg of alprostadil was administered by intravenous infusion over 2 hours. The mean C<sub>max</sub> value of PGE<sub>1</sub> in renally impaired patients was 37% lower as compared to that in healthy volunteers whereas mean C<sub>max</sub> values of 15-keto-PGE<sub>0</sub> and PGE<sub>0</sub> in these patients increased 104% and 145%, respectively, as compared to those in healthy volunteers. The terminal half-lives of PGE<sub>1</sub>, PGE<sub>0, </sub>and 15-keto-PGE<sub>0</sub> and plasma albumin levels were similar in these patients vs healthy volunteers. The mechanism responsible for the observed discrepancies between renally impaired subjects and healthy volunteers is not known.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_89ec50f9-294c-4a88-a337-a68f44d78053">
+                           <id root="9e311aae-90ea-4e75-9321-5fda2ee7fdb3"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Pulmonary Disease</content>
+                              </paragraph>
+                              <paragraph>The pulmonary extraction of alprostadil following intravascular administration was reduced by 15% (66 ± 3.6% vs 78 ± 2.3%) in patients with acute respiratory distress syndrome (ARDS) compared with a group of patients with normal respiratory function who were undergoing cardiopulmonary bypass surgery. Pulmonary clearance was found to vary as a function of cardiac output and pulmonary intrinsic clearance in a group of 14 patients with ARDS or at risk of developing ARDS following trauma or sepsis. In this study, the pulmonary extraction efficiency of alprostadil ranged from subnormal (11%) to normal (90%), with an overall mean of 67%.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_ecf2f199-bd91-415e-b400-9317839276d1">
+                           <id root="ed2eca96-cfea-4862-b8aa-7821034cb4ba"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Drug-Drug Interactions</content>
+                              </paragraph>
+                              <paragraph>In clinical trials, concomitant use of agents such as antihypertensive drugs, diuretics, antidiabetic agents (including insulin), or nonsteroidal anti-inflammatory drugs had no apparent effect on the efficacy or safety of edex<sup>®</sup>.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_b21eb6c5-3239-46b5-a2f0-281d6caebde5">
+                           <id root="542eadb4-92d1-4e1b-a040-ce6fa378e9ab"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Aspirin, Warfarin, Digoxin, Glyburide</content>
+                              </paragraph>
+                              <paragraph>Several drug-drug interaction studies have been conducted with alprostadil alone or in combination with aspirin, digoxin or warfarin in healthy volunteers and with glyburide in subjects with stable, non-insulin dependent diabetes mellitus. The pharmacokinetic profiles of aspirin, warfarin, digoxin, and glyburide were not affected by concomitant administration of alprostadil. There were no clinically important changes or trends in pharmacodynamic parameters for these drugs.</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_bb9da9be-5110-4d76-9ea1-d49b0f533b9b">
+                           <id root="d964749d-6b7e-4a1e-9d29-fa7adf7b6aa2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Heparin </content>
+                              </paragraph>
+                              <paragraph>The pharmacokinetic and pharmacodynamic interaction between alprostadil intravenous infusion, 90 mcg over 3 hours, and heparin (5,000 IU) was evaluated in 12 healthy volunteers. Alprostadil had a significant effect on the pharmacodynamics of heparin resulting in a 140% increase in partial thromboplastin time and a 120% increase in thrombin time. Therefore, caution should be exercised with concomitant administration of heparin and edex<sup>®</sup>.</paragraph>
+                              <table>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <thead>
+                                    <tr>
+                                       <th valign="top" styleCode=" Botrule Toprule Lrule Rrule" colspan="9">Table 1 </th>
+                                    </tr>
+                                    <tr>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> Study No.</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> Participants</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> Route and Dose Administration</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> Drug/ Metabolites</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> C<sub>max</sub>
+                                          <sup>1</sup> (pg/mL)</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> T<sub>max</sub> (min)</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> AUC<sup>2</sup> (pg∙min/mL)</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> Total Clearance<sup>3</sup> (L/min)</th>
+                                       <th align="center" valign="top" styleCode=" Botrule Toprule Lrule Rrule"> t<sub>1/2</sub>
+                                          <sup>4</sup> (min) </th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="top" rowspan="6" styleCode=" Lrule"> PHAKI 848</td>
+                                       <td align="center" valign="top" rowspan="6" styleCode=" Lrule Rrule"> Erectile Dysfunction Patients</td>
+                                       <td align="center" valign="top" rowspan="2" styleCode=" Rrule"> 20 mcg/0.5 hr IV</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> PGE<sub>1</sub>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 7.09 ± 3.12</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 25.5 ± 4.8</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 174 ± 101</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 115</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 15-keto- PGE<sub>0</sub>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 471 ± 88</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 30.0 ± 1.2</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 13705 ± 2559</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 15.6 ± 5.6</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode=" Rrule"> </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> PGE<sub>0</sub>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 7.10 ± 2.19</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 32.2 ± 2.4</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 380 ± 115</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 39.8 ± 26.3</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 20 mcg/IC</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> PGE<sub>1</sub>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 16.8 ± 18.9</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 4.8 ± 3.3</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 173 ± 115</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode=" Rrule"> </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 15-keto- PGE<sub>0</sub>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 421 ± 337</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 9.7 ± 7.7</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 10500 ± 4101</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 40.9 ± 16.5</td>
+                                    </tr>
+                                    <tr>
+                                       <td align="center" valign="top" styleCode=" Rrule"> </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> PGE<sub>0</sub>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 3.9 ± 2.3</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 20.3 ± 12.6</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 252 ± 134</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> ---</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 63.2 ± 31.1</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" colspan="9" styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>
+                                             <sup>1</sup> Baseline-corrected data.</paragraph>
+                                          <paragraph>
+                                             <sup>2</sup> AUC<sub>0-150</sub> for intravenous (IV) infusion and AUC<sub>0-120</sub> for intracavernous (IC) injection.</paragraph>
+                                          <paragraph>
+                                             <sup>3</sup> Calculated as IV dose/AUC<sub>0-150</sub> (IV).</paragraph>
+                                          <paragraph>
+                                             <sup>4</sup> Apparent terminal half-life</paragraph>
+             </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <br/>
+                           </text>
+                           <effectiveTime value="20240327"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_16f5d27a-f601-4f53-99b8-b5717a48fb25">
+                     <id root="db187c3a-04fb-446a-a351-b5c6e9f96de5"/>
+                     <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Clinical Studies</content>
+                        </paragraph>
+                        <paragraph>In two studies (protocol numbers KU-620-001 [Study 1] and KU-620-002 [Study 2]), the safety and efficacy of edex<sup>®</sup> were evaluated in 347 men with a diagnosis of erectile dysfunction due to vasculogenic, neurogenic and/or mixed etiology. Each study consisted of three phases: an in-office dose-titration phase, a two-week double-blind cross-over phase at home, and an open-label at home treatment phase that lasted for 12 months (Study 1) or six months (Study 2).</paragraph>
+                        <paragraph>During the dose-titration phase, individualized optimum doses of edex<sup>®</sup> were established. Erectile response was measured by the Buckling Test to assess axial penile rigidity. A positive Buckling Test was achieved if the erect penis was able to support an axial load of 1.0 kg without buckling of the penile shaft. During the subsequent two-week double-blind, cross-over phase, patients self-injected edex<sup>®</sup> or placebo at home. Thereafter, patients continued to perform self-injections of open-label edex<sup>®</sup> for six or 12 months, and the occurrence of an erection sufficient for sexual intercourse was documented following each injection.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_bf3ede4c-b8d6-4929-9f6c-3d68b01eb952">
+                     <id root="62d2eff8-06e7-47a5-8480-42cb7567eb98"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Results</content>
+                        </paragraph>
+                        <paragraph>Study 1: One hundred fourteen men with a mean age of 53 years (range 22 to 65 years) were enrolled in the first phase. The mean optimum dose was 13.8 mcg (range 1 to 20 mcg). Seventy-six percent (87/114) of patients had an erection with a positive penile Buckling Test. Among the 71% (81/114) of patients who entered the placebo-controlled phase, an erection sufficient for sexual intercourse was achieved in 74% (60/81) of patients following edex<sup>®</sup> injection compared to 7% (6/81) of patients following placebo injection. The mean duration of erection following edex<sup>®</sup> was 56.9 minutes compared to 4.0 minutes following placebo. Among the 65% (74/114) of patients who entered the open-label treatment phase, the mean rate of response with an erection sufficient for sexual intercourse was 88.9% through 12 months. The average dose of edex<sup>®</sup> remained essentially unchanged throughout the study duration.</paragraph>
+                        <paragraph>Study 2: Two hundred thirty-three men with a mean age of 59.8 years (range 23 to 74 years) were enrolled in the first phase. The mean optimum dose was 25.9 mcg (range 1 to 40 mcg). Seventy-three percent (171/233) of patients had an erection with a positive penile Buckling Test. Among the 60% (141/233) of patients who entered the placebo-controlled phase, an erection sufficient for sexual intercourse was achieved in 73% (103/141) of patients following edex<sup>®</sup> injection compared to 13% (18/141) of patients following placebo injection. The mean duration of erection following edex<sup>®</sup> was 59.0 minutes compared to 7.6 minutes following placebo. Among the 60% (139/233) of patients who entered the open-label treatment phase, the mean rate of response with an erection sufficient for intercourse was 85.3% through six months. The average dose of edex<sup>®</sup> remained essentially unchanged throughout the study duration.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7d0c1e74-8ce7-4f9d-b512-5509c0a12bb8">
+               <id root="4b997467-94e4-4643-935c-b73be5c8f426"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>edex<sup>®</sup> is indicated for the treatment of erectile dysfunction due to neurogenic, vasculogenic, psychogenic, or mixed etiology.</paragraph>
+               </text>
+               <effectiveTime value="20220711"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_23a6a984-e226-477c-9da3-61cc01acc094">
+               <id root="afc42512-829c-4121-9069-4beb6a8da13b"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>edex<content styleCode="bold">
+                        <sup>®</sup>
+                     </content>should not be used:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>in men who have conditions that predispose them to priapism, such as sickle cell anemia or sickle cell trait, multiple myeloma, or leukemia <content styleCode="italics">(see <linkHtml href="#www.splportal.comLINK_418bf9a2-b013-4898-af4a-8a8182031d12">WARNINGS</linkHtml>)</content>.</item>
+                     <item>for the treatment of erectile dysfunction in men with fibrotic conditions of the penis, such as cavernosal fibrosis or Peyronie’s disease <content styleCode="italics">(see <linkHtml href="#www.splportal.comLINK_71076247-0be7-4ec2-ab0a-58146531d548">PRECAUTIONS</linkHtml>)</content>.  </item>
+                     <item> in men with penile implants</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240327"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_418bf9a2-b013-4898-af4a-8a8182031d12">
+               <id root="6b48eba7-9a14-42ae-ae5f-7b80e5e4826d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Prolonged erections greater than four hours in duration occurred in 4% of all patients treated up to 24 months. The incidence of priapism (erections greater than 6 hours in duration) was &lt;1% with long-term use for up to 24 months. In the majority of cases, spontaneous detumescence occurred. Pharmacologic intervention and/or aspiration of blood from the corpora was necessary in 1.6% of 311 patients with prolonged erections/priapism. To minimize the chances of prolonged erection or priapism, edex<sup>®</sup> should be titrated slowly to the lowest effective dose (see<linkHtml href="#LINK_8043a205-6e26-4a61-bf4f-0c97fdc994e5"> DOSAGE AND ADMINISTRATION</linkHtml>). The patient must be instructed to immediately report to his prescribing physician or, if unavailable, to seek immediate medical assistance for any erection that persists longer than six hours. If priapism is not treated immediately, penile tissue damage and permanent loss of potency may result.</paragraph>
+               </text>
+               <effectiveTime value="20220711"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_71076247-0be7-4ec2-ab0a-58146531d548">
+               <id root="98e922d1-e581-4de1-92b5-8917249060e0"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <section ID="LINK_a25b663b-bb28-4fa7-b25a-956962ec989f">
+                     <id root="6b2d5899-dc38-46fb-8986-bf200a78fd61"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">General</content>
+                        </paragraph>
+                        <paragraph>1) Intracavernous injections of edex<sup>®</sup> can lead to increased peripheral blood levels of PGE<sub>1</sub> and its metabolites, especially in those patients with significant corpora cavernosa venous leakage. Increased peripheral blood levels of PGE<sub>1</sub> and its metabolites may lead to hypotension and/or dizziness.</paragraph>
+                        <paragraph>2) Regular follow-up of patients, with careful examination of the penis at the start of therapy and at regular intervals (e.g. 3 months), is strongly recommended to identify any penile changes. The overall incidence of penile fibrosis, including Peyronie's disease, reported in clinical studies up to 24 months with edex<sup>®</sup> was 7.8%. Treatment with edex<sup>®</sup> should be discontinued in patients who develop penile angulation, cavernosal fibrosis, or Peyronie's disease. Treatment can be resumed if the penile abnormality subsides.</paragraph>
+                        <paragraph>3) The safety and efficacy of combinations of edex<sup>®</sup> and other vasoactive agents have not been systematically studied. Therefore, the use of such combinations is not recommended.</paragraph>
+                        <paragraph>4) After injection of the edex<sup>®</sup> solution, compression of the injection site for five minutes, or until bleeding stops, is necessary. Patients on anticoagulants, such as warfarin or heparin, may have increased propensity for bleeding after intracavernous injection.</paragraph>
+                        <paragraph>5) Underlying treatable medical causes of erectile dysfunction should be diagnosed and treated prior to initiation of therapy with edex<sup>®</sup>.</paragraph>
+                        <paragraph>6) edex<sup>®</sup> uses a superfine (29 gauge) needle. As with all superfine needles, the possibility of needle breakage exists. Careful instruction in proper patient handling and injection techniques may minimize the potential for needle breakage.</paragraph>
+                        <paragraph>7)<content styleCode="bold"> The patient should be instructed not to reuse or to share needles or cartridges. As with all prescription medicines, the patient should not allow anyone else to use his medicine.</content>
+                        </paragraph>
+                        <paragraph>8) <content styleCode="italics">Cardiovascular Risk Related to Underlying Medical Conditions</content>
+                        </paragraph>
+                        <paragraph>There is a potential for cardiac risk of sexual activity in patients with preexisting cardiovascular disease. Therefore, treatments for erectile dysfunction, including edex<sup>®</sup>, generally should not be used in men for whom sexual activity is inadvisable because of their underlying cardiovascular status.  In addition, the evaluation of erectile dysfunction should include a determination of potential underlying causes and the identification of appropriate treatment following a complete medical assessment.</paragraph>
+                     </text>
+                     <effectiveTime value="20240327"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_44bdc252-350c-4718-9efb-fe9ec0d33b14">
+                     <id root="0ade014e-87b4-4b78-bb67-43f1eec411fc"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Drug Interactions</content>
+                        </paragraph>
+                        <paragraph>The pharmacodynamic interaction between heparin (5,000 units) and alprostadil intravenous infusion (90 mcg over 3 hours) was investigated. The results indicate significant changes in partial thromboplastin time (140% increase) and thrombin time (120% increase). Therefore, caution should be exercised with concomitant administration of heparin and edex<sup>®</sup>.</paragraph>
+                        <paragraph>(Also, see<content styleCode="italics">
+                              <linkHtml href="#LINK_ecf2f199-bd91-415e-b400-9317839276d1"> Drug-Drug Interactions </linkHtml>
+                           </content>in<content styleCode="italics">
+                              <linkHtml href="#LINK_ecf2f199-bd91-415e-b400-9317839276d1"> CLINICAL PHARMACOLOGY, Pharmacokinetics</linkHtml>
+                           </content>.)</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_53681fec-2fec-4720-8485-03afa36ae89c">
+                     <id root="9e9d53e0-d6c2-494b-9b1c-b686336dddcd"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Information for Patients</content>
+                        </paragraph>
+                        <paragraph>To ensure safe and effective use of edex<sup>®</sup>, the patient should be thoroughly instructed and trained in the self-injection technique before he begins intracavernous treatment with edex<sup>®</sup> at home. The desirable dose should be established in the physician's office. The instructions for preparation of the edex<sup>®</sup> solution should be carefully followed. The reconstituted solution may initially appear cloudy due to small air bubbles. Do not use the solution if it remains cloudy, contains precipitates, or is discolored. The reconstituted solution should be gently mixed, not shaken. A patient information pamphlet is included in each package of edex<sup>®</sup> cartridges.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">edex<sup>®</sup> should be used immediately after reconstitution. The patient should follow the instructions in the patient information pamphlet to limit the possibility of bacterial contamination. The reconstituted cartridge is designed for one use only and should be discarded after use. </content>The edex<sup>®</sup> cartridge contains a solid layer or Iyophilized cake of dry white powder approximately 3/8" in thickness. A normal cake may appear cracked or crumbled. If the cartridge is damaged, the cake may shrink in size. Do not use the cartridge if it appears damaged or the cake is substantially reduced in size.</paragraph>
+                        <paragraph>If the dosage prescribed is less than 1 mL of edex<sup>®</sup> solution, excess solution will be expelled through the needle as the plunger is pushed and the upper rim of the top stopper reaches the correct volume mark for the prescribed dose.<content styleCode="bold"> The needle must be properly discarded after use; it must not be reused or shared with other persons.</content>
+                        </paragraph>
+                        <paragraph>The dose of edex<sup>®</sup> that is established in the physician's office should not be changed by the patient without consulting the physician. The patient may expect an erection to occur within 5 to 20 minutes. A standard treatment goal is to produce an erection lasting no longer than 1 hour. edex<sup>®</sup> should be used no more than 3 times per week, with at least 24 hours between each use.</paragraph>
+                        <paragraph>Patients should be aware of possible side effects of therapy with edex<sup>®</sup>; the most frequently occurring is penile pain during and/or after injection, usually mild to moderate in severity. A potentially serious adverse reaction with intracavernous therapy is priapism. Accordingly, the patient should be instructed to contact the physician's office immediately or, if unavailable, to seek immediate medical assistance if an erection persists for longer than 6 hours.</paragraph>
+                        <paragraph>The patient should report any penile pain that was not present before or that increased in intensity, as well as the occurrence of nodules or hard tissue in the penis to his physician as soon as possible. As with any injection, infection is possible. Patients should be instructed to report to the physician any penile redness, swelling, tenderness or curvature of the erect penis. The patient must visit the physician's office for regular checkups for assessment of the therapeutic benefit and safety of treatment with edex<sup>®</sup>.</paragraph>
+                        <paragraph>Note: Individuals who are sexually active should be counseled about the protective measures that are necessary to guard against the spread of sexually transmitted diseases, including the human immunodeficiency virus (HIV). Use of intracavernous edex<sup>®</sup> offers no protection from the transmission of sexually transmitted or blood-borne diseases. The injection of edex<sup>®</sup> can induce a small amount of bleeding at the site of injection. In patients infected with blood-borne diseases, this could increase the risk of transmission of blood-borne diseases between partners.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_ffb6b74c-7006-4b4d-b820-b32a35c3a809">
+                     <id root="98558fae-5c9a-4f45-8b0d-c0edf9d58443"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Carcinogenesis, Mutagenesis, Impairment of Fertility</content>
+                        </paragraph>
+                        <paragraph>Long-term carcinogenicity studies have not been conducted. Alprostadil showed no evidence of mutagenicity in three in vitro assays including the AMES bacterial reverse mutation assay, a forward gene mutation assay in Chinese hamster lung (V79) cells, and a chromosome aberration assay in human peripheral lymphocytes. Alprostadil did not produce damage to chromosomes or the mitotic apparatus in the in vivo rat micronucleus test.</paragraph>
+                        <paragraph>Alprostadil did not cause any adverse effects on fertility or general reproductive performance when administered intraperitoneally to male or female rats at dose levels from 2 to 200 mcg/kg/day. The high dose of 200 mcg/kg/day is about 300 times the maximum recommended human dose (MRHD) on a body weight basis. The human dose of edex<sup>®</sup> is &lt;1 mcg/kg (MRHD is 40 mcg and the calculation assumes a 60-kg subject).</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_abe227e8-d18d-49c9-ae39-7ae2ebcd56ad">
+                     <id root="c1e05daa-ee96-4e5e-8763-77ed03d3beee"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Pregnancy, Nursing Mothers and Pediatric Use</content>
+                        </paragraph>
+                        <paragraph>edex<sup>®</sup> is not indicated for use in women or pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d84ce60e-6c08-4148-8435-5e128dfff4ba">
+                     <id root="6358bf19-69f8-4ee0-8cd1-9d74cab035a0"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Geriatric Use</content>
+                        </paragraph>
+                        <paragraph>Of the approximately 1,065 patients who entered the in-office dose-titration period in clinical studies, 25% were 65 years or older. In clinical studies, geriatric patients required, on average, higher minimally effective doses and had a higher rate of lack of effect (optimum dose not determined). Overall differences in safety were not observed between these geriatric patients and younger patients. Geriatric patients should be dosed and titrated according to the same DOSAGE AND ADMINISTRATION recommendations as younger patients, and the lowest possible effective dose should always be used.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_14e043fd-40c7-4975-ab5e-7b32d07499ca">
+               <id root="c4d1ed14-4a91-4b6b-90b6-5535316909d7"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>edex<sup>®</sup>, administered by intracavernous injection in doses ranging from 1 to 40 mcg per injection for periods up to 24 months, has been evaluated in clinical trials for safety in over 1,065 patients with erectile dysfunction. Discontinuation of therapy due to a side effect in clinical trials was required in approximately 9% of patients treated with edex<sup>®</sup> and in &lt;1% of patients treated with placebo.</paragraph>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <section ID="LINK_cff5d83c-d970-43b7-adec-6fd88f7517d3">
+                     <id root="ed7e6a9b-b70d-4163-a6c3-c8534bacc1b5"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Local Adverse Reactions</content>
+                        </paragraph>
+                        <paragraph>The following local adverse reactions were reported in studies including 1,065 patients treated with edex<sup>®</sup> for up to two years.</paragraph>
+                     </text>
+                     <effectiveTime value="20240327"/>
+                     <component>
+                        <section ID="LINK_ea016b63-5d9a-4bd9-9610-b04c5148f9fe">
+                           <id root="8b865e49-138a-481f-a344-70b426679fcc"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Penile Pain</content>
+                              </paragraph>
+                              <paragraph>With use of up to 24 months, penile pain was reported at least once by 29% of patients during injection, 35% of patients during erection, and by 30% of patients after erection. On a per injection basis, 15% of injections were associated with penile pain. Penile pain was judged by patients to be mild in intensity for 80% of painful injections, moderate in intensity for 16% of painful injections, and severe in intensity for 4% of painful injections. The frequency of penile pain reports decreased over time; 41% of the patients experienced pain during the first 2 months and 3% of the patients experienced pain during months 21 to 24. In placebo-controlled studies, penile pain was reported by 31% of patients after edex<sup>®</sup> and by 9% of patients after placebo injection.</paragraph>
+                           </text>
+                           <effectiveTime value="20240327"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_7b83a323-bc2e-422e-ae73-0613ce00ffe6">
+                           <id root="f67163d6-61c7-4ffa-92dc-54a002593ebd"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Prolonged Erection/Priapism</content>
+                              </paragraph>
+                              <paragraph>Prolonged erections greater than four hours in duration occurred in 4% of all patients treated up to 24 months. In placebo-controlled studies, 3% of patients treated with edex<sup>®</sup> and &lt;1% of patients treated with placebo reported prolonged erections greater than four hours. The incidence of priapism (erections greater than 6 hours in duration) was &lt;1% with long-term use for up to 24 months. In the majority of cases, spontaneous detumescence occurred. A higher incidence of prolonged erections was found in younger patients (&lt;40 years), non-diabetic patients, and patients with psychogenic etiology of erectile dysfunction (<content styleCode="italics">See<linkHtml href="#LINK_418bf9a2-b013-4898-af4a-8a8182031d12"> WARNINGS</linkHtml>
+                                 </content>).</paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_05fc42e6-81a1-4895-a6a1-194a530cc9cd">
+                           <id root="b7e07148-f315-47ff-a3c9-17e279e73bc0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Hematoma/Ecchymosis</content>
+                              </paragraph>
+                              <paragraph>In patients treated with edex<sup>®</sup> for up to 24 months, local bleeding, hematoma, and ecchymosis were observed in 15%, 5%, and 4% of patients, respectively. In placebo-controlled studies, the frequency of local bleeding was 6% with injection of edex<sup>®</sup> and 3% with injection of placebo. In most cases, these reactions were attributed to faulty injection technique.</paragraph>
+                              <table>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <col/>
+                                 <thead>
+                                    <tr>
+                                       <th align="center" valign="top" styleCode=" Toprule Lrule Rrule" colspan="4"> Local Adverse Reactions Reported by ≥1% of Patients </th>
+                                    </tr>
+                                    <tr>
+                                       <th align="center" valign="top" styleCode=" Lrule Rrule" colspan="4"> All Study Periods<content styleCode="bold">
+                                             <sup>1</sup>
+                                          </content>
+                                       </th>
+                                    </tr>
+                                    <tr>
+                                       <th valign="top" styleCode=" Toprule Lrule Rrule"> Local Reaction</th>
+                                       <th align="center" valign="top" styleCode=" Toprule Rrule"> edex®</th>
+                                       <th valign="top" styleCode=" Toprule Rrule"> Local Reaction</th>
+                                       <th align="center" valign="top" styleCode=" Toprule Rrule"> edex®</th>
+                                    </tr>
+                                    <tr>
+                                       <th valign="top" styleCode=" Lrule Rrule">  </th>
+                                       <th align="center" valign="top" styleCode=" Rrule"> N = 1065</th>
+                                       <th valign="top" styleCode=" Rrule">  </th>
+                                       <th align="center" valign="top" styleCode=" Botrule Rrule"> N = 1065 </th>
+                                    </tr>
+                                    <tr>
+                                       <th valign="top" styleCode=" Botrule Lrule Rrule"> </th>
+                                       <th align="center" valign="top" styleCode=" Botrule Rrule">  n (%)</th>
+                                       <th valign="top" styleCode=" Botrule Rrule"> </th>
+                                       <th align="center" valign="top" styleCode=" Botrule Rrule"> n (%)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td valign="top" styleCode=" Toprule Lrule Rrule"> Penile pain during injection</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 305 (29)</td>
+                                       <td valign="top" styleCode=" Rrule"> Ecchymosis</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 44 (4)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule"> Penile pain during erection</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 368 (35)</td>
+                                       <td valign="top" styleCode=" Rrule"> Penile angulation</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 72 (7)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule"> Penile pain after erection</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 317 (30)</td>
+                                       <td valign="top" styleCode=" Rrule"> Penile fibrosis</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 52 (5)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule"> Penile pain (other)<sup>2</sup>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 116 (11)</td>
+                                       <td valign="top" styleCode=" Rrule"> Cavernous body fibrosis</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 20 (2)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule"> Prolonged erection</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> </td>
+                                       <td valign="top" styleCode=" Rrule"> Peyronie's disease</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 11 (1)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule">   &gt; 4 ≤ 6 Hours</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 44 (4)</td>
+                                       <td valign="top" styleCode=" Rrule"> Faulty injection technique<sup>3</sup>
+                                       </td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 59 (6)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule">   &gt; 6 Hours</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 6 (&lt;1)</td>
+                                       <td valign="top" styleCode=" Rrule"> Penis disorder</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 28 (3)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Lrule Rrule"> Bleeding</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 158 (15)</td>
+                                       <td valign="top" styleCode=" Rrule"> Erythema</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 17 (2)</td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" styleCode=" Botrule Lrule Rrule"> Hematoma</td>
+                                       <td align="center" valign="top" styleCode=" Rrule"> 56 (5)</td>
+                                       <td valign="top" styleCode=" Rrule"> </td>
+                                       <td align="center" valign="top" styleCode=" Botrule Rrule"> </td>
+                                    </tr>
+                                    <tr>
+                                       <td valign="top" colspan="4" styleCode=" Botrule Toprule Lrule Rrule">
+                                          <paragraph>
+                                             <sup>1</sup>Protocol Numbers KU-620-001, KU-620-002, KU-620-003, F-8653.</paragraph>
+                                          <paragraph>
+                                             <sup>2</sup>Penile pain reported without an association to injection site or erection, such as pain in penis and scrotum, pain in glans penis, and burning penile pain.</paragraph>
+                                          <paragraph>
+                                             <sup>3</sup>Examples include injection into glans penis, urethra or subcutaneously.</paragraph>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </text>
+                           <effectiveTime value="20240327"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_a2e3b0f8-d0b5-42ed-a637-e0629c9b4130">
+                     <id root="9c49b51c-a36c-42e3-88d7-67a3eff8bccc"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Systemic Adverse Experiences</content>
+                        </paragraph>
+                        <paragraph>The following systemic adverse experiences were reported in controlled and uncontrolled studies in ≥1% of patients treated for up to 24 months with edex<sup>®</sup>.</paragraph>
+                        <table>
+                           <caption>Systemic Adverse Experiences Reported by ≥1% of Patients<sup>1</sup>
+                           </caption>
+                           <col/>
+                           <col width="1px"/>
+                           <col/>
+                           <col width="1px"/>
+                           <col/>
+                           <col width="1px"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode=" Lrule"> BODY SYSTEM </th>
+                                 <th styleCode=" Rrule"> edex<sup>® </sup>
+                                 </th>
+                                 <th> BODY SYSTEM </th>
+                                 <th styleCode=" Rrule"> edex<sup>®</sup>  </th>
+                                 <th> BODY SYSTEM </th>
+                                 <th valign="top" styleCode=" Botrule Rrule"> edex<sup>® </sup> </th>
+                              </tr>
+                              <tr>
+                                 <th styleCode=" Lrule" rowspan="2"> Adverse Experience</th>
+                                 <th styleCode=" Rrule"> N = 1065</th>
+                                 <th rowspan="2"> Adverse Experience</th>
+                                 <th styleCode=" Rrule"> N = 1065</th>
+                                 <th styleCode=" Botrule" rowspan="2"> Adverse Experience</th>
+                                 <th valign="top" styleCode=" Botrule Rrule"> N = 1065</th>
+                              </tr>
+                              <tr>
+                                 <th styleCode=" Rrule"> n (%)</th>
+                                 <th styleCode=" Rrule"> n (%)</th>
+                                 <th valign="top" styleCode=" Botrule Rrule"> n (%)</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode=" Toprule Lrule"> RESPIRATORY</td>
+                                 <td valign="top" styleCode=" Toprule Rrule"> </td>
+                                 <td valign="top" styleCode=" Toprule"> CARDIOVASCULAR </td>
+                                 <td valign="top" styleCode=" Toprule Rrule"> </td>
+                                 <td valign="top" styleCode=" Toprule"> UROGENITAL</td>
+                                 <td valign="top" styleCode=" Toprule Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Upper respiratory tract </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> Hypertension</td>
+                                 <td valign="top" styleCode=" Rrule"> 17 (2)</td>
+                                 <td valign="top"> Prostate disorder</td>
+                                 <td valign="top" styleCode=" Rrule"> 15 (1) </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> infection</td>
+                                 <td valign="top" styleCode=" Rrule"> 58 (5)</td>
+                                 <td valign="top"> Myocardial infarction </td>
+                                 <td valign="top" styleCode=" Rrule"> 13 (1)</td>
+                                 <td valign="top"> Testicular pain</td>
+                                 <td valign="top" styleCode=" Rrule"> 13 (1) </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Sinusitis</td>
+                                 <td valign="top" styleCode=" Rrule"> 14 (1)</td>
+                                 <td valign="top"> Abnormal ECG </td>
+                                 <td valign="top" styleCode=" Rrule"> 12 (1)</td>
+                                 <td valign="top"> Inguinal hernia </td>
+                                 <td valign="top" styleCode=" Rrule"> 11 (1) </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> BODY AS A WHOLE </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Influenza-like symptoms </td>
+                                 <td valign="top" styleCode=" Rrule"> 35 (3)</td>
+                                 <td valign="top"> METABOLIC/NUTRITIONAL</td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> DERMATOLOGIC</td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Headache</td>
+                                 <td valign="top" styleCode=" Rrule"> 20 (2)</td>
+                                 <td valign="top"> Hypertriglyceridemia</td>
+                                 <td valign="top" styleCode=" Rrule"> 17 (2)</td>
+                                 <td valign="top"> Skin disorder </td>
+                                 <td valign="top" styleCode=" Rrule"> 14 (1) </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Infection</td>
+                                 <td valign="top" styleCode=" Rrule"> 18 (2)</td>
+                                 <td valign="top"> Hypercholesterolemia</td>
+                                 <td valign="top" styleCode=" Rrule"> 12 (1)</td>
+                                 <td valign="top"> SPECIAL SENSES</td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Pain </td>
+                                 <td valign="top" styleCode=" Rrule"> 16 (2)</td>
+                                 <td valign="top"> Hyperglycemia</td>
+                                 <td valign="top" styleCode=" Rrule"> 12 (1)</td>
+                                 <td valign="top"> Abnormal vision </td>
+                                 <td valign="top" styleCode=" Rrule"> 11 (1)</td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> MUSCULOSKELETAL</td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Lrule"> Back pain </td>
+                                 <td valign="top" styleCode=" Rrule"> 23 (2)</td>
+                                 <td valign="top"> </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                                 <td valign="top"> </td>
+                                 <td valign="top" styleCode=" Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule Lrule"> Leg pain </td>
+                                 <td valign="top" styleCode=" Botrule Rrule"> 13 (1)</td>
+                                 <td valign="top" styleCode=" Botrule"> </td>
+                                 <td valign="top" styleCode=" Botrule Rrule"> </td>
+                                 <td valign="top" styleCode=" Botrule"> </td>
+                                 <td valign="top" styleCode=" Botrule Rrule"> </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" colspan="6" styleCode=" Botrule Toprule Lrule Rrule"> <sup>1</sup>Protocol Numbers KU-620-001, KU-620-002, KU-620-003, F-8653.</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>Hemodynamic changes, manifested as increases or decreases in blood pressure and pulse rate, were observed during clinical studies but did not appear to be dose-dependent. Four patients (&lt;1%) reported clinical symptoms of hypotension such as dizziness or syncope.</paragraph>
+                        <paragraph>edex<sup>®</sup> had no clinically important effect on serum or urine laboratory tests.</paragraph>
+                     </text>
+                     <effectiveTime value="20240327"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_9a5c338c-b8be-4dd9-a076-60847feca055">
+                     <id root="687fb4fc-0fef-4d3a-b62b-4722139bef5d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Post-Marketing Adverse Experiences</content>
+                        </paragraph>
+                        <paragraph>Needle breakage.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b2b3f2ab-9354-459f-8131-3ee83d8137ef">
+               <id root="05bb568a-9c9f-44bf-ba13-8b1bc0bb3bc4"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Limited data are available in regard to edex<sup>®</sup> overdose in humans. Systemic reactions are uncommon with intracavernous injection of edex<sup>®</sup>. Hypotension occurred in less than 1% of patients treated with edex<sup>®</sup>. A single dose rising tolerance study in healthy volunteers indicated that single<content styleCode="bold"> intravenous </content>doses of alprostadil from 1 to 120 mcg were well tolerated. Beginning with a 40 mcg bolus<content styleCode="bold"> intravenous </content>dose, the frequency of drug-related systemic adverse events increased in a dose-dependent manner, characterized mainly by facial flushing.</paragraph>
+                  <paragraph>The primary symptom of an edex<sup>®</sup> overdose is a prolonged erection or priapism. Because of the potential for tissue hypoxia and possible necrosis, it is strongly recommended to treat an erection lasting more than 6 hours.<content styleCode="bold"> The patient is strongly encouraged to go to the nearest emergency room if his personal physician is not available.</content>
+                  </paragraph>
+                  <paragraph>In the event of an overdose, supportive therapy according to the presence of other symptoms is recommended.</paragraph>
+               </text>
+               <effectiveTime value="20220711"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8043a205-6e26-4a61-bf4f-0c97fdc994e5">
+               <id root="4796979a-3c04-4fcb-83b7-7b45caa10dcb"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <section ID="LINK_caf578b6-47e3-47ba-b5dd-d4519b2443a6">
+                     <id root="de39707d-3ab5-40a6-95e3-add54006196c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">edex<sup>®</sup> in the Treatment of Erectile Dysfunction</content>
+                        </paragraph>
+                        <paragraph>The dosage range of edex<sup>®</sup> for the treatment of erectile dysfunction is 1 to 40 mcg. The intracavernous injection should be given over a 5 to 10 second interval. In a study with a dose range of 1 to 20 mcg of edex<sup>®</sup>, the mean dose was 10.7 mcg at the end of the dose titration period. In two studies with a dose range of 1 to 40 mcg of edex<sup>®</sup>, the mean dose was 21.9 mcg at the end of the dose titration period. Doses greater than 40 mcg have not been studied. A &amp;frac12;-inch, 27- to 30-gauge needle is generally recommended for the intracavernous injection. The patient is advised not to exceed the optimum edex<sup>®</sup> dose which was determined in the doctor's office. The lowest possible effective dose should always be used.</paragraph>
+                     </text>
+                     <effectiveTime value="20240327"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f648879c-67b0-4139-bfa0-054ae998fbde">
+                     <id root="85f4712c-7bf6-4b1f-b402-e97d9c9bc12c"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Initial Titration in Physician's Office</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20240327"/>
+                     <component>
+                        <section ID="LINK_8a0ee996-49aa-4e5e-9cbc-1659131d54c0">
+                           <id root="cf9124f7-fb2d-4260-adea-8bf265ee9a1d"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Erectile Dysfunction of Vasculogenic, Psychogenic, or Mixed Etiology</content>:</paragraph>
+                              <paragraph>Dosage titration should be initiated at 2.5 mcg of alprostadil. If there is a partial response, the dose may be increased by 2.5 mcg to a dose of 5 mcg and then in increments of 5 to 10 mcg, depending upon erectile response, until the dose that produces an erection suitable for intercourse and not exceeding a duration of 1 hour is reached. If there is no response to the initial 2.5-mcg dose, the second dose may be increased to 7.5 mcg, followed by increments of 5 to 10 mcg. The patient must stay in the physician's office until complete detumescence occurs. If there is no response, then the next higher dose may be given within 1 hour. If there is a response, then there should be at least a 1-day interval before the next dose is given. </paragraph>
+                           </text>
+                           <effectiveTime value="20240327"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="LINK_18bb1436-ad18-4c3d-af6a-aaa32419e30f">
+                           <id root="d4add309-b731-44dc-b4a2-a5ff9f26992b"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="italics">Erectile Dysfunction of Pure Neurogenic Etiology (Spinal Cord Injury):</content>
+                              </paragraph>
+                              <paragraph>Dosage titration should be initiated at 1.25 mcg of alprostadil. The dose may be increased by 1.25 mcg to a dose of 2.5 mcg, followed by an increment of 2.5 mcg to a dose of 5 mcg, and then in 5-mcg increments until the dose that produces an erection suitable for intercourse and not exceeding a duration of 1 hour is reached. The patient must stay in the physician's office until complete detumescence occurs. If there is no response, then the next higher dose may be given within 1 hour. If there is a response, then there should be at least a 1-day interval before the next dose is given. </paragraph>
+                           </text>
+                           <effectiveTime value="20220711"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_cdf2f459-1ecf-4589-8985-6f58bf0de7e7">
+                     <id root="4e0e1ae0-989e-404d-81e3-1db7a92f3654"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">At-Home (Maintenance Therapy) Dosing Instructions</content>
+                        </paragraph>
+                        <paragraph>The first injections of edex<sup>®</sup> must be done at the physician's office by medically trained personnel. Self-injection therapy by the patient can be started only after the patient is properly instructed and well trained in the self-injection technique. The physician should instruct the patient to discard any needles which become bent during the self-injection procedure as these needles may break. The physician should make a careful assessment of the patient's skills and competence with the self-injection procedure. The intracavernous injection must be done under sterile conditions. The site of injection is usually along the lateral aspect of the proximal third of the penis. Visible veins should be avoided. The side of the penis that is injected and the site of injection must be alternated. The injection site must be cleansed with an alcohol swab before injection.</paragraph>
+                        <paragraph>The dose of edex<sup>®</sup> that is selected for self-injection treatment should provide the patient with an erection that is satisfactory for sexual intercourse and that is maintained for no longer than 1 hour. If the duration of erection is longer than 1 hour, the dose of edex<sup>®</sup> should be reduced. The lowest effective dose should be used at home. Self-injection therapy for use at home should be initiated at the dose that was determined in the physician's office. Dose adjustment may be required and should be made only after consultation with the physician.</paragraph>
+                        <paragraph>Careful and continuous follow-up of the patient while in the self-injection program must be exercised. This is especially true for the initial self-injections, since adjustments in the dose of edex<sup>®</sup> may be needed. The recommended frequency of injection is no more than 3 times weekly, with at least 24 hours between each dose.<content styleCode="bold"> The reconstituted edex<sup>®</sup> cartridge and needle are intended for single use only and should be discarded after use. </content>The user should be instructed in the proper disposal of the needles and cartridges.</paragraph>
+                        <paragraph>While on self-injection treatment, it is recommended that the patient visit the prescribing physician's office every 3 months. At that time, the efficacy and safety of the therapy should be assessed, and the dose of edex<sup>®</sup> should be adjusted, if needed.</paragraph>
+                        <paragraph>The patient is instructed to follow the enclosed patient information pamphlet.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_50d3e386-4c6e-4fc1-8187-de58a49be2f4">
+                     <id root="fb08830f-a44d-4847-906f-e0239fa448f1"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Preparation of Solution</title>
+                     <text>
+                        <paragraph>The edex<sup>®</sup> injection device is used to reconstitute the single-dose, dual-chamber cartridge. The plunger is used to force the sterile 0.9% sodium chloride (1.075 mL) in one chamber into the chamber containing alprostadil. After reconstitution, the edex<sup>®</sup> injection device is used to administer the intracavernous injection of alprostadil. The reusable edex<sup>®</sup> injection device is for use only with the cartridges and needles included in the edex<sup>®</sup> Cartridge Packs.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Prepare the edex<sup>®</sup> solution immediately before use. Do not administer unless solution is clear. Do not add any drugs or solutions to the edex<sup>®</sup> solution. Discard any unused solution remaining in the cartridge. The reconstituted solution should not be stored.</content>
+                        </paragraph>
+                        <paragraph>The edex<sup>®</sup> cartridge contains a solid layer or lyophilized cake of dry white powder approximately 3/8" in thickness. A normal cake may appear cracked or crumbled. If the cartridge is damaged, the cake may shrink in size. Do not use the cartridge if it appears damaged or the cake is substantially reduced in size.</paragraph>
+                        <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration. The reconstituted solution may initially appear cloudy due to small air bubbles. Do not use the solution if it remains cloudy, contains precipitates, or is discolored.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">CAUTION: Do not reuse any solution remaining in the cartridge due to the possibility of bacterial contamination.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_04256ccf-6d66-48de-96ec-febc6132126f">
+                     <id root="0813bbf7-9a56-42f7-9b83-b2992f7f9cab"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Administration</title>
+                     <text>
+                        <paragraph>edex<sup>®</sup> is given as an intracavernous injection over a 5- to 10-second interval. See patient information for edex<sup>®</sup>.</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f96dcb70-3088-4c82-addd-921b8616fe7f">
+                     <id root="750b1391-5882-413a-ac0f-f8a4fc8a36bd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Stability</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">The single-dose, dual-chamber cartridge should be reconstituted only when it is certain that the patient is ready to administer the drug. The reconstituted drug solution should be used immediately after reconstitution. Any solution remaining in the cartridge should be discarded.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_2ce1e3b9-8ac0-4d28-bf44-960fab845866">
+               <id root="169c8670-c557-4c4e-8c2a-22657c555e4a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>edex<sup>®</sup> (alprostadil for injection) is available in single-dose, dual-chamber cartridges intended for use with the reusable edex<sup>®</sup> injection device. One chamber of the cartridge contains 10.75, 21.5, or 43 mcg of alprostadil as a white, sterile, lyophilized powder. The other chamber contains 1.075 mL of sterile 0.9% sodium chloride. When the cartridge is placed into the edex<sup>®</sup> injection device and reconstituted, the deliverable amount of alprostadil in each milliliter is 10, 20, or 40 mcg, respectively. edex<sup>®</sup> Cartridge 2 Pack contains one reusable edex<sup>®</sup> injection device, two single-dose, dual-chamber cartridges, two ½-inch, 29-gauge (0.33 mm × 12.7 mm) needles, and four alcohol swabs. edex<sup>®</sup> Cartridge 6 Pack contains one reusable edex<sup>®</sup> injection device, six single-dose, dual-chamber cartridges, six ½-inch, 29-gauge (0.33 mm × 12.7 mm) needles, and twelve alcohol swabs.</paragraph>
+                  <paragraph>The edex<sup>®</sup> cartridges are supplied in the following packages:</paragraph>
+                  <table>
+                     <col width="1px"/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" colspan="3" styleCode=" Toprule"> edex<sup>®</sup> Cartridge 2 Pack (includes one injection device, two cartridges, two needles and four alcohol swabs)</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> 10 mcg</td>
+                           <td valign="top"> 1 × 2 Pack</td>
+                           <td valign="top"> NDC 52244-010-02</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> 20 mcg</td>
+                           <td valign="top"> 1 × 2 Pack</td>
+                           <td valign="top"> NDC 52244-020-02</td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode=" Botrule"> 40 mcg</td>
+                           <td valign="top" styleCode=" Botrule"> 1 × 2 Pack</td>
+                           <td valign="top" styleCode=" Botrule"> NDC 52244-040-02</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table>
+                     <col width="1px"/>
+                     <col/>
+                     <col/>
+                     <tbody>
+                        <tr>
+                           <td valign="top" colspan="3" styleCode=" Toprule"> edex<sup>®</sup> Cartridge 6 Pack (includes one injection device, six cartridges, six needles and twelve alcohol swabs)</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> 10 mcg</td>
+                           <td valign="top"> 1 × 6 Pack</td>
+                           <td valign="top"> NDC 52244-010-06</td>
+                        </tr>
+                        <tr>
+                           <td valign="top"> 20 mcg</td>
+                           <td valign="top"> 1 × 6 Pack</td>
+                           <td valign="top"> NDC 52244-020-06</td>
+                        </tr>
+                        <tr>
+                           <td valign="top" styleCode=" Botrule"> 40 mcg</td>
+                           <td valign="top" styleCode=" Botrule"> 1 × 6 Pack</td>
+                           <td valign="top" styleCode=" Botrule"> NDC 52244-040-06</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20220711"/>
+               <component>
+                  <section ID="LINK_6ca19daa-cb72-4667-9c29-8f11edacc7dc">
+                     <id root="16148cca-cecd-42ee-bd64-db33e89e07a4"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>Store at 25°C (77°F); excursions permitted between 15°C - 30°C (59°F - 86°F).</paragraph>
+                     </text>
+                     <effectiveTime value="20220711"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9e42ab80-b21b-4601-8b8c-bff49c44a8ac">
+               <id root="fcb203f4-8f9f-4ef3-923e-e05f37b473c9"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>For more information, call Endo at 1-800-462-3636.</paragraph>
+                  <paragraph>Manufactured for:<br/>
+Endo USA<br/>
+Malvern, PA 19355</paragraph>
+                  <paragraph>Revised: March 2024</paragraph>
+               </text>
+               <effectiveTime value="20240327"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1134c754-a088-4d57-a9ed-51bd1bd503f2">
+               <id root="61c139ad-c5a7-41f9-a551-fea16598bdee"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">edex<sup>®</sup>
+                     </content>
+                     <br/>
+                     <content styleCode="bold">(alprostadil for injection)</content>
+                     <br/>
+                     <content styleCode="bold">For Intracavernous Use Only</content>
+                     <br/>
+                     <content styleCode="bold">Sterile Powder and Diluent (sterile 0.9% sodium chloride) in Cartridges<br/>
+                     </content>
+                     <content styleCode="bold">PATIENT INFORMATION FOR  edex<sup>®</sup> CARTRIDGES</content>
+                     <br/>
+                     <content styleCode="bold">Please read carefully before using.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Please read carefully before using.</content>
+                  </paragraph>
+                  <paragraph>edex<sup>®</sup> can only be obtained with a prescription from your doctor. You or your partner should be fully trained on the proper injection technique before using edex<sup>®</sup> at home. Be sure to use only the dose prescribed by your doctor. </paragraph>
+                  <paragraph>This leaflet provides a summary of information about your medicine. Please read this information carefully before you prepare the edex<sup>®</sup> solution. The reusable edex<sup>®</sup> injection device is used to prepare and administer the edex<sup>®</sup> solution. A convenient carrying case is provided for the reusable edex<sup>®</sup> injection device.</paragraph>
+                  <paragraph>Carefully follow the instructions for administration which are described below. For further information or advice, ask your doctor or pharmacist. </paragraph>
+                  <paragraph>Please keep this information in case you need to refer to it again.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Erectile Dysfunction: Causes and Treatments</content>
+                  </paragraph>
+                  <paragraph>There are several causes of erectile dysfunction, commonly known as impotence. These include impaired blood circulation in the penis, nerve damage, hormonal imbalances, excessive alcohol use, emotional problems, and certain medications that you may be taking for other conditions. Smoking has an adverse effect on erectile function by accentuating the effects of other risk factors such as blood vessel disease or high blood pressure. Erectile dysfunction is often due to more than one of these causes.</paragraph>
+                  <paragraph>Treatment for erectile dysfunction includes penile injections, medical devices that produce an erection, surgical procedures (e.g. penile bypass or implants), hormone treatment, psychological counseling, lifestyle changes, or a change in medication. You should not stop taking any prescription medications, unless told to do so by your doctor.</paragraph>
+                  <paragraph>Your doctor has prescribed edex<sup>®</sup>, a penile injection, to treat your erectile dysfunction.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Use of edex<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>edex<sup>®</sup> is injected into a specific area of the penis (see injection directions below) and should produce an erection in 5 to 20 minutes. The erection can be expected to last up to one hour. You should not use edex<sup>®</sup> more than 3 times a week. Injections should be administered at least 24 hours apart.</paragraph>
+                  <paragraph>Ideally, the injection should be administered just prior to foreplay. If your partner experiences insufficient vaginal lubrication or painful vaginal sensations during intercourse, the use of a lubricant may be helpful.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Who should NOT use edex<sup>®</sup>?</content>
+                  </paragraph>
+                  <paragraph>Men who have conditions that might result in long-lasting erections should not use edex<sup>®</sup>. Some of these conditions include sickle cell anemia or trait, leukemia, and tumor of the bone marrow (multiple myeloma). If you have any of these conditions, consult your doctor.</paragraph>
+                  <paragraph>Men with penile implants, severe penile curvature, or those who have been advised not to engage in sexual activity should not use edex<sup>®</sup>. </paragraph>
+                  <paragraph>edex<sup>®</sup> should not be used by women or children.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">What are the risks of using edex<sup>®</sup>?</content>
+                  </paragraph>
+                  <paragraph>Erections that last more than 6 hours can cause serious damage to the penile tissue and may result in permanent impotence. <content styleCode="bold">Call the prescribing physician or, if unavailable, seek professional help immediately if you still have an erection 6 hours after injection.</content> Various treatment options for reversing a prolonged erection are available.</paragraph>
+                  <paragraph>A common side effect of edex<sup>®</sup> is mild to moderate pain during injection. The erection may also be associated with a painful sensation. If you experience severe pain, contact the prescribing physician.</paragraph>
+                  <paragraph>Call your doctor if you notice any redness, lumps, swelling, tenderness or curvature of the erect penis.</paragraph>
+                  <paragraph>A small amount of bleeding at the injection site may occur. To prevent bruising, apply firm pressure to the injection site for 5 minutes. Tell your doctor if you have a condition or are taking a medicine that interferes with blood clotting.</paragraph>
+                  <paragraph>There is a possibility of needle breakage with use of edex<sup>®</sup>. To best avoid breaking the needle, you should pay careful attention to your doctor's instructions and try to handle the injection device properly. If the needle breaks during injection and you are able to see and grasp the broken end, you should remove it and contact your doctor. If you cannot see or cannot grasp the broken end, you should promptly contact your doctor.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">NOTE:</content> edex<sup>®</sup> offers no protection from the transmission of sexually transmitted diseases such as HIV (the virus that causes AIDS). Small amounts of bleeding at the injection site can increase the risk of transmission of blood-borne diseases between partners.</paragraph>
+                  <paragraph>There is no approved injectable treatment using multiple medications. In addition, there are no data on the efficacy and safety of these combinations.</paragraph>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>
+                     <content styleCode="bold">edex<sup>®</sup> Cartridge 2 Pack contains enough supplies for two injections. The 2 Pack contains the following items:</content>
+                  </paragraph>
+                  <paragraph>One reusable edex<sup>®</sup> injection device</paragraph>
+                  <paragraph>One reusable carrying case</paragraph>
+                  <paragraph>Two single-dose, dual-chamber cartridges (one per injection)</paragraph>
+                  <paragraph>Two &amp;frac12;-inch, 29-gauge (0.33 mm x 12.7 mm) sterile needles (one per injection)</paragraph>
+                  <paragraph>Four alcohol swabs (two per injection)</paragraph>
+                  <paragraph>Patient Information for edex<sup>®</sup> Cartridges</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">edex<sup>®</sup> Cartridge 6 Pack contains enough supplies for six injections. The 6 Pack contains the following items:</content>
+                  </paragraph>
+                  <paragraph>One reusable edex<sup>®</sup> injection device</paragraph>
+                  <paragraph>One reusable carrying case</paragraph>
+                  <paragraph>Six single-dose, dual-chamber cartridges (one per injection)</paragraph>
+                  <paragraph>Six &amp;frac12;-inch, 29-gauge (0.33 mm x 12.7 mm) sterile needles (one per injection)</paragraph>
+                  <paragraph>Twelve alcohol swabs (two per injection)</paragraph>
+                  <paragraph>Patient Information for edex<sup>®</sup> Cartridges</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Storage and Handling</content>
+                  </paragraph>
+                  <paragraph>1. Store at 25°C (77°F); temperature variations between 15°C - 30°C (59°F - 86°F) are allowed. As with any drug product, extremes in temperature should be avoided. When traveling, do not store in checked luggage during air travel or leave in a closed automobile.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">2. edex<sup>®</sup> solution should be used immediately after reconstitution.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">IMPORTANT: To maintain sterility and avoid contamination, follow these directions carefully. Each needle and cartridge should be used only once. Safely discard the supplies (see the “Discard Injection Supplies” section of these instructions). The edex<sup>®</sup> cartridges contain a solid layer or cake of dry white powder approximately 3/8” in thickness. A normal cake may appear cracked or crumbled. If the cartridge is damaged, the cake may shrink in size. Do not use the cartridge if it appears damaged or the cake is substantially reduced in size.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Self-Injection Procedure</content>
+                  </paragraph>
+                  <paragraph>Before using edex<sup>®</sup>, you should be properly trained by your doctor. Mix edex<sup>®</sup> just prior to injection. Your dose has been customized for your individual needs. Use only the dose prescribed by your doctor. Have a clean area available to assemble the items necessary for your edex<sup>®</sup> injection. The reusable edex<sup>®</sup> injection device is for use only with the single-dose, dual-chamber cartridges and needles included in the edex<sup>®</sup> Cartridge 2 Pack or 6 Pack.</paragraph>
+                  <paragraph>READ THE INSTRUCTIONS COMPLETELY BEFORE STARTING YOUR SELF-INJECTION PROCEDURE</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Prepare edex<sup>®</sup> Solution</content>
+                  </paragraph>
+                  <paragraph>1.  Wash your hands thoroughly with soap and water and dry them with a clean towel.</paragraph>
+                  <paragraph>2.  Check to see if the seal on the base of the needle is intact. Remove the seal from the base of the needle. Do not touch the exposed needle (Figure B).</paragraph>
+                  <renderMultiMedia referencedObject="MM4"/>
+                  <paragraph>3.  Attach the needle to the tip of the edex<sup>®</sup> injection device by turning clockwise until tight (Figure C). <content styleCode="bold">Note: Always attach the needle to the injection device before inserting the cartridge into the injection device.</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+                  <paragraph>4.  Turn the blue portion of the plunger counterclockwise to unscrew it from the injection device (Figure D).</paragraph>
+                  <renderMultiMedia referencedObject="MM6"/>
+                  <paragraph>5.  Pick up the cartridge and wipe the tip of the cartridge with an alcohol swab. Do not touch the tip of the cartridge after it has been cleansed with the alcohol swab (Figure E).</paragraph>
+                  <renderMultiMedia referencedObject="MM7"/>
+                  <paragraph>6.  Insert the cartridge into the injection device with the tip facing toward the attached needle (Figure F). The ridge on the cartridge will need to fit into the groove on the injection device.</paragraph>
+                  <renderMultiMedia referencedObject="MM8"/>
+                  <paragraph>7.  Attach the plunger to the injection device by turning the blue portion of the plunger clockwise until tight (Figure G).</paragraph>
+                  <renderMultiMedia referencedObject="MM9"/>
+                  <paragraph>8.  Hold the injection device in an upright position with the needle pointing up.</paragraph>
+                  <paragraph>9.  To prepare the drug solution, slowly push the plunger until the two gray rubber stoppers touch (Figure H). Gently move the injection device in a back and forth motion until the drug has dissolved and the solution is clear. The solution may initially appear cloudy due to small air bubbles. Do not use the solution if it remains cloudy, is colored, or contains particles.</paragraph>
+                  <renderMultiMedia referencedObject="MM10"/>
+                  <paragraph>10. While holding the injection device with the needle pointing up, carefully remove the external and internal protective caps from the needle by pulling them straight off (Figure I). Do not turn the protective caps counterclockwise as this will loosen the needle. Do not discard the large external protective cap; you will need to use it later. Do not touch the exposed needle or allow the needle to touch anything.</paragraph>
+                  <renderMultiMedia referencedObject="MM11"/>
+                  <paragraph>11. Gently tap the cartridge so that air bubbles float to the top of the solution (Figure J). Carefully push the plunger until a drop of solution appears at the end of the needle (Figure K).</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Note: The plunger pushes the rubber stoppers forward; the rubber stoppers cannot be pulled back with the plunger.</content>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM12"/>
+                  <renderMultiMedia referencedObject="MM13"/>
+                  <paragraph>12. Push the plunger until the upper rim of the top stopper reaches the correct volume mark for your prescribed dose. Excess solution will be expelled through the needle.</paragraph>
+                  <paragraph>13. Set the injection device down on a clean, level surface and do not allow the needle to touch anything.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Select Injection Site</content>
+                  </paragraph>
+                  <paragraph>14. Choose an injection site mid-shaft on one side of the penis. Avoid visible blood vessels. With each use of edex<sup>®</sup>, alternate the side of the penis and vary the site of the injection (Figure L). If your penis is not circumcised, pull the foreskin back. Grasping the head of the penis with your thumb and forefinger, stretch it lengthwise along your thigh so that you can clearly see the selected injection site. Wipe the injection site with a new alcohol swab. Do not discard this swab; you will need to use it later.</paragraph>
+                  <renderMultiMedia referencedObject="MM14"/>
+                  <paragraph>
+                     <content styleCode="bold">Inject edex<sup>®</sup>
+                     </content>
+                  </paragraph>
+                  <paragraph>15. Pick up the injection device and reposition the penis as in <content styleCode="italics">Step 14</content> to keep it from moving during the injection.</paragraph>
+                  <paragraph>16. Hold the injection device as shown in Figure M. Do not touch the plunger at this time. Position the needle horizontally and gently insert the needle into the selected injection site until the needle is almost completely inserted into the penis (Figure M). Now place your thumb on the plunger and inject the solution slowly over a period of 5 to 10 seconds (Figure N).</paragraph>
+                  <renderMultiMedia referencedObject="MM15"/>
+                  <renderMultiMedia referencedObject="MM16"/>
+                  <paragraph>17. If the solution does not inject easily, or if you immediately experience a burning pain at the injection site, reposition the needle by advancing it slightly or by partially withdrawing it until the solution can be injected easily and painlessly.</paragraph>
+                  <paragraph>18. Withdraw needle from penis. Immediately apply firm but gentle pressure with the alcohol swab to the injection site for five minutes to prevent bruising (Figure O). Continue to apply firm pressure until bleeding stops. If bleeding continues or recurs after applying pressure, abstain from intercourse.</paragraph>
+                  <renderMultiMedia referencedObject="MM17"/>
+                  <paragraph>
+                     <content styleCode="bold">Discard Injection Supplies</content>
+                  </paragraph>
+                  <paragraph>19. Carefully place the large external protective cap on the needle. Remove the needle from the injection device by turning counterclockwise.</paragraph>
+                  <paragraph>20. Remove the cartridge from the injection device by turning the blue portion of the plunger counterclockwise.</paragraph>
+                  <paragraph>21. Discard your needle in a special container for disposal of sharp medical supplies. Ask your doctor or pharmacist where you can obtain these special containers. Follow the directions on your disposal container for proper disposal procedures. <content styleCode="bold">Do not reuse or share needles.</content>
+                  </paragraph>
+                  <paragraph>22. Clean the reusable injection device with warm water and a mild soap after each use. Once the injection device is dry, place it in the carrying case.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">As with all prescription medicines, do not allow anyone else to use your medication. Proper injection technique and individual dose titration are essential for the safe use of this product.</content>
+                  </paragraph>
+                  <paragraph>Manufactured for:<br/>
+Endo USA<br/>
+Malvern, PA 19355</paragraph>
+                  <paragraph>Revised: March 2024</paragraph>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Figure A</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>Figure B</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>Figure C</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>Figure D</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>Figure E</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-7.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>Figure F</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-8.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM9">
+                     <text>Figure G</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-9.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>Figure H</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-10.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>Figure I</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-11.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM12">
+                     <text>Figure J</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-12.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM13">
+                     <text>Figure K</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-13.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM14">
+                     <text>Figure L</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-14.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM15">
+                     <text>Figure M</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM16">
+                     <text>Figure N</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-16.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM17">
+                     <text>Figure O</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-17.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_0a5f8f14-5f79-42ac-81f7-10d3eb415a8b">
+               <id root="de86a8b3-99aa-4baf-9892-1d4c4b072a25"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 10 mcg 2pk</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM18"/>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM18">
+                     <text>10 mcg 2 pk</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-18.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_54c2c9b5-014f-489c-a900-1ddf644ba5be">
+               <id root="53ec55cc-841b-441d-93f8-7a620da638c9"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 10 mcg 6pk</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM19"/>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM19">
+                     <text>10 mcg 6 pk</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-19.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_4576c9fa-1d0d-4c22-bdc0-bc801e074775">
+               <id root="2a12ee77-598d-458d-9bfd-d09cc5c9e099"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 20 mcg 2pk</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM20"/>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM20">
+                     <text>20 mcg 2pk</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-20.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7009bcd6-c7f8-437b-90f9-df52d8b9c2c8">
+               <id root="a567fcba-9c63-469f-b041-43cb2abfcb35"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 20 mcg 6pk</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM21"/>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM21">
+                     <text>20 mcg 6pk</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-21.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7437f0fa-afc6-48ee-b5da-2f2f4412234e">
+               <id root="12099098-4e84-4810-9614-bc0aadb68de0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 40 mcg 2pk</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM22"/>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM22">
+                     <text>40 mcg 2pk</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-22.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_1a5ff73e-0b41-4185-bcdb-6525fe867360">
+               <id root="90d43197-71dd-4bd2-baec-eaf1b3396de6"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 40 mcg 6pk</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM23"/>
+               </text>
+               <effectiveTime value="20240327"/>
+               <component>
+                  <observationMedia ID="MM23">
+                     <text>40 mcg 2pk</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="edex-23.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

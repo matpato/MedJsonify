@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="66406bf4-d7c7-4e73-9675-defa737c3b75"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>
+      <content styleCode="bold">THAM SOLUTION </content>
+      <br/>
+      <content styleCode="bold">Tromethamine Injection</content>
+   </title>
+   <effectiveTime value="20260527"/>
+   <setId root="4af52118-c12b-4ad5-30bb-959848357e8a"/>
+   <versionNumber value="21"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="141588017" root="1.3.6.1.4.1.519.1"/>
+            <name>Hospira, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="093132819" root="1.3.6.1.4.1.519.1"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1593" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="LABEL"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1593" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1593" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84731" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACK"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0409-1593" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="ca97c3e4-b8f4-40d4-bb70-7fa52b40132c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20231218"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0409-1593" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>THAM</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>TROMETHAMINE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="3.6"/>
+                              <denominator unit="mL" value="100"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="023C2WHX2V" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TROMETHAMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="023C2WHX2V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>TROMETHAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="500"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0409-1593-14" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43172" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="6"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0409-1593-04" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20200624"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA013025" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200624"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="dca0ba84-3a56-4fd5-888f-c6625408ddb6">
+               <id root="3d008f05-2767-4811-b335-a708f81e87dd"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">For the Prevention and Correction of Severe                                 Metabolic Acidosis</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Large Volume Glass Container</content>
+                     </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">R<sub>x</sub> only</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ffafa8f3-a6ba-4f01-8232-cbaf725a6b21">
+               <id root="ac1b6ae0-64db-45d5-80e0-c335e954607e"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Tham Solution (tromethamine injection) is a sterile, non-pyrogenic 0.3 M solution of tromethamine, adjusted to a pH of approximately 8.6 with glacial acetic acid. It is administered by intravenous injection, by addition to ACD blood for priming cardiac bypass equipment and by injection into the ventricular cavity during cardiac arrest.</paragraph>
+                  <paragraph>Each 100 mL contains tromethamine 3.6 g (30 mEq) in water for injection. The solution is hypertonic 389 mOsmol/L (calc.). pH 8.6 (8.4-8.7).</paragraph>
+                  <paragraph>The solution contains no bacteriostat, antimicrobial agent or added buffer (except acetic acid for pH adjustment) and is intended only for use as a single-dose injection. When smaller doses are required the unused portion should be discarded.</paragraph>
+                  <paragraph>Tham solution is a parenteral systemic alkalizer and fluid replenisher.</paragraph>
+                  <paragraph>Tromethamine, USP (sometimes called “tris” or “tris buffer”) is chemically designated 2-amino-2-(hydroxymethyl)-1, 3-propanediol, a solid readily soluble in water, also classified as an organic amine buffer. It has the following structural formula:</paragraph>
+                  <renderMultiMedia ID="id425" referencedObject="MM10"/>
+                  <paragraph>Water for Injection, USP is chemically designated H<sub>2</sub>0.</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>structural formula tromethamine</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tham-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="d8d36b85-b3da-44cc-9702-a872df0928c4">
+               <id root="11cfbf0b-3a0e-4bfc-894a-b8d434e1f273"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>When administered intravenously as a 0.3 M solution, tromethamine act as a proton acceptor and prevents or corrects acidosis by actively binding hydrogen ions (H<sup>+</sup>). It binds not only cations of fixed or metabolic acids, but also hydrogen ions of carbonic acid, thus increasing bicarbonate anion (HCO<sub>3</sub>‾). Tromethamine also acts as an osmotic diuretic, increasing urine flow, urinary pH, and excretion of fixed acids, carbon dioxide and electrolytes. A significant fraction of tromethamine (30% at pH 7.40) is not ionized and therefore is capable of reaching equilibrium in total body water. This portion may penetrate cells and may neutralize acidic ions of the intracellular fluid.</paragraph>
+                  <paragraph>The drug is rapidly eliminated by the kidney; 75% or more appears in the urine after eight hours. Urinary excretion continues over a period of three days.</paragraph>
+                  <paragraph>Water is an essential constituent of all body tissues and accounts for approximately 70% of total body weight. Average normal adult daily requirement ranges from two to three liters (1.0 to 1.5 liters each for insensible water loss by perspiration and urine production).</paragraph>
+                  <paragraph>Water balance is maintained by various regulatory mechanisms. Water distribution depends primarily on the concentration of electrolytes in the body compartments and sodium (Na<sup>+</sup>) plays a major role in maintaining physiologic equilibrium.</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="eb002090-b464-4691-afe1-25fccac364d5">
+               <id root="0023809f-a7fd-4391-ae20-acd3f395d5f1"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Tham Solution (tromethamine injection) is indicated for the                             prevention and correction of metabolic acidosis. In the following                             conditions it may help to sustain vital functions and thus provide time                             for treatment of the primary disease:</paragraph>
+                  <list listType="ordered">
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="emphasis">
+                           <content styleCode="bold">Metabolic Acidosis Associated with                                         Cardiac Bypass Surgery.</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>Tham Solution has been found to be primarily beneficial                                     in correcting metabolic acidosis which may occur during or                                     immediately following cardiac bypass surgical                                 procedures.</item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="emphasis">
+                           <content styleCode="bold">Correction of Acidity of ACD Blood in                                         Cardiac Bypass Surgery.</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>It is well known that ACD blood is acidic and becomes                                     more acidic on storage. Tromethamine effectively corrects this                                     acidity. Tham Solution may be added directly to the blood used                                     to prime the pump-oxygenator. When ACD blood is brought to a                                     normal pH range the patient is spared an initial acid load.                                     Additional tromethamine may be indicated during cardiac bypass                                     surgery should metabolic acidosis appear.</item>
+                     <item>
+                        <caption> </caption>
+                        <content styleCode="emphasis">
+                           <content styleCode="bold">Metabolic Acidosis Associated with                                         Cardiac Arrest.</content>
+                        </content>
+                     </item>
+                     <item>
+                        <caption> </caption>Acidosis is nearly always one of the consequences of                                     cardiac arrest and, in some instances, may even be a causative                                     factor in arrest. It is important therefore, that the correction                                     of acidosis should be started promptly with other resuscitative                                     efforts. By correcting acidosis, Tham Solution (tromethamine                                     injection) has caused the arrested heart to respond to                                     resuscitative efforts after standard methods alone had failed.                                     In these cases, tromethamine was given intraventricularly. It is                                     to be noted, however, that such precariously ill patients often                                     have died subsequently of causes unrelated to the administration                                     of tromethamine. With administration by the peripheral venous                                     route, metabolic acidosis has been corrected in a majority of                                     patients. The success in reinstitution of cardiac rhythm by this                                     means probably has not been of the same order of magnitude as                                     with the intraventricular route.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="d9d7f1e7-ae74-42d6-bc63-20c1b7f821f5">
+               <id root="aad870a7-355f-4a70-9ef8-1bc6ee5ce559"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Tham Solution (tromethamine injection) is contraindicated in                             uremia and anuria. In neonates it is also contraindicated in chronic                             respiratory acidosis and salicylate intoxication.</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c7364952-ae7e-42ca-be79-10756c876fd8">
+               <id root="9088c4db-fda1-49df-a899-dfc64b69e80d"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption> </caption>Large doses of Tham Solution may depress ventilation, as                                     a result of increased blood pH and reduced CO<sub>2</sub>                                     concentration. Thus, dosage should be adjusted so that blood pH                                     is not allowed to increase above normal. In situations in which                                     respiratory acidosis may be present concomitantly with metabolic                                     acidosis, the drug may be used with mechanical assistance to                                     ventilation.</item>
+                     <item>
+                        <caption> </caption>Care must be exercised to prevent perivascular                                     infiltration since this can cause inflammation, necrosis and                                     sloughing of tissue. Venospasm and intravenous thrombosis, which                                     may occur during infusion, can be minimized by insuring that the                                     injection needle is well within the largest available vein and                                     that solutions are slowly infused. Intravenous catheters are                                     recommended. If perivascular infiltration occurs, institute                                     appropriate countermeasures (see <content styleCode="bold">
+                           <linkHtml href="#addaebe3-5cc8-48f9-8c9c-151ee7c58e98">ADVERSE REACTIONS</linkHtml>
+                        </content>).</item>
+                     <item>
+                        <caption> </caption>Tham Solution (tromethamine injection) should be                                     administered slowly and in amounts sufficient only to correct                                     the existing acidosis, and to avoid overdosage and alkalosis.                                     Overdosage in terms of total drug and/or too rapid                                     administration, may cause hypoglycemia of a prolonged duration                                     (several hours). Therefore, frequent blood glucose                                     determinations should be made during and after                                 therapy.</item>
+                     <item>
+                        <caption> </caption>Extreme care should be exercised in patients with renal                                     disease or reduced urinary output because of potential                                     hyperkalemia and the possibility of a decreased excretion of                                     tromethamine. In such patients, the drug should be used                                     cautiously with electrocardiographic monitoring and frequent                                     serum potassium determinations.</item>
+                     <item>
+                        <caption> </caption>Because clinical experience has been limited generally to                                     short-term use, the drug should not be administered for more                                     than a period of one day except in a life-threatening                                 situation.</item>
+                  </list>
+                  <paragraph>The intravenous administration of Tham Solution can cause fluid                             and/or solute overloading resulting in dilution of serum electrolyte                             concentrations, overhydration, congested states or pulmonary edema.</paragraph>
+                  <paragraph>Additives may be incompatible. Consult with pharmacist, if                             available. When introducing additives, use aseptic technique, mix                             thoroughly and do not store.</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c6665da0-a511-47a4-9881-04f75bfdae1b">
+               <id root="457a618b-6279-48e9-a773-22e9f10fe2dd"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <list listType="ordered">
+                     <item>
+                        <caption> </caption>Blood pH, PCO<sub>2</sub> bicarbonate, glucose and                                     electrolyte determinations should be performed before, during                                     and after administration of Tham Solution.</item>
+                     <item>
+                        <caption> </caption>While it has not been shown that the drug increases                                     coagulation time in humans, this possibility should be kept in                                     mind since this has been noted experimentally in                                 dogs.</item>
+                  </list>
+                  <paragraph>Do not administer unless solution is clear and seal is intact.                             Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+               <component>
+                  <section ID="d2cb240b-6e73-4e65-b2df-1cef3d0dce81">
+                     <id root="e0a67362-5964-481e-b256-290ac1d14610"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy:</title>
+                     <text>
+                        <paragraph>Animal reproduction studies have not been conducted with                                     tromethamine. It is also not known whether tromethamine can                                     cause fetal harm when administered to a pregnant woman or can                                     affect reproduction capacity. Tromethamine should be given to a                                     pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20231218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="c8d93d34-aa56-4ba6-bf3d-d4c5c85fd3e1">
+                     <id root="ff32f215-f5ba-4d03-87f0-065be3b24f08"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers:</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human                                     milk. Because many drugs are excreted in human milk, caution                                     should be exercised when THAM Solution is administered to a                                     nursing mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20231218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="a8a4eb75-311f-4a13-821f-31a73f56ffd0">
+                     <id root="4affe771-1205-4e86-8ce0-168cc4be23e1"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis,                                 Impairment of Fertility:</title>
+                     <text>
+                        <paragraph>Studies with THAM Solution have not been performed to                                     evaluate carcinogenic potential, mutagenic potential or effects                                     on fertility.</paragraph>
+                     </text>
+                     <effectiveTime value="20231218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="da8c3e59-4d92-47de-98e6-a9f9d08be221">
+                     <id root="c32b6db2-7f9a-4dc1-b04c-9f992a44888c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use:</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of THAM Solution in                                     pediatric patients is based on over 30 years’ clinical                                     experience documented in the literature and on safety                                     surveillance. THAM Solution has been used to treat severe cases                                     of metabolic acidosis with concurrent respiratory acidosis                                     because it does not raise PCO<sub>2</sub> as bicarbonate does in                                     neonates and infants with respiratory failure. It has also been                                     used in neonates and infants with hypernatremia and metabolic                                     acidosis to avoid the additional sodium given with the                                     bicarbonate. However, because the osmotic effects of THAM                                     Solution are greater and large continuous doses are required,                                     bicarbonate is preferred to THAM Solution in the treatment of                                     acidotic neonates and infants with RDS. <content styleCode="emphasis">
+                              <content styleCode="bold">Hypoglycemia may occur when this product is                                         used in premature and even full-term neonates </content>
+                           </content> (see <content styleCode="bold">
+                              <linkHtml href="#c7364952-ae7e-42ca-be79-10756c876fd8">WARNINGS</linkHtml>
+                           </content>                                         and <content styleCode="bold">
+                              <linkHtml href="#addaebe3-5cc8-48f9-8c9c-151ee7c58e98">ADVERSE REACTIONS</linkHtml>
+                           </content>).</paragraph>
+                     </text>
+                     <effectiveTime value="20231218"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="d4a14405-07d7-4abb-ae25-78499264c76e">
+                     <id root="86846676-bfd8-401f-8716-0b979fe19fcc"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use:</title>
+                     <text>
+                        <paragraph>Clinical studies of Tham solution did not include                                     sufficient numbers of subjects aged 65 and over to determine                                     whether they respond differently from younger subjects. Other                                     reported clinical experience has not identified differences in                                     response between the elderly and younger patients. In general,                                     dose selection for an elderly patient should be cautious,                                     usually starting at the low end of the dosing range, reflecting                                     the greater frequency of decreased hepatic, renal, or cardiac                                     function, and of concomitant disease or other drug therapy.</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the                                     kidney, and the risk of toxic reactions to this drug may be                                     greater in patients with impaired renal function. Because                                     elderly patients are more likely to have decreased renal                                     function, care should be taken in dose selection, and it may be                                     useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20231218"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="addaebe3-5cc8-48f9-8c9c-151ee7c58e98">
+               <id root="80c342ef-8bd0-4e71-aa32-bb01c3bf9dba"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Generally, side effects have been infrequent.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Respiratory:</content>
+                     </content> Although the                             incidence of ventilatory depression is low, it is important to keep in                             mind that such depression may occur. Respiratory depression may be more                             likely to occur in patients who have chronic hypoventilation or those                             who have been treated with drugs which depress respiration. In patients                             with associated respiratory acidosis, tromethamine should be                             administered with mechanical assistance to ventilation.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Vascular:</content>
+                     </content> Extreme care                             should be taken to avoid perivascular infiltration. Local tissue damage                             and subsequent sloughing may occur if extravasation occurs. Chemical                             phlebitis and venospasm also have been reported.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Hematologic:</content>
+                     </content> Transient                             depression of blood glucose may occur.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="italics">Hepatic:</content>
+                     </content> Infusion via                             low-lying umbilical venous catheters has been associated with                             hepatocellular necrosis.</paragraph>
+                  <paragraph>Reactions which may occur because of the solution or the                             technique of administration include febrile response, infection at the                             site of injection, venous thrombosis or phlebitis extending from the                             site of injection extravasation and hypervolemia.</paragraph>
+                  <paragraph>If an adverse reaction does occur, discontinue the infusion,                             evaluate the patient, institute appropriate therapeutic countermeasures                             and save the remainder of the fluid for examination if deemed                         necessary.</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="b05348c6-e019-4f09-a137-f78e01d9d071">
+               <id root="5596de7f-966e-479f-b618-c71a264ff5a6"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Too rapid administration and/or excessive amounts of tromethamine                             may cause alkalosis, hypoglycemia, overhydration or solute overload. In                             the event of overdosage, discontinue the infusion, evaluate the patient                             and institute appropriate countermeasures (see <content styleCode="bold">
+                        <linkHtml href="#c7364952-ae7e-42ca-be79-10756c876fd8">WARNINGS</linkHtml>
+                     </content>, <content styleCode="bold">
+                        <linkHtml href="#c6665da0-a511-47a4-9881-04f75bfdae1b">PRECAUTIONS</linkHtml>
+                     </content> and                             <content styleCode="bold">
+                        <linkHtml href="#addaebe3-5cc8-48f9-8c9c-151ee7c58e98">ADVERSE REACTIONS</linkHtml>
+                     </content>). </paragraph>
+                  <paragraph>The LD<sub>50</sub> values for the acute intravenous toxicity of                             THAM are influenced by the rate of infusion of the dose administered.</paragraph>
+                  <paragraph> Intravenous LD<sub>50</sub> Mice = 3,500 mg/kg</paragraph>
+                  <paragraph> Intravenous LD<sub>50</sub> Rats = 2,300 mg/kg</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="c053917e-d28e-47d0-8408-6d80ef88eaa0">
+               <id root="67613335-3606-4e7d-9905-abebafa3bf00"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Tham Solution (tromethamine injection) is administered by slow                             intravenous infusion, by addition to pump-oxygenator ACD blood or other                             priming fluid or by injection into the ventricular cavity during cardiac                             arrest. For infusion by peripheral vein, a large needle should be used                             in the largest antecubital vein or an indwelling catheter placed in a                             large vein of an elevated limb to minimize chemical irritation of the                             alkaline solution during infusion. Catheters are recommended.</paragraph>
+                  <paragraph>Dosage and rate of administration should be carefully supervised                             to avoid overtreatment (alkalosis). Pretreatment and subsequent                             determinations of blood values (e.g. pH, PCO<sub>2</sub>,                             PO<sub>2</sub>, glucose and electrolytes) and urinary output should be                             made as necessary to monitor dosage and progress of treatment. In                             general, dosage should be limited to an amount sufficient to increase                             blood pH to normal limits (7.35 to 7.45) and to correct acid-base                             derangements. The total quantity to be administered during the period of                             illness will depend upon the severity and progression of the acidosis.                             The possibility of some retention of tromethamine, especially in                             patients with impaired renal function, should be kept in mind.</paragraph>
+                  <paragraph>The intravenous dosage of Tham Solution (tromethamine injection)                             may be estimated from the buffer base deficit of the extracellular fluid                             in mEq/liter determined by means of the Siggaard-Andersen nomogram. The                             following formula is intended as a general guide:</paragraph>
+                  <paragraph>Tham Solution (mL of 0.3 M) Required =</paragraph>
+                  <paragraph>Body Weight (kg) X</paragraph>
+                  <paragraph>Base Deficit (mEq/liter) X 1.1*</paragraph>
+                  <paragraph>Thus, a 70 kg patient with a buffer base deficit                             (“negative base excess”) of 5 mEq/liter would                             require 70 x 5 x 1.1 = 385 mL of Tham Solution containing 13.9 g (115                             mEq) of tromethamine. The need for administration of additional Tham                             Solution is determined by serial determinations of the existing base                             deficit.</paragraph>
+                  <paragraph>* Factor of 1.1 accounts for an approximate reduction of 10% in                             buffering capacity due to the presence of sufficient acetic acid to                             lower pH of the 0.3 M solution to approximately 8.6.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Correction of Metabolic Acidosis                                 Associated with Cardiac Bypass Surgery:</content>
+                     </content> An adverse dose of                             approximately 9.0 mL/kg (324 mg/kg) has been used in clinical studies                             with Tham Solution (tromethamine injection). This is equivalent to a                             total dose of 630 mL (189 mEq) for 70 kg patient. A total single dose of                             500 mL (150 mEq) is considered adequate for most adults. Larger single                             doses (up to 1000 mL) may be required in unusually severe cases.</paragraph>
+                  <paragraph>It is recommended that individual doses should not exceed 500                             mg/kg (227 mg/lb) over a period of not less than one hour. Thus, for a                             70 kg (154 pound) patient the dose should not exceed a maximum of 35 g                             per hour (1078 mL of a 0.3 M solution). Repeated determinations of pH                             and other clinical observations should be used as a guide to the need                             for repeat doses.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Correction of Acidity of ACD Blood in                                 Cardiac Bypass Surgery:</content>
+                     </content> The pH of stored blood ranges from                             6.80 to 6.22 depending upon the duration of storage. The amount of Tham                             Solution used to correct this acidity ranges from 0.5 to 2.5 g (15 to 77                             mL of a 0.3 M solution) added to each 500 mL of ACD blood used for                             priming the pump-oxygenator. Clinical experience indicates that 2 g (62                             mL of a 0.3 M solution) added to 500 mL of ACD blood is usually                             adequate.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Correction of Metabolic Acidosis                                 Associated with Cardiac Arrest:</content>
+                     </content> In the treatment of                             cardiac arrest, Tham Solution should be given at the same time that                             other standard resuscitative measures, including manual systole, are                             being applied. If the chest is open, Tham Solution is injected directly                             into the ventricular cavity. From 2 to 6 g (62 to 185 mL of a 0.3 M                             solution) should be injected immediately. <content styleCode="emphasis">
+                        <content styleCode="bold">
+                           <content styleCode="italics">Do not inject into the cardiac                             muscle.</content>
+                        </content>
+                     </content>
+                  </paragraph>
+                  <paragraph>If the chest is not open, from 3.6 to 10.8 g (111 to 333 mL of a                             0.3 M solution) should be injected immediately into a larger peripheral                             vein. Additional amounts may be required to control acidosis persisting                             after cardiac arrest is reversed.</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Correction of Metabolic Acidosis                                 Associated with RDS in Neonates and Infants:</content>
+                     </content> The initial                             dose of Tham Solution should be based on initial pH and birthweight                             amounting to approximately 1 mL per kg for each pH unit below 7.4.                             Further doses have been given according to changes in                                 P<sub>a</sub>O<sub>2</sub>, pH and PCO<sub>2</sub>.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for                             particulate matter and discoloration prior to administration, whenever                             solution and container permit (see <content styleCode="bold">
+                        <linkHtml href="#d9d7f1e7-ae74-42d6-bc63-20c1b7f821f5">CONTRAINDICATIONS</linkHtml>
+                     </content>).</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ba045f56-4783-49e1-b045-94458057f806">
+               <id root="af90ca60-292a-4119-bbdb-4337edf99a93"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Tham Solution (tromethamine injection) is available as:</paragraph>
+                  <table width="55%">
+                     <col width="50%"/>
+                     <col width="50%"/>
+                     <thead>
+                        <tr>
+                           <th align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <content styleCode="bold">Unit of Sale</content>
+                           </th>
+                           <th align="center" styleCode="Rrule Botrule Toprule " valign="top">
+                              <content styleCode="bold">Concentration</content>
+                           </th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td align="center" styleCode="Rrule Botrule Lrule Toprule " valign="top">
+                              <paragraph>
+                                 <content styleCode="bold">NDC-0409-1593-04</content>
+                                 <br/>Case of 6 Single-dose 500 mL large volume glass containers</paragraph>
+                           </td>
+                           <td align="center" styleCode="Rrule Botrule Toprule " valign="top">
+                              <paragraph>500 mL<br/>(150 mEq)</paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Store at 20 to 25°C (68 to 77°F). [See USP Controlled Room Temperature.]</paragraph>
+                  <paragraph>
+                     <content styleCode="emphasis">
+                        <content styleCode="bold">Protect from freezing.</content>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_26c64576-61cf-4846-ab61-8f1dec42ec34">
+               <id root="e4e62ca4-c155-4df6-b32d-f3d7edd5b55a"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <renderMultiMedia ID="id694" referencedObject="MM1"/>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest, IL 60045 USA</paragraph>
+                  <paragraph>LAB-1213-2.0</paragraph>
+                  <paragraph>Revised: 2/2020</paragraph>
+               </text>
+               <effectiveTime value="20231218"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Hospira Logo</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tham-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="ID_f7c8b6b2-1b1c-441d-9a43-df4e4e43eb19">
+               <id root="4643c068-1331-4703-aefb-1cc5254c32fb"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 500 mL Bottle Label</title>
+               <text>
+                  <paragraph>500 mL</paragraph>
+                  <paragraph>THAM<br/>SOLUTION<br/>Tromethamine Injection</paragraph>
+                  <paragraph>Rx only</paragraph>
+                  <paragraph>Distributed by Hospira, Inc., Lake Forest,<br/>IL 60045 USA</paragraph>
+                  <paragraph>Hospira</paragraph>
+                  <renderMultiMedia ID="id720" referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20241213"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL - 500 mL Bottle Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="tham-03.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

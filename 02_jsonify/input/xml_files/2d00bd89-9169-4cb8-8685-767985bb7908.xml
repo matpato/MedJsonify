@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="2d00bd89-9169-4cb8-8685-767985bb7908"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>Histamine 366140-H05 Initial Upload to Intagras SPL Portal</title>
+   <effectiveTime value="20260403"/>
+   <setId root="5c20f3f4-65f8-4cdb-bdd1-5774da1c551b"/>
+   <versionNumber value="16"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="069263643" root="1.3.6.1.4.1.519.1"/>
+            <name>Jubilant HollisterStier LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="119241112" root="1.3.6.1.4.1.519.1"/>
+                  <name>Jubilant HollisterStier LLC - HollisterStier Allergy</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="a8226818-2de2-4ebf-af82-bbc9109280cf"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260403"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="65044-9998" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Positive Skin Test Control - Histamine</name>
+                        <formCode code="C42946" displayName="INJECTION" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Histamine</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="820484N8I3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HISTAMINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="820484N8I3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>HISTAMINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="8MDF5V39QO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BICARBONATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="mL" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="65044-9998-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" displayName="VIAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19950615"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="BLA103891" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73585" displayName="BLA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19950615"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38676" displayName="PERCUTANEOUS" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_18fb1e76-fe49-4395-80ef-cc9523256688">
+               <id root="0a01443e-e5ce-435f-a4f8-ecc3e6b58927"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>POSITIVE SKIN TEST CONTROL - HISTAMINE</title>
+               <text>
+                  <paragraph>For Percutaneous (Scratch, Prick or Puncture) Administration <br/>Histamine Base: 6mg/mL<br/>(Histamine Dihydrochloride: 10mg/mL)<br/>
+                     <content styleCode="bold">This product is to be used by a physician or under the supervision of a physician.</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_ccf20a2b-8efe-4cb9-99c4-9d82a8cd8e97">
+               <id root="75df603b-d71a-46a5-bf54-473335fac65d"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Histamine Dihydrochloride contains histamine, a potent vasodilator having the chemical name 2-(4-Imidazolyl) ethylamine. Histamine has an empirical formula of C<sub>5</sub>H<sub>9</sub>N<sub>3</sub>, a molecular weight of 111.15, and the following chemical structure:<br/>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Histamine Dihydrochloride is available in the following strengths:<br/>
+                     <content styleCode="bold">1. SCRATCH, PRICK or PUNCTURE TEST CONTROL:</content>
+                     <br/>Positive Skin Test Control - Histamine contains 6.0 mg/mL Histamine Base and is a clear, colorless, sterile solution. It consists of Histamine Dihydrochloride 10mg/mL, Sodium Chloride 0.5%, Sodium Bicarbonate 0.275%, and Glycerin 50.0% (v/v) as a preservative.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Histamine Chemical</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="histamine-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_37be120b-d19f-4773-a6bb-c375c3d26023">
+               <id root="e2381b4e-7fe1-44ca-952d-66088864c969"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Pharmacological actions of histamine include the increase of capillary and post capillary venular permeability. This vascular change leads to the wheal-flare response. Large reactions can cause an amplification of a reaction to a nearby skin test.  Histamine is degraded either by oxidative deamination or by methylation and oxidative deamination so that the principal excretion products are imidazoleacetic acid-riboside and 1-methyl imidazoleacetic acid respectively.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">2</linkHtml>
+                  </paragraph>
+                  <paragraph>10 atopic subjects and 10 non-atopics were tested with Positive Skin Test Control - Histamine Solutions, and two negative control solutions. Thirteen females (35-49 years old; mean age 36.5) and 7 males (23-45 years old; mean age 36.4) were tested. This study included 19 Caucasian subjects and 1 African American subject. Different skin test devices produce different skin test responses.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b"> (14,15)</linkHtml> Study results are summarized in Table 1 and Table 2. Atopic and non-atopic subject information was combined, as there were no significant differences in their skin responses.</paragraph>
+                  <paragraph>Summation of wheal (∑W) or summation of erythema (∑E) was determined by measuring the longest diameter and the mid-point orthoganol diameter of the wheal or erythema response and summing the two measurements.</paragraph>
+                  <br/>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <renderMultiMedia referencedObject="MM3"/>
+                  <paragraph>Malling tested 25 subjects using a straight needle prick technique with Histamine Dihydrochloride 10mg/mL and found wheal single diameters of 5.4-8.5mm (mean 7 mm).<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b"> 13</linkHtml>
+                  </paragraph>
+                  <paragraph>Histamine Dihydrochloride at 10mg/mL has been shown to elicit fewer false negative and false positive reactions than Histamine Dihydrochloride at 1mg/mL.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b"> 12</linkHtml> 10mg/mL Histamine Dihydrochloride has been shown to be the appropriate strength to perform biological standardization using skin reactivity to histamine as a standard of comparison.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">11,13</linkHtml>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Histamine Table1</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="histamine-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>Histamine Table2</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="histamine-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c4e879b1-c0e5-451d-9304-176e1625c008">
+               <id root="ddb67477-86bf-4667-8ee5-baa8fc51566d"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Positive Skin Test Control - Histamine is indicated as an adjunct in allergy skin test for diagnosis, as a positive control to test wheal-flare response of skin for evaluation of skin test response to allergenic extracts.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b3cbbd91-e2e9-4c79-9c23-522349eb1e15">
+               <id root="f329c036-eb91-4c47-a624-b52e7aa8b25e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Positive Skin Test Control - Histamine is contraindicated in patients with a history of hypersensitivity to histamine products, and in patients with hypotension, severe hypertension, vasomotor instability, severe cardiac, pulmonary or renal disease.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_95333f0a-ed30-4109-bed2-7949dc16a92f">
+               <id root="ac00c740-d28c-4cbb-8ddd-86a82f08dceb"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Attacks of severe asthma or other serious allergic conditions may be precipitated by the administration of Histamine Dihydrochloride in patients with bronchial disease.  Caution is advised in using histamine in such patients and in those with a history of bronchial asthma. Histamine Dihydrochloride has not been approved for unlabeled use as gastric acid stimulus or for detecting bronchial hyperactivity.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_8258c728-6cc8-49ad-85e4-159f1c1bf011">
+               <id root="500b4024-79b4-44f8-bfb5-270255d921d0"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20260403"/>
+               <component>
+                  <section ID="LINK_4e7e4aef-d1ee-455d-a72c-8b1b0485afd3">
+                     <id root="496cc975-3e98-424e-9235-8b8137b4a4df"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">(1) General:</content> It is necessary that scarifiers, syringes, and needles be properly sterilized before use on each patient to prevent the possibility of accidental transfer of serum hepatitis and other infectious agents from one person to another. Disposable products may also be used.<br/>Always have injectable epinephrine and a tourniquet available when any skin tests are being made. (See <linkHtml href="#LINK_3b01c3da-7b01-44fc-bc5c-a8f58c5a3370">ADVERSE REACTIONS</linkHtml> Section)<br/>Patients should be observed in the office for 30 minutes after administration of the test and instructed to return to the office promptly if symptoms of an allergic reaction or shock occur.</paragraph>
+                     </text>
+                     <effectiveTime value="20260403"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_3bcefca1-62db-4c0c-a8af-e009134ef583">
+                     <id root="94b5463e-d251-4bac-9270-e23e36d2109b"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">(2) Drug Interactions: </content>Certain medications may lessen the skin test wheal and erythema responses elicited by histamine for varying time periods. Conventional antihistamines should be discontinued at least 5 days before skin testing. Long acting antihistamines should be discontinued for at least 3 weeks prior to skin testing.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">7</linkHtml> Topical steroids should be discontinued at the skin test site for at least 2-3 weeks before skin testing.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">7,8</linkHtml>
+                        </paragraph>
+                        <paragraph>Tricyclic antidepressants such as Doxepin should be withheld for at least 7 days before skin testing.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">9</linkHtml> The physician must determine whether the risk of severe depression occurring in patients who discontinue their medication outweighs the benefits that could be obtained from skin testing. Topical local anesthetics may suppress the flare responses and should be avoided in skin test sites.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">10</linkHtml>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260403"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_6df1d181-4828-4631-ba40-507bbcebb4bc">
+                     <id root="2f717443-7044-43fb-8bad-7fce5b8394bb"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">(3) Carcinogenesis, Mutagenesis, Impairment of Fertility:</content> Studies have not been performed on Positive Skin Test Control-Histamine.</paragraph>
+                     </text>
+                     <effectiveTime value="20260403"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_d3cc0536-a081-44b0-bc75-fb47be50daf5">
+                     <id root="2e74c32c-a338-478f-9c04-d52e335eca96"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">(4) Pregnancy: </content>Positive Skin Test Control-Histamine. Animal reproduction studies have not been conducted on Histamine Dihydrochloride. It is also not known whether Histamine Dihydrochloride can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Histamine Dihydrochloride should be given to a pregnant woman only if clearly needed.</paragraph>
+                     </text>
+                     <effectiveTime value="20260403"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_8e5c573a-6a1c-4839-86fd-5c04bfef37a7">
+                     <id root="8f3d2dce-3b6b-4d55-bf06-c6adc6d25716"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">(5) Nursing Mothers:</content> It is unknown whether Histamine Dihydrochloride affects lactation or is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when Positive Skin Test Control-Histamine is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20260403"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_7663855e-2c02-4993-97dc-d896defae210">
+                     <id root="fd83ebb7-a915-4b2b-b8c8-c70fbf32ef9b"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="bold">(6) Pediatric Use: </content>Indications and dosage for the pediatric population are the same as for adults; however, the reactions to histamine are smaller. Studies have shown that the use of histamine solutions for skin test is safe in infants and young children.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">4,5,6</linkHtml>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260403"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_3b01c3da-7b01-44fc-bc5c-a8f58c5a3370">
+               <id root="f0c2d429-0f95-454a-a7a9-c17ad3185de0"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Large doses of histamine may precipitate systemic reactions. These reactions may include flushing, dizziness, headache, bronchial constriction, urticaria, asthma, marked hypotension or hypertension, abdominal cramps, vomiting, metallic taste, local or generalized allergic manifestations.</paragraph>
+                  <paragraph>An antihistamine preparation may be given orally, I.M. or I.V. to prevent or ameliorate systemic reactions to the drug.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">If a systemic or anaphylactic reaction does occur, apply a tourniquet above the site of injection and inject 1:1000 epinephrine-hydrochloride intramuscularly or subcutaneously into the opposite arm. Loosen the tourniquet at least every 10 minutes. Do not obstruct arterial blood flow with the tourniquet.</content>
+                  </paragraph>
+                  <paragraph>Epinephrine Dosage:<br/>ADULT: 0.3 to 0.5 mL should be injected. Repeat in 5 to 10 minutes if necessary.<br/>PEDIATRIC: The usual initial dose is 0.01 mg (mL) per kg body weight or 0.3 mg(mL) per square meter of body surface area. Suggested dosage for infants to 2 years of age is 0.05 mL to 0.1 mL; for children 2 to 6 years, 0.15 mL; and children 6 to 12 years, 0.2 mL. Single pediatric doses should not exceed 0.3 mg (mL). Doses may be repeated as frequently as every 20 minutes, depending on the severity of the condition and the response of the patient.</paragraph>
+                  <paragraph>After administration of epinephrine, profound shock or vasomotor collapse should be treated with intravenous fluids, and possibly vasoactive drugs. Oxygen should be given by mask.   Aminophylline or adrenal corticosteroids may be used if necessary after adequate epinephrine and circulatory support has been given.</paragraph>
+                  <paragraph>Emergency resuscitation measures and personnel trained in their use should be available immediately in the event of a serious systemic or anaphylactic reaction not responsive to the above measures (Ref. J. ALLERGY AND CLINICAL IMMUNOLOGY 77s (2): p. 271-273, 1986).<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">16</linkHtml>
+                  </paragraph>
+                  <paragraph>Rarely are all of the above measures necessary, the tourniquet and epinephrine usually producing prompt responses. However, the physician should be prepared in advance for all contingencies. Promptness in beginning emergency treatment measures is of utmost importance.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Adverse Event Reporting</content>
+                     <br/>Report all adverse events to Jubilant HollisterStier LLC Customer Technical Services Department at 1 (800) 992-1120. A voluntary adverse event reporting system for health professionals is available through the FDA MEDWATCH program. Preprinted forms (FDA Form 3500) are available from the FDA by calling 1 (800) FDA-1088. Completed forms should be mailed to MEDWATCH, 5600 Fisher Lane, Rockville, MD 20852-9787 or Fax to: 1 (800) FDA-0178.<br/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_29526aea-4ac4-4b71-a86e-4ef4ba24c55e">
+               <id root="1427386b-7461-4ee8-9514-1eb3a293ca99"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Overdosage may cause severe symptoms, including circulatory collapse, shock, and even death. Intravenous administration of histamine in normal volunteers at doses of up to 1.0 µg/kg/min produced flushing, headaches, tachycardia and decreased diastolic blood pressure.<linkHtml href="#LINK_86e5047b-d4c0-4a98-89a6-498e6076535b"> 1,2,3</linkHtml>
+                     <br/>See <linkHtml href="#LINK_3b01c3da-7b01-44fc-bc5c-a8f58c5a3370"> ADVERSE REACTIONS</linkHtml> Section for emergency treatment steps.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b07c614d-724f-49f7-864c-8352870de52a">
+               <id root="2d6c9699-4759-4e60-a7f9-6e413bf8f985"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>(1) General</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.  Prior to testing, clean the skin area with ether or alcohol and allow to dry. The back or the volar surface of the arms are the most satisfactory sites for testing.</paragraph>
+                  <paragraph>Skin of the posterior thighs or abdomen may be used if necessary. Avoid very hairy areas where possible, since the reactions will be smaller and more difficult to interpret there. The most satisfactory areas of the back are from the posterior axillary fold to 2.5 cm from the spinal column, and from the top of the scapula to the lower rib margins. The best areas of the arms are the volar surfaces from the axilla to 2.5 or 5 cm above the wrist, skipping the anti-cubital space.</paragraph>
+                  <paragraph>The histamine test should be applied in the same test area as other allergenic extracts tests, but spaced no closer than 4 to 5 cm from adjacent test sites. Use the same technique or procedure that you use for allergen testing. </paragraph>
+                  <paragraph>The negative control is the diluent used in the extract to be tested (e.g. 50% glycerin, Sterile Albumin Saline with Phenol, Sterile Buffered Saline with Phenol).</paragraph>
+                  <paragraph>With each skin testing method, in order for the reaction to Positive Skin Test Control-Histamine (6 mg/mL Histamine Base) to be considered valid, erythema must be present which exceeds the respective negative control by 4 mm (∑E).  A wheal reaction does not have to be elicited unless there is a wheal reaction to the respective negative control. In this case, the wheal of the positive control must exceed the negative control by 4 mm (∑W) in order to be considered appropriate. Record measurement of erythema and wheal diameters.</paragraph>
+                  <paragraph>Tables 1 and 2 summarize skin testing results with histamine base and controls in atopic and non-atopic subjects using four different devices and methods.</paragraph>
+                  <paragraph>(2) Scratch, Prick or Puncture Test: Positive Skin Test Control-Histamine, 6.0 mg/mL Histamine Base.<br/>The Scratch, Prick or Puncture test should be read in 15 minutes. If a large wheal reaction occurs before that time, wipe excess histamine solution from test site.</paragraph>
+                  <paragraph>a) Use a sterile scarifier for each patient.<br/>Hold the scarifier between the thumb and index finger, press the sharp edge of the instrument against the skin and twirl instrument rapidly. The scratch should disrupt the outer layers of epidermis down to the germinal layer, but should not produce immediate oozing of blood. The amount of pressure needed to produce a satisfactory scratch will vary between patients according to the thickness or fragility of their skin.<br/>Apply one drop of Positive Skin Test Control-Histamine to the scratch test site.<br/>
+                     <br/>b) Prick or Puncture Test: Prick tests are performed by placing a drop of extract on the skin and piercing through the drop into the skin with a slight lifting motion. Puncture tests are performed by placing a drop of extract on the skin and piercing through the drop perpendicular to the skin with a device such as a Prick Lancetter. After about 1 minute the extract may be wiped away with a dry sponge.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_87582bee-5219-4040-80b6-563e8628632d">
+               <id root="9f939e37-b85c-4cab-b439-17891527e738"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>SCRATCH, PRICK or PUNCTURE TEST: Positive Skin Test Control-Histamine (6.0 mg/mL Histamine Base), 5 mL sterile amber vial with dropper assembly.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_19e1e52f-b7f1-44f3-864a-06d893a8a4fb">
+               <id root="a9165afe-647e-4ee0-ae1e-000929793f02"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store at 2°- 8°C. Protect from light when not in use.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_86e5047b-d4c0-4a98-89a6-498e6076535b">
+               <id root="fdb96752-d41d-4833-ba54-063fd33509d5"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph>1. Lawlor, Glenn Jr., Thomas J. Fischer, ed., Immediate hypersensitivity: approach to diagnosis. Manual of Allergy and Immunology Diagnosis and Therapy. Little Brown and Company, Boston, 19, 95, 1981.</paragraph>
+                  <paragraph>2. Samter, Max, K. Frank Austin, ed.. Histamine and other mediators of allergic reactions. Immunological Diseases. Little, Brown and Company, Boston, pp. 332-335, 1971.<br/>
+                  </paragraph>
+                  <paragraph>3. Summers, Richard, Robert Sigler, James H. Schelhamer, and Michael Kaliner. Effects of infused histamine on asthmatic and normal subjects: comparison of skin test responses. J. Allergy Clin. Immunol. 67 (6): 456-464, June 1981.<br/>
+                  </paragraph>
+                  <paragraph>4. Gary, T.N., L.N. Gay. Skin reactions in infants: Susceptibility of the skin of the newborn to positive atopic sensitization, comparison with reaction to histamine. J. Allergy. 5:488, 1934.<br/>
+                  </paragraph>
+                  <paragraph>5. Kaliner, M., J. H. Shelhamer, and E.A. Ottesen. Effects of infused histamine: Correlation of plasma histamine levels and symptoms. J. Allergy Clin. Immunol. 69 (3): 283-289.<br/>
+                  </paragraph>
+                  <paragraph>6. Smith, M.A., L.E. Mansfeld, R. deShazo and H.S. Nelson. An evaluation of the pharmacologic inhibition of the immediate and late cutaneous effect to allergen. J. Allergy Clin. Immunol. 65: 188, 1980.<br/>
+                  </paragraph>
+                  <paragraph>7. Pipkorn, Ulf. Pharmacological influence of anti-allergic medication on <content styleCode="italics">In Vivo</content> allergen testing. Allergy. 43: 81-86, 1988.<br/>
+                  </paragraph>
+                  <paragraph>8. Andersson, M. and U. Pipkorn. Inhibition of the dermal immediate allergic reaction through prolonged treatment with topical glucocorticosteroids. J. Allergy Clinical Immunology. 79(2): 345-349, February 1987.<br/>
+                  </paragraph>
+                  <paragraph>9. Rao, Kamineni S., et al. Duration of suppressive effect of tricyclic anti-depressants on histamine induced wheal and flare reactions on human skin. J. Allergy Clinical Immunology. 82: 752-757, November 1988.<br/>
+                  </paragraph>
+                  <paragraph>10. Pipkorn, Ulf, and M. Andersson. Topical dermal anesthesia inhibits the flare but not the wheal response to allergen and histamine in the skin prick test. Clinical Allergy. 17: 307-311, 1987.<br/>
+                  </paragraph>
+                  <paragraph>11. Harris, R.I., M.A. Stern, H.K. Watson. Dose response curve of allergen and histamine in skin prick tests. Allergy. 43(8): 565-572, 1988.<br/>
+                  </paragraph>
+                  <paragraph>12. Berkowitz, R.B., D.G. Tinkleman, C. Lutz, et al. Evaluation of the multi test device for immediate hypersensitivity skin testing. J. Allergy Clin. Immunol. 90:979-985, 1992.<br/>
+                  </paragraph>
+                  <paragraph>13. Malling, H. J. Skin prick testing and the use of histamine references. Allergy. 39:596-601, 1984.<br/>
+                  </paragraph>
+                  <paragraph>14. Demoly, P., J. Bousquet, J.C. Manderscheid, et al. Precision of skin prick and puncture tests with nine methods. J. Allergy Clin. Immunol. 88(5):758-762, Nov. 1991.<br/>
+                  </paragraph>
+                  <paragraph>15. Nelson, H.S., D.M. Rosloniec, L.L. McCall, D. Ikle. Comparative performance of five commercial prick skin test devices. J. Allergy Clin. Immunol. 92:750-756, 1993.<br/>
+                  </paragraph>
+                  <paragraph>16. Personnel and equipment to treat systemic reactions caused by immunotherapy with allergenic extracts. J. Allergy Clin. Immunol. 77(2):271-273, February 1986.</paragraph>
+               </text>
+               <effectiveTime value="20260403"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_910c7429-04b3-49ad-bde5-d6933468642b">
+               <id root="0adc0010-82c8-4123-bca7-8972444b14aa"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM4">
+                     <caption>5mL Positive Skin Test Control-Histamine, Carton</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="MM5">
+                     <caption>7099ED – 5mL 10 mg/mL Positive Skin Test Control-Histamine, Carton Label</caption>
+                  </renderMultiMedia>
+                  <renderMultiMedia referencedObject="MM6">
+                     <caption>7099ED – 5mL 10 mg/mL Positive Skin Test Control-Histamine, Container Label</caption>
+                  </renderMultiMedia>
+               </text>
+               <effectiveTime value="20260403"/>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>5mL Positive Skin Test Control-Histamine, Carton</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="histamine-4.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>7099ED – 5mL 10 mg/mL Positive Skin Test Control-Histamine, Carton Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="histamine-5.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>7099ED – 5mL 10 mg/mL Positive Skin Test Control-Histamine, Container Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="histamine-6.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

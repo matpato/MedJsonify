@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="c0be08fc-d144-437c-9890-fa29b33eb3fb"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>3% Polocaine<sup>®</sup> DENTAL <br/>Mepivacaine Hydrochloride 3% (30 mg/mL)<br/>(Mepivacaine Hydrochloride Injection, USP) <br/>2% Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000 <br/>Mepivacaine Hydrochloride 2% (20 mg/mL) with Levonordefrin 1:20,000<br/>(Mepivacaine Hydrochloride and Levonordefrin Injection, USP)</title>
+   <effectiveTime value="20240221"/>
+   <setId root="eb7e2284-fe8d-46ad-b1d3-92ee2c6222bf"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="201719960"/>
+            <name>Novocol Pharmaceutical of Canada Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="201719960"/>
+                        <name>Novocol Pharmaceutical of Canada Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51004-4411" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="6e84f934-0994-4c6a-8ede-a2a3b9d4e883"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260324"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51004-4411" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Polocaine</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Mepivacaine Hydrochloride</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="30"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4VFX2L7EM5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MEPIVACAINE HYDROCHLORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="B6E06QE59J" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MEPIVACAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="6"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1.7" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43183" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTRIDGE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="50" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51004-4411-6" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="19841010"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA088387" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19841010"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38301" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBMUCOSAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="2c95691e-60da-4fff-ab29-0cfbc6c3172b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>THESE SOLUTIONS ARE INTENDED FOR DENTAL USE ONLY.</paragraph>
+               </text>
+               <effectiveTime value="20190829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DESCRIPTION">
+               <id root="054ba9fb-2e16-485a-877c-5ad34d43df6a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Mepivacaine Hydrochloride, a tertiary amine used as a local anesthetic, is 1-methyl-2,' 6' - pipecoloxylidide monohydrochloride with the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>It is a white, crystalline, odorless powder soluble in water, but very resistant to both acid and alkaline hydrolysis.</paragraph>
+                  <paragraph>Levonordefrin, a sympathomimetic amine used as a vasoconstrictor in local anesthetic solution, is (-)-α-(1-Aminoethyl)-3, 4-dihydroxybenzyl alcohol with the following structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+                  <paragraph>It is a white or buff-colored crystalline solid, freely soluble in aqueous solutions of mineral acids, but practically insoluble in water.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">DENTAL CARTRIDGES MAY NOT BE AUTOCLAVED.</content>
+                  </paragraph>
+                  <paragraph>3% (30 mg/mL) Polocaine<sup>®</sup> DENTAL (mepivacaine hydrochloride injection 3% (30 mg/mL)) and 2% (20 mg/mL) Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000 (mepivacaine hydrochloride 2% (20 mg/mL) with levonordefrin 1:20,000 injection) are sterile solutions for injection.</paragraph>
+                  <table width="75%">
+                     <colgroup>
+                        <col width="70%" align="left" valign="top"/>
+                        <col width="15%" align="left" valign="top"/>
+                        <col width="15%" align="left" valign="top"/>
+                     </colgroup>
+                     <thead>
+                        <tr styleCode="First Last">
+                           <th align="left">COMPOSITION:</th>
+                           <th colspan="2" align="center">CARTRIDGE</th>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td colspan="2" align="left">The pH of the 2% cartridge solution is adjusted between 3.3 and 5.5 with NaOH.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" align="left">The pH of the 3% cartridge solution is adjusted between 4.5 and 6.8 with NaOH.</td>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr>
+                           <td align="left">Each mL contains:</td>
+                           <td align="left">2%</td>
+                           <td align="left">3%</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Mepivacaine Hydrochloride</td>
+                           <td align="left">20 mg</td>
+                           <td align="left">30 mg</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Levonordefrin</td>
+                           <td align="left">0.05 mg</td>
+                           <td align="left">-</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Sodium Chloride</td>
+                           <td align="left">4 mg</td>
+                           <td align="left">6 mg</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Potassium metabisulfite</td>
+                           <td align="left">1.2 mg</td>
+                           <td align="left">-</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Edetate disodium</td>
+                           <td align="left">0.25 mg</td>
+                           <td align="left">-</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Sodium Hydroxide q.s. ad pH; Hydrochloric Acid</td>
+                           <td align="left">0.5 mg</td>
+                           <td align="left">-</td>
+                        </tr>
+                        <tr>
+                           <td align="left">Water For Injection, qs. ad.</td>
+                           <td align="left">1 mL</td>
+                           <td align="left">1 mL</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20201216"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="polocaine-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="polocaine-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="CP">
+               <id root="32507b7f-1d6b-425e-91eb-3da836f7a233"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Polocaine<sup>®</sup> stabilizes the neuronal membrane and prevents the initiation and transmission of nerve impulses, thereby effecting local anesthesia.</paragraph>
+                  <paragraph>Polocaine<sup>®</sup> is rapidly metabolized, with only a small percentage of the anesthetic (5 to 10 percent) being excreted unchanged in the urine. Polocaine<sup>®</sup> because of its amide structure, is not detoxified by the circulating plasma esterases. The liver is the principal site of metabolism, with over 50 percent of the administered dose being excreted into the bile as metabolites. Most of the metabolized mepivacaine is probably resorbed in the intestine and then excreted into the urine since only a small percentage is found in the feces. The principal route of excretion is via the kidney. Most of the anesthetic and its metabolites are eliminated within 30 hours. It has been shown that hydroxylation and N-demethylation, which are detoxification reactions, play important roles in the metabolism of the anesthetic. Three metabolites of mepivacaine have been identified from adult humans: two phenols, which are excreted almost exclusively as their glucuronide conjugates, and the N-demethylated compound (2,' 6' - pipecoloxylidide).</paragraph>
+                  <paragraph>The onset of action is rapid (30 to 120 seconds in the upper jaw; 1 to 4 minutes in the lower jaw) and 3% (30 mg/mL) Polocaine<sup>®</sup> DENTAL will ordinarily provide operating anesthesia of <content styleCode="bold">20 minutes</content> in the <content styleCode="bold">upper jaw</content> and <content styleCode="bold">40 minutes</content> in the <content styleCode="bold">lower jaw</content>.</paragraph>
+                  <paragraph>2% (20 mg/mL) Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000 provides anesthesia of longer duration for more prolonged procedures, <content styleCode="bold">1 hour to 2.5 hours</content> in the <content styleCode="bold">upper jaw</content> and <content styleCode="bold">2.5 hours to 5.5 hours</content> in the <content styleCode="bold">lower jaw</content>.</paragraph>
+                  <paragraph>Polocaine<sup>®</sup> does not ordinarily produce irritation or tissue damage.</paragraph>
+                  <paragraph>Levonordefrin is a sympathomimetic amine used as a vasoconstrictor in local anesthetic solutions. It has pharmacologic activity similar to that of Epinephrine but it is more stable than Epinephrine.</paragraph>
+                  <paragraph>In equal concentrations, Levonordefrin is less potent than Epinephrine in raising blood pressure, and as a vasoconstrictor.</paragraph>
+               </text>
+               <effectiveTime value="20201216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="IU">
+               <id root="075ed909-1f09-42a3-8431-d8c75c8e5d9a"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Mepivacaine is indicated for production of local anesthesia for dental procedures by infiltration or nerve block in adults and pediatric patients.</paragraph>
+               </text>
+               <effectiveTime value="20190829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="CONTRAINDICATIONS">
+               <id root="f61655a9-a0c9-46b6-95ad-5b7d724ec966"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Polocaine<sup>®</sup> is contraindicated in patients with a known hypersensitivity to amide-type local anesthetics.</paragraph>
+               </text>
+               <effectiveTime value="20190829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="WARNINGS">
+               <id root="23340cd1-18db-48e9-a70b-f1a266a432bc"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>RESUSCITATIVE EQUIPMENT AND DRUGS SHOULD BE IMMEDIATELY AVAILABLE. (See <linkHtml href="#AR">ADVERSE REACTIONS</linkHtml>).</paragraph>
+                  <paragraph>Reactions resulting in fatality have occurred on rare occasions with the use of local anesthetics, even in the absence of a history of hypersensitivity.</paragraph>
+                  <paragraph>Fatalities may occur with use of local anesthetics in the head and neck region as the result of retrograde arterial flow to vital CNS areas even when maximum recommended doses are observed. The practitioner should be alert to early evidences of alteration in sensorium or vital signs.</paragraph>
+                  <paragraph>The solution which contains a vasoconstrictor (2% (20 mg/mL) Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000) should be used with extreme caution for patients whose medical history and physical evaluation suggest the existence of hypertension, arteriosclerotic heart disease, cerebral vascular insufficiency, heart block, thyrotoxicosis and diabetes, etc.</paragraph>
+                  <paragraph>The solution which contains a vasoconstrictor (2% (20 mg/mL) Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000) also contains potassium metabisulfite, a sulfite that may cause allergic-type reactions including anaphylactic symptoms and life-threatening or less severe asthmatic episodes in certain susceptible people.</paragraph>
+                  <paragraph>The overall prevalence of sulfite sensitivity in the general population is unknown and probably low. Sulfite sensitivity is seen more frequently in asthmatic than in non-asthmatic people. 3% (30 mg/mL) Polocaine<sup>®</sup> DENTAL is SULFITE FREE.</paragraph>
+                  <paragraph>The American Heart Association has made the following recommendations regarding the use of local anesthetics with vasoconstrictors in patients with ischemic heart disease: "Vasoconstrictor agents should be used in local anesthesia solutions during dental practice only when it is clear that the procedure will be shortened or the analgesia rendered more profound. When a vasoconstrictor is indicated, extreme care should be taken to avoid intravascular injection. The minimum possible amount of vasoconstrictor should be used." (Kaplan, EL, editor: Cardiovascular disease in dental practice, Dallas 1986, American Heart Association.)</paragraph>
+               </text>
+               <effectiveTime value="20201216"/>
+               <component>
+                  <section>
+                     <id root="cf491d2b-b17b-4dea-ba41-8902b424f58d"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Methemoglobinemia</title>
+                     <text>
+                        <paragraph>Cases of methemoglobinemia have been reported in association with local anesthetic use; Polocaine<sup>®</sup>, along with other local anesthetics, is capable of producing this condition. Although all patients are at risk for methemoglobinemia, patients with glucose-6-phosphate dehydrogenase deficiency, congenital or idiopathic methemoglobinemia, cardiac or pulmonary compromise, infants under 6 months of age, and concurrent exposure to oxidizing agents or their metabolites are more susceptible to developing clinical manifestations of the condition. If local anesthetics must be used in these patients, close monitoring for symptoms and signs of methemoglobinemia is recommended.</paragraph>
+                        <paragraph>Signs of methemoglobinemia may occur immediately or may be delayed some hours after exposure, and are characterized by cyanosis of the skin, nail beds and lips, and/or abnormal coloration of the blood, fatigue and weakness. Methemoglobin levels may continue to rise; therefore, immediate treatment is required to avert more serious central nervous system and cardiovascular adverse effects, including seizures, coma, arrhythmias, and death. Discontinue Polocaine<sup>®</sup> and any other oxidizing agents. Depending on the severity of the signs and symptoms, patients may respond to supportive care, i.e., oxygen therapy, hydration. If methemoglobinemia does not respond to administration of oxygen, a more severe clinical presentation may require treatment with methylene blue, exchange transfusion, or hyperbaric oxygen.</paragraph>
+                     </text>
+                     <effectiveTime value="20190829"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="PRECAUTIONS">
+               <id root="53f4202d-bd9d-4f4f-ad80-7a8c812d8b3d"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>The safety and effectiveness of mepivacaine depend upon proper dosage, correct technique, adequate precautions, and readiness for emergencies.</paragraph>
+                  <paragraph>The lowest dose that results in effective anesthesia should be used to avoid high plasma levels and possible adverse effects. Injection of repeated doses of mepivacaine may cause significant increase in blood levels with each repeated dose due to slow accumulation of the drug or its metabolites, or due to slower metabolic degradation than normal.</paragraph>
+                  <paragraph>Tolerance varies with the status of the patient. Debilitated, elderly patients, acutely ill patients, and children should be given reduced doses commensurate with their weight and physical status.</paragraph>
+                  <paragraph>Mepivacaine should be used with caution in patients with a history of severe disturbances of cardiac rhythm or heart block.</paragraph>
+                  <paragraph>INJECTIONS SHOULD ALWAYS BE MADE SLOWLY WITH ASPIRATION TO AVOID INTRAVASCULAR INJECTION AND THEREFORE SYSTEMIC REACTION TO BOTH LOCAL ANESTHETIC AND VASOCONSTRICTOR.</paragraph>
+                  <paragraph>If sedatives are employed to reduce patient apprehension, use reduced doses, since local anesthetic agents, like sedatives, are central nervous system depressants which in combination may have an additive effect. Young children should be given minimal doses of each agent.</paragraph>
+                  <paragraph>Changes in sensorium such as excitation, disorientation or drowsiness may be early indications of a high blood level of the drug and may occur following inadvertent intravascular administration or rapid absorption of mepivacaine.</paragraph>
+                  <paragraph>Local anesthetic procedures should be used with caution when there is inflammation and/or sepsis in the region of the proposed injection.</paragraph>
+               </text>
+               <effectiveTime value="20190905"/>
+               <component>
+                  <section ID="Information">
+                     <id root="59126f75-b3ef-4e73-890d-4efe21988653"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients/Patient Counseling Information</title>
+                     <text>
+                        <paragraph>The patient should be cautioned against loss of sensation and possibility of biting trauma should the patient attempt to eat or chew gum prior to return of sensation. Inform patients that use of local anesthetics may cause methemoglobinemia, a serious condition that must be treated promptly. Advise patients or caregivers to seek immediate medical attention if they or someone in their care experience the following signs or symptoms: pale, gray, or blue colored skin (cyanosis); headache; rapid heart rate; shortness of breath; lightheadedness; or fatigue.</paragraph>
+                     </text>
+                     <effectiveTime value="20190829"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="f7b44913-8fde-4cf9-b158-28d95689c7b3"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Clinically Significant Drug Interactions</title>
+                     <text>
+                        <paragraph>The administration of local anesthetic solutions containing vasopressors, such as Levonordefrin, Epinephrine or Norepinephrine, to patients receiving tricyclic antidepressants or monoamine oxidase inhibitors may produce severe, prolonged hypertension. Concurrent use of these agents should generally be avoided. In situations when concurrent therapy is necessary, careful patient monitoring is essential.</paragraph>
+                        <paragraph>Concurrent administration of vasopressor drugs and of ergot-type oxytocic drugs may cause severe, persistent hypertension or cerebrovascular accidents.</paragraph>
+                        <paragraph>Phenothiazines and butyrophenones may reduce or reverse the pressor effect of Epinephrine. Solutions containing a vasoconstrictor should be used cautiously in the presence of diseases which may adversely affect the patient's cardiovascular system.</paragraph>
+                        <paragraph>Serious cardiac arrhythmias may occur if preparations containing a vasoconstrictor are employed in patients during or following the administration of potent inhalation anesthetics.</paragraph>
+                        <paragraph>Patients who are administered local anesthetics are at increased risk of developing methemoglobinemia when concurrently exposed to the following drugs, which could include other local anesthetics:</paragraph>
+                        <table width="90%">
+                           <caption>EXAMPLES OF DRUGS ASSOCIATED WITH METHEMOGLOBINEMIA:</caption>
+                           <col width="25%" align="left" valign="top"/>
+                           <col width="75%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Class</th>
+                                 <th styleCode="Rrule">Examples</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Nitrates/Nitrites</td>
+                                 <td styleCode="Rrule">nitric oxide, nitroglycerin, nitroprusside, nitrous oxide</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Local anesthetics</td>
+                                 <td styleCode="Rrule">articaine, benzocaine, bupivacaine, lidocaine, mepivacaine, prilocaine, procaine, ropivacaine, tetracaine</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Antineoplastic Agents</td>
+                                 <td styleCode="Rrule">cyclophosphamide, flutamide, hydroxyurea, ifosfamide, rasburicase</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Antibiotics</td>
+                                 <td styleCode="Rrule">dapsone, nitrofurantoin, para-aminosalicylic acid, sulfonamides</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Antimalarials</td>
+                                 <td styleCode="Rrule">chloroquine, primaquine</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Anticonvulsants</td>
+                                 <td styleCode="Rrule">phenobarbital, phenytoin, sodium valproate</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">Other drugs</td>
+                                 <td styleCode="Rrule">acetaminophen, metoclopramide, quinine, sulfasalazine</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>MEPIVACAINE SHOULD BE USED WITH CAUTION IN PATIENTS WITH KNOWN DRUG ALLERGIES AND SENSITIVITIES. A thorough history of the patient's prior experience with mepivacaine or other local anesthetics as well as concomitant or recent drug use should be taken (see <linkHtml href="#CONTRAINDICATIONS">CONTRAINDICATIONS</linkHtml>). Patients allergic to methylparaben or para-aminobenzoic acid derivatives (procaine, tetracaine, benzocaine, etc.) have not shown cross-sensitivity to agents of the amide type such as mepivacaine. Since mepivacaine is metabolized in the liver and excreted by the kidneys, it should be used cautiously in patients with liver and renal disease.</paragraph>
+                     </text>
+                     <effectiveTime value="20190905"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Carcinogenesis">
+                     <id root="c88bb37c-66d5-419c-a161-68602ac993c5"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Studies of mepivacaine HCl in animals to evaluate the carcinogenic and mutagenic potential or the effect on fertility have not been conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20190829"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Pregnancy">
+                     <id root="038b34c9-82dc-463d-b74d-adcbbff870ce"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <effectiveTime value="20190829"/>
+                     <component>
+                        <section ID="Teratogenic">
+                           <id root="8c2a6ab3-8f88-4a33-a410-3a7a3f2defc3"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <effectiveTime value="20190829"/>
+                           <component>
+                              <section>
+                                 <id root="b0fe2bae-7f58-471e-9377-5756976519a0"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy Category C</title>
+                                 <text>
+                                    <paragraph>Animal reproduction studies have not been conducted with this solution. It is also not known whether this solution can cause fetal harm when administered to a pregnant woman or can affect reproductive capacity. This solution should be given to a pregnant woman only if clearly needed.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20190829"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Nursing">
+                           <id root="e0cf16fe-4b52-4959-95e4-e3c34dbe2e58"/>
+                           <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                           <title>Nursing Mothers</title>
+                           <text>
+                              <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when this solution is administered to a nursing woman.</paragraph>
+                           </text>
+                           <effectiveTime value="20190829"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="Pediatric">
+                           <id root="33da4006-f1d7-4457-9459-cd6370ea2941"/>
+                           <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                           <title>Pediatric Use</title>
+                           <text>
+                              <paragraph>Great care must be exercised in adhering to safe concentrations and dosages for pedodontic administration (see <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>).</paragraph>
+                           </text>
+                           <effectiveTime value="20190829"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="AR">
+               <id root="2ae016a9-63eb-4b25-b0ca-38ea21bfa62b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Reactions to Polocaine<sup>®</sup> are characteristic of those associated with other amide-type local anesthetics. Systemic adverse reactions involving the central nervous system and the cardiovascular system usually result from high plasma levels (which may be due to excessive dosage, rapid absorption, inadvertent intravascular injection, or slow metabolic degradation), injection technique, or volume of injection.</paragraph>
+                  <paragraph>A small number of reactions may result from hypersensitivity, idiosyncrasy or diminished tolerance to normal dosage on the part of the patient.</paragraph>
+                  <paragraph>Persistent paresthesias of the lips, tongue, and oral tissues have been reported with the use of mepivacaine, with slow, incomplete, or no recovery. These post-marketing events have been reported chiefly following nerve blocks in the mandible and have involved the trigeminal nerve and its branches.</paragraph>
+                  <paragraph>Reactions involving the central nervous system are characterized by excitation and/or depression. Nervousness, dizziness, blurred vision, or tremors may occur followed by drowsiness, convulsions, unconsciousness, and possible respiratory arrest. Since excitement may be transient or absent, the first manifestations may be drowsiness merging into unconsciousness and respiratory arrest.</paragraph>
+                  <paragraph>Cardiovascular reactions are depressant. They may be the result of direct drug effect or more commonly in dental practice, the result of vasovagal reaction, particularly if the patient is in the sitting position. Failure to recognize premonitory signs such as sweating, feeling of faintness, changes in pulse or sensorium may result in progressive cerebral hypoxia and seizure or serious cardiovascular catastrophe. Management consists of placing the patient in the recumbent position and administration of oxygen. Vasoactive drugs such as Ephedrine or Methoxamine may be administered intravenously.</paragraph>
+                  <paragraph>Allergic reactions are rare and may occur as a result of sensitivity to the local anesthetic and are characterized by cutaneous lesions of delayed onset or urticaria, edema and other manifestations of allergy. The detection of sensitivity by skin testing is of limited value. As with other local anesthetics, anaphylactoid reactions to mepivacaine have occurred rarely. The reaction may be abrupt and severe and is not usually dose related. Localized puffiness and swelling may occur.</paragraph>
+               </text>
+               <effectiveTime value="20190829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="OVERDOSAGE">
+               <id root="bbcec343-21e6-4735-b311-483f394f9c8d"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Treatment of a patient with toxic manifestations consists of assuring and maintaining a patent airway and supporting ventilation (respiration) as required. This usually will be sufficient in the management of most reactions. Should a convulsion persist despite ventilatory therapy, small increments of anticonvulsive agents may be given intravenously, such as benzodiazephine (e.g., diazepam) or ultrashort-acting barbiturates (e.g., thiopental or thiamylal) or short-acting barbiturates (e.g., pentobarbital or secobarbital). Cardiovascular depression may require circulatory assistance with intravenous fluids and/or vasopressor (e.g., Ephedrine) as dictated by the clinical situation. Allergic reactions should be managed by conventional means.</paragraph>
+                  <paragraph>Intravenous and subcutaneous LD50's in mice for mepivacaine hydrochloride 3% are 33 and 258 mg/kg, respectively. The acute IV and SC LD50's in mice for mepivacaine hydrochloride 2% with levonordefrin 1:20,000 are 30 and 184 mg/kg, respectively.</paragraph>
+               </text>
+               <effectiveTime value="20201216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="16f42706-a32e-4332-8a0d-65e74b0ae30b"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>As with all local anesthetics, the dose varies and depends upon the area to be anesthetized, the vascularity of the tissues, individual tolerance and the technique of anesthesia. The lowest dose needed to provide effective anesthesia should be administered. For specific techniques and procedures refer to standard dental manuals and textbooks.</paragraph>
+                  <paragraph>For infiltration and block injections in the upper or lower jaw, the average dose of 1 cartridge will usually suffice.</paragraph>
+                  <paragraph>Each cartridge contains 1.7 mL (34 mg of 2% or 51 mg of 3%).</paragraph>
+                  <paragraph>5.3 cartridges (180 mg of the 2% solution or 270 mg of the 3% solution) are usually adequate to effect anesthesia of the entire oral cavity. Whenever a larger dose seems to be necessary for an extensive procedure, the maximum dose should be calculated according to the patient's weight. A dose of up to 3 mg per pound of body weight may be administered. At any single dental sitting the total dose for all injected sites should not exceed 400 mg in adults.</paragraph>
+                  <paragraph>The maximum pediatric dose should be <content styleCode="bold italics">carefully calculated</content>.</paragraph>
+                  <paragraph>Maximum dose for pediatric population =</paragraph>
+                  <table width="60%" styleCode="Noautorules">
+                     <col width="45%" align="center" valign="middle"/>
+                     <col width="10%" align="center" valign="middle"/>
+                     <col width="45%" align="center" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td styleCode="Botrule">Child's Weight (lbs.)</td>
+                           <td rowspan="2">×</td>
+                           <td rowspan="2">Maximum Recommended Dose for Adults (400 mg)</td>
+                        </tr>
+                        <tr>
+                           <td>150</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>The following table, approximating these calculations, may also be used as a guide. This table is based upon a recommended maximum for larger pediatric population of 5.3 cartridges (the maximum recommended adult dose) during any single dental sitting, regardless of the pediatric patient's weight or (for 2% mepivacaine) calculated maximum amount of drug:</paragraph>
+                  <table width="100%">
+                     <caption>Maximum Allowable Dosage<footnote ID="foot1">Adapted from Malamed, Stanley F: Handbook of medical emergencies in the dental office, ed. 2, St. Louis, 1982. The C.V. Mosby Co.</footnote>
+                     </caption>
+                     <col width="20%" align="left" valign="top"/>
+                     <col width="20%" align="left" valign="top"/>
+                     <col width="20%" align="left" valign="top"/>
+                     <col width="20%" align="left" valign="top"/>
+                     <col width="20%" align="left" valign="top"/>
+                     <thead>
+                        <tr styleCode="Botrule">
+                           <th/>
+                           <th colspan="2">3% Mepivacaine<br/>Plain</th>
+                           <th colspan="2">2% Mepivacaine<br/>1:20,000 Levonordefrin</th>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <th/>
+                           <th colspan="2">3 mg/lb (270 mg max.)</th>
+                           <th colspan="2">3 mg/lb (180 mg max.)</th>
+                        </tr>
+                        <tr>
+                           <th>Weight (lb.)</th>
+                           <th>mg</th>
+                           <th>Number of Cartridges</th>
+                           <th>mg</th>
+                           <th>Number of Cartridges</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>20</td>
+                           <td>60</td>
+                           <td>1.2</td>
+                           <td>60</td>
+                           <td>1.8</td>
+                        </tr>
+                        <tr>
+                           <td>30</td>
+                           <td>90</td>
+                           <td>1.8</td>
+                           <td>90</td>
+                           <td>2.6</td>
+                        </tr>
+                        <tr>
+                           <td>40</td>
+                           <td>120</td>
+                           <td>2.3</td>
+                           <td>120</td>
+                           <td>3.5</td>
+                        </tr>
+                        <tr>
+                           <td>50</td>
+                           <td>150</td>
+                           <td>2.9</td>
+                           <td>150</td>
+                           <td>4.4</td>
+                        </tr>
+                        <tr>
+                           <td>60</td>
+                           <td>180</td>
+                           <td>3.5</td>
+                           <td>180</td>
+                           <td>5.3</td>
+                        </tr>
+                        <tr>
+                           <td>80</td>
+                           <td>240</td>
+                           <td>4.7</td>
+                           <td>180</td>
+                           <td>5.3</td>
+                        </tr>
+                        <tr>
+                           <td>100</td>
+                           <td>270</td>
+                           <td>5.3</td>
+                           <td>180</td>
+                           <td>5.3</td>
+                        </tr>
+                        <tr>
+                           <td>120</td>
+                           <td>270</td>
+                           <td>5.3</td>
+                           <td>180</td>
+                           <td>5.3</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>When using Polocaine<sup>®</sup> for infiltration or regional block anesthesia, injection should always be made slowly and with frequent aspiration.</paragraph>
+                  <paragraph>Any unused portion of a cartridge should be discarded.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20190829"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="0dd68240-f85f-4a8b-8bf2-7d16a66cfbeb"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>DISINFECTION OF CARTRIDGES</title>
+               <text>
+                  <paragraph>As in the case of any cartridge, the diaphragm should be disinfected before needle puncture. The diaphragm should be thoroughly swabbed with either pure 91% isopropyl alcohol or 70% ethyl alcohol, USP, just prior to use. Many commercially available alcohol solutions contain ingredients which are injurious to container components, and therefore should not be used. Cartridges should not be immersed in any solution.</paragraph>
+               </text>
+               <effectiveTime value="20190829"/>
+            </section>
+         </component>
+         <component>
+            <section ID="HS">
+               <id root="2ca8eb16-3c32-49a1-962f-f8e814c57f3a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>3% (30 mg/mL) Polocaine<sup>®</sup> DENTAL (Mepivacaine Hydrochloride Injection USP) (NDC 66312-441-16) is available in cardboard boxes containing 5 blisters of 10 × 1.7 mL single-dose dental cartridges, 50 per carton.</paragraph>
+                  <paragraph>2% (20 mg/mL) Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000 (Mepivacaine Hydrochloride and Levonordefrin Injection USP) (NDC 66312-461-16) is available in cardboard boxes containing 5 blisters of 10 × 1.7 mL single-dose dental cartridges, 50 per carton.</paragraph>
+               </text>
+               <effectiveTime value="20201216"/>
+               <component>
+                  <section>
+                     <id root="434e6629-e8b1-44d9-801e-f11f29e248d8"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>Both solutions should be stored at controlled room temperature, below 25° C (77° F).</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">Protect from light</content>. Do not permit to freeze.</paragraph>
+                     </text>
+                     <effectiveTime value="20201216"/>
+                     <component>
+                        <section>
+                           <id root="93a666e5-8caa-42cd-8a3b-387a3d2001ef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>BOXES</title>
+                           <text>
+                              <paragraph>For protection from light, retain in box until time of use. Once opened, the box should be reclosed by closing the top flap. The 2% (20 mg/mL) Polocaine<sup>®</sup> DENTAL with Levonordefrin 1:20,000 solution should not be used if its color is pinkish or darker than slightly yellow or it contains a precipitate. Cartridge warmers should not be used with Polocaine<sup>®</sup> products.</paragraph>
+                           </text>
+                           <effectiveTime value="20201216"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="b832436b-a8e1-4989-8455-38aa1c1b8914"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured for<br/>Dentsply Pharmaceutical, York, PA 17404<br/>by Novocol Pharmaceutical of Canada, Inc.<br/>Cambridge, Ontario N1R 6X3</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Dentsply<br/>Sirona</content>
+                     <br/>Rev 07/2020 (2624-3)</paragraph>
+               </text>
+               <effectiveTime value="20201216"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5e6e60fe-fef5-d38f-e053-2a91aa0ae382">
+               <id root="e3352bec-f48a-49b0-8c18-8c6c21c2d99a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Principal Display Panel - 50 cartridge carton</title>
+               <text>
+                  <paragraph>NDC 66312-441-16</paragraph>
+                  <paragraph>Reorder # 34416</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">3% Polocaine® DENTAL</content>
+                  </paragraph>
+                  <paragraph>Mepivacaine Hydrochloride 3% (30mg/mL)</paragraph>
+                  <paragraph>(Mepivacaine HCl Injection, USP)</paragraph>
+                  <paragraph>For dental block and infiltration injections only.</paragraph>
+                  <paragraph>50 Single-Dose Cartridges, 1.7 mL each</paragraph>
+                  <paragraph>Sterile aqueous Solution for Injection</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Rx Only</content>
+                  </paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L210f7c37-bcfe-4be2-aa0a-f71976229642"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20210708"/>
+               <component>
+                  <observationMedia ID="L210f7c37-bcfe-4be2-aa0a-f71976229642">
+                     <text>principal display panel carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="66312-441-16_GTIN.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

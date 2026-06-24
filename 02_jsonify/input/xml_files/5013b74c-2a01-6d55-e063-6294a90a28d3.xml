@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="5013b74c-2a01-6d55-e063-6294a90a28d3"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Stangard Preventive Treatment Gel</title>
+   <effectiveTime value="20260422"/>
+   <setId root="7cae6a50-ee50-8827-e053-2991aa0a508f"/>
+   <versionNumber value="5"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="009260217"/>
+            <name>Pascal Company, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="009260217"/>
+                  <name>Pascal Company, Inc.</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="009260217"/>
+                        <name>Pascal Company, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="10866-0271" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5013e55e-46d3-4d0c-e063-6394a90a327e"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260422"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="10866-0271" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Stangard</name>
+                        <formCode code="C42934" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="GEL"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Topical SNF Fluoride Gel</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="12.56"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="4Q93RCW27E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBOMER HOMOPOLYMER TYPE C</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="3.8"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="3FTR44B32Q" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STANNOUS FLUORIDE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Q80VPU408O" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>FLUORIDE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="122" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="10866-0271-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="19810401"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73590" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Export only"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="19810401"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLFLAVOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C73408" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PEPPERMINT" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38197" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="DENTAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_80b10cd9-8e2e-b426-e053-2991aa0af46d">
+               <id root="80b10cd9-8e2d-b426-e053-2991aa0af46d"/>
+               <code code="55106-9" codeSystem="2.16.840.1.113883.6.1" displayName="OTC - ACTIVE INGREDIENT SECTION"/>
+               <title>Active Ingredient:</title>
+               <text>
+                  <paragraph>Active Ingredient: Stannous Fluoride 0.4% </paragraph>
+                  <paragraph>Purpose: Anticavity</paragraph>
+               </text>
+               <effectiveTime value="19810401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_80b1097c-ecef-24c9-e053-2a91aa0a076a">
+               <id root="80b1097c-ecee-24c9-e053-2a91aa0a076a"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>Warnings:</title>
+               <text>
+                  <paragraph>This is an anticavity  preventive treatmeng gel, not a toothpaste.</paragraph>
+                  <paragraph>Read directions carefully before using</paragraph>
+                  <paragraph>Keep out of reach of children</paragraph>
+                  <paragraph>If more than amount used for brushing is swallowed, seek professional assistance or contact a Poison Control Center immediately.</paragraph>
+                  <paragraph>Do not use if foil seal is missing or damaged.</paragraph>
+               </text>
+               <effectiveTime value="19810401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_80b170ce-f1b8-47a4-e053-2991aa0ad64e">
+               <id root="80b17398-7054-7325-e053-2a91aa0a4eac"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>Directions</title>
+               <text>
+                  <paragraph>Adults and children 6 years of age and older:</paragraph>
+                  <paragraph>Before dispensing, remove cap and peel off seal</paragraph>
+                  <paragraph>Use once daily after brushing with toothpaste</paragraph>
+                  <paragraph>Apply a small amount of gel totoothbrush and brush teeth thoroughly</paragraph>
+                  <paragraph>Allow the gel to remain on teeth for one minute</paragraph>
+                  <paragraph>Spit out the gel. Do not swallow.</paragraph>
+                  <paragraph>Do not eat, drink or rinse for 30 minutes after brushing</paragraph>
+                  <paragraph>Instruct children under 12 years of age in the use of this product (to minimize swallowing). Supervise children as necessary until capable of using without adult supervision.</paragraph>
+                  <paragraph>Children under age 6: Consult a dentist or physician.</paragraph>
+               </text>
+               <effectiveTime value="19810401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_80b1780b-189b-1e24-e053-2a91aa0a62e0">
+               <id root="80b1780b-189a-1e24-e053-2a91aa0a62e0"/>
+               <code code="51727-6" codeSystem="2.16.840.1.113883.6.1" displayName="INACTIVE INGREDIENT SECTION"/>
+               <title>Inactive Ingredients</title>
+               <text>
+                  <paragraph>Glycerin, carbomer 940, natural and artificial flavors</paragraph>
+               </text>
+               <effectiveTime value="19810401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_80b17398-7053-7325-e053-2a91aa0a4eac">
+               <id root="80b17398-7052-7325-e053-2a91aa0a4eac"/>
+               <code code="60561-8" codeSystem="2.16.840.1.113883.6.1" displayName="OTHER SAFETY INFORMATION"/>
+               <title>Other Information:</title>
+               <text>
+                  <paragraph>Store at 15-30°C (59-86ºF)</paragraph>
+                  <paragraph>Keep tightly closed when not in use</paragraph>
+                  <paragraph>Expiration Date can be found on tube crimp</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="19810401"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_80b10cd9-8e2b-b426-e053-2991aa0af46d">
+               <id root="80b21d06-35f9-6a4a-e053-2991aa0a5f6c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>StanGard</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_80b231e0-9c2c-459a-e053-2991aa0a55e9"/>StanGard Preventive Treatment Gel Mint Flavor 11-650
+ </paragraph>
+               </text>
+               <effectiveTime value="19810401"/>
+               <component>
+                  <observationMedia ID="img_80b231e0-9c2c-459a-e053-2991aa0a55e9">
+                     <text>Stangard Topical Stannous Fluoride Gel</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="Stangard Mint Tube 0215.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

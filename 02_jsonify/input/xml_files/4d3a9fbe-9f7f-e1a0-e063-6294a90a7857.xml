@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4d3a9fbe-9f7f-e1a0-e063-6294a90a7857"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Nystatin</title>
+   <effectiveTime value="20260317"/>
+   <setId root="f1857ac0-806c-4a7e-e053-2995a90abbc0"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct_Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>Direct_Rx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct_Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-408" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4d3a9308-c5d7-73f4-e063-6394a90a205b"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260317"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-408" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Mycostatin</name>
+                        <formCode code="C28944" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CREAM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Nystatin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="45802-059" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="100000"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="BDF1O1C72E" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NYSTATIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="BDF1O1C72E" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NYSTATIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="PDC6A3C0OX" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="33X04XA5AT" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTIC ACID, UNSPECIFIED FORM</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="X045WJ989B" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SORBIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="0RE8K4LNJS" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ISOPROPYL MYRISTATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-408-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C42794" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TUBE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20230105"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062225" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20230105"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48330" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="yellow" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f185788d-fb50-38e3-e053-2a95a90a87d7">
+               <id root="f185788d-fb4f-38e3-e053-2a95a90a87d7"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>For Dermatologic Use Only</paragraph>
+                  <paragraph>Not For Ophthalmic Use</paragraph>
+                  <paragraph>Rx Only</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f18598aa-63ae-a554-e053-2995a90a283b">
+               <id root="f18598aa-63ad-a554-e053-2995a90a283b"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Nystatin is a polyene antifungal antibiotic obtained from Streptomyces noursei. The molecular formula is C47H75NO17, and the molecular weight is 926.13.</paragraph>
+                  <paragraph>Structural formula:</paragraph>
+                  <paragraph>[structural formula]</paragraph>
+                  <paragraph>Nystatin Cream USP is for dermatologic use.</paragraph>
+                  <paragraph>Nystatin Cream USP for topical use, contains 100,000 USP nystatin units per gram. Inactive ingredients: emulsifying wax, glycerin, isopropyl myristate, lactic acid, purified water, sodium hydroxide, and sorbic acid.</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f18598aa-63b0-a554-e053-2995a90a283b">
+               <id root="f18598aa-63af-a554-e053-2995a90a283b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Pharmacokinetics</paragraph>
+                  <paragraph>Nystatin Cream USP is not absorbed from intact skin or mucous membrane.</paragraph>
+                  <paragraph>Microbiology</paragraph>
+                  <paragraph>Nystatin is an antibiotic which is both fungistatic and fungicidal in vitro against a wide variety of yeasts and yeast-like fungi, including Candida albicans, C. parapsilosis, C. tropicalis, C. guilliermondi, C. pseudotropicalis, C. krusei, Torulopsis glabrata, Tricophyton rubrum, T. mentagrophytes.</paragraph>
+                  <paragraph>Nystatin acts by binding to sterols in the cell membrane of susceptible species resulting in a change in membrane permeability and the subsequent leakage of intracellular components. On repeated subculturing with increasing levels of nystatin, Candida albicans does not develop resistance to nystatin. Generally, resistance to nystatin does not develop during therapy. However, other species of Candida (C. tropicalis, C. guilliermondi, C. krusei, and C. stellatoides) become quite resistant on treatment with nystatin and simultaneously become cross resistant to amphotericin as well. This resistance is lost when the antibiotic is removed.</paragraph>
+                  <paragraph>Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses.</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f18598aa-63b2-a554-e053-2995a90a283b">
+               <id root="f18598aa-63b1-a554-e053-2995a90a283b"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Nystatin Cream USP is indicated in the treatment of cutaneous or mucocutaneous mycotic infections caused by Candida albicans and other susceptible Candida species.</paragraph>
+                  <paragraph>Nystatin Cream USP is not indicated for systemic, oral, intravaginal or ophthalmic use.</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f1859a46-fe44-d972-e053-2995a90ab6a8">
+               <id root="f1859a46-fe43-d972-e053-2995a90ab6a8"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Nystatin Cream USP is contraindicated in patients with a history of hypersensitivity to any of its components.</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f1859a46-fe46-d972-e053-2995a90ab6a8">
+               <id root="f1859a46-fe45-d972-e053-2995a90ab6a8"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>General -</paragraph>
+                  <paragraph>Nystatin Cream USP should not be used for the treatment of systemic, oral, intravaginal or ophthalmic infections.</paragraph>
+                  <paragraph>If irritation or sensitization develops, treatment should be discontinued and appropriate measures taken as indicated. It is recommended that KOH smears, cultures, or other diagnostic methods be used to confirm the diagnosis of cutaneous or mucocutaneous candidiasis and to rule out infection caused by other pathogens.</paragraph>
+                  <paragraph>Information for Patients -</paragraph>
+                  <paragraph>Patients using this medication should receive the following information and instructions:</paragraph>
+                  <paragraph>1. The patient should be instructed to use this medication as directed (including the replacement of missed doses). This medication is not for any disorder other than that for which it is prescribed.</paragraph>
+                  <paragraph>2. Even if symptomatic relief occurs within the first few days of treatment, the patient should be advised not to interrupt or discontinue therapy until the prescribed course of treatment is completed.</paragraph>
+                  <paragraph>3. If symptoms of irritation develop, the patient should be advised to notify the physician promptly.</paragraph>
+                  <paragraph>Laboratory Tests -</paragraph>
+                  <paragraph>If there is a lack of therapeutic response, KOH smears, cultures, or other diagnostic methods should be repeated.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility -</paragraph>
+                  <paragraph>No long-term animal studies have been performed to evaluate the carcinogenic potential of Nystatin. No studies have been performed to determine the mutagenicity of Nystatin or its effects on male or female fertility.</paragraph>
+                  <paragraph>Pregnancy:</paragraph>
+                  <paragraph>Teratogenic Effects:</paragraph>
+                  <paragraph>Category C -</paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with any Nystatin topical preparation. It also is not known whether these preparations can cause fetal harm when used by a pregnant woman or can affect reproductive capacity. Nystatin topical preparations should be prescribed for a pregnant woman only if the potential benefit to the mother outweighs the potential risk to the fetus.</paragraph>
+                  <paragraph>Nursing Mothers -</paragraph>
+                  <paragraph>It is not known whether Nystatin is excreted in human milk. Caution should be exercised when nystatin is prescribed for a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use -</paragraph>
+                  <paragraph>Safety and effectiveness have been established in the pediatric population from birth to 16 years (see DOSAGE AND ADMINISTRATION).</paragraph>
+                  <paragraph>Geriatric Use -</paragraph>
+                  <paragraph>Clinical studies with nystatin cream did not include sufficient numbers of subjects aged 65 years and older to determine whether they respond differently than younger subjects. Other reported clinical experience has not identified differences in responses between elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f18598aa-63b4-a554-e053-2995a90a283b">
+               <id root="f18598aa-63b3-a554-e053-2995a90a283b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The frequency of adverse events reported in patients using Nystatin Cream USP is less than 0.1%. The more common events that were reported include allergic reactions, burning, itching, rash, eczema, and pain on application (see PRECAUTIONS-General).</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f185788d-fb52-38e3-e053-2a95a90a87d7">
+               <id root="f185788d-fb51-38e3-e053-2a95a90a87d7"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Very moist lesions are best treated with nystatin topical dusting powder.</paragraph>
+                  <paragraph>Adults and Pediatric Patients (Neonates and Older):</paragraph>
+                  <paragraph>Apply liberally to affected areas twice daily or as indicated until healing is complete.</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f1857ac0-806f-4a7e-e053-2995a90abbc0">
+               <id root="f1857ac0-806e-4a7e-e053-2995a90abbc0"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Nystatin Cream USP (100,000 USP Nystatin Units per gram) is a yellow cream available as follows:</paragraph>
+                  <paragraph>15 g tube (NDC 45802-059-35)</paragraph>
+                  <paragraph>30 g tube (NDC 45802-059-11)</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f1859a46-fe49-d972-e053-2995a90ab6a8">
+               <id root="f1859a46-fe48-d972-e053-2995a90ab6a8"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Storage</paragraph>
+                  <paragraph>Store at 20-25°C (68-77°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f18598aa-63b6-a554-e053-2995a90a283b">
+               <id root="f18598aa-63b5-a554-e053-2995a90a283b"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>Manufactured By Perrigo</paragraph>
+                  <paragraph>Bronx, NY 10457</paragraph>
+                  <paragraph>Distributed By Perrigo</paragraph>
+                  <paragraph>Allegan, MI 49010 • www.perrigo.com</paragraph>
+                  <paragraph>Rev. 07-15</paragraph>
+                  <paragraph>: 1P600 RC JX</paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_f1857ac0-8071-4a7e-e053-2995a90abbc0">
+               <id root="f1857ac0-8070-4a7e-e053-2995a90abbc0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_f1859a46-fe4f-d972-e053-2995a90ab6a8"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20230105"/>
+               <component>
+                  <observationMedia ID="img_f1859a46-fe4f-d972-e053-2995a90ab6a8">
+                     <text>72189-408-15</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-408-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

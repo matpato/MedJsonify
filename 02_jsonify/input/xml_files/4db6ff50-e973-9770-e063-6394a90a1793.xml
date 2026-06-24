@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4db6ff50-e973-9770-e063-6394a90a1793"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>SODIUM BICARBONATE INJECTION, USP, 8.4% 50 mEq (1 mEq PER mL)</title>
+   <effectiveTime value="20260323"/>
+   <setId root="d8516f38-6f92-32d1-e053-2995a90a96bf"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1573" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4db70ce5-002a-7713-e063-6294a90a4614"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260323"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1573" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>SODIUM BICARBONATE</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>SODIUM BICARBONATE</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="63323-089" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="84"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="8MDF5V39QO" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM BICARBONATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="HN1ZRA3Q20" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BICARBONATE ION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="142M471B3J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CARBON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1573-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220218"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="50" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43215" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, SINGLE-DOSE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51662-1573-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="25" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="51662-1573-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20220731"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220218"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d8519ef5-f0df-558b-e053-2a95a90ab9b2">
+               <id root="d8519ef5-f0de-558b-e053-2a95a90ab9b2"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>SPL UNCLASSIFIED</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate
+  <br/>
+Injection, USP 4.2%
+ </paragraph>
+                  <paragraph>Sodium Bicarbonate
+  <br/>
+Injection, USP 8.4%
+ </paragraph>
+                  <paragraph>4.2% Sodium Bicarbonate 0.5 mEq/mL Injection , USP 5 mL Single Dose Vial and</paragraph>
+                  <paragraph>8.4% Sodium Bicarbonate 1 mEq/mL Injection , USP 50 mL Single Dose Vial</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d8519ef5-f0e1-558b-e053-2a95a90ab9b2">
+               <id root="d851d466-8e1a-382a-e053-2a95a90ab610"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is a sterile, nonpyrogenic, hypertonic solution of Sodium Bicarbonate (NaHCO 3), USP, in Water for Injection for administration by the intravenous route as an electrolyte replenisher and systemic alkalizer. pH of the solution is 7.0 to 8.5.</paragraph>
+                  <paragraph>Solutions are offered in concentrations of 4.2% and 8.4%. See table in 
+  <linkHtml href="#id_link_d851d466-8e18-382a-e053-2a95a90ab610">HOW SUPPLIED/STORAGE AND HANDLING</linkHtml> section for contents and characteristics.
+ </paragraph>
+                  <paragraph>The solutions contain no bacteriostat, antimicrobial agent or added buffer and are intended only for use as a single-dose injection. When smaller doses are required, the unused portion should be discarded with the entire unit.</paragraph>
+                  <paragraph>Sodium Bicarbonate, 84 mg is equal to one milliequivalent each of Na + and HCO 3-. Sodium Bicarbonate, USP is chemically designated NaHCO 3, a white crystalline powder soluble in water.</paragraph>
+                  <paragraph>Water for Injection, USP is chemically designated H 2O.</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d8517c8a-cbfc-6332-e053-2a95a90a6055">
+               <id root="d8517c8a-cbfb-6332-e053-2a95a90a6055"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Intravenous sodium bicarbonate therapy increases plasma bicarbonate, buffers excess hydrogen ion concentration, raises blood pH and reverses the clinical manifestations of acidosis.</paragraph>
+                  <paragraph>Sodium bicarbonate in water dissociates to provide sodium (Na +) and bicarbonate (HCO 3-) ions.</paragraph>
+                  <paragraph>Sodium (Na +) is the principal cation of the extracellular fluid and plays a large part in the therapy of fluid and electrolyte disturbances. Bicarbonate (HCO 3-) is a normal constituent of body fluids and the normal plasma level ranges from 24 to 31 mEq/liter. Plasma concentration is regulated by the kidney through acidification of the urine when there is a deficit or by alkalinization of the urine when there is an excess. Bicarbonate anion is considered “labile” since at a proper concentration of hydrogen ion (H +) it may be converted to carbonic acid (H 2C0 3) and thence to its volatile form, carbon dioxide (CO 2) excreted by the lung. Normally a ratio of 1:20 (carbonic acid: bicarbonate) is present in the extracellular fluid. In a healthy adult with normal kidney function, practically all the glomerular filtered bicarbonate ion is reabsorbed; less than 1% excreted in the urine.</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851a935-b96c-fc59-e053-2995a90a29b9">
+               <id root="d851a935-b96b-fc59-e053-2995a90a29b9"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS &amp; USAGE</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is indicated in the treatment of metabolic acidosis which may occur in severe renal disease, uncontrolled diabetes, circulatory insufficiency due to shock or severe dehydration, extracorporeal circulation of blood, cardiac arrest and severe primary lactic acidosis. Sodium bicarbonate is further indicated in the treatment of certain drug intoxications, including barbiturates (where dissociation of the barbiturate-protein complex is desired), in poisoning by salicylates or methyl alcohol and in hemolytic reactions requiring alkalinization of the urine to diminish nephrotoxicity of blood pigments. Sodium bicarbonate also is indicated in severe diarrhea which is often accompanied by a significant loss of bicarbonate.</paragraph>
+                  <paragraph>Treatment of metabolic acidosis should, if possible, be superimposed on measures designed to control the basic cause of the acidosis — e.g., insulin in uncomplicated diabetes, blood volume</paragraph>
+                  <paragraph>restoration in shock. But since an appreciable time interval may elapse before all of the ancillary effects are brought about, bicarbonate therapy is indicated to minimize risks inherent to the acidosis itself.</paragraph>
+                  <paragraph>Vigorous bicarbonate therapy is required in any form of metabolic acidosis where a rapid increase in plasma total CO 2 content is crucial — e.g., cardiac arrest, circulatory insufficiency due to shock or severe dehydration, and in severe primary lactic acidosis or severe diabetic acidosis.</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851a935-b96e-fc59-e053-2995a90a29b9">
+               <id root="d851a935-b96d-fc59-e053-2995a90a29b9"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATION</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is contraindicated in patients who are losing chloride by vomiting or from continuous gastrointestinal suction, and in patients receiving diuretics known to produce a hypochloremic alkalosis.</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851a935-b972-fc59-e053-2995a90a29b9">
+               <id root="d851e005-e9a3-9662-e053-2995a90a26af"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Solutions containing sodium ions should be used with great care, if at all, in patients with congestive heart failure, severe renal insufficiency and in clinical states in which there exists edema with sodium retention.</paragraph>
+                  <paragraph>In patients with diminished renal function, administration of solutions containing sodium ions may result in sodium retention.</paragraph>
+                  <paragraph>The intravenous administration of these solutions can cause fluid and/or solute overloading resulting in dilution of serum electrolyte concentrations, overhydration, congested states or pulmonary edema.</paragraph>
+                  <paragraph>Extravascular infiltration should be avoided, see 
+  <linkHtml href="#id_link_d851952a-a26a-e41c-e053-2a95a90aeea1">ADVERSE REACTIONS</linkHtml>.
+ </paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851b005-c49a-3028-e053-2995a90a105a">
+               <id root="d851eab4-7b7f-cbb3-e053-2995a90abc89"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>The potentially large loads of sodium given with bicarbonate require that caution be exercised in the use of sodium bicarbonate in patients with congestive heart failure or other edematous or sodium retaining states, as well as in patients with oliguria or anuria. See table in 
+  <linkHtml href="#id_link_d851d466-8e18-382a-e053-2a95a90ab610">HOW SUPPLIED/STORAGE AND HANDLING</linkHtml> section for amounts of sodium present in solutions.
+ </paragraph>
+                  <paragraph>Caution must be exercised in the administration of parenteral fluids, especially those containing sodium ions, to patients receiving corticosteroids or corticotropin.</paragraph>
+                  <paragraph>Potassium depletion may predispose to metabolic alkalosis and coexistent hypocalcemia may be associated with carpopedal spasm as the plasma pH rises. These dangers can be minimized if such electrolyte imbalances are appropriately treated prior to or concomitantly with bicarbonate infusion.</paragraph>
+                  <paragraph>Rapid injection (10 mL/min.) of hypertonic Sodium Bicarbonate Injection, USP, solutions into neonates and children under two years of age may produce hypernatremia, a decrease in cerebrospinal fluid pressure and possible intracranial hemorrhage. The rate of administration in such patients should therefore be limited to no more than 8 mEq/kg/day. A solution diluted to 4.2% may be preferred for such slow administration. In emergencies such as cardiac arrest, the risk of rapid infusion must be weighed against the potential for fatality due to acidosis.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Additives may be incompatible; norepinephrine and dobutamine are incompatible with sodium bicarbonate solution.</paragraph>
+                  <paragraph>The addition of sodium bicarbonate to parenteral solutions containing calcium should be avoided, except where compatibility has been previously established. Precipitation or haze may result from sodium bicarbonate-calcium admixtures. Note: Do not use the injection if it contains precipitate.</paragraph>
+                  <paragraph>Additives may be incompatible. Consult with pharmacist, if available. When introducing additives, use aseptic technique, mix throughly and do not store.</paragraph>
+                  <paragraph>Laboratory Tests</paragraph>
+                  <paragraph>The aim of all bicarbonate therapy is to produce a substantial correction of the low total CO 2 content and blood pH, but the risks of overdosage and alkalosis should be avoided. Hence, repeated fractional doses and periodic monitoring by appropriate laboratory tests are recommended to minimize the possibility of overdosage.</paragraph>
+                  <paragraph>Pregnancy Category C:</paragraph>
+                  <paragraph>Animal reproduction studies have not been conducted with sodium bicarbonate. It is also not known whether sodium bicarbonate can cause fetal harm when administered to a pregnant woman or can affect reproduction capacity. Sodium bicarbonate should be given to a pregnant woman only if clearly needed.</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851952a-a26a-e41c-e053-2a95a90aeea1">
+               <id root="d851952a-a269-e41c-e053-2a95a90aeea1"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Overly aggressive therapy with Sodium Bicarbonate Injection, USP can result in metabolic alkalosis (associated with muscular twitchings, irritability and tetany) and hypernatremia.</paragraph>
+                  <paragraph>Inadvertent extravasation of intravenously administered hypertonic solutions of sodium bicarbonate have been reported to cause chemical cellulitis because of their alkalinity, with tissue necrosis, ulceration or sloughing at the site of infiltration. Prompt elevation of the part, warmth and local injection of lidocaine or hyaluronidase are recommended to prevent sloughing of extravasated IV infusions.</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851bbba-90f8-62b9-e053-2a95a90a118f">
+               <id root="d851bbba-90f7-62b9-e053-2a95a90a118f"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Should alkalosis result, the bicarbonate should be stopped and the patient managed according to the degree of alkalosis present. 0.9% sodium chloride injection intravenous may be given; potassium chloride also may be indicated if there is hypokalemia. Severe alkalosis may be accompanied by hyperirritability or tetany and these symptoms may be controlled by calcium gluconate. An acidifying agent such as ammonium chloride may also be indicated in severe alkalosis. See 
+  <linkHtml href="#id_link_d851a935-b972-fc59-e053-2995a90a29b9">WARNINGS</linkHtml> and 
+  <linkHtml href="#id_link_d851b005-c49a-3028-e053-2995a90a105a">PRECAUTIONS</linkHtml>.
+ </paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851b005-c49f-3028-e053-2995a90a105a">
+               <id root="d851b005-c49e-3028-e053-2995a90a105a"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE &amp; ADMINISTRATION</title>
+               <text>
+                  <paragraph>Sodium Bicarbonate Injection, USP is administered by the intravenous route.</paragraph>
+                  <paragraph>In cardiac arrest, a rapid intravenous dose of 200 to 300 mEq of bicarbonate, given as a 4.2% or 8.4% solution is suggested for adults. Cautions should be observed in emergencies where very rapid infusion of large quantities of bicarbonate is indicated. Bicarbonate solutions are hypertonic and may produce an undesirable rise in plasma sodium concentration in the process of correcting the metabolic acidosis. In cardiac arrest, however, the risks from acidosis exceed those of hypernatremia.</paragraph>
+                  <paragraph>In infants (up to two years of age), intravenous administration at a dose not to exceed 8 mEq/kg/day is recommended. Slow administration rates and a solution of 4.2% are recommended in neonates, to guard against the possibility of producing hypernatremia, decreasing cerebrospinal fluid pressure and inducing intracranial hemorrhage.</paragraph>
+                  <paragraph>In less urgent forms of metabolic acidosis, Sodium Bicarbonate Injection, USP may be added to other intravenous fluids. The amount of bicarbonate to be given to older children and adults over a four- to eight- hour period is approximately 2 to 5 mEq/kg of body weight — depending upon the severity of the acidosis as judged by the lowering of total CO 2 content, blood pH and clinical condition of the patient. Bicarbonate therapy should always be planned in a stepwise fashion since the degree of response from a given dose is not precisely predictable. Initially an infusion of 2 to 5 mEq/kg body weight over a period of 4 to 8 hours will produce a measurable improvement in the abnormal acidbase status of the blood. The next step of therapy is dependent upon the clinical response of the patient. If severe symptoms have abated, then the frequency of administration and the size of the dose may be reduced.</paragraph>
+                  <paragraph>In general, it is unwise to attempt full correction of a low total CO 2 content during the first 24 hours of therapy, since this may be accompanied by an unrecognized alkalosis because of a delay in the readjustment of ventilation to normal. Owing to this lag, the achievement of total CO 2 content of about 20 mEq/liter at the end of the first day of therapy will usually be associated with a normal blood pH. Further modification of the acidosis to completely normal values usually occurs in the presence of normal kidney function when and if the cause of the acidosis can be controlled. Values for total CO 2 which are brought to normal or above normal within the first day of therapy are very likely to be associated with grossly alkaline values for blood pH, with ensuing undesired side effects.</paragraph>
+                  <paragraph>Parenteral drug products should be inspected visually for particulate matter and discoloration prior to administration, whenever solution and container permit. See 
+  <linkHtml href="#id_link_d851b005-c49a-3028-e053-2995a90a105a">PRECAUTIONS</linkHtml>.
+ </paragraph>
+                  <paragraph>Do not use unless solution is clear and the container or seal is intact. Discard unused portion.</paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851d466-8e18-382a-e053-2a95a90ab610">
+               <id root="e51f188d-09ac-ab17-e053-2a95a90a007f"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>SODIUM BICARBONATE INJECTION, USP is supplied in the following dosage forms.</paragraph>
+                  <paragraph/>
+                  <paragraph>NDC 51662-1573-1 SODIUM BICARBONATE INJECTION, USP, 8.4% 50 mEq (1 mEq PER mL) 50mL VIAL</paragraph>
+                  <paragraph/>
+                  <paragraph>NDC 51662-1573-2 SODIUM BICARBONATE INJECTION, USP, 8.4% 50 mEq (1 mEq PER mL) 50mL VIAL IN A POUCH</paragraph>
+                  <paragraph/>
+                  <paragraph>NDC 51662-1573-3 SODIUM BICARBONATE INJECTION, USP, 8.4% 50 mEq (1 mEq PER mL) 50mL VIAL IN A POUCH, 25 POUCHES IN A CASE</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>Also supplied in the following manufacture supplied dosage forms,</paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>HF Acquisition Co LLC, DBA HealthFirst
+  <br/>
+11629 49th Pl W.
+ </paragraph>
+                  <paragraph>Mukilteo, WA 98275</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220218"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d851dfc3-ff8c-e220-e053-2a95a90ab230">
+               <id root="d851dfc3-ff8b-e220-e053-2a95a90ab230"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - VIAL LABEL</title>
+               <text>
+                  <paragraph>VIAL LABEL</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_d851d466-8e19-382a-e053-2a95a90ab610"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+               <component>
+                  <observationMedia ID="img_d851d466-8e19-382a-e053-2a95a90ab610">
+                     <text>VIAL LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1573-1 Vial Label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_d8521bba-0b0e-2009-e053-2a95a90aa0e5">
+               <id root="4db70574-4a9c-744f-e063-6294a90a2b4c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 51662-1573-1 SERIALIZED LABELING</title>
+               <text>
+                  <paragraph>51662-1573-1 SERIALIZED LABELING</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4db7050c-6690-72e3-e063-6294a90a118d"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220218"/>
+               <component>
+                  <observationMedia ID="img_4db7050c-6690-72e3-e063-6294a90a118d">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1573-1 RFID.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_e51f0b5a-9fe9-1faf-e053-2a95a90abd76">
+               <id root="e51f0b5a-9fe8-1faf-e053-2a95a90abd76"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL NDC 51662-1573-2 POUCH LABELING</title>
+               <text>
+                  <paragraph> NDC 51662-1573-2 POUCH LABELING</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_e51f0b5a-9fe6-1faf-e053-2a95a90abd76"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>VIAL LABEL</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_e51f0b5a-9fe7-1faf-e053-2a95a90abd76"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220731"/>
+               <component>
+                  <observationMedia ID="img_e51f0b5a-9fe6-1faf-e053-2a95a90abd76">
+                     <text>POUCH LABELING</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="POUCH LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_e51f0b5a-9fe7-1faf-e053-2a95a90abd76">
+                     <text>VIAL LABELING (POUCH)</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="VIAL LABEL (2).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_e51f24da-1a59-b16a-e053-2995a90ada3c">
+               <id root="1036265e-bcaa-7fbc-e063-6294a90ab38c"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL NDC 51662-1573-3 CASE LABELING</title>
+               <text>
+                  <paragraph>NDC 51662-1573-3 CASE LABELING</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_e51f1893-fcca-541b-e053-2a95a90a0c8e"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>SERIALIZED RFID LABELING</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_10360249-b42f-aae7-e063-6394a90a169e"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20220731"/>
+               <component>
+                  <observationMedia ID="img_e51f1893-fcca-541b-e053-2a95a90a0c8e">
+                     <text>CASE LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CASE LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_10360249-b42f-aae7-e063-6394a90a169e">
+                     <text>RFID Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1573-3 RFID.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

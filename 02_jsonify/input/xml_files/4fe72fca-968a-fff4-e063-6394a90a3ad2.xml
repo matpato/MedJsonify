@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4fe72fca-968a-fff4-e063-6394a90a3ad2"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Lidothol ES Patch</title>
+   <effectiveTime value="20260420"/>
+   <setId root="4fe72fca-9689-fff4-e063-6394a90a3ad2"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>Direct_Rx</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                  <name>Direct_Rx</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>Direct_Rx</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="72189-674" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4fe86691-a376-698f-e063-6394a90a7114"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260420"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72189-674" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Lidothol ES Patch</name>
+                        <formCode code="C17423" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SYSTEM"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Lidothol ES Patch</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="83881-445" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H4N855PNZ1" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>.ALPHA.-TOCOPHEROL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7K68DGG29P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BUTYL ACRYLATE/C16-C20 ALKYL METHACRYLATE/METHACRYLIC ACID/METHYL METHACRYLATE COPOLYMER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.056"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LIDOCAINE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="98PI200987" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LIDOCAINE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="0.07"/>
+                              <denominator unit="g" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="L7T10EIP3A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MENTHOL</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="L7T10EIP3A" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>MENTHOL</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="15" unit="g"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72189-674-15" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43178" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOX"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20260420"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20260420"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38305" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TRANSDERMAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74aca-abe6-0a76-e063-6294a90aa893">
+               <id root="4fe74aca-abe5-0a76-e063-6294a90aa893"/>
+               <code code="68498-5" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT MEDICATION INFORMATION SECTION"/>
+               <text>
+                  <paragraph>Lidocaine 4%, Menthol 5% Drug-in-Adhesive System</paragraph>
+                  <paragraph>For External Use Only</paragraph>
+                  <paragraph>Do not use:</paragraph>
+                  <paragraph>•            on the face or rashes, wounds or damaged skin</paragraph>
+                  <paragraph>•            in the eyes, mouth, or other mucous membranes</paragraph>
+                  <paragraph>•            on genitals</paragraph>
+                  <paragraph>•            with a heating pad</paragraph>
+                  <paragraph>•            right before or after heart surgery</paragraph>
+                  <paragraph>•            any Lidothol® ES from a pouch that has not been applied immediately after opening the pouch</paragraph>
+                  <paragraph>•            in large quantities, particularly over raw surfaces or blistered areas</paragraph>
+                  <paragraph>•            if the pouch is broken or torn</paragraph>
+                  <paragraph>•            more than 2 Lidothol® ES per day unless directed by a doctor</paragraph>
+                  <paragraph>•            children under 18 years of age         </paragraph>
+                  <paragraph>Ask a doctor before use if you have:</paragraph>
+                  <paragraph>•            allergies to topical or external products</paragraph>
+                  <paragraph>•            high blood pressure, heart disease, or kidney disease</paragraph>
+                  <paragraph>When using this product:</paragraph>
+                  <paragraph>•            avoid contact with eyes. If eye contact occurs, rinse thoroughly with water</paragraph>
+                  <paragraph>•            the risk of heart attack or stroke may increase if you use more than directed or for longer than directed</paragraph>
+                  <paragraph>Stop use and ask doctor ifthe condition worsens, or if symptoms persist for more than 7 days or clear up and occur again within a few days.</paragraph>
+                  <paragraph>If pregnant or breastfeeding, ask a health professional before use.Do not use during the last 3 months of pregnancy, as it may cause problems in the unborn child or complications during delivery.</paragraph>
+                  <paragraph>Keep out of reach of children.If ingested, seek medical help or contact a Poison Control Center 1-800-222-1222 immediately. Dispose of used Lidothol® ES by folding the sticky ends together.</paragraph>
+                  <paragraph>Lidothol® ES Patient Information</paragraph>
+                  <paragraph>Before you begin using this medication, read this entire patient information sheet. If you have any questions, please consult your physician or pharmacist. Inform your physician if your condition does not improve or if it worsens. This information may not include all of the details needed to use Lidothol® ES safely and effectively. Discuss use with your doctor or pharmacist.</paragraph>
+                  <paragraph>What is Lidothol® ES?</paragraph>
+                  <paragraph>A drug-in-adhesive system consisting of the external anesthetic lidocaine (4%) and the external analgesic menthol (5%).</paragraph>
+                  <paragraph>What is Lidothol® ES used for?</paragraph>
+                  <paragraph>Lidothol® ES assists patients in the management of mild to moderate acute pain or mild to moderate aches. Lidothol® ES is applied to the skin at the specific region experiencing these pain symptoms. The synthesis of lidocaine and menthol is a highly effective combination of pain relievers working to alleviate discomfort while the root cause is being managed and treated by your healthcare providers.</paragraph>
+                  <paragraph>What are the possible side effects with Lidothol® ES?</paragraph>
+                  <paragraph>•            Common: itching or redness of the skin following application</paragraph>
+                  <paragraph>•            Note: The majority of patients experience no significant adverse events following system application. Serious side effects are, in general, related to accidental toxicity of medication by applying considerably more than directed by your doctor or pharmacist or by ingesting the contents of Lidothol® ES.</paragraph>
+                  <paragraph>•            Tell your healthcare provider about all the medicines you take. This includes prescription and nonprescription medicines, vitamins, and herbal supplements.</paragraph>
+                  <paragraph>•            Avoid excessive alcohol usage, since it may increase the potential for Central Nervous System (CNS) effects such as dizziness, confusion, lightheadedness, and orthostatic hypotension.</paragraph>
+                  <paragraph>This is not a complete list of possible side effects. For more information, talk with your doctor or pharmacist. You may report side effects to the FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>Warnings</paragraph>
+                  <paragraph>Do not use:</paragraph>
+                  <paragraph>•            on wounds, cuts, damaged or infected skin</paragraph>
+                  <paragraph>•            on eyes, mouth, genitals, or other mucous membranes</paragraph>
+                  <paragraph>•            children under 18 years of age</paragraph>
+                  <paragraph>•            if you are allergic to any of the ingredients in this product</paragraph>
+                  <paragraph>Stop use and call your healthcare provider right away if you experience any of the following warning signs or any other unusual symptoms of concern:</paragraph>
+                  <paragraph>•            if pain worsens</paragraph>
+                  <paragraph>•            pale, gray, or blue colored skin (cyanosis)</paragraph>
+                  <paragraph>•            rapid heart rate</paragraph>
+                  <paragraph>•            shortness of breath</paragraph>
+                  <paragraph>•            lightheadedness</paragraph>
+                  <paragraph>•            fatigue</paragraph>
+                  <paragraph>•            swelling or numbness of the tongue or throat</paragraph>
+                  <paragraph>•            severe headache or vomiting</paragraph>
+                  <paragraph>•            dizziness or faintness</paragraph>
+                  <paragraph>•            changes in vision or speech</paragraph>
+                  <paragraph>Directions for Use</paragraph>
+                  <paragraph>Adults 18 years and older:</paragraph>
+                  <paragraph>•            clean and dry the affected area</paragraph>
+                  <paragraph>•            using scissors, carefully cut the pouch along the dotted line to open the pouch and remove Lidothol® ES</paragraph>
+                  <paragraph>•            remove the transparent release liner before applying Lidothol® ES to the skin</paragraph>
+                  <paragraph>•            apply one Lidothol® ES to the affected area of pain and leave it in place for 8 to 12 hours</paragraph>
+                  <paragraph>•            if pain persists after using the first Lidothol® ES, a second Lidothol® ES may be applied for up to another 8 to 12 hours</paragraph>
+                  <paragraph>•            use only one Lidothol® ES at a time</paragraph>
+                  <paragraph>•            Lidothol® ES may be cut into smaller sizes with scissors prior to removing the release liner</paragraph>
+                  <paragraph>•            safely discard the used Lidothol® ES (whole or cut pieces) where children and pets cannot get to them</paragraph>
+                  <paragraph>•            wash hands with soap and water after applying or removing Lidothol® ES</paragraph>
+                  <paragraph>General information for safe and effective use of Lidothol® ES</paragraph>
+                  <paragraph>Do not use this product for another indication. Do not give this drug to anyone else, even if they have the same condition. This product is intended for use as prescribed by a physician.</paragraph>
+                  <paragraph>How should I store Lidothol® ES?</paragraph>
+                  <paragraph>Store at 68–77 ºF (20–25 ºC); excursions permitted to 59–86 °F (15–30 °C). Keep away from heat or sunlight. Protect from excessive moisture. Safely discard the product after the expiration date posted on the product label. Discard Lidothol® ES away from small children or animals.</paragraph>
+                  <paragraph>DO NOT use the product after the expiration date printed on the box.     </paragraph>
+                  <paragraph>The insert provides the most important information about Lidothol® ES. If you would like more information, talk with your healthcare provider or pharmacist. Additional information for healthcare professionals can be found in the following sections.</paragraph>
+                  <paragraph>What are the active ingredients in Lidothol® ES?</paragraph>
+                  <paragraph>Lidothol® ES consists of lidocaine 4% and menthol 5%.</paragraph>
+                  <paragraph>What are the inactive ingredients in Lidothol® ES?</paragraph>
+                  <paragraph>Acrylate copolymer PSA adhesives, alpha-tocopherol (vitamin E)</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74bf5-e76d-2942-e063-6294a90a97f5">
+               <id root="4fe74bf5-e76c-2942-e063-6294a90a97f5"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Lidothol® ES is a prescription drug-in-adhesive system, packaged with 15 systems:</paragraph>
+                  <paragraph>1 per pouch, 15 pouches. Lidocaine is present in a 4% concentration (w/w). It is chemically designated as 2-(diethylamino)-N-(2,6-dimethylphenyl) acetamide and has an empirical formula of C14H22N2O. The molecular weight of lidocaine is 234.34 g/mol. Menthol is present in a 5% concentration (w/w). The chemical name is (1R,2S,5R)-2-isopropyl-5-methylcyclohexanol. The empirical formula for menthol is C10H20O with a molecular weight of 156.27 g/mol.</paragraph>
+                  <paragraph>Lidothol® ES consists of a Drug-in-Adhesive System containing lidocaine 4% and menthol 5%, applied to flexible woven polyester backing and protected by a plastic film. The protective film is removed prior to application to the skin. The size of the system is 10 cm x 14 cm.</paragraph>
+                  <paragraph>Lidocaine is chemically designated as 2-(diethylamino)-N-(2,6-dimethylphenyl) acetamide, has an octanol: water partition ratio of 43 at pH 7.4, and has the following structure:</paragraph>
+                  <paragraph>[lidocaine]</paragraph>
+                  <paragraph>Menthol is chemically designated as 2-Isopropyl-5-methylcyclohexanol. It contains colorless, hexagonal crystals, usually needle-like; fused masses or crystalline powder with a pleasant, peppermint-like odor. It has a melting point between 31°C to 36°C. Menthol has the following structure:</paragraph>
+                  <paragraph>[menthol]</paragraph>
+                  <paragraph>Each system contains:Lidocaine: 373.5 mg (45 mg per gram adhesive) in an anhydrous base. Menthol: 415 mg (50 mg per gram adhesive) in an anhydrous base. It also contains the following inactive ingredients: acrylate copolymer PSA adhesives, alpha-tocopherol (vitamin E)</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74d26-2860-2a38-e063-6394a90aa9ba">
+               <id root="4fe74d26-285f-2a38-e063-6394a90aa9ba"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Lidothol® ES is a formulation used to assist patients in the treatment of mild to moderate acute or chronic aches or pain. Muscle or joint pain can be due to muscle or ligament strains, simple backache, tendonitis, osteoarthritis, rheumatoid arthritis, peripheral neuropathies such as diabetic neuropathy or post-herpetic neuralgia, and other complex regional pains. It can also be used to help with certain types of headaches, but use with caution when applying in order to avoid eye contact. Other uses may be considered if deemed clinically relevant.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74e3c-afed-2336-e063-6294a90a877e">
+               <id root="4fe74e3c-afec-2336-e063-6294a90a877e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Apply Lidothol® ES to intact skin to cover the most painful area. Apply no more than two systems per day. Each system should not be applied for more than 12 hours in a given 24-hour period. Lidothol® ES may be cut into smaller sizes with scissors prior to the removal of the protective film. Clothing may be worn over the area of application. Smaller treatment areas are recommended for debilitated patients or those with impaired elimination. If irritation or a burning sensation occurs during application, remove the system and do not reapply until the irritation subsides. When Lidothol® ES is used concurrently with other products containing local anesthetic agents, the amount absorbed from all formulations must be considered.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74f43-67f4-3e3e-e063-6294a90ace39">
+               <id root="4fe74f43-67f3-3e3e-e063-6294a90ace39"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Lidothol® ES is contraindicated in patients with a known history of sensitivity to local anesthetics of the amide type, or to any other component of the product.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe75197-da14-146d-e063-6294a90a4e52">
+               <id root="4fe75197-da13-146d-e063-6294a90a4e52"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>Excessive dosage or short intervals between doses can result in high plasma levels and serious adverse effects. Patients should be instructed to strictly adhere to the recommended dosage and administration guidelines set forth in this literature and on their prescription label. The management of serious adverse reactions may require the use of resuscitative equipment, oxygen, or other resuscitative drugs.</paragraph>
+                  <paragraph>Methemoglobinemia</paragraph>
+                  <paragraph>Cases of methemoglobinemia have been reported in association with local anesthetic use. Although all patients are at risk for methemoglobinemia, patients with glucose-6-phosphate dehydrogenase deficiency, congenital or idiopathic methemoglobinemia, cardiac or pulmonary compromise, infants under 6 months of age, and concurrent exposure to oxidizing agents or their metabolites are more susceptible to developing clinical manifestations of the condition. If local anesthetics must be used in these patients, close monitoring for symptoms and signs of methemoglobinemia is recommended.</paragraph>
+                  <paragraph>Signs and symptoms of methemoglobinemia may occur immediately or may be delayed for some hours after exposure and are characterized by cyanotic skin discoloration and abnormal coloration of the blood. Methemoglobin levels may continue to rise; therefore, immediate treatment is required to avert more serious central nervous system and cardiovascular adverse effects, including seizures, coma, arrhythmias, and death.</paragraph>
+                  <paragraph>Discontinue Lidothol® ES and any other oxidizing agents. Depending on the severity of the symptoms, patients may respond to supportive care, i.e., oxygen therapy, hydration. More severe symptoms may require treatment with methylene blue, exchange transfusion, or hyperbaric oxygen.</paragraph>
+                  <paragraph>Accidental Exposure in Children</paragraph>
+                  <paragraph>Even a used Lidothol® ES contains a large amount of lidocaine. The potential exists for a small child or a pet to suffer serious adverse effects from chewing or ingesting a new or used Lidothol® ES. However, the risk with this formulation has not been evaluated. It is important for patients to store and dispose of Lidothol® ES beyond the reach of children, pets, and others. (See HANDLING AND DISPOSAL)</paragraph>
+                  <paragraph>Excessive Dosing</paragraph>
+                  <paragraph>Excessive dosing by applying Lidothol® ES to larger areas for longer than the recommended wearing time could result in increased absorption of lidocaine and high blood concentrations, leading to serious adverse effects. Lidocaine toxicity could be expected at lidocaine blood concentrations above 5 µg/mL. The rate of systemic absorption and elimination determines the blood concentration of lidocaine. Longer duration of application, application of more than the recommended number of systems, smaller patients, or impaired elimination may all contribute to increasing the blood concentration of lidocaine. With recommended dosing of Lidothol® ES, the average blood concentration is about 0.13 µg/mL, but concentrations higher than 0.25 µg/mL have been observed in some patients.</paragraph>
+                  <paragraph>Sedation and Impaired Alertness</paragraph>
+                  <paragraph>Because of the possibility of sedation, patients should be cautioned regarding the use of heavy machinery or automobiles, or any activities made hazardous by decreased alertness.</paragraph>
+                  <paragraph>Hepatic Disease</paragraph>
+                  <paragraph>Patients with severe hepatic disease are at greater risk of developing toxic blood concentrations of lidocaine, because of their inability to metabolize lidocaine normally.</paragraph>
+                  <paragraph>Allergic Reactions</paragraph>
+                  <paragraph>Patients allergic to para-aminobenzoic acid derivatives (procaine, tetracaine, benzocaine, etc.) have not shown cross-sensitivity to lidocaine. However, Lidothol® ES should be used with caution in patients with a history of drug sensitivities, especially if the etiologic agent is uncertain. Allergic and anaphylactoid reactions associated with lidocaine, although rare, can occur. They are characterized by angioedema, bronchospasm, dermatitis, dyspnea, hypersensitivity, laryngospasm, pruritus, shock, and urticaria. If they occur, consult your doctor.</paragraph>
+                  <paragraph>Non-intact Skin</paragraph>
+                  <paragraph>Although not tested, application to broken or inflamed skin may result in higher blood concentrations of lidocaine from increased absorption. Lidothol® ES is only recommended for use on intact skin.</paragraph>
+                  <paragraph>Eye Exposure</paragraph>
+                  <paragraph>The contact of Lidothol® ES with the eyes, although not studied, should be avoided based on the findings of severe eye irritations with the use of similar products in animals. If eye contact occurs, immediately wash out the eye with water or saline and protect the eye until sensation returns.</paragraph>
+                  <paragraph>External Heat Sources</paragraph>
+                  <paragraph>Placement of external heat sources, such as heating pads or electric blankets, over Lidothol® ES is not recommended, as this has not been evaluated and may increase plasma lidocaine levels.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe752db-51d2-2a7f-e063-6394a90a1b5b">
+               <id root="4fe752db-51d1-2a7f-e063-6394a90a1b5b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The most common adverse reactions occur at the application site, including dermatitis, itching, or scaling. These tend to be dose-limiting and diminish with time. Serious adverse experiences following the administration of Lidothol® ES are similar in nature to those observed in other amide local anesthetic-containing agents. These adverse experiences are, in general, dose-related and may result from high plasma levels caused by excessive dosage, rapid absorption, or may result from hypersensitivity, idiosyncrasy, or a diminished tolerance on the part of the patient. Serious adverse experiences are generally systemic in nature. During or immediately after treatment with Lidothol® ES, the skin at the site of application may develop redness, blisters, bruising, burning sensation, depigmentation, dermatitis, or mild irritation.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74bf5-e76f-2942-e063-6294a90a97f5">
+               <id root="4fe74bf5-e76e-2942-e063-6294a90a97f5"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>Antiarrhythmic Drugs</paragraph>
+                  <paragraph>Lidothol® ES should be used with caution in patients receiving Class 1 antiarrhythmic drugs (such as tocainide and mexiletine) since the toxic effects are additive and potentially synergistic.</paragraph>
+                  <paragraph>Local Anesthetics</paragraph>
+                  <paragraph>When Lidothol® ES is used concurrently with other products containing local anesthetic agents, the amount absorbed from all formulations must be considered.</paragraph>
+                  <paragraph>Methemoglobinemia</paragraph>
+                  <paragraph>Patients that are administered local anesthetics may be at increased risk of developing methemoglobinemia when concurrently exposed to the following oxidizing agents:</paragraph>
+                  <paragraph>[di table]</paragraph>
+                  <paragraph>a</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe75533-dda0-51ef-e063-6294a90a1e61">
+               <id root="4fe75533-dd9f-51ef-e063-6294a90a1e61"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>The safety of Lidothol® ES has not been established during pregnancy. There are no well-controlled studies in pregnant women. Discuss with a physician prior to using Lidothol® ES during pregnancy.</paragraph>
+                  <paragraph>Lactation</paragraph>
+                  <paragraph>The effect of Lidothol® ES on breastfed infants has not been evaluated. Lidothol® ES has not been studied during lactation. Discuss with a physician prior to using Lidothol® ES while breastfeeding.</paragraph>
+                  <paragraph>Pediatric/Geriatric Use</paragraph>
+                  <paragraph>Safety and effectiveness in pediatric and geriatric patients have not been established.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74bf5-e771-2942-e063-6294a90a97f5">
+               <id root="4fe74bf5-e770-2942-e063-6294a90a97f5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>There have been no reports of overdosage with Lidothol® ES. Signs of overdosage would include vomiting, drowsiness, coma, respiratory depression, and seizures. In the case of overdosage, discontinue the product immediately, treat the patient symptomatically, and institute supportive measures.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe757d9-f6d5-4dd9-e063-6294a90a07a3">
+               <id root="4fe757d9-f6d4-4dd9-e063-6294a90a07a3"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>Pharmacodynamics</paragraph>
+                  <paragraph>Menthol works by targeting the κ-opioid receptor on the TRPM8 neuron. The TRPM8 neuron is normally activated at temperatures between 46.4–82.4 °F (8–28 °C). Menthol causes the neuron to fire at temperatures above normal activation, which triggers the characteristic cooling sensation. Also, because of menthol’s specific targeting of the κ-opioid receptor, it is endowed with analgesic properties.</paragraph>
+                  <paragraph>Lidocaine is an amide-type local anesthetic agent and is suggested to stabilize neuronal membranes by inhibiting the ionic fluxes required for the initiation and conduction of impulses.</paragraph>
+                  <paragraph>The penetration of lidocaine into intact skin after application of Lidothol® ES is sufficient to produce an analgesic effect, but less than the amount necessary to produce a complete sensory block.</paragraph>
+                  <paragraph>Pharmacokinetics</paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>The amount of lidocaine and menthol systemically absorbed is directly related to both the duration of application and the surface area over which it is applied. In a pharmacokinetic study, three lidocaine 5% patches were applied over an area of 420 cm² of intact skin on the back of normal volunteers for 12 hours. Blood samples were withdrawn for a determination of lidocaine concentration during the application and for 12 hours after the removal of the patches.</paragraph>
+                  <paragraph>The results are summarized in Table 1: When lidocaine 5% patch is used according to the recommended dosing instructions, only 3 ± 2% of the dose applied is expected to be absorbed.</paragraph>
+                  <paragraph>[table1]</paragraph>
+                  <paragraph>At least 95% (665 mg) of lidocaine will remain in a used patch. The mean peak blood concentration of lidocaine is about 0.13 µg/mL (about 1/10 of the therapeutic concentration required to treat cardiac arrhythmias).</paragraph>
+                  <paragraph>Repeated application of three days indicated that the lidocaine concentration does not increase with daily use. The mean plasma pharmacokinetic profile for the 15 healthy volunteers is shown in Figure 1.</paragraph>
+                  <paragraph>[figure1]</paragraph>
+                  <paragraph>Figure 1</paragraph>
+                  <paragraph>Mean lidocaine blood concentrations after three consecutive daily applications of three lidocaine patches simultaneously for 12 hours per day in healthy volunteers (n =15).</paragraph>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>When lidocaine is administered intravenously to healthy volunteers, the volume of distribution is 0.7 to 2.7 L/kg (mean 1.5 ± 0.6 SD, n= 15). At concentrations produced by application of lidocaine patch 5%, lidocaine is approximately 70% bound to plasma proteins, primarily alpha-1-acid glycoprotein. At much higher plasma concentrations (1 to 4µg/mL of free base), the plasma protein binding of lidocaine is concentration dependent. Lidocaine crosses the placental and blood-brain barriers, presumably by passive diffusion.</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>It is not known if lidocaine is metabolized in the skin. Lidocaine is metabolized rapidly by the liver to a number of metabolites, including monoethylglycinexylidide (MEGX) and glycinexylidide (GX), both of which have pharmacologic activity similar to, but less potent than that of lidocaine. A minor metabolite, 2,6-xylidine, has unknown pharmacologic activity but is carcinogenic in rats. The blood concentration of this metabolite is negligible following application of lidocaine patch 5%. Following intravenous administration, MEGX and GX concentrations in serum range from 11% to 36% and from 5% to 11% of lidocaine concentrations, respectively.</paragraph>
+                  <paragraph>Humans rapidly metabolize menthol primarily in the liver by the microsomes, using the enzyme CYP2A6. Cytochrome P450-mediated oxidation occurs in humans, yielding various alcohol and hydroxy acid derivatives. These are eliminated in the urine unchanged or conjugated with glucuronic acid.</paragraph>
+                  <paragraph>[figure2]</paragraph>
+                  <paragraph>Excretion</paragraph>
+                  <paragraph>Lidocaine and its metabolites are excreted by the kidneys. Less than 10% of lidocaine is excreted unchanged. The half-life of lidocaine elimination from plasma following IV administration is 81 to 149 minutes (mean 107 ± 22 SD, n=15). The systemic clearance is 0.33 to 0.90 L/min (mean 0.64 ± 0.18 SD, n=15).</paragraph>
+                  <paragraph>Menthol is largely eliminated as glucuronides. In an experiment, 79% of a 1g (Quick, 1928) and 78% of a 10-20 mg (Aitz et al., 1972) oral dose of menthol was eliminated as the glucuronic acid conjugate within 6 h after administration to volunteers. Of a dose of 47 mg/kg body weight [3-3H]-(-)-menthol, 62% was eliminated in the urine 17 hours after administration.</paragraph>
+                  <paragraph>Smaller amounts were distributed in the feces and ileum; only 1% of the activity remained in the liver (Clegg et al., 1982).</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe757d9-f6d7-4dd9-e063-6294a90a07a3">
+               <id root="4fe757d9-f6d6-4dd9-e063-6294a90a07a3"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <text>
+                  <paragraph>Carcinogenesis</paragraph>
+                  <paragraph>A minor metabolite, 2,6-xylidine, has been found to be carcinogenic in rats. The blood concentration of metabolite is negligible following application of Lidothol® ES.</paragraph>
+                  <paragraph>Mutagenesis</paragraph>
+                  <paragraph>Lidocaine is not mutagenic in Salmonella/mammalian microsome test nor clastogenic in chromosome aberration assay with human lymphocytes and mouse micronucleus test.</paragraph>
+                  <paragraph>Impairment of Fertility</paragraph>
+                  <paragraph>The effect of Lidothol® ES on fertility has not been studied.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe74f68-31d9-f48f-e063-6394a90a84dd">
+               <id root="4fe74f68-31d8-f48f-e063-6394a90a84dd"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Lidothol® ES is supplied in the following dosage form:
+  <br/>
+15 Systems: 1 per pouch, 15 pouches  |  NDC 72189-674-15 
+ </paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe75c27-aa05-34fb-e063-6294a90a6fa4">
+               <id root="4fe75c27-aa04-34fb-e063-6294a90a6fa4"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <text>
+                  <paragraph>Store at 68–77 °F (20–25 °C); excursions permitted to 59–86 °F (15–30 °C). Keep away from heat or sunlight. Protect from excessive moisture. The product can be considered safe and effective to use when maintained under these recommended conditions within the posted expiration date.</paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe75efd-d2c2-3958-e063-6394a90aa5b4">
+               <id root="4fe75efd-d2c1-3958-e063-6394a90aa5b4"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>For more information, contact Clinic Pharma.
+  <br/>
+info@clinicpharma.com
+ </paragraph>
+                  <paragraph>Manufactured for:</paragraph>
+                  <paragraph>[logo]</paragraph>
+                  <paragraph>Clinic Pharma</paragraph>
+                  <paragraph>Las Vegas, NV 89121
+  <br/>
+Printed in the U.S.A.
+ </paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4fe76329-c14c-6e52-e063-6294a90ac2c4">
+               <id root="4fe76329-c14b-6e52-e063-6294a90ac2c4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4fe76329-c14a-6e52-e063-6294a90ac2c4"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260420"/>
+               <component>
+                  <observationMedia ID="img_4fe76329-c14a-6e52-e063-6294a90ac2c4">
+                     <text>72189-674-15</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72189-674-15.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

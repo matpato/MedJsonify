@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="b94f7574-e7a9-4c69-b915-6e88f226021d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Methylene Blue Injection, USP 1%</title>
+   <effectiveTime value="20260311"/>
+   <setId root="e2d9d96c-a711-47c5-855a-7eb7f163493e"/>
+   <versionNumber value="8"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="078627620"/>
+            <name>BPI LABS LLC</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="078627620"/>
+                        <name>BPI LABS LLC</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="54288-147" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C84732" displayName="label" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="54288-147" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="f63b3fc7-58f3-42c5-bf28-e64ffe62ceea"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260311"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="54288-147" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Methylene Blue</name>
+                        <formCode code="C42946" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Methylene Blue</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="QTT17582CB" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROCHLORIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="10"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="T42P99266K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>METHYLENE BLUE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="ZMZ79891ZH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>METHYLENE BLUE CATION</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1" unit="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="54288-147-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" displayName="CARTON" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="active"/>
+                                       <effectiveTime>
+                                          <low value="20211223"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic classCode="OBS">
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CE"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <code code="C73627" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="unapproved drug other"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20211223"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Lfc179361-9c11-4194-8330-08243384a66b">
+               <id root="e5f49770-4b36-42c8-bb65-bd4c7242c7a8"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content>(FOR SLOW INTRAVENOUS ADMINISTRATION)</content>
+                  </paragraph>
+                  <paragraph>Rx only</paragraph>
+               </text>
+               <effectiveTime value="20251217"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lb432dd10-9cdc-451b-9a3e-a728473ded87">
+               <id root="1079514f-25ca-4afa-91d8-ab9cef6902f6"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNING: SEROTONIN SYNDROME WITH CONCOMITANT USE OF SEROTONERGIC DRUGS</title>
+               <text>
+                  <paragraph>Methylene Blue Injection may cause serious or fatal serotonergic syndrome when used in combination with serotonergic drugs. Avoid concomitant use of Methylene Blue Injection with selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), and monoamine oxidase inhibitors (see WARNINGS and PRECAUTIONS, Drug Interactions).</paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="La3ece3e0-66cc-48a3-a868-1896fbf22d3e">
+               <id root="b8c401b0-d5f0-4480-9393-2b345192197a"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Methylene Blue Injection is a sterile solution of Phenothiazin-5-ium, 3, 7-bis (dimethylamino)-, chloride, trihydrate. Each mL contains methylene blue, 10 mg in water for injection q.s. pH adjusted with sodium hydroxide and/or hydrochloric acid when necessary.</paragraph>
+                  <paragraph>The structural formula is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="L9521b06e-e4b3-4ef4-8a63-535182fe6a13"/>
+                  </paragraph>
+                  <paragraph>The molecular formula is:</paragraph>
+                  <paragraph>C<sub>16</sub>H<sub>18</sub>ClN<sub>3</sub>S • 3H<sub>2</sub>O        MW = 373.90</paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240703"/>
+               <component>
+                  <observationMedia ID="L9521b06e-e4b3-4ef4-8a63-535182fe6a13">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="L7bc811d5-7980-4b82-8b9c-5b660131866e">
+               <id root="efe425b7-2593-e7b4-e053-2a95a90a54af"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Methylene blue will produce two opposite actions on hemoglobin. Low concentrations will convert methemoglobin to hemoglobin. High concentrations convert the ferrous iron of reduced hemoglobin to ferric iron which results in the formation of methemoglobin.</paragraph>
+                  <paragraph>Methylene blue is metabolized in the body to leukomethylene blue which is excreted primarily in the urine. Some unchanged drug is also excreted in the urine. (1)</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L3478e877-584f-4d24-8958-cf973092f04a">
+               <id root="efe425b7-2594-e7b4-e053-2a95a90a54af"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Drug-induced methemoglobinemia</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbf628737-b23c-4873-9349-4b9bd542f239">
+               <id root="efe425b7-2595-e7b4-e053-2a95a90a54af"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Methylene blue can cause fetal harm when administered to a pregnant woman. An association exists between the use of methylene blue in amniocentesis and atresia of the ileum and jejunum, ileal occlusions, and other adverse effects in the neonate. (2, 3) Methylene blue is contraindicated in women who are or may become pregnant. If this drug is used during pregnancy, or if the patient becomes pregnant while taking this drug, the patient should be apprised of the potential hazard to the fetus.</paragraph>
+                  <paragraph>Intraspinal and subcutaneous injections are contraindicated.</paragraph>
+                  <paragraph>Methylene blue is contraindicated in patients with a known hypersensitivity to the drug.</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L5ae19e48-3d30-4971-a002-9dc0d9c254d4">
+               <id root="efe425b7-2596-e7b4-e053-2a95a90a54af"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>Methylene blue should not be given by subcutaneous or intrathecal injection.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Methylene blue is a potent monoamine oxidase inhibitor: </content>Methylene blue has been demonstrated to be a potent monoamine oxidase inhibitor (MAOI) and may cause potentially fatal serotonin toxicity (serotonin syndrome) when combined with serotonin reuptake inhibitors (SRIs). (4) (see 
+       
+ 
+  <content styleCode="bold">DRUG INTERACTIONS</content>.) Serotonin toxicity is characterized by development of neuromuscular hyperactivity (tremor, clonus, myoclonus, and hyperreflexia, and, in the advanced stage, pyramidal rigidity); autonomic hyperactivity (diaphoresis, fever, tachycardia, tachypnoea, and mydriasis); and altered mental status (agitation, excitement, and in the advanced stage, confusion). If methylene blue is judged to be indicated, SRIs must be ceased, prior to treatment/procedure/surgery.
+      
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20211223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Ldef801e4-43ca-4183-9c5f-f3d910695f3b">
+               <id root="efe425b7-2597-e7b4-e053-2a95a90a54af"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Drug Interactions: </content>
+                     </content>Methylene blue may interact with any drug that acts as a serotonin reuptake inhibitor (SRI) including, amongst others, selective serotonin reuptake inhibitors (SSRIs), serotonin and norepinephrine reuptake inhibitors (SNRIs), tricyclic antidepressants (TCAs), norepinephrine-dopamine reuptake inhibitors (NDRIs), triptans and ergot alkaloids; such combinations may have the consequence of potentially fatal serotonin toxicity (serotonin syndrome). Methylene blue should not be co- administered with any drug that acts as an SRI.
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Pregnancy: Pregnancy Category X: </content>
+                     </content>Epidemiologic evidence exists that methylene blue is a teratogen. An association exists between the use of methylene blue in amniocentesis and atresia of the ileum and jejunum, ileal occlusions, and other adverse effects in the neonate. (2,3) Methylene blue injection should not be administered to pregnant women during amniocentesis due to the risk of teratogenicity and other newborn adverse effects (see
+       
+ 
+  <content styleCode="bold"> CONTRAINDICATIONS</content>).
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Glucose-6-Phosphate Dehydrogenase Deficiency (G6PD Deficiency): </content>
+                     </content>Methylene blue should be avoided in patients with G6PD deficiency due to the risk of paradoxical methemoglobinemia and hemolysis. (5,6)
+      
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="italics">Renal Failure: </content>
+                     </content>Methylene blue should be used with caution in patients with severe renal impairment (see
+       
+ 
+  <content styleCode="bold"> CLINICAL PHARMACOLOGY</content>).
+      
+
+ </paragraph>
+                  <paragraph>Methylene blue must be injected intravenously very slowly over a period of several minutes to prevent local high concentration of the compound from producing additional methemoglobin. Do not exceed recommended dosage.</paragraph>
+                  <paragraph>Large intravenous doses of methylene blue produce nausea, abdominal and precordial pain, dizziness, headache, profuse sweating, mental confusion, and the formation of methemoglobin.</paragraph>
+               </text>
+               <effectiveTime value="20211223"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L7f361273-8dac-4818-b110-1f21f1a27019">
+               <id root="efe425b7-2598-e7b4-e053-2a95a90a54af"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>0.1 to 0.2 mL per kg body weight (0.045 to 0.09 mL per pound body weight). Inject methylene blue intravenously very slowly over a period of several minutes.</paragraph>
+                  <paragraph>Methylene blue must be injected intravenously very slowly over a period of several minutes to prevent local high concentration of the compound from producing additional methemoglobin. Do not exceed recommended dosage. Parenteral drug products should be inspected visually for particulate matter and discoloration, whenever solution and container permit.</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L527a7253-50ac-4a74-926a-da0c25c35407">
+               <id root="5477aea2-f7d8-4944-9fd4-66cd0c1e5ded"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Methylene Blue Injection, USP 1% is supplied as follows:</paragraph>
+                  <paragraph>NDC   54288-147-01</paragraph>
+                  <paragraph>10 mL single dose vial per carton.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact BPI Labs LLC at 727-471-0850 or FDA at 1-800-FDA-1088 or <content styleCode="italics">www.fda.gov/medwatch</content>. </content>
+                  </paragraph>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lbb75c6eb-a715-4b8c-9e98-8a312038ec44">
+               <id root="efe425b7-259a-e7b4-e053-2a95a90a54af"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE</title>
+               <text>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [see USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20211112"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Lf2ca2a00-f1b7-48f2-9a24-cf51acc886c9">
+               <id root="8e8a8439-86de-4a95-82ab-0decee753490"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered">
+                     <item>DiSanto AR, Wagner JG. Pharmacokinetics of highly ionized drugs II: methylene blue – absorption, metabolism, and excretion in man and dog after oral administration. J Pharm Sci. 1972; 61:1086- 1090.</item>
+                     <item>Cragan JD. Teratogen update: methylene blue. Teratology. 1999; 60:42-48.</item>
+                     <item>Kidd SA, Lancaster PA, Anderson JC, Boogert A, Fisher CC, Robertson R, et al. Fetal death after exposure to methylene blue dye during mid-trimester amniocentesis in twin pregnancy. Prenat Diagn. 1996; 16:39-47.</item>
+                     <item>Ramsay RR, Dunford C, Gillman PK. Methylene blue and serotonin toxicity: inhibition of monoamine oxidase A (MAOA) confirms a theoretical prediction. Br J Pharmacol. 2007; 152:946-51.</item>
+                     <item>Beutler E. G6PD Deficiency. Blood. 1994; 84:3613-3636.</item>
+                     <item>Youngster I, Arcavi L, Schechmaster R, Akayzen Y, Popliski H, Shimonov J, Beig S, Berkovitch M. Medications and glucose-6-phosphate dehydrogenase deficiency: an evidence-based review. Drug Saf. 2010; 33:713-726.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="L683c2ec7-e903-4bad-9dc8-d1a3d34a65d6">
+               <id root="19f3dc12-da16-4ff8-ba24-2b8440e8b899"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by</content>:</paragraph>
+                  <paragraph>BPI Labs, LLC</paragraph>
+                  <paragraph>12393 Belcher Road S, Suite 450,</paragraph>
+                  <paragraph>Largo, FL 33773                                                                                                                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">LI38I </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">R-2401</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20240703"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Le5761b2b-78bf-432e-a12c-106fadbb2809">
+               <id root="594e790c-d478-4a4e-96e0-985785b18275"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Vial Label:</content>
+                  </paragraph>
+                  <paragraph>Methylene Blue Injection, USP 1%</paragraph>
+                  <paragraph>NDC 54288-147-01</paragraph>
+                  <paragraph>LI147L-01</paragraph>
+                  <paragraph>R-2503</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Ldf24d60c-ab51-4350-9c8f-48e7b767ab2a"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Carton Label:</content>
+                  </paragraph>
+                  <paragraph>Methylene Blue Injection, USP 1%</paragraph>
+                  <paragraph>NDC 54288-147-01</paragraph>
+                  <paragraph>LI147C-01</paragraph>
+                  <paragraph>R-2401</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="Lfc3fdc21-e298-4635-a426-3e46de62be53"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20251217"/>
+               <component>
+                  <observationMedia ID="Ldf24d60c-ab51-4350-9c8f-48e7b767ab2a">
+                     <text>Vial Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="vial label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="Lfc3fdc21-e298-4635-a426-3e46de62be53">
+                     <text>Carton Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="carton label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

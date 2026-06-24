@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="ebfec8b9-a556-4304-af58-2c305db723af"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="Human Prescription Drug Label"/>
+   <title>Leuprolide Acetate Injection<br/>
+      <br/> Rx only</title>
+   <effectiveTime value="20260424"/>
+   <setId root="a3b01473-30c7-4945-bd60-2484221aaaad"/>
+   <versionNumber value="18"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="146974886"/>
+            <name>Sun Pharmaceutical Industries, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="725959238" root="1.3.6.1.4.1.519.1"/>
+                        <name>Sun Pharmaceutical Industries Limited</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C25391" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANALYSIS"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47335-936" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="MANUFACTURE"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="47335-936" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="52d83751-88e4-471c-bbaa-03fbb3c8110a"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260424"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="47335-936" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>leuprolide acetate</name>
+                        <formCode code="C47916" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="KIT"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>leuprolide acetate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="47335-936-40" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C102834" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 1: Convenience Kit of Co-Package" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20141215"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <part>
+                           <quantity>
+                              <numerator value="2.8" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>leuprolide acetate</name>
+                              <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>leuprolide acetate</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="5" unit="mg"/>
+                                    <denominator value="1" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="37JNS02E7V" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>LEUPROLIDE ACETATE</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="EFY6W0M8TG" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>LEUPROLIDE</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="6.3" unit="mg"/>
+                                    <denominator value="1" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM CHLORIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <quantity>
+                                    <numerator value="9" unit="mg"/>
+                                    <denominator value="1" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="LKG8494WBH" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BENZYL ALCOHOL</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="55X04QC32I" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SODIUM HYDROXIDE</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ACETIC ACID</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="2.8" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43210" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, MULTI-DOSE"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="1" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code/>
+                                          <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                       </containerPackagedProduct>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="ANDA078885" root="2.16.840.1.113883.3.150"/>
+                                 <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20141215"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38299" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBCUTANEOUS"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                        <part>
+                           <quantity>
+                              <numerator value="28" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <partProduct>
+                              <name>isopropyl alcohol</name>
+                              <formCode code="C47898" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SWAB"/>
+                              <asEntityWithGeneric>
+                                 <genericMedicine>
+                                    <name>isopropyl alcohol</name>
+                                 </genericMedicine>
+                              </asEntityWithGeneric>
+                              <ingredient classCode="ACTIB">
+                                 <quantity>
+                                    <numerator value="0.7" unit="mL"/>
+                                    <denominator value="1" unit="mL"/>
+                                 </quantity>
+                                 <ingredientSubstance>
+                                    <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>ISOPROPYL ALCOHOL</name>
+                                    <activeMoiety>
+                                       <activeMoiety>
+                                          <code code="ND2M416302" codeSystem="2.16.840.1.113883.4.9"/>
+                                          <name>ISOPROPYL ALCOHOL</name>
+                                       </activeMoiety>
+                                    </activeMoiety>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <ingredient classCode="IACT">
+                                 <ingredientSubstance>
+                                    <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>WATER</name>
+                                 </ingredientSubstance>
+                              </ingredient>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="mL"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code/>
+                                    <formCode code="C43199" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="PACKET"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <characteristic>
+                                       <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                       <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                                    </characteristic>
+                                 </subjectOf>
+                              </asContent>
+                           </partProduct>
+                           <subjectOf>
+                              <approval>
+                                 <id extension="M003" root="2.16.840.1.113883.3.9421"/>
+                                 <code code="C200263" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OTC Monograph Drug"/>
+                                 <author>
+                                    <territorialAuthority>
+                                       <territory>
+                                          <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                       </territory>
+                                    </territorialAuthority>
+                                 </author>
+                              </approval>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20141215"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                           <consumedIn>
+                              <substanceAdministration>
+                                 <routeCode code="C38304" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TOPICAL"/>
+                              </substanceAdministration>
+                           </consumedIn>
+                        </part>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA078885" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20141215"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_1">
+               <id root="cb217e41-9ffc-4b12-872f-3adfa321fdf6"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Leuprolide acetate is a synthetic nonapeptide analog of naturally occurring gonadotropin releasing hormone (GnRH or LH-RH). The analog possesses greater potency than the natural hormone. The chemical name is 5-oxo-L-prolyl-L-histidyl-L-tryptophyl-L-seryl-L-tyrosyl-D-leucyl-L-leucyl-L-arginyl-N-ethyl-L-prolinamide acetate (salt) with the following structural formula:</paragraph>
+                  <paragraph/>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph/>
+                  <paragraph>Leuprolide acetate injection is a sterile, aqueous solution intended for subcutaneous injection. It is available in a 2.8 mL multiple-dose vial containing leuprolide acetate, USP (5 mg/mL), sodium chloride, USP (6.3 mg/mL) for tonicity adjustment, benzyl alcohol, NF as a preservative (9 mg/mL), and water for injection, USP. The pH may have been adjusted with sodium hydroxide, NF and/or glacial acetic acid, USP. The pH range is 4.5 to 6.5.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>leuprolide-structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-structure.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_2">
+               <id root="5c02854c-05ce-4060-9d17-05f5d1693cba"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Leuprolide acetate, a GnRH agonist, acts as an inhibitor of gonadotropin secretion. Animal studies indicate that following an initial stimulation, continuous administration of leuprolide acetate results in suppression of ovarian and testicular steroidogenesis. This effect was reversible upon discontinuation of drug therapy. Administration of leuprolide acetate has resulted in inhibition of the growth of certain hormone dependent tumors (prostatic tumors in Noble and Dunning male rats and DMBA-induced mammary tumors in female rats) as well as atrophy of the reproductive organs.</paragraph>
+                  <paragraph/>
+                  <paragraph>In humans, subcutaneous administration of single daily doses of leuprolide acetate results in an initial increase in circulating levels of luteinizing hormone (LH) and follicle stimulating hormone (FSH), leading to a transient increase in levels of the gonadal steroids (testosterone and dihydrotestosterone in males, and estrone and estradiol in pre-menopausal females). However, continuous daily administration of leuprolide acetate results in decreased levels of LH and FSH. In males, testosterone is reduced to castrate levels. In pre-menopausal females, estrogens are reduced to post-menopausal levels. These decreases occur within two to four weeks after initiation of treatment, and castrate levels of testosterone in prostatic cancer patients have been demonstrated for periods of up to five years.</paragraph>
+                  <paragraph/>
+                  <paragraph>Leuprolide acetate is not active when given orally.</paragraph>
+                  <paragraph/>
+                  <paragraph>Pharmacokinetics</paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>Bioavailability by subcutaneous administration is comparable to that by intravenous administration.</paragraph>
+                  <paragraph/>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>The mean steady-state volume of distribution of leuprolide following intravenous bolus administration to healthy male volunteers was 27 L. <content styleCode="italics">In vitro</content> binding to human plasma proteins ranged from 43% to 49%.</paragraph>
+                  <paragraph/>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>In healthy male volunteers, a 1 mg bolus of leuprolide administered intravenously revealed that the mean systemic clearance was 7.6 L/h, with a terminal elimination half-life of approximately 3 hours based on a two compartment model. In rats and dogs, administration of <sup>14</sup>C-labeled leuprolide was shown to be metabolized to smaller inactive peptides, a pentapeptide (Metabolite I), tripeptides (Metabolites II and III) and a dipeptide (Metabolite IV). These fragments may be further catabolized.</paragraph>
+                  <paragraph/>
+                  <paragraph>The major metabolite (M-I) plasma concentrations measured in 5 prostate cancer patients reached maximum concentration 2 to 6 hours after dosing and were approximately 6% of the peak parent drug concentration. One week after dosing, mean plasma M-I concentrations were approximately 20% of mean leuprolide concentrations.</paragraph>
+                  <paragraph/>
+                  <paragraph>Excretion</paragraph>
+                  <paragraph>Following administration of LUPRON DEPOT* 3.75 mg to 3 patients, less than 5% of the dose was recovered as parent and M-I metabolite in the urine.</paragraph>
+                  <paragraph/>
+                  <paragraph>Special Populations</paragraph>
+                  <paragraph>The pharmacokinetics of the drug in hepatically and renally impaired patients has not been determined.</paragraph>
+                  <paragraph/>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>No pharmacokinetic-based drug-drug interaction studies have been conducted with leuprolide acetate. However, because leuprolide acetate is a peptide that is primarily degraded by peptidase and not by cytochrome P-450 enzymes as noted in specific studies, and the drug is only about 46% bound to plasma proteins, drug interactions would not be expected to occur. </paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_13">
+               <id root="7e824610-ccd9-4f50-810b-6b79e00ec15b"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL STUDIES</title>
+               <text>
+                  <paragraph>In a controlled study comparing leuprolide acetate injection 1 mg/day given subcutaneously to DES (diethylstilbestrol), 3 mg/day, the survival rate for the two groups was comparable after two years of treatment. The objective response to treatment was also similar for the two groups.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_3">
+               <id root="9b88e5a6-ea01-445e-b35c-0dbad9b800fd"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Leuprolide acetate injection is indicated in the palliative treatment of advanced prostatic cancer.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_4">
+               <id root="e4f1aa15-6a21-478f-bbcd-5ac08deb548e"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Leuprolide acetate injection is contraindicated in patients known to be hypersensitive to GnRH, GnRH agonist analogs or any of the excipients in leuprolide acetate injection: Reports of anaphylactic reactions to GnRH agonist analogs have been reported in the medical literature.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_5">
+               <id root="ae1e1f6b-67ca-46a4-b084-132f3b18dbaa"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content>Initially, leuprolide acetate injection, like other LH-RH agonists, causes increases in serum levels of testosterone. Transient worsening of symptoms, or the occurrence of additional signs and symptoms of prostate cancer, may develop during the first few weeks of leuprolide acetate injection treatment. Patients may experience a temporary increase in bone pain, which can be managed symptomatically. As with other LH-RH agonists, ureteral obstruction and spinal cord compression have been observed, which may contribute to paralysis with or without fatal complications.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content/>
+                  </paragraph>
+                  <paragraph>
+                     <content>Safe use of leuprolide acetate in pregnancy has not been established clinically. Leuprolide acetate injection may cause fetal harm.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Periodic monitoring of serum testosterone and prostate-specific antigen (PSA) levels is recommended, especially if the anticipated clinical or biochemical response to treatment has not been achieved. It should be noted that results of testosterone determinations are dependent on assay methodology. It is advisable to be aware of the type and precision of the assay methodology to make appropriate clinical and therapeutic decisions.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <content styleCode="underline">Severe Cutaneous Adverse Reactions</content>
+                     </content>
+                     <br/> Leuprolide acetate can cause severe cutaneous adverse reactions (SCARs), including Stevens-Johnson syndrome/toxic epidermal necrolysis (SJS/TEN), drug reaction with eosinophilia and systemic symptoms (DRESS), and acute generalized exanthematous pustulosis (AGEP). SCARs, including SJS/TEN, DRESS, and AGEP, occurred in patients receiving leuprolide acetate; including cases with visceral involvement and/or requiring skin grafts<content styleCode="italics"> [see Adverse Reactions</content>].</paragraph>
+                  <paragraph/>
+                  <paragraph>Monitor patients for the development of SCARs.</paragraph>
+                  <paragraph>If a SCAR is suspected, interrupt leuprolide acetate until the etiology of the reaction has been determined. Consultation with a dermatologist is recommended. If a SCAR is confirmed, or for other grade 4 skin reactions, permanently discontinue leuprolide acetate.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_6">
+               <id root="a42e8573-4f97-4f78-8ca2-22ddd1256c35"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>Patients with metastatic vertebral lesions and/or with urinary tract obstruction should be closely observed during the first few weeks of therapy (see <linkHtml href="#Section_5">WARNINGS</linkHtml> and  <linkHtml href="#Section_7">ADVERSE REACTIONS</linkHtml> sections). Patients with known allergies to benzyl alcohol, an ingredient of the drug's vehicle, may present symptoms of hypersensitivity, usually local, in the form of erythema and induration at the injection site.</paragraph>
+                  <br/>
+                  <paragraph>Hyperglycemia and an increased risk of developing diabetes have been reported in men receiving GnRH agonists. Hyperglycemia may represent development of diabetes mellitus or worsening of glycemic control in patients with diabetes. Monitor blood glucose and/or glycosylated hemoglobin (HbA1c) periodically in patients receiving a GnRH agonist and manage with current practice for treatment of hyperglycemia or diabetes. </paragraph>
+                  <br/>
+                  <paragraph>Increased risk of developing myocardial infarction, sudden cardiac death and stroke has been reported in association with use of GnRH agonists in men. The risk appears low based on the reported odds ratios, and should be evaluated carefully along with cardiovascular risk factors when determining a treatment for patients with prostate cancer. Patients receiving a GnRH agonist should be monitored for symptoms and signs suggestive of development of cardiovascular disease and be managed according to current clinical practice.<br/>
+                     <br/> Based on findings in animal studies, leuprolide acetate injection may cause fetal harm when administered to a pregnant woman. In animal developmental and reproductive toxicology studies, administration of the monthly formulation of leuprolide acetate on day 6 of pregnancy (sustained exposure was expected throughout the period of organogenesis) caused adverse embryo-fetal toxicity in animals at doses less than the human dose, based on body surface area, using an estimated daily dose. Advise pregnant patients and females of reproductive potential of the potential risk to the fetus.</paragraph>
+                  <br/>
+                  <paragraph>
+                     <content styleCode="bold">Effect on QT/QTc Interval</content>
+                  </paragraph>
+                  <paragraph>Androgen deprivation therapy may prolong the QT/QTc interval. Providers should consider whether the benefits of androgen deprivation therapy outweigh the potential risks in patients with congenital long QT syndrome, congestive heart failure, frequent electrolyte abnormalities, and in patients taking drugs known to prolong the QT interval. Electrolyte abnormalities should be corrected. Consider periodic monitoring of electrocardiograms and electrolytes.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+               <component>
+                  <section ID="Section_6.2">
+                     <id root="5771f54c-9bc0-430d-a247-fdcc67685c21"/>
+                     <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+                     <title>Information for Patients</title>
+                     <text>
+                        <paragraph>See <linkHtml href="#Section_15">INFORMATION FOR PATIENTS</linkHtml> which appears after the <linkHtml href="#Section_14">REFERENCE</linkHtml> section.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.3">
+                     <id root="16b82f4b-7922-4c0d-8da2-50132cd3a254"/>
+                     <code code="34075-2" codeSystem="2.16.840.1.113883.6.1" displayName="LABORATORY TESTS SECTION"/>
+                     <title>Laboratory Tests</title>
+                     <text>
+                        <paragraph>Response to leuprolide acetate should be monitored by measuring serum levels of testosterone and prostate-specific antigen (PSA). In the majority of patients, testosterone levels increased above baseline during the first week, declining thereafter to baseline levels or below by the end of the second week of treatment. Castrate levels were reached within two to four weeks and once attained were maintained for as long as drug administration continued.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.4">
+                     <id root="cadad495-3b50-4632-b810-46b659fcda95"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>See <linkHtml href="#Section_2">CLINICAL PHARMACOLOGY</linkHtml>,  Pharmacokinetics section.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.5">
+                     <id root="f2fd38f6-3e33-472a-ad6e-f67af7dbf069"/>
+                     <code code="34074-5" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG &amp; OR LABORATORY TEST INTERACTIONS SECTION"/>
+                     <title>Drug/Laboratory Test Interactions</title>
+                     <text>
+                        <paragraph>Administration of leuprolide acetate in therapeutic doses results in suppression of the pituitary-gonadal system. Normal function is usually restored within 4 to 12 weeks after treatment is discontinued.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.6">
+                     <id root="ce0f8979-fc48-48c4-bb67-4fa25bb59c3e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Two-year carcinogenicity studies were conducted with leuprolide acetate in rats and mice. In rats, a dose-related increase of benign pituitary hyperplasia and benign pituitary adenomas was noted at 24 months when the drug was administered subcutaneously at high daily doses (0.6 to 4 mg/kg). There was a significant but not dose-related increase of pancreatic islet-cell adenomas in females and of testicular interstitial cell adenomas in males (highest incidence in the low dose group). In mice, no pituitary abnormalities were observed at a dose as high as 60 mg/kg for two years. Patients have been treated with leuprolide acetate for up to three years with doses as high as 10 mg/day and for two years with doses as high as 20 mg/day without demonstrable pituitary abnormalities.</paragraph>
+                        <paragraph/>
+                        <paragraph>Mutagenicity studies have been performed with leuprolide acetate using bacterial and mammalian systems. These studies provided no evidence of a mutagenic potential.<br/>
+                           <br/> Leuprolide acetate injection may reduce male and female fertility. Administration of leuprolide acetate to male and female rats at dose of 0.024 mg/kg, 0.24 mg/kg, and 2.4 mg/kg as monthly depot formulation for up to 3 months (approximately as low as 1/30 of the human dose based on body surface area using an estimated daily dose in animals and humans) caused atrophy of the reproductive organs, and suppression of reproductive function. These changes were reversible upon cessation of treatment.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.7">
+                     <id root="07ab93e0-3d4b-4c71-9ccd-4006ea4cd169"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk Summary</content>
+                        </paragraph>
+                        <paragraph>Based on findings in animal studies and mechanism of action, leuprolide acetate injection may cause fetal harm when administered to a pregnant woman. There are no available data in pregnant women to inform the drug-associated risk. In animal developmental and reproductive toxicology studies, administration of a monthly formulation of leuprolide acetate on day 6 of pregnancy (sustained exposure was expected throughout the period of organogenesis) caused adverse embryo-fetal toxicity in animals at doses less than the human dose based on body surface area using an estimated daily dose <content styleCode="italics">(see data)</content>. Advise pregnant patients and females of reproductive potential of the potential risk to the fetus.</paragraph>
+                        <paragraph>
+                           <content styleCode="underline">
+                              <br/> Data</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Animal Data</content>
+                        </paragraph>
+                        <paragraph>Major fetal malformations were observed in developmental and reproductive toxicology studies in rabbits after a single administration of the monthly formulation of leuprolide acetate administered on day 6 of pregnancy at test dosages of 0.00024 mg/kg, 0.0024 mg/kg, and 0.024 mg/kg (approximately 1/600 to 1/6 the human dose based on body surface area using an estimated daily dose in animals and humans). Since a depot formulation was utilized in the study, a sustained exposure to leuprolide was expected throughout the period of organogenesis and to the end of gestation. Similar studies in rats did not demonstrate an increase in fetal malformations, however, there was increased fetal mortality and decreased fetal weights with the two higher doses of the monthly formulation of leuprolide acetate in rabbits and with the highest dose in rats.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.9">
+                     <id root="39213c09-bca4-40f2-bf29-cfe285154b56"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Lactation</title>
+                     <text>
+                        <paragraph>The safety and efficacy of leuprolide acetate injection have not been established in females. There is no information regarding the presence of leuprolide in human milk, the effects on the breastfed child, or the effects on milk production. Because many drugs are excreted in human milk and because of the potential for serious adverse reactions in a breastfed child from leuprolide acetate injection, a decision should be made to discontinue breastfeeding or discontinue the drug, taking into account the importance of the drug to the mother.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.12">
+                     <id root="54fa27ca-ba60-479d-9d21-e715b01e5a09"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="Spl Unclassified Section"/>
+                     <title>Females and Males of Reproductive Potential</title>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Infertility</content>
+                        </paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Males</content>
+                        </paragraph>
+                        <paragraph>Based on findings in animals and mechanism of action, leuprolide acetate injection may impair fertility in males of reproductive potential.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="Section_6.11">
+                     <id root="096bb28b-a0f0-4c0a-9001-f6cafe263ff6"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>In the clinical trials for leuprolide acetate injection, the majority (69%) of subjects studied were at least 65 years of age. Therefore, the labeling reflects the pharmacokinetics, efficacy and safety of leuprolide acetate injection in this population.</paragraph>
+                     </text>
+                     <effectiveTime value="20260424"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_7">
+               <id root="41cb731b-6f34-4639-90ca-57e8a6f0c365"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Clinical Trials</paragraph>
+                  <paragraph>In the majority of patients testosterone levels increased above baseline during the first week, declining thereafter to baseline levels or below by the end of the second week of treatment. This transient increase was occasionally associated with a temporary worsening of signs and symptoms, usually manifested by an increase in bone pain (see <linkHtml href="#Section_5">WARNINGS</linkHtml> section). Cases of temporary worsening of existing hematuria and urinary tract obstruction have occurred during the first week. Temporary weakness and paresthesia of the lower limbs have been reported.</paragraph>
+                  <paragraph/>
+                  <paragraph>Potential exacerbations of signs and symptoms during the first few weeks of treatment is a concern in patients with vertebral metastases and/or urinary obstruction which, if aggravated, may lead to neurological problems or increase the obstruction.</paragraph>
+                  <paragraph/>
+                  <paragraph>In a comparative trial of leuprolide acetate injection versus DES, in 5% or more of the patients receiving either drug, the following adverse reactions were reported to have a possible or probable relationship to drug as ascribed by the treating physician. Often, causality is difficult to assess in patients with metastatic prostate cancer. Reactions considered not drug related are excluded.</paragraph>
+                  <paragraph/>
+                  <table width="86%" cellspacing="0" cellpadding="0">
+                     <colgroup>
+                        <col width="55.94%"/>
+                        <col/>
+                        <col width="19.74%"/>
+                     </colgroup>
+                     <tbody>
+                        <tr styleCode="Botrule First">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold"> Leuprolide Acetate Injection<br/>(N=98)</content>
+                           </td>
+                           <td styleCode="Rrule" align="center" valign="top">
+                              <content styleCode="bold">DES<br/>(N=101)</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top"/>
+                           <td styleCode="Rrule" colspan="2" align="center" valign="top">
+                              <content styleCode="bold"> Number of Reports</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Cardiovascular System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Congestive heart failure</td>
+                           <td styleCode="Rrule" align="center" valign="top">1</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  ECG changes/ischemia</td>
+                           <td styleCode="Rrule" align="center" valign="top">19</td>
+                           <td styleCode="Rrule" align="center" valign="top">22</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  High blood pressure</td>
+                           <td styleCode="Rrule" align="center" valign="top">8</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Murmur</td>
+                           <td styleCode="Rrule" align="center" valign="top">3</td>
+                           <td styleCode="Rrule" align="center" valign="top">8</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Peripheral edema</td>
+                           <td styleCode="Rrule" align="center" valign="top">12</td>
+                           <td styleCode="Rrule" align="center" valign="top">30</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Phlebitis/thrombosis</td>
+                           <td styleCode="Rrule" align="center" valign="top">2</td>
+                           <td styleCode="Rrule" align="center" valign="top">10</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Gastrointestinal System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Anorexia</td>
+                           <td styleCode="Rrule" align="center" valign="top">6</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Constipation</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                           <td styleCode="Rrule" align="center" valign="top">9</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Nausea/vomiting</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                           <td styleCode="Rrule" align="center" valign="top">17</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Endocrine System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">
+                              <footnote ID="fn6414">Physiologic effect of decreased testosterone.</footnote>Decreased testicular size</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                           <td styleCode="Rrule" align="center" valign="top">11</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" valign="top">
+                              <footnoteRef IDREF="fn6414"/>Gynecomastia/breast tenderness or pain</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                           <td styleCode="Rrule" align="center" valign="top">63</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">
+                              <footnoteRef IDREF="fn6414"/>Hot flashes</td>
+                           <td styleCode="Rrule" align="center" valign="top">55</td>
+                           <td styleCode="Rrule" align="center" valign="top">12</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">
+                              <footnoteRef IDREF="fn6414"/>Impotence</td>
+                           <td styleCode="Rrule" align="center" valign="top">4</td>
+                           <td styleCode="Rrule" align="center" valign="top">12</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Hemic and Lymphatic System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Anemia</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Musculoskeletal System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Bone pain</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                           <td styleCode="Rrule" align="center" valign="top">2</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Myalgia</td>
+                           <td styleCode="Rrule" align="center" valign="top">3</td>
+                           <td styleCode="Rrule" align="center" valign="top">9</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Central/Peripheral Nervous System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Dizziness/lightheadedness</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  General pain</td>
+                           <td styleCode="Rrule" align="center" valign="top">13</td>
+                           <td styleCode="Rrule" align="center" valign="top">13</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Headache</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                           <td styleCode="Rrule" align="center" valign="top">4</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Insomnia/sleep disorders</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Respiratory System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Dyspnea</td>
+                           <td styleCode="Rrule" align="center" valign="top">2</td>
+                           <td styleCode="Rrule" align="center" valign="top">8</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Sinus congestion</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                           <td styleCode="Rrule" align="center" valign="top">6</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Integumentary System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Dermatitis</td>
+                           <td styleCode="Rrule" align="center" valign="top">5</td>
+                           <td styleCode="Rrule" align="center" valign="top">8</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Urogenital System</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Frequency/urgency</td>
+                           <td styleCode="Rrule" align="center" valign="top">6</td>
+                           <td styleCode="Rrule" align="center" valign="top">8</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Hematuria</td>
+                           <td styleCode="Rrule" align="center" valign="top">6</td>
+                           <td styleCode="Rrule" align="center" valign="top">4</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Urinary tract infection</td>
+                           <td styleCode="Rrule" align="center" valign="top">3</td>
+                           <td styleCode="Rrule" align="center" valign="top">7</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">Miscellaneous</td>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                           <td styleCode="Rrule" align="center" valign="top"/>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule" align="justify" valign="top">  Asthenia</td>
+                           <td styleCode="Rrule" align="center" valign="top">10</td>
+                           <td styleCode="Rrule" align="center" valign="top">10</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph/>
+                  <paragraph>In this same study, the following adverse reactions were reported in less than 5% of the patients on leuprolide acetate injection.<br/>
+                     <content styleCode="italics">
+                        <br/> Cardiovascular System</content> - Angina, Cardiac arrhythmias, Myocardial infarction, Pulmonary emboli; <content styleCode="italics">Gastrointestinal System</content> - Diarrhea, Dysphagia, Gastrointestinal bleeding, Gastrointestinal disturbance, Peptic ulcer, Rectal polyps; <content styleCode="italics">Endocrine System</content> - Libido decrease, Thyroid enlargement; <content styleCode="italics">Musculoskeletal System</content> - Joint pain; <content styleCode="italics">Central/Peripheral Nervous System</content> - Anxiety, Blurred vision, Lethargy, Memory disorder, Mood swings, Nervousness, Numbness, Paresthesia, Peripheral neuropathy, Syncope/blackouts, Taste disorders; <content styleCode="italics">Respiratory System</content> - Cough, Pleural rub, Pneumonia, Pulmonary fibrosis; <content styleCode="italics">Integumentary System</content> - Carcinoma of skin/ear, Dry skin, Ecchymosis, Hair loss, Itching, Local skin reactions, Pigmentation, Skin lesions; <content styleCode="italics">Urogenital System</content> - Bladder spasms, Dysuria, Incontinence, Testicular pain, Urinary obstruction; <content styleCode="italics">Miscellaneous</content> - Depression, Diabetes, Fatigue, Fever/chills, Hypoglycemia, Increased BUN, Increased calcium, Increased creatinine, Infection/inflammation, Ophthalmologic disorders, Swelling (temporal bone).<br/>
+                     <br/>In an additional clinical trial and from long-term observation of both studies, the following additional adverse reactions were reported for patients receiving leuprolide acetate injection.<br/>
+                     <content styleCode="italics">
+                        <br/> Cardiovascular System</content> - Bradycardia, Carotid bruit, Extrasystole, Palpitations, Perivascular cuffing (eyes), Ruptured aortic aneurysm, Stroke, Tachycardia, Transient ischemic attack; <content styleCode="italics">Gastrointestinal System</content> - Flatus, Dryness of mouth and throat, Hepatitis, Hepatomegaly, Occult blood (rectal exam), Rectal fistula/erythema; Endocrine System - Libido increase, Thyroid nodule; <content styleCode="italics">Musculoskeletal System</content> - Ankylosing spondylosis, Arthritis, Blurred disc margins, Bone fracture, Muscle stiffness, Muscle tenderness, Pelvic fibrosis, Spasms/cramps; <content styleCode="italics">Central/Peripheral Nervous System</content> - Auditory hallucinations/tinnitus, Decreased hearing, Decreased reflexes, Euphoria, Hyperreflexia, Loss of smell, Motor deficiency; <content styleCode="italics">Respiratory System</content> - Chest tightness, Decreased breathing sounds, Hemoptysis, Pleuritic chest pain, Pulmonary infiltrate, Rales/rhonchi, Rhinitis, Strep throat, Wheezing/bronchitis; <content styleCode="italics">Integumentary System</content> - Boil (pubic), Bruises, Hives, Keratosis, Mole, Shingles, Spiders; <content styleCode="italics">Urogenital System</content> - Blisters on penis, Inguinal hernia, Penile swelling, Post void residual, Prostatic pain, Pyuria; <content styleCode="italics">Miscellaneous </content>- Abdominal distention, Facial swelling/edema, Feet burning, Flu, Eyelid growth, Hypoproteinemia, Accidental injury, Knee effusion, Mass, Pallid, Sallow, Weakness.<br/>
+                     <br/>
+                     <content styleCode="bold"> Postmarketing</content>
+                  </paragraph>
+                  <paragraph>During postmarketing surveillance which includes other dosage forms and other patient populations, the following adverse reactions were reported.</paragraph>
+                  <paragraph/>
+                  <paragraph>Symptoms consistent with an anaphylactoid or asthmatic process have been rarely (incidence rate of about 0.002%) reported.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content>Symptoms consistent with fibromyalgia (e.g., joint and muscle pain, headaches, sleep disorders, gastrointestinal distress, and shortness of breath) have been reported individually and collectively.</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="italics"> Cardiovascular System</content> - Hypotension, Myocardial infarction, Pulmonary embolism;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Endocrine System</content> – Diabetes;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Gastrointestinal System</content> - Hepatic dysfunction;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Hepato-biliary disorder </content>– Serious drug-induced liver injury;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Hemic and Lymphatic System</content> - Decreased WBC;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Skin and Subcutaneous Tissue Disorders - </content>Rash, Urticaria, Photosensitivity, Hair growth, SJS/TEN, DRESS, AGEP, Dermatitis exfoliative, Bullous dermatitis, Erythema multiforme;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Central/Peripheral Nervous System</content> - Convulsion, Peripheral neuropathy, Spinal fracture/paralysis, Hearing disorder;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Miscellaneous</content> - Hard nodule in throat, Weight gain, Increased uric acid;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Musculoskeletal</content>
+                     <content styleCode="italics">System</content> - Tenosynovitis-like symptoms;</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Respiratory System</content> - Respiratory disorders, Interstitial lung disease;</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">Urogenital System </content>– Prostate pain;</paragraph>
+                  <paragraph>
+                     <content styleCode="italics">General disorders and administration site conditions</content> – Injection site reactions including induration, abscess and necrosis;</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="italics">Psychiatric disorders</content> – Suicidal ideation and attempt;<br/>
+                     <br/>
+                     <content styleCode="italics">Changes in Bone Density:</content> Decreased bone density has been reported in the medical literature in men who have had orchiectomy or who have been treated with an LH-RH agonist analog. In a clinical trial, 25 men with prostate cancer, 12 of whom had been treated previously with leuprolide acetate for at least six months, underwent bone density studies as a result of pain. The leuprolide-treated group had lower bone density scores than the nontreated control group. It can be anticipated that long periods of medical castration in men will have effects on bone density.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="italics">Pituitary apoplexy:</content> During postmarketing surveillance, rare cases of pituitary apoplexy (a clinical syndrome secondary to infarction of the pituitary gland) have been reported after the administration of gonadotropin-releasing hormone agonists. In a majority of these cases, a pituitary adenoma was diagnosed, with a majority of pituitary apoplexy cases occurring within 2 weeks of the first dose, and some within the first hour. In these cases, pituitary apoplexy has presented as sudden headache, vomiting, visual changes, ophthalmoplegia, altered mental status, and sometimes cardiovascular collapse. Immediate medical attention has been required.</paragraph>
+                  <paragraph/>
+                  <paragraph>See other LUPRON DEPOT* and leuprolide acetate injection package inserts for other events reported in the same and different patient populations.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_9">
+               <id root="11f29a27-0eec-42af-8d04-8a6a68e8b5bf"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>In rats subcutaneous administration of 250 to 500 times the recommended human dose, expressed on a per body weight basis, resulted in dyspnea, decreased activity, and local irritation at the injection site. There is no evidence at present that there is a clinical counterpart of this phenomenon. In early clinical trials with leuprolide acetate doses as high as 20 mg/day for up to two years caused no adverse effects differing from those observed with the 1 mg/day dose.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_10">
+               <id root="32bfb5d5-da1b-428a-bfe1-0770d086c8cc"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>The recommended dose is 1 mg (0.2 mL or 20 unit mark) administered as a single daily subcutaneous injection. As with other drugs administered chronically by subcutaneous injection, the injection site should be varied periodically. Each 0.2 mL contains 1 mg of leuprolide acetate, sodium chloride for tonicity adjustment, 1.8 mg of benzyl alcohol as preservative and water for injection. The pH may have been adjusted with sodium hydroxide and/or glacial acetic acid.</paragraph>
+                  <paragraph/>
+                  <paragraph>Follow the pictorial directions on the reverse side of this package insert for administration.</paragraph>
+                  <paragraph/>
+                  <paragraph>NOTE: As with all parenteral products, inspect the solution for discoloration and particulate matter before each use.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_11">
+               <id root="3a8298d6-333b-40c8-86c1-c01f8f6746f1"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Leuprolide acetate injection is a sterile, clear, colorless solution supplied in a 2.8 mL multiple-dose vial. The vial is packaged as follows: 14 Day Patient Administration Kit with 14 disposable syringes with fixed needles and 28 alcohol swabs, NDC  47335-936-40</paragraph>
+                  <paragraph/>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F) [see USP Controlled Room Temperature]. Do not freeze. Protect from light; store vial in carton until use.</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_14">
+               <id root="0dea1d12-c7dd-49d1-a4d6-d64a36e14c47"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>1. “OSHA Hazardous Drugs.” <content styleCode="italics">OSHA</content>. http://www.osha.gov/SLTC/hazardousdrugs/index.html </paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_15">
+               <id root="fad2826c-f859-4614-b59e-27dced3a833e"/>
+               <code code="42231-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL MEDGUIDE SECTION"/>
+               <title>INFORMATION FOR PATIENTS</title>
+               <text>
+                  <paragraph>Be sure to consult your physician with any questions you may have or for information about leuprolide acetate injection and its use.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">WHAT IS LEUPROLIDE ACETATE INJECTION?</content>
+                  </paragraph>
+                  <paragraph>Leuprolide acetate injection is chemically similar to gonadotropin releasing hormone (GnRH or LH-RH) a hormone which occurs naturally in your body.</paragraph>
+                  <paragraph/>
+                  <paragraph>Normally, your body releases small amounts of LH-RH and this leads to events which stimulate the production of sex hormones.</paragraph>
+                  <paragraph/>
+                  <paragraph>However, when you inject leuprolide acetate injection, the normal events that lead to sex hormone production are interrupted and testosterone is no longer produced by the testes.</paragraph>
+                  <paragraph/>
+                  <paragraph>Leuprolide acetate injection must be injected because, like insulin which is injected by diabetics, leuprolide acetate injection is inactive when taken by mouth.</paragraph>
+                  <paragraph/>
+                  <paragraph>If you were to discontinue the drug for any reason, your body would begin making testosterone again.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">DIRECTIONS FOR USING LEUPROLIDE ACETATE INJECTION</content>
+                  </paragraph>
+                  <paragraph>1. Wash hands thoroughly with soap and water.<br/>2. When using a new vial of leuprolide acetate injection flip off the plastic cover to expose the grey rubber stopper. Wipe metal ring and rubber stopper with an alcohol wipe each time you use leuprolide acetate injection. Check the liquid in the vial for particulate matter and discoloration prior to use. DO NOT USE if the liquid is not clear or has particles and replace with a new vial.<br/>3. Remove needle cap and inject the needle in the center of the rubber stopper on the leuprolide acetate injection vial.<br/>4. Take cover off needle. Push the needle through the center of the rubber stopper on the leuprolide acetate injection vial.<br/>5. Push the plunger all the way in to inject air into the vial.<br/>6. Keep the needle in the vial and turn the vial upside down. Check to make sure the tip of the needle is in the liquid. Slowly pull back on the plunger, until the syringe fills to the 0.2 mL or 20 unit mark.<br/>7. Toward the end of a two-week period, the amount of leuprolide acetate injection left in the vial will be small. Take special care to hold the vial straight and to keep the needle tip in liquid while pulling back on the plunger.<br/>8. Keeping the needle in the vial and the vial upside down, check for air bubbles in the syringe. If you see any, push the plunger slowly in to push the air bubble back into the vial. Keep the tip of the needle in the liquid and pull the plunger back again to fill to the 0.2 mL or 20 unit mark.<br/>9. Do this again if necessary to eliminate air bubbles.<br/>10. To protect your skin, inject each daily dose at a different injection site.<br/>11. Choose an injection site. Cleanse the injection site with another alcohol wipe.<br/>12. Hold the syringe in one hand. Hold the skin taut, or pull up a little flesh with the other hand, as you were instructed.<br/>13. Holding the syringe as you would a pencil, inject the needle all the way into the skin at a 90° angle. Push the plunger to administer the injection.</paragraph>
+                  <paragraph>
+                     <content>14. Hold an alcohol wipe down on your skin where the needle is inserted and withdraw the needle at the same angle it was inserted.</content>
+                  </paragraph>
+                  <paragraph>15. Use the disposable syringe only once and dispose of it properly as you were instructed. Needles thrown into a garbage bag could accidentally stick someone. NEVER LEAVE SYRINGES, NEEDLES OR DRUGS WHERE CHILDREN CAN REACH THEM.</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SOME SPECIAL ADVICE</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>You may experience hot flashes when using leuprolide acetate injection. During the first few weeks of treatment you may experience increased bone pain, increased difficulty in urinating, and less commonly but most importantly, you may experience the onset or aggravation of nerve symptoms. In any of these events, discuss the symptoms with your doctor. Like other treatment options, leuprolide acetate injection may cause impotence. Notify your doctor if you develop new or worsened symptoms after beginning leuprolide acetate injection treatment.</item>
+                     <item>You may experience some irritation at the injection site, such as burning, itching or swelling. These reactions are usually mild and go away. If they do not, tell your doctor.</item>
+                     <item>If you have experienced an allergic reaction to other drugs like leuprolide acetate injection, you should not use this drug.</item>
+                     <item>Do not stop taking your injections because you feel better. You need an injection every day to make sure leuprolide acetate injection keeps working for you.</item>
+                     <item>If you need to use an alternate to the syringe supplied with leuprolide acetate injection, low-dose insulin syringes should be utilized.</item>
+                     <item>When the drug level gets low, take special care to hold the vial straight up and down and to keep the needle tip in liquid while pulling back on the plunger.</item>
+                     <item>Do not try to get every last drop out of the vial. This will increase the possibility of drawing air into the syringe and getting an incomplete dose. Some extra drug has been provided so that you can withdraw the recommended number of doses.</item>
+                     <item>Tell your pharmacist when you will need leuprolide acetate injection so it will be at the pharmacy when you need it.</item>
+                     <item>Store at 20° to 25°C (68° to 77°F); excursions permitted to 15° to 30°C (59° to 86°F). Do not store near a radiator or other very warm place. Do not freeze. Protect from light; store vial in carton until use.</item>
+                     <item>Do not leave your drug or hypodermic syringes where anyone can pick them up.</item>
+                     <item>Keep this and all other medications out of reach of children.</item>
+                  </list>
+                  <paragraph/>
+                  <paragraph>*The following is a registered trademark of its respective manufacturer: LUPRON DEPOT<sup>®</sup>/TAP Pharmaceuticals Inc.</paragraph>
+                  <paragraph>Revised: 04/2026</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+            </section>
+         </component>
+         <component>
+            <section ID="Unclassified_Section_14">
+               <id root="6a1ab5b1-6c6a-4bb6-ae7d-867be46127dd"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>INSTRUCTIONS FOR USE</title>
+               <text>
+                  <paragraph/>
+                  <paragraph>Leuprolide (LOO proe lide) Acetate Injection</paragraph>
+                  <paragraph/>
+                  <paragraph>Read the Instructions for Use before you start using leuprolide acetate injection and each time you get a refill. There may be new information. This information does not take the place of talking to your doctor about your medical condition or your treatment. Your doctor should show you how to draw up leuprolide acetate injection and give the injection the right way before you inject the first time.<br/>
+                     <br/>
+                     <content styleCode="bold"> Do not share your syringes with other people, even if the needle has been changed. You may give other people a serious infection or get a serious infection from them.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold">Supplies you will need for the leuprolide acetate injection</content>
+                     <content styleCode="bold">: </content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>1 vial of  leuprolide acetate injection</item>
+                     <item>a sterile 0.5 mL syringe (See Figure A) with fixed 28 gauge, ½ inch needle</item>
+                     <item>1 cotton gauze</item>
+                     <item>2 alcohol swabs</item>
+                     <item>1 puncture resistant sharps container (See “Disposal of used syringes, needles, and vials”)</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM2"/>
+                        <br/> Figure A</content>
+                     <content styleCode="bold">
+                        <br/> Preparing the leuprolide acetate injection</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold"/>
+                     <content styleCode="bold">Step 1.</content>
+                  </paragraph>
+                  <paragraph>Wash hands thoroughly (See Figure B) and dry them with a clean towel.<br/>
+                     <br/>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM3"/>
+                        <br/> Figure B</content>
+                     <content styleCode="bold">
+                        <br/> Step 2.</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Check the liquid in the vial. It should look clear. Do not use if it is not clear or if it has particles in it.</item>
+                     <item>If using a new vial, flip off the plastic cover to expose the grey rubber stopper.</item>
+                     <item>Use an alcohol swab to clean the metal ring and the grey rubber stopper on the medicine vial every day, just before you use it (See Figure C).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM4"/>
+                        <br/> Figure C</content>
+                     <content styleCode="bold">
+                        <br/> Step 3.</content>
+                  </paragraph>
+                  <paragraph>Remove outer wrapping from 1 syringe (See Figure D).</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM5"/>
+                        <br/> Figure D</content>
+                     <br/>
+                     <content styleCode="bold">Step 4.</content>
+                  </paragraph>
+                  <paragraph>Pull the syringe plunger back until the tip is at the proper  mark for the prescribed dose (See Figure E).</paragraph>
+                  <paragraph>
+                     <br/>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM6"/>
+                        <br/> Figure E  <br/> Step 5. </content>Uncover needle by pulling the cap straight off (See Figure F). <content styleCode="bold">Do not</content> touch the needle. <br/>
+                     <content styleCode="bold">
+                        <renderMultiMedia referencedObject="MM7"/>
+                        <br/> Figure F</content>
+                     <content styleCode="bold">
+                        <br/> Step 6.</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Place the vial on a clean flat surface.</item>
+                     <item>Inject the needle through the center of the rubber stopper on the vial (See Figure G).</item>
+                     <item>Push the plunger all the way in to inject air into the vial.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM8"/>
+                        <br/> Figure G</content>
+                     <content styleCode="bold">
+                        <br/> Step 7.</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Keep the needle in the vial.</item>
+                     <item>Lift the vial and turn it straight upside down.</item>
+                     <item>Check to see that the needle tip is in the liquid (See Figure H).</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM9"/>
+                        <br/> Figure H</content>
+                     <content styleCode="bold">
+                        <br/> Step 8.</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>With the needle tip still in the liquid, slowly pull back the plunger until syringe fills to the proper mark (See Figure I).</item>
+                     <item>If any bubbles appear in the syringe, remove them by pushing the plunger up slowly.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM10"/>
+                        <br/> Figure I</content>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <content styleCode="bold"> Giving </content>
+                     <content styleCode="bold">leuprolide acetate injection</content>
+                     <br/>Step 9.</paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Choose a different injection site each day.</item>
+                     <item>Clean the injection site with a new alcohol swab.</item>
+                     <item>Hold the skin fold between your thumb and your index finger or as you were instructed by your doctor.</item>
+                     <item>Inject the needle straight into the skin quickly, as shown by your doctor in a 90° angle (See Figure J).</item>
+                     <item>Push the plunger to inject the medicine.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM11"/>
+                        <br/> Figure J</content>
+                     <content styleCode="bold">
+                        <br/> Step 10.</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Remove the needle at the same angle it was inserted (90°) (See Figure K).</item>
+                     <item>Wipe the skin with a cotton gauze.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM12"/>
+                        <br/> Figure K</content>
+                     <content styleCode="bold">
+                        <br/> Disposal of used needles, syringes, and vials</content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Step 11.</content>
+                  </paragraph>
+                  <paragraph/>
+                  <list listType="unordered" styleCode="Disc">
+                     <item>Put the used needles, syringes, and vials in a FDA-cleared sharps disposal container right away after use (See Figure L). Do not throw away (dispose of) loose needles, syringes, or vials in your household trash.</item>
+                     <item>If you do not have a FDA-cleared sharps disposal container, you may use a household container that is:<list listType="unordered" styleCode="Disc">
+                           <item>made of a heavy-duty plastic,</item>
+                           <item>can be closed with a tight-fitting, puncture-resistant lid, without sharps being able to come out,</item>
+                           <item>upright and stable during use,</item>
+                           <item>leak-resistant, and</item>
+                           <item>properly labeled to warn of hazardous waste inside the container.</item>
+                        </list>
+                     </item>
+                     <item>When your sharps disposal container is almost full, you will need to follow your community guidelines for the right way to dispose of your sharps disposal container. There may be state or local laws about how you should throw away used needles, syringes, and vials. For more information about safe sharps disposal, and for specific information about sharps disposal in the state that you live in, go to the FDA’s website at: http://www.fda.gov/safesharpsdisposal.</item>
+                     <item>Do not dispose of your used sharps disposal container in your household trash unless your community guidelines permit this. Do not recycle your used sharps disposal container.</item>
+                  </list>
+                  <paragraph>
+                     <content styleCode="bold">
+                        <br/>
+                        <renderMultiMedia referencedObject="MM13"/>
+                        <br/> Figure L</content>
+                     <br/> This Instructions for Use has been approved by the U.S. Food and Drug Administration.<br/>
+                     <br/>
+                     <br/> Distributed by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Sun Pharmaceutical Industries, Inc.</content>
+                  </paragraph>
+                  <paragraph>Cranbury, NJ 08512<br/>
+                     <br/> Manufactured by:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold"> Sun Pharmaceutical Ind. Ltd.</content>
+                  </paragraph>
+                  <paragraph>Halol-Baroda Highway,</paragraph>
+                  <paragraph>Halol-389 350, Gujarat, India.<br/>
+                     <br/> 5262907</paragraph>
+                  <paragraph>Revised: 04/2026</paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>leuprolide-fig-a.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-a.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>leuprolide-fig-b.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-b.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM4">
+                     <text>leuprolide-fig-c</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-c.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>leuprolide-fig-d</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-d.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM6">
+                     <text>leuprolide-fig-e</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-e.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM7">
+                     <text>leuprolide-fig-f</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-f.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM8">
+                     <text>leuprolide-fig-g</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-g.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM9">
+                     <text>leuprolide-fig-h</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-h.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM10">
+                     <text>leuprolide-fig-i</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-i.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM11">
+                     <text>leuprolide-fig-j.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-j.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM12">
+                     <text>leuprolide-fig-k</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-k.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="MM13">
+                     <text>leuprolide-fig-l</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-fig-l.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_18">
+               <id root="5d8fc69c-056e-4d9a-95c4-e792a193beb4"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL_Inner Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-936-40 <br/> 2.8 mL Multiple-dose <br/> Sterile Injection Vial<br/> Leuprolide Acetate Injection <br/> 14 mg/2.8 mL(1 mg/0.2 mL)<br/> For subcutaneous injection<br/> Rx only<br/> SUN PHARMA<br/>
+                        <renderMultiMedia referencedObject="MM14"/>
+                        <br/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+               <component>
+                  <observationMedia ID="MM14">
+                     <text>leuprolide-innercarton.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-innercarton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_17">
+               <id root="9fb42745-2a74-4665-a947-daa1b9993211"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL_Vial Label</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-936-40<br/> 2.8 mL Multiple-dose <br/> Sterile Injection Vial<br/> Leuprolide Acetate Injection<br/> 14 mg/2.8 mL(1 mg/0.2 mL)<br/> For subcutaneous injection<br/> Rx only<br/>
+                        <renderMultiMedia referencedObject="MM15"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+               <component>
+                  <observationMedia ID="MM15">
+                     <text>leuprolide-LABEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-label.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="Section_19">
+               <id root="eae17dce-00d3-44b0-85d0-df9cbb9a8fd0"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PACKAGE LABEL.PRINCIPAL DISPLAY PANEL_Outer Carton</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">NDC 47335-936-40 <br/> Leuprolide Acetate Injection<br/> 14 mg/2.8 mL(1 mg/0.2 mL)<br/> For subcutaneous injection <br/> 14 Day Patient Administration Kit<br/> Rx only<br/> Important: Dispense with prescription label positioned to remain with kit during use.<br/> SUN PHARMA<br/>
+                        <renderMultiMedia referencedObject="MM16"/>
+                     </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260424"/>
+               <component>
+                  <observationMedia ID="MM16">
+                     <text>leuprolide-Outercarton.jpg</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="leuprolide-outercarton.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

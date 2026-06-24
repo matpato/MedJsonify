@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e9d5eaa0-f04b-3a6e-e053-2995a90a8cdd"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>CEPHALEXIN 500 mg</title>
+   <effectiveTime value="20220929"/>
+   <setId root="2d12e6a9-f7dd-25ed-e054-00144ff8d46c"/>
+   <versionNumber value="4"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+            <name>DIRECT RX</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="079254320"/>
+                        <name>DIRECT RX</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61919-522" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="61919-606" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4e6a5c24-6725-2727-e063-6394a90aa81d"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20220929"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61919-522" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CEPHALEXIN</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CEPHALEXIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="69543-102" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OBN7UDS42Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEPHALEXIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SFF1W6677" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEPHALEXIN ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-522-30" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20160209"/>
+                                    <high value="20180209"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA062713" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20160209"/>
+                              <high value="20180209"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>(OPAQUE)</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">802</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="20" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="61919-606" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>CEPHALEXIN</name>
+                        <formCode code="C25158" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>CEPHALEXIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="67877-219" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIM">
+                           <quantity>
+                              <numerator unit="mg" value="500"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="OBN7UDS42Y" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CEPHALEXIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="5SFF1W6677" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>CEPHALEXIN ANHYDROUS</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H3R47K3TBD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FD&amp;C BLUE NO. 1</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="6DC9Q167V3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>PROPYLENE GLYCOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="XM0M87F357" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>FERROSOFERRIC OXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3SY5LH9PMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ANHYDROUS LACTOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="35SW5USQ3G" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>D&amp;C YELLOW NO. 10</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="2G86QN327L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GELATIN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="368GB5141J" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM LAURYL SULFATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5138Q19F1X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>AMMONIA</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="WZH3C48M4T" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POTASSIUM HYDROXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="46N107B71O" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SHELLAC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="56" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-606-56" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190403"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="60" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-606-60" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190403"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="10" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="61919-606-10" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20190403"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA090836" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20190403"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48336" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CAPSULE" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48329" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="green" xsi:type="CE">
+                              <originalText>light green cap and body</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="22" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">219</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d132893-a09c-212a-e054-00144ff8d46c">
+               <id root="9d35656e-7109-677b-e053-2a95a90abdee"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Cephalexin capsules, USP is a semisynthetic cephalosporin antibiotic intended for oral administration. It is 7-(D-α-Amino-α-phenylacetamido)-3-methyl-3-cephem-4- carboxylic acid monohydrate. Cephalexin has the molecular formula C16H17N3O4S∙H2O and the molecular weight is 365.41.</paragraph>
+                  <paragraph>Cephalexin has the following structural formula:</paragraph>
+                  <paragraph>[Chemical Structure]</paragraph>
+                  <paragraph>The nucleus of cephalexin is related to that of other cephalosporin antibiotics. The compound is a zwitterion; i.e., the molecule contains both a basic and an acidic group. The isoelectric point of cephalexin in water is approximately 4.5 to 5. The crystalline form of cephalexin which is available is a monohydrate. It is a white crystalline solid having a bitter taste. Solubility in water is low at room temperature; 1 or 2 mg/mL may be dissolved readily, but higher concentrations are obtained with increasing difficulty.</paragraph>
+                  <paragraph>The cephalosporins differ from penicillins in the structure of the bicyclic ring system. Cephalexin has a D-phenylglycyl group as substituent at the 7-amino position and an unsubstituted methyl group at the 3-position.</paragraph>
+                  <paragraph>Each capsule contains cephalexin monohydrate equivalent to 250 mg or 500 mg of cephalexin. The capsules also contain anhydrous lactose, gelatin, magnesium stearate, talc and titanium dioxide. The capsules are imprinted with edible ink containing black iron oxide.</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d12e690-849b-2692-e054-00144ff8d46c">
+               <id root="9d24fb9c-aab0-4897-e053-2a95a90a795c"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Human Pharmacology</paragraph>
+                  <paragraph>Cephalexin is acid stable and may be given without regard to meals. It is rapidly absorbed after oral administration. Following doses of 250 mg, 500 mg, and 1 g, average peak serum levels of approximately 9, 18, and 32 µg/mL respectively were obtained at 1 hour. Measurable levels were present 6 hours after administration. Cephalexin is excreted in the urine by glomerular filtration and tubular secretion. Studies showed that over 90% of the drug was excreted unchanged in the urine within 8 hours. During this period, peak urine concentrations following the 250 mg, 500 mg, and 1g doses were approximately 1000, 2200, and 5000 µg/mL respectively.</paragraph>
+                  <paragraph>Microbiology</paragraph>
+                  <paragraph>In vitro tests demonstrate that the cephalosporins are bactericidal because of their inhibition of cell-wall synthesis. Cephalexin has been shown to be active against most strains of the following microorganisms both in vitro and in clinical infections as described in the INDICATIONS AND USAGE section.</paragraph>
+                  <paragraph>Aerobes, Gram-positive:</paragraph>
+                  <paragraph>Staphylococcus aureus (including penicillinase-producing strains)
+  <br/>
+Streptococcus pneumoniae (penicillin-susceptible strains)
+  <br/>
+Streptococcus pyogenes
+ </paragraph>
+                  <paragraph>Aerobes, Gram-negative:</paragraph>
+                  <paragraph>Escherichia coli
+  <br/>
+Haemophilus influenzae
+  <br/>
+Klebsiella pneumoniae
+  <br/>
+Moraxella (Branhamella) catarrhalis
+  <br/>
+Proteus mirabilis
+ </paragraph>
+                  <paragraph>Note: Methicillin-resistant staphylococci and most strains of enterococci (Enterococcus faecalis [formerly Streptococcus faecalis]) are resistant to cephalosporins, including cephalexin. It is not active against most strains of Enterobacter spp., Morganella morganii, and Proteus vulgaris. It has no activity against Pseudomonas spp. or Acinetobacter calcoaceticus. Penicillin-resistant Streptococcus pneumoniae is usually cross-resistant to beta-lactam antibiotics.</paragraph>
+                  <paragraph>Susceptibility Tests</paragraph>
+                  <paragraph>Dilution techniques</paragraph>
+                  <paragraph>Quantitative methods are used to determine antimicrobial minimal inhibitory concentrations (MIC's). These MIC's provide estimates of the susceptibility of bacteria to antimicrobial compounds. The MIC's should be determined using a standardized procedure. Standardized procedures are based on a dilution method1-3 (broth or agar) or equivalent with standardized inoculum concentrations and standardized concentrations of cephalothin powder. The MIC values should be interpreted according to the following criteria:</paragraph>
+                  <paragraph>MIC (µg/mL) Interpretation
+  <br/>
+≤8 Susceptible (S)
+  <br/>
+16 Intermediate (I)
+  <br/>
+≥32 Resistant (R)
+ </paragraph>
+                  <paragraph>A report of "Susceptible" indicates that the pathogen is likely to be inhibited if the antimicrobial compound in the blood reaches the concentrations usually achievable. A report of "Intermediate" indicates that the result should be considered equivocal, and, if the microorganism is not fully susceptible to alternative, clinically feasible drugs, the test should be repeated. This category implies possible clinical applicability in body sites where the drug is physiologically concentrated or in situations where high dosage of drug can be used. This category also provides a buffer zone which prevents small uncontrolled technical factors from causing major discrepancies in interpretation. A report of "Resistant" indicates that the pathogen is not likely to be inhibited if the antimicrobial compound in the blood reaches the concentrations usually achievable; other therapy should be selected.</paragraph>
+                  <paragraph>Standardized susceptibility test procedures require the use of laboratory control microorganisms to control the technical aspects of the laboratory procedures. Standard cephalothin powder should provide the following MIC values:</paragraph>
+                  <paragraph>Microorganism MIC (µg/mL)
+  <br/>
+E. coli ATCC 25922 4 to 16
+  <br/>
+S. aureus ATCC 29213 0.12 to 0.5
+ </paragraph>
+                  <paragraph>Diffusion techniques</paragraph>
+                  <paragraph>Quantitative methods that require measurement of zone diameters also provide reproducible estimates of the susceptibility of bacteria to antimicrobial compounds. One such standardized procedure2,3 requires the use of standardized inoculum concentrations. This procedure uses paper disks impregnated with 30 µg cephalothin to test the susceptibility of microorganisms to cephalexin.</paragraph>
+                  <paragraph>Reports from the laboratory providing results of the standard single-disk susceptibility test with a 30 µg cephalothin disk should be interpreted according to the following criteria:</paragraph>
+                  <paragraph>Zone Diameter (mm) Interpretation
+  <br/>
+≥18 Susceptible (S)
+  <br/>
+15 to 17 Intermediate (I)
+  <br/>
+≤14 Resistant (R)
+ </paragraph>
+                  <paragraph>Interpretation should be as stated above for results using dilution techniques. Interpretation involves correlation of the diameter obtained in the disk test with the MIC for cephalexin. As with standard dilution techniques, diffusion methods require the use of laboratory control microorganisms that are used to control the technical aspects of the laboratory procedures. For the diffusion technique, the 30 µg cephalothin disk should provide the following zone diameters in these laboratory test quality control strains:</paragraph>
+                  <paragraph>Microorganism Zone Diameter (mm)
+  <br/>
+E. coli ATCC 25922 15 to 21
+  <br/>
+S. aureus ATCC 25923 29 to 37
+ </paragraph>
+                  <paragraph>Close</paragraph>
+               </text>
+               <effectiveTime value="20160219"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d132893-a0a3-212a-e054-00144ff8d46c">
+               <id root="9d35656e-711a-677b-e053-2a95a90abdee"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Cephalexin capsules are indicated for the treatment of the following infections when caused by susceptible strains of the designated microorganisms:</paragraph>
+                  <paragraph>Respiratory tract infections caused by Streptococcus pneumoniae and Streptococcus pyogenes (Penicillin is the usual drug of choice in the treatment and prevention of streptococcal infections, including the prophylaxis of rheumatic fever. Cephalexin is generally effective in the eradication of streptococci from the nasopharynx; however, substantial data establishing the efficacy of cephalexin in the subsequent prevention of rheumatic fever are not available at present.)</paragraph>
+                  <paragraph>Otitis media due to Streptococcus pneumoniae, Haemophilus influenzae, Staphylococcus aureus, Streptococcus pyogenes, and Moraxella catarrhalis</paragraph>
+                  <paragraph>Skin and skin structure infections caused by Staphylococcus aureus and/or Streptococcus pyogenes</paragraph>
+                  <paragraph>Bone infections caused by Staphylococcus aureus and/or Proteus mirabilis</paragraph>
+                  <paragraph>Genitourinary tract infections, including acute prostatitis, caused by Escherichia coli, Proteus mirabilis, and Klebsiella pneumonia</paragraph>
+                  <paragraph>Note: Culture and susceptibility tests should be initiated prior to and during therapy. Renal function studies should be performed when indicated.</paragraph>
+                  <paragraph>To reduce the development of drug-resistant bacteria and maintain the effectiveness of cephalexin and other antibacterial drugs, cephalexin capsules should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d132893-a0a5-212a-e054-00144ff8d46c">
+               <id root="9d35266c-17a0-8893-e053-2a95a90a6eef"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Cephalexin capsules are contraindicated in patients with known allergy to the cephalosporin group of antibiotics.</paragraph>
+               </text>
+               <effectiveTime value="20160229"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d132893-a0a7-212a-e054-00144ff8d46c">
+               <id root="9d35796a-337c-fa1f-e053-2995a90a3426"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>BEFORE THERAPY WITH CEPHALEXIN IS INSTITUTED, CAREFUL INQUIRY SHOULD BE MADE TO DETERMINE WHETHER THE PATIENT HAS HAD PREVIOUS HYPERSENSITIVITY REACTIONS TO CEPHALEXIN, CEPHALOSPORINS, PENICILLINS, OR OTHER DRUGS. IF THIS PRODUCT IS TO BE GIVEN TO PENICILLIN-SENSITIVE PATIENTS, CAUTION SHOULD BE EXERCISED BECAUSE CROSS-HYPERSENSITIVITY AMONG BETA-LACTAM ANTIBIOTICS HAS BEEN CLEARLY DOCUMENTED AND MAY OCCUR IN UP TO 10% OF PATIENTS WITH A HISTORY OF PENICILLIN ALLERGY. IF AN ALLERGIC REACTION TO CEPHALEXIN OCCURS, DISCONTINUE THE DRUG. SERIOUS ACUTE HYPERSENSITIVITY REACTIONS MAY REQUIRE TREATMENT WITH EPINEPHRINE AND OTHER EMERGENCY MEASURES, INCLUDING OXYGEN, INTRAVENOUS FLUIDS, INTRAVENOUS ANTIHISTAMINES, CORTICOSTEROIDS, PRESSOR AMINES AND AIRWAY MANAGEMENT, AS CLINICALLY INDICATED.</paragraph>
+                  <paragraph>There is some clinical and laboratory evidence of partial cross-allergenicity of the penicillins and the cephalosporins. Patients have been reported to have had severe reactions (including anaphylaxis) to both drugs.</paragraph>
+                  <paragraph>Any patient who has demonstrated some form of allergy, particularly to drugs, should receive antibiotics cautiously. No exception should be made with regard to cephalexin capsules.</paragraph>
+                  <paragraph>Clostridium difficile associated diarrhea (CDAD) has been reported with use of nearly all antibacterial agents, including cephalexin, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon leading to overgrowth of C. difficile.</paragraph>
+                  <paragraph>C. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antimicrobial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.</paragraph>
+                  <paragraph>If CDAD is suspected or confirmed, ongoing antibiotic use not directed against C. difficile may need to be discontinued. Appropriate fluid and electrolyte management, protein supplementation, antibiotic treatment of C. difficile, and surgical evaluation should be instituted as clinically indicated.</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d13376e-4321-03d6-e054-00144ff88e88">
+               <id root="9d35708c-a539-3481-e053-2995a90afc3f"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>General</paragraph>
+                  <paragraph>Prescribing cephalexin capsules in the absence of a proven or strongly suspected bacterial infection or a prophylactic indication is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.</paragraph>
+                  <paragraph>Patients should be followed carefully so that any side effects or unusual manifestations of drug idiosyncrasy may be detected. If an allergic reaction to cephalexin occurs, the drug should be discontinued and the patient treated with the usual agents (e.g., epinephrine or other pressor amines, antihistamines, or corticosteroids).</paragraph>
+                  <paragraph>Prolonged use of cephalexin capsules may result in the overgrowth of nonsusceptible organisms. Careful observation of the patient is essential. If superinfection occurs during therapy, appropriate measures should be taken.</paragraph>
+                  <paragraph>Positive direct Coombs' tests have been reported during treatment with the cephalosporin antibiotics. In hematologic studies or in transfusion cross-matching procedures when antiglobulin tests are performed on the minor side or in Coombs' testing of newborns whose mothers have received cephalosporin antibiotics before parturition, it should be recognized that a positive Coombs' test may be due to the drug.</paragraph>
+                  <paragraph>Cephalexin capsules should be administered with caution in the presence of markedly impaired renal function. Under such conditions, careful clinical observation and laboratory studies should be made because safe dosage may be lower than that usually recommended.</paragraph>
+                  <paragraph>Indicated surgical procedures should be performed in conjunction with antibiotic therapy.</paragraph>
+                  <paragraph>Broad-spectrum antibiotics should be prescribed with caution in individuals with a history of gastrointestinal disease, particularly colitis.</paragraph>
+                  <paragraph>Cephalosporins may be associated with a fall in prothrombin activity. Those at risk include patients with renal or hepatic impairment, or poor nutritional state, as well as patients receiving a protracted course of antimicrobial therapy, and patients previously stabilized on anticoagulant therapy. Prothrombin time should be monitored in patients at risk and exogenous vitamin K administered as indicated.</paragraph>
+                  <paragraph>Information for Patients</paragraph>
+                  <paragraph>Patients should be counseled that antibacterial drugs including cephalexin should only be used to treat bacterial infections. They do not treat viral infections (e.g., the common cold). When cephalexin is prescribed to treat a bacterial infection, patients should be told that although it is common to feel better early in the course of therapy, the medication should be taken exactly as directed. Skipping doses or not completing the full course of therapy may (1) decrease the effectiveness of the immediate treatment and (2) increase the likelihood that bacteria will develop resistance and will not be treatable by cephalexin or other antibacterial drugs in the future.</paragraph>
+                  <paragraph>Diarrhea is a common problem caused by antibiotics which usually ends when the antibiotic is discontinued. Sometimes after starting treatment with antibiotics, patients can develop watery and bloody stools (with or without stomach cramps and fever) even as late as two or more months after having taken the last dose of the antibiotic. If this occurs, patients should contact their physician as soon as possible.</paragraph>
+                  <paragraph>Drug Interactions</paragraph>
+                  <paragraph>Metformin</paragraph>
+                  <paragraph>In healthy subjects given single 500 mg doses of cephalexin and metformin, plasma metformin mean Cmax and AUC increased by an average of 34% and 24%, respectively, and metformin mean renal clearance decreased by 14%. No information is available about the interaction of cephalexin and metformin following multiple doses of either drug.</paragraph>
+                  <paragraph>Although not observed in this study, adverse effects could potentially arise from co-administration of cephalexin and metformin by inhibition of tubular secretion via organic cationic transporter systems. Accordingly, careful patient monitoring and dose adjustment of metformin is recommended in patients concomitantly taking cephalexin and metformin.</paragraph>
+                  <paragraph>Probenecid</paragraph>
+                  <paragraph>As with other β-lactams, the renal excretion of cephalexin is inhibited by probenecid.</paragraph>
+                  <paragraph>Drug / Laboratory Test Interactions</paragraph>
+                  <paragraph>As a result of administration of cephalexin capsules, a false-positive reaction for glucose in the urine may occur. This has been observed with Benedict's and Fehling's solutions and also with Clinitest® tablets.</paragraph>
+                  <paragraph>Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>Lifetime studies in animals have not been performed to evaluate the carcinogenic potential of cephalexin. Tests to determine the mutagenic potential of cephalexin have not been performed. In male and female rats, fertility and reproductive performance were not affected by cephalexin oral doses up to 1.5 times the highest recommended human dose based upon mg/m2.</paragraph>
+                  <paragraph>Pregnancy</paragraph>
+                  <paragraph>Teratogenic effects</paragraph>
+                  <paragraph>Pregnancy Category B</paragraph>
+                  <paragraph>Reproduction studies have been performed on mice and rats using oral doses of cephalexin monohydrate 0.6 and 1.5 times the maximum daily human dose (66 mg/kg/day) based upon mg/m2, and have revealed no harm to the fetus. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                  <paragraph>Nursing Mothers</paragraph>
+                  <paragraph>The excretion of cephalexin in human milk increased up to 4 hours after a 500 mg dose; the drug reached a maximum level of 4 µg/mL, then decreased gradually, and had disappeared 8 hours after administration. Caution should be exercised when cephalexin capsule is administered to a nursing woman.</paragraph>
+                  <paragraph>Pediatric Use</paragraph>
+                  <paragraph>The safety and effectiveness of cephalexin in pediatric patients was established in clinical trials for the dosages described in the DOSAGE AND ADMINISTRATION section. In these trials, pediatric patients may have received cephalexin capsules or cephalexin for oral suspension. Cephalexin capsules should only be used in children and adolescents capable of ingesting the capsule.</paragraph>
+                  <paragraph>Geriatric Use</paragraph>
+                  <paragraph>Of the 701 subjects in 3 published clinical studies of cephalexin, 433 (62%) were 65 and over. No overall differences in safety or effectiveness were observed between these subjects and younger subjects, and other reported clinical experience has not identified differences in responses between the elderly and younger patients, but greater sensitivity of some older individuals cannot be ruled out.</paragraph>
+                  <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function (see PRECAUTIONS, General section).</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d1385c8-a347-0cbb-e054-00144ff88e88">
+               <id root="9d35708c-a53a-3481-e053-2995a90afc3f"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Gastrointestinal</paragraph>
+                  <paragraph>Onset of pseudomembranous colitis may occur during or after antibacterial treatment (See WARNINGS section). Nausea and vomiting have been reported rarely. The most frequent side effect has been diarrhea. It was very rarely severe enough to warrant cessation of therapy. Dyspepsia, gastritis, and abdominal pain have also occurred. As with some penicillins and some other cephalosporins, transient hepatitis and cholestatic jaundice have been reported rarely.</paragraph>
+                  <paragraph>Hypersensitivity</paragraph>
+                  <paragraph>Allergic reactions in the form of rash, urticaria, angioedema, and, rarely, erythema multiforme, Stevens-Johnson syndrome, or toxic epidermal necrolysis have been observed. These reactions usually subsided upon discontinuation of the drug. In some of these reactions, supportive therapy may be necessary. Anaphylaxis has also been reported.</paragraph>
+                  <paragraph>Other reactions have included genital and anal pruritus, genital moniliasis, vaginitis and vaginal discharge, dizziness, fatigue, headache, agitation, confusion, hallucinations, arthralgia, arthritis, and joint disorder. Reversible interstitial nephritis has been reported rarely. Eosinophilia, neutropenia, thrombocytopenia, hemolytic anemia, and slight elevations in AST and ALT have been reported.</paragraph>
+                  <paragraph>In addition to the adverse reactions listed above that have been observed in patients treated with cephalexin, the following adverse reactions and altered laboratory tests have been reported for cephalosporin class antibiotics:</paragraph>
+                  <paragraph>Adverse Reactions — Fever, colitis, aplastic anemia, hemorrhage, renal dysfunction, and toxic nephropathy. Several cephalosporins have been implicated in triggering seizures, particularly in patients with renal impairment when the dosage was not reduced (see INDICATIONS AND USAGE and PRECAUTIONS, General section). If seizures associated with drug therapy should occur, the drug should be discontinued. Anticonvulsant therapy can be given if clinically indicated.
+  <br/>
+Altered Laboratory Tests — Prolonged prothrombin time, increased BUN, increased creatinine, elevated alkaline phosphatase, elevated bilirubin, elevated LDH, pancytopenia, leukopenia, and agranulocytosis.
+ </paragraph>
+                  <paragraph>To report suspected adverse reactions, contact Virtus Pharmaceuticals, LLC at 1-888-848-3593 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d13376e-4323-03d6-e054-00144ff88e88">
+               <id root="9d35796a-337b-fa1f-e053-2995a90a3426"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Signs and Symptoms</paragraph>
+                  <paragraph>Symptoms of oral overdose may include nausea, vomiting, epigastric distress, diarrhea, and hematuria. If other symptoms are present, it is probably secondary to an underlying disease state, an allergic reaction, or toxicity due to ingestion of a second medication.</paragraph>
+                  <paragraph>Treatment</paragraph>
+                  <paragraph>To obtain up-to-date information about the treatment of overdose, a good resource is your certified Regional Poison Control Center. Telephone numbers of certified poison control centers are listed in the Physicians' Desk Reference (PDR). In managing overdosage, consider the possibility of multiple drug overdoses, interaction among drugs, and unusual drug kinetics in your patient.</paragraph>
+                  <paragraph>Unless 5 to 10 times the normal dose of cephalexin has been ingested, gastrointestinal decontamination should not be necessary.</paragraph>
+                  <paragraph>Protect the patient's airway and support ventilation and perfusion. Meticulously monitor and maintain, within acceptable limits, the patient's vital signs, blood gases, serum electrolytes, etc. Absorption of drugs from the gastrointestinal tract may be decreased by giving activated charcoal, which, in many cases, is more effective than emesis or lavage; consider charcoal instead of or in addition to gastric emptying. Repeated doses of charcoal over time may hasten elimination of some drugs that have been absorbed. Safeguard the patient's airway when employing gastric emptying or charcoal.</paragraph>
+                  <paragraph>Forced diuresis, peritoneal dialysis, hemodialysis, or charcoal hemoperfusion have not been established as beneficial for an overdose of cephalexin; however, it would be extremely unlikely that one of these procedures would be indicated.</paragraph>
+                  <paragraph>The oral median lethal dose of cephalexin in rats is &gt;5000 mg/kg.</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d139b2f-34e4-46d9-e054-00144ff8d46c">
+               <id root="9d357a66-2132-047b-e053-2995a90ab00f"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>Cephalexin capsules are administered orally.</paragraph>
+                  <paragraph>Adults</paragraph>
+                  <paragraph>The adult dosage ranges from 1 to 4 g daily in divided doses. The 333 mg and the 750 mg strengths should be administered such that the daily dose is within 1 to 4 grams per day. The usual adult dose is 250 mg every 6 hours. For the following infections, a dosage of 500 mg may be administered every 12 hours: streptococcal pharyngitis, skin and skin structure infections, and uncomplicated cystitis in patients over 15 years of age. Cystitis therapy should be continued for 7 to 14 days. For more severe infections or those caused by less susceptible organisms, larger doses may be needed. If daily doses of cephalexin greater than 4 g are required, parenteral cephalosporins, in appropriate doses, should be considered.</paragraph>
+                  <paragraph>Pediatric Patients</paragraph>
+                  <paragraph>The usual recommended daily dosage for pediatric patients is 25 to 50 mg/kg in divided doses. For streptococcal pharyngitis in patients over 1 year of age and for skin and skin structure infections, the total daily dose may be divided and administered every 12 hours.</paragraph>
+                  <paragraph>In severe infections, the dosage may be doubled.</paragraph>
+                  <paragraph>In the therapy of otitis media, clinical studies have shown that a dosage of 75 to 100 mg/kg/day in 4 divided doses is required.</paragraph>
+                  <paragraph>In the treatment of β-hemolytic streptococcal infections, a therapeutic dosage of cephalexin should be administered for at least 10 days.</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d139c48-1fd8-3073-e054-00144ff8d46c">
+               <id root="9d35656e-7108-677b-e053-2a95a90abdee"/>
+               <code code="69718-5" codeSystem="2.16.840.1.113883.6.1" displayName="STATEMENT OF IDENTITY SECTION"/>
+               <title>STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15°-30°C (59°-86°F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d13c526-1ccb-4d9f-e054-00144ff8d46c">
+               <id root="9d35656e-710a-677b-e053-2a95a90abdee"/>
+               <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+               <title>STORAGE AND HANDLING</title>
+               <text>
+                  <paragraph>Store at 25°C (77°F); excursions permitted to 15°-30°C (59°-86°F) [See USP Controlled Room Temperature].</paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_9d35266c-17a2-8893-e053-2a95a90a6eef">
+               <id root="9d357a66-2133-047b-e053-2995a90ab00f"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20200128"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_2d13c526-1cd0-4d9f-e054-00144ff8d46c">
+               <id root="9c5b1895-949b-84b7-e053-2995a90a9940"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL </title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_2d13c526-1cce-4d9f-e054-00144ff8d46c"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20160209"/>
+               <component>
+                  <observationMedia ID="img_2d13c526-1cce-4d9f-e054-00144ff8d46c">
+                     <text>CEPHALEXIN 500mg</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="CEPHALEXIN 500 mg.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_85a4dce8-fca9-a4d2-e053-2a91aa0a52ef">
+               <id root="9c5b1895-94a0-84b7-e053-2995a90a9940"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_85a69790-1dcb-c609-e053-2a91aa0ae39e"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20190403"/>
+               <component>
+                  <observationMedia ID="img_85a69790-1dcb-c609-e053-2a91aa0ae39e">
+                     <text>606.56</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="606-56.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_e9d5fbe0-98f0-91c8-e053-2a95a90a023f">
+               <id root="e9d5fbe0-98ef-91c8-e053-2a95a90a023f"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_e9d5fbe0-98ee-91c8-e053-2a95a90a023f"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20220929"/>
+               <component>
+                  <observationMedia ID="img_e9d5fbe0-98ee-91c8-e053-2a95a90a023f">
+                     <text>61919-606-60</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="61919-606-60.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

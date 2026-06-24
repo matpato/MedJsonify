@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4d2b97a7-5a2b-fe67-e063-6294a90a5140"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20260316"/>
+   <setId root="4b4667e9-3b5e-4dc0-e063-6394a90ac1f5"/>
+   <versionNumber value="2"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1676" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4d2cd122-dee5-b1a2-e063-6394a90a9e0c"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260316"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1676" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>NITROGLYCERIN</name>
+                        <formCode code="C42998" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>NITROGLYCERIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="72888-139" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="mg" value="0.4"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>NITROGLYCERIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="G59M7S0WS3" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>NITROGLYCERIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="73CJJ317SR" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>GLYCERYL BEHENATE/EICOSADIOATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="776XM7047L" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CALCIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="H8AV0SQX4D" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="25" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1676-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="51662-1676-2" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43200" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POUCH"/>
+                                    <asContent>
+                                       <quantity>
+                                          <numerator value="25" unit="1"/>
+                                          <denominator value="1"/>
+                                       </quantity>
+                                       <containerPackagedProduct>
+                                          <code code="51662-1676-3" codeSystem="2.16.840.1.113883.6.69"/>
+                                          <formCode code="C43184" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CASE"/>
+                                       </containerPackagedProduct>
+                                       <subjectOf>
+                                          <marketingAct>
+                                             <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                             <statusCode code="active"/>
+                                             <effectiveTime>
+                                                <low value="20210503"/>
+                                             </effectiveTime>
+                                          </marketingAct>
+                                       </subjectOf>
+                                    </asContent>
+                                 </containerPackagedProduct>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA209779" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ANDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20210503"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">UpArrowhead;7</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="white" xsi:type="CE">
+                              <originalText>white to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48348" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ROUND" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="4" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38300" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="SUBLINGUAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b4793d0-5ccc-da60-e063-6294a90a7588">
+               <id root="4b4793d0-5ccb-da60-e063-6294a90a7588"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TABLE OF CONTENTS</title>
+               <text>
+                  <paragraph>FULL PRESCRIBING INFORMATION: CONTENTS*
+  <br/>
+1 INDICATIONS AND USAGE
+  <br/>
+2 DOSAGE AND ADMINISTRATION
+  <br/>
+3 DOSAGE FORMS AND STRENGTHS
+  <br/>
+4 CONTRAINDICATIONS
+  <br/>
+4.1 PDE-5-Inhibitors and sGC-Stimulators
+  <br/>
+4.2 Severe Anemia
+  <br/>
+4.3 Increased Intracranial Pressure
+  <br/>
+4.4 Hypersensitivity
+  <br/>
+4.5 Circulatory Failure and Shock
+  <br/>
+5 WARNINGS AND PRECAUTIONS
+  <br/>
+5.1 Tolerance
+  <br/>
+5.2 Hypotension
+  <br/>
+5.3 Hypertrophic Obstructive Cardiomyopathy
+  <br/>
+5.4 Headache
+  <br/>
+6 ADVERSE REACTIONS
+  <br/>
+7 DRUG INTERACTIONS
+  <br/>
+7.1 PDE-5-Inhibitors and sGC-Stimulators
+  <br/>
+7.2 Ergotamine
+  <br/>
+8 USE IN SPECIFIC POPULATIONS
+  <br/>
+8.1 Pregnancy
+  <br/>
+8.2 Lactation
+  <br/>
+8.4 Pediatric Use
+  <br/>
+8.5 Geriatric Use
+  <br/>
+10 OVERDOSAGE
+  <br/>
+10.1 Signs and Symptoms, Methemoglobinemia
+  <br/>
+10.2 Treatment of Overdosage
+  <br/>
+11 DESCRIPTION
+  <br/>
+12 CLINICAL PHARMACOLOGY
+  <br/>
+12.1 Mechanism of Action
+  <br/>
+12.2 Pharmacodynamics
+  <br/>
+12.3 Pharmacokinetics
+  <br/>
+13 NONCLINICAL TOXICOLOGY
+  <br/>
+13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+  <br/>
+16 HOW SUPPLIED/STORAGE AND HANDLING
+  <br/>
+17 PATIENT COUNSELING INFORMATION
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Sections or subsections omitted from the full prescribing information are not listed.
+ </paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b479629-7ea8-a2d2-e063-6394a90ac431">
+               <id root="4b479629-7ea7-a2d2-e063-6394a90ac431"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <text>
+                  <paragraph>Nitroglycerin sublingual tablets are indicated for the acute relief of an attack or acute prophylaxis of angina pectoris due to coronary artery disease.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b479629-7eac-a2d2-e063-6394a90ac431">
+               <id root="4b479629-7eab-a2d2-e063-6394a90ac431"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>Administer one tablet under the tongue or in the buccal pouch at the first sign of an acute anginal attack. Allow tablet to dissolve without swallowing. One additional tablet may be administered every 5 minutes until relief is obtained. No more than three tablets are recommended within a 15-minute period. If the pain persists after a total of 3 tablets in a 15-minute period, or if the pain is different than is typically experienced, seek prompt medical attention.</paragraph>
+                  <paragraph>Nitroglycerin sublingual tablets may be used prophylactically 5 to 10 minutes prior to engaging in activities that might precipitate an acute attack.</paragraph>
+                  <paragraph>For patients with xerostomia, a small sip of water prior to placing the tablet under the tongue may help maintain mucosal hydration and aid dissolution of the tablet.</paragraph>
+                  <paragraph>Administer nitroglycerin sublingual tablets at rest, preferably in the sitting position.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b479a58-6354-f29f-e063-6294a90aacca">
+               <id root="4b479a58-6353-f29f-e063-6294a90aacca"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Nitroglycerin sublingual tablets, USP are supplied as white to off white, round, flat-faced tablets in three strengths:</paragraph>
+                  <paragraph>   0.3 mg ("Ʌ 6" debossed on one side and plain on the other side).
+  <br/>
+   0.4 mg ("Ʌ 7" debossed on one side and plain on the other side).
+  <br/>
+   0.6 mg ("Ʌ 8" debossed on one side and plain on the other side).
+ </paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b4798fc-ff66-e41d-e063-6294a90a2ae2">
+               <id root="4b4798fc-ff65-e41d-e063-6294a90a2ae2"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>4.1 PDE-5-Inhibitors and sGC-Stimulators</paragraph>
+                  <paragraph>Do not use nitroglycerin in patients who are taking PDE-5 Inhibitors, such as avanafil, sildenafil, tadalafil, vardenafil hydrochloride. Concomitant use can cause severe hypotension, syncope, or myocardial ischemia [see Drug Interactions (7.1)].</paragraph>
+                  <paragraph>Do not use nitroglycerin in patients who are taking the soluble guanylate cyclase stimulators, such as riociguat. Concomitant use can cause hypotension.</paragraph>
+                  <paragraph>4.2 Severe Anemia</paragraph>
+                  <paragraph>Nitroglycerin is contraindicated in patients with severe anemia (large doses of nitroglycerin may cause oxidation of hemoglobin to methemoglobin and could exacerbate anemia).</paragraph>
+                  <paragraph>4.3 Increased Intracranial Pressure</paragraph>
+                  <paragraph>Nitroglycerin may precipitate or aggravate increased intracranial pressure and thus should not be used in patients with possible increased intracranial pressure (e.g., cerebral hemorrhage or traumatic brain injury).</paragraph>
+                  <paragraph>4.4 Hypersensitivity</paragraph>
+                  <paragraph>Nitroglycerin is contraindicated in patients who are allergic to nitroglycerin, other nitrates or nitrites or any excipient.</paragraph>
+                  <paragraph>4.5 Circulatory Failure and Shock</paragraph>
+                  <paragraph>Nitroglycerin is contraindicated in patients with acute circulatory failure or shock.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b479629-7eae-a2d2-e063-6394a90ac431">
+               <id root="4b479629-7ead-a2d2-e063-6394a90ac431"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>5.1 Tolerance</paragraph>
+                  <paragraph>Excessive use may lead to the development of tolerance. Only the smallest dose required for effective relief of the acute angina attack should be used. A decrease in therapeutic effect of sublingual nitroglycerin may result from use of long-acting nitrates.</paragraph>
+                  <paragraph>5.2 Hypotension</paragraph>
+                  <paragraph>Severe hypotension, particularly with upright posture, may occur with small doses of nitroglycerin particularly in patients with constrictive pericarditis, aortic or mitral stenosis, patients who may be volume-depleted, or are already hypotensive. Hypotension induced by nitroglycerin may be accompanied by paradoxical bradycardia and increased angina pectoris. Symptoms of severe hypotension (nausea, vomiting, weakness, pallor, perspiration and collapse/syncope) may occur even with therapeutic doses.</paragraph>
+                  <paragraph>5.3 Hypertrophic Obstructive Cardiomyopathy</paragraph>
+                  <paragraph>Nitrate therapy may aggravate the angina caused by hypertrophic cardiomyopathy.</paragraph>
+                  <paragraph>5.4 Headache</paragraph>
+                  <paragraph>Nitroglycerin produces dose-related headaches, especially at the start of nitroglycerin therapy, which may be severe and persist but usually subside with continued use.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b479cb9-3573-ed44-e063-6294a90a4b2b">
+               <id root="4b479cb9-3572-ed44-e063-6294a90a4b2b"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The following adverse reactions are discussed in more detail elsewhere in the label:</paragraph>
+                  <paragraph>Hypotension [see Warnings and Precautions (5.2)]
+  <br/>
+Headache [see Warnings and Precautions (5.4)]
+  <br/>
+Hypersensitivity [see Contraindications (4.4)]
+ </paragraph>
+                  <paragraph>Vertigo, dizziness, weakness, palpitation, and other manifestations of postural hypotension may develop occasionally, particularly in erect, immobile patients. Marked sensitivity to the hypotensive effects of nitrates (manifested by nausea, vomiting, weakness, diaphoresis, pallor, and collapse) may occur at therapeutic doses. Syncope due to nitrate vasodilatation has been reported.</paragraph>
+                  <paragraph>Flushing, drug rash, and exfoliative dermatitis have been reported in patients receiving nitrate therapy.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b4798fc-ff69-e41d-e063-6294a90a2ae2">
+               <id root="4b4798fc-ff68-e41d-e063-6294a90a2ae2"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>7.1 PDE-5-Inhibitors and sGC-Stimulators</paragraph>
+                  <paragraph>Nitroglycerin is contraindicated in patients who are using a selective inhibitor of cyclic guanosine monophosphate (cGMP)-specific phosphodiesterase type 5 (PDE-5). PDE-5-Inhibitors such as avanafil, sildenafil, vardenafil, and tadalafil have been shown to potentiate the hypotensive effects of organic nitrates.</paragraph>
+                  <paragraph>Nitroglycerin is contraindicated in patients who are taking soluble guanylate cyclase (sGC) stimulators. Concomitant use can cause hypotension.</paragraph>
+                  <paragraph>The time course and dose dependence of these interactions have not been studied, and use within a few days of one another is not recommended. Appropriate supportive care for the severe hypotension has not been studied, but it seems reasonable to treat this as a nitrate overdose, with elevation of the extremities and with central volume expansion.</paragraph>
+                  <paragraph>7.2 Ergotamine</paragraph>
+                  <paragraph>Oral administration of nitroglycerin markedly decreases the first-pass metabolism of dihydroergotamine and subsequently increases its oral bioavailability. Ergotamine is known to precipitate angina pectoris. Therefore, patients receiving sublingual nitroglycerin should avoid ergotamine and related drugs or be monitored for symptoms of ergotism if this is not possible.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b478e62-14b9-da64-e063-6294a90a3a71">
+               <id root="4b478e62-14b8-da64-e063-6294a90a3a71"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph>Risk summary</paragraph>
+                  <paragraph>Limited published data on the use of nitroglycerin are insufficient to determine a drug associated risk of major birth defects or miscarriage. In animal reproduction studies, there were no adverse developmental effects when nitroglycerin was administered intravenously to rabbits or intraperitoneally to rats during organogenesis at doses greater than 64-times the human dose (see Data) .</paragraph>
+                  <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                  <paragraph>Data</paragraph>
+                  <paragraph>Animal Data</paragraph>
+                  <paragraph>No embryotoxic or postnatal development effects were observed with transdermal application in pregnant rabbits and rats at doses up to 80 and 240 mg/kg/day, respectively, at intraperitoneal doses in pregnant rats up to 20 mg/kg/day from gestation day 7-17, and at intravenous doses in pregnant rabbits up to 4 mg/kg/day from gestation day 6-18.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk summary</paragraph>
+                  <paragraph>Sublingual nitroglycerin has not been studied in lactating women. It is not known if nitroglycerin is present in human milk or if nitroglycerin has effects on milk production.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>The safety and effectiveness of nitroglycerin in pediatric patients have not been established.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of nitroglycerin did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47a533-bed7-9a91-e063-6394a90a06ac">
+               <id root="4b47a533-bed6-9a91-e063-6394a90a06ac"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>10.1 Signs and Symptoms, Methemoglobinemia</paragraph>
+                  <paragraph>Nitrate overdosage may result in: severe hypotension, persistent throbbing headache, vertigo, palpitation, visual disturbance, flushing and perspiring skin (later becoming cold and cyanotic), nausea and vomiting (possibly with colic and even bloody diarrhea), syncope (especially in the upright posture), methemoglobinemia with cyanosis and anorexia, initial hyperpnea, dyspnea and slow breathing, slow pulse (dicrotic and intermittent), heart block, increased intracranial pressure with cerebral symptoms of confusion and moderate fever, paralysis and coma followed by clonic convulsions, and possibly death due to circulatory collapse.</paragraph>
+                  <paragraph>Case reports of clinically significant methemoglobinemia are rare at conventional doses of organic nitrates. The formation of methemoglobin is dose-related and in the case of genetic abnormalities of hemoglobin that favor methemoglobin formation, even conventional doses of organic nitrates could produce harmful concentrations of methemoglobin.</paragraph>
+                  <paragraph>10.2 Treatment of Overdosage</paragraph>
+                  <paragraph>As hypotension associated with nitroglycerin overdose is the result of venodilatation and arterial hypovolemia, prudent therapy in this situation should be directed toward increase in central fluid volume. No specific antagonist to the vasodilator effects of nitroglycerin is known. Keep the patient recumbent in a shock position and comfortably warm. Passive movement of the extremities may aid venous return. Intravenous infusion of normal saline or similar fluid may also be necessary. Administer oxygen and artificial ventilation, if necessary. If methemoglobinemia is present, administration of methylene blue (1% solution), 1-2 mg per kilogram of body weight intravenously, may be required unless the patient is known to have G-6-PD deficiency. If an excessive quantity of nitroglycerin has been recently swallowed gastric lavage may be of use.</paragraph>
+                  <paragraph>As epinephrine is ineffective in reversing the severe hypotensive events associated with overdosage, it is not recommended for resuscitation.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47b0c0-090d-beec-e063-6394a90a3bec">
+               <id root="4b47b0c0-090c-beec-e063-6394a90a3bec"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Nitroglycerin sublingual tablets, USP are stabilized sublingual compressed nitroglycerin tablet that contains 0.3 mg, 0.4 mg , or 0.6 mg nitroglycerin; as well as lactose monohydrate, colloidal silicon dioxide, sodium starch glycolate, calcium stearate and glyceryl behenate.</paragraph>
+                  <paragraph>Nitroglycerin, an organic nitrate, is a vasodilating agent. The chemical name for nitroglycerin is 1, 2, 3 propanetriol trinitrate and the chemical structure is:</paragraph>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4b47b05d-be92-f20c-e063-6294a90acbc9"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+               <component>
+                  <observationMedia ID="img_4b47b05d-be92-f20c-e063-6294a90acbc9">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1676-1 STRUCTURE.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47b0c0-090f-beec-e063-6394a90a3bec">
+               <id root="4b47b0c0-090e-beec-e063-6394a90a3bec"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Nitroglycerin forms free radical nitric oxide (NO) which activates guanylate cyclase, resulting in an increase of guanosine 3'5' monophosphate (cyclic GMP) in smooth muscle and other tissues. These events lead to dephosphorylation of myosin light chains, which regulate the contractile state in smooth muscle, and result in vasodilatation.</paragraph>
+                  <paragraph>12.2 Pharmacodynamics</paragraph>
+                  <paragraph>The principal pharmacological action of nitroglycerin is relaxation of vascular smooth muscle. Although venous effects predominate, nitroglycerin produces, in a dose-related manner, dilation of both arterial and venous beds. Dilation of postcapillary vessels, including large veins, promotes peripheral pooling of blood, decreases venous return to the heart, and reduces left ventricular end-diastolic pressure (preload).</paragraph>
+                  <paragraph>Nitroglycerin also produces arteriolar relaxation, thereby reducing peripheral vascular resistance and arterial pressure (afterload), and dilates large epicardial coronary arteries; however, the extent to which this latter effect contributes to the relief of exertional angina is unclear.</paragraph>
+                  <paragraph>Therapeutic doses of nitroglycerin may reduce systolic, diastolic, and mean arterial blood pressure. Effective coronary perfusion pressure is usually maintained, but can be compromised if blood pressure falls excessively, or increased heart rate decreases diastolic filling time.</paragraph>
+                  <paragraph>Elevated central venous and pulmonary capillary wedge pressures, and pulmonary and systemic vascular resistance are also reduced by nitroglycerin therapy. Heart rate is usually slightly increased, presumably due to a compensatory response to the fall in blood pressure. Cardiac index may be increased, decreased, or unchanged. Myocardial oxygen consumption or demand (as measured by the pressure-rate product, tension-time index, and stroke-work index) is decreased and a more favorable supply-demand ratio can be achieved. Patients with elevated left ventricular filling pressures and increased systemic vascular resistance in association with a depressed cardiac index are likely to experience an improvement in cardiac index. In contrast, when filling pressures and cardiac index are normal, cardiac index may be slightly reduced following nitroglycerin administration.</paragraph>
+                  <paragraph>Consistent with the symptomatic relief of angina, digital plethysmography indicates that onset of the vasodilatory effect occurs approximately 1 to 3 minutes after sublingual nitroglycerin administration and reaches a maximum by 5 minutes postdose. Effects persist for at least 25 minutes following nitroglycerin sublingual tablets administration.</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>Absorption</paragraph>
+                  <paragraph>Nitroglycerin is rapidly absorbed following sublingual administration of nitroglycerin tablets. Mean peak nitroglycerin plasma concentrations occur at a mean time of approximately 6 to 7 minutes postdose (Table 1). Maximum plasma nitroglycerin concentrations (C max) and area under the plasma concentration- time curves (AUC) increase dose-proportionally following 0.3 to 0.6 mg nitroglycerin. The absolute bioavailability of nitroglycerin from nitroglycerin sublingual tablets is approximately 40% but tends to be variable due to factors influencing drug absorption, such as sublingual hydration and mucosal metabolism.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4b47bcd6-0350-be4b-e063-6394a90aab8d"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>The volume of distribution (V Area) of nitroglycerin following intravenous administration is 3.3 L/kg. At plasma concentrations between 50 and 500 ng/mL, the binding of nitroglycerin to plasma proteins is approximately 60%, while that of 1,2- and 1,3-dinitroglycerin is 60% and 30%, respectively.</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>A liver reductase enzyme is of primary importance in the metabolism of nitroglycerin to glycerol di- and mononitrate metabolites and ultimately to glycerol and organic nitrate. Known sites of extrahepatic metabolism include red blood cells and vascular walls. In addition to nitroglycerin, 2 major metabolites 1,2­ and 1,3-dinitroglycerin, are found in plasma. Mean peak 1,2- and 1,3-dinitroglycerin plasma concentrations occur at approximately 15 minutes postdose. The elimination half-life of 1,2- and 1,3-dinitroglycerin is 36 and 32 minutes, respectively. The 1,2- and 1,3-dinitroglycerin metabolites have been reported to possess approximately 2% and 10%, respectively, of the pharmacological activity of nitroglycerin. Higher plasma concentrations of the dinitro metabolites, along with their nearly 10-fold longer elimination half-lives, may contribute significantly to the duration of pharmacologic effect. Glycerol mononitrate metabolites of nitroglycerin are biologically inactive.</paragraph>
+                  <paragraph>Elimination</paragraph>
+                  <paragraph>Nitroglycerin plasma concentrations decrease rapidly, with a mean elimination half-life of 2 to 3 minutes. Half-life values range from 1.5 to 7.5 minutes. Clearance (13.6 L/min) greatly exceeds hepatic blood flow. Metabolism is the primary route of drug elimination.</paragraph>
+                  <paragraph>Drug interactions</paragraph>
+                  <paragraph>Aspirin:Coadministration of nitroglycerin with high dose aspirin (1000 mg) results in increased exposure to nitroglycerin. The vasodilatory and hemodynamic effects of nitroglycerin may be enhanced by concomitant administration of nitroglycerin with high dose aspirin.</paragraph>
+                  <paragraph>Tissue-type plasminogen activator (t-PA): Concomitant administration of t-PA and intravenous nitroglycerin has been shown to reduce plasma levels of t-PA and its thrombolytic effect.</paragraph>
+                  <paragraph/>
+                  <paragraph/>
+               </text>
+               <effectiveTime value="20260220"/>
+               <component>
+                  <observationMedia ID="img_4b47bcd6-0350-be4b-e063-6394a90aab8d">
+                     <text>Table</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1676-1 TABLE 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47b8a3-c4cd-1b0e-e063-6294a90a2cf2">
+               <id root="4b47b8a3-c4cc-1b0e-e063-6294a90a2cf2"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+  <br/>
+Animal carcinogenesis studies with sublingually administered nitroglycerin have not been performed.
+ </paragraph>
+                  <paragraph>Carcinogenicity potential of nitroglycerin was evaluated in rats receiving up to 434 mg/kg/day of dietary nitroglycerin for 2 years. Rats developed dose-related fibrotic and neoplastic changes in liver, including carcinomas, and interstitial cell tumors in testes. At high dose, the incidences of hepatocellular carcinomas in males was 48% and in females was 33%, compared to 0% in untreated controls. Incidences of testicular tumors were 52% vs. 8% in controls. Lifetime dietary administration of up to 1058 mg/kg/day of nitroglycerin was not tumorigenic in mice.</paragraph>
+                  <paragraph>Nitroglycerin was mutagenic in Ames tests performed in 2 different laboratories. Nevertheless, there was no evidence of mutagenicity in an in vivo dominant lethal assay with male rats treated with doses up to about 363 mg/kg/day, PO, or in ex vivo cytogenetic tests in rat and dog cells.</paragraph>
+                  <paragraph>In a 3-generation reproduction study, rats received dietary nitroglycerin at doses up to about 434 mg/kg/day for 6 months prior to mating of the F0 generation, with treatment continuing through successive F1 and F2 generations. The high dose was associated with decreased feed intake and body weight gain in both sexes at all matings. No specific effect on the fertility of the F0 generation was seen. Infertility noted in subsequent generations, however, was attributed to increased interstitial cell tissue and aspermatogenesis in the high-dose males. In this 3-generation study, there was no clear evidence of teratogenicity.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47b8a3-c50b-1b0e-e063-6294a90a2cf2">
+               <id root="4d2c1235-a43f-124e-e063-6394a90a7c7a"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Nitroglycerin sublingual tablets, USP are supplied as white to off white , round, flat-faced tablets ( 0.4 mg) in 1 bottle containing 25 tablets.</paragraph>
+                  <paragraph/>
+                  <paragraph>0.4 mg: "Ʌ7" debossed on one side and plain on the other side.
+  <br/>
+NDC 51662-1676-1 1 BOTTLE OF 25
+ </paragraph>
+                  <paragraph>NDC 51662-1676-2 1 POUCH OF 1 BOTTLE</paragraph>
+                  <paragraph>NDC 51662-1676-3 1 CASE OF 25 POUCHES</paragraph>
+                  <paragraph/>
+                  <paragraph>Store at Controlled Room Temperature 20°–25°C (68°–77°F) [see USP]. Nitroglycerin sublingual tablets should be kept in the original glass container and must be tightly capped after each use to prevent loss of tablet potency.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47d1b2-d460-3f9c-e063-6294a90a6aa6">
+               <id root="4b47d1b2-d45f-3f9c-e063-6294a90a6aa6"/>
+               <code code="88436-1" codeSystem="2.16.840.1.113883.6.1" displayName="PATIENT COUNSELING INFORMATION"/>
+               <text>
+                  <paragraph>Advise the patient to read the FDA-approved patient labeling (Patient Information).</paragraph>
+                  <paragraph>This product’s label may have been updated. For full prescribing information, please visit www.advagenpharma.com.</paragraph>
+                  <paragraph>All the brands are trademarks of their respective owners.</paragraph>
+                  <paragraph>Manufactured by:
+  <br/>
+Rubicon Research Limited
+  <br/>
+Thane, 421506 India
+ </paragraph>
+                  <paragraph/>
+                  <paragraph>Distributed by:</paragraph>
+                  <paragraph>HF Acquisition Co LLC dba HealthFirst</paragraph>
+                  <paragraph>11629 49th PL W, Mukilteo, WA 98275</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47d1b2-d470-3f9c-e063-6294a90a6aa6">
+               <id root="4b47d1b2-d46f-3f9c-e063-6294a90a6aa6"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>Nitroglycerin (nye" troe glis' er in) Sublingual Tablets, USP</title>
+               <text>
+                  <paragraph>Read this information carefully before you start nitroglycerin sublingual tabletsand each time you refill your prescription. There may be new information. This information does not replace talking with your doctor. If you have any questions about nitroglycerin sublingual tablets, ask your doctor. Your doctor will know if nitroglycerin sublingual tabletsare right for you.</paragraph>
+                  <paragraph>What are nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Nitroglycerinis a type of medicine known as an organic nitrate and is a vasodilating agent. It is used to treat a type of chest pain called angina.</paragraph>
+                  <paragraph>What is Angina?</paragraph>
+                  <paragraph>Angina is a pain or discomfort that keeps coming back when part of your heart does not get enough blood. Angina feels like a pressing or squeezing pain, usually in your chest under the breastbone. Sometimes you can feel it in your shoulders, arms, neck, jaws, or back. Nitroglycerincan relieve this pain.</paragraph>
+                  <paragraph>Who should not use nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Do not use nitroglycerinif you are allergic to organic nitrates (like the active ingredient in nitroglycerin sublingual tablets).</paragraph>
+                  <paragraph>You should not take nitroglycerin sublingual tabletsif you have the following conditions:</paragraph>
+                  <paragraph>very recent heart attack
+  <br/>
+severe anemia
+  <br/>
+increased pressure in the head
+ </paragraph>
+                  <paragraph>Do not take nitroglycerin sublingual tabletswith drugs for erectile dysfunction, like VIAGRA ®(sildenafil citrate), CIALIS ®(tadalafil), or LEVITRA ®(vardenafil hydrochloride), as this may lead to extreme lowering of your blood pressure .</paragraph>
+                  <paragraph>Do not take nitroglycerin sublingual tabletsif you take medicines called guanylate cyclase stimulators which include riociguat, a medicine that treats pulmonary arterial hypertension and chronic-thromboembolic pulmonary hypertension.</paragraph>
+                  <paragraph>What should I tell my doctor before taking nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Before using nitroglycerin sublingual tablets, tell your doctor if:</paragraph>
+                  <paragraph>You are taking any medicines that are used to treat angina, heart failure, or an irregular heartbeat.
+  <br/>
+You are taking any medicines that reduce blood pressure.
+  <br/>
+You are taking any diuretics (water pills).
+  <br/>
+You are taking medicines that can cause dry mouth such as tricyclic antidepressants (e.g. amitriptyline, desipramine, doxepin), anticholinergic drugs, or any antimuscarinic drugs (e.g. atropine).
+  <br/>
+You are taking ergotamine or similar drugs for migraine headaches.
+  <br/>
+You are taking aspirin.
+  <br/>
+You are taking any medicines for erectile dysfunction.
+  <br/>
+You are pregnant or plan to become pregnant.
+  <br/>
+You are breastfeeding.
+ </paragraph>
+                  <paragraph>How should I take nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Do not chew, crush, or swallow nitroglycerin sublingual tablets.
+  <br/>
+You should sit down when taking nitroglycerin sublingual tabletsand use caution when you stand up. This eliminates the possibility of falling due to lightheadedness or dizziness.
+  <br/>
+One tablet should be dissolved under the tongue or in the oral cavity at the first sign of chest pain.
+  <br/>
+The dose may be repeated approximately every 5 minutes, until the chest pain is relieved.
+  <br/>
+If the pain persists after a total of 3 tablets in a 15-minute period, or is different than you typically experience, call your doctor or seek emergency help.
+  <br/>
+Nitroglycerin sublingual tabletsmay be used 5 to 10 minutes prior to activities that might cause chest pain.
+  <br/>
+You may feel a burning or tingling sensation in your mouth when you take nitroglycerin sublingual tablets.
+ </paragraph>
+                  <paragraph>What should I avoid while taking nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Do not breastfeed. It is not known if nitroglycerinwill pass through your milk.
+  <br/>
+Do not consume alcohol while taking nitroglycerin sublingual tablets, as this can lower your blood pressure.
+  <br/>
+Do not start any new prescription or non-prescription medicines or supplements, unless you check with your doctor first.
+ </paragraph>
+                  <paragraph>What are the possible side effects of nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Nitroglycerin sublingual tabletmay cause the following side effects:</paragraph>
+                  <paragraph>headache
+  <br/>
+vertigo (a major symptom of balance disorder)
+  <br/>
+dizziness
+  <br/>
+weakness
+  <br/>
+heart palpitations (unusual awareness of the heartbeat)
+  <br/>
+low blood pressure upon rising from a seated position
+  <br/>
+nausea and vomiting
+  <br/>
+sweating
+  <br/>
+paleness
+  <br/>
+fainting
+  <br/>
+flushing (warm or red condition of your skin)
+  <br/>
+other skin reactions that may be severe
+ </paragraph>
+                  <paragraph>Tell your doctor if you are concerned about any side effects you experience. These are not all the possible side effects of nitroglycerin sublingual tablets. For a complete list, ask your doctor or pharmacist.</paragraph>
+                  <paragraph>How do I store nitroglycerin sublingual tablets?</paragraph>
+                  <paragraph>Nitroglycerin sublingual tabletsshould be kept in the original glass container and tightly capped after each use to prevent loss of tablet potency.</paragraph>
+                  <paragraph>Store nitroglycerin sublingual tabletsat room temperature (between 68° and 77°F).</paragraph>
+                  <paragraph>General advice about nitroglycerin sublingual tablets</paragraph>
+                  <paragraph>Sometimes doctors will prescribe a medicine for a condition that is not included in the patient information leaflets. Only use nitroglycerin sublingual tabletsthe way your doctor told you to. Do not give nitroglycerin sublingual tabletsto other people, even if they have the same symptoms you have. It may harm them.</paragraph>
+                  <paragraph>You can ask your pharmacist or doctor for information about nitroglycerin sublingual tablets, or you can visit Advagen Pharma website at www.advagenpharma.comor call at 866-488-0312.</paragraph>
+                  <paragraph>All the brands are trademarks of their respective owners.</paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4b47ddf9-974c-5cf8-e063-6294a90afd56">
+               <id root="4d2c185e-2d6e-05a4-e063-6394a90a8aca"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 51662-1676-1 BOTTLE LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4b47dd3d-4a36-e136-e063-6394a90a31ef"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260220"/>
+               <component>
+                  <observationMedia ID="img_4b47dd3d-4a36-e136-e063-6394a90a31ef">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1676-1 rfid.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4d2c230a-3be4-151c-e063-6294a90ade68">
+               <id root="4d2c230a-3be3-151c-e063-6294a90ade68"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 51662-1676-2 POUCH LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4d2c281e-5948-1c7b-e063-6294a90aeacc"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260316"/>
+               <component>
+                  <observationMedia ID="img_4d2c281e-5948-1c7b-e063-6294a90aeacc">
+                     <text>NDC 51662-1676-2 POUCH LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="00351662167625 NITROGLYCERIN SUBLINGUAL TABLETS_ USP 0.4mgTABLET 25TABS Pouch Label Image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4d2c230a-3be6-151c-e063-6294a90ade68">
+               <id root="4d2c230a-3be5-151c-e063-6294a90ade68"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>NDC 51662-1676-3 CASE LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4d2c281e-594a-1c7b-e063-6294a90aeacc"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260316"/>
+               <component>
+                  <observationMedia ID="img_4d2c281e-594a-1c7b-e063-6294a90aeacc">
+                     <text>NDC 51662-1676-3 CASE LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="40351662167630 NITROGLYCERIN SUBLINGUAL TABLETS_ USP 0.4mgTABLET 25TABS (BOX OF 25) Case Label Image.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_4d2c3c23-eca8-3c92-e063-6294a90a2b12">
+               <id root="4d2c3c23-eca7-3c92-e063-6294a90a2b12"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>SOURCE DRUG LABEL</title>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_4d2c2c78-8217-2262-e063-6394a90a8841"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260316"/>
+               <component>
+                  <observationMedia ID="img_4d2c2c78-8217-2262-e063-6394a90a8841">
+                     <text>SOURCE DRUG LABEL</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="72888-139-33 NITROGLYCERIN SUBLINGUAL TABLETS_ USP Box Image (2) (1).jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

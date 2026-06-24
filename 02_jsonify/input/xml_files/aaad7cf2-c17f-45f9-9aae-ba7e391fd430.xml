@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl"?>
+<document xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="aaad7cf2-c17f-45f9-9aae-ba7e391fd430"/>
+   <code code="34391-3" displayName="HUMAN PRESCRIPTION DRUG LABEL" codeSystem="2.16.840.1.113883.6.1"/>
+   <title>
+      <content styleCode="bold">SUCRALFATE TABLETS, USP</content>
+      <br/>2210<br/>
+      <content styleCode="bold">Rx only</content>
+      <br/>
+   </title>
+   <effectiveTime value="20250613"/>
+   <setId root="d67dcaad-56c1-4e77-a0c8-655970808414"/>
+   <versionNumber value="18"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="050052943" root="1.3.6.1.4.1.519.1"/>
+            <name>NCS HealthCare of KY, LLC dba Vangard Labs</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id extension="050052943" root="1.3.6.1.4.1.519.1"/>
+                        <name>NCS HealthCare of KY, LLC dba Vangard Labs</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73606" displayName="repack" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="0615-4517" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="bd02f953-c845-4d33-a454-8949617119f2"/>
+               <code code="48780-1" displayName="SPL listing data elements section" codeSystem="2.16.840.1.113883.6.1"/>
+               <effectiveTime value="20260415"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="0615-4517" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Sucralfate</name>
+                        <formCode code="C42998" displayName="TABLET" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Sucralfate</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0093-2210" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="1"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="XX73205DH5" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SUCRALFATE</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="XX73205DH5" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>SUCRALFATE</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="O8232NY3SJ" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>STARCH, CORN</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="OP1R32D61U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="30"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="0615-4517-39" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20100108"/>
+                                    <high value="20261130"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator unit="1" value="5"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43168" displayName="BLISTER PACK" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator unit="1" value="6"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="0615-4517-30" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43179" displayName="BOX, UNIT-DOSE" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20100108"/>
+                                          <high value="20260131"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" displayName="Type 0: Not a Combination Product" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="ANDA070848" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73584" displayName="ANDA" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="19961111"/>
+                              <high value="20261130"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" displayName="white" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">TEVA;22;10</value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="2" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" displayName="OVAL" codeSystem="2.16.840.1.113883.3.26.1.1" xsi:type="CV">
+                              <originalText>capsule-shaped</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="19" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" displayName="ORAL" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_7b32a7d5-75a9-4f04-8ed3-52e5bb74dfa2">
+               <id root="893efdac-69e0-486f-bc9d-405d1f512fe4"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Sucralfate, USP is an α-D-glucopyranoside, β-D-fructofuranosyl-, octakis(hydrogen sulfate), aluminum complex.</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>R = SO<sub>3</sub>Al(OH)<sub>2</sub>
+                  </paragraph>
+                  <paragraph>Tablets for oral administration contain 1 g of sucralfate, USP and the following inactive ingredients: corn starch, magnesium stearate, and microcrystalline cellulose.</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Structural formula for sucralfate</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sucralfate-tabs-4517-1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <section ID="LINK_a9f21ffd-b77c-45e8-9bbf-0d0f9e7ff74f">
+                     <id root="7b0820a9-52fc-4eb3-8d14-7395a0749b45"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Therapeutic Category</title>
+                     <text>
+                        <paragraph>antiulcer</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_9391f289-7101-4994-8497-5b7c5056a387">
+               <id root="9969da69-802c-47f8-aa3e-f34c74bb935b"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <text>
+                  <paragraph>Sucralfate is only minimally absorbed from the gastrointestinal tract. The small amounts of the sulfated disaccharide that are absorbed are excreted primarily in the urine.</paragraph>
+                  <paragraph>Although the mechanism of sucralfate’s ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent:</paragraph>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Studies in human subjects and with animal models of ulcer disease have shown that sucralfate forms an ulcer-adherent complex with proteinaceous exudate at the ulcer site.</item>
+                     <item>
+                        <content styleCode="italics">In vitro</content>, a sucralfate-albumin film provides a barrier to diffusion of hydrogen ions.</item>
+                     <item>In human subjects, sucralfate given in doses recommended for ulcer therapy inhibits pepsin activity in gastric juice by 32%.</item>
+                     <item>
+                        <content styleCode="italics">In vitro</content>, sucralfate adsorbs bile salts.</item>
+                  </list>
+                  <paragraph>These observations suggest that sucralfate’s antiulcer activity is the result of formation of an ulcer-adherent complex that covers the ulcer site and protects it against further attack by acid, pepsin, and bile salts. There are approximately 14 to 16 mEq of acid-neutralizing capacity per 1 g dose of sucralfate.</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c201a414-91d7-44d9-a5a5-29aca62dc1b2">
+               <id root="32bf7d47-587c-449c-862c-538498d45e9f"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>CLINICAL TRIALS</title>
+               <text/>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <section ID="LINK_0715f7fb-972e-4da6-8958-653d924b0f6c">
+                     <id root="b594054d-7f89-4009-91dd-e4ab80ef0b9a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Acute Duodenal Ulcer</title>
+                     <text>
+                        <paragraph>Over 600 patients have participated in well-controlled clinical trials worldwide. Multicenter trials conducted in the United States, both of them placebo-controlled studies with endoscopic evaluation at 2 and 4 weeks, showed:</paragraph>
+                        <table>
+                           <caption>STUDY 1 </caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule Toprule">
+                                    <paragraph>
+                                       <content styleCode="bold">Treatment Groups</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Ulcer Healing/No. Patients</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td align="center" valign="top" styleCode=" Botrule"/>
+                                 <td align="center" valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">2 wk</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">4 wk (Overall)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph> Sucralfate </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule">
+                                    <paragraph> 37/105 (35.2%) </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph> 82/109 (75.2%) </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph> Placebo </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule">
+                                    <paragraph> 26/106 (24.5%) </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph> 68/107 (63.6%) </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <table>
+                           <caption>STUDY 2 </caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule Toprule">
+                                    <paragraph>
+                                       <content styleCode="bold">Treatment Groups</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" colspan="2" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Ulcer Healing/No. Patients</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule"/>
+                                 <td align="center" valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">2 wk</content>
+                                    </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">4 wk (Overall)</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph> Sucralfate </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule">
+                                    <paragraph> 8/24 (33%) </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph> 22/24 (92%) </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph> Placebo </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule">
+                                    <paragraph> 4/31 (13%) </paragraph>
+                                 </td>
+                                 <td align="center" valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph> 18/31 (58%) </paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>The sucralfate-placebo differences were statistically significant in both studies at 4 weeks but not at 2 weeks. The poorer result in the first study may have occurred because sucralfate was given 2 hours after meals and at bedtime rather than 1 hour before meals and at bedtime, the regimen used in international studies and in the second United States study. In addition, in the first study liquid antacid was utilized as needed, whereas in the second study antacid tablets were used.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_1346cc08-f1c6-42ff-bb46-76e623bbbfc9">
+                     <id root="f9e70a1a-fac2-4304-a801-2898c6d38c03"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Maintenance Therapy After Healing of Duodenal Ulcer</title>
+                     <text>
+                        <paragraph>Two double-blind randomized placebo-controlled U.S. multicenter trials have demonstrated that sucralfate (1 g bid) is effective as maintenance therapy following healing of duodenal ulcers.</paragraph>
+                        <paragraph>In one study, endoscopies were performed monthly for 4 months. Of the 254 patients who enrolled, 239 were analyzed in the intention-to-treat life table analysis presented below.</paragraph>
+                        <table>
+                           <caption>Duodenal Ulcer Recurrence Rate (%) </caption>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <col/>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" colspan="6" styleCode=" Botrule Toprule">
+                                    <paragraph>
+                                       <content styleCode="bold">Months of Therapy</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">Drug</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">n</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">1</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">2</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">3</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>
+                                       <content styleCode="bold">4</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>Sucralfate</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>122</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>20<footnote ID="FOOT_24438">p &lt; 0.05</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>30<footnoteRef IDREF="FOOT_24438"/>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>38<footnote ID="FOOT_24439">p &lt; 0.01</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>42<footnoteRef IDREF="FOOT_24439"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>Placebo</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>117</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>33</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>46</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>55</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>63</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In this study, prn antacids were not permitted.</paragraph>
+                        <paragraph>In the other study, scheduled endoscopies were performed at 6 and 12 months, but for-cause endoscopies were permitted as symptoms dictated. Median symptom scores between the sucralfate and placebo groups were not significantly different. A life table intention-to-treat analysis for the 94 patients enrolled in the trial had the following results:</paragraph>
+                        <table>
+                           <caption>Duodenal Ulcer Recurrence Rate (%) </caption>
+                           <col width="12%"/>
+                           <col width="5%"/>
+                           <col width="11%"/>
+                           <col width="12%"/>
+                           <tbody>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule Toprule">
+                                    <paragraph>
+                                       <content styleCode="bold">Drug</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Toprule">
+                                    <paragraph>
+                                       <content styleCode="bold">n</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Toprule">
+                                    <paragraph>
+                                       <content styleCode="bold">6 months</content>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Toprule Lrule Rrule">
+                                    <paragraph>
+                                       <content styleCode="bold">12 months</content>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>Sucralfate</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>48</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>19<footnote ID="FOOT_24440">p &lt; 0.002</footnote>
+                                    </paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph>27<footnoteRef IDREF="FOOT_24440"/>
+                                    </paragraph>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>Placebo</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>46</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule">
+                                    <paragraph>54</paragraph>
+                                 </td>
+                                 <td valign="top" styleCode=" Botrule Lrule Rrule">
+                                    <paragraph>65</paragraph>
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In this study, prn antacids were permitted.</paragraph>
+                        <paragraph>Data from placebo-controlled studies longer than 1 year are not available.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b260ee03-dc41-4c72-804e-a0c274d91612">
+               <id root="1e5ef2d1-12cf-4d55-aa8d-056963c7370e"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Sucralfate tablets, USP are indicated in:</paragraph>
+                  <list listType="unordered" styleCode="Disk">
+                     <item>Short-term treatment (up to 8 weeks) of active duodenal ulcer. While healing with sucralfate may occur during the first week or two, treatment should be continued for 4 to 8 weeks unless healing has been demonstrated by x-ray or endoscopic examination.</item>
+                     <item>Maintenance therapy for duodenal ulcer patients at reduced dosage after healing of acute ulcers.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20250613"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_acc00f36-a4a8-48e1-8aa3-d92e9ec4abe7">
+               <id root="04f1f69c-9d0d-40c4-b472-105aff70c5c1"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Sucralfate tablets are contraindicated in patients with known hypersensitivity reactions to the active substance or to any of the excipients.</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_c340c783-49c1-4494-8852-c8700500a19e">
+               <id root="b81b644c-126b-4fd2-87b2-77ca31ce65f0"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <text>
+                  <paragraph>The physician should read the <content styleCode="bold">PRECAUTIONS</content> section when considering the use of this drug in pregnant or pediatric patients, or patients of childbearing potential.</paragraph>
+                  <paragraph>Duodenal ulcer is a chronic, recurrent disease. While short-term treatment with sucralfate can result in complete healing of the ulcer, a successful course of treatment with sucralfate should not be expected to alter the post healing frequency or severity of duodenal ulceration.</paragraph>
+                  <paragraph>Isolated reports of sucralfate tablet aspiration with accompanying respiratory complications have been received. Therefore, sucralfate tablets should be used with caution by patients who have known conditions that may impair swallowing, such as recent or prolonged intubation, tracheostomy, prior history of aspiration, dysphagia, or any other conditions that may alter gag and cough reflexes, or diminish oropharyngeal coordination or motility.</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <section ID="LINK_e240ab43-6037-4d0a-8c30-00f1e7948a56">
+                     <id root="ac0f9370-834f-4309-bb37-6bb4c299d4fb"/>
+                     <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+                     <title>Special Populations</title>
+                     <text/>
+                     <effectiveTime value="20250613"/>
+                     <component>
+                        <section ID="LINK_3b77d97a-32c4-425e-8387-6fd73c63eeb6">
+                           <id root="c8a39af6-acf1-49fa-8149-c01dfc72733a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Chronic Renal Failure and Dialysis Patients</title>
+                           <text>
+                              <paragraph>When sucralfate is administered orally, small amounts of aluminum are absorbed from the gastrointestinal tract. Concomitant use of sucralfate with other products that contain aluminum, such as aluminum-containing antacids, may increase the total body burden of aluminum. Patients with normal renal function receiving the recommended doses of sucralfate and aluminum-containing products adequately excrete aluminum in the urine. Patients with chronic renal failure or those receiving dialysis have impaired excretion of absorbed aluminum. In addition, aluminum does not cross dialysis membranes because it is bound to albumin and transferrin plasma proteins. Aluminum accumulation and toxicity (aluminum osteodystrophy, osteomalacia, encephalopathy) have been described in patients with renal impairment. Sucralfate should be used with caution in patients with chronic renal failure.</paragraph>
+                           </text>
+                           <effectiveTime value="20250613"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_df46279a-979e-4451-925f-171c5131ffdd">
+                     <id root="c1d8b6ea-bf41-459f-bfaa-57954a8befcd"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Some studies have shown that simultaneous sucralfate administration in healthy volunteers reduced the extent of absorption (bioavailability) of single doses of the following: cimetidine, digoxin, fluoroquinolone antibiotics, ketoconazole, l-thyroxine, phenytoin, quinidine, ranitidine, tetracycline, and theophylline. Subtherapeutic prothrombin times with concomitant warfarin and sucralfate therapy have been reported in spontaneous and published case reports. However, two clinical studies have demonstrated no change in either serum warfarin concentration or prothrombin time with the addition of sucralfate to chronic warfarin therapy.</paragraph>
+                        <paragraph>The mechanism of these interactions appears to be nonsystemic in nature, presumably resulting from sucralfate binding to the concomitant agent in the gastrointestinal tract. In all case studies to date (cimetidine, ciprofloxacin, digoxin, norfloxacin, ofloxacin, and ranitidine), dosing the concomitant medication 2 hours before sucralfate eliminated the interaction. Because of the potential of sucralfate to alter the absorption of some drugs, sucralfate should be administered separately from other drugs when alterations in bioavailability are felt to be critical. In these cases, patients should be monitored appropriately.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_f7fd8923-4b05-4c0d-bf78-0ed503bee889">
+                     <id root="a63b431e-f38d-4b91-a5b5-2c794c02c62a"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Chronic oral toxicity studies of 24 months’ duration were conducted in mice and rats at doses up to 1 g/kg (12 times the human dose). </paragraph>
+                        <paragraph>There was no evidence of drug-related tumorigenicity. A reproduction study in rats at doses up to 38 times the human dose did not reveal any indication of fertility impairment. Mutagenicity studies were not conducted.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_83668ea5-3288-47bb-aeca-6d27b09b869e">
+                     <id root="ff277c01-5c43-4ca4-a027-c6e9b27958f9"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>Pregnancy</title>
+                     <text/>
+                     <effectiveTime value="20250613"/>
+                     <component>
+                        <section ID="LINK_2c7a9174-318d-44e7-b32c-b439502022fb">
+                           <id root="1aba2021-b28c-4454-847c-d247f938a9ae"/>
+                           <code code="34077-8" codeSystem="2.16.840.1.113883.6.1" displayName="TERATOGENIC EFFECTS SECTION"/>
+                           <title>Teratogenic Effects</title>
+                           <text/>
+                           <effectiveTime value="20250613"/>
+                           <component>
+                              <section ID="LINK_52d3de47-3681-48a8-8acf-75fa940f037d">
+                                 <id root="7166dcc8-46fa-444e-9f1f-284a6ee49990"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <title>Pregnancy category B</title>
+                                 <text>
+                                    <paragraph>Teratogenicity studies have been performed in mice, rats, and rabbits at doses up to 50 times the human dose and have revealed no evidence of harm to the fetus due to sucralfate. There are, however, no adequate and well-controlled studies in pregnant women. Because animal reproduction studies are not always predictive of human response, this drug should be used during pregnancy only if clearly needed.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20250613"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_710c645c-b02c-4f11-b6e8-417beb8b4d18">
+                     <id root="ec5882ed-5bae-4301-985b-d3b5707b33d7"/>
+                     <code code="34080-2" codeSystem="2.16.840.1.113883.6.1" displayName="NURSING MOTHERS SECTION"/>
+                     <title>Nursing Mothers</title>
+                     <text>
+                        <paragraph>It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human milk, caution should be exercised when sucralfate is administered to a nursing woman.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_47a4e556-7be7-4f45-8184-728db7be71e8">
+                     <id root="8fc8603c-8549-4626-8521-7fec15b01b8d"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>Pediatric Use</title>
+                     <text>
+                        <paragraph>Safety and effectiveness in pediatric patients have not been established.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_13c95dd4-863a-46bd-9c9e-1bad74dab9e1">
+                     <id root="a224997d-2f6b-493c-9ed6-bb97475e4ebc"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>Geriatric Use</title>
+                     <text>
+                        <paragraph>Clinical studies of sucralfate tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy (see <content styleCode="bold">DOSAGE AND ADMINISTRATION</content>).</paragraph>
+                        <paragraph>This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function (see <content styleCode="bold">PRECAUTIONS</content>, <content styleCode="bold">Special Populations</content>, <content styleCode="italics">Chronic Renal Failure and Dialysis Patients</content>). Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection, and it may be useful to monitor renal function.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_61fc744f-5415-4a9c-9a9e-13edb91adc11">
+               <id root="4509216a-5c80-4476-ac57-7991019911c3"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>Adverse reactions to sucralfate in clinical trials were minor and only rarely led to discontinuation of the drug. In studies involving over 2700 patients treated with sucralfate tablets, adverse effects were reported in 129 (4.7%).</paragraph>
+                  <paragraph>Constipation was the most frequent complaint (2%). Other adverse effects reported in less than 0.5% of the patients are listed below by body system:</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <section ID="LINK_8413089b-c024-4b9f-bde1-2c765097fe76">
+                     <id root="3b769118-7791-4e8e-81f1-21c3cba059d2"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Gastrointestinal</title>
+                     <text>
+                        <paragraph>diarrhea, nausea, vomiting, gastric discomfort, indigestion, flatulence, dry mouth</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c3f7e49d-8d1c-4057-825e-cea597804020">
+                     <id root="f097e8ea-2f96-418f-a6a9-888a425977ee"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Dermatological</title>
+                     <text>
+                        <paragraph>pruritus, rash</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_75c1b01f-46cc-4d11-a7a4-c25bd2ee0a84">
+                     <id root="d10d10e8-fd97-403e-8e3b-eb1ea961a5dd"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Nervous System</title>
+                     <text>
+                        <paragraph>dizziness, insomnia, sleepiness, vertigo</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_4751bb33-a135-4ff2-8c17-f6c2458e89a5">
+                     <id root="27fec090-ae0c-4113-b58b-0ad47257135b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other</title>
+                     <text>
+                        <paragraph>back pain, headache</paragraph>
+                        <paragraph>Postmarketing cases of hypersensitivity have been reported with the use of sucralfate tablets, including dyspnea, lip swelling, pruritus, rash, and urticaria. </paragraph>
+                        <paragraph>Cases of anaphylactic reactions, bronchospasm, laryngeal edema, edema of the mouth, pharyngeal edema, respiratory tract edema and swelling of the face have been reported with an unknown oral formulation of sucralfate.</paragraph>
+                        <paragraph>Bezoars have been reported in patients treated with sucralfate. The majority of patients had underlying medical conditions that may predispose to bezoar formation (such as delayed gastric emptying) or were receiving concomitant enteral tube feedings.</paragraph>
+                        <paragraph>Inadvertent injection of insoluble sucralfate and its insoluble excipients has led to fatal complications, including pulmonary and cerebral emboli. Sucralfate is <content styleCode="bold">not</content> intended for intravenous administration.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_483e55b2-b73e-42d2-aa60-570dd0f0bfe8">
+               <id root="380bc390-aa5e-4119-a3b9-dc333ff87cac"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>Due to limited experience in humans with overdosage of sucralfate, no specific treatment recommendations can be given. Acute oral toxicity studies in animals, however, using doses up to 12 g/kg body weight, could not find a lethal dose. Sucralfate is only minimally absorbed from the gastrointestinal tract. Risks associated with acute overdosage should, therefore, be minimal. In rare reports describing sucralfate overdose, most patients remained asymptomatic. Those few reports where adverse events were described included symptoms of dyspepsia, abdominal pain, nausea, and vomiting.</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_a37c13b7-4257-4cee-a212-47415860f67e">
+               <id root="ffd3ad75-536c-47d3-af0c-658e17dd4b4e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text/>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <section ID="LINK_f18eda4c-a2f0-4e03-8717-406eab698d63">
+                     <id root="970c0642-775e-4e34-b5e2-d12abb1733f0"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Active Duodenal Ulcer</title>
+                     <text>
+                        <paragraph>The recommended adult oral dosage for duodenal ulcer is 1 g four times per day on an empty stomach.</paragraph>
+                        <paragraph>Antacids may be prescribed as needed for relief of pain but should not be taken within one-half hour before or after sucralfate.</paragraph>
+                        <paragraph>While healing with sucralfate may occur during the first week or two, treatment should be continued for 4 to 8 weeks unless healing has been demonstrated by x-ray or endoscopic examination.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_94aae335-86c0-488c-94e4-c13faac00d7a">
+                     <id root="0cd63fe1-31fd-4d41-8e7c-0f38e900fa35"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Maintenance Therapy</title>
+                     <text>
+                        <paragraph>The recommended adult oral dosage is 1 g twice a day.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="LINK_c97a0b68-bf9e-441e-88d7-2517bdfc97fd">
+                     <id root="b82e7605-4423-4524-882b-e7b09d22d9ff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Elderly</title>
+                     <text>
+                        <paragraph>In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy (see <content styleCode="bold">PRECAUTIONS</content>, <content styleCode="bold">Geriatric Use</content>).</paragraph>
+                        <paragraph>Call your doctor for medical advice about side effects. You may report side effects to TEVA USA, PHARMACOVIGILANCE at 1-866-832-8537 or drug.safety@tevapharm.com; or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                     </text>
+                     <effectiveTime value="20250613"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_88b88ca2-e7ba-42fa-b038-41b30fe5bbbc">
+               <id root="9dc6e4d7-e193-46a2-9406-1d6442156e12"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Sucralfate tablets, USP are available as white, capsule-shaped, biconvex, scored tablets, debossed “TEVA” on one side, and “22” and “10” on the scored side, containing 1 gram of sucralfate USP, packaged in blistercards of 30 (NDC 0615-4517-39), and unit-dose boxes of 30 (NDC 0615-4517-30) tablets. </paragraph>
+                  <paragraph>Store at 20° to 25°C (68° to 77°F) [See USP Controlled Room Temperature].</paragraph>
+                  <paragraph>Dispense in a tight, light-resistant container as defined in the USP, with a child-resistant closure (as required).</paragraph>
+                  <paragraph>KEEP THIS AND ALL MEDICATIONS OUT OF THE REACH OF CHILDREN.</paragraph>
+                  <paragraph>Manufactured In Croatia By:</paragraph>
+                  <paragraph>
+                     <content styleCode="bold">PLIVA HRVATSKA d.o.o.</content>
+                  </paragraph>
+                  <paragraph>Zagreb, Croatia</paragraph>
+                  <paragraph>Manufactured For: </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">TEVA PHARMACEUTICALS USA, INC.</content>
+                  </paragraph>
+                  <paragraph>North Wales, PA 19454</paragraph>
+                  <paragraph>Rev. L 9/2015</paragraph>
+               </text>
+               <effectiveTime value="20250613"/>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_b24f47cd-6485-4a43-9989-54539aad659e">
+               <id root="2278d11a-7ca8-4897-9fac-c6f9e1cd1838"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel - BINGO CARD</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sucralfate-tabs-4517-2.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="LINK_73c1c6c0-0b46-4904-902e-41af9b9e91ad">
+               <id root="8171e612-eb59-4b8b-bc90-89951accd287"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>Package/Label Display Panel - UNIT-DOSE</title>
+               <text>
+                  <renderMultiMedia referencedObject="MM3"/>
+               </text>
+               <effectiveTime value="20250613"/>
+               <component>
+                  <observationMedia ID="MM3">
+                     <text>PRINCIPAL DISPLAY PANEL</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="sucralfate-tabs-4517-3.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

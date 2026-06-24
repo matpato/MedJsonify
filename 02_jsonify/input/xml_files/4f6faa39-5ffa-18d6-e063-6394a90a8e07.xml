@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="4f6faa39-5ffa-18d6-e063-6394a90a8e07"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>Ribavirin for Inhalation Solution, USP</title>
+   <effectiveTime value="20260414"/>
+   <setId root="7ea8dafa-d3d8-493e-a0db-e783d92fb13f"/>
+   <versionNumber value="3"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="078371442"/>
+            <name>Cameron Pharmaceuticals</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="030606222"/>
+                        <name>Hospira, Inc.</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C43360" displayName="manufacture" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="42494-423" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="4f6fae1b-cb60-1f39-e063-6394a90a1306"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260414"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="42494-423" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Ribavirin</name>
+                        <formCode code="C42973" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="POWDER, FOR SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Ribavirin</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="g" value="6"/>
+                              <denominator unit="1" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="49717AWG6K" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>RIBAVIRIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="49717AWG6K" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>RIBAVIRIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code/>
+                              <formCode code="C43209" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL, GLASS"/>
+                              <asContent>
+                                 <quantity>
+                                    <numerator value="1" unit="1"/>
+                                    <denominator value="1"/>
+                                 </quantity>
+                                 <containerPackagedProduct>
+                                    <code code="42494-423-01" codeSystem="2.16.840.1.113883.6.69"/>
+                                    <formCode code="C43182" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="CARTON"/>
+                                 </containerPackagedProduct>
+                                 <subjectOf>
+                                    <marketingAct>
+                                       <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                       <statusCode code="completed"/>
+                                       <effectiveTime>
+                                          <low value="20200415"/>
+                                          <high value="20260630"/>
+                                       </effectiveTime>
+                                    </marketingAct>
+                                 </subjectOf>
+                              </asContent>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA018859" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="completed"/>
+                           <effectiveTime>
+                              <low value="20200415"/>
+                              <high value="20260630"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38216" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="RESPIRATORY (INHALATION)"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="BOX">
+               <id root="4f6faa39-5ffb-18d6-e063-6394a90a8e07"/>
+               <code code="34066-1" codeSystem="2.16.840.1.113883.6.1" displayName="BOXED WARNING SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">USE OF AEROSOLIZED RIBAVIRIN FOR INHALATION SOLUTION, USP IN PATIENTS REQUIRING MECHANICAL VENTILATOR ASSISTANCE SHOULD BE UNDERTAKEN ONLY BY PHYSICIANS AND SUPPORT STAFF FAMILIAR WITH THE SPECIFIC VENTILATOR BEING USED AND THIS MODE OF ADMINISTRATION OF THE DRUG. STRICT ATTENTION MUST BE PAID TO PROCEDURES THAT HAVE BEEN SHOWN TO MINIMIZE THE ACCUMULATION OF DRUG PRECIPITATE, WHICH CAN RESULT IN MECHANICAL VENTILATOR DYSFUNCTION AND ASSOCIATED INCREASED PULMONARY PRESSURES (SEE
+  
+   <linkHtml href="#warnings">WARNINGS</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">SUDDEN DETERIORATION OF RESPIRATORY FUNCTION HAS BEEN ASSOCIATED WITH INITIATION OF AEROSOLIZED RIBAVIRIN FOR INHALATION SOLUTION, USP USE IN INFANTS. RESPIRATORY FUNCTION SHOULD BE CAREFULLY MONITORED DURING TREATMENT. IF INITIATION OF AEROSOLIZED RIBAVIRIN FOR INHALATION SOLUTION, USP TREATMENT APPEARS TO PRODUCE SUDDEN DETERIORATION OF RESPIRATORY FUNCTION, TREATMENT SHOULD BE STOPPED AND REINSTITUTED ONLY WITH EXTREME CAUTION, CONTINUOUS MONITORING AND CONSIDERATION OF CONCOMITANT ADMINISTRATION OF BRONCHODILATORS (SEE
+  
+   <linkHtml href="#warnings">WARNINGS</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">RIBAVIRIN FOR INHALATION SOLUTION, USP IS NOT INDICATED FOR USE IN ADULTS. PHYSICIANS AND PATIENTS SHOULD BE AWARE THAT RIBAVIRIN HAS BEEN SHOWN TO PRODUCE TESTICULAR LESIONS IN RODENTS AND TO BE TERATOGENIC IN ALL ANIMAL SPECIES IN WHICH ADEQUATE STUDIES HAVE BEEN CONDUCTED (RODENTS AND RABBITS) (SEE
+  
+   <linkHtml href="#contraindications">CONTRAINDICATIONS</linkHtml>).
+ 
+  </content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-5ffc-18d6-e063-6394a90a8e07"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>DESCRIPTION</title>
+               <text>
+                  <paragraph>Ribavirin is a synthetic nucleoside with antiviral activity. Ribavirin for inhalation solution, USP is a sterile, lyophilized powder to be reconstituted for aerosol administration. Each 100 mL glass vial contains 6 grams of ribavirin, and when reconstituted to the recommended volume of 300 mL with Sterile Water for Injection, USP or Sterile Water for Inhalation (no preservatives added), will contain 20 mg of ribavirin per mL, pH approximately 5.5. Aerosolization is to be carried out in a Small Particle Aerosol Generator (SPAG
+ 
+  <sup>®</sup>-2) nebulizer only.
+
+ </paragraph>
+                  <paragraph>Ribavirin is 1-beta-D-ribofuranosyl-1H-1,2,4-triazole-3-carboxamide, with the following structural formula:</paragraph>
+                  <table width="100%" styleCode="Noautorules">
+                     <col width="100%" align="right" valign="middle"/>
+                     <tbody>
+                        <tr>
+                           <td align="right">
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="MM1"/>
+                              </paragraph>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <paragraph>Ribavirin is a stable, white crystalline compound with a maximum solubility in water of 142 mg/mL at 25°C and with only a slight solubility in ethanol. The empirical formula is C
+ 
+  <sub>8</sub>H
+ 
+  <sub>12</sub>N
+ 
+  <sub>4</sub>O
+ 
+  <sub>5</sub>and the molecular weight is 244.21.
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ribavirin-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-5ffd-18d6-e063-6394a90a8e07"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-5ffe-18d6-e063-6394a90a8e07"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>Mechanism of Action</title>
+                     <text>
+                        <paragraph>In cell cultures the inhibitory activity of ribavirin for respiratory syncytial virus (RSV) is selective. The mechanism of action is unknown. Reversal of the in vitro antiviral activity by guanosine or xanthosine suggests ribavirin may act as an analogue of these cellular metabolites.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-5fff-18d6-e063-6394a90a8e07"/>
+                     <code code="49489-8" codeSystem="2.16.840.1.113883.6.1" displayName="MICROBIOLOGY SECTION"/>
+                     <title>Microbiology</title>
+                     <text>
+                        <paragraph>Ribavirin has demonstrated antiviral activity against RSV in vitro
+ 
+  <sup>1</sup>and in experimentally infected cotton rats.
+ 
+  <sup>2</sup>Several clinical isolates of RSV were evaluated for ribavirin susceptibility by plaque reduction in tissue culture. Plaques were reduced 85-98% by 16 mcg/mL; however, results may vary with the test system. The development of resistance has not been evaluated in vitro or in clinical trials.
+
+ </paragraph>
+                        <paragraph>In addition to the above, ribavirin has been shown to have in vitro activity against influenza A and B viruses and herpes simplex virus, but the clinical significance of these data is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6000-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Immunologic Effects</title>
+                     <text>
+                        <paragraph>Neutralizing antibody responses to RSV were decreased in aerosolized Ribavirin for Inhalation Solution, USP-treated infants compared to placebo-treated infants.
+ 
+  <sup>3</sup>One study also showed that RSV-specific IgE antibody in bronchial secretions was decreased in patients treated with aerosolized Ribavirin for Inhalation Solution, USP. In rats, ribavirin administration resulted in lymphoid atrophy of the thymus, spleen and lymph nodes. Humoral immunity was reduced in guinea pigs and ferrets. Cellular immunity was also mildly depressed in animal studies. The clinical significance of these observations is unknown.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="pharmacokinetics">
+                     <id root="4f6faa39-6001-18d6-e063-6394a90a8e07"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Assay for Ribavirin for Inhalation Solution, USP in human materials is by a radioimmunoassay which detects ribavirin and at least one metabolite.</paragraph>
+                        <paragraph>Ribavirin for Inhalation Solution, USP, when administered by aerosol, is absorbed systemically. Four pediatric patients inhaling Ribavirin for Inhalation Solution, USP aerosol administered by face mask for 2.5 hours each day for 3 days had plasma concentrations ranging from 0.44 to 1.55
+ 
+  <content styleCode="italics">μ</content>M, with a mean concentration of 0.76 μM. The plasma half-life was reported to be 9.5 hours. Three pediatric patients inhaling aerosolized Ribavirin for Inhalation Solution, USP administered by face mask or mist tent for 20 hours each day for 5 days had plasma concentrations ranging from 1.5 to 14.3
+ 
+  <content styleCode="italics">μ</content>M, with a mean concentration of 6.8
+ 
+  <content styleCode="italics">μ</content>M.
+
+ </paragraph>
+                        <paragraph>The bioavailability of aerosolized Ribavirin for Inhalation Solution, USP is unknown and may depend on the mode of aerosol delivery. After aerosol treatment, peak plasma concentrations of ribavirin are 85% to 98% less than the concentration that reduced RSV plaque formation in tissue culture. After aerosol treatment, respiratory tract secretions are likely to contain ribavirin in concentrations manyfold higher than those required to reduce plaque formation. However, RSV is an intracellular virus, and it is unknown whether plasma concentrations or respiratory secretion concentrations of the drug better reflect intracellular concentrations in the respiratory tract.</paragraph>
+                        <paragraph>In man, rats, and rhesus monkeys, accumulation of ribavirin and/or metabolites in the red blood cells has been noted, plateauing in red cells in man in about 4 days and gradually declining with an apparent half-life of 40 days (the half-life of erythrocytes). The extent of accumulation of ribavirin following inhalation therapy is not well defined.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6002-18d6-e063-6394a90a8e07"/>
+                     <code code="34091-9" codeSystem="2.16.840.1.113883.6.1" displayName="ANIMAL PHARMACOLOGY &amp; OR TOXICOLOGY SECTION"/>
+                     <title>Animal Toxicology</title>
+                     <text>
+                        <paragraph>Ribavirin, when administered orally or as an aerosol, produced cardiac lesions in mice, rats, and monkeys, when given at doses of 30, 36 and 120 mg/kg or greater for 4 weeks or more (estimated human equivalent doses of 4.8, 12.3 and 111.4 mg/kg for a 5 kg child, or 2.5, 5.1 and 40 mg/kg for a 60 kg adult, based on body surface area adjustment). Aerosolized ribavirin administered to developing ferrets at 60 mg/kg for 10 or 30 days resulted in inflammatory and possibly emphysematous changes in the lungs. Proliferative changes were seen in the lungs following exposure at 131 mg/kg for 30 days. The significance of these findings to human administration is unknown.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-6003-18d6-e063-6394a90a8e07"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>Ribavirin for Inhalation Solution, USP is indicated for the treatment of hospitalized infants and young children with severe lower respiratory tract infections due to RSV. Treatment early in the course of severe lower respiratory tract infection may be necessary to achieve efficacy.</paragraph>
+                  <paragraph>Only severe RSV lower respiratory tract infection should be treated with Ribavirin for Inhalation Solution, USP. The vast majority of infants and children with RSV infection have disease that is mild, self-limited, and does not require hospitalization or antiviral treatment. Many children with mild lower respiratory tract involvement will require shorter hospitalization than would be required for a full course of Ribavirin for Inhalation Solution, USP aerosol (3 to 7 days) and should not be treated with the drug. Thus the decision to treat with Ribavirin for Inhalation Solution, USP should be based on the severity of the RSV infection. The presence of an underlying condition such as prematurity, immunosuppression or cardiopulmonary disease may increase the severity of clinical manifestations and complications of RSV infection.</paragraph>
+                  <paragraph>Use of aerosolized Ribavirin for Inhalation Solution, USP in patients requiring mechanical ventilator assistance should be undertaken only by physicians and support staff familiar with this mode of administration and the specific ventilator being used (see
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>and
+ 
+  <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6004-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Diagnosis</title>
+                     <text>
+                        <paragraph>RSV infection should be documented by a rapid diagnostic method such as demonstration of viral antigen in respiratory tract secretions by immunofluorescence
+ 
+  <sup>3,4</sup>or ELISA
+ 
+  <sup>5</sup>before or during the first 24 hours of treatment. Treatment may be initiated while awaiting rapid diagnostic test results. However, treatment should not be continued without documentation of RSV infection. Non-culture antigen detection techniques may have false positive or false negative results. Assessment of the clinical situation, the time of year and other parameters may warrant reevaluation of the laboratory diagnosis.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="DS">
+                     <id root="4f6faa39-6005-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Description of Studies</title>
+                     <effectiveTime value="20200423"/>
+                     <component>
+                        <section>
+                           <id root="4f6faa39-6006-18d6-e063-6394a90a8e07"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Non-Mechanically Ventilated Infants</title>
+                           <text>
+                              <paragraph>In two placebo-controlled trials in infants hospitalized with RSV lower respiratory tract infection, aerosolized Ribavirin for Inhalation Solution, USP treatment had a therapeutic effect, as judged by the reduction in severity of clinical manifestations of disease by treatment day 3.
+ 
+  <sup>3,4</sup>Treatment was most effective when instituted within the first 3 days of clinical illness. Virus titers in respiratory secretions were also significantly reduced with Ribavirin for Inhalation Solution, USP in one of these original studies.
+ 
+  <sup>4</sup>Additional controlled studies conducted since these initial trials of aerosolized Ribavirin for Inhalation Solution, USP in the treatment of RSV infection have supported these data.
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20200423"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="4f6faa39-6007-18d6-e063-6394a90a8e07"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Mechanically Ventilated Infants</title>
+                           <text>
+                              <paragraph>A randomized, double-blind, placebo-controlled evaluation of aerosolized Ribavirin for Inhalation Solution, USP at the recommended dose was conducted in 28 infants requiring mechanical ventilation for respiratory failure caused by documented RSV infection.
+ 
+  <sup>6</sup>Mean age was 1.4 months (SD, 1.7 months). Seven patients had underlying diseases predisposing them to severe infection and 21 were previously normal. Aerosolized Ribavirin for Inhalation Solution, USP treatment significantly decreased the duration of mechanical ventilation required (4.9 vs. 9.9 days, p=0.01) and duration of required supplemental oxygen (8.7 vs. 13.5 days, p=0.01). Intensive patient management and monitoring techniques were employed in this study. These included endotracheal tube suctioning every 1 to 2 hours; recording of proximal airway pressure, ventilatory rate, and F
+ 
+  <sub>l</sub>O
+ 
+  <sub>2</sub>every hour; and arterial blood gas monitoring every 2 to 6 hours. To reduce the risk of Ribavirin for Inhalation Solution, USP precipitation and ventilator malfunction, heated wire tubing, two bacterial filters connected in series in the expiratory limb of the ventilator (with filter changes every 4 hours), and water column pressure release valves to monitor internal ventilator pressures were used in connecting ventilator circuits to the SPAG
+ 
+  <sup>®</sup>-2.
+
+ </paragraph>
+                              <paragraph>Employing these techniques, no technical difficulties with Ribavirin for Inhalation Solution, USP administration were encountered during the study. Adverse events consisted of bacterial pneumonia in one case, staphylococcus bacteremia in one case and two cases of post-extubation stridor. None were felt to be related to Ribavirin for Inhalation Solution, USP administration.</paragraph>
+                           </text>
+                           <effectiveTime value="20200423"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="contraindications">
+               <id root="4f6faa39-6008-18d6-e063-6394a90a8e07"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>Ribavirin for Inhalation Solution, USP is contraindicated in individuals who have shown hypersensitivity to the drug or its components, and in women who are or may become pregnant during exposure to the drug. Ribavirin has demonstrated significant teratogenic and/or embryocidal potential in all animal species in which adequate studies have been conducted (rodents and rabbits). Therefore, although clinical studies have not been performed, it should be assumed that Ribavirin for Inhalation Solution, USP may cause fetal harm in humans. Studies in which the drug has been administered systemically demonstrate that ribavirin is concentrated in the red blood cells and persists for the life of the erythrocyte.</paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="warnings">
+               <id root="4f6faa39-6009-18d6-e063-6394a90a8e07"/>
+               <code code="34071-1" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS SECTION"/>
+               <title>WARNINGS</title>
+               <text>
+                  <paragraph>SUDDEN DETERIORATION OF RESPIRATORY FUNCTION HAS BEEN ASSOCIATED WITH INITIATION OF AEROSOLIZED RIBAVIRIN FOR INHALATION SOLUTION, USP USE IN INFANTS. Respiratory function should be carefully monitored during treatment. If initiation of aerosolized Ribavirin for Inhalation Solution, USP treatment appears to produce sudden deterioration of respiratory function, treatment should be stopped and reinstituted only with extreme caution, continuous monitoring, and consideration of concomitant administration of bronchodilators.</paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-600a-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Use with Mechanical Ventilators</title>
+                     <text>
+                        <paragraph>USE OF AEROSOLIZED RIBAVIRIN FOR INHALATION SOLUTION, USP IN PATIENTS REQUIRING MECHANICAL VENTILATOR ASSISTANCE SHOULD BE UNDERTAKEN ONLY BY PHYSICIANS AND SUPPORT STAFF FAMILIAR WITH THIS MODE OF ADMINISTRATION AND THE SPECIFIC VENTILATOR BEING USED. Strict attention must be paid to procedures that have been shown to minimize the accumulation of drug precipitate, which can result in mechanical ventilator dysfunction and associated increased pulmonary pressures. These procedures include the use of bacteria filters in series in the expiratory limb of the ventilator circuit with frequent changes (every 4 hours), water column pressure release valves to indicate elevated ventilator pressures, frequent monitoring of these devices and verification that ribavirin crystals have not accumulated within the ventilator circuitry, and frequent suctioning and monitoring of the patient (see
+ 
+  <linkHtml href="#DS">Description of Studies</linkHtml>).
+
+ </paragraph>
+                        <paragraph>Those administering aerosolized Ribavirin for Inhalation Solution, USP in conjunction with mechanical ventilator use should be thoroughly familiar with detailed descriptions of these procedures as outlined in the SPAG-2 Instructions for Use.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-600b-18d6-e063-6394a90a8e07"/>
+               <code code="42232-9" codeSystem="2.16.840.1.113883.6.1" displayName="PRECAUTIONS SECTION"/>
+               <title>PRECAUTIONS</title>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-600c-18d6-e063-6394a90a8e07"/>
+                     <code code="34072-9" codeSystem="2.16.840.1.113883.6.1" displayName="GENERAL PRECAUTIONS SECTION"/>
+                     <title>General</title>
+                     <text>
+                        <paragraph>Patients with severe lower respiratory tract infection due to RSV require optimum monitoring and attention to respiratory and fluid status (see SPAG-2 Instructions for Use).</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-600d-18d6-e063-6394a90a8e07"/>
+                     <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+                     <title>Drug Interactions</title>
+                     <text>
+                        <paragraph>Clinical studies of interactions of Ribavirin for Inhalation Solution, USP with other drugs commonly used to treat infants with RSV infections, such as digoxin, bronchodilators, other antiviral agents, antibiotics or anti-metabolites, have not been conducted. Interference by Ribavirin for Inhalation Solution, USP with laboratory tests has not been evaluated.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-600e-18d6-e063-6394a90a8e07"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Carcinogenesis and Mutagenesis</title>
+                     <text>
+                        <paragraph>Ribavirin increased the incidence of cell transformations and mutations in mouse Balb/c 3T3 (fibroblasts) and L5178Y (lymphoma) cells at concentrations of 0.015 and 0.03-5.0 mg/mL, respectively (without metabolic activation). Modest increases in mutation rates (3-4x) were observed at concentrations between 3.75-10.0 mg/mL in L5178Y cells in vitro with the addition of a metabolic activation fraction. In the mouse micronucleus assay, ribavirin was clastogenic at intravenous doses of 20-200 mg/kg, (estimated human equivalent of 1.67-16.7 mg/kg, based on body surface area adjustment for a 60 kg adult). Ribavirin was not mutagenic in a dominant lethal assay in rats at intraperitoneal doses between 50-200 mg/kg when administered for 5 days (estimated human equivalent of 7.14-28.6 mg/kg, based on body surface area adjustment; see
+ 
+  <linkHtml href="#pharmacokinetics">Pharmacokinetics</linkHtml>).
+
+ </paragraph>
+                        <paragraph>In vivo carcinogenicity studies with ribavirin are incomplete. However, results of a chronic feeding study with ribavirin in rats, at doses of 16-100 mg/kg/day (estimated human equivalent of 2.3-14.3 mg/kg/day, based on body surface area adjustment for the adult), suggest that ribavirin may induce benign mammary, pancreatic, pituitary and adrenal tumors. Preliminary results of two oral gavage oncogenicity studies in the mouse and rat (18-24 months; doses of 20-75 and 10-40 mg/kg/day, respectively [estimated human equivalent of 1.67-6.25 and 1.43-5.71 mg/kg/day, respectively, based on body surface area adjustment for the adult]) are inconclusive as to the carcinogenic potential of ribavirin (see
+ 
+  <linkHtml href="#pharmacokinetics">Pharmacokinetics</linkHtml>). However, these studies have demonstrated a relationship between chronic ribavirin exposure and increased incidences of vascular lesions (microscopic hemorrhages in mice) and retinal degeneration (in rats).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-600f-18d6-e063-6394a90a8e07"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>Impairment of Fertility</title>
+                     <text>
+                        <paragraph>The fertility of ribavirin-treated animals (male or female) has not been fully investigated. However, in the mouse, administration of ribavirin at doses between 35-150 mg/kg/day (estimated human equivalent of 2.92-12.5 mg/kg/day, based on body surface area adjustment for the adult) resulted in significant seminiferous tubule atrophy, decreased sperm concentrations, and increased numbers of sperm with abnormal morphology. Partial recovery of sperm production was apparent 3-6 months following dose cessation. In several additional toxicology studies, ribavirin has been shown to cause testicular lesions (tubular atrophy) in adult rats at oral dose levels as low as 16 mg/kg/day (estimated human equivalent of 2.29 mg/kg/day, based on body surface area adjustment; see
+ 
+  <linkHtml href="#pharmacokinetics">Pharmacokinetics</linkHtml>). Lower doses were not tested. The reproductive capacity of treated male animals has not been studied.
+
+ </paragraph>
+                        <paragraph>Ribavirin has demonstrated significant teratogenic and/or embryocidal potential in all animal species in which adequate studies have been conducted. Teratogenic effects were evident after single oral doses of 2.5 mg/kg or greater in the hamster, and after daily oral doses of 0.3 and 1.0 mg/kg in the rabbit and rat, respectively (estimated human equivalent doses of 0.12 and 0.14 mg/kg, based on body surface area adjustment for the adult). Malformations of the skull, palate, eye, jaw, limbs, skeleton, and gastrointestinal tract were noted. The incidence and severity of teratogenic effects increased with escalation of the drug dose. Survival of fetuses and offspring was reduced. Ribavirin caused embryolethality in the rabbit at daily oral dose levels as low as 1 mg/kg. No teratogenic effects were evident in the rabbit and rat administered daily oral doses of 0.1 and 0.3 mg/kg, respectively with estimated human equivalent doses of 0.01 and 0.04 mg/kg, based on body surface area adjustment (see
+ 
+  <linkHtml href="#pharmacokinetics">Pharmacokinetics</linkHtml>). These doses are considered to define the No Observable Teratogenic Effects Level (NOTEL) for ribavirin in the rabbit and rat.
+
+ </paragraph>
+                        <paragraph>Following oral administration of ribavirin in the pregnant rat (1.0 mg/kg) and rabbit (0.3 mg/kg), mean plasma levels of drug ranged from 0.10-0.20
+ 
+  <content styleCode="italics">μ</content>M [0.024-0.049
+ 
+  <content styleCode="italics">μ</content>/mL] at 1 hour after dosing, to undetectable levels at 24 hours. At 1 hour following the administration of 0.3 or 0.1 mg/kg in the rat and rabbit (NOTEL), respectively, mean plasma levels of drug in both species were near or below the limit of detection (0.05
+ 
+  <content styleCode="italics">μ</content>M; see
+ 
+  <linkHtml href="#pharmacokinetics">Pharmacokinetics</linkHtml>).
+
+ </paragraph>
+                        <paragraph>Although clinical studies have not been performed, Ribavirin for Inhalation Solution, USP may cause fetal harm in humans. As noted previously, ribavirin is concentrated in red blood cells and persists for the life of the cell. Thus the terminal half-life for the systemic elimination of ribavirin is essentially that of the half-life of circulating erythrocytes. The minimum interval following exposure to Ribavirin for Inhalation Solution, USP before pregnancy may be safely initiated is unknown (see
+ 
+  <linkHtml href="#contraindications">CONTRAINDICATIONS</linkHtml>,
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>, and
+ 
+  <linkHtml href="#personnel">Information for Health Care Personnel</linkHtml>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6010-18d6-e063-6394a90a8e07"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>Lactation</title>
+                     <text>
+                        <paragraph>Ribavirin for Inhalation Solution, USP has been shown to be toxic to lactating animals and their offspring. It is not known if Ribavirin for Inhalation Solution, USP is excreted in human milk.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="personnel">
+                     <id root="4f6faa39-6011-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Information for Health Care Personnel</title>
+                     <text>
+                        <paragraph>Health care workers directly providing care to patients receiving aerosolized Ribavirin for Inhalation Solution, USP should be aware that ribavirin has been shown to be teratogenic in all animal species in which adequate studies have been conducted (rodents and rabbits). Although no reports of teratogenesis in offspring of mothers who were exposed to aerosolized Ribavirin for Inhalation Solution, USP during pregnancy have been confirmed, no controlled studies have been conducted in pregnant women. Studies of environmental exposure in treatment settings have shown that the drug can disperse into the immediate bedside area during routine patient care activities with highest ambient levels closest to the patient and extremely low levels outside of the immediate bedside area. Adverse reactions resulting from actual occupational exposure in adults are described below (see
+ 
+  <linkHtml href="#AE">Adverse Events in Health Care Workers</linkHtml>). Some studies have documented ambient drug concentrations at the bedside that could potentially lead to systemic exposures above those considered safe for exposure during pregnancy (1/1000 of the NOTEL dose in the most sensitive animal species).
+ 
+  <sup>7, 8, 9</sup>
+                        </paragraph>
+                        <paragraph>A 1992 study conducted by the National Institute of Occupational Safety and Health (NIOSH) demonstrated measurable urine levels of ribavirin in health care workers exposed to aerosol in the course of direct patient care.
+ 
+  <sup>7</sup>Levels were lowest in workers caring for infants receiving aerosolized Ribavirin for Inhalation Solution, USP with mechanical ventilation and highest in those caring for patients being administered the drug via an oxygen tent or hood. This study employed a more sensitive assay to evaluate ribavirin levels in urine than was available for several previous studies of environmental exposure that failed to detect measurable ribavirin levels in exposed workers. Creatinine adjusted urine levels in the NIOSH study ranged from less than 0.001 to 0.140
+ 
+  <content styleCode="italics">μ</content>M of ribavirin per gram of creatinine in exposed workers. However, the relationship between urinary ribavirin levels in exposed workers, plasma levels in animal studies, and the specific risk of teratogenesis in exposed pregnant women is unknown.
+
+ </paragraph>
+                        <paragraph>It is good practice to avoid unnecessary occupational exposure to chemicals wherever possible. Hospitals are encouraged to conduct training programs to minimize potential occupational exposure to Ribavirin for Inhalation Solution, USP. Health care workers who are pregnant should consider avoiding direct care of patients receiving aerosolized Ribavirin for Inhalation Solution, USP. If close patient contact cannot be avoided, precautions to limit exposure should be taken. These include administration of Ribavirin for Inhalation Solution, USP in negative pressure rooms; adequate room ventilation (at least six air exchanges per hour); the use of scavenging devices; turning off the SPAG-2 device for 5 to 10 minutes prior to prolonged patient contact; and wearing appropriately fitted respirator masks. Surgical masks do not provide adequate filtration of Ribavirin for Inhalation Solution, USP particles. Further information is available from NIOSH's Hazard Evaluation and Technical Assistance Branch and additional recommendations have been published in an Aerosol Consensus Statement by the American Respiratory Care Foundation and the American Association for Respiratory Care.
+ 
+  <sup>10</sup>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-6012-18d6-e063-6394a90a8e07"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The description of adverse reactions is based on events from clinical studies (approximately 200 patients) conducted prior to 1986, and the controlled trial of aerosolized Ribavirin for Inhalation Solution, USP conducted in 1989-1990. Additional data from spontaneous post-marketing reports of adverse events in individual patients have been available since 1986.</paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6013-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Deaths</title>
+                     <text>
+                        <paragraph>Deaths during or shortly after treatment with aerosolized Ribavirin for Inhalation Solution, USP have been reported in 20 cases of patients treated with Ribavirin for Inhalation Solution, USP (12 of these patients were being treated for RSV infections). Several cases have been characterized as "possibly related" to Ribavirin for Inhalation Solution, USP by the treating physician; these were in infants who experienced worsening respiratory status related to bronchospasm while being treated with the drug. Several other cases have been attributed to mechanical ventilator malfunction in which Ribavirin for Inhalation Solution, USP precipitation within the ventilator apparatus led to excessively high pulmonary pressures and diminished oxygenation.</paragraph>
+                        <paragraph>In these cases the monitoring procedures described in the current package insert were not employed (see
+ 
+  <linkHtml href="#DS">Description of Studies</linkHtml>,
+ 
+  <linkHtml href="#warnings">WARNINGS</linkHtml>, and
+ 
+  <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>).
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6014-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Pulmonary and Cardiovascular</title>
+                     <text>
+                        <paragraph>Pulmonary function significantly deteriorated during aerosolized Ribavirin for Inhalation Solution, USP treatment in six of six adults with chronic obstructive lung disease and in four of six asthmatic adults. Dyspnea and chest soreness were also reported in the latter group. Minor abnormalities in pulmonary function were also seen in healthy adult volunteers.</paragraph>
+                        <paragraph>In the original study population of approximately 200 infants who received aerosolized Ribavirin for Inhalation Solution, USP, several serious adverse events occurred in severely ill infants with lifethreatening underlying diseases, many of whom required assisted ventilation. The role of Ribavirin for Inhalation Solution, USP in these events is indeterminate. Since the drug's approval in 1986, additional reports of similar serious, though non-fatal, events have been filed infrequently. Events associated with aerosolized Ribavirin for Inhalation Solution, USP use have included the following:</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                     <component>
+                        <section>
+                           <id root="4f6faa39-6015-18d6-e063-6394a90a8e07"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Pulmonary</title>
+                           <text>
+                              <paragraph>Worsening of respiratory status, bronchospasm, pulmonary edema, hypoventilation, cyanosis, dyspnea, bacterial pneumonia, pneumothorax, apnea, atelectasis and ventilator dependence.</paragraph>
+                           </text>
+                           <effectiveTime value="20200423"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="4f6faa39-6016-18d6-e063-6394a90a8e07"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <title>Cardiovascular</title>
+                           <text>
+                              <paragraph>Cardiac arrest, hypotension, bradycardia and digitalis toxicity. Bigeminy, bradycardia and tachycardia have been described in patients with underlying congenital heart disease.</paragraph>
+                              <paragraph>Some subjects requiring assisted ventilation experienced serious difficulties, due to inadequate ventilation and gas exchange. Precipitation of drug within the ventilatory apparatus, including the endotracheal tube, has resulted in increased positive end expiratory pressure and increased positive inspiratory pressure. Accumulation of fluid in tubing ("rain out") has also been noted. Measures to avoid these complications should be followed carefully (see
+ 
+  <linkHtml href="#DA">DOSAGE AND ADMINISTRATION</linkHtml>).
+
+ </paragraph>
+                           </text>
+                           <effectiveTime value="20200423"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6017-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Hematologic</title>
+                     <text>
+                        <paragraph>Although anemia was not reported with use of aerosolized Ribavirin for Inhalation Solution, USP in controlled clinical trials, most infants treated with the aerosol have not been evaluated 1 to 2 weeks post-treatment when anemia is likely to occur. Anemia has been shown to occur frequently with experimental oral and intravenous Ribavirin for Inhalation Solution, USP in humans. Also, cases of anemia (type unspecified), reticulocytosis and hemolytic anemia associated with aerosolized Ribavirin for Inhalation Solution, USP use have been reported through post-marketing reporting systems. All have been reversible with discontinuation of the drug.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6018-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Other</title>
+                     <text>
+                        <paragraph>Rash and conjunctivitis have been associated with the use of aerosolized Ribavirin for Inhalation Solution, USP. These usually resolve within hours of discontinuing therapy. Seizures and asthenia associated with experimental intravenous Ribavirin for Inhalation Solution, USP therapy have also been reported.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="AE">
+                     <id root="4f6faa39-6019-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Adverse Events in Health Care Workers</title>
+                     <text>
+                        <paragraph>Studies of environmental exposure to aerosolized Ribavirin for Inhalation Solution, USP in health care workers administering care to patients receiving the drug have not detected adverse signs or symptoms related to exposure. However, 152 health care workers have reported experiencing adverse events through post-marketing surveillance. Nearly all were in individuals providing direct care to infants receiving aerosolized Ribavirin for Inhalation Solution, USP. Of 358 events from these 152 individual health care worker reports, the most common signs and symptoms were headache (51% of reports), conjunctivitis (32%), and rhinitis, nausea, rash, dizziness, pharyngitis, or lacrimation (10-20% each). Several cases of bronchospasm and/or chest pain were also reported, usually in individuals with known underlying reactive airway disease. Several case reports of damage to contact lenses after prolonged close exposure to aerosolized Ribavirin for Inhalation Solution, USP have also been reported. Most signs and symptoms reported as having occurred in exposed health care workers resolved within minutes to hours of discontinuing close exposure to aerosolized Ribavirin for Inhalation Solution, USP (also see
+ 
+  <linkHtml href="#personnel">Information for Health Care Personnel</linkHtml>).
+
+ </paragraph>
+                        <paragraph>The symptoms of RSV in adults can include headache, conjunctivitis, sore throat and/or cough, fever, hoarseness, nasal congestion and wheezing, although RSV infections in adults are typically mild and transient. Such infections represent a potential hazard to uninfected hospital patients. It is unknown whether certain symptoms cited in reports from health care workers were due to exposure to the drug or infection with RSV. Hospitals should implement appropriate infection control procedures.</paragraph>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Cameron Pharmaceuticals at 1-888-767-7913 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-601a-18d6-e063-6394a90a8e07"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>OVERDOSAGE</title>
+               <text>
+                  <paragraph>No overdosage with Ribavirin for Inhalation Solution, USP by aerosol administration has been reported in humans. The LD50 in mice is 2 g orally and is associated with hypoactivity and gastrointestinal symptoms (estimated human equivalent dose of 0.17 g/kg, based on body surface area conversion). The mean plasma half-life after administration of aerosolized Ribavirin for Inhalation Solution, USP for pediatric patients is 9.5 hours. Ribavirin for Inhalation Solution, USP is concentrated and persists in red blood cells for the life of the erythrocyte (see
+ 
+  <linkHtml href="#pharmacokinetics">Pharmacokinetics</linkHtml>).
+
+ </paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+            </section>
+         </component>
+         <component>
+            <section ID="DA">
+               <id root="4f6faa39-601b-18d6-e063-6394a90a8e07"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>DOSAGE AND ADMINISTRATION</title>
+               <text>
+                  <paragraph>BEFORE USE, READ THOROUGHLY THE BAUSCH HEALTH SMALL PARTICLE AEROSOL GENERATOR SPAG-2 INSTRUCTIONS FOR USE FOR SMALL PARTICLE AEROSOL GENERATOR OPERATING INSTRUCTIONS. AEROSOLIZED RIBAVIRIN FOR INHALATION SOLUTION, USP HAS NOT BEEN TESTED WITH ANY OTHER AEROSOL GENERATING DEVICE.</paragraph>
+                  <paragraph>The recommended treatment regimen is 20 mg/mL Ribavirin for Inhalation Solution, USP as the starting solution in the drug reservoir of the SPAG-2 unit, with continuous aerosol administration for 12-18 hours per day for 3 to 7 days. Using the recommended drug concentration of 20 mg/mL the average aerosol concentration for a 12 hour delivery period would be 190 mcg/L of air. Aerosolized Ribavirin for Inhalation Solution, USP should not be administered in a mixture for combined aerosolization or simultaneously with other aerosolized medications.</paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-601c-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Non-Mechanically Ventilated Infants</title>
+                     <text>
+                        <paragraph>Ribavirin for Inhalation Solution, USP should be delivered to an infant oxygen hood from the SPAG
+ 
+  <sup>®</sup>-2 aerosol generator. Administration by face mask or oxygen tent may be necessary if a hood cannot be employed (see SPAG-2 Instructions for Use). However, the volume and condensation area are larger in a tent and this may alter delivery dynamics of the drug.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-601d-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Mechanically Ventilated Infants</title>
+                     <text>
+                        <paragraph>The recommended dose and administration schedule for infants who require mechanical ventilation is the same as for those who do not. Either a pressure or volume cycle ventilator may be used in conjunction with the SPAG-2. In either case, patients should have their endotracheal tubes suctioned every 1-2 hours, and their pulmonary pressures monitored frequently (every 2-4 hours). For both pressure and volume ventilators, heated wire connective tubing and bacteria filters in series in the expiratory limb of the system (which must be changed frequently, i.e., every 4 hours) must be used to minimize the risk of Ribavirin for Inhalation Solution, USP precipitation in the system and the subsequent risk of ventilator dysfunction. Water column pressure release valves should be used in the ventilator circuit for pressure cycled ventilators, and may be utilized with volume cycled ventilators (see SPAG-2 INSTRUCTIONS FOR USE FOR DETAILED INSTRUCTIONS).</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="4f6faa39-601e-18d6-e063-6394a90a8e07"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>Method of Preparation</title>
+                     <text>
+                        <paragraph>Ribavirin for Inhalation Solution, USP is supplied as 6 grams of lyophilized powder per 100 mL vial for aerosol administration only. By sterile technique, reconstitute drug with
+ 
+  <content styleCode="underline">a minimum of 75 mL</content>
+                           <content styleCode="bold">of Sterile Water for Injection, USP or Inhalation</content>in
+ 
+  <content styleCode="underline">the original</content>100 mL glass vial.
+ 
+  <content styleCode="underline">Shake well</content>. Transfer to the clean, sterilized 500 mL SPAG-2 reservoir and further dilute to a final volume of 300 mL with Sterile Water for Injection, USP or Inhalation. The final concentration should be 20 mg/mL.
+ 
+  <content styleCode="bold">Important:</content>This water should NOT have had any antimicrobial agent or other substance added. The solution should be inspected visually for particulate matter and discoloration prior to administration. Solutions that have been placed in the SPAG-2 unit should be discarded at least every 24 hours and when the liquid level is low before adding newly reconstituted solution.
+
+ </paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-601f-18d6-e063-6394a90a8e07"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>HOW SUPPLIED</title>
+               <text>
+                  <paragraph>Ribavirin for Inhalation Solution, USP is supplied in a one-pack count containing 100 mL glass vial with 6 grams of Sterile, lyophilized drug which is to be reconstituted with 300 mL Sterile Water for Injection, USP or Sterile Water for Inhalation (no preservatives added) and administered only by a small particle aerosol generator (SPAG
+ 
+  <sup>®</sup>-2).
+
+ </paragraph>
+                  <paragraph>NDC 42494-423-01 One 6 g glass vial</paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <section>
+                     <id root="4f6faa39-6020-18d6-e063-6394a90a8e07"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <title>Storage</title>
+                     <text>
+                        <paragraph>Vials containing the lyophilized drug powder should be stored in a dry place at 25°C (77°F); excursions permitted to 15° to 30°C (59° to 86°F). Reconstituted solutions may be stored, under sterile conditions, at room temperature 20° to 30°C (68° to 86°F) for 24 hours. Solutions which have been placed in the SPAG-2 unit should be discarded at least every 24 hours.</paragraph>
+                     </text>
+                     <effectiveTime value="20200423"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-6021-18d6-e063-6394a90a8e07"/>
+               <code code="34093-5" codeSystem="2.16.840.1.113883.6.1" displayName="REFERENCES SECTION"/>
+               <title>REFERENCES</title>
+               <text>
+                  <list listType="ordered" styleCode="Arabic">
+                     <item>Hruska JF, Bernstein JM, Douglas Jr., RG, and Hall CB. Effects of Virazole on respiratory syncytial virus in vitro. Antimicrob Agents Chemother 17:770-775, 1980.</item>
+                     <item>Hruska JF, Morrow PE, Suffin SC, and Douglas Jr., RG. In vivo inhibition of respiratory syncytial virus by Virazole. Antimicrob Agents Chemother 21:125-130, 1982.</item>
+                     <item>Taber LH, Knight V, Gilbert BE, McClung HW et al. Virazole aerosol treatment of bronchiolitis associated with respiratory tract infection in infants. Pediatrics 72:613-618, 1983.</item>
+                     <item>Hall CB, McBride JT, Walsh EE, Bell DM et al. Aerosolized Virazole treatment of infants with respiratory syncytial viral infection. N Engl J Med 308:1443-7, 1983.</item>
+                     <item>Hendry RM, Mclntosh K, Fahnestock ML, and Pierik LT. Enzyme-linked immunosorbent assay for detection of respiratory syncytial virus infection J Clin Microbiol 16:329-33, 1982.</item>
+                     <item>Smith, David W., Frankel, Lorry R., Mather, Larry H., Tang, Allen T.S., Ariagno, Ronald L., Prober, Charles G. A Controlled Trial of Aerosolized Ribavirin in Infants Receiving Mechanical Ventilation for Severe Respiratory Syncytial Virus Infection. N Engl J Med 1991; 325:24-29.</item>
+                     <item>Decker, John, Shultz, Ruth A., Health Hazard Evaluation Report: Florida Hospital, Orlando, Florida. Cincinnati OH: U.S. Department of Health and Human Services, Public Health Service, Centers for NIOSH Report No. HETA 91-104-2229.
+  
+   <footnote ID="K1055">Copies of the Report may be purchased from National Technical Information Service, 5285 Port Royal Road, Springfield, VA 22161; Ask for Publication PB 93119-345</footnote>
+                     </item>
+                     <item>Barnes, D.J. and Doursew, M. Reference dose: Description and use in health risk assessments. Regul Tox. and Pharm. Vol. 8; p. 471-486, 1988.</item>
+                     <item>Federal Register Vol. 53 No. 126 Thurs. June 30, 1988 p. 24834-24847.</item>
+                     <item>American Association for Respiratory Care [1991]. Aerosol Consensus Statement-1991. Respiratory Care 36(9): 916-921.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20200423"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-6022-18d6-e063-6394a90a8e07"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>  Cameron Pharmaceuticals 
+  <br/>  Louisville, KY 40245 USA
+
+ </paragraph>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured by:</content>
+                     <br/>  Hospira, Inc. 
+  <br/>  McPherson, KS 67460 USA
+
+ </paragraph>
+                  <paragraph>SPAG is a trademark of Bausch Health Companies Inc. or its affiliates.</paragraph>
+                  <paragraph>© 2019 Bausch Health Companies Inc. or its affiliates</paragraph>
+                  <paragraph>9683500 
+  <br/>  Rev. 07/2019 
+  <br/>  70014506
+ </paragraph>
+               </text>
+               <effectiveTime value="20200423"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4f6faa39-6023-18d6-e063-6394a90a8e07"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 6 grams Vial Carton</title>
+               <text>
+                  <paragraph>NDC 42494-423-01 
+  <br/>  Rx only
+ </paragraph>
+                  <paragraph>Ribavirin 
+  <br/>  for Inhalation 
+  <br/>  Solution,USP
+ </paragraph>
+                  <paragraph>Sterile Lyophilized 
+  <br/>  For Administration By 
+  <br/>  Aerosol Inhalation Only
+ </paragraph>
+                  <paragraph>6 grams</paragraph>
+                  <paragraph>Contents: 
+  <br/>  One 6 g vial
+ </paragraph>
+                  <paragraph>CAMERON 
+  <br/>  PHARMACEUTICALS
+ 
+  <sub>™</sub>
+                  </paragraph>
+                  <renderMultiMedia referencedObject="MM2"/>
+               </text>
+               <effectiveTime value="20200423"/>
+               <component>
+                  <observationMedia ID="MM2">
+                     <text>PRINCIPAL DISPLAY PANEL - 6 grams Vial Carton</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="ribavirin-02.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="52324969-4537-2b7c-e063-6394a90a9b4d"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <effectiveTime value="20260519"/>
+   <setId root="52324969-4536-2b7c-e063-6394a90a9b4d"/>
+   <versionNumber value="1"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+            <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                  <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                  <assignedEntity>
+                     <assignedOrganization>
+                        <id root="1.3.6.1.4.1.519.1" extension="045657305"/>
+                        <name>HF Acquisition Co LLC, DBA HealthFirst</name>
+                     </assignedOrganization>
+                     <performance>
+                        <actDefinition>
+                           <code code="C73607" displayName="relabel" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <product>
+                              <manufacturedProduct classCode="MANU">
+                                 <manufacturedMaterialKind>
+                                    <code code="51662-1688" codeSystem="2.16.840.1.113883.6.69"/>
+                                 </manufacturedMaterialKind>
+                              </manufacturedProduct>
+                           </product>
+                        </actDefinition>
+                     </performance>
+                  </assignedEntity>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section>
+               <id root="5232f5fa-c963-aed8-e063-6294a90ae5b4"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL product data elements section"/>
+               <effectiveTime value="20260519"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="51662-1688" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>VASOPRESSIN</name>
+                        <formCode code="C42945" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INJECTION, SOLUTION"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>VASOPRESSIN</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <asEquivalentEntity classCode="EQUIV">
+                           <code code="C64637" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <definingMaterialKind>
+                              <code code="0517-1020" codeSystem="2.16.840.1.113883.6.69"/>
+                           </definingMaterialKind>
+                        </asEquivalentEntity>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator unit="[USP'U]" value="20"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="Y4907O6MFD" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>VASOPRESSIN</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="Y4907O6MFD" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>VASOPRESSIN</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="Q40Q9N063P" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>ACETIC ACID</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="059QF0KO0R" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>WATER</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="9"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="451W47IQ8X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM CHLORIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <quantity>
+                              <numerator unit="mg" value="5"/>
+                              <denominator unit="mL" value="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="HM4YQM8WRC" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>CHLOROBUTANOL</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="1" unit="mL"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="51662-1688-1" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43226" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="VIAL"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="Type 0: Not a Combination Product" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20220203"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA212593" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20220203"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38276" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="INTRAVENOUS"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_523276f2-5285-5997-e063-6394a90a1672">
+               <id root="523276f2-5284-5997-e063-6394a90a1672"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>HIGHLIGHTS OF PRESCRIBING INFORMATION</title>
+               <text>
+                  <paragraph>
+                     <br/>
+These highlights do not include all the information needed to use VASOPRESSIN INJECTION safely and effectively. See full prescribing information for VASOPRESSIN INJECTION.
+  <br/>
+                     <br/>
+VASOPRESSIN injection, for intravenous use
+  <br/>
+Initial U.S. Approval: 2014
+ </paragraph>
+                  <paragraph>INDICATIONS AND USAGE</paragraph>
+                  <paragraph>Vasopressin injection is indicated to increase blood pressure in adults with vasodilatory shock who remain hypotensive despite fluids and catecholamines. (1)</paragraph>
+                  <paragraph>DOSAGE AND ADMINISTRATION</paragraph>
+                  <paragraph>Dilute vasopressin injection with 0.9% Sodium Chloride Injection or 5% Dextrose Injection to either 0.1 units/mL or 1 unit/mL for intravenous administration. Discard unused diluted solution after 18 hours at room temperature or 24 hours under refrigeration. (2.1)
+  <br/>
+Post-cardiotomy shock: 0.03 units/minute to 0.1 units/minute. (2.2)
+  <br/>
+Septic shock: 0.01 units/minute to 0.07 units/minute. (2.2)
+ </paragraph>
+                  <paragraph>DOSAGE FORMS AND STRENGTHS</paragraph>
+                  <paragraph>Injection: 20 units/ mL in a single-dose vial and 200 units/10 mL (20 units/mL) in a multiple-dose vial. (3)</paragraph>
+                  <paragraph>CONTRAINDICATIONS</paragraph>
+                  <paragraph>Vasopressin injection 1 mL single-dose vial and 10 mL multiple-dose vial are contraindicated in patients with known allergy or hypersensitivity to 8-L-arginine vasopressin or chlorobutanol. (4)</paragraph>
+                  <paragraph>WARNINGS AND PRECAUTIONS</paragraph>
+                  <paragraph>Can worsen cardiac function. (5.1)
+  <br/>
+Reversible diabetes insipidus (5.2)
+ </paragraph>
+                  <paragraph>ADVERSE REACTIONS</paragraph>
+                  <paragraph>The most common adverse reactions include decreased cardiac output, bradycardia, tachyarrhythmias, hyponatremia and ischemia (coronary, mesenteric, skin, digital). (6)</paragraph>
+                  <paragraph>To report SUSPECTED ADVERSE REACTIONS, contact American Regent, Inc. at 1-800-734-9236 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</paragraph>
+                  <paragraph>DRUG INTERACTIONS</paragraph>
+                  <paragraph>Pressor effects of catecholamines and vasopressin injection are expected to be additive. (7.1)
+  <br/>
+Indomethacin may prolong effects of vasopressin injection. (7.2)
+  <br/>
+Co-administration of ganglionic blockers or drugs causing SIADH (syndrome of inappropriate antidiuretic hormone secretion) may increase the pressor response. (7.3, 7.4)
+  <br/>
+Co-administration of drugs causing diabetes insipidus may decrease the pressor response. (7.5)
+ </paragraph>
+                  <paragraph>USE IN SPECIFIC POPULATIONS</paragraph>
+                  <paragraph>Pregnancy: May induce tonic uterine contractions. (8.1)
+  <br/>
+Pediatric Use: Safety and effectiveness have not been established. (8.4)
+  <br/>
+Geriatric Use: No safety issues have been identified in older patients. (8.5)
+ </paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232641f-41d2-0d65-e063-6394a90ab7ad">
+               <id root="5232641f-41d1-0d65-e063-6394a90ab7ad"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <title>TABLE OF CONTENTS</title>
+               <text>
+                  <paragraph>FULL PRESCRIBING INFORMATION: CONTENTS*
+  <br/>
+1 INDICATIONS AND USAGE
+  <br/>
+2 DOSAGE AND ADMINISTRATION
+  <br/>
+2.1 Preparation of Diluted Solutions
+  <br/>
+2.2 Administration
+  <br/>
+3 DOSAGE FORMS AND STRENGTHS
+  <br/>
+4 CONTRAINDICATIONS
+  <br/>
+5 WARNINGS AND PRECAUTIONS
+  <br/>
+5.1 Worsening Cardiac Function
+  <br/>
+5.2 Reversible Diabetes Insipidus
+  <br/>
+6 ADVERSE REACTIONS
+  <br/>
+7 DRUG INTERACTIONS
+  <br/>
+7.1 Catecholamines
+  <br/>
+7.2 Indomethacin
+  <br/>
+7.3 Ganglionic Blocking Agents
+  <br/>
+7.4 Drugs Suspected of Causing SIADH (Syndrome of Inappropriate Antidiuretic Hormone Secretion)
+  <br/>
+7.5 Drugs Suspected of Causing Diabetes Insipidus
+  <br/>
+8 USE IN SPECIFIC POPULATIONS
+  <br/>
+8.1 Pregnancy
+  <br/>
+8.2 Lactation
+  <br/>
+8.4 Pediatric Use
+  <br/>
+8.5 Geriatric Use
+  <br/>
+10 OVERDOSAGE
+  <br/>
+11 DESCRIPTION
+  <br/>
+12 CLINICAL PHARMACOLOGY
+  <br/>
+12.1 Mechanism of Action
+  <br/>
+12.2 Pharmacodynamics
+  <br/>
+12.3 Pharmacokinetics
+  <br/>
+13 NONCLINICAL TOXICOLOGY
+  <br/>
+13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility
+  <br/>
+13.2 Animal Toxicology and/or Pharmacology
+  <br/>
+14 CLINICAL STUDIES
+  <br/>
+16 HOW SUPPLIED/STORAGE AND HANDLING
+ </paragraph>
+                  <paragraph>*
+  <br/>
+Sections or subsections omitted from the full prescribing information are not listed.
+ </paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_52328921-113f-6de1-e063-6394a90aff69">
+               <id root="52328921-113e-6de1-e063-6394a90aff69"/>
+               <code code="50744-2" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR OWNERS/CAREGIVERS SECTION"/>
+               <text>
+                  <paragraph>Vasopressin injection is indicated to increase blood pressure in adults with vasodilatory shock who remain hypotensive despite fluids and catecholamines.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_523297f2-4ad8-87b3-e063-6394a90a2d4e">
+               <id root="523297f2-4ad7-87b3-e063-6394a90a2d4e"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <text>
+                  <paragraph>2.1 Preparation of Diluted Solutions</paragraph>
+                  <paragraph>Inspect parenteral drug products for particulate matter and discoloration prior to use, whenever solution and container permit.</paragraph>
+                  <paragraph>Vasopressin Injection Solution for Dilution, 20 units/mL and 200 units/10 mL (20 units/mL).</paragraph>
+                  <paragraph>Dilute vasopressin injection in 0.9% Sodium Chloride Injection or 5% Dextrose Injection prior to use for intravenous infusion. (See Table 1).  Discard unused diluted solution after 18 hours at room temperature or 24 hours under refrigeration.</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_52329574-f750-097d-e063-6294a90a2e7c"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>2.2 Administration</paragraph>
+                  <paragraph>In general, titrate to the lowest dose compatible with a clinically acceptable response.</paragraph>
+                  <paragraph>The recommended starting dose is:</paragraph>
+                  <paragraph>Post-cardiotomy shock: 0.03 units/minute</paragraph>
+                  <paragraph>Septic Shock:  0.01 units/minute</paragraph>
+                  <paragraph>Titrate up by 0.005 units/minute at 10- to 15-minute intervals until the target blood pressure is reached. There are limited data for doses above 0.1 units/minute for post-cardiotomy shock and 0.07 units/minute for septic shock. Adverse reactions are expected to increase with higher doses.</paragraph>
+                  <paragraph>After target blood pressure has been maintained for 8 hours without the use of catecholamines, taper vasopressin injection by 0.005 units/minute every hour as tolerated to maintain target blood pressure.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+               <component>
+                  <observationMedia ID="img_52329574-f750-097d-e063-6294a90a2e7c">
+                     <text>Table</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1688-1 TABLE 1.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_52329574-f752-097d-e063-6294a90a2e7c">
+               <id root="52329574-f751-097d-e063-6294a90a2e7c"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <text>
+                  <paragraph>Vasopressin injection, USP is a clear, practically colorless solution for intravenous administration available as 20 units/mL in a single-dose vial and 200 units/10 mL (20 units/mL) in a multiple-dose vial.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5231d6dc-c35a-aa42-e063-6294a90a01ac">
+               <id root="5231d6dc-c359-aa42-e063-6294a90a01ac"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <text>
+                  <paragraph>Vasopressin injection 1 mL single-dose vial and 10 mL multiple-dose vial are contraindicated in patients with known allergy or hypersensitivity to 8-L-arginine vasopressin or chlorobutanol.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232a277-c639-4cf3-e063-6294a90a9628">
+               <id root="5232a277-c638-4cf3-e063-6294a90a9628"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <text>
+                  <paragraph>5.1 Worsening Cardiac Function</paragraph>
+                  <paragraph>A decrease in cardiac index may be observed with use of vasopressin.</paragraph>
+                  <paragraph>5.2 Reversible Diabetes Insipidus</paragraph>
+                  <paragraph>Patients may experience reversible diabetes insipidus, manifested by the development of polyuria, a dilute urine, and hypernatremia, after cessation of treatment with vasopressin. Monitor serum electrolytes, fluid status, and urine output after vasopressin discontinuation. Some patients may require readministration of vasopressin or administration of desmopressin to correct fluid and electrolyte shifts.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232827d-5616-734a-e063-6394a90aecc5">
+               <id root="5232827d-5615-734a-e063-6394a90aecc5"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <text>
+                  <paragraph>The following adverse reactions associated with the use of vasopressin were identified in the literature. Because these reactions are reported voluntarily from a population of uncertain size, it is not possible to estimate their frequency reliably or to establish a causal relationship to drug exposure.</paragraph>
+                  <paragraph>Bleeding/lymphatic system disorders: Hemorrhagic shock, decreased platelets, intractable bleeding</paragraph>
+                  <paragraph>Cardiac disorders: Right heart failure, atrial fibrillation, bradycardia, myocardial ischemia</paragraph>
+                  <paragraph>Gastrointestinal disorders: Mesenteric ischemia</paragraph>
+                  <paragraph>Hepatobiliary: Increased bilirubin levels</paragraph>
+                  <paragraph>Renal/urinary disorders: Acute renal insufficiency</paragraph>
+                  <paragraph>Vascular disorders: Distal limb ischemia</paragraph>
+                  <paragraph>Metabolic: Hyponatremia</paragraph>
+                  <paragraph>Skin: Ischemic lesions</paragraph>
+                  <paragraph>Postmarketing Experience</paragraph>
+                  <paragraph>Reversible diabetes insipidus [see Warnings and Precautions (5.2)].</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_523278c4-a2da-e344-e063-6294a90af1fd">
+               <id root="523278c4-a2d9-e344-e063-6294a90af1fd"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <text>
+                  <paragraph>7.1 Catecholamines</paragraph>
+                  <paragraph>Use with catecholamines is expected to result in an additive effect on mean arterial blood pressure and other hemodynamic parameters. Hemodynamic monitoring is recommended; adjust the dose of vasopressin as needed.</paragraph>
+                  <paragraph>7.2 Indomethacin</paragraph>
+                  <paragraph>Use with indomethacin may prolong the effect of vasopressin injection on cardiac index and systemic vascular resistance. Hemodynamic monitoring is recommended; adjust the dose of vasopressin as needed [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>7.3 Ganglionic Blocking Agents</paragraph>
+                  <paragraph> Use with ganglionic blocking agents may increase the effect of vasopressin injection on mean arterial blood pressure. Hemodynamic monitoring is recommended; adjust the dose of vasopressin as needed [see Clinical Pharmacology (12.3)].</paragraph>
+                  <paragraph>7.4 Drugs Suspected of Causing SIADH (Syndrome of Inappropriate Antidiuretic Hormone Secretion)</paragraph>
+                  <paragraph>Use with drugs suspected of causing SIADH (e.g., SSRIs, tricyclic antidepressants, haloperidol, chlorpropamide, enalapril, methyldopa, pentamidine, vincristine, cyclophosphamide, ifosfamide, felbamate) may increase the pressor effect in addition to the antidiuretic effect of vasopressin injection. Hemodynamic monitoring is recommended; adjust the dose of vasopressin as needed.</paragraph>
+                  <paragraph>7.5 Drugs Suspected of Causing Diabetes Insipidus</paragraph>
+                  <paragraph>Use with drugs suspected of causing diabetes insipidus (e.g., demeclocycline, lithium, foscarnet, clozapine) may decrease the pressor effect in addition to the antidiuretic effect of vasopressin injection.  Hemodynamic monitoring is recommended; adjust the dose of vasopressin as needed.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232ada5-33ea-848e-e063-6394a90a97e6">
+               <id root="5232ada5-33e9-848e-e063-6394a90a97e6"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <text>
+                  <paragraph>8.1 Pregnancy</paragraph>
+                  <paragraph> Risk Summary</paragraph>
+                  <paragraph>There are no available data on vasopressin injection use in pregnant women to inform a drug associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes. Animal reproduction studies have not been conducted with vasopressin.</paragraph>
+                  <paragraph>Clinical Considerations</paragraph>
+                  <paragraph>Dose Adjustments during Pregnancy and the Postpartum Period</paragraph>
+                  <paragraph>Because of increased clearance of vasopressin in the second and third trimester, the dose of vasopressin injection may need to be increased [see Dosage and Administration (2.2) and Clinical Pharmacology (12.3)]. </paragraph>
+                  <paragraph>Maternal adverse reactions</paragraph>
+                  <paragraph>Vasopressin injection may produce tonic uterine contractions. Vasopressin receptors are present in human uterine muscles and might not be distinguishable from oxytocin receptors.</paragraph>
+                  <paragraph>8.2 Lactation</paragraph>
+                  <paragraph>Risk Summary</paragraph>
+                  <paragraph>There are no data on the presence of vasopressin injection in either human or animal milk, the effects on the breastfed infant, or the effects on milk production.</paragraph>
+                  <paragraph>8.4 Pediatric Use</paragraph>
+                  <paragraph>Safety and effectiveness of vasopressin injection in pediatric patients with vasodilatory shock have not been established.</paragraph>
+                  <paragraph>8.5 Geriatric Use</paragraph>
+                  <paragraph>Clinical studies of vasopressin did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy [see Warnings and Precautions (5.1, 5.2), Adverse Reactions (6), and Clinical Pharmacology (12.3)].</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232ab61-2392-76e0-e063-6394a90aed6c">
+               <id root="5232ab61-2391-76e0-e063-6394a90aed6c"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <text>
+                  <paragraph>Overdosage with vasopressin injection can be expected to manifest as consequences of vasoconstriction of various vascular beds (peripheral, mesenteric, and coronary) and as hyponatremia. In addition, overdosage may lead less commonly to ventricular tachyarrhythmias (including Torsade de Pointes), rhabdomyolysis, and non-specific gastrointestinal symptoms.</paragraph>
+                  <paragraph>Direct effects will resolve within minutes of withdrawal of treatment.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232ab61-2394-76e0-e063-6394a90aed6c">
+               <id root="5232ab61-2393-76e0-e063-6394a90aed6c"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <text>
+                  <paragraph>Vasopressin is a polypeptide hormone. Vasopressin injection is a sterile, aqueous solution of synthetic arginine vasopressin for administration. The 1 mL and 10 mL solution contains vasopressin 20 units/mL, chlorobutanol 5 mg, sodium chloride 9 mg, water for injection, and glacial acetic acid to adjust pH to 3.5.</paragraph>
+                  <paragraph>The chemical name of vasopressin is Cyclo (1-6) L-Cysteinyl-L-Tyrosyl-L-Phenylalanyl-L- Glutaminyl-L-Asparaginyl-L-Cysteinyl-L-Prolyl-L-Arginyl-L-Glycinamide. It is a white to off-white amorphous powder, freely soluble in water. The structural formula is:</paragraph>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5232b88d-96f5-2afa-e063-6294a90ac0e1"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph>Molecular Formula: C46H65N15O12S2                 Molecular Weight: 1084.23</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+               <component>
+                  <observationMedia ID="img_5232b88d-96f5-2afa-e063-6294a90ac0e1">
+                     <text>structure</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1688-1 STRUCTURE.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_52328921-1141-6de1-e063-6394a90aff69">
+               <id root="52328921-1140-6de1-e063-6394a90aff69"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <text>
+                  <paragraph>12.1 Mechanism of Action</paragraph>
+                  <paragraph>Vasopressin causes vasoconstriction by binding to V1 receptors on vascular smooth muscle coupled to the Gq/11-phospholipase C-phosphatidyl-inositol-triphosphate pathway, resulting in the release of intracellular calcium. In addition, vasopressin stimulates antidiuresis via stimulation of V2 receptors which are coupled to adenyl cyclase.</paragraph>
+                  <paragraph>12.2 Pharmacodynamics</paragraph>
+                  <paragraph>At therapeutic doses exogenous vasopressin elicits a vasoconstrictive effect in most vascular beds including the splanchnic, renal and cutaneous circulation. In addition, vasopressin at pressor doses triggers contractions of smooth muscles in the gastrointestinal tract mediated by muscular V1-receptors and release of prolactin, ACTH and catecholamines via V3 receptors. At lower concentrations typical for the antidiuretic hormone vasopressin inhibits water diuresis via renal V2 receptors. In addition, vasopressin has been demonstrated to cause vasodilation in numerous vascular beds that is mediated by V2, V3, oxytocin and purinergic P2 receptors.</paragraph>
+                  <paragraph>In patients with vasodilatory shock, vasopressin in therapeutic doses increases systemic vascular resistance and mean arterial blood pressure and reduces the dose requirements for norepinephrine. Vasopressin tends to decrease heart rate and cardiac output. The pressor effect is proportional to the infusion rate of exogenous vasopressin. The pressor effect reaches its peak within 15 minutes. After stopping the infusion, the pressor effect fades within 20 minutes. There is no evidence for tachyphylaxis or tolerance to the pressor effect of vasopressin in patients.</paragraph>
+                  <paragraph>12.3 Pharmacokinetics</paragraph>
+                  <paragraph>Vasopressin plasma concentrations increase linearly with increasing infusion rates from 10 microunits/kg/min to 200 microunits/kg/min. Steady state plasma concentrations are achieved after 30 minutes of continuous intravenous infusion. </paragraph>
+                  <paragraph>Distribution</paragraph>
+                  <paragraph>Vasopressin does not appear to bind plasma protein. The volume of distribution is 140 mL/kg.</paragraph>
+                  <paragraph>Elimination</paragraph>
+                  <paragraph>At infusion rates used in vasodilatory shock (0.01 units/minute to 0.1 units/minute), the clearance of vasopressin is 9 to 25 mL/min/kg in patients with vasodilatory shock. The apparent t1/2 of vasopressin at these levels is ≤10 minutes.</paragraph>
+                  <paragraph>Metabolism</paragraph>
+                  <paragraph>Serine protease, carboxipeptidase and disulfide oxido-reductase cleave vasopressin at sites relevant for the pharmacological activity of the hormone. Thus, the generated metabolites are not expected to retain important pharmacological activity.</paragraph>
+                  <paragraph>Excretion</paragraph>
+                  <paragraph>Vasopressin is predominantly metabolized and only about 6% of the dose is excreted unchanged into urine.</paragraph>
+                  <paragraph>Specific Populations</paragraph>
+                  <paragraph>Pregnancy: Because of a spillover into blood of placental vasopressinase, the clearance of exogenous and endogenous vasopressin increases gradually over the course of a pregnancy. During the first trimester of pregnancy, the clearance is only slightly increased. However, by the third trimester the clearance of vasopressin is increased about 4-fold and at term up to 5-fold. After delivery, the clearance of vasopressin returns to pre-conception baseline within two weeks.</paragraph>
+                  <paragraph> Drug Interactions</paragraph>
+                  <paragraph>Indomethacin more than doubles the time to offset for vasopressin’s effect on peripheral vascular resistance and cardiac output in healthy subjects [see Drug Interactions (7.2)].</paragraph>
+                  <paragraph>The ganglionic blocking agent tetra-ethylammonium increases the pressor effect of vasopressin by 20% in healthy subjects [see Drug Interactions (7.3)].</paragraph>
+                  <paragraph>Halothane, morphine, fentanyl, alfentanyl and sufentanyl do not impact exposure to endogenous vasopressin.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232c035-17de-5340-e063-6294a90ad8c6">
+               <id root="5232c035-17dd-5340-e063-6294a90ad8c6"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <text>
+                  <paragraph>13.1 Carcinogenesis, Mutagenesis, Impairment of Fertility</paragraph>
+                  <paragraph>No formal carcinogenicity or fertility studies with vasopressin have been conducted in animals. Vasopressin was found to be negative in the in vitro bacterial mutagenicity (Ames) test and the in vitro Chinese hamster ovary (CHO) cell chromosome aberration test. In mice, vasopressin has been reported to have an effect on sperm function, including motility, fertilization and embryonic development. </paragraph>
+                  <paragraph>13.2 Animal Toxicology and/or Pharmacology</paragraph>
+                  <paragraph>No toxicology studies were conducted with vasopressin.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232abe7-9749-511a-e063-6294a90a64e0">
+               <id root="5232abe7-9748-511a-e063-6294a90a64e0"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <text>
+                  <paragraph>Increases in systolic and mean blood pressure following administration of vasopressin were observed in 7 studies in septic shock and 8 studies in post-cardiotomy vasodilatory shock.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232b3ab-4320-9f63-e063-6394a90a9073">
+               <id root="5232b3ab-431f-9f63-e063-6394a90a9073"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <text>
+                  <paragraph>Vasopressin injection, USP is a clear, practically colorless solution for intravenous administration available as:</paragraph>
+                  <paragraph>NDC 51662-1688-1 A 1mL single-dose vial containing vasopressin 20 units/mL.</paragraph>
+                  <paragraph/>
+                  <paragraph>1 mL Vial: Storage is permitted for up to 12 months at controlled room temperature (USP) 20°C to 25°C (68°F to 77°F) within the expiry date. Once removed from refrigeration, mark the unopened vial with the revised 12-month expiration date. Do not return Vasopressin to the refrigerator after it has been stored at room temperature. Discard the product after 12 months at room temperature or at the expiry date, whichever is earlier.</paragraph>
+                  <paragraph/>
+                  <paragraph>Store refrigerated between 2°C and 8°C (36°F and 46°F). Do not freeze.</paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+            </section>
+         </component>
+         <component>
+            <section ID="id_link_5232d753-27ef-a673-e063-6394a90a437a">
+               <id root="5232d753-27ee-a673-e063-6394a90a437a"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <text>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5232d952-10bf-cf7c-e063-6394a90a0794"/>
+                  </paragraph>
+                  <paragraph/>
+                  <paragraph/>
+                  <paragraph>
+                     <renderMultiMedia referencedObject="img_5232b3ab-4322-9f63-e063-6394a90a9073"/>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260519"/>
+               <component>
+                  <observationMedia ID="img_5232d952-10bf-cf7c-e063-6394a90a0794">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1688-1 SOURCE DRUG LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+               <component>
+                  <observationMedia ID="img_5232b3ab-4322-9f63-e063-6394a90a9073">
+                     <text>Label</text>
+                     <value mediaType="image/jpeg" xsi:type="ED">
+                        <reference value="51662-1688-1 RFID LABEL.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>
