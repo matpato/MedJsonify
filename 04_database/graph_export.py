@@ -23,13 +23,13 @@ from neo4j import GraphDatabase
 
 QUERY_INDICATED = """
 MATCH (d:Drug)-[:TREATS]->(dis:Disease)
-RETURN d.id AS drugs, 'is_indicated' AS relation, dis.id AS disease
+RETURN d.id AS drugs, dis.id AS disease
 ORDER BY d.id, dis.id
 """
 
 QUERY_CONTRAINDICATED = """
 MATCH (d:Drug)-[:CONTRAINDICATED_FOR]->(dis:Disease)
-RETURN d.id AS drugs, 'is_contraindicated' AS relation, dis.id AS disease
+RETURN d.id AS drugs, dis.id AS disease
 ORDER BY d.id, dis.id
 """
 
@@ -72,14 +72,17 @@ def export_graph_to_csv(uri: str,
             # --- indicated.csv ---
             logging.info("Exporting indicated relationships...")
             records = session.run(QUERY_INDICATED).data()
-            _write_csv(indicated_path, fieldnames=['drugs', 'relation', 'disease'], rows=records)
+            records = [{'drugs': r['drugs'], 'disease': r['disease']} for r in records]
+            _write_csv(indicated_path, fieldnames=['drugs', 'disease'], rows=records)
             results['indicated'] = {'path': indicated_path, 'rows': len(records)}
             logging.info(f"  Wrote {len(records)} rows -> {indicated_path}")
+
 
             # --- contraindicated.csv ---
             logging.info("Exporting contraindicated relationships...")
             records = session.run(QUERY_CONTRAINDICATED).data()
-            _write_csv(contraindicated_path, fieldnames=['drugs', 'relation', 'disease'], rows=records)
+            records = [{'drugs': r['drugs'], 'disease': r['disease']} for r in records]
+            _write_csv(contraindicated_path, fieldnames=['drugs', 'disease'], rows=records)
             results['contraindicated'] = {'path': contraindicated_path, 'rows': len(records)}
             logging.info(f"  Wrote {len(records)} rows -> {contraindicated_path}")
 

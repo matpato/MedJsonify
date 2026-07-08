@@ -242,27 +242,33 @@ def load_json(file_path):
 
 def clean_id(url):
     """
-    Extract a clean identifier from a URL or ID string.
+    Extract a clean identifier from a URL or ID string, normalized to CURIE format.
     
-    This function handles different ID formats, particularly extracting the
-    final component from ontology URLs.
+    This function handles different ID formats, extracting the final component
+    from ontology URLs and converting underscore-style IDs (e.g. CHEBI_17234)
+    into CURIE format (e.g. CHEBI:17234).
     
     Args:
         url (str): URL or ID string to clean
         
     Returns:
-        str or None: Cleaned ID or None if input is invalid
+        str or None: Cleaned ID in CURIE format, or None if input is invalid
     """
     # OBJECTIVE: Normalize identifiers by cleaning URLs and other ID formats
     if not url or not isinstance(url, str):
         return None
-    
-    # Handle ontology URLs by extracting the ID portion
-    if url.startswith('http://purl.obolibrary.org/obo/'):
-        return url.split('/')[-1]
-    
-    # For other URLs, take the last segment as the ID
-    return url.split('/')[-1]
+
+    # Extract the last path segment (works for OBO PURLs and other URLs alike)
+    last_segment = url.rstrip('/').split('/')[-1]
+
+    # Convert underscore-style ontology IDs (CHEBI_17234, DOID_2841) to CURIE format
+    if '_' in last_segment:
+        prefix, _, local_id = last_segment.partition('_')
+        if prefix.isupper() and local_id.isdigit():
+            return f"{prefix}:{local_id}"
+
+    return last_segment
+
 def extract_year(approval_date):
     """
     Extract the year from various date formats.
