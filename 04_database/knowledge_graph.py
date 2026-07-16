@@ -381,7 +381,7 @@ def process_xml_file(file_path, neo4j_handler):
                 # Process Orphanet entities
                 for entity in data["indications"].get("orphanet_entities", []):
                     if isinstance(entity, dict):
-                        disease_id = clean_id(entity.get("id"))
+                        disease_id = clean_id(entity.get("orphanet_id") or entity.get("id"))
                         if disease_id:
                             disease_name = entity.get("text", "Unknown")
                             diseases.append({"id": disease_id, "name": disease_name})
@@ -404,7 +404,7 @@ def process_xml_file(file_path, neo4j_handler):
                 # Process Orphanet entities
                 for entity in data["contraindications"].get("orphanet_entities", []):
                     if isinstance(entity, dict):
-                        disease_id = clean_id(entity.get("id"))
+                        disease_id = clean_id(entity.get("orphanet_id") or entity.get("id"))
                         if disease_id:
                             disease_name = entity.get("text", "Unknown")
                             diseases.append({"id": disease_id, "name": disease_name})

@@ -628,7 +628,7 @@ COMMON_ONTOLOGIES = {
         'description': 'Human Phenotype Ontology - Phenotypic abnormalities'
     },
     'ordo': {
-        'url': 'https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.8.owl',
+        'url': 'https://www.orphadata.com/data/ontologies/ordo/last_version/ordo_orphanet.owl',
         'name': 'ordo',
         'type': "owl",
         'description': 'Orphanet Rare Disease Ontology'

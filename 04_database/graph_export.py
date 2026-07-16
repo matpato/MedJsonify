@@ -23,13 +23,13 @@ from neo4j import GraphDatabase
 
 QUERY_INDICATED = """
 MATCH (d:Drug)-[:TREATS]->(dis:Disease)
-RETURN d.id AS drugs, dis.id AS disease
+RETURN d.id AS drug_code, dis.id AS disease_code
 ORDER BY d.id, dis.id
 """
 
 QUERY_CONTRAINDICATED = """
 MATCH (d:Drug)-[:CONTRAINDICATED_FOR]->(dis:Disease)
-RETURN d.id AS drugs, dis.id AS disease
+RETURN d.id AS drug_code, dis.id AS disease_code
 ORDER BY d.id, dis.id
 """
 
@@ -72,8 +72,8 @@ def export_graph_to_csv(uri: str,
             # --- indicated.csv ---
             logging.info("Exporting indicated relationships...")
             records = session.run(QUERY_INDICATED).data()
-            records = [{'drugs': r['drugs'], 'disease': r['disease']} for r in records]
-            _write_csv(indicated_path, fieldnames=['drugs', 'disease'], rows=records)
+            records = [{'drug:code': r['drug_code'], 'disease:code': r['disease_code']} for r in records]
+            _write_csv(indicated_path, fieldnames=['drug:code', 'disease:code'], rows=records)
             results['indicated'] = {'path': indicated_path, 'rows': len(records)}
             logging.info(f"  Wrote {len(records)} rows -> {indicated_path}")
 
@@ -81,8 +81,8 @@ def export_graph_to_csv(uri: str,
             # --- contraindicated.csv ---
             logging.info("Exporting contraindicated relationships...")
             records = session.run(QUERY_CONTRAINDICATED).data()
-            records = [{'drugs': r['drugs'], 'disease': r['disease']} for r in records]
-            _write_csv(contraindicated_path, fieldnames=['drugs', 'disease'], rows=records)
+            records = [{'drug:code': r['drug_code'], 'disease:code': r['disease_code']} for r in records]
+            _write_csv(contraindicated_path, fieldnames=['drug:code', 'disease:code'], rows=records)
             results['contraindicated'] = {'path': contraindicated_path, 'rows': len(records)}
             logging.info(f"  Wrote {len(records)} rows -> {contraindicated_path}")
 
@@ -97,10 +97,9 @@ def export_graph_to_csv(uri: str,
 # ---------------------------------------------------------------------------- #
 
 def _write_csv(path: str, fieldnames: list, rows: list):
-    """Write a list of dicts to a CSV file."""
+    """Write a list of dicts to a CSV file (no header row)."""
     with open(path, 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
         writer.writerows(rows)
 
 

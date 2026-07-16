@@ -1,7 +1,8 @@
 import configparser
-from pathlib import Path
-from jsonifyer import convert_txt, convert_csv, convert_xml
 import os
+from pathlib import Path
+
+from jsonifyer import convert_txt, convert_csv, convert_xml
 
 def load_config():
     """Load jsonify configuration"""
@@ -15,17 +16,17 @@ def load_config():
     return config
 
 def convert_all_files():
-        BASE_DIR = Path("/opt/airflow/dags/jsonify/src")
-        input_folder = BASE_DIR / 'types'
-        output_folder = BASE_DIR / 'json'
+        config = load_config()
+        input_folder = Path(config['folders']['base_input_folder'])
+        output_folder = Path(config['folders']['base_output_folder'])
         
         for dir_type in ['xml_files', 'csv_files', 'txt_files']:
             os.makedirs(output_folder / dir_type, exist_ok=True)
         
         repeated_files = {
-            'xml_files': BASE_DIR / 'xml_processed.txt',
-            'csv_files': BASE_DIR / 'csv_processed.txt',
-            'txt_files': BASE_DIR / 'txt_processed.txt'
+            'xml_files': Path(config['state_tracking']['xml_processed']),
+            'csv_files': Path(config['state_tracking']['csv_processed']),
+            'txt_files': Path(config['state_tracking']['txt_processed'])
         }
         
         for file_path in repeated_files.values():
@@ -86,7 +87,7 @@ def convert_all_files():
                     print(f"✓ {result['message']}")
                 else:
                     print("✓ XML files processed")
-                    
+
             except Exception as e:
                 print(f"✗ Error processing XML files: {str(e)}")
                 raise
@@ -144,6 +145,8 @@ def convert_all_files():
 
         txt_input_dir = input_folder / 'txt_files'
         txt_output_dir = output_folder / 'txt_files'
+        txt_state_file = repeated_files['txt_files']
+        txt_state_file.write_text('', encoding='utf-8')
         
         if txt_input_dir.exists():
             print(f"INFO: Processing TXT files in {txt_input_dir}...")
@@ -155,11 +158,11 @@ def convert_all_files():
                 print(f"INFO: Attempting to process TXT: {filename}...")
                 
                 try:
-                    print(f"INFO: Calling convert_txt with repeated_path: {repeated_files['txt_files']}, repeated_item: Ingredient")
+                    print(f"INFO: Calling convert_txt with repeated_path: {txt_state_file}, repeated_item: Ingredient")
                     result = convert_txt(
                         file_path=str(filepath),
                         output_path=str(txt_output_dir),
-                        repeated_path=str(repeated_files['txt_files']),
+                        repeated_path=str(txt_state_file),
                         repeated_item='Ingredient', 
                         delimiter='~'
                     )
