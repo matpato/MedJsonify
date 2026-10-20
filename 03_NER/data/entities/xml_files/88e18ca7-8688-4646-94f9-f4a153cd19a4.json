@@ -2,7 +2,12 @@
     "id": "88e18ca7-8688-4646-94f9-f4a153cd19a4",
     "indications": {
         "text": "nalbuphine hydrochloride injection indicated management pain severe enough require opioid analgesic alternative treatments inadequate . nalbuphine hydrochloride injection also used supplement balanced anesthesia , preoperative postoperative analgesia , obstetrical analgesia labor delivery . limitations : risks addiction , abuse , misuse , overdose , death , occur duration persist course therapy [ ] , reserve opioid analgesics , including nalbuphine hydrochloride injection , patients alternative treatment options ineffective , tolerated , would otherwise inadequate provide sufficient management pain .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "analgesia (DOID:0060145)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060145"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -25,35 +30,42 @@
         {
             "name": "NALBUPHINE HYDROCHLORIDE",
             "code": "ZU4275277R",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_7455"
         },
         {
             "name": "TRISODIUM CITRATE DIHYDRATE",
-            "code": "B22547B95K"
+            "code": "B22547B95K",
+            "class_code": "IACT"
         },
         {
             "name": "ANHYDROUS CITRIC ACID",
             "code": "XF417D3PSL",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30769"
         },
         {
             "name": "SODIUM CHLORIDE",
             "code": "451W47IQ8X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_26710"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         },
         {
             "name": "HYDROCHLORIC ACID",
             "code": "QTT17582CB",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749659"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],

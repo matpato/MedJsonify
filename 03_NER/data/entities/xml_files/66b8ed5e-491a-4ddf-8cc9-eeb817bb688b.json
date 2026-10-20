@@ -2,7 +2,12 @@
     "id": "66b8ed5e-491a-4ddf-8cc9-eeb817bb688b",
     "indications": {
         "text": "lidovara\u2122 indicated topical analgesia directed healthcare provider .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "analgesia (DOID:0060145)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060145"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,36 +21,43 @@
         {
             "name": "LIDOCAINE",
             "code": "98PI200987",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_6456"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         },
         {
             "name": "HYDROXYETHYLCELLULOSE",
             "code": "T4V6TWG28D",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_85249"
         },
         {
             "name": "PHENOXYETHANOL",
             "code": "HIE492ZZ3T",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB11304"
         },
         {
             "name": "ETHYLHEXYLGLYCERIN",
             "code": "147D247K3P",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14557"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         },
         {
             "name": "LACTIC ACID",
             "code": "33X04XA5AT",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749277"
         }
     ],

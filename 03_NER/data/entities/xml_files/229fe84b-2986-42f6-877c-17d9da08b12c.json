@@ -2,8 +2,26 @@
     "id": "229fe84b-2986-42f6-877c-17d9da08b12c",
     "indications": {
         "text": "dhivy indicated treatment parkinson \u2019 disease , post-encephalitic parkinsonism , symptomatic parkinsonism may follow carbon monoxide intoxication manganese intoxication .",
-        "doid_entities": [],
-        "orphanet_entities": []
+        "doid_entities": [
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            },
+            {
+                "text": "parkinsonism (DOID:0080855)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0080855"
+            },
+            {
+                "text": "symptomatic parkinsonism (DOID:13548)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_13548"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            }
+        ]
     },
     "contraindications": {
         "text": "evaluate vitamin b6 levels prior starting treatment carbidopa/levodopa therapies . ( 2.1 ) recommended starting dhivy one 25 mg /100 mg tablet taken orally three times day . ( 2.2 ) may increased one whole tablet every day every day , needed , maximum eight whole tablets dhivy day reached . ( 2.2 ) swallow dhivy without food . ( 2.4 )",
@@ -15,26 +33,31 @@
         {
             "name": "CARBIDOPA HYDRATE",
             "code": "MNX7R8C5VO",
+            "class_code": "ACTIM",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_3395"
         },
         {
             "name": "LEVODOPA",
             "code": "46627O600J",
+            "class_code": "ACTIB",
             "drugbank_id": "https://go.drugbank.com/drugs/DB01235"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "MICROCRYSTALLINE CELLULOSE",
             "code": "OP1R32D61U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
         },
         {
             "name": "STARCH, CORN",
             "code": "O8232NY3SJ",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_28017"
         }
     ],

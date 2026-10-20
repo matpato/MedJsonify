@@ -2,14 +2,43 @@
     "id": "4bce4abb-946b-f156-e063-6294a90a135f",
     "indications": {
         "text": "bucapsol tmcapsules indicated management anxiety disorders short-term relief symptoms anxiety . anxiety tension associated stress everyday life usually require treatment anxiolytic . efficacy buspirone hydrochloride demonstrated controlled trials outpatients whose diagnosis roughly corresponds generalized anxiety disorder ( gad ) . many patients enrolled also coexisting depressive symptoms buspirone hydrochloride relieved anxiety presence coexisting depressive symptoms . patients evaluated experienced symptoms periods 1 month 1 year prior study , average symptom duration 6 months . generalized anxiety disorder ( 300.02 ) described american psychiatric association 's diagnostic statistical manual , iii 1as follows : generalized , persistent anxiety ( least 1 month continual duration ) , manifested symptoms three four following categories : 1. motor tension : shakiness , jitteriness , jumpiness , trembling , tension , muscle aches , fatigability , inability relax , eyelid twitch , furrowed brow , strained face , fidgeting , restlessness , easy startle . 2. autonomic hyperactivity : sweating , heart pounding racing , cold , clammy hands , dry mouth , dizziness , lightheadedness , paresthesias ( tingling hands feet ) , upset stomach , hot cold spells , frequent urination , diarrhea , discomfort pit stomach , lump throat , flushing , pallor , high resting pulse respiration rate . 3. apprehensive expectation : anxiety , worry , fear , rumination , anticipation misfortune self others . 4. vigilance scanning : hyperattentiveness resulting distractibility , difficulty concentrating , insomnia , feeling `` edge `` , irritability , impatience . symptoms would due another mental disorder , depressive disorder schizophrenia . however , mild depressive symptoms common gad . effectiveness buspirone hydrochloride long-term , , 3 4 weeks , demonstrated controlled trials . body evidence available systematically addresses appropriate duration treatment gad . however , study long-term , 264 patients treated buspirone hydrochloride 1 year without ill effect . therefore , physician elects buspirone hydrochloride extended periods periodically reassess usefulness individual patient .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "anxiety (DOID:2030)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2030"
+            },
+            {
+                "text": "generalized anxiety disorder (DOID:14320)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_14320"
+            },
+            {
+                "text": "face (DOID:0111084)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0111084"
+            },
+            {
+                "text": "cold (DOID:3083)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_3083"
+            },
+            {
+                "text": "diarrhea (DOID:13250)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_13250"
+            },
+            {
+                "text": "depressive disorder (DOID:1596)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1596"
+            },
+            {
+                "text": "schizophrenia (DOID:5419)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
+            }
+        ],
         "orphanet_entities": [
             {
-                "disease": "anxiety disorder",
+                "disease": "depressive disorder",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_557493"
             },
             {
-                "disease": "depressive disorder",
+                "disease": "anxiety disorder",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_557493"
             },
             {
@@ -38,56 +67,67 @@
         {
             "name": "ANHYDROUS LACTOSE",
             "code": "3SY5LH9PMK",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17716"
         },
         {
             "name": "CARBOXYMETHYLCELLULOSE",
             "code": "05JZI7B19X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_85146"
         },
         {
             "name": "GELATIN, UNSPECIFIED",
             "code": "2G86QN327L",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_5291"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "MICROCRYSTALLINE CELLULOSE",
             "code": "OP1R32D61U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
         },
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
             "code": "5856J3G2A2",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753028"
         },
         {
             "name": "SODIUM LAURYL SULFATE",
             "code": "368GB5141J",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16189"
         },
         {
             "name": "TITANIUM DIOXIDE",
             "code": "15FIX9V2JP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32234"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         },
         {
             "name": "BUSPIRONE",
             "code": "TK65WKS8HL",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_3223"
         }
     ],
@@ -101,7 +141,7 @@
     "drug": [
         {
             "name": "Bucapsol",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17716"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_3223"
         }
     ]
 }

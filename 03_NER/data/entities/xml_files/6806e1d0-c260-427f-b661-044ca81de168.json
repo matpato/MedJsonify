@@ -2,7 +2,16 @@
     "id": "6806e1d0-c260-427f-b661-044ca81de168",
     "indications": {
         "text": "ohtuvayre indicated maintenance treatment chronic obstructive pulmonary disease ( chronic obstructive pulmonary disease ) adult patients .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "chronic obstructive pulmonary disease (DOID:3083)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_3083"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            }
+        ],
         "orphanet_entities": [
             {
                 "disease": "chronic obstructive pulmonary disease",
@@ -25,36 +34,43 @@
         {
             "name": "ensifentrine",
             "code": "3E3D8T1GIX",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757790"
         },
         {
             "name": "sodium chloride",
             "code": "451W47IQ8X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_26710"
         },
         {
             "name": "SODIUM PHOSPHATE, DIBASIC, DIHYDRATE",
             "code": "94255I6E2T",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_37586"
         },
         {
             "name": "SODIUM PHOSPHATE, MONOBASIC, DIHYDRATE",
             "code": "5QWK665956",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_37586"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB09449"
         },
         {
             "name": "polysorbate 20",
             "code": "7T1F30V5YH",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_53424"
         },
         {
             "name": "sorbitan monolaurate",
             "code": "6W9PS8B71J",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_755720"
         },
         {
             "name": "water",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],

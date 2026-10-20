@@ -2,7 +2,20 @@
     "id": "64c35e73-1daa-4a82-a3c2-a737dec6eeae",
     "indications": {
         "text": "fetroja cephalosporin antibacterial indicated patients 18 years age older treatment following infections caused susceptible gram-negative microorganisms : complicated urinary tract infections ( cuti ) , including pyelonephritis ( 1.1 ) hospital-acquired bacterial pneumonia ventilator-associated bacterial pneumonia ( habp/vabp ) ( 1.2 ) reduce development drug-resistant bacteria maintain effectiveness fetroja antibacterial drugs , fetroja used treat prevent infections proven strongly suspected caused bacteria . ( 1.3 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "pyelonephritis (DOID:11400)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_11400"
+            },
+            {
+                "text": "bacterial pneumonia (DOID:874)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_874"
+            },
+            {
+                "text": "pneumonia (DOID:552)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_552"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -15,26 +28,31 @@
         {
             "name": "SUCROSE",
             "code": "C151H8M554",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17992"
         },
         {
             "name": "SODIUM CHLORIDE",
             "code": "451W47IQ8X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_26710"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         },
         {
             "name": "NITROGEN",
             "code": "N762921K75",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB09152"
         },
         {
             "name": "CEFIDEROCOL SULFATE TOSYLATE",
             "code": "TTP8LBP45D",
+            "class_code": "ACTIM",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_140376"
         }
     ],
@@ -47,7 +65,7 @@
     "drug": [
         {
             "name": "Fetroja",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17992"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_140376"
         }
     ]
 }

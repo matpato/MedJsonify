@@ -2,14 +2,19 @@
     "id": "9f32c4dc-0465-4bef-90f4-4462a634275a",
     "indications": {
         "text": "sephience indicated treatment hyperphenylalaninemia ( hpa ) adult pediatric patients 1 month age older sepiapterin-responsive phenylketonuria ( pku ) . sephience used conjunction phenylalanine ( phe ) -restricted diet .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "phenylketonuria (DOID:9281)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9281"
+            }
+        ],
         "orphanet_entities": [
             {
-                "disease": "phenylketonuria",
+                "disease": "pku",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_716"
             },
             {
-                "disease": "pku",
+                "disease": "phenylketonuria",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_716"
             }
         ]
@@ -25,46 +30,55 @@
         {
             "name": "SEPIAPTERIN",
             "code": "CJQ26KO7HP",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16095"
         },
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "CROSCARMELLOSE SODIUM",
             "code": "M28OL1HH48",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753845"
         },
         {
             "name": "ISOMALT",
             "code": "S870P55O2W",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_150326"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "MANNITOL",
             "code": "3OWL53L36A",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_29864"
         },
         {
             "name": "MICROCRYSTALLINE CELLULOSE",
             "code": "OP1R32D61U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
         },
         {
             "name": "SUCRALOSE",
             "code": "96K6UQ3ZD4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32159"
         },
         {
             "name": "XANTHAN GUM",
             "code": "TTV12P4NEE",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753740"
         }
     ],

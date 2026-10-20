@@ -2,7 +2,12 @@
     "id": "ab2a0921-41d7-4b3b-ace9-6adccb12c5e9",
     "indications": {
         "text": "zynrelef indicated adults postsurgical analgesia 72 hours : soft tissue surgical procedures orthopedic surgical procedures \u2013foot ankle procedures \u2013other orthopedic surgical procedures ( e.g . , total joint arthroplasty ) direct exposure articular cartilage avoided [ ( 5.10 ) ]",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "analgesia (DOID:0060145)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060145"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,31 +21,37 @@
         {
             "name": "BUPIVACAINE",
             "code": "Y8335394RO",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_3215"
         },
         {
             "name": "MELOXICAM",
             "code": "VG2QF83CGL",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_6741"
         },
         {
             "name": "DIMETHYL SULFOXIDE",
             "code": "YOW8V9698H",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_28262"
         },
         {
             "name": "MALEIC ACID",
             "code": "91XW058U2C",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_18300"
         },
         {
             "name": "TRIACETIN",
             "code": "XHX3C3X673",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_9661"
         },
         {
             "name": "DETOSU/TRIETHYLENE GLYCOL/TRIETHYLENE GLYCOL POLYGLYCOLIDE COPOLYMER",
             "code": "JC2Q67KRW7",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_13643"
         }
     ],

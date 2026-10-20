@@ -2,7 +2,12 @@
     "id": "17e6ad03-b5bc-4930-8db5-e787ef954448",
     "indications": {
         "text": "glydo ( lidocaine hcl jelly ) 2 % amide local anesthetic indicated : prevention control pain procedures involving male female urethra topical treatment painful urethritis anesthetic lubricant oral nasal endotracheal intubation",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "urethritis (DOID:1343)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1343"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,16 +21,19 @@
         {
             "name": "lidocaine hydrochloride anhydrous",
             "code": "EC2CNF7XFP",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_6456"
         },
         {
             "name": "hypromelloses",
             "code": "3NXW29V3WO",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB11075"
         },
         {
             "name": "sodium hydroxide",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         }
     ],

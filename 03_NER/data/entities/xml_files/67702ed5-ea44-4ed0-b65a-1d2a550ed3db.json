@@ -22,11 +22,19 @@
         ],
         "orphanet_entities": [
             {
+                "disease": "breast disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
                 "disease": "renal artery disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
                 "disease": "disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
+                "disease": "artery disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             }
         ]
@@ -42,21 +50,25 @@
         {
             "name": "TROMETHAMINE",
             "code": "023C2WHX2V",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB03754"
         },
         {
             "name": "HYDROCHLORIC ACID",
             "code": "QTT17582CB",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749659"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         },
         {
             "name": "GADOBUTROL",
             "code": "1BJ477IO2L",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_68841"
         }
     ],
@@ -70,7 +82,7 @@
     "drug": [
         {
             "name": "Gadavist",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB03754"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_68841"
         }
     ]
 }

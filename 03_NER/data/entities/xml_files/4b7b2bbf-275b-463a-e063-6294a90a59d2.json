@@ -2,7 +2,20 @@
     "id": "4b7b2bbf-275b-463a-e063-6294a90a59d2",
     "indications": {
         "text": "1. indications.progestin-only oral contraceptives indicated prevention pregnancy . 2. efficacy.if used perfectly , first-year failure rate progestin-only oral contraceptives 0.5 % . however , typical failure rate estimated closer 5 % , due late omitted pills . following table lists pregnancy rates users major methods contraception . table 2 : percentage women experiencing unintended pregnancy first year typical first year perfect contraception percentage continuing end first year . united states . % women experiencing unintended pregnancy within first year % women continuing one year 3 method ( 1 ) typical 1 ( 2 ) perfect 2 ( 3 ) ( 4 ) chance 4 85 85 spermicides 5 26 6 40 periodic abstinence 25 63 calendar 9 ovulation method 3 sympto-thermal 6 2 post-ovulation 1 cap 7 parous women 40 26 42 nulliparous women 20 9 56 sponge parous women 40 20 42 nulliparous women 20 9 56 diaphragm 7 20 6 56 withdrawal 19 4 condom 8 female ( reality ) 21 5 56 male 14 3 61 pill 5 71 progestin 0.5 combined 0.1 iuds progesterone 2.0 1.5 81 copper t380a 0.8 0.6 78 lng 20 0.1 0.1 81 depo-provera \u00ae 0.3 0.3 70 levonorgestrel implants ( norplant \u00ae ) 0.05 0.05 88 female sterilization 0.5 0.5 100 male sterilization 0.15 0.10 100 emergency contraceptive pills : treatment initiated within 72 hours unprotected intercourse reduces risk pregnancy least 75 % . 9 lactational amenorrhea method : lam highly effective , temporarymethod contraception . 10 source : trussell , j , contraceptive efficacy . : hatcher rheumatoid arthritis , trussell j , stewart f , cates w , stewart gk , kowal , guest f , contraceptive technology : seventeenth revised edition . new york ny : irvington publishers , 1998. among typicalcouples initiate method ( necessarily first time ) , percentage experience accidental pregnancy first year stop reason . among couples initiate method ( necessarily first time ) , perfectly ( consistently correctly ) , percentage experience accidental pregnancy first year stop reason . among couples attempting avoid pregnancy , percentage continue method one year . percentage women becoming pregnant noted columns ( 2 ) ( 3 ) based data contraception used women cease using contraception order become pregnant . among , 89 % become pregnant within one year . estimate lowered slightly ( 85 % ) represent percentage would become pregnant within one year among women relying reversible methods contraception abandoned contraception altogether . foams , creams , gels , vaginal suppositories , vaginal film . cervical mucus ( ovulation ) method supplemented calendar pre-ovulatory basal body temperature post-ovulatory phases . spermicidal cream jelly . without spermicides . treatment schedule one dose within 72 hours unprotected intercourse , second dose 12 hours first dose . food declared following brands oral contraceptives safe effective emergency contraception : ovral \u00ae ( 1 dose 2 white pills ) , alesse \u00ae ( 1 dose 5 pink pills ) , nordette \u00aeor levlen \u00ae ( 1 dose 4 yellow pills ) . however , maintain effective protection pregnancy , another method contraception must used soon menstruation resumes , frequency duration breastfeeds reduced , bottle feeds introduced , baby reaches 6 months age .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "amenorrhea (DOID:13938)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_13938"
+            },
+            {
+                "text": "rheumatoid arthritis (DOID:7148)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_7148"
+            },
+            {
+                "text": "arthritis (DOID:848)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_848"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,34 +29,41 @@
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "LACTOSE MONOHYDRATE",
             "code": "EWQ57Q8I5X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_759844"
         },
         {
             "name": "D&C YELLOW NO. 10",
-            "code": "35SW5USQ3G"
+            "code": "35SW5USQ3G",
+            "class_code": "IACT"
         },
         {
             "name": "POVIDONE",
             "code": "FZ989GH94E",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753149"
         },
         {
             "name": "FD&C YELLOW NO. 6",
-            "code": "H77VEI93A8"
+            "code": "H77VEI93A8",
+            "class_code": "IACT"
         },
         {
             "name": "STARCH, CORN",
             "code": "O8232NY3SJ",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_28017"
         },
         {
             "name": "NORETHINDRONE",
-            "code": "T18F433X4S"
+            "code": "T18F433X4S",
+            "class_code": "ACTIB"
         }
     ],
     "organization": "Apotex Corp.",
@@ -55,8 +75,7 @@
     "adverseReactions_original": "Progestin-only oral contraceptives (POPs) should not be used by women who currently have the following conditions:\n                  \n                     \n                        Known or suspected pregnancy\n                     \n                     \n                        Known or suspected carcinoma of the breast\n                     \n                     \n                        Undiagnosed abnormal genital bleeding\n                     \n                     \n                        Hypersensitivity to any component of this product\n                     \n                     \n                        Benign or malignant liver tumors\n                     \n                     \n                        Acute liver disease",
     "drug": [
         {
-            "name": "Norethindrone",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
+            "name": "Norethindrone"
         }
     ]
 }

@@ -2,7 +2,12 @@
     "id": "4d516be1-a3c2-b794-e063-6394a90afb7e",
     "indications": {
         "text": "metformin hydrochloride extended-release tablets indicated adjunct diet exercise improve glycemic control adults type 2 diabetes mellitus .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "diabetes (DOID:9351)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9351"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -15,31 +20,37 @@
     "ingredients": [
         {
             "name": "CELLULOSE, MICROCRYSTALLINE",
-            "code": "OP1R32D61U"
+            "code": "OP1R32D61U",
+            "class_code": "IACT"
         },
         {
             "name": "HYPROMELLOSES",
             "code": "3NXW29V3WO",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB11075"
         },
         {
             "name": "POVIDONE K30",
             "code": "U725QWY32X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753149"
         },
         {
             "name": "CARBOXYMETHYLCELLULOSE SODIUM",
             "code": "K679OBS311",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753907"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "METFORMIN HYDROCHLORIDE",
             "code": "786Z46389E",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_6802"
         }
     ],

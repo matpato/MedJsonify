@@ -12,7 +12,12 @@
     },
     "contraindications": {
         "text": "200 mg tablets : average adult one tablet 3 times day meals . used concomitantly antibacterial agent treatment urinary tract infection , phenazopyridine hydrochloride exceed 2 days .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "urinary tract infection (DOID:0080784)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0080784"
+            }
+        ],
         "orphanet_entities": []
     },
     "warningsAndPrecautions": "200 mg tablets : appearance : dark brown coated , round standard cup tablet , debossed `` 612 `` one side plain . ndc : 70518-3975-00 ndc : 70518-3975-01 ndc : 70518-3975-02 ndc : 70518-3975-03 ndc : 70518-3975-04 ndc : 70518-3975-05 packaging : 30 1 blister pack packaging : 21 1 bottle plastic packaging : 9 1 bottle plastic packaging : 6 1 bottle plastic packaging : 50 1 box packaging : 1 1 pouch dispense contents child-resistant closure ( required ) tight container defined usp . store 20\u00b0 25\u00b0c ( 68\u00b0 77\u00b0f ) excursions permitted 15\u00b0 30\u00b0c ( 59\u00b0 86\u00b0f ) [ usp controlled room temperature ] . keep medication reach children . repackaged distributed : remedy repack , inc. 625 kolter dr. suite # 4 indiana , pa 1-724-465-8762",
@@ -21,72 +26,87 @@
         {
             "name": "STARCH, CORN",
             "code": "O8232NY3SJ",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_28017"
         },
         {
             "name": "CROSCARMELLOSE SODIUM",
             "code": "M28OL1HH48",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753845"
         },
         {
             "name": "D&C YELLOW NO. 10",
-            "code": "35SW5USQ3G"
+            "code": "35SW5USQ3G",
+            "class_code": "IACT"
         },
         {
             "name": "FD&C RED NO. 40",
-            "code": "WZB9127XOA"
+            "code": "WZB9127XOA",
+            "class_code": "IACT"
         },
         {
             "name": "FD&C BLUE NO. 1",
-            "code": "H3R47K3TBD"
+            "code": "H3R47K3TBD",
+            "class_code": "IACT"
         },
         {
             "name": "FD&C YELLOW NO. 6",
-            "code": "H77VEI93A8"
+            "code": "H77VEI93A8",
+            "class_code": "IACT"
         },
         {
             "name": "MICROCRYSTALLINE CELLULOSE",
             "code": "OP1R32D61U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "POVIDONE, UNSPECIFIED",
             "code": "FZ989GH94E",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753149"
         },
         {
             "name": "POLYVINYL ALCOHOL, UNSPECIFIED",
             "code": "532B59J990",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_755638"
         },
         {
             "name": "POLYETHYLENE GLYCOL, UNSPECIFIED",
             "code": "3WJQ0SDW1A",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB09287"
+            "class_code": "IACT",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749470"
         },
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "TALC",
             "code": "7SEV7J4R1U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32178"
         },
         {
             "name": "TITANIUM DIOXIDE",
             "code": "15FIX9V2JP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32234"
         },
         {
             "name": "PHENAZOPYRIDINE HYDROCHLORIDE",
             "code": "0EWG668W17",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_71419"
         }
     ],

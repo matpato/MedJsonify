@@ -2,15 +2,32 @@
     "id": "48c817fd-c902-46bb-b81c-10215d72a0a9",
     "indications": {
         "text": "vonjo indicated treatment adults intermediate high-risk primary secondary ( post-polycythemia vera post-essential thrombocythemia ) myelofibrosis ( mf ) platelet count 50 \u00d7 10 9/l . indication approved accelerated approval based spleen volume reduction [ ( 14 ) ] . continued approval indication may contingent upon verification description benefit confirmatory trial ( ) .",
-        "doid_entities": [],
-        "orphanet_entities": [
+        "doid_entities": [
             {
-                "disease": "polycythemia",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_98427"
+                "text": "polycythemia (DOID:8432)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_8432"
             },
+            {
+                "text": "polycythemia vera (DOID:8997)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_8997"
+            },
+            {
+                "text": "essential thrombocythemia (DOID:2224)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2224"
+            },
+            {
+                "text": "myelofibrosis (DOID:4971)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4971"
+            }
+        ],
+        "orphanet_entities": [
             {
                 "disease": "essential thrombocythemia",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_3318"
+            },
+            {
+                "disease": "polycythemia",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_98427"
             },
             {
                 "disease": "polycythemia vera",
@@ -28,26 +45,31 @@
         {
             "name": "MICROCRYSTALLINE CELLULOSE",
             "code": "OP1R32D61U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
         },
         {
             "name": "POLYETHYLENE GLYCOL 8000",
             "code": "Q662QK8M3B",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749470"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "GELATIN, UNSPECIFIED",
             "code": "2G86QN327L",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_5291"
         },
         {
             "name": "PACRITINIB",
             "code": "G22N65IL3O",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_231350"
         }
     ],
@@ -60,7 +82,7 @@
     "drug": [
         {
             "name": "Vonjo",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_231350"
         }
     ]
 }

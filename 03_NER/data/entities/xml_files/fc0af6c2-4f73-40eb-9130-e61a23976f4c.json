@@ -2,7 +2,12 @@
     "id": "fc0af6c2-4f73-40eb-9130-e61a23976f4c",
     "indications": {
         "text": "oxycodone hydrochloride tablets indicated management pain severe enough require opioid analgesic alternative treatments inadequate . limitations risks addiction , abuse , misuse opioids , even recommended doses [ ( 5.1 ) ] , reserve oxycodone hydrochloride tablets patients alternative treatment options ( e.g . , non-opioid analgesics opioid combination products ) : \u2022 tolerated expected tolerated , \u2022 provided adequate analgesia expected provide adequate analgesia .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "analgesia (DOID:0060145)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060145"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -21,36 +26,43 @@
         {
             "name": "OXYCODONE HYDROCHLORIDE",
             "code": "C1ENJ2TE6C",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_7859"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "MICROCRYSTALLINE CELLULOSE",
             "code": "OP1R32D61U",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB14158"
+            "class_code": "IACT",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_757032"
         },
         {
             "name": "SODIUM STARCH GLYCOLATE TYPE A POTATO",
             "code": "5856J3G2A2",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753028"
         },
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "LACTOSE, UNSPECIFIED FORM",
             "code": "J2B2A4N98G",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17716"
         },
         {
             "name": "D&C YELLOW NO. 10",
-            "code": "35SW5USQ3G"
+            "code": "35SW5USQ3G",
+            "class_code": "IACT"
         }
     ],
     "organization": "Bryant Ranch Prepack",
@@ -62,8 +74,7 @@
     "adverseReactions_original": "Oxycodone hydrochloride is contraindicated in patients with:\n                  \u2022 Significant respiratory depression [see Warnings and Precautions (5.3)].\n                  \n                  \u2022 Acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment or hypercarbia [see Warnings and Precautions (5.7)].\n                  \n                  \u2022 Known or suspected gastrointestinal obstruction, including paralytic ileus [see Warnings and Precautions (5.11)].\n                  \u2022 Known hypersensitivity (e.g., anaphylaxis) to oxycodone [see Adverse Reactions (6.2)].",
     "drug": [
         {
-            "name": "Oxycodone Hydrochloride",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_7859"
+            "name": "Oxycodone Hydrochloride"
         }
     ]
 }

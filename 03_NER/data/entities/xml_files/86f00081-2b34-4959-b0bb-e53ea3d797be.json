@@ -2,7 +2,12 @@
     "id": "86f00081-2b34-4959-b0bb-e53ea3d797be",
     "indications": {
         "text": "telmisartan angiotensin ii receptor blocker ( arb ) indicated : \u2022 treatment hypertension , lower blood pressure . lowering blood pressure reduces risk fatal nonfatal cardiovascular events , primarily strokes myocardial infarctions . ( 1.1 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,31 +21,37 @@
         {
             "name": "TELMISARTAN",
             "code": "U5SYW473RQ",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_9434"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         },
         {
             "name": "MEGLUMINE",
             "code": "6HG8UB2MUY",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB09415"
         },
         {
             "name": "CROSPOVIDONE",
             "code": "2S7830E561",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753772"
         },
         {
             "name": "MANNITOL",
             "code": "3OWL53L36A",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_29864"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         }
     ],

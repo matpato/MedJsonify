@@ -2,7 +2,20 @@
     "id": "4c11eb79-64f1-a116-e063-6394a90a293c",
     "indications": {
         "text": "latanoprost ophthalmic solution indicated reduction elevated intraocular pressure ( iop ) patients open-angle glaucoma ocular hypertension .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "glaucoma (DOID:1686)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1686"
+            },
+            {
+                "text": "ocular hypertension (DOID:9282)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9282"
+            },
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,27 +29,32 @@
         {
             "name": "BENZALKONIUM CHLORIDE",
             "code": "F5UM2KM3W7",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_3020"
         },
         {
             "name": "SODIUM CHLORIDE",
             "code": "451W47IQ8X",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_26710"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB09153"
         },
         {
             "name": "SODIUM PHOSPHATE, MONOBASIC, MONOHYDRATE",
             "code": "593YOG76RN",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB09449"
         },
         {
             "name": "SODIUM PHOSPHATE, DIBASIC, ANHYDROUS",
             "code": "22ADO53M6F",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_37586"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB14502"
         },
         {
             "name": "LATANOPROST",
             "code": "6Z5B6HVF6O",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_6384"
+            "class_code": "ACTIB",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB00654"
         }
     ],
     "organization": "NuCare Pharmaceuticals,Inc.",

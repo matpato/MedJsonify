@@ -2,72 +2,31 @@
     "id": "2151937d-2482-d1f1-fbb4-08df466c26a0",
     "indications": {
         "text": "phytonadione injectable emulsion indicated following coagulation disorders due faulty formation factors ii , vii , ix x caused vitamin k deficiency interference vitamin k activity . phytonadione injectable emulsion indicated : anticoagulant-induced prothrombin deficiency caused coumarin indanedione derivatives ; prophylaxis therapy hemorrhagic disease newborn ; hypoprothrombinemia due antibacterial therapy ; hypoprothrombinemia secondary factors limiting absorption synthesis vitamin k , e.g . , obstructive jaundice , biliary fistula , sprue , ulcerative colitis , celiac disease , intestinal resection , cystic fibrosis pancreas , regional enteritis ; drug-induced hypoprothrombinemia definitely shown result due interference vitamin k metabolism , e.g . , salicylates .",
-        "doid_entities": [
-            {
-                "text": "vitamin k deficiency (DOID:11249)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_11249"
-            },
-            {
-                "text": "k deficiency (DOID:13582)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_13582"
-            },
-            {
-                "text": "prothrombin deficiency (DOID:2235)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2235"
-            },
-            {
-                "text": "hemorrhagic disease (DOID:2213)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_2213"
-            },
-            {
-                "text": "disease (DOID:4)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
-            },
-            {
-                "text": "obstructive jaundice (DOID:13603)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_13603"
-            },
-            {
-                "text": "ulcerative colitis (DOID:8577)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_8577"
-            },
-            {
-                "text": "colitis (DOID:0060180)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060180"
-            },
-            {
-                "text": "celiac disease (DOID:10608)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_10608"
-            },
-            {
-                "text": "cystic fibrosis (DOID:1485)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_1485"
-            }
-        ],
+        "doid_entities": [],
         "orphanet_entities": [
-            {
-                "disease": "prothrombin deficiency",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
-            },
             {
                 "disease": "disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
-                "disease": "hypoprothrombinemia",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
-            },
-            {
-                "disease": "celiac disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_120878"
+                "disease": "hemorrhagic disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
                 "disease": "cystic fibrosis",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_586"
             },
             {
-                "disease": "hemorrhagic disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+                "disease": "hypoprothrombinemia",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
+            },
+            {
+                "disease": "prothrombin deficiency",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
+            },
+            {
+                "disease": "celiac disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_120878"
             }
         ]
     },
@@ -89,16 +48,16 @@
         ],
         "orphanet_entities": [
             {
-                "disease": "prothrombin deficiency",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
-            },
-            {
                 "disease": "hypoprothrombinemia",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
             },
             {
                 "disease": "hemorrhagic disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
+                "disease": "prothrombin deficiency",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_325"
             },
             {
                 "disease": "disease",
@@ -111,31 +70,36 @@
     "ingredients": [
         {
             "name": "PHYTONADIONE",
-            "code": "A034SE7857"
+            "code": "A034SE7857",
+            "class_code": "ACTIB"
         },
         {
             "name": "POLYOXYL 35 CASTOR OIL",
             "code": "6D4M1DAL6O",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_140618"
+            "class_code": "IACT"
         },
         {
             "name": "DEXTROSE MONOHYDRATE",
             "code": "LX22YL083G",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB15198"
         },
         {
             "name": "BENZYL ALCOHOL",
             "code": "LKG8494WBH",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17987"
         },
         {
             "name": "HYDROCHLORIC ACID",
             "code": "QTT17582CB",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749659"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB13366"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],

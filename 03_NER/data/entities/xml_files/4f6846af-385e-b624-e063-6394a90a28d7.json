@@ -20,7 +20,20 @@
     },
     "contraindications": {
         "text": "administer oxaliplatin injection 85 mg/m 2 intravenous infusion 120 minutes concurrently leucovorin 120 minutes separate bags , followed fluorouracil day 1 14-day cycle . administer fluorouracil leucovorin day 2 recommended . ( 2.1 ) adjuvant treatment : continue treatment 12 cycles unacceptable toxicity . ( 2.1 ) advanced colorectal cancer : continue treatment disease progression unacceptable toxicity . ( 2.1 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "colorectal cancer (DOID:9256)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9256"
+            },
+            {
+                "text": "cancer (DOID:162)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_162"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            }
+        ],
         "orphanet_entities": [
             {
                 "disease": "disease",
@@ -34,11 +47,13 @@
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         },
         {
             "name": "OXALIPLATIN",
             "code": "04ZR38536J",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_31941"
         }
     ],

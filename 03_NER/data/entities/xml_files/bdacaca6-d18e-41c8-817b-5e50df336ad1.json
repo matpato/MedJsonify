@@ -16,7 +16,12 @@
     },
     "contraindications": {
         "text": "\u2022 administer intravenously ( 2.1 , 2.2 ) \u2022 titrate using ventricular rate blood pressure \u22654-minute intervals . ( 2.1 , 2.2 ) \u2022 supraventricular tachycardia ( svt ) noncompensatory sinus tachycardia ( 2.1 ) \u2022 optional loading dose : 500 mcg per kg infused one minute \u2022 50 mcg per kg per minute next 4 minutes \u2022 adjust dose needed maximum 200 mcg per kg per minute . \u2022 additional loading doses may administered \u2022 perioperative tachycardia hypertension ( 2.2 ) \u2022 loading dose : 500 mcg per kg 1 minute gradual control ( 1 mg per kg 30 seconds immediate control ) \u2022 50 mcg per kg per min gradual control ( 150 mcg per kg per minute immediate control ) adjusted maximum 200 ( tachycardia ) 300 ( hypertension ) mcg per kg per min ( 2.2 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "hypertension (DOID:10763)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10763"
+            }
+        ],
         "orphanet_entities": []
     },
     "adverseReactions": "brevibloc ( esmolol hydrochloride ) injection contraindicated patients : \u2022severe sinus bradycardia : may precipitate worsen bradycardia resulting cardiogenic shock cardiac arrest [ ( 5.2 ) ] . \u2022heart block greater first degree : second- third-degree atrioventricular block may precipitate worsen bradycardia resulting cardiogenic shock cardiac arrest [ ( 5.2 ) ] . \u2022sick sinus syndrome : may precipitate worsen bradycardia resulting cardiogenic shock cardiac arrest [ ( 5.2 ) ] . \u2022decompensated heart failure : may worsen heart failure . \u2022cardiogenic shock : may precipitate cardiovascular collapse cause cardiac arrest . \u2022iv cardiodepressant calcium-channel antagonists ( e.g . , verapamil ) brevibloc injection close proximity ( i.e . , cardiac effects still present ) ; fatal cardiac arrests occurred patients receiving brevibloc injection intravenous verapamil . \u2022pulmonary hypertension : may precipitate cardiorespiratory compromise . \u2022hypersensitivity , including anaphylaxis , esmolol inactive ingredients product ( cross-sensitivity beta blockers possible ) .",
@@ -24,36 +29,43 @@
         {
             "name": "ESMOLOL HYDROCHLORIDE",
             "code": "V05260LC8D",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_4857"
         },
         {
             "name": "SODIUM ACETATE",
             "code": "4550K0SC9B",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32954"
         },
         {
             "name": "SODIUM CHLORIDE",
             "code": "451W47IQ8X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_26710"
         },
         {
             "name": "ACETIC ACID",
             "code": "Q40Q9N063P",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15366"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB09145"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         },
         {
             "name": "HYDROCHLORIC ACID",
             "code": "QTT17582CB",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749659"
         }
     ],

@@ -2,7 +2,28 @@
     "id": "9aa4f810-6b6e-4959-bfa3-b15b088ef380",
     "indications": {
         "text": "testosterone cypionate injection , usp indicated replacement therapy male conditions associated symptoms deficiency absence endogenous testosterone . primary hypogonadism ( congenital acquired ) : testicular failure due cryptorchidism , bilateral torsion , orchitis , vanishing testis syndrome ; orchidectomy . hypogonadotropic hypogonadism ( congenital acquired ) : gonadotropin luteinizing hormone-releasing hormone ( lhrh ) deficiency , pituitary-hypothalamic injury tumors , trauma , radiation . safety efficacy testosterone cypionate men \u201c age-related hypogonadism \u201d ( also referred \u201c late-onset hypogonadism \u201d ) established .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "hypogonadism (DOID:1924)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1924"
+            },
+            {
+                "text": "cryptorchidism (DOID:11383)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_11383"
+            },
+            {
+                "text": "orchitis (DOID:2518)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2518"
+            },
+            {
+                "text": "syndrome (DOID:225)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_225"
+            },
+            {
+                "text": "hypogonadotropic hypogonadism (DOID:0090070)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0090070"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -21,22 +42,26 @@
         {
             "name": "TESTOSTERONE CYPIONATE",
             "code": "M0XW1UBI14",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_9463"
         },
         {
             "name": "BENZYL BENZOATE",
             "code": "N863NB338G",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_41237"
         },
         {
             "name": "COTTONSEED OIL",
             "code": "H3E878020N",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753842"
         },
         {
             "name": "BENZYL ALCOHOL",
             "code": "LKG8494WBH",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB06770"
+            "class_code": "IACT",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17987"
         }
     ],
     "organization": "Hikma Pharmaceuticals USA Inc.",

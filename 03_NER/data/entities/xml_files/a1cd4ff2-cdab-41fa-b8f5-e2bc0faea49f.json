@@ -2,7 +2,24 @@
     "id": "a1cd4ff2-cdab-41fa-b8f5-e2bc0faea49f",
     "indications": {
         "text": "stoboclo rank ligand ( rankl ) inhibitor indicated treatment : postmenopausal women osteoporosis high risk fracture ( 1.1 ) increase bone mass men osteoporosis high risk fracture ( 1.2 ) glucocorticoid-induced osteoporosis men women high risk fracture ( 1.3 ) increase bone mass men high risk fracture receiving androgen deprivation therapy nonmetastatic prostate cancer ( 1.4 ) increase bone mass women high risk fracture receiving adjuvant aromatase inhibitor therapy breast cancer ( 1.5 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "osteoporosis (DOID:11476)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_11476"
+            },
+            {
+                "text": "prostate cancer (DOID:10283)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10283"
+            },
+            {
+                "text": "cancer (DOID:162)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_162"
+            },
+            {
+                "text": "breast cancer (DOID:1612)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1612"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -23,15 +40,15 @@
         ],
         "orphanet_entities": [
             {
-                "disease": "kidney disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
-            },
-            {
                 "disease": "chronic kidney disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
                 "disease": "disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
+                "disease": "kidney disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             }
         ]
@@ -41,31 +58,37 @@
         {
             "name": "DENOSUMAB",
             "code": "4EQZ6YO2HI",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749681"
         },
         {
             "name": "ACETIC ACID",
             "code": "Q40Q9N063P",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15366"
         },
         {
             "name": "SODIUM ACETATE",
             "code": "4550K0SC9B",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32954"
         },
         {
             "name": "SORBITOL",
             "code": "506T60A25R",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB01638"
         },
         {
             "name": "POLYSORBATE 20",
             "code": "7T1F30V5YH",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_53424"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],

@@ -2,8 +2,26 @@
     "id": "4c49ea72-e09e-fa7c-e063-6294a90aba89",
     "indications": {
         "text": "desvenlafaxine extended-release tablet indicated treatment adults major depressive disorder ( mdd ) [ ( 14 ) ] .",
-        "doid_entities": [],
-        "orphanet_entities": []
+        "doid_entities": [
+            {
+                "text": "major depressive disorder (DOID:1470)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1470"
+            },
+            {
+                "text": "depressive disorder (DOID:1596)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1596"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "major depressive disorder",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_557493"
+            },
+            {
+                "disease": "depressive disorder",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_557493"
+            }
+        ]
     },
     "contraindications": {
         "text": "2.1 general instructions recommended dose desvenlafaxine extended-release tablets 50 mg daily , without food . 50 mg dose starting dose therapeutic dose . desvenlafaxine extended-release tablets taken approximately time day . tablets must swallowed whole fluid divided , crushed , chewed , dissolved . , doses 10 mg 400 mg per day studied . , doses 50 mg 400 mg per day shown effective , although additional benefit demonstrated doses greater 50 mg per day discontinuations frequent higher doses . 25 mg per day dose intended gradual reduction dose discontinuing treatment . discontinuing therapy , gradual dose reduction recommended whenever possible minimize discontinuation symptoms [ ( 2.5 ) ( 5.7 ) ] . 2.2 recommendations patients renal impairment maximum recommended dose patients moderate renal impairment ( 24-hr creatinine clearance [ clcr ] = 30 50 ml/min , cockcroft-gault [ c-g ] ) 50 mg per day . maximum recommended dose patients severe renal impairment ( clcr15 29 ml/min , c-g ) end-stage renal disease ( esrd , clcr < 15 ml/min , c-g ) 25 mg every day 50 mg every day . supplemental doses given patients dialysis [ ( 8.6 ) pharmacology ( 12.3 ) ] . 2.3 recommendations patients hepatic impairment recommended dose patients moderate severe hepatic impairment ( child-pugh score 7 15 ) 50 mg per day . dose escalation 100 mg per day recommended [ ( 8.7 ) pharmacology ( 12.3 ) ] . 2.4 maintenance/continuation/extended treatment generally agreed acute episodes major depressive disorder require several months longer sustained pharmacologic therapy . longer-term efficacy desvenlafaxine ( 50 400 mg ) established two maintenance trials [ ( 14 ) ] . patients periodically reassessed determine need continued treatment . 2.5 discontinuing desvenlafaxine may occur upon discontinuation desvenlafaxine [ ( 5.7 ) ] . gradually reduce rather stopping desvenlafaxine abruptly whenever possible . 2.6 switching patients antidepressants desvenlafaxine discontinuation symptoms reported switching patients antidepressants , including venlafaxine , desvenlafaxine . tapering initial antidepressant may necessary minimize discontinuation symptoms . 2.7 switching patients monoamine oxidase inhibitor ( maoi ) intended treat psychiatric disorders least 14 days elapse discontinuation maoi intended treat psychiatric disorders initiation therapy desvenlafaxine extended-release tablets . conversely , least 7 days allowed stopping desvenlafaxine extended-release tablets starting maoi intended treat psychiatric disorders [ ( 4 ) ] . 2.8 desvenlafaxine extended-release tablets maois linezolid methylene blue start desvenlafaxine extended-release tablets patient treated linezolid intravenous methylene blue increased risk serotonin syndrome . patient requires urgent treatment psychiatric condition , interventions , including hospitalization , considered [ ( 4 ) ] . cases , patient already receiving desvenlafaxine extended-release tablets therapy may require urgent treatment linezolid intravenous methylene blue . acceptable alternatives linezolid intravenous methylene blue treatment available potential benefits linezolid intravenous methylene blue treatment judged outweigh risks serotonin syndrome particular patient , desvenlafaxine extended-release tablets stopped promptly , linezolid intravenous methylene blue administered . patient monitored symptoms serotonin syndrome 7 days 24 hours last dose linezolid intravenous methylene blue , whichever comes first . therapy desvenlafaxine extended-release tablets may resumed 24 hours last dose linezolid intravenous methylene blue [ ( 5.2 ) ] . risk administering methylene blue non-intravenous routes ( oral tablets local injection ) intravenous doses much lower 1 mg/kg desvenlafaxine extended-release tablet unclear . clinician , nevertheless , aware possibility emergent symptoms serotonin syndrome [ ( 5.2 ) ] .",
@@ -46,55 +64,66 @@
         {
             "name": "DESVENLAFAXINE SUCCINATE",
             "code": "ZB22ENF0XR",
+            "class_code": "ACTIM",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749585"
         },
         {
             "name": "POLYETHYLENE GLYCOL 3350",
             "code": "G2M7P15E5P",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749470"
         },
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "CELLULOSE, MICROCRYSTALLINE",
-            "code": "OP1R32D61U"
+            "code": "OP1R32D61U",
+            "class_code": "IACT"
         },
         {
             "name": "FERRIC OXIDE YELLOW",
             "code": "EX438O2MRT",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50819"
         },
         {
             "name": "HYPROMELLOSES",
             "code": "3NXW29V3WO",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB11075"
         },
         {
             "name": "FERRIC OXIDE RED",
             "code": "1K09F3G675",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50819"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "POLYVINYL ALCOHOL, UNSPECIFIED",
             "code": "532B59J990",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_755638"
         },
         {
             "name": "TALC",
             "code": "7SEV7J4R1U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32178"
         },
         {
             "name": "TITANIUM DIOXIDE",
             "code": "15FIX9V2JP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32234"
         }
     ],

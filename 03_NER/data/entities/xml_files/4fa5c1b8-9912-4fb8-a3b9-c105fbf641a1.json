@@ -2,12 +2,25 @@
     "id": "4fa5c1b8-9912-4fb8-a3b9-c105fbf641a1",
     "indications": {
         "text": "dapagliflozin indicated : \u2022to reduce risk hospitalization heart failure adults type 2 diabetes mellitus either established cardiovascular disease multiple cardiovascular risk factors . \u2022 adjunct diet exercise improve glycemic control adults type 2 diabetes mellitus . limitations \u2022 dapagliflozin recommended improve glycemic control patients type 1 diabetes mellitus [ ( 5.1 ) ] . \u2022 dapagliflozin recommended improve glycemic control patients type 2 diabetes mellitus egfr less 45 ml/min/1.73 m2 . dapagliflozin likely ineffective setting based upon mechanism action . pediatric information approved astrazeneca ab \u2019 farxiga\u00ae ( dapagliflozin ) tablets . however , due astrazeneca ab \u2019 marketing exclusivity rights , product labeled information .",
-        "doid_entities": [],
-        "orphanet_entities": [
+        "doid_entities": [
             {
-                "disease": "type 1 diabetes mellitus",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_118666"
+                "text": "type 2 diabetes (DOID:9352)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9352"
             },
+            {
+                "text": "diabetes (DOID:9351)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9351"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            },
+            {
+                "text": "type 1 diabetes mellitus (DOID:9744)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9744"
+            }
+        ],
+        "orphanet_entities": [
             {
                 "disease": "type 2 diabetes mellitus",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_118666"
@@ -15,6 +28,14 @@
             {
                 "disease": "disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
+                "disease": "type 2 diabetes",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_118666"
+            },
+            {
+                "disease": "type 1 diabetes mellitus",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_118666"
             }
         ]
     },
@@ -29,65 +50,76 @@
         {
             "name": "DAPAGLIFLOZIN",
             "code": "1ULL0QJ8UC",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_85078"
         },
         {
             "name": "CELLULOSE, MICROCRYSTALLINE",
-            "code": "OP1R32D61U"
+            "code": "OP1R32D61U",
+            "class_code": "IACT"
         },
         {
             "name": "CROSPOVIDONE",
             "code": "68401960MK",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753772"
+            "class_code": "IACT"
         },
         {
             "name": "LACTOSE MONOHYDRATE",
             "code": "EWQ57Q8I5X",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_759844"
+            "class_code": "IACT"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "SODIUM LAURYL SULFATE",
             "code": "368GB5141J",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16189"
         },
         {
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
         },
         {
             "name": "POLYVINYL ALCOHOL",
             "code": "532B59J990",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_755638"
         },
         {
             "name": "POLYETHYLENE GLYCOL, UNSPECIFIED",
             "code": "3WJQ0SDW1A",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749470"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB09287"
         },
         {
             "name": "TALC",
             "code": "7SEV7J4R1U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32178"
         },
         {
             "name": "TITANIUM DIOXIDE",
             "code": "15FIX9V2JP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32234"
         },
         {
             "name": "FERRIC OXIDE YELLOW",
             "code": "EX438O2MRT",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50819"
+            "class_code": "IACT",
+            "drugbank_id": "https://go.drugbank.com/drugs/DB11576"
         },
         {
             "name": "MANNITOL",
             "code": "3OWL53L36A",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_29864"
         }
     ],

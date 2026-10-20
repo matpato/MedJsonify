@@ -24,7 +24,8 @@
                 <xsl:for-each select="v3:component/v3:structuredBody/v3:component/v3:section/v3:subject/v3:manufacturedProduct/v3:manufacturedProduct/v3:ingredient">
                     {
                         "name": "<xsl:value-of select='v3:ingredientSubstance/v3:name' />",
-                        "code": "<xsl:value-of select='v3:ingredientSubstance/v3:code/@code' />"
+                        "code": "<xsl:value-of select='v3:ingredientSubstance/v3:code/@code' />",
+                        "class_code": "<xsl:value-of select='@classCode' />"
                     }<xsl:if test="position() != last()">,</xsl:if>
                 </xsl:for-each>
             ],

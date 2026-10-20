@@ -2,7 +2,16 @@
     "id": "c717f8ab-3351-4caa-b1fa-86c2fa415189",
     "indications": {
         "text": "geodon indicated treatment schizophrenia , monotherapy acute treatment bipolar manic mixed episodes , adjunct lithium valproate maintenance treatment bipolar disorder . geodon intramuscular indicated acute agitation schizophrenic patients . deciding among alternative treatments available condition needing treatment , prescriber consider finding ziprasidone \u2019 greater capacity prolong qt/qtc interval compared several antipsychotic drugs [ ( 5.3 ) ] . prolongation qtc interval associated drugs ability cause torsade de pointes-type arrhythmia , potentially fatal polymorphic ventricular tachycardia , sudden death . many cases would lead conclusion drugs tried first . whether ziprasidone cause torsade de pointes increase rate sudden death yet known [ ( 5.3 ) ] . schizophrenia \u2022geodon indicated treatment schizophrenia adults [ ( 14.1 ) ] . bipolar disorder ( acute mixed manic episodes maintenance treatment adjunct lithium valproate ) \u2022geodon indicated monotherapy acute treatment adults manic mixed episodes associated bipolar disorder [ ( 14.2 ) ] . \u2022geodon indicated adjunct lithium valproate maintenance treatment bipolar disorder adults [ ( 14.2 ) ] . acute treatment agitation schizophrenia \u2022geodon intramuscular indicated treatment acute agitation schizophrenic adult patients treatment ziprasidone appropriate need intramuscular antipsychotic medication rapid control agitation [ ( 14.1 ) ] . since experience regarding safety administering ziprasidone intramuscular schizophrenic patients already taking oral ziprasidone , practice co-administration recommended .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "schizophrenia (DOID:5419)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5419"
+            },
+            {
+                "text": "bipolar disorder (DOID:3312)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_3312"
+            }
+        ],
         "orphanet_entities": [
             {
                 "disease": "bipolar disorder",
@@ -35,41 +44,50 @@
         {
             "name": "ZIPRASIDONE HYDROCHLORIDE",
             "code": "216X081ORU",
+            "class_code": "ACTIM",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749789"
         },
         {
             "name": "LACTOSE, UNSPECIFIED FORM",
             "code": "J2B2A4N98G",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17716"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "STARCH, CORN",
             "code": "O8232NY3SJ",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_28017"
         },
         {
             "name": "ZIPRASIDONE MESYLATE",
             "code": "3X6SAX83JZ",
+            "class_code": "ACTIM",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_10119"
         },
         {
             "name": "METHANESULFONIC ACID",
             "code": "12EH9M7279",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB03635"
+            "class_code": "IACT",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_27376"
         },
         {
             "name": "BETADEX SULFOBUTYL ETHER SODIUM",
-            "code": "2PP9364507"
+            "code": "2PP9364507",
+            "class_code": "IACT",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_25698"
         },
         {
             "name": "ZIPRASIDONE",
             "code": "6UKA5VEJ6X",
-            "drugbank_id": "https://go.drugbank.com/drugs/DB00246"
+            "class_code": "ACTIB",
+            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_10119"
         }
     ],
     "organization": "ROERIG",

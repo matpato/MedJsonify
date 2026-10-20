@@ -30,25 +30,38 @@
         ],
         "orphanet_entities": [
             {
-                "disease": "beta thalassemia",
+                "disease": "thalassemia",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_707786"
             },
             {
-                "disease": "thalassemia",
+                "disease": "beta thalassemia",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_707786"
             }
         ]
     },
     "contraindications": {
         "text": "\u2022 beta thalassemia : recommended starting dose 1 mg/kg every 3 weeks subcutaneous injection . increase dose patient reduction rbc transfusion burden maximum 1.25 mg/kg ( 2.1 ) . \u2022 myelodysplastic syndromes : recommended starting dose 1 mg/kg every 3 weeks subcutaneous injection . esa-na\u00efve mds , increase dose maintain patient \u2019 hemoglobin concentrations within target range 10 g/dl 12 g/dl maximum 1.75 mg/kg ( 2.2 ) . esa-refractory intolerant mds , increase dose patient rbc transfusion-free maximum 1.75 mg/kg ( 2.2 ) . \u2022 review hemoglobin ( hgb ) results prior ( 2.1 , 2.2 ) . \u2022 full prescribing information preparation instructions ( 2.3 ) .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "beta thalassemia (DOID:12241)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12241"
+            },
+            {
+                "text": "thalassemia (DOID:10241)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_10241"
+            },
+            {
+                "text": "mds (DOID:0060469)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0060469"
+            }
+        ],
         "orphanet_entities": [
             {
-                "disease": "beta thalassemia",
+                "disease": "thalassemia",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_707786"
             },
             {
-                "disease": "thalassemia",
+                "disease": "beta thalassemia",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_707786"
             }
         ]
@@ -58,40 +71,48 @@
         {
             "name": "LUSPATERCEPT",
             "code": "AQK7UBA1LS",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_755086"
         },
         {
             "name": "CITRIC ACID MONOHYDRATE",
             "code": "2968PHW8QP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30769"
         },
         {
             "name": "TRISODIUM CITRATE DIHYDRATE",
-            "code": "B22547B95K"
+            "code": "B22547B95K",
+            "class_code": "IACT"
         },
         {
             "name": "POLYSORBATE 80",
             "code": "6OZP39ZG8H",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_53426"
         },
         {
             "name": "SUCROSE",
             "code": "C151H8M554",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17992"
         },
         {
             "name": "HYDROCHLORIC ACID",
             "code": "QTT17582CB",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749659"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],

@@ -334,11 +334,15 @@ def process_xml_file(file_path, neo4j_handler):
         # Check if this is an XML-derived file (has ingredients array)
         if "ingredients" in data:
             # Process XML-derived file
-            # Get the first ingredient as the main drug
-            if not data.get("ingredients"):
+            # Use only ingredients marked active by the DailyMed SPL.
+            active_ingredients = [
+                ingredient for ingredient in data.get("ingredients", [])
+                if ingredient.get("class_code", "").upper().startswith("ACT")
+            ]
+            if not active_ingredients:
                 return
                 
-            main_ingredient = data["ingredients"][0]
+            main_ingredient = active_ingredients[0]
             chebi_id = clean_id(main_ingredient.get("chebi_id"))
             drugbank_id = clean_id(main_ingredient.get("drugbank_id"))
             

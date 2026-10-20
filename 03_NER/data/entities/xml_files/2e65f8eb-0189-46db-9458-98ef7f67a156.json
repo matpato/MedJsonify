@@ -2,7 +2,12 @@
     "id": "2e65f8eb-0189-46db-9458-98ef7f67a156",
     "indications": {
         "text": "treatment tuberculosis meningococcal carrier state , small number resistant cells present within large susceptible cells rapidly become predominant type . bacteriologic cultures obtained start therapy confirm susceptibility organism rifampin repeated throughout therapy monitor response treatment . since resistance emerge rapidly , susceptibility tests performed event persistent positive cultures course treatment . test results show resistance rifampin patient responding therapy , regimen modified .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "tuberculosis (DOID:399)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_399"
+            }
+        ],
         "orphanet_entities": [
             {
                 "disease": "tuberculosis",
@@ -26,16 +31,19 @@
         {
             "name": "RIFAMPIN",
             "code": "VJT6J7R4TR",
+            "class_code": "ACTIB",
             "drugbank_id": "https://go.drugbank.com/drugs/DB01045"
         },
         {
             "name": "SODIUM FORMALDEHYDE SULFOXYLATE",
             "code": "X4ZGP7K714",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16842"
         },
         {
             "name": "SODIUM HYDROXIDE",
             "code": "55X04QC32I",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32145"
         }
     ],

@@ -52,6 +52,7 @@ def convert_all_files():
                     'effectiveTime': './/effectiveTime/@value',
                     'ingredients.name': './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient/ingredientSubstance/name',
                     'ingredients.code': './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient/ingredientSubstance/code/@code',
+                    'ingredients.class_code': './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient/@classCode',
                 }
                 section_codes = {
                     'indications': '34067-9',
@@ -61,12 +62,16 @@ def convert_all_files():
                 }
                 pairs = {
                     'ingredients.name': [
-                        './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient/ingredientSubstance',
-                        'name'
+                        './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient',
+                        'ingredientSubstance/name'
                     ],
                     'ingredients.code': [
-                        './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient/ingredientSubstance',
-                        'code/@code'
+                        './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient',
+                        'ingredientSubstance/code/@code'
+                    ],
+                    'ingredients.class_code': [
+                        './/component/structuredBody/component/section/subject/manufacturedProduct/manufacturedProduct/ingredient',
+                        '@classCode'
                     ],
                 }
 

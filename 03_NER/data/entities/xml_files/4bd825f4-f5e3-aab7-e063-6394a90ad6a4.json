@@ -2,7 +2,24 @@
     "id": "4bd825f4-f5e3-aab7-e063-6394a90ad6a4",
     "indications": {
         "text": "prescription clotrimazole topical solution spray product indicated topical treatment candidiasis due candida albicansand tinea versicolor due malassezia furfur . formulation also available nonprescription product indicated topical treatment following dermal infections : tinea pedis , tinea cruris , tinea corporis due trichophyton rubrum , trichophyton mentagrophytes , epidermophyton fluoccosum , microsporum canis .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "candidiasis (DOID:1508)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_1508"
+            },
+            {
+                "text": "tinea pedis (DOID:12403)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12403"
+            },
+            {
+                "text": "tinea cruris (DOID:11917)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_11917"
+            },
+            {
+                "text": "tinea corporis (DOID:12179)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_12179"
+            }
+        ],
         "orphanet_entities": []
     },
     "contraindications": {
@@ -16,21 +33,25 @@
         {
             "name": "POLYETHYLENE GLYCOL 400",
             "code": "B697894SGQ",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749470"
         },
         {
             "name": "ALCOHOL",
             "code": "3K9958V90M",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30879"
         },
         {
             "name": "CHLOROFORM",
             "code": "7V31YC746X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_35255"
         },
         {
             "name": "CLOTRIMAZOLE",
             "code": "G07GZ97H65",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_3764"
         }
     ],

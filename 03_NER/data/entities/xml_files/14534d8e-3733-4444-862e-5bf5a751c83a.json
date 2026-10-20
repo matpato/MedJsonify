@@ -108,40 +108,24 @@
                 "doid_id": "http://purl.obolibrary.org/obo/DOID_1791"
             }
         ],
-        "orphanet_entities": [
-            {
-                "disease": "disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
-            },
-            {
-                "disease": "renal cell carcinoma",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_217071"
-            },
-            {
-                "disease": "rcc",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_217071"
-            },
-            {
-                "disease": "malignant pleural mesothelioma",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_50251"
-            },
-            {
-                "disease": "merkel cell carcinoma",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_79140"
-            },
-            {
-                "disease": "primary peritoneal carcinoma",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_168829"
-            },
-            {
-                "disease": "hepatocellular carcinoma",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_88673"
-            }
-        ]
+        "orphanet_entities": []
     },
     "contraindications": {
         "text": "keytruda qlex different recommended intravenous pembrolizumab . ( 2.2 ) keytruda qlex subcutaneous thigh abdomen . ( 2.2 ) administer keytruda qlex intravenously . ( 2.2 ) keytruda qlex must administered healthcare provider . ( 2.2 ) recommended dose adults pediatric patients 12 years older weigh greater 40 kg : every 3-week dosing ( 395 mg/4,800 units ) : inject 2.4 ml subcutaneously abdomen thigh 1 minute . ( 2.3 ) every 6-week dosing ( 790 mg/9,600 units ) : inject 4.8 ml subcutaneously abdomen thigh 2 minutes . ( 2.3 ) rcc , administer keytruda qlex single agent adjuvant setting , advanced setting either : axitinib 5 mg orally twice daily lenvatinib 20 mg orally daily . ( 2.3 ) endometrial carcinoma , administer keytruda qlex : combination carboplatin paclitaxel regardless mmr msi status , combination lenvatinib 20 mg orally daily pmmr msi-h tumors , single agent msi-h dmmr tumors . ( 2.3 ) full prescribing information modifications preparation instructions . ( 2.4 , 2.5 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "rcc (DOID:4450)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4450"
+            },
+            {
+                "text": "endometrial carcinoma (DOID:2871)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2871"
+            },
+            {
+                "text": "carcinoma (DOID:305)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_305"
+            }
+        ],
         "orphanet_entities": [
             {
                 "disease": "rcc",
@@ -155,41 +139,49 @@
         {
             "name": "PEMBROLIZUMAB",
             "code": "DPT0O3T46P",
+            "class_code": "ACTIB",
             "drugbank_id": "https://go.drugbank.com/drugs/DB09037"
         },
         {
             "name": "BERAHYALURONIDASE ALFA",
             "code": "9X4R4A4HQQ",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_759420"
         },
         {
             "name": "HISTIDINE",
             "code": "4QD397987E",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_27570"
         },
         {
             "name": "HISTIDINE MONOHYDROCHLORIDE MONOHYDRATE",
             "code": "X573657P6P",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_27570"
         },
         {
             "name": "METHIONINE",
             "code": "AE28F7PNPL",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_16811"
         },
         {
             "name": "SUCROSE",
             "code": "C151H8M554",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_17992"
         },
         {
             "name": "POLYSORBATE 80",
             "code": "6OZP39ZG8H",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_53426"
         },
         {
             "name": "WATER",
             "code": "059QF0KO0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_15377"
         }
     ],

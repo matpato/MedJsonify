@@ -268,9 +268,13 @@ def process_drug_data(drug_data: Dict,
         if not drugbank_info and generic_name:
             drugbank_info = get_drug_info([generic_name], drugbank, vocabulary)
         
-        # PHASE 4: If still no match and ingredients are available, try first ingredient
-        if not drugbank_info and drug_data.get('ingredients'):
-            first_ingredient = drug_data['ingredients'][0]
+        # PHASE 4: If still no match, try the first active ingredient.
+        active_ingredients = [
+            ingredient for ingredient in drug_data.get('ingredients', [])
+            if ingredient.get('class_code', '').upper().startswith('ACT')
+        ]
+        if not drugbank_info and active_ingredients:
+            first_ingredient = active_ingredients[0]
             first_ingredient_name = first_ingredient.get('name', '')
             if first_ingredient_name:
                 drug_chebi_id = get_onto_id(first_ingredient_name, onto='chebi',

@@ -20,7 +20,20 @@
     },
     "contraindications": {
         "text": "( ) : \u2022 asthma ( 2.1 ) : daily evening patients 2 years older . \u2022 acute prevention eib ( 2.2 ) : one tablet least 2 hours exercise patients 6 years age older . \u2022 seasonal allergic rhinitis ( 2.3 ) : daily patients 2 years older . \u2022 perennial allergic rhinitis ( 2.3 ) : daily patients 2 years older . ( age ) ( 2 ) : \u2022 15 years older : one 10-mg tablet . \u2022 6 14 years : one 5-mg chewable tablet . \u2022 2 5 years : one 4-mg chewable tablet . patients asthma allergic rhinitis take one dose daily evening ( 2.4 ) .",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "asthma (DOID:2841)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_2841"
+            },
+            {
+                "text": "seasonal allergic rhinitis (DOID:4481)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4481"
+            },
+            {
+                "text": "rhinitis (DOID:4483)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4483"
+            }
+        ],
         "orphanet_entities": []
     },
     "warningsAndPrecautions": "product : 50090-7925 ndc : 50090-7925-0 30 tablet , chewable bottle ndc : 50090-7925-1 90 tablet , chewable bottle ndc : 50090-7925-2 1000 tablet , chewable bottle",
@@ -29,45 +42,54 @@
         {
             "name": "ASPARTAME",
             "code": "Z0H242BBR1",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_2877"
         },
         {
             "name": "CROSCARMELLOSE SODIUM",
             "code": "M28OL1HH48",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_753845"
         },
         {
             "name": "HEMATITE",
             "code": "1K09F3G675",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50818"
         },
         {
             "name": "HYDROXYPROPYL CELLULOSE (1600000 WAMW)",
             "code": "RFW2ET671P",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749526"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "MANNITOL",
             "code": "3OWL53L36A",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_29864"
         },
         {
             "name": "CELLULOSE, MICROCRYSTALLINE",
-            "code": "OP1R32D61U"
+            "code": "OP1R32D61U",
+            "class_code": "IACT"
         },
         {
             "name": "CHERRY",
             "code": "BUC5I9595W",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB10518"
         },
         {
             "name": "MONTELUKAST",
             "code": "MHM278SD3E",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50730"
         }
     ],

@@ -2,18 +2,63 @@
     "id": "525748f1-0662-58e4-e063-6394a90a5e99",
     "indications": {
         "text": "simvastatin tablets usp indicated : reduce risk total mortality reducing risk coronary heart disease death , non-fatal myocardial infarction stroke , need coronary non-coronary revascularization procedures adults established coronary heart disease , cerebrovascular disease , peripheral vascular disease , and/or diabetes , high risk coronary heart disease events . adjunct diet reduce low-density lipoprotein cholesterol ( ldl-c ) : adults primary hyperlipidemia . adults pediatric patients aged 10 years older heterozygous familial hypercholesterolemia ( hefh ) . adjunct ldl-c-lowering therapies reduce ldl-c adults homozygous familial hypercholesterolemia ( hofh ) . adjunct diet treatment adults : primary dysbetalipoproteinemia . hypertriglyceridemia .",
-        "doid_entities": [],
-        "orphanet_entities": [
+        "doid_entities": [
             {
-                "disease": "familial hypercholesterolemia",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_123021"
+                "text": "coronary heart disease (DOID:3393)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_3393"
             },
             {
-                "disease": "vascular disease",
+                "text": "heart disease (DOID:114)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_114"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            },
+            {
+                "text": "myocardial infarction (DOID:5844)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_5844"
+            },
+            {
+                "text": "stroke (DOID:0051061)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_0051061"
+            },
+            {
+                "text": "cerebrovascular disease (DOID:6713)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_6713"
+            },
+            {
+                "text": "peripheral vascular disease (DOID:341)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_341"
+            },
+            {
+                "text": "vascular disease (DOID:178)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_178"
+            },
+            {
+                "text": "diabetes (DOID:9351)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_9351"
+            },
+            {
+                "text": "familial hypercholesterolemia (DOID:13810)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_13810"
+            }
+        ],
+        "orphanet_entities": [
+            {
+                "disease": "disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
-                "disease": "disease",
+                "disease": "coronary heart disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
+                "disease": "peripheral vascular disease",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+            },
+            {
+                "disease": "vascular disease",
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
@@ -25,12 +70,8 @@
                 "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
             },
             {
-                "disease": "peripheral vascular disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
-            },
-            {
-                "disease": "coronary heart disease",
-                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_377788"
+                "disease": "familial hypercholesterolemia",
+                "orphanet_id": "http://www.orpha.net/ORDO/Orphanet_123021"
             }
         ]
     },
@@ -45,65 +86,78 @@
         {
             "name": "ASCORBIC ACID",
             "code": "PQ6CK8PD0R",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_22652"
         },
         {
             "name": "BUTYLATED HYDROXYANISOLE",
             "code": "REK4960K2U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_76359"
         },
         {
             "name": "CELLULOSE, MICROCRYSTALLINE",
-            "code": "OP1R32D61U"
+            "code": "OP1R32D61U",
+            "class_code": "IACT"
         },
         {
             "name": "CITRIC ACID MONOHYDRATE",
             "code": "2968PHW8QP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30769"
         },
         {
             "name": "FERROSOFERRIC OXIDE",
             "code": "XM0M87F357",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_50821"
         },
         {
             "name": "HYDROXYPROPYL CELLULOSE (1600000 WAMW)",
             "code": "RFW2ET671P",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_749526"
         },
         {
             "name": "HYPROMELLOSES",
             "code": "3NXW29V3WO",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB11075"
         },
         {
             "name": "LACTOSE MONOHYDRATE",
             "code": "EWQ57Q8I5X",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_759844"
         },
         {
             "name": "MAGNESIUM STEARATE",
             "code": "70097M6I30",
+            "class_code": "IACT",
             "drugbank_id": "https://go.drugbank.com/drugs/DB14077"
         },
         {
             "name": "STARCH, CORN",
             "code": "O8232NY3SJ",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_28017"
         },
         {
             "name": "TALC",
             "code": "7SEV7J4R1U",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32178"
         },
         {
             "name": "TITANIUM DIOXIDE",
             "code": "15FIX9V2JP",
+            "class_code": "IACT",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_32234"
         },
         {
             "name": "SIMVASTATIN",
             "code": "AGG2FN16EV",
+            "class_code": "ACTIB",
             "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_9150"
         }
     ],
