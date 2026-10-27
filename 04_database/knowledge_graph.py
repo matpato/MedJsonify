@@ -18,6 +18,16 @@ import os
 from neo4j import GraphDatabase
 from datetime import datetime
 
+# Generic ontology terms that are not real diseases. Linking drugs to them creates
+# hub nodes that connect unrelated drugs and distort downstream analyses.
+# Add or remove IDs here; the filter applies to nodes and to TREATS/CONTRAINDICATED_FOR.
+EXCLUDED_DISEASE_IDS = {
+    "DOID:4",             # disease (root of the Disease Ontology)
+    "DOID:225",           # syndrome
+    "Orphanet_377788",    # generic Orphanet class (name "Unknown")
+    "Orphanet_557493",    # generic Orphanet class (name "Unknown")
+}
+
 class Neo4jHandler:
     """
     Handles interactions with the Neo4j graph database.
@@ -206,6 +216,11 @@ class Neo4jHandler:
         """
         # OBJECTIVE: Orchestrate the complete insertion of drug-related data
         # Create or update the Drug node
+        # Drop generic disease terms (see EXCLUDED_DISEASE_IDS) before creating nodes/relations
+        diseases = [d for d in diseases if d["id"] not in EXCLUDED_DISEASE_IDS]
+        indications = [i for i in indications if i["id"] not in EXCLUDED_DISEASE_IDS]
+        contraindications = [c for c in contraindications if c["id"] not in EXCLUDED_DISEASE_IDS]
+
         self.create_drug(drug)
         
         # Create or update all Disease nodes

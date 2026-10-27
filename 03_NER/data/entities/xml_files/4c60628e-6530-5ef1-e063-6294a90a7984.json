@@ -2,17 +2,21 @@
     "id": "4c60628e-6530-5ef1-e063-6294a90a7984",
     "indications": {
         "text": "terbinafine tablets indicated treatment onychomycosis toenail fingernail due dermatophytes ( tinea unguium ) . prior initiating treatment , appropriate nail specimens laboratory testing [ potassium hydroxide ( koh ) preparation , fungal culture , nail biopsy ] obtained confirm diagnosis onychomycosis .",
-        "doid_entities": [
-            {
-                "text": "tinea unguium (DOID:13074)",
-                "doid_id": "http://purl.obolibrary.org/obo/DOID_13074"
-            }
-        ],
+        "doid_entities": [],
         "orphanet_entities": []
     },
     "contraindications": {
         "text": "prior administering , evaluate patients evidence chronic active liver disease . ( 2.1 ) fingernail onychomycosis : one tablet , daily 6 weeks . ( 2.2 ) toenail onychomycosis : one tablet , daily 12 weeks . ( 2.2 )",
-        "doid_entities": [],
+        "doid_entities": [
+            {
+                "text": "liver disease (DOID:409)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_409"
+            },
+            {
+                "text": "disease (DOID:4)",
+                "doid_id": "http://purl.obolibrary.org/obo/DOID_4"
+            }
+        ],
         "orphanet_entities": [
             {
                 "disease": "liver disease",
@@ -43,7 +47,7 @@
             "name": "SILICON DIOXIDE",
             "code": "ETJ7Z6XBU4",
             "class_code": "IACT",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_30563"
+            "drugbank_id": "https://go.drugbank.com/drugs/DB11132"
         },
         {
             "name": "HYPROMELLOSE 2910 (5 MPA.S)",
@@ -61,7 +65,7 @@
             "name": "TERBINAFINE HYDROCHLORIDE",
             "code": "012C11ZU6G",
             "class_code": "ACTIM",
-            "chebi_id": "http://purl.obolibrary.org/obo/CHEBI_77614"
+            "drugbank_id": "https://go.drugbank.com/drugs/DB00857"
         }
     ],
     "organization": "American Health Packaging",

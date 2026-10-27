@@ -16,6 +16,11 @@ import logging
 import os
 from neo4j import GraphDatabase
 
+try:
+    from database.knowledge_graph import EXCLUDED_DISEASE_IDS   # inside Airflow
+except ImportError:
+    from knowledge_graph import EXCLUDED_DISEASE_IDS            # standalone run
+
 
 # ---------------------------------------------------------------------------- #
 # Queries
@@ -23,12 +28,16 @@ from neo4j import GraphDatabase
 
 QUERY_INDICATED = """
 MATCH (d:Drug)-[:TREATS]->(dis:Disease)
+WHERE NOT dis.id IN $excluded
+  // contraindication veto: a drug-disease pair that is also contraindicated is not exported as indicated
+  AND NOT (d)-[:CONTRAINDICATED_FOR]->(dis)
 RETURN d.id AS drug_code, dis.id AS disease_code
 ORDER BY d.id, dis.id
 """
 
 QUERY_CONTRAINDICATED = """
 MATCH (d:Drug)-[:CONTRAINDICATED_FOR]->(dis:Disease)
+WHERE NOT dis.id IN $excluded
 RETURN d.id AS drug_code, dis.id AS disease_code
 ORDER BY d.id, dis.id
 """
@@ -71,7 +80,7 @@ def export_graph_to_csv(uri: str,
 
             # --- indicated.csv ---
             logging.info("Exporting indicated relationships...")
-            records = session.run(QUERY_INDICATED).data()
+            records = session.run(QUERY_INDICATED, excluded=sorted(EXCLUDED_DISEASE_IDS)).data()
             records = [{'drug:code': r['drug_code'], 'disease:code': r['disease_code']} for r in records]
             _write_csv(indicated_path, fieldnames=['drug:code', 'disease:code'], rows=records)
             results['indicated'] = {'path': indicated_path, 'rows': len(records)}
@@ -80,7 +89,7 @@ def export_graph_to_csv(uri: str,
 
             # --- contraindicated.csv ---
             logging.info("Exporting contraindicated relationships...")
-            records = session.run(QUERY_CONTRAINDICATED).data()
+            records = session.run(QUERY_CONTRAINDICATED, excluded=sorted(EXCLUDED_DISEASE_IDS)).data()
             records = [{'drug:code': r['drug_code'], 'disease:code': r['disease_code']} for r in records]
             _write_csv(contraindicated_path, fieldnames=['drug:code', 'disease:code'], rows=records)
             results['contraindicated'] = {'path': contraindicated_path, 'rows': len(records)}
