@@ -13,26 +13,30 @@
     </div>
 </div>
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Docker](https://img.shields.io/badge/Docker-Available-blue.svg)](https://www.docker.com/)
 [![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE.svg?logo=Apache%20Airflow&logoColor=white)](https://airflow.apache.org)
 [![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?logo=neo4j&logoColor=white)](https://neo4j.com/)
 [![NLTK](https://img.shields.io/badge/NLTK-3776AB?logo=python&logoColor=fff)](https://www.nltk.org)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](https://pandas.pydata.org)
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://shields.io/)
 
 ## Overview
 
-MedJsonify is a comprehensive biomedical data processing pipeline that extracts, transforms, and analyzes pharmaceutical information from various data sources. The framework converts multiple input formats (XML, CSV, TXT) into standardized JSON, performs Named Entity Recognition (NER) to extract biomedical entities, and builds a knowledge graph in Neo4j to represent relationships between drugs, diseases, and other medical concepts.
+MedJsonify is a biomedical data pipeline that collects FDA regulatory data (DailyMed, Purple Book, Orange Book), converts it to a uniform JSON representation with [jsonifyer](https://github.com/crpereir/jsonifyer), links drugs and diseases to biomedical ontologies, and builds a knowledge graph in Neo4j.
+
+The graph has four node types (**Drug** = active ingredient, **Disease**, **AdminRoute**, **ApprovalYear**) and four relations:
+
+| Relation | From → to | Source |
+|---|---|---|
+| `has_indication` | Drug → Disease | DailyMed *Indications and Usage* section (LOINC 34067-9) |
+| `has_contraindication` | Drug → Disease | DailyMed *Contraindications* section (LOINC 34070-3) |
+| `has_administration` | Drug → AdminRoute | DailyMed route, Purple Book route, Orange Book `DF;Route` |
+| `has_approved_year` | Drug → ApprovalYear | FDA application approval date (Orange Book / Purple Book) |
+
+The pipeline can run in two ways, using the same code and folders:
+
+- **Airflow mode**: the DAGs schedule and run the whole pipeline (typically monthly).
+- **Standalone mode**: a light Docker image runs each step on its own, without Airflow (`standalone/`).
 
 <div align="center">
   <img src="./img/airflow_orchestration.png" width="600" alt="Airflow Orchestration Diagram"/>
@@ -43,114 +47,134 @@ MedJsonify is a comprehensive biomedical data processing pipeline that extracts,
 1. [Project Structure](#project-structure)
 2. [Key Features](#key-features)
 3. [Technologies](#technologies)
-4. [Data Sources & Ontologies](#data-sources--ontologies)
-5. [Installation & Setup](#installation--setup)
+4. [Data Sources and Ontologies](#data-sources-and-ontologies)
+5. [Installation](#installation)
 6. [Usage Guide](#usage-guide)
 7. [Pipeline Workflow](#pipeline-workflow)
-8. [Troubleshooting](#troubleshooting)
-9. [License](#license)
-10. [How to Cite](#how-to-cite)
+8. [Reproducing the Paper](#reproducing-the-paper)
+9. [Troubleshooting](#troubleshooting)
+10. [License](#license)
+11. [How to Cite](#how-to-cite)
 
 ## Project Structure
 
-The project is organized into several key modules, each responsible for specific aspects of the data processing pipeline:
-
 ```
-medjsonify/
-├── img/                          # Images and documentation resources
-├── airflow/                      # Apache Airflow configuration and DAG files
-│   ├── dags/                     # DAG definition files
-│   │   ├── utils/                # Utility functions for DAGs
-│   │   │   ├── config.py
-│   │   │   └── tasks.py  
-│   │   ├── airflow.ini          # Airflow configuration
-│   │   ├── converter_dag.py     # DAG for file conversion process
-│   │   ├── create_user.py       # Script to create Airflow users
-│   │   ├── jsonify_dag.py       # Complete data processing pipeline DAG
-│   │   ├── neo4j_dag.py         # DAG for Neo4j database operations
-│   │   └── ner_dag.py           # DAG for Named Entity Recognition
-│   
-├── database/                    # Neo4j database integration
-│   ├── knowledge_graph.py       # Knowledge graph implementation
-│   ├── neo4j.ini                # Neo4j connection configuration
-│   └── queries.md               # Example Neo4j queries
-│   
-├── upload/                      # Data acquisition and preprocessing
-│   ├── download_from_url.py     # Download files from URLs
-│   ├── extract_files.py         # Extract files from archives
-│   ├── unzip_directories.py     # Extract ZIP archives
-│   └── upload_loader.py         # Configuration for upload process
-│   
-├── NER/                          # Named Entity Recognition processing
-│   ├── __init__.py
-│   ├── standalone_bioner.py           # Main standalone BioNER class
-│   ├── ner_entities.py                # Core entity processing logic
-│   ├── ner_entities_batch.py          # Batch processing for multiple files
-│   ├── ner_drugbank.py                # DrugBank vocabulary matching
-│   ├── Biomedical_preprocessing.py    # Text preprocessing utilities
-│   ├── download_vocabulary.py         # Vocabulary download utilities
-│   ├── setup.py                       # Setup and validation script
+MedJsonify/
+├── img/                              # Images and documentation resources
+├── airflow/
+│   └── dags/
+│       ├── utils/
+│       │   ├── config.py
+│       │   └── tasks.py              # Task functions (used by both modes)
+│       ├── airflow.ini
+│       ├── converter_dag.py          # Conversion only
+│       ├── create_user.py
+│       ├── jsonify_dag.py            # Complete pipeline
+│       ├── neo4j_dag.py              # Graph construction
+│       └── ner_dag.py                # NER only
+│
+├── upload/                           # Data acquisition
+│   ├── download_from_url.py
+│   ├── extract_files.py
+│   ├── unzip_directories.py
+│   └── upload_loader.py
+│
+├── jsonify/                          # Conversion (jsonifyer)
+│   ├── conversion.py                 # Main conversion driver
+│   ├── jsonify.ini
+│   ├── purple_book.py                # Keeps only the Purple Book full product list
+│   ├── conversion_stats.py           # Conversion table (files, records, duplicates, failures)
+│   ├── spl_to_json.xsl               # XSLT stylesheet for SPL labels (comparison)
+│   └── xml_strategy_comparison.py    # Python vs XSLT on the same labels
+│
+├── NER/                              # Entity recognition and linking
+│   ├── Biomedical_preprocessing.py   # Abbreviations, negations, populations, organisms
+│   ├── ner_entities.py               # Drug and disease linking
+│   ├── ner_entities_batch.py         # Batch processing
+│   ├── ner_drugbank.py               # DrugBank matching (UNII, names, fuzzy)
+│   ├── ner_metrics.py                # Run report (ontology versions, counts)
+│   ├── download_vocabulary.py
 │   ├── logging_config.py
-│   ├── validators.py 
-│   ├── metrics.py
-│   ├── bioner.ini                     # Main configuration file
-│   │   
-│   ├── ontologies/                        # Ontology management
-│   │   ├── data/                          # Processed ontology data files
-│   │   └── scripts/                       # Shell scripts for ontology processing
-│   ├── data/                              # Data files and outputs
-│   │    ├── blacklists/                    # Entity blacklists
-│   │    ├── entities/                      # Final NER output (by source type)
-│   │    └── preprocessing/                 # Intermediate preprocessing results
-│   └── tests/                              
-│    
-├── jsonify/                      # File format conversion module
-│   └── src/                      # Conversion source code
-│       └── conversion.py         # Main conversion driver
-│   
-├── .env 
-├── Dockerfile                   # Docker container definition
-├── docker-compose.yml           # Docker Compose configuration
-├── docker.sh                    # Script to build and run containers
-├── setup.sh                     # Automated setup script to create all missing files
-└── requirements.txt             # Python dependencies
+│   ├── bioner.ini                    # Vocabulary and ontology configuration
+│   ├── ontologies/
+│   │   ├── data/                     # Processed lexicons, *_version.txt
+│   │   └── scripts/                  # process_ontology.sh, extract_entities.sh
+│   └── data/
+│       ├── entities/                 # NER output
+│       ├── preprocessing/            # Preprocessed JSON
+│       └── stats/                    # NER metrics, dataflow counts
+│
+├── database/                         # Knowledge graph
+│   ├── knowledge_graph.py            # Graph loading, route normalization, ontology cleanup
+│   ├── disease_mapping.py            # ORDO/HPO → DO equivalences
+│   ├── approval_years.py             # Approval year from the FDA application
+│   ├── graph_export.py               # indicated.csv / contraindicated.csv
+│   ├── dataflow_stats.py             # Entity and relation counts per stage (S2–S4)
+│   ├── compare_benchmarks.py         # Validation against Hetionet / PharmacotherapyDB / DrugCentral
+│   ├── benchmarks/                   # Reference files and results
+│   ├── output/                       # Exported CSV files
+│   └── neo4j.ini
+│
+├── standalone/                       # Run without Airflow
+│   ├── run_medjsonify.sh             # Runner (one step or the whole pipeline)
+│   ├── run_task.py
+│   ├── Dockerfile                    # Light image (no Airflow)
+│   ├── jsonifyer_python_converter.py # Patched jsonifyer converter
+│   ├── fetch_ontologies.py           # Downloads and processes the ontologies
+│   ├── check_imports.py
+│   ├── requirements-extra.txt
+│   ├── dataflow_queries.md           # All Cypher queries of the paper, with expected values
+│   └── README.md                     # Standalone mode in detail
+│
+├── figures/                          # Scripts and data of the paper's charts
+├── DECISIONS.md                      # Design decisions taken from the results
+├── Dockerfile                        # Airflow image
+├── docker-compose.yml
+├── docker.sh
+├── setup.sh
+└── requirements.txt
 ```
 
 ## Key Features
 
-- **Multi-format Data Processing**: Converts XML, CSV, and TXT files to standardized JSON format
-- **Named Entity Recognition (NER)**: Extracts biomedical entities like drugs, diseases, and chemical compounds
-- **Knowledge Graph Construction**: Creates a structured graph in Neo4j representing relationships between entities
-- **Workflow Orchestration**: Uses Apache Airflow to manage and schedule the complete data pipeline
-- **Containerized Deployment**: Packaged with Docker for easy deployment and environment consistency
-- **Ontology Integration**: Leverages biomedical ontologies like ChEBI, Disease Ontology, and Orphanet
+- **Multi-format conversion**: XML (DailyMed SPL), CSV (Purple Book) and TXT (Orange Book) to JSON with jsonifyer, with deduplication and a conversion report that separates duplicates, malformed records and genuine failures.
+- **Drug linking**: only ingredients marked as active in the label (SPL class code `ACT*`) become drugs; each is linked to DrugBank by UNII code, then by exact name or synonym, by name without salt words, and by fuzzy matching, with ChEBI as a fallback.
+- **Disease linking**: Disease Ontology, then Orphanet, then HPO (restricted to *Phenotypic abnormality*), one link per text span with the longest match kept; Orphanet and HPO terms are mapped to the equivalent DO term when one exists.
+- **Relation typing**: by label section, with rules that remove negated statements ("not indicated"), at-risk populations and ambiguous short words.
+- **Graph construction**: uniqueness constraints, normalized administration routes, approval years from the FDA application, and an ontology cleanup of generic and non-disease terms.
+- **Two execution modes**: Apache Airflow, or a standalone Docker runner that runs each step separately.
+- **Reproducibility**: ontology versions recorded at each run; all queries, counts and chart scripts of the paper are included.
 
 ## Technologies
 
-- **Apache Airflow**: Workflow orchestration and scheduling
-- **Docker**: Containerization for deployment
-- **jsonifyer** Tool that convert data into the structured, human-readable JSON (JavaScript Object Notation)
+- **Python** (3.8 in the Docker images)
+- **jsonifyer**: conversion of XML, CSV and TXT files to JSON
 - **lxml**: XML processing and XSLT transformations
-- **Neo4j**: Graph database for knowledge representation
-- **NLTK**: Natural Language Processing for text preprocessing
-- **Pandas**: Data manipulation and transformation
-- **Python**: Core programming language
+- **NLTK**: text preprocessing
+- **Pandas**: tabular data
+- **Neo4j 5**: graph database
+- **Apache Airflow**: workflow orchestration
+- **Docker**: containerized execution
 
 ## Data Sources and Ontologies
 
-- DailyMed: FDA-approved drug labeling (time-based URLs)
-- Purple Book: FDA-licensed biological products (time-based URLs)
-- Orange Book: FDA-approved drug products (direct download)
+| Source | What is used | Format |
+|---|---|---|
+| DailyMed | Human prescription labels of the monthly update | XML (SPL) |
+| Purple Book | Full product list of the monthly data file (the change report at the top is removed) | CSV |
+| Orange Book | `products.txt` (patent and exclusivity files are not used) | TXT |
 
-### Supported Ontologies
+### Ontologies and vocabularies
 
-| Ontology | Acronym | Purpose | Example Entities |
-|----------|---------|---------|------------------|
-| Disease Ontology | DOID | Human diseases | diabetes, asthma, cancer |
-| ChEBI | CHEBI | Chemical entities | glucose, insulin, aspirin |
-| Human Phenotype | HPO | Phenotypic features | fever, seizure, tremor |
-| Orphanet | ORDO | Rare diseases | Niemann-Pick, Gaucher |
+| Resource | Acronym | Used for | Notes |
+|---|---|---|---|
+| DrugBank vocabulary | DB | Drugs (first choice) | Matched by UNII, then by name |
+| ChEBI | CHEBI | Drugs (fallback) | `chebi_lite.owl` |
+| Disease Ontology | DOID | Diseases (first choice) | |
+| Orphanet Rare Disease Ontology | ORDO | Rare diseases | Mapped to DO when equivalent |
+| Human Phenotype Ontology | HPO | Phenotypes | Only *Phenotypic abnormality* (HP:0000118) |
 
+Each run records the version and checksum of every ontology in `NER/ontologies/data/<name>_version.txt`.
 
 ## Installation
 
@@ -161,363 +185,271 @@ medjsonify/
 
 ### Setup
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/MedJsonify.git
-```
+1. Clone the repository and enter it:
+   ```bash
+   git clone https://github.com/matpato/MedJsonify.git
+   cd MedJsonify
+   ```
 
-2. Navigate to the project directory:
-```bash
-cd MedJsonify
-```
+2. Grant execution permissions to the scripts:
+   ```bash
+   chmod +x docker.sh NER/ontologies/scripts/*.sh
+   ```
 
-3. Grant execution permissions to the Docker script:
-```bash
-chmod +x docker.sh
-```
+3. **Airflow users** (Airflow mode only), in `airflow/dags/airflow.ini`:
+   ```ini
+   [USER]
+   username = admin
+   firstname = Admin
+   lastname = User
+   role = Admin
+   email = admin@example.com
+   password = admin
+   ```
 
-4. Airflow Configuration:
-the file is located at /dags/airflow.cfg. 
-```ini
-[USER]
-username = admin
-firstname = Admin
-lastname = User
-role = Admin
-email = admin@example.com
-password = admin
-```
+4. **Vocabulary and ontologies**, in `NER/bioner.ini`.
 
-5. Vocabulary and Ontology Configuration:
-The system relies on external biomedical vocabularies and ontologies. These must be correctly configured before execution
-(the file is located at /NER/bioner.ini). 
-
-   5.1. **Vocabulary** Sources:
-   The following URLs define the external vocabularies that are downloaded and processed by the system:
+   4.1. **Vocabulary**:
    ```ini
    [VOCABULARY]
    drugbank_url = https://go.drugbank.com/releases/5-1-13/downloads/all-drugbank-vocabulary
    ```
-   Users may replace these URLs with alternative versions or mirrors if required, provided the formats remain compatible.
 
-   5.2. **Ontology Processing** Configuration:
-   Ontology usage and update behavior are controlled via the following section
+   4.2. **Ontology processing**:
    ```ini
    [ONTO]
-   active_lexicons: doid, chebi, hp, ordo
-   # Update ontologies (yes: 1 | no: 0)
-   update: 1
+   active_lexicons = doid, chebi, hp, ordo
+   # Re-download and rebuild the ontologies at startup (1) or use the local versions (0)
+   update = 0
    ```
-   In ```active_lexicons``` you will define which ontologies are enabled for processing. Only the listed ontologies 
-   will be loaded and used by the system. In ```update``` the user can control whether ontologies are re-downloaded and 
-   rebuilt at startup (1- Force update (download and rebuild ontologies) and 0 – Use existing local versions (recommended 
-   for reproducibility)).
+   Use `update = 0` to reproduce a run with the same ontology versions, and `update = 1` to download the latest releases.
 
-   5.3. **Ontology URL update** Configuration:
+   4.3. **Ontology URLs**: one URL per line, without `#` comments on the same line. For example:
    ```ini
    [ONTOLOGIES]
-   # Orphanet Rare Disease Ontology (ORDO)
-   ordo_url = https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.8.owl
+   doid_url  = http://purl.obolibrary.org/obo/doid.owl
+   hpo_url   = http://purl.obolibrary.org/obo/hp.owl
+   chebi_url = http://purl.obolibrary.org/obo/chebi/chebi_lite.owl
+   ordo_url  = https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.8.owl
    ordo_name = ordo
-   ordo_description = Orphanet Rare Disease Ontology
    ```
-   Ontology URLs should be configured to use the most current versions available. The Open Biological and Biomedical Ontology (OBO) 
-   Foundry provides stable, version-agnostic URLs that automatically resolve to the latest releases. These URLs automatically resolve 
-   to the latest stable release and, the system handles versioning automatically, ensuring you always work with current data. Use 
-   ``chebi_lite.owl`` for better performance; the full ChEBI ontology is significantly larger.
-   For ontologies not hosted on OBO Foundry (like the detailed ORDO with full metadata), you may need to specify versioned URLs.
-   However, when available, prefer the OBO Foundry URLs for consistency and automatic updates.
+   The OBO Foundry URLs resolve to the latest release. To fix a version, use a dated URL (e.g. `http://purl.obolibrary.org/obo/doid/releases/2025-05-30/doid.owl`); for an older ORDO release, use a file from `.../ordo/previous_versions/` (zipped files are unzipped automatically in standalone mode).
 
 ## Usage Guide
 
-1. Build and run the Docker containers:
+### Airflow mode
+
+1. Build and run the containers:
+   ```bash
+   ./docker.sh
+   ```
+   Note: `docker.sh` runs `docker-compose down -v`, which also deletes the Neo4j data volume. Remove `-v` to keep the graph between runs.
+
+2. Open Airflow at <http://localhost:8080> (default user `admin`, password `admin`).
+
+3. Activate and trigger a DAG:
+   - `converter_dag`: conversion to JSON only
+   - `ner_dag`: NER on the converted JSON
+   - `medjsonify_dag`: the complete pipeline
+
+4. Open the Neo4j Browser at <http://localhost:7474> (user `neo4j`, password `testpassword`).
+
+### Standalone mode
+
+Runs the same task functions in a light image without Airflow. Every command is run from the main folder:
+
 ```bash
-./docker.sh
+bash standalone/run_medjsonify.sh --list              # build the image, list the tasks
+bash standalone/run_medjsonify.sh                     # whole pipeline
+bash standalone/run_medjsonify.sh --step convert      # one step
+bash standalone/run_medjsonify.sh --from preprocess   # from a step to the end
+bash standalone/run_medjsonify.sh --shell 'ls NER/ontologies/data'   # any command in the container
 ```
 
-2. Access the Apache Airflow web interface:
-```bash
-http://localhost:8080
-```
-
-3. Log in with the default credentials:
-   - Username: admin
-   - Password: admin
-
-4. From the Airflow UI, activate and trigger the desired DAG:
-   - `converter_dag`: Only converts files to JSON
-   - `ner_dag`: Processes JSON files with NER
-   - `medjsonify_dag`: Runs the complete pipeline
-
-5. After processing, the Neo4j database will contain the knowledge graph. Access the Neo4j browser:
-```bash
-http://localhost:7474
-```
+Steps: `download → convert → stats → ontologies → vocabulary → preprocess → ner → validate → graph → export`.
+After changing `requirements.txt`, the Dockerfile or `standalone/jsonifyer_python_converter.py`, rebuild with `--rebuild`.
+See [`standalone/README.md`](standalone/README.md) for all options.
 
 ## Pipeline Workflow
 
-The complete data processing pipeline consists of the following steps:
+1. **Data acquisition**: download the monthly files (DailyMed, Purple Book, Orange Book) and extract the archives.
+2. **Conversion**: jsonifyer converts each source to JSON. DailyMed labels are deduplicated by product name, Purple Book rows by proper name and Orange Book rows by active ingredient; the Purple Book file is reduced to its full product list first. A conversion report is written to `jsonify/stats/`.
+3. **Ontologies and vocabulary**: download and process the ontologies listed in `bioner.ini` and the DrugBank vocabulary.
+4. **Preprocessing**: expand abbreviations (case-sensitive), remove negated statements and at-risk populations from indications, and map organism names to infections.
+5. **NER and linking**: link active ingredients to DrugBank/ChEBI and diseases to DO, Orphanet and HPO.
+6. **Validation**: report, per folder, how many records have drug and disease links.
+7. **Graph construction**: load Neo4j with uniqueness constraints; map Orphanet/HPO diseases to DO; normalize routes; take approval years from the FDA application; remove generic terms, non-disease terms and ambiguous short mentions (ontology cleanup).
+8. **Export**: `database/output/indicated.csv` and `contraindicated.csv` (drug, disease pairs; pairs that are both indicated and contraindicated are left out of `indicated.csv`).
 
-1. **Data Acquisition**:
-   - Download files from configured URLs (Note: files from last month. If you want too change go to: download_from_url.py)
-   - Extract ZIP archives
-   - Extract specific files based on type
+## Reproducing the Paper
 
-2. **Data Conversion**:
-   - Convert XML files using either Python-based parsing or XSLT
-   - Convert CSV files with appropriate delimiters and headers
-   - Convert TXT files with specified delimiters
-   - Standardize to JSON format
+The counts, tables and figures of the paper come from one run on the May 2025 data.
 
-3. **Named Entity Recognition**:
-   - Download and update biomedical vocabularies and ontologies
-   - Preprocess JSON text fields for NER
-   - Extract drug and disease entities
-   - Normalize entity identifiers to standard ontologies
+```bash
+# Conversion table
+bash standalone/run_medjsonify.sh --step convert --ds 2025-05-01
+cat jsonify/stats/conversion_results_2025-05-01.txt
 
-4. **Knowledge Graph Construction**:
-   - Create nodes for drugs, diseases, administration routes, and approval years
-   - Establish relationships between entities (TREATS, CONTRAINDICATED_FOR, etc.)
-   - Apply constraints to ensure data integrity
+# NER and graph
+bash standalone/run_medjsonify.sh --from ontologies --ds 2025-05-01
+
+# Entity and relation counts per stage (S2–S4)
+bash standalone/run_medjsonify.sh --shell 'python3 /opt/airflow/dags/database/dataflow_stats.py NER/data/entities --out-dir NER/data/stats'
+
+# Validation against Hetionet
+bash standalone/run_medjsonify.sh --step export
+bash standalone/run_medjsonify.sh --shell 'python3 /opt/airflow/dags/database/compare_benchmarks.py evaluate --indicated /opt/airflow/dags/database/output/indicated.csv --obo /opt/airflow/dags/database/benchmarks/doid.obo --hetionet-pairs /opt/airflow/dags/database/benchmarks/hetionet_indicated.csv --out /opt/airflow/dags/database/benchmarks/results'
+
+# Python vs XSLT conversion on the same labels
+bash standalone/run_medjsonify.sh --shell 'python3 /opt/airflow/dags/jsonify/xml_strategy_comparison.py /opt/airflow/dags/jsonify/input/xml_files --xslt /opt/airflow/dags/jsonify/spl_to_json.xsl --out /opt/airflow/dags/jsonify/stats'
+```
+
+- **Cypher queries** for every table, figure and use case, with the values they return on the released graph: [`standalone/dataflow_queries.md`](standalone/dataflow_queries.md).
+- **Charts** drawn with Python (approval years, routes, drug degrees, posaconazole): `figures/`.
+- **Design decisions** taken from the results, with their effect on the numbers: [`DECISIONS.md`](DECISIONS.md).
+
+Before a clean run, empty the "already converted" lists (`jsonify/data/*_processed.txt`); otherwise jsonifyer skips records it has seen and numbers the new ones from `record_1`, overwriting existing output files.
 
 ## Troubleshooting
 
-### Common Issues
-
-#### 1. Ontology Processing Fails
+#### 1. Ontology processing fails
 
 **Symptom**: `ERROR: Missing script: process_ontology.sh`
 
-**Solution**:
 ```bash
-# Make scripts executable
 chmod +x NER/ontologies/scripts/*.sh
-
-# Or in Docker
+# Airflow mode:
 docker-compose exec airflow chmod +x /opt/airflow/dags/NER/ontologies/scripts/*.sh
 ```
 
-#### 2. Entity Extraction Returns Empty
+#### 2. Entity extraction returns nothing
 
-**Symptom**: `No entities found` for known terms
+**Symptom**: `No entities found` for known terms, or `0 processed` in the NER log.
 
-**Diagnosis**:
 ```bash
-# Check if lexicon files exist
-ls -lh NER/ontologies/data/doid_*.txt
-
-# Verify first few entries
+ls -lh NER/ontologies/data/*_links.tsv NER/ontologies/data/*_version.txt
 head NER/ontologies/data/doid_word1.txt
-
-# Test extraction manually
 ./NER/ontologies/scripts/extract_entities.sh "diabetes" doid ./NER/ontologies/data
 ```
 
-**Solutions**:
-- Reprocess ontology: `ner.update_ontology('doid')`
-- Check text preprocessing isn't over-aggressive
-- Verify lexicon name matches (e.g., 'doid' not 'do')
+- Process the missing ontology again (standalone: `--step ontologies --force-ontologies`).
+- Check that the lexicon name matches (`doid`, not `do`).
+- `0 processed, 0 failed`: `process_file_in_batch` must unpack the `metrics` value as well.
 
-#### 3. DrugBank Matching Fails
+#### 3. DrugBank matching fails
 
-**Symptom**: No `drugbank_id` in output
+**Symptom**: no `drugbank_id` in the output.
 
-**Diagnosis**:
 ```python
 from NER.ner_drugbank import load_drugbank_data, create_vocabulary
-
-drugbank = load_drugbank_data('data/drugbank_vocabulary.csv')
+drugbank = load_drugbank_data('NER/data/drugbank_vocabulary.csv')
 vocab = create_vocabulary(drugbank)
-
-print(f"Loaded {len(vocab)} drug names")
-print(f"Sample: {list(vocab)[:10]}")
+print(len(vocab), list(vocab)[:10])
 ```
 
-**Solutions**:
-- Re-download DrugBank: Run `download_vocabulary_task()`
-- Lower similarity threshold: `get_drug_info(query, drugbank, vocab, thresh=0.75)`
-- Check drug name normalization
+- Download the vocabulary again (`download_vocabulary_task`).
+- The `match` field of each drug shows how it was linked (`unii`, `exact`, `exact_parent`, `fuzzy`); fuzzy matching uses Jaro–Winkler ≥ 0.88.
 
-#### 4. Neo4j Connection Refused
+#### 4. `KeyError: '@'` in jsonifyer
+
+The published jsonifyer fails on attribute pairs such as `@classCode`. The Docker images install the patched converter (`standalone/jsonifyer_python_converter.py`); rebuild with `--rebuild`.
+
+#### 5. Neo4j connection refused
 
 **Symptom**: `ServiceUnavailable: Unable to retrieve routing information`
 
-**Solution**:
 ```bash
-# Check Neo4j status
 docker-compose ps neo4j
-
-# Restart Neo4j
 docker-compose restart neo4j
-
-# Check logs
 docker-compose logs neo4j
-
-# Verify connection
-docker-compose exec airflow python -c "
-from neo4j import GraphDatabase
-driver = GraphDatabase.driver('bolt://neo4j:7687', auth=('neo4j', 'testpassword'))
-driver.verify_connectivity()
-print('Connected!')
-"
 ```
 
-#### 5. Airflow Tasks Fail with Import Error
+#### 6. Import errors
 
-**Symptom**: `ModuleNotFoundError: No module named 'NER'`
+**Symptom**: `ModuleNotFoundError: No module named 'NER'` (Airflow), or `ModuleNotFoundError: No module named 'requests'` (standalone).
 
-**Solution**:
-```bash
-# Check PYTHONPATH in docker-compose.yml
-# Should include: PYTHONPATH: "/opt/airflow/dags:/opt/airflow/dags/jsonify/src"
+- Airflow: `PYTHONPATH` in `docker-compose.yml` must include `/opt/airflow/dags`.
+- Standalone: add the package to `standalone/requirements-extra.txt`, then `bash standalone/run_medjsonify.sh --rebuild --check`.
 
-# Restart container
-docker-compose restart airflow
+#### 7. The Neo4j Browser does not show the whole graph
 
-# Or add to task:
-import sys
-sys.path.insert(0, '/opt/airflow/dags/NER')
+Raise the display limits before drawing a large subnetwork:
+
+```
+:config initialNodeDisplay: 5000
+:config maxNeighbours: 5000
+:config maxRows: 5000
 ```
 
-### Performance Optimization
+After changing the loading code, empty the graph (`MATCH (n) DETACH DELETE n;`) before loading it again: `MERGE` never removes old nodes.
 
-#### Slow NER Processing
+### Performance
 
-**Optimize ontology files**:
-```bash
-# Remove very common/generic terms from lexicons
-grep -v "^the\|^a\|^an" doid_word1.txt > doid_word1_filtered.txt
-
-# Limit to high-confidence matches
-# Edit extract_entities.sh: MIN_WORD_LENGTH=4
-```
-
-**Increase parallelism**:
-```python
-# In ner_entities_batch.py
-with ThreadPoolExecutor(max_workers=8) as executor:  # Default: 4
-    executor.map(process_file_in_batch, files_to_process)
-```
-
-#### Memory Issues
-
-**Reduce batch size**:
-```ini
-# In bioner.ini
-[SAMPLE]
-splitedSize = 500  # Default: 1000
-```
-
-**Process fewer ontologies**:
-```ini
-[ONTO]
-active_lexicons = doid, chebi  # Remove hp, ordo if not needed
-```
-
-### Debugging Tips
-
-1. **Check Logs**:
-   ```bash
-   # Airflow task logs
-   docker-compose logs airflow | grep ERROR
-   
-   # View specific task log in Airflow UI
-   # DAG → Task → Log
-   ```
-
-2. **Test Components Individually**:
-   ```bash
-   # Test ontology processing
-   ./NER/ontologies/scripts/process_ontology.sh test.owl ./data
-   
-   # Test entity extraction
-   ./NER/ontologies/scripts/extract_entities.sh "test text" doid ./data
-   
-   # Test preprocessing
-   python -c "
-   from NER.Biomedical_preprocessing import BiomedicalPreprocessor
-   p = BiomedicalPreprocessor()
-   print(p.preprocess_text('Test with DM and HTN'))
-   "
-   ```
-
-3. **Enable Debug Mode**:
-   ```bash
-   # For shell scripts
-   export DEBUG=1
-   ./extract_entities.sh "diabetes" doid ./data
-   
-   # For Python
-   import logging
-   logging.basicConfig(level=logging.DEBUG)
-   ```
-
----
+- **Parallelism**: `max_workers` in `ner_entities_batch.py` (default 4).
+- **Memory**: lower `splitedSize` in `[SAMPLE]` of `bioner.ini`, or remove ontologies from `active_lexicons`.
 
 ## Appendix
 
-### Ontology URLs Reference
+### Ontology URLs
 
-| Ontology | URL | Size | Entities |
-|----------|-----|------|----------|
-| DOID | http://purl.obolibrary.org/obo/doid.owl | ~40MB | ~10,000 |
-| ChEBI | http://purl.obolibrary.org/obo/chebi/chebi_lite.owl | ~200MB | ~100,000 |
-| HPO | http://purl.obolibrary.org/obo/hp.owl | ~50MB | ~16,000 |
-| ORDO | https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.8.owl | ~100MB | ~9,000 |
+| Ontology | URL | Size |
+|---|---|---|
+| DOID | http://purl.obolibrary.org/obo/doid.owl | ~40 MB |
+| ChEBI (lite) | http://purl.obolibrary.org/obo/chebi/chebi_lite.owl | ~200 MB |
+| HPO | http://purl.obolibrary.org/obo/hp.owl | ~50 MB |
+| ORDO | https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.8.owl | ~100 MB |
 
-### Shell Script Parameters
-
-#### `process_ontology.sh`
+### `process_ontology.sh`
 
 ```bash
-Usage: ./process_ontology.sh <ontology_file> [output_dir]
-
-Examples:
-  ./process_ontology.sh doid.owl data/
-  ./process_ontology.sh chebi.owl data/
+./process_ontology.sh <ontology_file> [output_dir]
+./process_ontology.sh doid.owl data/
 ```
 
-**Configuration Variables**:
-- `MIN_ENTITY_SIZE_ALPHA=3`: Minimum alphabetic characters
-- `MAX_ENTITY_SIZE_DIGIT=5`: Maximum consecutive digits
-- `REMOVE_OBSOLETE=1`: Remove obsolete concepts
+- `MIN_ENTITY_SIZE_ALPHA=3`: minimum alphabetic characters
+- `MAX_ENTITY_SIZE_DIGIT=5`: maximum consecutive digits
+- `REMOVE_OBSOLETE=1`: remove obsolete concepts
+- Writes `<name>_version.txt` (version, checksum, processing date)
 
-#### `extract_entities.sh`
+### `extract_entities.sh`
 
 ```bash
-Usage: ./extract_entities.sh [--no-uri] <text> <lexicon_name> [data_dir]
-
-Options:
-  --no-uri, -u, -U    Output only START, END, and ENTITY (no URI)
-
-Examples:
-  ./extract_entities.sh 'diabetes mellitus' doid data/
-  ./extract_entities.sh --no-uri 'aspirin' chebi data/
-  DEBUG=1 ./extract_entities.sh 'test' doid data/  # Debug mode
+./extract_entities.sh [--no-uri] <text> <lexicon_name> [data_dir]
+./extract_entities.sh 'diabetes mellitus' doid data/
+DEBUG=1 ./extract_entities.sh 'test' doid data/
 ```
 
-**Configuration Variables**:
-- `USE_STOPWORDS=1`: Enable stopword filtering
-- `MIN_WORD_LENGTH=3`: Minimum word length to match
-- `DEBUG=0`: Debug output (set to 1 for verbose logging)
-
+- `USE_STOPWORDS=1`, `MIN_WORD_LENGTH=3`, `DEBUG=0`
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License; see the LICENSE file.
 
 ## How to Cite
 
-If you use MedJsonify in your research, please cite it as follows:
+If you use MedJsonify in your research, please cite:
 
-```
-@conference{Pereira2025,
-    author = Ana Carolina Pereira, Matilde Pato and Nuno Datia,
-    booktitle = 12th ACM Celebration of Women in Computing: womENcourage™ 2025,
-    title = Knowledge Graphs as Educational Tools in Biomedical Education,
-    year = 2025
+```bibtex
+@inproceedings{11216837,
+   author   = {Pereira, Ana Carolina and Pato, Matilde and Datia, Nuno},
+   booktitle= {2025 29th International Conference Information Visualisation (IV)}, 
+   title    = {Mapping Drug Interactions and Therapeutic Clusters through Knowledge Graph Visualization}, 
+   pages    = {389-395},
+   year     = {2025},
+   doi      = {10.1109/IV68685.2025.00074}
+}
+
+@inproceedings{Pereira2025,
+  author    = {Pereira, Ana Carolina and Pato, Matilde and Datia, Nuno},
+  title     = {Knowledge Graphs as Educational Tools in Biomedical Education},
+  booktitle = {12th ACM Celebration of Women in Computing: womENcourage 2025},
+  year      = {2025}
 }
 ```
+
+The drug–disease pairs produced by MedJsonify are released on Zenodo as part of the
+Pharmalink-KG dataset: <10.5281/zenodo.21691876>.
+
 
 ---
 
@@ -527,4 +459,4 @@ If you use MedJsonify in your research, please cite it as follows:
 
 ---
 
-*Last Updated: January 3, 2026*
+*Last updated: October 30, 2026*

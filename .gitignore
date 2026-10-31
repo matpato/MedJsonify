@@ -84,10 +84,43 @@ _api/
 
 venv/
 
-# Ontology files
-NER/data/ontologies/*.owl
-NER/data/ontologies/*.txt
-NER/data/ontologies/*.tsv
-03_NER/ontologies/data/*.owl
-03_NER/ontologies/data/*.txt
-03_NER/ontologies/data/*.tsv
+# Ontologies (downloaded by fetch_ontologies.py; large files)
+NER/ontologies/data/**
+!NER/ontologies/data/**/
+!NER/ontologies/data/**/.gitkeep
+
+# NER outputs and vocabulary (DrugBank: cite the version, don't redistribute)
+NER/data/stats/
+NER/data/drugbank_vocabulary.csv
+
+# Conversion state and statistics of local runs
+jsonify/data/*_processed.txt
+jsonify/stats/
+
+# Graph exports and benchmark results
+database/output/**
+!database/output/**/
+!database/output/**/.gitkeep
+database/benchmarks/results/
+database/benchmarks/doid.obo
+
+**/jsonify/input/**
+!**/jsonify/input/**/
+!**/jsonify/input/**/.gitkeep
+**/jsonify/output/**
+!**/jsonify/output/**/
+!**/jsonify/output/**/.gitkeep
+**/jsonify/data/*_processed.txt
+**/jsonify/stats/
+
+**/NER/data/entities/**
+!**/NER/data/entities/**/
+!**/NER/data/entities/**/.gitkeep
+**/NER/data/preprocessing/**
+!**/NER/data/preprocessing/**/
+!**/NER/data/preprocessing/**/.gitkeep
+**/NER/data/stats/
+**/NER/data/drugbank_vocabulary.csv
+**/NER/ontologies/data/**
+!**/NER/ontologies/data/**/
+!**/NER/ontologies/data/**/.gitkeep

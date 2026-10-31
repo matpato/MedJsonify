@@ -193,7 +193,9 @@ def convert_files_to_json_task(**kwargs):
     import os
     import shutil
     from pathlib import Path
-    from jsonify.conversion import convert_all_files
+    from jsonify.conversion import convert_all_files, load_config
+    from jsonify.conversion_stats import write_stats
+
 
     # Fix encoding for all text-based files before the package touches them
     TEXT_EXTENSIONS = ('.csv', '.txt', '.xml')
@@ -215,6 +217,14 @@ def convert_files_to_json_task(**kwargs):
                 with open(tmp, 'w', encoding='utf-8') as f:
                     f.write(raw.decode('latin-1'))
                 shutil.move(str(tmp), str(filepath))
+
+    # Count the table values for the paper, before converting
+    jcfg = load_config()
+    write_stats(
+        input_folder=jcfg['folders']['base_input_folder'],
+        out_dir=Path(jcfg['folders']['base_output_folder']) / 'stats',
+        name=f"conversion_results_{kwargs['ds']}",
+    )
 
     convert_all_files()
 
@@ -446,45 +456,60 @@ def ner_process_task(**kwargs):
 def validate_results_task(**kwargs):
     """
     Validate NER extraction results.
-    
+
     This task checks that the NER processing completed successfully by verifying:
     - Output directories exist
     - Files were processed
     - Entities were extracted and added to the JSON files
     """
     logging.info("Validating NER results...")
-    
+
     config = DAGConfig()
-    
+
+    # Entity fields to check, by label shown in the log
+    ENTITY_KEYS = {
+        'DrugBank IDs':  'drugbank_id',
+        'ChEBI IDs':     'chebi_id',
+        'DOID entities': 'doid_entities',
+        'ORDO entities': 'orphanet_entities',
+        'HPO entities':  'hpo_entities',   # check the exact key name in an NER output file
+    }
+
+    def has_key(obj, key):
+        """True if `key` appears anywhere in obj with a non-empty value."""
+        if isinstance(obj, dict):
+            return any((k == key and v) or has_key(v, key) for k, v in obj.items())
+        if isinstance(obj, list):
+            return any(has_key(x, key) for x in obj)
+        return False
+
     # Check output directories
     for output_dir in config.output_folders:
         if not os.path.exists(output_dir):
             raise Exception(f"Output directory not found: {output_dir}")
-        
+
         # Count processed files
         json_files = [f for f in os.listdir(output_dir) if f.endswith('.json')]
         logging.info(f"\n{output_dir}:")
         logging.info(f"  Files processed: {len(json_files)}")
-        
-        # Sample validation - check first file has entities
-        if json_files:
-            sample_file = os.path.join(output_dir, json_files[0])
-            with open(sample_file, 'r') as f:
-                data = json.load(f)
-            
-            # Check if entities were added
-            data_str = str(data)
-            has_drugbank = 'drugbank_id' in data_str
-            has_chebi = 'chebi_id' in data_str
-            has_doid = 'doid_entities' in data_str
-            
-            logging.info(f"  Sample file: {json_files[0]}")
-            logging.info(f"    DrugBank IDs: {'✓' if has_drugbank else '✗'}")
-            logging.info(f"    ChEBI IDs: {'✓' if has_chebi else '✗'}")
-            logging.info(f"    DOID entities: {'✓' if has_doid else '✗'}")
-        else:
+
+        if not json_files:
             logging.warning(f"  No JSON files found in {output_dir}")
-    
+            continue
+
+        # Count, across all files, how many contain each kind of entity
+        found = {label: 0 for label in ENTITY_KEYS}
+        for name in json_files:
+            with open(os.path.join(output_dir, name), 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            for label, key in ENTITY_KEYS.items():
+                if has_key(data, key):
+                    found[label] += 1
+
+        for label, n in found.items():
+            mark = '✓' if n else '✗'
+            logging.info(f"    {label}: {mark} in {n} of {len(json_files)} files")
+
     logging.info("\nValidation complete")
 
 

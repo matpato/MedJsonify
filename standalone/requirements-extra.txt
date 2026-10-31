@@ -1,0 +1,12 @@
+# Packages the MedJsonify code uses that are NOT in requirements.txt,
+# because the Airflow image installs them as Airflow's own dependencies.
+# Standalone mode has no Airflow, so they are installed from here.
+#
+# To find any others:  bash standalone/run_medjsonify.sh --check
+# After editing:       bash standalone/run_medjsonify.sh --rebuild --check
+#
+# No versions pinned: pip picks the newest version that supports the
+# image's Python (3.8), as in the Airflow image.
+requests
+tenacity
+pendulum 
