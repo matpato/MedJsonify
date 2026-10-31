@@ -32,6 +32,7 @@ def convert_all_files():
         
         for file_path in repeated_files.values():
             if not file_path.exists():
+                file_path.parent.mkdir(parents=True, exist_ok=True)
                 file_path.touch()
         
         #######################################################################################################
